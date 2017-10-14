@@ -7,6 +7,7 @@ import org.jsoup.select.Elements;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.io.PrintWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.HashSet;
@@ -113,7 +114,15 @@ public class Crawler {
     private void storeDocument(String url, String text) {
         Document doc = Jsoup.parse(text);
         Element body = doc.body();
-        String bodyText = body.text();
+        String path = "crawled/";
+
+        try {
+            PrintWriter writer = new PrintWriter(path + url.replace('/', '_') + ".txt", "UTF-8");
+            writer.print(body);
+            writer.close();
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
     }
 
     private List<String> parseUrls(String text) {
