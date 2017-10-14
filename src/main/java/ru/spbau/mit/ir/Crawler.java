@@ -18,11 +18,12 @@ public class Crawler {
 
     private Frontier frontier;
     private Set<Integer> visitedPages;
+    private final String userAgent = "spbauCrawler";
 
     public Crawler(String initialUrl) {
         frontier = new Frontier();
         frontier.addUrl(initialUrl);
-        visitedPages = new HashSet<Integer>();
+        visitedPages = new HashSet<>();
     }
 
     public void crawl() {
@@ -35,7 +36,7 @@ public class Crawler {
             }
             visitedPages.add(hash);
 
-            if (website.permitsCrawl(url)) {
+            if (website.permitsCrawl(userAgent, url)) {
                 String html = retrieveUrl(url);
                 if (html != null) {
                     storeDocument(url, html);
@@ -56,13 +57,15 @@ public class Crawler {
 
     }
 
+
+
     private String retrieveUrl(String targetURL) {
         HttpURLConnection connection = null;
 
         try {
             URL url = new URL(targetURL);
             connection = (HttpURLConnection) url.openConnection();
-            connection.addRequestProperty("User-Agent", "spbauCrawler");
+            connection.addRequestProperty("User-Agent", userAgent);
 
             BufferedReader in = new BufferedReader(
                     new InputStreamReader(
