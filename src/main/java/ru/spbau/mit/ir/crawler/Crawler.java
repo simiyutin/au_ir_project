@@ -9,10 +9,9 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 public class Crawler {
@@ -21,12 +20,15 @@ public class Crawler {
     private Set<Integer> visitedPages;
     private final String userAgent = "spbauCrawler";
     private int processed;
+    private Map<String, Long> lastVisitTimes;
+    private final long coolDownTime = 500;
 
     public Crawler(String initialUrl) {
         frontier = new Frontier();
         frontier.addUrl(initialUrl);
         visitedPages = new HashSet<>();
         processed = 0;
+        lastVisitTimes = new HashMap<>();
     }
 
     public void crawl() {
@@ -38,6 +40,8 @@ public class Crawler {
                 continue;
             }
             visitedPages.add(hash);
+
+            coolDown(url);
 
             if (website.permitsCrawl(userAgent, url)) {
                 String html = retrieveUrl(url);
@@ -54,14 +58,25 @@ public class Crawler {
             frontier.releaseSite(website);
             processed++;
             System.out.println(String.format("queue size:%s, processed:%s", frontier.size(), processed));
-
-            try {
-                TimeUnit.MILLISECONDS.sleep(500);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
         }
 
+    }
+
+    private void coolDown(String url) {
+        try {
+            String host = new URL(url).getHost();
+            if (lastVisitTimes.containsKey(host)) {
+                long lastVisitTime = lastVisitTimes.get(host);
+                long curTime = System.currentTimeMillis();
+                long delta = curTime - lastVisitTime;
+                if (delta < coolDownTime) {
+                    TimeUnit.MILLISECONDS.sleep(coolDownTime - delta);
+                }
+            }
+            lastVisitTimes.put(host, System.currentTimeMillis());
+        } catch (MalformedURLException | InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
 
