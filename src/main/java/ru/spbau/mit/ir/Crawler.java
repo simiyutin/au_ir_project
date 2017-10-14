@@ -19,11 +19,13 @@ public class Crawler {
     private Frontier frontier;
     private Set<Integer> visitedPages;
     private final String userAgent = "spbauCrawler";
+    private int processed;
 
     public Crawler(String initialUrl) {
         frontier = new Frontier();
         frontier.addUrl(initialUrl);
         visitedPages = new HashSet<>();
+        processed = 0;
     }
 
     public void crawl() {
@@ -41,12 +43,16 @@ public class Crawler {
                 if (html != null) {
                     storeDocument(url, html);
                     List<String> nestedUrls = parseUrls(html);
+                    System.out.println(nestedUrls);
                     for (String nestedUrl : nestedUrls) {
                         frontier.addUrl(nestedUrl);
                     }
+
                 }
             }
             frontier.releaseSite(website);
+            processed++;
+            System.out.println(String.format("%s, %s", frontier.size(), processed));
 
             try {
                 TimeUnit.MILLISECONDS.sleep(700);
@@ -113,10 +119,8 @@ public class Crawler {
     private List<String> parseUrls(String text) {
         Document doc = Jsoup.parse(text);
         Element body = doc.body();
-        System.out.println(body.text());
         Elements links = body.select("a");
         List<String> urls = links.eachAttr("abs:href");
-        System.out.println(urls);
         return urls;
     }
 }

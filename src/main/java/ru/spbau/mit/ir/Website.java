@@ -21,7 +21,7 @@ public class Website {
             URL link = new URL(url);
             String host = link.getHost();
             String protocol = link.getProtocol();
-            String path = protocol + "://" + host;
+            String path = protocol + "://" + host + "/robots.txt";
             try (InputStream robotsTxtStream = new URL(path).openStream()) {
                 RobotsTxt robotsTxt = RobotsTxt.read(robotsTxtStream);
                 boolean hasAccess = robotsTxt.query(userAgent, url);

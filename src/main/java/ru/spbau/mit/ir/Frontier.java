@@ -26,4 +26,8 @@ public class Frontier {
     public void releaseSite(Website website) {
 
     }
+
+    public int size() {
+        return queue.size();
+    }
 }
