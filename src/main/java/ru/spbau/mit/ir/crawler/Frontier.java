@@ -1,4 +1,4 @@
-package ru.spbau.mit.ir;
+package ru.spbau.mit.ir.crawler;
 
 import java.util.ArrayDeque;
 import java.util.Queue;

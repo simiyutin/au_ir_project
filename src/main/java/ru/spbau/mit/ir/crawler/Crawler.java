@@ -1,4 +1,4 @@
-package ru.spbau.mit.ir;
+package ru.spbau.mit.ir.crawler;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
