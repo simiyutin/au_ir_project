@@ -53,10 +53,10 @@ public class Crawler {
             }
             frontier.releaseSite(website);
             processed++;
-            System.out.println(String.format("%s, %s", frontier.size(), processed));
+            System.out.println(String.format("queue size:%s, processed:%s", frontier.size(), processed));
 
             try {
-                TimeUnit.MILLISECONDS.sleep(700);
+                TimeUnit.MILLISECONDS.sleep(500);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -115,11 +115,8 @@ public class Crawler {
         Document doc = Jsoup.parse(text);
         Element body = doc.body();
         String path = "crawled/";
-
-        try {
-            PrintWriter writer = new PrintWriter(path + url.replace('/', '_') + ".txt", "UTF-8");
+        try (PrintWriter writer = new PrintWriter(path + url.replace('/', '_') + ".txt", "UTF-8")) {
             writer.print(body);
-            writer.close();
         } catch (Exception ex) {
             ex.printStackTrace();
         }
