@@ -12,7 +12,7 @@ class AccessPolicy(val userAgent: String) {
 
     private val robotsTxtMap: MutableMap<String, RobotsTxt> = HashMap()
     private val lastVisitTimes: MutableMap<String, Long> = HashMap()
-    private val timeoutMillis: Long = 2000
+    private val timeoutMillis: Long = 10000
 
     fun getAccess(link: URL): Access{
         if (!timeout(link.host)) return Access.DELAYED
