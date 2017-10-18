@@ -8,11 +8,6 @@ import java.net.HttpURLConnection
 import java.net.MalformedURLException
 import java.net.URL
 import java.util.*
-import com.panforge.robotstxt.RobotsTxt
-import org.apache.commons.lang3.mutable.Mutable
-import sun.net.www.protocol.http.HttpURLConnection.userAgent
-
-
 
 
 class Crawler(initialUrl: String) {
@@ -20,10 +15,8 @@ class Crawler(initialUrl: String) {
     private val frontier = Frontier().apply { this.addUrl(initialUrl) }
     private val visitedPages: MutableSet<Int> = HashSet()
     private val userAgent = "spbauCrawler"
-    private val lastVisitTimes: MutableMap<String, Long> = HashMap()
-    private val timeoutMillis: Long = 2000
 
-    private val robotsTxtMap: MutableMap<String, RobotsTxt> = HashMap() // todo: вынести
+    private val accessPolicy = AccessPolicy(userAgent)
 
     private var processed: Int = 0
 
@@ -44,18 +37,11 @@ class Crawler(initialUrl: String) {
                 continue
             }
 
-            if (!timeout(link.host)) {
+            val access = accessPolicy.getAccess(link)
+            if (access == AccessPolicy.Access.DELAYED) {
                 frontier.addUrl(url)
-                continue
             }
-
-            if (!robotsTxtMap.containsKey(link.host)) {
-                val robotsTxt = retrieveRobotsTxt(link) ?: continue
-                robotsTxtMap.put(link.host, robotsTxt)
-            }
-
-            val robotsTxt = robotsTxtMap[link.host]!!
-            if (!permits(robotsTxt, link)) continue
+            if (access != AccessPolicy.Access.GRANTED) continue
 
             val html = retrieveUrl(link)
             if (html != null) {
@@ -66,35 +52,8 @@ class Crawler(initialUrl: String) {
             frontier.releaseSite(website)
             processed++
 
-            lastVisitTimes.put(link.host, System.currentTimeMillis())
-
             println("queue size:${frontier.size}, processed:$processed")
         }
-    }
-
-    private fun permits(robotsTxt: RobotsTxt, link: URL): Boolean {
-        return robotsTxt.query(userAgent, link.toExternalForm())
-    }
-
-    private fun retrieveRobotsTxt(link : URL): RobotsTxt? {
-        try {
-            val path = "${link.protocol}://${link.host}/robots.txt"
-            URL(path).openStream().use {
-                return RobotsTxt.read(it)
-            }
-        } catch (e: Exception) {
-            e.printStackTrace()
-            return null
-        }
-    }
-
-
-    private fun timeout(host: String): Boolean {
-        if (!lastVisitTimes.containsKey(host)) {
-            return true
-        }
-        val lastVisitTime = lastVisitTimes[host]!!
-        return System.currentTimeMillis() - lastVisitTime >= timeoutMillis
     }
 
     private fun retrieveUrl(link: URL): String? {

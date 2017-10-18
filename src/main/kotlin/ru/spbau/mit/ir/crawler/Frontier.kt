@@ -12,6 +12,7 @@ class Frontier {
 
     fun nextSite() = Website(queue.poll())
     fun addUrl(url: String) = queue.add(url)
+    // todo: dublicates
 
     fun releaseSite(website: Website) {
         // do nothing
