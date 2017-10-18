@@ -1,7 +1,6 @@
 package ru.spbau.mit.ir.crawler
 
 import akka.actor.AbstractActor
-import akka.actor.UntypedActor
 import org.jsoup.Jsoup
 
 import java.io.InputStreamReader
@@ -13,14 +12,17 @@ import java.net.URL
 sealed class CrawlerMessage
 
 object CrawlerCrawl : CrawlerMessage()
+data class CrawlerAddUrl(val url: URL) : CrawlerMessage()
 
-class Crawler(initialUrl: String) : AbstractActor() {
+class Crawler(initialUrl: URL) : AbstractActor() {
     override fun createReceive() = receiveBuilder().match(CrawlerCrawl.javaClass) {
         tryCrawlOnce()
         self.tell(CrawlerCrawl, self)
+    }.match(CrawlerAddUrl::class.java) { addUrl: CrawlerAddUrl ->
+        frontier.addUrlWithNewHash(addUrl.url)
     }.build()!!
 
-    private val frontier = Frontier().apply { this.addUrl(initialUrl) }
+    private val frontier = Frontier().apply { this.addUrlWithNewHash(initialUrl) }
     private val userAgent = "spbauCrawler"
 
     private val accessPolicy = AccessPolicy(userAgent)
@@ -30,33 +32,38 @@ class Crawler(initialUrl: String) : AbstractActor() {
     private fun tryCrawlOnce(): Boolean {
         if (frontier.done) return false
 
-        val url = frontier.nextUrl()
-
-        val link =
-                try {
-                    URL(url)
-                }
-                catch (e : MalformedURLException) {
-                    e.printStackTrace()
-                    return false
-                }
+        val link = frontier.nextUrl()
 
         val access = accessPolicy.getAccess(link)
         if (access == AccessPolicy.Access.DELAYED) {
-            frontier.addUrl(url)
+            frontier.addUrl(link)
         }
         if (access != AccessPolicy.Access.GRANTED) return false
 
-        val html = retrieveUrl(link)
-        if (html != null) {
-            storeDocument(url, html)
-            val nestedUrls = parseUrls(html)
-            nestedUrls.forEach { frontier.addUrl(it) }
-        }
+        crawlUrl(link)
 
         processed++
         println("queue size:${frontier.size}, processed:$processed")
         return true
+    }
+
+    private fun crawlUrl(link: URL) {
+        val html = retrieveUrl(link) ?: return
+        storeDocument(link.toExternalForm(), html)
+
+        parseUrls(html).forEach { url ->
+            val newLink =
+                    try {
+                        URL(url)
+                    } catch (e: MalformedURLException) {
+                        return@forEach
+                    }
+            if (frontier.canHandleUrl(newLink)) {
+                frontier.addUrl(newLink)
+            } else {
+                // todo: send newLink to manager
+            }
+        }
     }
 
     private fun retrieveUrl(link: URL): String? {
@@ -80,8 +87,7 @@ class Crawler(initialUrl: String) : AbstractActor() {
                 val newUrl = connection.getHeaderField("Location")
                 return try {
                     retrieveUrl(URL(newUrl))
-                }
-                catch (e : MalformedURLException) {
+                } catch (e: MalformedURLException) {
                     e.printStackTrace()
                     null
                 }
