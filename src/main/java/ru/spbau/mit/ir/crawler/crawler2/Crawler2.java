@@ -123,8 +123,12 @@ public class Crawler2 implements Crawler {
             if (status != HttpURLConnection.HTTP_OK) {
                 if (status == HttpURLConnection.HTTP_MOVED_TEMP
                         || status == HttpURLConnection.HTTP_MOVED_PERM
-                        || status == HttpURLConnection.HTTP_SEE_OTHER)
+                        || status == HttpURLConnection.HTTP_SEE_OTHER) {
+
                     redirect = true;
+                } else {
+                    return null;
+                }
             }
 
             if (redirect) {
