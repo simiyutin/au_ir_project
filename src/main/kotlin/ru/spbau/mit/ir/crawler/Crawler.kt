@@ -7,13 +7,11 @@ import java.io.PrintWriter
 import java.net.HttpURLConnection
 import java.net.MalformedURLException
 import java.net.URL
-import java.util.*
 
 
 class Crawler(initialUrl: String) {
 
     private val frontier = Frontier().apply { this.addUrl(initialUrl) }
-    private val visitedPages: MutableSet<Int> = HashSet()
     private val userAgent = "spbauCrawler"
 
     private val accessPolicy = AccessPolicy(userAgent)
@@ -22,11 +20,7 @@ class Crawler(initialUrl: String) {
 
     fun crawl() {
         while (!frontier.done) {
-            val website = frontier.nextSite()
-            val url = website.nextUrl()
-            val hash = url.hashCode()
-
-            if (!visitedPages.add(hash)) continue
+            val url = frontier.nextUrl()
 
             val link: URL
             try {
@@ -49,10 +43,8 @@ class Crawler(initialUrl: String) {
                 val nestedUrls = parseUrls(html)
                 nestedUrls.forEach { frontier.addUrl(it) }
             }
-            frontier.releaseSite(website)
-            processed++
 
-            println("queue size:${frontier.size}, processed:$processed")
+            println("queue size:${frontier.size}, processed:${processed++}")
         }
     }
 
