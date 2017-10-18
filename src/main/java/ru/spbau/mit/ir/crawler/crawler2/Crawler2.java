@@ -157,7 +157,9 @@ public class Crawler2 implements Crawler {
 
     private void storeDocument(String url, String text) {
         Document doc = Jsoup.parse(text);
+        if (doc == null) return;
         Element body = doc.body();
+        if (body == null) return;
         String path = "crawled/";
         try (PrintWriter writer = new PrintWriter(path + url.replace('/', '_') + ".txt", "UTF-8")) {
             writer.print(body);
@@ -168,8 +170,11 @@ public class Crawler2 implements Crawler {
 
     private List<String> parseUrls(String text) {
         Document doc = Jsoup.parse(text);
+        if (doc == null) return new ArrayList<>();
         Element body = doc.body();
+        if (body == null) return new ArrayList<>();
         Elements links = body.select("a");
+        if (links == null) return new ArrayList<>();
         List<String> urls = links.eachAttr("abs:href");
         return urls;
     }
