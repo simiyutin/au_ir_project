@@ -21,7 +21,7 @@ public class Crawler2 implements Crawler {
     private final Set<String> visitedPages;
     private final Map<String, Long> lastVisitTimes;
     private final Map<String, RobotsTxt> robotsTxtMap;
-    private final int timeoutMillis = 2000;
+    private final int timeoutMillis = 10000;
     private final String userAgent = "spbauCrawler";
 
     public Crawler2(String initialUrl) {
