@@ -142,7 +142,7 @@ class Crawler(pr: Pair<ActorRef, Int>) : AbstractActor() {
     private fun parseUrls(text: String): List<String> {
         val doc = Jsoup.parse(text)
         val body = doc.body()
-        val links = body.select("a")
+        val links = body?.select("a") ?: return emptyList()
         return links.eachAttr("abs:href") // todo: relative link
     }
 }

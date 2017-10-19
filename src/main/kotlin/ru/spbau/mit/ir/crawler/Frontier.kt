@@ -11,14 +11,14 @@ class Frontier {
 
     private val allowedHashes = HashSet<Int>()
 
-    private val queue: Queue<URI> = ArrayDeque()
-    private val visited: MutableSet<URI> = HashSet()
+    private val queue: Queue<String> = ArrayDeque()
+    private val visited: MutableSet<String> = HashSet()
 
     val done get() = queue.isEmpty()
     val size get() = queue.size
 
     fun nextUrl(): URL = try {
-        queue.poll().toURL()
+        URL(queue.poll())
     }
     catch (e: MalformedURLException) {
         throw IllegalStateException("Malformed url in frontier.", e)
@@ -28,8 +28,8 @@ class Frontier {
 
     fun addUrl(url: URL): Boolean {
         assert(canHandleUrl(url))
-        if (visited.add(url.toURI())) { // todo: toURI throws, so URI -> String
-            queue.add(url.toURI())
+        if (visited.add(url.toExternalForm())) {
+            queue.add(url.toExternalForm())
         }
         return true
     }

@@ -8,10 +8,7 @@ import java.net.URL
 
 
 fun main(args: Array<String>) {
-//    val crawler = Crawler("https://stackoverflow.com/")
-//    val crawler = Crawler("https://en.wikipedia.org/")
-
-    val startUrl = URL("https://en.wikipedia.org/wiki/Prime_number_theorem")
+    val startUrl = URL("https://habrahabr.ru/")
 
     val system = ActorSystem.create("crawler")
 
