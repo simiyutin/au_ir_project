@@ -61,7 +61,9 @@ class Crawler(pr: Pair<ActorRef, Int>) : AbstractActor() {
         crawlUrl(link)
 
         processed++
-        println("crawler: $crawlerId, queue size:${frontier.size}, processed:$processed")
+        if (processed % 100 == 0) {
+            println("crawler: $crawlerId, queue size:${frontier.size}, processed:$processed")
+        }
         return true
     }
 
@@ -125,7 +127,7 @@ class Crawler(pr: Pair<ActorRef, Int>) : AbstractActor() {
     }
 
     private fun storeDocument(url: URL, text: String) {
-        println(url)
+//        println(url)
         val doc = Jsoup.parse(text)
         val body = doc.body()
         val path = "crawled/"
