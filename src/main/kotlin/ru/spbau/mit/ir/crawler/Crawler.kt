@@ -20,7 +20,9 @@ sealed class CrawlerResponse
 
 data class CrawlerReportFrontierSize(val size: Int) : CrawlerResponse()
 
-class Crawler(private val manager: ActorRef) : AbstractActor() {
+class Crawler(pr: Pair<ActorRef, Int>) : AbstractActor() {
+    private val manager = pr.first
+    val crawlerId = pr.second
     init {
         manager.tell(ManagerAddCrawler(self), self)
     }
@@ -55,7 +57,7 @@ class Crawler(private val manager: ActorRef) : AbstractActor() {
         crawlUrl(link)
 
         processed++
-        println("queue size:${frontier.size}, processed:$processed")
+        println("crawler: $crawlerId, queue size:${frontier.size}, processed:$processed")
         return true
     }
 
@@ -90,7 +92,7 @@ class Crawler(private val manager: ActorRef) : AbstractActor() {
                     HttpURLConnection.HTTP_SEE_OTHER
             )
 
-            val status = connection.responseCode // todo: Unknown host ex
+            val status = connection.responseCode
 
             val redirect = status in httpConnectionRedirectStatus
             if (status != HttpURLConnection.HTTP_OK) return null

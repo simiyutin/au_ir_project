@@ -17,9 +17,9 @@ fun main(args: Array<String>) {
 
     try {
         val manager = system.actorOf(Props.create(Manager::class.java), "managerActor")
-        system.actorOf(Props.create(Crawler::class.java, manager), "crawlerActor")
+        (1..10).forEach { system.actorOf(Props.create(Crawler::class.java, Pair(manager, it)), "crawlerActor$it") }
 
-        Thread.sleep(1000) // wait for crawler to init
+        Thread.sleep(5000) // wait for crawler to init
         manager.tell(ManagerAssignUrlHash(startUrl), ActorRef.noSender())
 
         System.`in`.read()
