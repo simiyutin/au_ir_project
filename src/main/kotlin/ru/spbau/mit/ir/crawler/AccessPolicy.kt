@@ -14,6 +14,8 @@ class AccessPolicy(val userAgent: String) {
     private val lastVisitTimes: MutableMap<String, Long> = HashMap()
     private val timeoutMillis: Long = 10000
 
+    private val invalidRobots = HashSet<String>()
+
     fun getAccess(link: URL): Access {
         if (!timeout(link.host)) return Access.DELAYED
 
@@ -34,12 +36,13 @@ class AccessPolicy(val userAgent: String) {
 
     private fun retrieveRobotsTxt(link : URL): RobotsTxt? {
         val path = "${link.protocol}://${link.host}/robots.txt"
+        if (path in invalidRobots) return null
         try {
             URL(path).openStream().use {
                 return RobotsTxt.read(it)
             }
         } catch (e: Exception) {
-            // e.printStackTrace() // todo: logging?
+            invalidRobots.add(path)
             println("ERROR: Cannot read $path...    #############################################################")
             return null
         }
