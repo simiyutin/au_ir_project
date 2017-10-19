@@ -1,6 +1,7 @@
 package ru.spbau.mit.ir.crawler
 
 import akka.actor.AbstractActor
+import akka.actor.ActorRef
 import org.jsoup.Jsoup
 
 import java.io.InputStreamReader
@@ -9,20 +10,31 @@ import java.net.HttpURLConnection
 import java.net.MalformedURLException
 import java.net.URL
 
-sealed class CrawlerMessage
+sealed class CrawlerRequest
 
-object CrawlerCrawl : CrawlerMessage()
-data class CrawlerAddUrl(val url: URL) : CrawlerMessage()
+object CrawlerCrawl : CrawlerRequest()
+data class CrawlerAddUrl(val url: URL) : CrawlerRequest()
+object CrawlerRequestFrontierSize : CrawlerRequest()
 
-class Crawler(initialUrl: URL) : AbstractActor() {
+sealed class CrawlerResponse
+
+data class CrawlerReportFrontierSize(val size: Int) : CrawlerResponse()
+
+class Crawler(private val manager: ActorRef) : AbstractActor() {
+    init {
+        manager.tell(ManagerAddCrawler(self), self)
+    }
+
     override fun createReceive() = receiveBuilder().match(CrawlerCrawl.javaClass) {
-        tryCrawlOnce()
+        tryCrawlOnce() // todo: hide exceptions
         self.tell(CrawlerCrawl, self)
-    }.match(CrawlerAddUrl::class.java) { addUrl: CrawlerAddUrl ->
-        frontier.addUrlWithNewHash(addUrl.url)
+    }.match(CrawlerAddUrl::class.java) { msg ->
+        frontier.addUrlWithNewHash(msg.url)
+    }.match(CrawlerRequestFrontierSize.javaClass) {
+        sender.tell(CrawlerReportFrontierSize(frontier.size), self)
     }.build()!!
 
-    private val frontier = Frontier().apply { this.addUrlWithNewHash(initialUrl) }
+    private val frontier = Frontier()
     private val userAgent = "spbauCrawler"
 
     private val accessPolicy = AccessPolicy(userAgent)
@@ -61,7 +73,7 @@ class Crawler(initialUrl: URL) : AbstractActor() {
             if (frontier.canHandleUrl(newLink)) {
                 frontier.addUrl(newLink)
             } else {
-                // todo: send newLink to manager
+                manager.tell(ManagerAssignUrlHash(newLink), self)
             }
         }
     }
@@ -78,7 +90,7 @@ class Crawler(initialUrl: URL) : AbstractActor() {
                     HttpURLConnection.HTTP_SEE_OTHER
             )
 
-            val status = connection.responseCode
+            val status = connection.responseCode // todo: Unknown host ex
 
             val redirect = status in httpConnectionRedirectStatus
             if (status != HttpURLConnection.HTTP_OK) return null
@@ -97,7 +109,7 @@ class Crawler(initialUrl: URL) : AbstractActor() {
                 it.lineSequence().joinToString("\n")
             }
         } catch (e: Exception) {
-            e.printStackTrace()
+            println("ERROR: Cannot retrieve url ${link.toExternalForm()}...    #############################################################")
             return null
         } finally {
             if (connection != null) {
@@ -122,6 +134,6 @@ class Crawler(initialUrl: URL) : AbstractActor() {
         val doc = Jsoup.parse(text)
         val body = doc.body()
         val links = body.select("a")
-        return links.eachAttr("abs:href")
+        return links.eachAttr("abs:href") // todo: relative link
     }
 }

@@ -14,7 +14,7 @@ class AccessPolicy(val userAgent: String) {
     private val lastVisitTimes: MutableMap<String, Long> = HashMap()
     private val timeoutMillis: Long = 10000
 
-    fun getAccess(link: URL): Access{
+    fun getAccess(link: URL): Access {
         if (!timeout(link.host)) return Access.DELAYED
 
         if (!robotsTxtMap.containsKey(link.host)) {
@@ -23,22 +23,24 @@ class AccessPolicy(val userAgent: String) {
         }
 
         val robotsTxt = robotsTxtMap[link.host]!!
-
-        return if (robotsTxt.query(userAgent, link.toExternalForm())) {
-            lastVisitTimes.put(link.host, System.currentTimeMillis())
-            Access.GRANTED
+        val robotResult = try {
+            robotsTxt.query(userAgent, link.toExternalForm())
+        } catch (e: Throwable) {
+            println("ERROR: RobotsTxt query've just thrown ${e.javaClass}...    #############################################################")
+            return Access.DENIED // better safe that sorry (:
         }
-        else Access.DENIED
+        return if (robotResult) Access.GRANTED else Access.DENIED
     }
 
     private fun retrieveRobotsTxt(link : URL): RobotsTxt? {
+        val path = "${link.protocol}://${link.host}/robots.txt"
         try {
-            val path = "${link.protocol}://${link.host}/robots.txt"
             URL(path).openStream().use {
                 return RobotsTxt.read(it)
             }
         } catch (e: Exception) {
-            e.printStackTrace() // todo: logging?
+            // e.printStackTrace() // todo: logging?
+            println("ERROR: Cannot read $path...    #############################################################")
             return null
         }
     }
