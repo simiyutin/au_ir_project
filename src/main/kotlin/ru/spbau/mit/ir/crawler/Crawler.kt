@@ -63,7 +63,7 @@ class Crawler(pr: Pair<ActorRef, Int>) : AbstractActor() {
 
     private fun crawlUrl(link: URL) {
         val html = retrieveUrl(link) ?: return
-        storeDocument(link.toExternalForm(), html)
+        storeDocument(link, html)
 
         parseUrls(html).forEach { url ->
             val newLink =
@@ -120,17 +120,20 @@ class Crawler(pr: Pair<ActorRef, Int>) : AbstractActor() {
         }
     }
 
-    private fun storeDocument(url: String, text: String) {
+    private fun storeDocument(url: URL, text: String) {
         println(url)
         val doc = Jsoup.parse(text)
         val body = doc.body()
         val path = "crawled/"
         try {
-            PrintWriter(path + url.replace('/', '_') + ".txt", "UTF-8").use { writer -> writer.print(body) }
+            PrintWriter(path + urlToFileName(url) + ".txt", "UTF-8").use { writer -> writer.print(body) }
         } catch (ex: Exception) {
             ex.printStackTrace()
         }
     }
+
+    // to prevent FileTooLong exception
+    private fun urlToFileName(url: URL) = "crawler_${crawlerId}_${url.host}_$processed"
 
     private fun parseUrls(text: String): List<String> {
         val doc = Jsoup.parse(text)
