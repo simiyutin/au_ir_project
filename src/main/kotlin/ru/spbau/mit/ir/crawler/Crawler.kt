@@ -15,10 +15,12 @@ sealed class CrawlerRequest
 object CrawlerCrawl : CrawlerRequest()
 data class CrawlerAddUrl(val url: URL) : CrawlerRequest()
 object CrawlerRequestFrontierSize : CrawlerRequest()
+object CrawlerRequestProcessed : CrawlerRequest()
 
 sealed class CrawlerResponse
 
 data class CrawlerReportFrontierSize(val size: Int) : CrawlerResponse()
+data class CrawlerReportProcessed(val number: Int) : CrawlerResponse()
 
 class Crawler(pr: Pair<ActorRef, Int>) : AbstractActor() {
     private val manager = pr.first
@@ -34,6 +36,8 @@ class Crawler(pr: Pair<ActorRef, Int>) : AbstractActor() {
         frontier.addUrlWithNewHash(msg.url)
     }.match(CrawlerRequestFrontierSize.javaClass) {
         sender.tell(CrawlerReportFrontierSize(frontier.size), self)
+    }.match(CrawlerRequestProcessed.javaClass) {
+        sender.tell(CrawlerReportProcessed(processed), self)
     }.build()!!
 
     private val frontier = Frontier()
@@ -75,7 +79,7 @@ class Crawler(pr: Pair<ActorRef, Int>) : AbstractActor() {
             if (frontier.canHandleUrl(newLink)) {
                 frontier.addUrl(newLink)
             } else {
-                manager.tell(ManagerAssignUrlHash(newLink), self)
+                manager.tell(ManagerAssignUrlHash(newLink, frontier.size), self)
             }
         }
     }

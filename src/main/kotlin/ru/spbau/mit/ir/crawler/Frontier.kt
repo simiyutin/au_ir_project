@@ -28,7 +28,7 @@ class Frontier {
 
     fun addUrl(url: URL): Boolean {
         assert(canHandleUrl(url))
-        if (visited.add(url.toURI())) {
+        if (visited.add(url.toURI())) { // todo: toURI throws, so URI -> String
             queue.add(url.toURI())
         }
         return true
