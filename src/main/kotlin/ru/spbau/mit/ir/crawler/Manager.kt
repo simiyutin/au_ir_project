@@ -20,7 +20,7 @@ class Manager : AbstractActor() {
     private val crawlerRequestTimeout = Timeout(2000, TimeUnit.SECONDS)
 
     private val crawlersBusyness = HashMap<ActorRef, Pair<Int, Long>>()
-    private val busynessRefreshmentDelay = 20000
+    private val busynessRefreshmentDelay = 10000
 
     private val responsibleForHash = HashMap<Int, ActorRef>()
 
@@ -39,29 +39,32 @@ class Manager : AbstractActor() {
 
     private fun assignNewHash(url: URL) {
         if (crawlersBusyness.isEmpty()) throw IllegalStateException("There are no crawlers ):")
-        refreshBusyness()
 
         val (laziestCrawler, laziestBusyness) = crawlersBusyness.minBy { it.value.first }!!
         responsibleForHash[url.host.hashCode()] = laziestCrawler
         laziestCrawler.tell(CrawlerAddUrl(url), self)
 
-        crawlersBusyness[laziestCrawler] = Pair(laziestBusyness.first, laziestBusyness.second + 10) // empirical thing
+        crawlersBusyness[laziestCrawler] = Pair(laziestBusyness.first, laziestBusyness.second)
+        refreshBusyness(laziestCrawler)
     }
 
-    private fun refreshBusyness() {
-        val futures = crawlersBusyness.keys.mapNotNull { crawler ->
-            if (System.currentTimeMillis() - crawlersBusyness[crawler]!!.second > busynessRefreshmentDelay) {
-                Pair(crawler, Patterns.ask(crawler, CrawlerRequestFrontierSize, crawlerRequestTimeout))
-            } else null
+    private fun refreshBusyness(crawler: ActorRef) {
+        if (System.currentTimeMillis() - crawlersBusyness[crawler]!!.second <= busynessRefreshmentDelay) {
+            slightlyIncreaseBusyness(crawler)
+            return
         }
-        futures.forEach { (crawler, future) ->
-            try {
-                val result = Await.result(future, crawlerRequestTimeout.duration()) as CrawlerReportFrontierSize
-                crawlersBusyness[crawler] = Pair(result.size, System.currentTimeMillis())
-            } catch (e : TimeoutException) {
-                // do nothing (maybe increase busyness ?...)
-            }
+        val future = Patterns.ask(crawler, CrawlerRequestFrontierSize, crawlerRequestTimeout)
+        try {
+            val result = Await.result(future, crawlerRequestTimeout.duration()) as CrawlerReportFrontierSize
+            crawlersBusyness[crawler] = Pair(result.size, System.currentTimeMillis())
+        } catch (e : TimeoutException) {
+            slightlyIncreaseBusyness(crawler)
         }
+    }
+
+    private fun slightlyIncreaseBusyness(crawler: ActorRef) {
+        val oldBusyness = crawlersBusyness[crawler]!!
+        crawlersBusyness[crawler] = Pair(oldBusyness.first, oldBusyness.second + 10) // empirical thing
     }
 
     private fun getTotalCrawled(): Int {
