@@ -41,7 +41,7 @@ class Crawler(pr: Pair<ActorRef, Int>) : AbstractActor() {
     }.build()!!
 
     private val frontier = Frontier()
-    private val userAgent = "spbauCrawler"
+    private val userAgent = "spbauIRCrawler"
 
     private val accessPolicy = AccessPolicy(userAgent)
 
@@ -60,15 +60,16 @@ class Crawler(pr: Pair<ActorRef, Int>) : AbstractActor() {
 
         crawlUrl(link)
 
-        processed++
-        if (processed % 100 == 0) {
-            println("crawler: $crawlerId, queue size:${frontier.size}, processed:$processed")
-        }
         return true
     }
 
     private fun crawlUrl(link: URL) {
         val html = retrieveUrl(link) ?: return
+
+        processed++
+        if (processed % 100 == 0) {
+            println("crawler: $crawlerId, queue size:${frontier.size}, processed:$processed")
+        }
         storeDocument(link, html)
 
         parseUrls(html).forEach { url ->
