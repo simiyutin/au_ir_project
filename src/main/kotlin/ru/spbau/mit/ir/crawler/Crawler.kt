@@ -72,7 +72,7 @@ class Crawler(pr: Pair<ActorRef, Int>) : AbstractActor() {
         }
         storeDocument(link, html)
 
-        parseUrls(html).forEach { url ->
+        parseUrls(html, link.toExternalForm()).forEach { url ->
             val newLink =
                     try {
                         URL(url)
