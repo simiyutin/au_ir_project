@@ -8,7 +8,8 @@ import java.net.URL
 
 
 fun main(args: Array<String>) {
-    val startUrl = URL("https://habrahabr.ru/")
+    val startUrl = URL("https://stackoverflow.com")
+//    val startUrl = URL("https://habrahabr.ru/")
 
     val system = ActorSystem.create("crawler")
 

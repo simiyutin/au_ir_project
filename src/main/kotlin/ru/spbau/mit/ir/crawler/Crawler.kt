@@ -140,7 +140,7 @@ class Crawler(pr: Pair<ActorRef, Int>) : AbstractActor() {
     }
 
     // to prevent FileTooLong exception
-    private fun urlToFileName(url: URL) = "crawler_${crawlerId}_${url.host}_$processed"
+    private fun urlToFileName(url: URL) = "${url.toExternalForm().hashCode()}_${url.host}_$processed"
 
     private fun parseUrls(text: String): List<String> {
         val doc = Jsoup.parse(text)

@@ -12,12 +12,16 @@ class AccessPolicy(val userAgent: String) {
 
     private val robotsTxtMap: MutableMap<String, RobotsTxt> = HashMap()
     private val lastVisitTimes: MutableMap<String, Long> = HashMap()
-    private val timeoutMillis: Long = 10000
+    private val timeoutMillis: Long = 20000
 
     private val invalidRobots = HashSet<String>()
 
     fun getAccess(link: URL): Access {
         if (!timeout(link.host)) return Access.DELAYED
+
+        if (link.host.endsWith("stackexchange.com") && alowedStackexchangeSubdomens.none { link.host.startsWith(it) }) {
+            return Access.DENIED
+        }
 
         if (!robotsTxtMap.containsKey(link.host)) {
             val robotsTxt = retrieveRobotsTxt(link) ?: return Access.DENIED
@@ -55,4 +59,50 @@ class AccessPolicy(val userAgent: String) {
         val lastVisitTime = lastVisitTimes[host]!!
         return System.currentTimeMillis() - lastVisitTime >= timeoutMillis
     }
+
+    private val alowedStackexchangeSubdomens = listOf(
+            "cstheory",
+            "cs",
+            "ai",
+//            "meta",
+            "webapps",
+            "webmasters",
+            "gamedev",
+            "tex",
+            "unix",
+            "softwareengineering",
+            "android",
+            "security",
+            "ux",
+            "dba",
+//            "codegolf",
+            "reverseengineering",
+//            "tridion",
+//            "magento",
+            "expressionengine",
+            "robotics",
+//            "salesforce",
+//            "windowsphone",
+            "bitcoin",
+            "crypto",
+            "sharepoint",
+            "sqa",
+//            "drupal",
+            "raspberrypi",
+            "networkengineering",
+            "emacs",
+//            "augur",
+            "devops",
+            "sitecore",
+//            "monero",
+            "retrocomputing",
+            "craftcms",
+//            "joomla",
+            "arduino",
+            "softwarerecs",
+            "tor",
+            "computergraphics",
+            "elementaryos",
+            "vi"
+    )
 }
