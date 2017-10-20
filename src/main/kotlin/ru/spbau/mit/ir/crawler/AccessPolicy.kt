@@ -24,7 +24,7 @@ class AccessPolicy(val userAgent: String) {
 
         val robotsTxt = robotsTxtMap[link.host]!!
 
-        return if (robotsTxt.query(userAgent, link.toExternalForm())) {
+        return if (robotsTxt.query(userAgent, link.toExternalForm())) { // todo catch java.util.regex.PatternSyntaxException
             lastVisitTimes.put(link.host, System.currentTimeMillis())
             Access.GRANTED
         }

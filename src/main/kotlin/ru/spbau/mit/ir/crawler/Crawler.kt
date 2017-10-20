@@ -40,7 +40,7 @@ class Crawler(initialUrl: String) {
             val html = retrieveUrl(link)
             if (html != null) {
                 storeDocument(url, html)
-                val nestedUrls = parseUrls(html)
+                val nestedUrls = parseUrls(html, url)
                 nestedUrls.forEach { frontier.addUrl(it) }
             }
 
@@ -101,8 +101,8 @@ class Crawler(initialUrl: String) {
 
     }
 
-    private fun parseUrls(text: String): List<String> {
-        val doc = Jsoup.parse(text)
+    private fun parseUrls(text: String, url: String): List<String> {
+        val doc = Jsoup.parse(text, url)
         val body = doc.body()
         val links = body.select("a")
         return links.eachAttr("abs:href")
