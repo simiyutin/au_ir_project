@@ -142,10 +142,10 @@ class Crawler(pr: Pair<ActorRef, Int>) : AbstractActor() {
     // to prevent FileTooLong exception
     private fun urlToFileName(url: URL) = "${url.toExternalForm().take(80).replace('/', '_')}_${url.toExternalForm().hashCode()}"
 
-    private fun parseUrls(text: String): List<String> {
-        val doc = Jsoup.parse(text)
+    private fun parseUrls(text: String, url: String): List<String> {
+        val doc = Jsoup.parse(text, url)
         val body = doc?.body()
         val links = body?.select("a") ?: return emptyList()
-        return links.eachAttr("abs:href") // todo: relative link
+        return links.eachAttr("abs:href")
     }
 }

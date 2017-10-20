@@ -29,13 +29,12 @@ class AccessPolicy(val userAgent: String) {
         }
 
         val robotsTxt = robotsTxtMap[link.host]!!
-        val robotResult = try {
-            robotsTxt.query(userAgent, link.toExternalForm())
-        } catch (e: Throwable) {
-            println("ERROR: RobotsTxt query've just thrown ${e.javaClass}...    #############################################################")
-            return Access.DENIED // better safe that sorry (:
+
+        return if (robotsTxt.query(userAgent, link.toExternalForm())) {
+            lastVisitTimes.put(link.host, System.currentTimeMillis())
+            Access.GRANTED
         }
-        return if (robotResult) Access.GRANTED else Access.DENIED
+        else Access.DENIED
     }
 
     private fun retrieveRobotsTxt(link : URL): RobotsTxt? {
