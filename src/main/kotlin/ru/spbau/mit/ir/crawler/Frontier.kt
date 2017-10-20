@@ -24,18 +24,18 @@ class Frontier {
         throw IllegalStateException("Malformed url in frontier.", e)
     }
 
-    fun canHandleUrl(url: URL) = url.host.hashCode() in allowedHashes
+    private fun canHandleUrl(url: URL) = url.host.hashCode() in allowedHashes
 
-    fun addUrl(url: URL): Boolean {
-        assert(canHandleUrl(url))
+    fun addUrlIfCanHandle(url: URL): Boolean {
+        if (!canHandleUrl(url)) return false
         if (visited.add(url.toExternalForm())) {
             queue.add(url.toExternalForm())
         }
         return true
     }
 
-    fun addUrlWithNewHash(url: URL) {
-        allowedHashes.add(url.host.hashCode())
-        addUrl(url)
+    fun addUrlWithNewHash(urls: List<URL>) {
+        allowedHashes.addAll(urls.map { it.host.hashCode() })
+        urls.forEach { addUrlIfCanHandle(it) }
     }
 }

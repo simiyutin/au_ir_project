@@ -12,27 +12,29 @@ import java.util.concurrent.TimeoutException
 sealed class ManagerRequest
 
 data class ManagerAddCrawler(val crawler: ActorRef) : ManagerRequest()
-data class ManagerAssignUrlHash(val url: URL, val busyness: Int) : ManagerRequest()
+data class ManagerAssignUrlsHash(val urls: List<URL>, val busyness: Int) : ManagerRequest()
 object ManagerPrintTotalCrawled : ManagerRequest()
 
 class Manager : AbstractActor() {
 
-    private val crawlerRequestTimeout = Timeout(2000, TimeUnit.SECONDS)
+    private val crawlerRequestTimeout = Timeout(1000, TimeUnit.SECONDS)
 
     private val crawlersBusyness = HashMap<ActorRef, Pair<Int, Long>>()
-    private val busynessRefreshmentDelay = 10000
+    private val busynessRefreshmentDelay = 20000
 
     private val responsibleForHash = HashMap<Int, ActorRef>()
 
     override fun createReceive() = receiveBuilder().match(ManagerAddCrawler::class.java) { msg ->
         crawlersBusyness[msg.crawler] = Pair(0, System.currentTimeMillis())
         msg.crawler.tell(CrawlerCrawl, self)
-    }.match(ManagerAssignUrlHash::class.java) { msg ->
-        val hostHash = msg.url.host.hashCode()
+    }.match(ManagerAssignUrlsHash::class.java) { msg ->
         if (crawlersBusyness.containsKey(sender)) {
             crawlersBusyness[sender] = Pair(msg.busyness, System.currentTimeMillis())
         }
-        responsibleForHash[hostHash]?.tell(CrawlerAddUrl(msg.url), self) ?: assignNewHash(msg.url)
+        msg.urls.forEach { assignNewHash(it) }
+        msg.urls.groupBy { responsibleForHash[it.host.hashCode()]!! }.forEach { (crawler, urls) ->
+            crawler.tell(CrawlerAddUrls(urls), self)
+        }
     }.match(ManagerPrintTotalCrawled.javaClass) {
         println("Total pages crawled: ${getTotalCrawled()}      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
     }.build()!!
@@ -40,11 +42,9 @@ class Manager : AbstractActor() {
     private fun assignNewHash(url: URL) {
         if (crawlersBusyness.isEmpty()) throw IllegalStateException("There are no crawlers ):")
 
-        val (laziestCrawler, laziestBusyness) = crawlersBusyness.minBy { it.value.first }!!
+        val (laziestCrawler, _) = crawlersBusyness.minBy { it.value.first }!!
         responsibleForHash[url.host.hashCode()] = laziestCrawler
-        laziestCrawler.tell(CrawlerAddUrl(url), self)
 
-        crawlersBusyness[laziestCrawler] = Pair(laziestBusyness.first, laziestBusyness.second)
         refreshBusyness(laziestCrawler)
     }
 
@@ -64,15 +64,15 @@ class Manager : AbstractActor() {
 
     private fun slightlyIncreaseBusyness(crawler: ActorRef) {
         val oldBusyness = crawlersBusyness[crawler]!!
-        crawlersBusyness[crawler] = Pair(oldBusyness.first, oldBusyness.second + 10) // empirical thing
+        crawlersBusyness[crawler] = Pair(oldBusyness.first + 10, oldBusyness.second) // empirical thing
     }
 
     private fun getTotalCrawled(): Int {
         if (crawlersBusyness.isEmpty()) return 0
         val futures = crawlersBusyness.keys.map { crawler ->
-            Pair(crawler, Patterns.ask(crawler, CrawlerRequestProcessed, crawlerRequestTimeout))
+            Patterns.ask(crawler, CrawlerRequestProcessed, crawlerRequestTimeout)
         }
-        return futures.map { (crawler, future) ->
+        return futures.map { future ->
             try {
                 (Await.result(future, crawlerRequestTimeout.duration()) as CrawlerReportProcessed).number
             } catch (e : TimeoutException) {

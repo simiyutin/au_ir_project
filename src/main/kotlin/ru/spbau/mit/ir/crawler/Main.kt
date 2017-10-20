@@ -8,8 +8,8 @@ import java.net.URL
 
 
 fun main(args: Array<String>) {
-    val startUrl = URL("https://stackoverflow.com")
-//    val startUrl = URL("https://habrahabr.ru/")
+//    val startUrl = URL("https://stackoverflow.com")
+    val startUrl = URL("https://habrahabr.ru/")
 
     val system = ActorSystem.create("crawler")
 
@@ -18,7 +18,7 @@ fun main(args: Array<String>) {
         (1..10).forEach { system.actorOf(Props.create(Crawler::class.java, Pair(manager, it)), "crawlerActor$it") }
 
         Thread.sleep(5000) // wait for crawler to init
-        manager.tell(ManagerAssignUrlHash(startUrl, 0), ActorRef.noSender())
+        manager.tell(ManagerAssignUrlsHash(listOf(startUrl), 0), ActorRef.noSender())
 
         while (true) {
             Thread.sleep(10000)

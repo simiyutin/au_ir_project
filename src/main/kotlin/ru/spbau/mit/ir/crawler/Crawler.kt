@@ -13,7 +13,7 @@ import java.net.URL
 sealed class CrawlerRequest
 
 object CrawlerCrawl : CrawlerRequest()
-data class CrawlerAddUrl(val url: URL) : CrawlerRequest()
+data class CrawlerAddUrls(val urls: List<URL>) : CrawlerRequest()
 object CrawlerRequestFrontierSize : CrawlerRequest()
 object CrawlerRequestProcessed : CrawlerRequest()
 
@@ -32,8 +32,8 @@ class Crawler(pr: Pair<ActorRef, Int>) : AbstractActor() {
     override fun createReceive() = receiveBuilder().match(CrawlerCrawl.javaClass) {
         tryCrawlOnce() // todo: hide exceptions
         self.tell(CrawlerCrawl, self)
-    }.match(CrawlerAddUrl::class.java) { msg ->
-        frontier.addUrlWithNewHash(msg.url)
+    }.match(CrawlerAddUrls::class.java) { msg ->
+        frontier.addUrlWithNewHash(msg.urls)
     }.match(CrawlerRequestFrontierSize.javaClass) {
         sender.tell(CrawlerReportFrontierSize(frontier.size), self)
     }.match(CrawlerRequestProcessed.javaClass) {
@@ -54,7 +54,7 @@ class Crawler(pr: Pair<ActorRef, Int>) : AbstractActor() {
 
         val access = accessPolicy.getAccess(link)
         if (access == AccessPolicy.Access.DELAYED) {
-            frontier.addUrl(link)
+            frontier.addUrlIfCanHandle(link)
         }
         if (access != AccessPolicy.Access.GRANTED) return false
 
@@ -72,19 +72,18 @@ class Crawler(pr: Pair<ActorRef, Int>) : AbstractActor() {
         }
         storeDocument(link, html)
 
-        parseUrls(html, link.toExternalForm()).forEach { url ->
+        val unhandledUrls = parseUrls(html, link.toExternalForm()).mapNotNull { url ->
             val newLink =
                     try {
                         URL(url)
                     } catch (e: MalformedURLException) {
-                        return@forEach
+                        null
                     }
-            if (frontier.canHandleUrl(newLink)) {
-                frontier.addUrl(newLink)
-            } else {
-                manager.tell(ManagerAssignUrlHash(newLink, frontier.size), self)
-            }
+            if (newLink == null || frontier.addUrlIfCanHandle(newLink)) null
+            else newLink
         }
+
+        manager.tell(ManagerAssignUrlsHash(unhandledUrls, frontier.size), self)
     }
 
     private fun retrieveUrl(link: URL): String? {
