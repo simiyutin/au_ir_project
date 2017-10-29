@@ -3,6 +3,9 @@ package ru.spbau.mit.ir.crawler
 import com.panforge.robotstxt.RobotsTxt
 import java.net.URL
 import java.util.HashMap
+import kotlin.collections.HashSet
+import kotlin.collections.MutableMap
+import kotlin.collections.set
 
 class AccessPolicy(val userAgent: String) {
 
@@ -19,10 +22,6 @@ class AccessPolicy(val userAgent: String) {
     fun getAccess(link: URL): Access {
         if (!timeout(link.host)) return Access.DELAYED
 
-        if (link.host.endsWith("stackexchange.com") && alowedStackexchangeSubdomens.none { link.host.startsWith(it) }) {
-            return Access.DENIED
-        }
-
         if (!robotsTxtMap.containsKey(link.host)) {
             val robotsTxt = retrieveRobotsTxt(link) ?: return Access.DENIED
             robotsTxtMap.put(link.host, robotsTxt)
@@ -35,6 +34,7 @@ class AccessPolicy(val userAgent: String) {
             println("ERROR: RobotsTxt query've just thrown ${e.javaClass}")
             return Access.DENIED // better safe that sorry (:
         }
+        lastVisitTimes[link.host] = System.currentTimeMillis();
         return if (robotResult) Access.GRANTED else Access.DENIED
     }
 
@@ -59,50 +59,4 @@ class AccessPolicy(val userAgent: String) {
         val lastVisitTime = lastVisitTimes[host]!!
         return System.currentTimeMillis() - lastVisitTime >= timeoutMillis
     }
-
-    private val alowedStackexchangeSubdomens = listOf(
-            "cstheory",
-            "cs",
-            "ai",
-//            "meta",
-            "webapps",
-            "webmasters",
-            "gamedev",
-            "tex",
-            "unix",
-            "softwareengineering",
-            "android",
-            "security",
-            "ux",
-            "dba",
-//            "codegolf",
-            "reverseengineering",
-//            "tridion",
-//            "magento",
-            "expressionengine",
-            "robotics",
-//            "salesforce",
-//            "windowsphone",
-            "bitcoin",
-            "crypto",
-            "sharepoint",
-            "sqa",
-//            "drupal",
-            "raspberrypi",
-            "networkengineering",
-            "emacs",
-//            "augur",
-            "devops",
-            "sitecore",
-//            "monero",
-            "retrocomputing",
-            "craftcms",
-//            "joomla",
-            "arduino",
-            "softwarerecs",
-            "tor",
-            "computergraphics",
-            "elementaryos",
-            "vi"
-    )
 }
