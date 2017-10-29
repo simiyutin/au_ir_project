@@ -117,7 +117,7 @@ class Crawler(pr: Pair<ActorRef, Int>) : AbstractActor() {
                 it.lineSequence().joinToString("\n")
             }
         } catch (e: Exception) {
-            println("ERROR: Cannot retrieve url ${link.toExternalForm()}...    #############################################################")
+            println("ERROR: Cannot retrieve url ${link.toExternalForm()}")
             return null
         } finally {
             if (connection != null) {
@@ -127,7 +127,6 @@ class Crawler(pr: Pair<ActorRef, Int>) : AbstractActor() {
     }
 
     private fun storeDocument(url: URL, text: String) {
-//        println(url)
         val doc = Jsoup.parse(text)
         val body = doc.body()
         val path = "crawled/"

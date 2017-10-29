@@ -36,7 +36,7 @@ class Manager : AbstractActor() {
             crawler.tell(CrawlerAddUrls(urls), self)
         }
     }.match(ManagerPrintTotalCrawled.javaClass) {
-        println("Total pages crawled: ${getTotalCrawled()}      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+        println("Total pages crawled: ${getTotalCrawled()}")
     }.build()!!
 
     private fun assignNewHash(url: URL) {

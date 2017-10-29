@@ -32,7 +32,7 @@ class AccessPolicy(val userAgent: String) {
         val robotResult = try {
             robotsTxt.query(userAgent, link.toExternalForm())
         } catch (e: Throwable) {
-            println("ERROR: RobotsTxt query've just thrown ${e.javaClass}...    #############################################################")
+            println("ERROR: RobotsTxt query've just thrown ${e.javaClass}")
             return Access.DENIED // better safe that sorry (:
         }
         return if (robotResult) Access.GRANTED else Access.DENIED
@@ -47,7 +47,7 @@ class AccessPolicy(val userAgent: String) {
             }
         } catch (e: Exception) {
             invalidRobots.add(path)
-            println("ERROR: Cannot read $path...    #############################################################")
+            println("ERROR: Cannot read $path")
             return null
         }
     }
