@@ -16,6 +16,44 @@ import string
 
 import enchant
 
+import json
+
+
+def process_text(text):
+    translator = str.maketrans('', '', string.punctuation)
+    nopunct = text.translate(translator)
+    tokenised = nopunct.lower().split()
+    english = [w for w in tokenised if d.check(w)]
+    nostops = [w for w in english if w not in stop]
+    stemmed = [ps.stem(w) for w in nostops]
+    output_data = " ".join(stemmed)
+    return output_data
+
+
+def dump_headers():
+    for i in range(1, 6):
+        h = 'h{}'.format(i)  # h1, h2, h3 ...
+        page_data[h] = []
+        for header in parsed_page.find_all(h):
+            page_data[h].append(header.text)
+
+
+def dump_body():
+    page_data['body'] = [parsed_page.find('body').text]
+
+
+def serialize():
+    return json.dumps(page_data)
+
+
+def language_process():
+    for key, values in page_data.items():
+        processed_values = []
+        for value in values:
+            processed_values.append(process_text(value))
+        page_data[key] = processed_values
+
+
 if __name__ == '__main__':
     # nltk.download() # при первом запуске раскомменчиваешь и выбираешь вкладку corpora -> stopwords и грузишь пакет
     stop = set(stopwords.words('english'))  # .union(stopwords.words('russian')) # хотим ли иметь дело с русским языком?
@@ -29,17 +67,14 @@ if __name__ == '__main__':
     for pagefile in all_page_files:
         with open(crawled_dir + pagefile, 'r') as page:
             lines = " ".join(page.readlines())
-            body = BeautifulSoup(lines, "lxml").find('body')
-            body_text = body.text
-            translator = str.maketrans('', '', string.punctuation)
-            nopunct = body_text.translate(translator)
-            tokenised = nopunct.lower().split()
-            english = [w for w in tokenised if d.check(w)]
-            nostops = [w for w in english if w not in stop]
-            stemmed = [ps.stem(w) for w in nostops]
-            output_data = " ".join(stemmed)
+            parsed_page = BeautifulSoup(lines, "lxml")
+            page_data = dict()
+            dump_headers()
+            dump_body()
+            language_process()
+            page_text = serialize()
             with open(output_dir + "processed_" + pagefile, 'w+') as resfile:
-                resfile.write(output_data)
+                resfile.write(page_text)
 
         processed += 1
         print("processed: {} / {}".format(processed, total))
