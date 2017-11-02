@@ -1,3 +1,7 @@
 /.idea
 /target
 *.iml
+/preprocessed
+/crawled
+
+!/preprocessed/processed_http:__diaryofagraphicsprogrammer.blogspot.com_1710552427.txt
