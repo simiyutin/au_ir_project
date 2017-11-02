@@ -38,6 +38,11 @@ def dump_headers():
             page_data[h].append(header.text)
 
 
+def delete_headers():
+    for header in parsed_page.find_all(['h{}'.format(i) for i in range(1, 6)]):
+        header.decompose()
+
+
 def dump_body():
     page_data['body'] = [parsed_page.find('body').text]
 
@@ -70,6 +75,12 @@ if __name__ == '__main__':
             parsed_page = BeautifulSoup(lines, "lxml")
             page_data = dict()
             dump_headers()
+
+            # кажется, что нахождение заголовков сразу в двух местах ничего не испортит,
+            # но тогда тело всегда будет давать ненулевой вклад в ранг документа,
+            # даже если оно состоит только из одних заголовков
+            delete_headers()
+
             dump_body()
             language_process()
             page_text = serialize()
