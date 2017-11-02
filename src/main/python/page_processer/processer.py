@@ -5,6 +5,15 @@ from bs4 import BeautifulSoup
 # sudo pip3 install --upgrade beautifulsoup4
 # sudo pip3 install --upgrade html5lib
 
+# напишу здесь что мне пришлось установить на всякий случай
+# sudo pip3 install beautifulsoup4
+# sudo pip3 install html5lib
+# sudo pip3 install nltk
+# sudo pip3 install pyenchant
+# pacaur -S aspell-en
+# sudo pip3 install lxml
+
+
 from nltk.corpus import stopwords
 from nltk import word_tokenize
 
