@@ -1,0 +1,315 @@
+<body> 
+ <!-- header begin --> 
+ <div id="header"> 
+  <div class="container_24"> 
+   <div id="logo" class="grid_4"> 
+    <a href="/" title="5by5"> <img alt="5by5" height="80" src="/assets/5by5-logo-new-e8a81e8203491ab636df97e5ef51cc4b.png" width="80"> </a> 
+   </div> 
+   <div class="grid_20" id="header_nav"> 
+    <ul id="nav"> 
+     <!-- <li><a href="/" class="">Home</a></li> --> 
+     <li><a href="/live" class="nav_live">Live</a></li> 
+     <li> <a href="/broadcasts" class="">Shows</a> </li> 
+     <!-- <li>
+					<a href="/about" class="">About</a>
+					<ul>
+						<li><a href="/people" class="">People</a></li>
+						<li><a href="http://wiki.5by5.tv" class="" target="_blank">Wiki</a></li>
+					</ul>
+				</li> --> 
+     <li><a href="/feeds" class="">Subscribe</a></li> 
+     <li><a href="/schedule" class="">Schedule</a></li> 
+     <li><a href="/donate" class="">Support 5by5</a> </li> 
+     <li> <a href="/advertise" class="">Advertise</a> </li> 
+     <li><a href="/contact" class="">Contact</a></li> 
+     <!-- <li><a href="/search" class="">Search</a></li> --> 
+    </ul> 
+   </div> 
+   <div class="clear"></div> 
+  </div> 
+ </div> 
+ <!-- <div id="message" style="
+background: #FEFFF2;
+border-bottom: solid #ccc 1px;
+font-size: 15px;
+padding: 6px 0;
+text-align: center;
+">
+	<div class="container_24">
+		<div class="grid_24">
+			<a href="/frequency_newsletter">Subscribe to The Frequency Newsletter</a> and receive <a href="/frequency_newsletter">the best geek and tech-focused news, links, and updates</a> in your inbox each day.
+		</div>
+	</div>
+</div> --> 
+ <!-- header end --> 
+ <!-- content begin --> 
+ <div id="masthead"> 
+  <div class="container_24"> 
+   <div class="grid_24"> 
+    <div class="grid_8 alpha broadcast_art"> 
+     <a href="/criticalpath"><img alt="The Critical Path" class="with_border shadow dark" height="260" src="http://icebox.5by5.tv/images/broadcasts/24/cover_quarter.jpg" style="margin: 10px;" width="260"></a> 
+    </div> 
+    <div class="grid_14 omega content"> 
+     <h2><a href="/criticalpath">The Critical Path</a></h2> 
+     <p>The Critical Path is a talk show contemplating the causality of success and failure in the evolving story of mobile computing and related industries. Using Apple as a lens to look at existing and emerging tech markets, we try to understand what it means to be great.</p> 
+     <p>Hosted by <a href="http://twitter.com/anders94">Anders Brownworth</a> and <a href="http://twitter.com/asymco">Horace Dediu</a>.</p> 
+     <hr> 
+     <p class="links"> <a href="http://feeds.5by5.tv/criticalpath" title="Subscribe via RSS">RSS</a> &nbsp;•&nbsp; <a href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=442816705&amp;partnerId=30&amp;siteID=GfpxbBXXpXE-y3gfJGyOQcSr2tOpkzD12A" title="The Critical Path on iTunes">iTunes</a> &nbsp;•&nbsp; <a href="/advertise" title="Advertise on The Critical Path">Sponsor</a> &nbsp;•&nbsp; <script type="text/javascript">eval(decodeURIComponent('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%5c%22%6d%61%69%6c%74%6f%3a%69%74%75%6e%65%73%40%35%62%79%35%2e%74%76%3f%73%75%62%6a%65%63%74%3d%25%35%42%35%62%79%35%25%35%44%25%32%30%54%68%65%25%32%30%43%72%69%74%69%63%61%6c%25%32%30%50%61%74%68%25%32%30%46%65%65%64%62%61%63%6b%5c%22%3e%43%6f%6e%74%61%63%74%3c%5c%2f%61%3e%27%29%3b'))</script> </p> 
+    </div> 
+    <br class="clear"> 
+   </div> 
+   <div class="clear"></div> 
+  </div> 
+ </div> 
+ <div id="content"> 
+  <div class="container_24"> 
+   <div class="grid_15"> 
+    <fieldset class="shadow rounded"> 
+     <legend class="rounded"> 
+      <!-- Episode #195 --> <span id="prev_next" class="mini"> <a href="/criticalpath/194">← Previous Episode</a> &nbsp; | &nbsp; <a href="/criticalpath/196">Next Episode →</a> </span> </legend> 
+     <div id="episode" class="box"> 
+      <h2>195: Anthropological Constant</h2> 
+      <h5> January 25, 2017 at 5:00PM • 1 hour 19 minutes • <a href="http://wiki.5by5.tv/wiki/The_Critical_Path/195">Wiki Entry</a> </h5> 
+      <p>Horace and Anders discuss the AirPods, commute time, the future of the automotive industry and answer questions posted to #CriticalQuestion on Twitter.</p> 
+      <div id="sponsors"> 
+       <p>Bandwidth for this episode of The Critical Path is sponsored by Cachefly.com.</p> 
+       <p>Sponsorship for the Critical Path comes from <a href="http://squarespace.com/criticalpath">Squarespace</a> - use the promo code CRITICALPATH.</p> 
+      </div> 
+      <hr class="slim"> 
+      <div id="audio_player"> 
+       <audio id="player" src="http://fdlyr.co/d/criticalpath/cdn.5by5.tv/audio/broadcasts/criticalpath/2017/criticalpath-195.mp3" type="audio/mp3" controls></audio> 
+       <script>
+                $('audio').mediaelementplayer({
+                  audioWidth: 530,
+                  audioHeight: 30,
+                  startVolume: 0.8,
+                  loop: false,
+                  enableAutosize: true,
+                  features: ['playpause','progress','current','duration','tracks','volume'],
+                  iPadUseNativeControls: false,
+                  iPhoneUseNativeControls: false, 
+                  AndroidUseNativeControls: false,
+                  alwaysShowHours: false,
+                  showTimecodeFrameCount: false,
+                  framesPerSecond: 25,
+                  enableKeyboard: true,
+                  pauseOtherPlayers: true,
+                  keyActions: [],
+  				pluginPath: '/plugins/',
+  				plugins: ['flash','silverlight']
+                });
+                $('audio').bind('loadeddata', function(e) {
+                 if (player.readyState) player.setCurrentTime(0);
+                }); 
+              </script> 
+      </div> 
+      <hr class="slim"> 
+      <div class="download_links"> 
+       <p class="mini"> Download: <a href="http://fdlyr.co/d/criticalpath/cdn.5by5.tv/audio/broadcasts/criticalpath/2017/criticalpath-195.mp3" title="Download MP3 Audio">MP3 Audio (36.6 MB)</a> | <a class="embedlink" href="javascript:void();">Embed</a> </p> 
+      </div> 
+      <div id="embedcode" style="display:none"> 
+       <pre></pre> 
+       <p>Paste the code above into your page.</p> 
+      </div> 
+     </div> 
+    </fieldset> 
+   </div> 
+   <div class="grid_6 prefix_3 sidebar"> 
+    <fieldset id="listen" class="rounded shadow"> 
+     <legend class="rounded">Your Hosts</legend> 
+     <div class="subscribe"> 
+      <img alt="Anders  Brownworth" class="host_sidebar with_border shadow dark" height="36" src="http://icebox.5by5.tv/images/people/313/avatar_thumb.jpg" width="36"> 
+      <div class="host_info_sidebar"> 
+       <a href="/people/anders-brownworth" title="Anders  Brownworth"> <h5>Anders Brownworth</h5> </a>
+       <a href="https://twitter.com/anders94" class="twitter-follow-button" data-show-count="false" data-preview="true">Follow @anders94</a>  
+      </div> 
+      <img alt="Horace Dediu" class="host_sidebar with_border shadow dark" height="36" src="http://icebox.5by5.tv/images/people/156/avatar_thumb.jpg" width="36"> 
+      <div class="host_info_sidebar last"> 
+       <a href="/people/horace-dediu" title="Horace Dediu"> <h5>Horace Dediu</h5> </a>
+       <a href="https://twitter.com/asymco" class="twitter-follow-button" data-show-count="false" data-preview="true">Follow @asymco</a>  
+      </div> 
+     </div> 
+    </fieldset> 
+    <fieldset id="listen" class="rounded shadow"> 
+     <legend class="rounded">5by5 Apps</legend> 
+     <div class="subscribe"> 
+      <ul> 
+       <li><a href="https://itunes.apple.com/us/app/5by5-radio/id520847556?mt=8&amp;partnerId=30&amp;siteID=GfpxbBXXpXE-y3gfJGyOQcSr2tOpkzD12A"><img alt="Itunes_logo" class="icon" src="/assets/icons/itunes_logo-bf740e29625ddaba65ac31d74a66916a.png"> 5by5 Radio for iOS</a></li> 
+       <!-- <li><a href="https://itunes.apple.com/us/app/5by5-radio-jr./id561436039?mt=8&amp;partnerId=30&amp;siteID=GfpxbBXXpXE-y3gfJGyOQcSr2tOpkzD12A"><img alt="Itunes_logo" class="icon" src="/assets/icons/itunes_logo-bf740e29625ddaba65ac31d74a66916a.png" /> 5by5 Junior for iOS</a></li> --> 
+       <li><a href="https://itunes.apple.com/us/app/5by5-radio/id553498407?mt=12&amp;partnerId=30&amp;siteID=GfpxbBXXpXE-y3gfJGyOQcSr2tOpkzD12A"><img alt="Pencil_paintbrush" class="icon" src="/assets/icons/pencil_paintbrush-1560f35cdaeede2929db023c5af73cdd.png"> 5by5 for Mac OS X</a></li> 
+      </ul> 
+     </div> 
+    </fieldset> 
+    <fieldset id="subscribe" class="rounded shadow"> 
+     <legend class="rounded">Subscribe to Critical Path</legend> 
+     <div class="subscribe"> 
+      <ul> 
+       <li><a href="http://feeds.5by5.tv/criticalpath"><img alt="Rss" class="icon" src="/assets/icons/rss-e2e36a8b90bbc6730306fb653f3a9c2f.png"> RSS Feed</a></li> 
+       <li><a href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=442816705&amp;partnerId=30&amp;siteID=GfpxbBXXpXE-y3gfJGyOQcSr2tOpkzD12A"><img alt="Itunes" class="icon" src="/assets/icons/itunes-bd055379d4375512b1b5b33f13fda9e1.png"> Subscribe via iTunes</a></li> 
+       <li><a href="http://pcasts.in/feed/feeds.5by5.tv/criticalpath"><img alt="Pc_icon_small@2x" class="icon" src="/assets/icons/pc_icon_small@2x-215c2dd8305ef48d3b730bc61a473a75.png"> Subscribe in Pocket Casts</a></li> 
+      </ul> 
+      <ul> 
+       <li><a href="http://feeds.5by5.tv/criticalpath-afterdark"><img alt="Rss" class="icon" src="/assets/icons/rss-e2e36a8b90bbc6730306fb653f3a9c2f.png"> Critical Path + After Dark</a></li> 
+      </ul> 
+      <ul> 
+       <li><a href="/advertise"><img alt="Moneybag" class="icon light" src="/assets/icons/moneybag-5a50bb1267d58f2b4cbc27e344d5fa96.png"> Sponsor The Critical Path</a></li> 
+       <li><img alt="Mailbox" class="icon light" src="/assets/icons/mailbox-8b4e3a79aae1dc98ea9dfdd5d23a85c9.png"> <a href="/contact?broadcast=criticalpath">Contact Anders &amp; Horace</a></li> 
+      </ul> 
+      <!-- <hr class="slim" /> --> 
+      <!--  --> 
+      <!-- <a href="https://twitter.com/anders94"
+         class="twitter-follow-button"
+         data-show-count="false"
+         data-preview="true">Follow @anders94</a>
+     --> 
+      <!--  --> 
+      <!-- <a href="https://twitter.com/asymco"
+         class="twitter-follow-button"
+         data-show-count="false"
+         data-preview="true">Follow @asymco</a>
+     --> 
+      <!--  --> 
+     </div> 
+    </fieldset> 
+    <div id="deck"> 
+     <fieldset class="shadow rounded"> 
+      <legend class="rounded"><a href="http://archeravenue.com">Sponsored By</a></legend> 
+      <div class="content ad wide"> 
+       <script type="text/javascript"><!--//<![CDATA[
+					   var m3_u = (location.protocol=='https:'?'https://ads.archeravenue.com/www/delivery/ajs.php':'http://ads.archeravenue.com/www/delivery/ajs.php');
+					   var m3_r = Math.floor(Math.random()*99999999999);
+					   if (!document.MAX_used) document.MAX_used = ',';
+					   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+					   document.write ("?zoneid=1&amp;withtext=1");
+					   document.write ('&amp;cb=' + m3_r);
+					   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+					   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+					   document.write ("&amp;loc=" + escape(window.location));
+					   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+					   if (document.context) document.write ("&context=" + escape(document.context));
+					   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+					   document.write ("'><\/scr"+"ipt>");
+					//]]>--></script> 
+      </div> 
+     </fieldset> 
+    </div> 
+    <fieldset class="rounded shadow"> 
+     <legend class="rounded">Share</legend> 
+     <div id="social_icons"> 
+      <div class="float_left margin_right_10"> 
+       <a href="https://twitter.com/share" class="twitter-share-button" data-via="danbenjamin" data-lang="en" data-related="5by5" data-count="vertical">Tweet</a> 
+       <script></script> 
+      </div> 
+      <div class="float_left margin_right_5"> 
+       <div class="fb-like" data-href="http://5by5.tv/criticalpath/195" data-send="false" data-layout="box_count" data-width="50" data-show-faces="false"></div> 
+       <div id="fb-root"></div> 
+      </div> 
+      <div class="float_left margin_right_10"> 
+       <g:plusone size="tall"></g:plusone> 
+      </div> 
+      <div class="clear"></div> 
+     </div> 
+    </fieldset> 
+    <fieldset class="rounded shadow no_legend"> 
+     <div class="tiny" style="line-height: 21px; border-top: solid #ddd 1px; padding-top: 20px;"> 
+      <p> Bandwidth for October 2017 is sponsored by <a href="http://cachefly.com">CacheFly: The fastest, most reliable CDN in the business.</a> </p> 
+     </div> 
+    </fieldset> 
+    <!--
+  <fieldset class="rounded shadow no_legend">
+    <div class="box">
+      <div id="jobs">
+        <script type="text/javascript">
+          $(function() {
+            $.get("http://www.authenticjobs.com/js/jobs_r_single_v2.js", function(data) { 
+              var listing = "<p><strong>" + data.company + "</strong> needs a <a href='" + data.url + "'>" + data.title  + "</a>";
+              if (data.location != "") {
+                listing += " in " + data.location;
+              }
+              listing += "</p>";
+              $("#jobs").append(listing);
+            }, "jsonp");
+          });
+        </script>
+      </div>
+    </div>
+  </fieldset>
+--> 
+   </div> 
+  </div> 
+  <script>
+	// include in main jQuery execution block
+	(function($){
+		// show/hide embed code block
+		$('.embedlink').click(function(){
+			$embedcode = $('#embedcode');
+			if ($embedcode.is(':visible')) {
+				$embedcode.slideUp(100);
+			} else {
+				$embedcode.slideDown(100);
+			}
+		});
+		// get the source of the player for the current page
+		var src = encodeURIComponent($('#player').attr('src').split(/\/broadcasts\//)[1]);
+		// populate the embed code block for copying
+		$('#embedcode pre').text('<iframe width="400" height="30" src="http://5by5.tv/audio_embed/?s='+src+'" frameborder="0" scrolling="no" allowfullscreen></iframe>');
+	})(jQuery);
+</script> 
+ </div> 
+ <!-- content end --> 
+ <!-- footer begin --> 
+ <div id="footer"> 
+  <div class="container_24"> 
+   <div class="grid_24"> 
+    <p>5by5 makes podcasts for geeks, designers, developers, gamers, entrepreneurs, and people like you, with shows hosted by people including Dan Benjamin, Merlin Mann, Horace Dediu, and Jeffrey Zeldman. <a href="/about">Read more…</a></p> 
+    <!-- <a href="https://twitter.com/5by5"
+         class="twitter-follow-button"
+         data-show-count="false"
+         data-preview="true">Follow @5by5</a>
+     --> 
+    <p id="bottom_links"> <a href="/about">About</a> &nbsp; <a href="/broadcasts">Shows</a> &nbsp; 
+     <!-- <a href="/people">People</a> --> 
+     <!-- <a href="http://bigweek.co" title="The 5by5 Blog">News</a> --> <a href="/feeds" title="Subscribe via RSS and iTunes">Subscribe</a> &nbsp; <a href="http://itunes.apple.com/us/artist/5by5/id391030532?partnerId=30&amp;siteID=GfpxbBXXpXE-y3gfJGyOQcSr2tOpkzD12A" title="5by5 on iTunes">iTunes</a> &nbsp; <a href="/schedule" title="Broadcast Schedule">Schedule</a> &nbsp; <a href="/contact" title="Contact 5by5">Contact</a> &nbsp; <a href="/donate" title="Help support 5by5">Donate</a> &nbsp; <a href="http://www.archeravenue.com" title="Advertise with 5by5">Advertise</a> &nbsp; <a href="/newsletter" title="Subscribe to the Newsletter">Newsletter</a> </p>
+   </div> 
+   <!--
+			<div class="grid_4 prefix_2">
+				<h4>5by5 T-Shirts</h4>
+				<div id="store">
+          <a href="http://shop.5by5.tv" target="_blank"><img alt="Jackal_shirt" height="150" src="/assets/jackal_shirt-8663c8eba2f753723f672cb0bb21cbc5.png" width="136" /></a>
+				</div>
+			</div>
+--> 
+   <div class="clear"></div> 
+   <div class="grid_24" id="copyright"> 
+    <p>Copyright © 2009–2017 by Dan Benjamin and 5by5 Productions LLC in Austin, Texas</p> 
+    <p style="margin: 15px 0 30px 0;"> <a href="http://cachefly.com/" title="Audio served by CacheFly"><img alt="Cachefly" height="35" src="/assets/cachefly-ac5400d2770ed051f26dd99acded5d84.png" style="margin: 0 25px 0 0;" width="75"></a> <a href="http://linode.com/" title="Hosted at Linode"><img alt="Linode-logo_standard_dark_medium" height="35" src="/assets/linode-logo_standard_dark_medium-e9a63a14f841669ad8ccb535b8e02d74.png" style="margin: 10px 25px 0 0;" width="88"></a> <a href="http://metacdn.com" title="Live Video Streaming by MetaCDN"><img alt="Metacdn_mini" height="11" src="/assets/metacdn_mini-af23e9c53b0815361949bd429f5ec6ea.png" style="margin: 8px 0 0 0" width="100"></a> </p> 
+   </div> 
+   <div class="clear"></div> 
+  </div> 
+ </div> 
+ <!-- footer end --> 
+ <!-- javascript footer begin --> 
+ <!-- javascript footer end -->  
+ <!-- Google Analytics --> 
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-41312276-1', '5by5.tv');
+  ga('send', 'pageview');
+</script> 
+ <!-- iTunes Auto Link Maker --> 
+ <script type="text/javascript">
+  var _merchantSettings=_merchantSettings || [];
+  _merchantSettings.push(['AT', '11laDR']);
+  (function(){
+    var autolink=document.createElement('script');
+    autolink.type='text/javascript';
+    autolink.async=true;
+    autolink.src='http://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js';
+    var s=document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(autolink, s);
+  })();
+</script> 
+</body>
