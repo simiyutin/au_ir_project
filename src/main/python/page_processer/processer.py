@@ -14,8 +14,8 @@ from bs4 import BeautifulSoup
 # sudo pip install pyenchant
 # pacaur -S aspell-en
 # sudo pip install lxml
+# sudo pip install lxml
 # а потом я долго и уныло долбалась со спарком и хадупом
-# поставила apache-spark, hadoop
 # sudo pip install pyspark
 # спарк ругался на hadoop-native, поэтому пришлось прописать его в LD_LIBRARY_PATH
 
@@ -32,6 +32,7 @@ import json
 
 from pyspark.sql import SparkSession
 from collections import Counter
+import datetime
 
 headers = ['h{}'.format(i) for i in range(1, 6)]  # h1, h2, h3 ...
 
@@ -90,6 +91,8 @@ def count_words(entry):
 
 if __name__ == '__main__':
 
+    print(datetime.datetime.now())
+
     # nltk.download() # при первом запуске раскомменчиваешь и выбираешь вкладку corpora -> stopwords и грузишь пакет
     stop = set(stopwords.words('english'))  # .union(stopwords.words('russian')) # хотим ли иметь дело с русским языком?
     ps = PorterStemmer()
@@ -104,7 +107,7 @@ if __name__ == '__main__':
 
     index_file = '../../../../index.txt'
 
-    spark = SparkSession.builder.appName("").master("local").getOrCreate()
+    spark = SparkSession.builder.appName("").master("local[*]").getOrCreate()
     sc = spark.sparkContext
 
     broadcast_stop = sc.broadcast(stop)
@@ -126,3 +129,5 @@ if __name__ == '__main__':
     res = dict(res)
     with open(index_file, 'w') as fp:
         json.dump(res, fp)
+
+    print(datetime.datetime.now())
