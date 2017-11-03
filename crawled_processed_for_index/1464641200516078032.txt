@@ -1,0 +1,1875 @@
+<body> 
+ <div class="ty-tygh  " id="tygh_container"> 
+  <div id="ajax_overlay" class="ty-ajax-overlay"></div> 
+  <div id="ajax_loading_box" class="ty-ajax-loading-box"></div> 
+  <div class="cm-notification-container notification-container"> 
+  </div> 
+  <div class="ty-helper-container" id="tygh_main_container"> 
+   <div class="tygh-top-panel clearfix"> 
+    <div class="container top-grid"> 
+     <div class="row"> 
+      <div class="span8 top-links-grid"> 
+       <div class=" top_head    ty-float-left"> 
+        <div class="ty-wysiwyg-content">
+         <div>
+           Интернет-магазин квадрокоптеров 
+         </div>
+        </div> 
+       </div> 
+      </div>
+      <div class="span8 top-links-grid"> 
+       <div class="ty-dropdown-box  top-my-account ty-float-right"> 
+        <div id="sw_dropdown_736" class="ty-dropdown-box__title cm-combination unlogged"> 
+         <a class="ty-account-info__title" href="http://coptertime.ru/profiles-update/"> <i class="ty-icon-user"></i>&nbsp; <span class="hidden-phone">Мой профиль</span> <i class="ty-icon-down-micro ty-account-info__user-arrow"></i> </a> 
+        </div> 
+        <div id="dropdown_736" class="cm-popup-box ty-dropdown-box__content hidden"> 
+         <div id="account_info_736"> 
+          <ul class="ty-account-info"> 
+           <li class="ty-account-info__item ty-dropdown-box__item"><a class="ty-account-info__a underlined" href="http://coptertime.ru/index.php?dispatch=orders.search" rel="nofollow">Заказы</a></li> 
+           <li class="ty-account-info__item ty-dropdown-box__item"><a class="ty-account-info__a underlined" href="http://coptertime.ru/index.php?dispatch=product_features.compare" rel="nofollow">Список сравнения</a></li> 
+           <li class="ty-account-info__item ty-dropdown-box__item"><a class="ty-account-info__a" href="http://coptertime.ru/wishlist/" rel="nofollow">Отложенные товары</a></li> 
+          </ul> 
+          <div class="ty-account-info__orders updates-wrapper track-orders" id="track_orders_block_736"> 
+           <form action="http://coptertime.ru/" method="get" class="cm-ajax cm-ajax-full-render" name="track_order_quick"> 
+            <input type="hidden" name="result_ids" value="track_orders_block_*"> 
+            <input type="hidden" name="return_url" value="index.php?utm_source=gt_3dmodels&amp;dispatch=products.view&amp;product_id=2206"> 
+            <div class="ty-account-info__orders-txt">
+             Отслеживание заказа
+            </div> 
+            <div class="ty-account-info__orders-input ty-control-group ty-input-append"> 
+             <label for="track_order_item736" class="cm-required hidden">Отслеживание заказа</label> 
+             <input type="text" size="20" class="ty-input-text cm-hint" id="track_order_item736" name="track_data" value="Номер заказа/E-mail"> 
+             <button title="Выполнить" class="ty-btn-go" type="submit"><i class="ty-btn-go__icon ty-icon-right-dir"></i></button> 
+             <input type="hidden" name="dispatch" value="orders.track_request"> 
+             <!-- override sd_recaptcha --> 
+             <div class="captcha ty-control-group"> 
+              <p> <img id="verification_image_iv_59ea3acc17a4d" class="ty-captcha__img" src="http://coptertime.ru/index.php?dispatch=image.captcha&amp;verification_id=iv_59ea3acc17a4d&amp;iv_59ea3acc17a4d=" alt="" onclick="this.src += '|1' ;" width="110" height="30"> <i class="ty-icon-refresh ty-captcha__refresh" onclick="document.getElementById('verification_image_iv_59ea3acc17a4d').src += '|1';"></i> </p> 
+              <label for="verification_answer_iv_59ea3acc17a4d" class="cm-required ty-captcha__label">Антибот</label> 
+              <input class="ty-captcha__input cm-autocomplete-off" type="text" id="verification_answer_iv_59ea3acc17a4d" name="verification_answer" value=""> 
+              <input type="hidden" name="verification_id" value="iv_59ea3acc17a4d"> 
+              <div class="ty-captcha__txt left">
+               Введите символы (цифры и латинские буквы), которые видите на картинке.
+              </div> 
+             </div> 
+            </div> 
+           </form> 
+           <!--track_orders_block_736-->
+          </div> 
+          <div class="ty-account-info__buttons buttons-container"> 
+           <a href="http://coptertime.ru/login/?return_url=index.php%3Futm_source%3Dgt_3dmodels%26dispatch%3Dproducts.view%26product_id%3D2206" data-ca-target-id="login_block736" class="cm-dialog-opener cm-dialog-auto-size ty-btn ty-btn__secondary" rel="nofollow">Войти</a>
+           <a href="http://coptertime.ru/profiles-add/" rel="nofollow" class="ty-btn ty-btn__primary">Регистрация</a> 
+           <div id="login_block736" class="hidden" title="Войти"> 
+            <div class="ty-login-popup"> 
+             <form name="popup736_form" action="http://coptertime.ru/" method="post"> 
+              <noindex> 
+               <input type="hidden" name="return_url" value="index.php?utm_source=gt_3dmodels&amp;dispatch=products.view&amp;product_id=2206"> 
+               <input type="hidden" name="redirect_url" value="index.php?utm_source=gt_3dmodels&amp;dispatch=products.view&amp;product_id=2206"> 
+               <div class="ty-control-group"> 
+                <label for="login_popup736" class="ty-login__filed-label ty-control-group__label cm-required cm-trim cm-email">E-mail</label> 
+                <input type="text" id="login_popup736" name="user_login" size="30" value="" class="ty-login__input"> 
+               </div> 
+               <div class="ty-control-group password-forgot"> 
+                <label for="psw_popup736" class="ty-login__filed-label ty-control-group__label ty-password-forgot__label cm-required">Пароль</label>
+                <a href="http://coptertime.ru/index.php?dispatch=auth.recover_password" class="ty-password-forgot__a" tabindex="5">Забыли пароль?</a> 
+                <input type="password" id="psw_popup736" name="password" size="30" value="" class="ty-login__input" maxlength="32"> 
+               </div> 
+               <!-- override sd_recaptcha --> 
+               <div class="buttons-container clearfix"> 
+                <div class="ty-float-right"> 
+                 <button class="ty-btn__login ty-btn__secondary ty-btn" type="submit" name="dispatch[auth.login]">Войти</button> 
+                </div> 
+                <div class="ty-login__remember-me"> 
+                 <label for="remember_me_popup736" class="ty-login__remember-me-label"><input class="checkbox" type="checkbox" name="remember_me" id="remember_me_popup736" value="Y">Запомнить</label> 
+                </div> 
+               </div> 
+              </noindex> 
+             </form> 
+            </div> 
+           </div> 
+          </div> 
+          <!--account_info_736-->
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="tygh-header clearfix"> 
+    <div class="container header-grid"> 
+     <div class="row"> 
+      <div class="span16 middle_head"> 
+       <div class="row"> 
+        <div class="span4 tophead_block"> 
+         <div class=" top-logo"> 
+          <div class="ty-logo-container"> 
+           <a href="http://coptertime.ru/" title=""> <img src="http://coptertime.ru/images/logos/14/logo_r0yt-hp.png" width="224" height="60" alt="" class="ty-logo-container__image"> </a> 
+          </div> 
+         </div> 
+        </div>
+        <div class="span4 tophead_block"> 
+         <div class=" phones_field"> 
+          <div class="ty-wysiwyg-content">
+           <a href="tel:+74994902195" class="phone">+7 (499) <strong>490-21-95</strong></a>
+           <br> 
+           <a href="tel:+78005005198" class="phone_mob">+7 (800) <strong>500-51-98</strong></a> 
+           <div class="ty-cr-phone-number-link"> 
+            <div class="ty-cr-link"> 
+             <a id="opener_call_request_" class="cm-dialog-opener cm-dialog-auto-size " data-ca-target-id="content_call_request_" rel="nofollow"><span>Заказать звонок</span></a> 
+             <div class="hidden" id="content_call_request_" title="Заказать звонок"> 
+              <noindex> 
+               <form name="call_requests_form_main" id="form_call_request_" action="http://coptertime.ru/" method="post" class="cm-ajax ajaxproduct"> 
+                <!-- call_request_ --> 
+                <div class="ty-control-group"> 
+                 <label class="ty-control-group__title" for="call_data_call_request__name">Ваше имя</label> 
+                 <input id="call_data_call_request__name" size="50" class="ty-input-text-full" type="text" name="call_data[name]" value=""> 
+                </div> 
+                <div class="ty-control-group"> 
+                 <label for="call_data_call_request__phone" class="ty-control-group__title cm-required cm-phone">Телефон</label> 
+                 <input id="call_data_call_request__phone" class="ty-input-text-full cm-cr-mask-phone" size="50" type="text" name="call_data[phone]" value=""> 
+                </div> 
+                <div class="ty-control-group"> 
+                 <label for="call_data_call_request__convenient_time" class="ty-control-group__title">Удобное время</label> 
+                 <input id="call_data_call_request__convenient_time" class="ty-input-text cm-cr-mask-time" size="6" type="text" name="call_data[time_from]" value="" placeholder="09:00"> - 
+                 <input id="call_data_call_request__convenient_time" class="ty-input-text cm-cr-mask-time" size="6" type="text" name="call_data[time_to]" value="" placeholder="20:00"> 
+                </div> 
+                <div class="buttons-container"> 
+                 <button class="ty-btn__primary ty-btn__big cm-form-dialog-closer ty-btn ty-btn" type="submit" name="dispatch[call_requests.request]">Отправить</button> 
+                </div> 
+               </form> 
+              </noindex> 
+             </div> 
+            </div> 
+           </div> 
+           <div style="text-align: center; padding-top: 5px !important;">
+            Сервис: 
+            <a href="tel:+74994904852" class="phone_mob_serv">+7 (499) <strong>490-48-52</strong></a>
+           </div>
+          </div> 
+         </div> 
+        </div>
+        <div class="span4 address_head tophead_block"> 
+         <div class="ty-wysiwyg-content">
+          <p class="head_address"> Москва, пер. Мажоров 14с7, офис 7201 <br> Сочи, ул. Новая Заря д.7 (ТРЦ Моремолл)<br> Время работы: пн-чт 10-19, пт-суб 10-18<br> <span class="how_to_go" style="background-color: initial;"><a href="/contacts/">Как добраться?</a></span> <span class="head_mail" style="background-color: initial;"><a href="mailto:shop@coptertime.ru">shop@coptertime.ru</a></span> </p>
+         </div> 
+        </div>
+        <div class="span4 tophead_block"> 
+         <div class=" top-cart-content basket_head"> 
+          <noindex> 
+           <div class="dropdown-box" id="cart_status_740"> 
+            <a href="http://coptertime.ru/cart/" id="sw_dropdown_740" class="popup-title cm-combination"> <img src="/images/basket.png" style="float: left; margin-top: -7px;"> <i class="icon-basket filled"></i><span class="cartname"> <b>В вашей корзине:</b><br></span><i class="icon-down-micro"></i> <span class="minicart-title empty-cart hand">Нет товаров</span> </a> 
+            <div id="dropdown_740" class="cm-popup-box popup-content hidden"> 
+             <div class="cm-cart-content cm-cart-content-thumb cm-cart-content-delete"> 
+              <div class="cart-items"> 
+               <p class="center">Нет товаров</p> 
+              </div> 
+              <div class="cm-cart-buttons buttons-container hidden"> 
+               <div class="view-cart-button"> 
+                <span class="button button-wrap-left"><span class="button button-wrap-right"><a href="http://coptertime.ru/cart/" rel="nofollow" class="view-cart ty-btn ty-btn__primary">Корзина</a></span></span> 
+               </div> 
+               <div class="float-right"> 
+                <span class="button-action button-wrap-left"><span class="button-action button-wrap-right"><a href="http://coptertime.ru/checkout/" rel="nofollow" class="ty-btn__secondary  ty-btn">Оформить заказ</a></span></span> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+            <!--cart_status_740-->
+           </div> 
+          </noindex> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div>
+     <div class="row"> 
+      <div class="span4 catalog_title"> 
+       <div class=" cat_title"> 
+        <div class="ty-wysiwyg-content">
+         <span>Каталог</span>
+        </div> 
+       </div> 
+      </div>
+      <div class="span12 menu_search"> 
+       <div class="row"> 
+        <div class="span9 menu_block"> 
+         <div class=" top_menu"> 
+          <ul class="ty-menu__items cm-responsive-menu"> 
+           <li class="ty-menu__item ty-menu__menu-btn visible-phone"> <a class="ty-menu__item-link"> <i class="ty-icon-short-list"></i> <span>Меню</span> </a> </li> 
+           <li class="ty-menu__item  ty-menu__item-nodrop "> <a href="/services/" class="ty-menu__item-link"> Гарантия </a> </li> 
+           <li class="ty-menu__item  ty-menu__item-nodrop "> <a href="/repair/" class="ty-menu__item-link"> Ремонт </a> </li> 
+           <li class="ty-menu__item  ty-menu__item-nodrop "> <a href="http://blog.coptertime.ru/" class="ty-menu__item-link"> Блог </a> </li> 
+           <li class="ty-menu__item  ty-menu__item-nodrop "> <a href="http://coptertime.ru/trade-in/" class="ty-menu__item-link"> Trade In </a> </li> 
+           <li class="ty-menu__item  ty-menu__item-nodrop "> <a href="/contacts/" class="ty-menu__item-link"> Контакты </a> </li> 
+           <li class="ty-menu__item  ty-menu__item-nodrop "> <a href="/studio/" class="ty-menu__item-link"> Аэросъемка </a> </li> 
+          </ul> 
+         </div> 
+        </div>
+        <div class="span3 search_block"> 
+         <div class="ty-search-block"> 
+          <form action="http://coptertime.ru/" name="search_form" method="get"> 
+           <input type="hidden" name="subcats" value="Y"> 
+           <input type="hidden" name="status" value="A"> 
+           <input type="hidden" name="pshort" value="Y"> 
+           <input type="hidden" name="pfull" value="Y"> 
+           <input type="hidden" name="pname" value="Y"> 
+           <input type="hidden" name="pkeywords" value="Y"> 
+           <input type="hidden" name="search_performed" value="Y"> 
+           <input type="text" name="q" value="" id="search_input" title="Искать товары" class="ty-search-block__input cm-hint">
+           <button title="Найти" class="ty-search-magnifier" type="submit"><i class="ty-icon-search"></i></button> 
+           <input type="hidden" name="dispatch" value="products.search"> 
+          </form> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="tygh-content clearfix"> 
+    <div class="container content-grid"> 
+     <div class="row"> 
+      <div class="span4 catalog_menu"> 
+       <div class=" left_menu"> 
+        <div class="ty-menu ty-menu-vertical"> 
+         <ul id="vmenu_254" class="ty-menu__items cm-responsive-menu"> 
+          <li class="ty-menu__item cm-menu-item-responsive dropdown-vertical__dir ty-menu__item-active menu-level-">
+           <div class="ty-menu__item-toggle visible-tablet visible-phone cm-responsive-menu-toggle">
+            <i class="ty-icon-down-open"></i>
+           </div>
+           <div class="hidden-tablet hidden-phone">
+            <i class="ty-icon-left-open"></i>
+           </div>
+           <div class="ty-menu__submenu-item-header">
+            <a href="http://coptertime.ru/copters/" class="ty-menu__item-link"><img src="/images/dot.png">Квадрокоптеры</a>
+           </div>
+           <div class="ty-menu__submenu">
+            <ul class="ty-menu__submenu-items cm-responsive-menu-submenu">
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/copters/rtf/" class="ty-menu__item-link"><img src="/images/dot.png">Готовые к полету коптеры</a>
+              </div></li> 
+             <li class="ty-menu__item cm-menu-item-responsive dropdown-vertical__dir menu-level-1">
+              <div class="ty-menu__item-toggle visible-tablet visible-phone cm-responsive-menu-toggle">
+               <i class="ty-icon-down-open"></i>
+              </div>
+              <div class="hidden-tablet hidden-phone">
+               <i class="ty-icon-left-open"></i>
+              </div>
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/copters/dji-mavic/" class="ty-menu__item-link"><img src="/images/dot.png">DJI Mavic Pro</a>
+              </div>
+              <div class="ty-menu__submenu">
+               <ul class="ty-menu__submenu-items cm-responsive-menu-submenu">
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/dji-mavic/aks-dji-mavic/" class="ty-menu__item-link"><img src="/images/dot.png">Аксессуары для DJI Mavic</a>
+                 </div></li> 
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/dji-mavic/parts-dji-mavic/" class="ty-menu__item-link"><img src="/images/dot.png">Запчасти для DJI Mavic</a>
+                 </div></li> 
+               </ul>
+              </div> </li> 
+             <li class="ty-menu__item cm-menu-item-responsive dropdown-vertical__dir menu-level-1">
+              <div class="ty-menu__item-toggle visible-tablet visible-phone cm-responsive-menu-toggle">
+               <i class="ty-icon-down-open"></i>
+              </div>
+              <div class="hidden-tablet hidden-phone">
+               <i class="ty-icon-left-open"></i>
+              </div>
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/copters/dji-spark/" class="ty-menu__item-link"><img src="/images/dot.png">DJI Spark</a>
+              </div>
+              <div class="ty-menu__submenu">
+               <ul class="ty-menu__submenu-items cm-responsive-menu-submenu">
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/dji-spark/aksessuary-dlya-dji-spark/" class="ty-menu__item-link"><img src="/images/dot.png">Аксессуары для DJI Spark</a>
+                 </div></li> 
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/dji-spark/zapchasti-dlya-dji-spark/" class="ty-menu__item-link"><img src="/images/dot.png">Запчасти для DJI Spark</a>
+                 </div></li> 
+               </ul>
+              </div> </li> 
+             <li class="ty-menu__item cm-menu-item-responsive dropdown-vertical__dir menu-level-1">
+              <div class="ty-menu__item-toggle visible-tablet visible-phone cm-responsive-menu-toggle">
+               <i class="ty-icon-down-open"></i>
+              </div>
+              <div class="hidden-tablet hidden-phone">
+               <i class="ty-icon-left-open"></i>
+              </div>
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/copters/dji-inspire-1/" class="ty-menu__item-link"><img src="/images/dot.png">DJI Inspire 1</a>
+              </div>
+              <div class="ty-menu__submenu">
+               <ul class="ty-menu__submenu-items cm-responsive-menu-submenu">
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/dji-inspire-1/aksessuary-dlya-dji-inspire-1/" class="ty-menu__item-link"><img src="/images/dot.png">Аксессуары для DJI Inspire 1</a>
+                 </div></li> 
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/dji-inspire-1/zapchasti-dji-inspire-1/" class="ty-menu__item-link"><img src="/images/dot.png">Запчасти для DJI Inspire 1</a>
+                 </div></li> 
+               </ul>
+              </div> </li> 
+             <li class="ty-menu__item cm-menu-item-responsive dropdown-vertical__dir menu-level-1">
+              <div class="ty-menu__item-toggle visible-tablet visible-phone cm-responsive-menu-toggle">
+               <i class="ty-icon-down-open"></i>
+              </div>
+              <div class="hidden-tablet hidden-phone">
+               <i class="ty-icon-left-open"></i>
+              </div>
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/copters/dji-inspire-2/" class="ty-menu__item-link"><img src="/images/dot.png">DJI Inspire 2</a>
+              </div>
+              <div class="ty-menu__submenu">
+               <ul class="ty-menu__submenu-items cm-responsive-menu-submenu">
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/dji-inspire-2/dji-inspire-2-accessories/" class="ty-menu__item-link"><img src="/images/dot.png">Аксессуары для DJI Inspire 2</a>
+                 </div></li> 
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/dji-inspire-2/dji-inspire-2-parts/" class="ty-menu__item-link"><img src="/images/dot.png">Запчасти DJI Inspire 2</a>
+                 </div></li> 
+               </ul>
+              </div> </li> 
+             <li class="ty-menu__item cm-menu-item-responsive dropdown-vertical__dir menu-level-1">
+              <div class="ty-menu__item-toggle visible-tablet visible-phone cm-responsive-menu-toggle">
+               <i class="ty-icon-down-open"></i>
+              </div>
+              <div class="hidden-tablet hidden-phone">
+               <i class="ty-icon-left-open"></i>
+              </div>
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/copters/phantomver/" class="ty-menu__item-link"><img src="/images/dot.png">DJI Phantom 2</a>
+              </div>
+              <div class="ty-menu__submenu">
+               <ul class="ty-menu__submenu-items cm-responsive-menu-submenu">
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/phantomver/tuning-phantom/" class="ty-menu__item-link"><img src="/images/dot.png">Запчасти Phantom 1/2</a>
+                 </div></li> 
+               </ul>
+              </div> </li> 
+             <li class="ty-menu__item cm-menu-item-responsive dropdown-vertical__dir menu-level-1">
+              <div class="ty-menu__item-toggle visible-tablet visible-phone cm-responsive-menu-toggle">
+               <i class="ty-icon-down-open"></i>
+              </div>
+              <div class="hidden-tablet hidden-phone">
+               <i class="ty-icon-left-open"></i>
+              </div>
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/copters/dji-phantom-3/" class="ty-menu__item-link"><img src="/images/dot.png">DJI Phantom 3</a>
+              </div>
+              <div class="ty-menu__submenu">
+               <ul class="ty-menu__submenu-items cm-responsive-menu-submenu">
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/dji-phantom-3/phantom-3-acc/" class="ty-menu__item-link"><img src="/images/dot.png">Аксессуары для DJI Phantom 3</a>
+                 </div></li> 
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/dji-phantom-3/phantom3-parts/" class="ty-menu__item-link"><img src="/images/dot.png">Запчасти Phantom 3</a>
+                 </div></li> 
+               </ul>
+              </div> </li> 
+             <li class="ty-menu__item cm-menu-item-responsive dropdown-vertical__dir ty-menu__item-active menu-level-1">
+              <div class="ty-menu__item-toggle visible-tablet visible-phone cm-responsive-menu-toggle">
+               <i class="ty-icon-down-open"></i>
+              </div>
+              <div class="hidden-tablet hidden-phone">
+               <i class="ty-icon-left-open"></i>
+              </div>
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/copters/dji-phantom-4/" class="ty-menu__item-link"><img src="/images/dot.png">DJI Phantom 4</a>
+              </div>
+              <div class="ty-menu__submenu">
+               <ul class="ty-menu__submenu-items cm-responsive-menu-submenu">
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/dji-phantom-4/phantom-4-acc/" class="ty-menu__item-link"><img src="/images/dot.png">Аксессуары для DJI Phantom 4</a>
+                 </div></li> 
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/dji-phantom-4/phantom-4-parts/" class="ty-menu__item-link"><img src="/images/dot.png">Запчасти DJI Phantom 4</a>
+                 </div></li> 
+               </ul>
+              </div> </li> 
+             <li class="ty-menu__item cm-menu-item-responsive dropdown-vertical__dir menu-level-1">
+              <div class="ty-menu__item-toggle visible-tablet visible-phone cm-responsive-menu-toggle">
+               <i class="ty-icon-down-open"></i>
+              </div>
+              <div class="hidden-tablet hidden-phone">
+               <i class="ty-icon-left-open"></i>
+              </div>
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/copters/dji-matrice-100-ru/" class="ty-menu__item-link"><img src="/images/dot.png">DJI Matrice 100</a>
+              </div>
+              <div class="ty-menu__submenu">
+               <ul class="ty-menu__submenu-items cm-responsive-menu-submenu">
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/dji-matrice-100-ru/aksessuary-dlya-dji-matrice-100/" class="ty-menu__item-link"><img src="/images/dot.png">Аксессуары для DJI Matrice 100</a>
+                 </div></li> 
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/dji-matrice-100-ru/matrice-100-parts/" class="ty-menu__item-link"><img src="/images/dot.png">Запчасти для Matrice 100</a>
+                 </div></li> 
+               </ul>
+              </div> </li> 
+             <li class="ty-menu__item cm-menu-item-responsive dropdown-vertical__dir menu-level-1">
+              <div class="ty-menu__item-toggle visible-tablet visible-phone cm-responsive-menu-toggle">
+               <i class="ty-icon-down-open"></i>
+              </div>
+              <div class="hidden-tablet hidden-phone">
+               <i class="ty-icon-left-open"></i>
+              </div>
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/copters/dji-matrice-200/" class="ty-menu__item-link"><img src="/images/dot.png">DJI Matrice 200</a>
+              </div>
+              <div class="ty-menu__submenu">
+               <ul class="ty-menu__submenu-items cm-responsive-menu-submenu">
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/dji-matrice-200/aksessuary-dlya-dji-matrice-200/" class="ty-menu__item-link"><img src="/images/dot.png">Аксессуары для DJI Matrice 200</a>
+                 </div></li> 
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/dji-matrice-200/zapchasti-dlya-kvadrokoptera-dji-matrice-200/" class="ty-menu__item-link"><img src="/images/dot.png">Запчасти для квадрокоптера DJI Matrice 200</a>
+                 </div></li> 
+               </ul>
+              </div> </li> 
+             <li class="ty-menu__item cm-menu-item-responsive dropdown-vertical__dir menu-level-1">
+              <div class="ty-menu__item-toggle visible-tablet visible-phone cm-responsive-menu-toggle">
+               <i class="ty-icon-down-open"></i>
+              </div>
+              <div class="hidden-tablet hidden-phone">
+               <i class="ty-icon-left-open"></i>
+              </div>
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/copters/matrice-600/" class="ty-menu__item-link"><img src="/images/dot.png">DJI Matrice 600</a>
+              </div>
+              <div class="ty-menu__submenu">
+               <ul class="ty-menu__submenu-items cm-responsive-menu-submenu">
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/matrice-600/aksessuary-dlya-dji-matrice-600/" class="ty-menu__item-link"><img src="/images/dot.png">Аксессуары для DJI Matrice 600</a>
+                 </div></li> 
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/matrice-600/dji-matrice-600-parts/" class="ty-menu__item-link"><img src="/images/dot.png">Запчасти для DJI Matrice 600</a>
+                 </div></li> 
+               </ul>
+              </div> </li> 
+             <li class="ty-menu__item cm-menu-item-responsive dropdown-vertical__dir menu-level-1">
+              <div class="ty-menu__item-toggle visible-tablet visible-phone cm-responsive-menu-toggle">
+               <i class="ty-icon-down-open"></i>
+              </div>
+              <div class="hidden-tablet hidden-phone">
+               <i class="ty-icon-left-open"></i>
+              </div>
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/copters/agras-mg-1/" class="ty-menu__item-link"><img src="/images/dot.png">DJI Agras MG-1</a>
+              </div>
+              <div class="ty-menu__submenu">
+               <ul class="ty-menu__submenu-items cm-responsive-menu-submenu">
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/agras-mg-1/aksessuary-dlya-dji-agras-mg-1/" class="ty-menu__item-link"><img src="/images/dot.png">Аксессуары для DJI Agras MG-1</a>
+                 </div></li> 
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/agras-mg-1/zapchasti-dlya-dji-agras-mg-1/" class="ty-menu__item-link"><img src="/images/dot.png">Запчасти для DJI Agras MG-1</a>
+                 </div></li> 
+               </ul>
+              </div> </li> 
+             <li class="ty-menu__item cm-menu-item-responsive dropdown-vertical__dir menu-level-1">
+              <div class="ty-menu__item-toggle visible-tablet visible-phone cm-responsive-menu-toggle">
+               <i class="ty-icon-down-open"></i>
+              </div>
+              <div class="hidden-tablet hidden-phone">
+               <i class="ty-icon-left-open"></i>
+              </div>
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/copters/sets/" class="ty-menu__item-link"><img src="/images/dot.png">Комплекты для сборки</a>
+              </div>
+              <div class="ty-menu__submenu">
+               <ul class="ty-menu__submenu-items cm-responsive-menu-submenu">
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/sets/frames/" class="ty-menu__item-link"><img src="/images/dot.png">Рамы для квадрокоптеров</a>
+                 </div></li> 
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/sets/flight-controllers/" class="ty-menu__item-link"><img src="/images/dot.png">Контроллеры полета</a>
+                 </div></li> 
+               </ul>
+              </div> </li> 
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/copters/props/" class="ty-menu__item-link"><img src="/images/dot.png">Пропеллеры для квадрокоптеров</a>
+              </div></li> 
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/copters/multy-access/" class="ty-menu__item-link"><img src="/images/dot.png">Аксессуары для квадрокоптеров</a>
+              </div></li> 
+             <li class="ty-menu__item cm-menu-item-responsive dropdown-vertical__dir menu-level-1">
+              <div class="ty-menu__item-toggle visible-tablet visible-phone cm-responsive-menu-toggle">
+               <i class="ty-icon-down-open"></i>
+              </div>
+              <div class="hidden-tablet hidden-phone">
+               <i class="ty-icon-left-open"></i>
+              </div>
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/copters/gimbal/" class="ty-menu__item-link"><img src="/images/dot.png">Подвесы для камеры</a>
+              </div>
+              <div class="ty-menu__submenu">
+               <ul class="ty-menu__submenu-items cm-responsive-menu-submenu">
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/gimbal/bk-motors/" class="ty-menu__item-link"><img src="/images/dot.png">Запчасти для подвесов</a>
+                 </div></li> 
+               </ul>
+              </div> </li> 
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/copters/thermal/" class="ty-menu__item-link"><img src="/images/dot.png">Тепловизоры</a>
+              </div></li> 
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/copters/archiv/" class="ty-menu__item-link"><img src="/images/dot.png">Архивные модели</a>
+              </div></li> 
+             <li class="ty-menu__item cm-menu-item-responsive dropdown-vertical__dir menu-level-1">
+              <div class="ty-menu__item-toggle visible-tablet visible-phone cm-responsive-menu-toggle">
+               <i class="ty-icon-down-open"></i>
+              </div>
+              <div class="hidden-tablet hidden-phone">
+               <i class="ty-icon-left-open"></i>
+              </div>
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/copters/fpv-racing/" class="ty-menu__item-link"><img src="/images/dot.png">FPV Racing</a>
+              </div>
+              <div class="ty-menu__submenu">
+               <ul class="ty-menu__submenu-items cm-responsive-menu-submenu">
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/fpv-racing/racing-rtf/" class="ty-menu__item-link"><img src="/images/dot.png">FPV Racing коптеры</a>
+                 </div></li> 
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/fpv-racing/frames/" class="ty-menu__item-link"><img src="/images/dot.png">Рамы для FPV Racing</a>
+                 </div></li> 
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/fpv-racing/flight-controllers/" class="ty-menu__item-link"><img src="/images/dot.png">Полетные контроллеры гонок</a>
+                 </div></li> 
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/fpv-racing/motors/" class="ty-menu__item-link"><img src="/images/dot.png">Моторы для гоночных квадрокоптеров</a>
+                 </div></li> 
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/fpv-racing/props/" class="ty-menu__item-link"><img src="/images/dot.png">Пропеллеры для гоночных коптеров</a>
+                 </div></li> 
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/fpv-racing/accs/" class="ty-menu__item-link"><img src="/images/dot.png">Аксессуары для гоночных коптеров</a>
+                 </div></li> 
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/fpv-racing/fpv-for-racing/" class="ty-menu__item-link"><img src="/images/dot.png">FPV для гоночных коптеров</a>
+                 </div></li> 
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/fpv-racing/esc-racing/" class="ty-menu__item-link"><img src="/images/dot.png">ESC для гонок</a>
+                 </div></li> 
+                <li class="ty-menu__item cm-menu-item-responsive  menu-level-2">
+                 <div class="ty-menu__submenu-item-header">
+                  <a href="http://coptertime.ru/copters/fpv-racing/lipo-fpv-racing/" class="ty-menu__item-link"><img src="/images/dot.png">LiPo для гоночных коптеров</a>
+                 </div></li> 
+               </ul>
+              </div> </li> 
+            </ul>
+           </div> </li> 
+          <li class="ty-menu__item cm-menu-item-responsive dropdown-vertical__dir menu-level-">
+           <div class="ty-menu__item-toggle visible-tablet visible-phone cm-responsive-menu-toggle">
+            <i class="ty-icon-down-open"></i>
+           </div>
+           <div class="hidden-tablet hidden-phone">
+            <i class="ty-icon-left-open"></i>
+           </div>
+           <div class="ty-menu__submenu-item-header">
+            <a href="http://coptertime.ru/rx-tx/" class="ty-menu__item-link"><img src="/images/dot.png">Радиоаппаратура</a>
+           </div>
+           <div class="ty-menu__submenu">
+            <ul class="ty-menu__submenu-items cm-responsive-menu-submenu">
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/rx-tx/transmitters/" class="ty-menu__item-link"><img src="/images/dot.png">Комплекты</a>
+              </div></li> 
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/rx-tx/rx-accessories/" class="ty-menu__item-link"><img src="/images/dot.png">Аксессуары</a>
+              </div></li> 
+            </ul>
+           </div> </li> 
+          <li class="ty-menu__item cm-menu-item-responsive dropdown-vertical__dir menu-level-">
+           <div class="ty-menu__item-toggle visible-tablet visible-phone cm-responsive-menu-toggle">
+            <i class="ty-icon-down-open"></i>
+           </div>
+           <div class="hidden-tablet hidden-phone">
+            <i class="ty-icon-left-open"></i>
+           </div>
+           <div class="ty-menu__submenu-item-header">
+            <a href="http://coptertime.ru/chargers/" class="ty-menu__item-link"><img src="/images/dot.png">Зарядные устройства</a>
+           </div>
+           <div class="ty-menu__submenu">
+            <ul class="ty-menu__submenu-items cm-responsive-menu-submenu">
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/chargers/charger/" class="ty-menu__item-link"><img src="/images/dot.png">Зарядные устройства LiPo аккумуляторов</a>
+              </div></li> 
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/chargers/powersupply/" class="ty-menu__item-link"><img src="/images/dot.png">Блоки питания</a>
+              </div></li> 
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/chargers/car-charger/" class="ty-menu__item-link"><img src="/images/dot.png">Автомобильные зарядные</a>
+              </div></li> 
+            </ul>
+           </div> </li> 
+          <li class="ty-menu__item cm-menu-item-responsive dropdown-vertical__dir menu-level-">
+           <div class="ty-menu__item-toggle visible-tablet visible-phone cm-responsive-menu-toggle">
+            <i class="ty-icon-down-open"></i>
+           </div>
+           <div class="hidden-tablet hidden-phone">
+            <i class="ty-icon-left-open"></i>
+           </div>
+           <div class="ty-menu__submenu-item-header">
+            <a href="http://coptertime.ru/batteries/" class="ty-menu__item-link"><img src="/images/dot.png">Аккумуляторы</a>
+           </div>
+           <div class="ty-menu__submenu">
+            <ul class="ty-menu__submenu-items cm-responsive-menu-submenu">
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/batteries/batteryaccessories/" class="ty-menu__item-link"><img src="/images/dot.png">Аксессуары к аккумуляторам</a>
+              </div></li> 
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/batteries/lipo-3s/" class="ty-menu__item-link"><img src="/images/dot.png">Lipo аккумуляторы 3S</a>
+              </div></li> 
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/batteries/lipo-4s/" class="ty-menu__item-link"><img src="/images/dot.png">Lipo аккумуляторы 4S</a>
+              </div></li> 
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/batteries/6s/" class="ty-menu__item-link"><img src="/images/dot.png">Lipo аккумуляторы 6S</a>
+              </div></li> 
+            </ul>
+           </div> </li> 
+          <li class="ty-menu__item cm-menu-item-responsive dropdown-vertical__dir menu-level-">
+           <div class="ty-menu__item-toggle visible-tablet visible-phone cm-responsive-menu-toggle">
+            <i class="ty-icon-down-open"></i>
+           </div>
+           <div class="hidden-tablet hidden-phone">
+            <i class="ty-icon-left-open"></i>
+           </div>
+           <div class="ty-menu__submenu-item-header">
+            <a href="http://coptertime.ru/fpv/" class="ty-menu__item-link"><img src="/images/dot.png">FPV&amp;Video</a>
+           </div>
+           <div class="ty-menu__submenu">
+            <ul class="ty-menu__submenu-items cm-responsive-menu-submenu">
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/fpv/dji-goggles/" class="ty-menu__item-link"><img src="/images/dot.png">DJI Goggles</a>
+              </div></li> 
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/fpv/digital/" class="ty-menu__item-link"><img src="/images/dot.png">FPV Digital</a>
+              </div></li> 
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/fpv/karty-pamyati/" class="ty-menu__item-link"><img src="/images/dot.png">Карты памяти</a>
+              </div></li> 
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/fpv/video-tx-rx/" class="ty-menu__item-link"><img src="/images/dot.png">Передатчики и приемники 5,8 Ггц</a>
+              </div></li> 
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/fpv/camera/" class="ty-menu__item-link"><img src="/images/dot.png">Камеры для FPV полетов</a>
+              </div></li> 
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/fpv/osd/" class="ty-menu__item-link"><img src="/images/dot.png">OSD и телеметрия</a>
+              </div></li> 
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/fpv/monitors/" class="ty-menu__item-link"><img src="/images/dot.png">FPV мониторы</a>
+              </div></li> 
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/fpv/fpv-googles/" class="ty-menu__item-link"><img src="/images/dot.png">FPV и VR очки</a>
+              </div></li> 
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/fpv/antenna/" class="ty-menu__item-link"><img src="/images/dot.png">Антенны</a>
+              </div></li> 
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/fpv/other/" class="ty-menu__item-link"><img src="/images/dot.png">Разное</a>
+              </div></li> 
+            </ul>
+           </div> </li> 
+          <li class="ty-menu__item cm-menu-item-responsive dropdown-vertical__dir menu-level-">
+           <div class="ty-menu__item-toggle visible-tablet visible-phone cm-responsive-menu-toggle">
+            <i class="ty-icon-down-open"></i>
+           </div>
+           <div class="hidden-tablet hidden-phone">
+            <i class="ty-icon-left-open"></i>
+           </div>
+           <div class="ty-menu__submenu-item-header">
+            <a href="http://coptertime.ru/games/" class="ty-menu__item-link"><img src="/images/dot.png">Игрушки</a>
+           </div>
+           <div class="ty-menu__submenu">
+            <ul class="ty-menu__submenu-items cm-responsive-menu-submenu">
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/games/toys-parts/" class="ty-menu__item-link"><img src="/images/dot.png">Запчасти к игрушкам</a>
+              </div></li> 
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/games/byrobot/" class="ty-menu__item-link"><img src="/images/dot.png">Квадрокоптер Byrobot</a>
+              </div></li> 
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/games/kvadrokoptery-i-zapchasti-blade/" class="ty-menu__item-link"><img src="/images/dot.png">Квадрокоптеры и запчасти Blade</a>
+              </div></li> 
+            </ul>
+           </div> </li> 
+          <li class="ty-menu__item cm-menu-item-responsive dropdown-vertical__dir menu-level-">
+           <div class="ty-menu__item-toggle visible-tablet visible-phone cm-responsive-menu-toggle">
+            <i class="ty-icon-down-open"></i>
+           </div>
+           <div class="hidden-tablet hidden-phone">
+            <i class="ty-icon-left-open"></i>
+           </div>
+           <div class="ty-menu__submenu-item-header">
+            <a href="http://coptertime.ru/steadycams/" class="ty-menu__item-link"><img src="/images/dot.png">Электронные стедикамы</a>
+           </div>
+           <div class="ty-menu__submenu">
+            <ul class="ty-menu__submenu-items cm-responsive-menu-submenu">
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/steadycams/aksessuary-k-stedikamam/" class="ty-menu__item-link"><img src="/images/dot.png">Аксессуары к стедикамам</a>
+              </div></li> 
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/steadycams/dji-osmo-ru/" class="ty-menu__item-link"><img src="/images/dot.png">DJI Osmo</a>
+              </div></li> 
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/steadycams/dji-ronin/" class="ty-menu__item-link"><img src="/images/dot.png">DJI Ronin</a>
+              </div></li> 
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/steadycams/dji-osmo-parts/" class="ty-menu__item-link"><img src="/images/dot.png">Аксессуары DJI Osmo</a>
+              </div></li> 
+             <li class="ty-menu__item cm-menu-item-responsive  menu-level-1">
+              <div class="ty-menu__submenu-item-header">
+               <a href="http://coptertime.ru/steadycams/ronin-parts/" class="ty-menu__item-link"><img src="/images/dot.png">Аксессуары Ronin</a>
+              </div></li> 
+            </ul>
+           </div> </li> 
+          <li class="ty-menu__item cm-menu-item-responsive  menu-level-">
+           <div class="ty-menu__submenu-item-header">
+            <a href="http://coptertime.ru/used/" class="ty-menu__item-link"><img src="/images/dot.png">Уцененный товар (б/у)</a>
+           </div></li> 
+          <li class="ty-menu__item cm-menu-item-responsive  menu-level-">
+           <div class="ty-menu__submenu-item-header">
+            <a href="http://coptertime.ru/copter-cases/" class="ty-menu__item-link"><img src="/images/dot.png">Рюкзаки и кейсы</a>
+           </div></li> 
+          <li class="ty-menu__item cm-menu-item-responsive  menu-level-">
+           <div class="ty-menu__submenu-item-header">
+            <a href="http://coptertime.ru/3d-models/" class="ty-menu__item-link"><img src="/images/dot.png">3D детали</a>
+           </div></li> 
+          <li class="ty-menu__item cm-menu-item-responsive  menu-level-">
+           <div class="ty-menu__submenu-item-header">
+            <a href="http://coptertime.ru/100rub/" class="ty-menu__item-link"><img src="/images/dot.png">Все по 100 руб.</a>
+           </div></li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div>
+      <div class="span12 product_block"> 
+       <div class="row"> 
+        <div class="span12 breadcrumbs-grid"> 
+         <div id="breadcrumbs_235"> 
+          <div class="ty-breadcrumbs clearfix"> 
+           <a href="http://coptertime.ru/" class="ty-breadcrumbs__a">Главная</a>
+           <span class="ty-breadcrumbs__slash">/</span>
+           <a href="http://coptertime.ru/copters/" class="ty-breadcrumbs__a">Квадрокоптеры</a>
+           <span class="ty-breadcrumbs__slash">/</span>
+           <a href="http://coptertime.ru/copters/dji-phantom-4/" class="ty-breadcrumbs__a">DJI Phantom 4</a>
+           <span class="ty-breadcrumbs__slash">/</span>
+           <span class="ty-breadcrumbs__current">Квадрокоптер DJI Phantom 4 Advanced + (plus)</span> 
+           <div class="ty-product-switcher"> 
+            <a class="ty-product-switcher__a ty-product-switcher__a-left " href="http://coptertime.ru/copters/dji-phantom-4/kvadrokopter-dji-phantom-4-advanced/?utm_source=gt_3dmodels" title="Предыдущая"><i class="ty-product-switcher__icon ty-icon-left-circle"></i></a> 
+            <span class="switcher-selected-product">3</span> 
+            <span>из</span> 
+            <span class="switcher-total">9</span> 
+            <a class="ty-product-switcher__a ty-product-switcher__a-right " href="http://coptertime.ru/copters/dji-phantom-4/dji-phantom-4-pro/?utm_source=gt_3dmodels" title="Вперед"><i class="ty-product-switcher__icon ty-icon-right-circle"></i></a> 
+           </div> 
+          </div> 
+          <!--breadcrumbs_235-->
+         </div> 
+        </div> 
+       </div>
+       <div class="row"> 
+        <div class="span12 main-content-grid"> 
+         <div class=" warranty_block"> 
+          <div class="ty-wysiwyg-content">
+           <img src="/images/off_warranty.png" alt="">
+          </div> 
+         </div>
+         <script type="text/javascript" src="http://coptertime.ru/js/tygh/exceptions.js?ver=4.2.3"></script> 
+         <div class="ty-product-block"> 
+          <div class="ty-product-block__wrapper clearfix"> 
+           <div itemscope itemtype="http://schema.org/Product"> 
+            <meta itemprop="sku" content="2206"> 
+            <meta itemprop="name" content="Квадрокоптер DJI Phantom 4 Advanced + (plus)"> 
+            <meta itemprop="description" content="<p>Главное отличие модели&amp;nbsp;DJI Phantom 4 Advanced + (plus) от версии&amp;nbsp;4 Advanced - это наличие экрана 5.5&quot; на пульте управления. В остальном это идентичные модели с одинаковыми полетными характеристиками.</p><p>
+	<img src=&quot;http://coptertime.ru/images/companies/1/phantom4/p4-a/p4-adv-intro.jpg?1492087696223&quot;></p><div>Пульт Phantom 4 Advanced+ (plus) оснащен блоком усовершенствованной системы передачи сигнала Lightbridge, транслирующей видео высокого качества на расстоянии до 7 км (<em>пр</em><em style=&quot;background-color: initial;&quot;>и выполнении стандарта FCC, на открытом пространстве без помех</em>). Встроенный дисплей с диагональю 5,5 дюйма и разрешением Full HD (1080p) обладает яркостью 1000 кд/м2 - в два раза ярче большинства планшетов.<br><br>Даже под прямыми солнечными лучами вы сможете ясно видеть, что вы снимаете. Пульт Phantom 4 Advanced+ (plus) работает в течение пяти часов и является универсальным устройством для управления дроном. Встроенное приложение DJI GO позволит вести прямую трансляцию и загружать отснятый материал в социальные сети, блоги и т.д.</div>
+<div><p><img src=&quot;http://coptertime.ru/images/companies/1/phantom4/p4-a/p4a-rc.jpg?1492424628037&quot;></p></div><p>Полное описание других особенностей версии без экрана на странице модели <a href=&quot;http://coptertime.ru/copters/dji-phantom-4/kvadrokopter-dji-phantom-4-advanced/&quot;>квадрокоптера DJI Phantom 4 Advanced</a>.</p>"> 
+            <div itemprop="offers" itemscope itemtype="http://schema.org/Offer"> 
+             <link itemprop="availability" href="http://schema.org/InStock"> 
+             <meta itemprop="priceCurrency" content="RUB"> 
+             <meta itemprop="price" content="110890"> 
+            </div> 
+           </div> 
+           <div class="hidden" id="content_call_request_2206" title="Купить в один клик"> 
+            <noindex> 
+             <form name="call_requests_form" id="form_call_request_2206" action="http://coptertime.ru/" method="post" class="cm-ajax"> 
+              <!-- call_request_2206 --> 
+              <input type="hidden" name="call_data[product_id_]" value="2206"> 
+              <div class="ty-cr-product-info-container"> 
+               <div class="ty-cr-product-info-image"> 
+                <img class="ty-pict   " id="det_img_2206" src="http://coptertime.ru/images/thumbnails/120/80/detailed/17/p4-adv-plus.png" alt="Квадрокоптер DJI Phantom 4 Advanced + (plus) " title="Квадрокоптер DJI Phantom 4 Advanced + (plus)"> 
+               </div> 
+               <div class="ty-cr-product-info-header"> 
+                <p class="ty-product-block-title">Квадрокоптер DJI Phantom 4 Advanced + (plus)</p> 
+               </div> 
+               <input class="width:1px; height: 1px;margin:0;padding:0;" type="text" name="goodname" value="Квадрокоптер DJI Phantom 4 Advanced + (plus)"> 
+              </div> 
+              <div class="ty-control-group"> 
+               <label class="ty-control-group__title" for="call_data_call_request_2206_name">Ваше имя</label> 
+               <input id="call_data_call_request_2206_name" size="50" class="ty-input-text-full" type="text" name="call_data[name]" value=""> 
+              </div> 
+              <div class="ty-control-group"> 
+               <label for="call_data_call_request_2206_phone" class="ty-control-group__title cm-phone">Телефон</label> 
+               <input id="call_data_call_request_2206_phone" class="ty-input-text-full cm-cr-mask-phone" size="50" type="text" name="call_data[phone]" value=""> 
+              </div> 
+              <div class="ty-control-group"> 
+               <label for="call_data_call_request_2206_email" class="ty-control-group__title cm-email">E-mail</label> 
+               <input id="call_data_call_request_2206_email" class="ty-input-text-full" size="50" type="text" name="call_data[email]" value=""> 
+              </div> 
+              <div class="cr-popup-error-box"> 
+               <div class="hidden cm-cr-error-box help-inline"> 
+                <p>Пожалуйста, введите телефон или email, чтобы наш сотрудник мог связаться с вами</p> 
+               </div> 
+              </div> 
+              <div class="buttons-container"> 
+               <button class="ty-btn__primary ty-btn__big cm-form-dialog-closer ty-btn ty-btn" type="submit" name="dispatch[call_requests.request]">Отправить</button> 
+              </div> 
+             </form> 
+            </noindex> 
+           </div> 
+           <div class="ty-product-block__img-wrapper"> 
+            <div class="ty-product-block__img cm-reload-2206" id="product_images_2206_update"> 
+             <ul class="ty-discount-label cm-reload-2206" id="discount_label_update_2206"> 
+              <li class="ty-discount-label__item" id="line_prc_discount_value_2206"><span class="ty-discount-label__value" id="prc_discount_value_label_2206">Скидка 12%</span></li> 
+              <!--discount_label_update_2206-->
+             </ul> 
+             <ul class="ty-free-shipping-label cm-reload-2206" id="discount_label_update_2206"> 
+              <li class="ty-discount-label__item" id="line_prc_discount_value_2206"><span class="ty-discount-label__value" id="prc_discount_value_label_2206">Бесплатная доставка</span></li> 
+              <!--free_shipping_update_2206-->
+             </ul> 
+             <div class="ty-product-img cm-preview-wrapper"> 
+              <a id="det_img_link_220659ea3acc7d46e_17105" data-ca-image-id="preview[product_images_220659ea3acc7d46e]" class="cm-image-previewer cm-previewer ty-previewer" href="http://coptertime.ru/images/watermarked/1/detailed/17/p4-adv-plus.jpg" title=""><img class="ty-pict   " id="det_img_220659ea3acc7d46e_17105" src="http://coptertime.ru/images/thumbnails/500/333/detailed/17/p4-adv-plus.png" alt="Квадрокоптер DJI Phantom 4 Advanced + (plus) " title="Квадрокоптер DJI Phantom 4 Advanced + (plus)"><span class="ty-previewer__icon hidden-phone"></span></a> 
+              <a id="det_img_link_220659ea3acc7d46e_17115" data-ca-image-id="preview[product_images_220659ea3acc7d46e]" class="cm-image-previewer hidden cm-previewer ty-previewer" href="http://coptertime.ru/images/watermarked/1/detailed/17/large_8e4406e9-6b59-4344-8a27-448e36ee0135_94vt-s9.jpg" title=""><img class="ty-pict   " id="det_img_220659ea3acc7d46e_17115" src="http://coptertime.ru/images/thumbnails/500/333/detailed/17/large_8e4406e9-6b59-4344-8a27-448e36ee0135_94vt-s9.png" alt="Квадрокоптер DJI Phantom 4 Advanced + (plus) " title="Квадрокоптер DJI Phantom 4 Advanced + (plus)"><span class="ty-previewer__icon hidden-phone"></span></a> 
+              <a id="det_img_link_220659ea3acc7d46e_17116" data-ca-image-id="preview[product_images_220659ea3acc7d46e]" class="cm-image-previewer hidden cm-previewer ty-previewer" href="http://coptertime.ru/images/watermarked/1/detailed/17/large_58154309-3652-4b42-a747-5c5e3de04640_o6xj-eg.jpg" title=""><img class="ty-pict   " id="det_img_220659ea3acc7d46e_17116" src="http://coptertime.ru/images/thumbnails/500/333/detailed/17/large_58154309-3652-4b42-a747-5c5e3de04640_o6xj-eg.png" alt="Квадрокоптер DJI Phantom 4 Advanced + (plus) " title="Квадрокоптер DJI Phantom 4 Advanced + (plus)"><span class="ty-previewer__icon hidden-phone"></span></a> 
+              <a id="det_img_link_220659ea3acc7d46e_17117" data-ca-image-id="preview[product_images_220659ea3acc7d46e]" class="cm-image-previewer hidden cm-previewer ty-previewer" href="http://coptertime.ru/images/watermarked/1/detailed/17/large_fee3ec37-e492-4e69-8091-f29448b91940_qgfz-81.jpg" title=""><img class="ty-pict   " id="det_img_220659ea3acc7d46e_17117" src="http://coptertime.ru/images/thumbnails/500/333/detailed/17/large_fee3ec37-e492-4e69-8091-f29448b91940_qgfz-81.png" alt="Квадрокоптер DJI Phantom 4 Advanced + (plus) " title="Квадрокоптер DJI Phantom 4 Advanced + (plus)"><span class="ty-previewer__icon hidden-phone"></span></a> 
+              <a id="det_img_link_220659ea3acc7d46e_17118" data-ca-image-id="preview[product_images_220659ea3acc7d46e]" class="cm-image-previewer hidden cm-previewer ty-previewer" href="http://coptertime.ru/images/watermarked/1/detailed/17/large_045c6fe0-bb32-40e7-8866-fddaf75c1230_6ubk-ln.jpg" title=""><img class="ty-pict   " id="det_img_220659ea3acc7d46e_17118" src="http://coptertime.ru/images/thumbnails/500/333/detailed/17/large_045c6fe0-bb32-40e7-8866-fddaf75c1230_6ubk-ln.png" alt="Квадрокоптер DJI Phantom 4 Advanced + (plus) " title="Квадрокоптер DJI Phantom 4 Advanced + (plus)"><span class="ty-previewer__icon hidden-phone"></span></a> 
+              <a id="det_img_link_220659ea3acc7d46e_17119" data-ca-image-id="preview[product_images_220659ea3acc7d46e]" class="cm-image-previewer hidden cm-previewer ty-previewer" href="http://coptertime.ru/images/watermarked/1/detailed/17/large_9caf1002-949c-4683-a4e3-1a821b9c62e1_9yrx-30.jpg" title=""><img class="ty-pict   " id="det_img_220659ea3acc7d46e_17119" src="http://coptertime.ru/images/thumbnails/500/333/detailed/17/large_9caf1002-949c-4683-a4e3-1a821b9c62e1_9yrx-30.png" alt="Квадрокоптер DJI Phantom 4 Advanced + (plus) " title="Квадрокоптер DJI Phantom 4 Advanced + (plus)"><span class="ty-previewer__icon hidden-phone"></span></a> 
+             </div> 
+             <div class="ty-product-thumbnails ty-center cm-image-gallery" id="images_preview_220659ea3acc7d46e" style="width: 500px;"> 
+              <div class="tbpd">
+               <a data-ca-gallery-large-id="det_img_link_220659ea3acc7d46e_17105" class="cm-thumbnails-mini active ty-product-thumbnails__item"><img class="ty-pict   " id="det_img_220659ea3acc7d46e_17105_mini" src="http://coptertime.ru/images/thumbnails/65/65/detailed/17/p4-adv-plus.png" alt="Квадрокоптер DJI Phantom 4 Advanced + (plus) " title="Квадрокоптер DJI Phantom 4 Advanced + (plus)"></a>
+              </div>
+              <div class="tbpd">
+               <a data-ca-gallery-large-id="det_img_link_220659ea3acc7d46e_17115" class="cm-thumbnails-mini ty-product-thumbnails__item"><img class="ty-pict   " id="det_img_220659ea3acc7d46e_17115_mini" src="http://coptertime.ru/images/thumbnails/65/65/detailed/17/large_8e4406e9-6b59-4344-8a27-448e36ee0135_94vt-s9.png" alt="Квадрокоптер DJI Phantom 4 Advanced + (plus) " title="Квадрокоптер DJI Phantom 4 Advanced + (plus)"></a>
+              </div>
+              <div class="tbpd">
+               <a data-ca-gallery-large-id="det_img_link_220659ea3acc7d46e_17116" class="cm-thumbnails-mini ty-product-thumbnails__item"><img class="ty-pict   " id="det_img_220659ea3acc7d46e_17116_mini" src="http://coptertime.ru/images/thumbnails/65/65/detailed/17/large_58154309-3652-4b42-a747-5c5e3de04640_o6xj-eg.png" alt="Квадрокоптер DJI Phantom 4 Advanced + (plus) " title="Квадрокоптер DJI Phantom 4 Advanced + (plus)"></a>
+              </div>
+              <div class="tbpd">
+               <a data-ca-gallery-large-id="det_img_link_220659ea3acc7d46e_17117" class="cm-thumbnails-mini ty-product-thumbnails__item"><img class="ty-pict   " id="det_img_220659ea3acc7d46e_17117_mini" src="http://coptertime.ru/images/thumbnails/65/65/detailed/17/large_fee3ec37-e492-4e69-8091-f29448b91940_qgfz-81.png" alt="Квадрокоптер DJI Phantom 4 Advanced + (plus) " title="Квадрокоптер DJI Phantom 4 Advanced + (plus)"></a>
+              </div>
+              <div class="tbpd">
+               <a data-ca-gallery-large-id="det_img_link_220659ea3acc7d46e_17118" class="cm-thumbnails-mini ty-product-thumbnails__item"><img class="ty-pict   " id="det_img_220659ea3acc7d46e_17118_mini" src="http://coptertime.ru/images/thumbnails/65/65/detailed/17/large_045c6fe0-bb32-40e7-8866-fddaf75c1230_6ubk-ln.png" alt="Квадрокоптер DJI Phantom 4 Advanced + (plus) " title="Квадрокоптер DJI Phantom 4 Advanced + (plus)"></a>
+              </div>
+              <div class="tbpd">
+               <a data-ca-gallery-large-id="det_img_link_220659ea3acc7d46e_17119" class="cm-thumbnails-mini ty-product-thumbnails__item"><img class="ty-pict   " id="det_img_220659ea3acc7d46e_17119_mini" src="http://coptertime.ru/images/thumbnails/65/65/detailed/17/large_9caf1002-949c-4683-a4e3-1a821b9c62e1_9yrx-30.png" alt="Квадрокоптер DJI Phantom 4 Advanced + (plus) " title="Квадрокоптер DJI Phantom 4 Advanced + (plus)"></a>
+              </div> 
+             </div> 
+             <script type="text/javascript" src="http://coptertime.ru/js/tygh/previewers/magnific.previewer.js?ver=4.2.3"></script> 
+             <script type="text/javascript" src="http://coptertime.ru/js/tygh/product_image_gallery.js?ver=4.2.3"></script> 
+             <script type="text/javascript" src="http://coptertime.ru/js/addons/image_zoom/cloudzoom.js?ver=4.2.3"></script> 
+             <script type="text/javascript">
+(function(_, $) {
+
+    $.ceEvent('on', 'ce.commoninit', function(context) {
+
+        // Disable Cloud zoom on mobile devices
+        if($(window).width() > 767) {
+
+            context.find('.cm-previewer').each(function() {
+                var elm = $(this).find('img');
+                if(elm.data('CloudZoom') == undefined) {
+                    elm.attr('data-cloudzoom', 'zoomImage: "' + $(this).prop('href') + '"')
+                        .CloudZoom({
+                            tintColor: '#ffffff',
+                            tintOpacity: 0.6,
+                            animationTime: 200,
+                            easeTime: 200,
+                            zoomFlyOut: true,
+                            zoomSizeMode: 'zoom',
+                            captionPosition: 'bottom',
+                                                        zoomPosition: '8',
+                            autoInside: 767,
+                            disableOnScreenWidth: 767
+                    });
+                }
+            });
+
+        }
+    });
+
+}(Tygh, Tygh.$));
+</script> 
+             <!--product_images_2206_update-->
+            </div> 
+           </div> 
+           <div class="ty-product-block__left"> 
+            <div class="ty-prod-padd"> 
+             <form action="http://coptertime.ru/" method="post" name="product_form_2206" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle "> 
+              <input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*"> 
+              <input type="hidden" name="redirect_url" value="index.php?utm_source=gt_3dmodels&amp;dispatch=products.view&amp;product_id=2206"> 
+              <input type="hidden" name="product_data[2206][product_id]" value="2206"> 
+              <h1 class="ty-product-block-title">Квадрокоптер DJI Phantom 4 Advanced + (plus)</h1> 
+              <div class="ty-desc-block"> 
+               <div class="ty-product-block__note"> 
+                <p>Большая 1-дюймовая матрица. Время полета до 30 минут. Яркий дисплей.&nbsp;Датчики обнаружения препятствий впереди.&nbsp;</p> 
+               </div> 
+               <div class="ty-product-block__sku"> 
+                <div class="ty-control-group product-list-field cm-reload-2206" id="sku_update_2206"> 
+                 <input type="hidden" name="appearance[show_sku]" value="1"> 
+                 <label class="ty-control-group__label" style="font-weight: bold" id="sku_2206">Артикул:</label> 
+                 <span class="ty-control-group__item" id="product_code_2206">2206</span> 
+                 <!--sku_update_2206-->
+                </div> 
+               </div> 
+              </div> 
+              <div class="ty-product-block__option"> 
+               <div class="cm-reload-2206" id="product_options_update_2206"> 
+                <input type="hidden" name="appearance[show_product_options]" value="1"> 
+                <input type="hidden" name="appearance[details_page]" value="1"> 
+                <input type="hidden" name="additional_info[info_type]" value="D"> 
+                <input type="hidden" name="additional_info[get_icon]" value="1"> 
+                <input type="hidden" name="additional_info[get_detailed]" value="1"> 
+                <input type="hidden" name="additional_info[get_additional]" value=""> 
+                <input type="hidden" name="additional_info[get_options]" value="1"> 
+                <input type="hidden" name="additional_info[get_discounts]" value="1"> 
+                <input type="hidden" name="additional_info[get_features]" value=""> 
+                <input type="hidden" name="additional_info[get_extra]" value=""> 
+                <input type="hidden" name="additional_info[get_taxed_prices]" value="1"> 
+                <input type="hidden" name="additional_info[get_for_one_product]" value="1"> 
+                <input type="hidden" name="additional_info[detailed_params]" value="1"> 
+                <input type="hidden" name="additional_info[features_display_on]" value="C"> 
+                <script type="text/javascript">
+(function(_, $) {
+    $.ceEvent('on', 'ce.formpre_product_form_2206', function(frm, elm) {
+        if ($('.cm-no-combinations-2206').length) {
+            $.ceNotification('show', {
+                type: 'W', 
+                title: _.tr('warning'), 
+                message: _.tr('cannot_buy'),
+            });
+
+            return false;
+        }
+            
+        return true;
+    });
+}(Tygh, Tygh.$));
+</script> 
+                <!--product_options_update_2206-->
+               </div> 
+              </div> 
+              <div class="ty-product-block__advanced-option"> 
+               <div class="cm-reload-2206" id="advanced_options_update_2206"> 
+                <!--advanced_options_update_2206-->
+               </div> 
+              </div> 
+              <div class="price_btns_field"> 
+               <div class="qty_block"> 
+                <div class="cm-reload-2206" id="qty_update_2206"> 
+                 <input type="hidden" name="appearance[show_qty]" value="1"> 
+                 <input type="hidden" name="appearance[capture_options_vs_qty]" value=""> 
+                 <div class="ty-qty clearfix changer" id="qty_2206"> 
+                  <label class="ty-control-group__label" for="qty_count_2206">Кол-во:</label> 
+                  <div class="ty-center ty-value-changer cm-value-changer"> 
+                   <a class="cm-increase ty-value-changer__increase">+</a> 
+                   <input type="text" size="5" class="ty-value-changer__input cm-amount" id="qty_count_2206" name="product_data[2206][amount]" value="1" data-ca-min-qty="1"> 
+                   <a class="cm-decrease ty-value-changer__decrease">−</a> 
+                  </div> 
+                 </div> 
+                 <!--qty_update_2206-->
+                </div> 
+               </div> 
+               <div class="ty-product-block__field-group"> 
+                <div class="cm-reload-2206 stock-wrap" id="product_amount_update_2206"> 
+                 <input type="hidden" name="appearance[show_product_amount]" value="1"> 
+                 <div class="ty-control-group product-list-field"> 
+                  <span class="ty-qty-in-stock ty-control-group__item" id="in_stock_info_2206">В наличии</span> 
+                 </div> 
+                 <!--product_amount_update_2206-->
+                </div> 
+               </div> 
+               <div class="prices-container price-wrap"> 
+                <!--			<div class="price-txt-new">Цена:</div> --> 
+                <div class="ty-product-prices"> 
+                 <div class="price-txt-new" ">
+                  Цена:
+                 </div> 
+                 <span class="cm-reload-2206" id="old_price_update_2206"> <span class="ty-list-price ty-nowrap" id="line_list_price_2206"><span class="ty-strike"><span id="sec_list_price_2206" class="ty-list-price ty-nowrap">125 690</span>&nbsp;<span class="ty-list-price ty-nowrap"><span>руб.</span></span></span></span> 
+                  <!--old_price_update_2206--></span> &nbsp; 
+                 <div class="ty-product-block__price-actual"> 
+                  <span class="cm-reload-2206 ty-price-update" id="price_update_2206"> <input type="hidden" name="appearance[show_price_values]" value="1"> <input type="hidden" name="appearance[show_price]" value="1"> <span class="ty-price" id="line_discounted_price_2206"><span id="sec_discounted_price_2206" class="ty-price-num">110 890</span>&nbsp;<span class="ty-price-num"><span>руб.</span></span></span> 
+                   <!--price_update_2206--></span> 
+                 </div> 
+                 <span class="cm-reload-2206" id="line_discount_update_2206"> <input type="hidden" name="appearance[show_price_values]" value="1"> <input type="hidden" name="appearance[show_list_discount]" value="1"> 
+                  <!--line_discount_update_2206--></span> 
+                </div> 
+               </div> 
+               <div class="ty-product-block__button"> 
+                <div class="cm-reload-2206 " id="add_to_cart_update_2206"> 
+                 <input type="hidden" name="appearance[show_add_to_cart]" value="1"> 
+                 <input type="hidden" name="appearance[show_list_buttons]" value="1"> 
+                 <input type="hidden" name="appearance[but_role]" value="big"> 
+                 <input type="hidden" name="appearance[quick_view]" value=""> 
+                 <button id="button_cart_2206" class="ty-btn__primary ty-btn__big ty-btn__add-to-cart cm-form-dialog-closer ty-btn" type="submit" name="dispatch[checkout.add..2206]">В корзину</button> 
+                 <a id="opener_call_request_2206" class="cm-dialog-opener cm-dialog-auto-size ty-btn one_click_buyer" data-ca-target-id="content_call_request_2206">Купить в один клик</a> 
+                 <button id="kvk_" class="kupivkredit-button ty-btn" type="submit" name="dispatch[checkout.add.kvk_activate.2206]">Купить в кредит</button> 
+                 <a class="ty-btn ty-btn__text ty-add-to-wish cm-submit text-button" id="button_wishlist_2206" data-ca-dispatch="dispatch[wishlist.add..2206]">Отложить</a> 
+                 <!--add_to_cart_update_2206-->
+                </div> 
+               </div> 
+              </div> 
+             </form> 
+            </div> 
+           </div> 
+          </div> 
+          <script type="text/javascript" src="http://coptertime.ru/js/tygh/tabs.js?ver=4.2.3"></script> 
+          <div class="ty-tabs cm-j-tabs clearfix"> 
+           <ul class="ty-tabs__list"> 
+            <li id="description" class="ty-tabs__item cm-js active"><a class="ty-tabs__a">Описание</a></li> 
+           </ul> 
+          </div> 
+          <div class="cm-tabs-content ty-tabs__content clearfix" id="tabs_content"> 
+           <div id="content_description" class="ty-wysiwyg-content content-description"> 
+            <div>
+             <p>Главное отличие модели&nbsp;DJI Phantom 4 Advanced + (plus) от версии&nbsp;4 Advanced - это наличие экрана 5.5" на пульте управления. В остальном это идентичные модели с одинаковыми полетными характеристиками.</p>
+             <p> <img src="http://coptertime.ru/images/companies/1/phantom4/p4-a/p4-adv-intro.jpg?1492087696223"></p>
+             <div>
+              Пульт Phantom 4 Advanced+ (plus) оснащен блоком усовершенствованной системы передачи сигнала Lightbridge, транслирующей видео высокого качества на расстоянии до 7 км (
+              <em>пр</em>
+              <em style="background-color: initial;">и выполнении стандарта FCC, на открытом пространстве без помех</em>). Встроенный дисплей с диагональю 5,5 дюйма и разрешением Full HD (1080p) обладает яркостью 1000 кд/м2 - в два раза ярче большинства планшетов.
+              <br>
+              <br>Даже под прямыми солнечными лучами вы сможете ясно видеть, что вы снимаете. Пульт Phantom 4 Advanced+ (plus) работает в течение пяти часов и является универсальным устройством для управления дроном. Встроенное приложение DJI GO позволит вести прямую трансляцию и загружать отснятый материал в социальные сети, блоги и т.д.
+             </div> 
+             <div>
+              <p><img src="http://coptertime.ru/images/companies/1/phantom4/p4-a/p4a-rc.jpg?1492424628037"></p>
+             </div>
+             <p>Полное описание других особенностей версии без экрана на странице модели <a href="http://coptertime.ru/copters/dji-phantom-4/kvadrokopter-dji-phantom-4-advanced/">квадрокоптера DJI Phantom 4 Advanced</a>.</p>
+            </div> 
+           </div> 
+           <div id="content_features" class="ty-wysiwyg-content content-features"> 
+           </div> 
+           <div id="content_files" class="ty-wysiwyg-content content-files"> 
+           </div> 
+           <div id="content_attachments" class="ty-wysiwyg-content content-attachments"> 
+           </div> 
+           <div id="content_discussion" class="ty-wysiwyg-content content-discussion"> 
+           </div> 
+           <div id="content_required_products" class="ty-wysiwyg-content content-required_products"> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="product-details"> 
+         </div>
+         <div class="ty-mainbox-container clearfix"> 
+          <p class="ty-mainbox-title" style="font-size: 22px !important;"> Рекомендуем купить: </p> 
+          <div class="ty-mainbox-body"> 
+           <div class="hidden" id="content_call_request_3690001192" title="Купить в один клик"> 
+            <noindex> 
+             <form name="call_requests_form" id="form_call_request_3690001192" action="http://coptertime.ru/" method="post" class="cm-ajax"> 
+              <!-- call_request_3690001192 --> 
+              <input type="hidden" name="call_data[product_id_]" value="1192"> 
+              <div class="ty-cr-product-info-container"> 
+               <div class="ty-cr-product-info-image"> 
+                <img class="ty-pict   " id="det_img_1192" src="http://coptertime.ru/images/thumbnails/120/80/detailed/14/4shell.png" alt="Универсальный твердый рюкзак для всех моделей Phantom 3 / 4 Shellcase V2 " title="Универсальный твердый рюкзак для всех моделей Phantom 3 / 4 Shellcase V2"> 
+               </div> 
+               <div class="ty-cr-product-info-header"> 
+                <p class="ty-product-block-title">Универсальный твердый рюкзак для всех моделей Phantom 3 / 4 Shellcase V2</p> 
+               </div> 
+               <input class="width:1px; height: 1px;margin:0;padding:0;" type="text" name="goodname" value="Универсальный твердый рюкзак для всех моделей Phantom 3 / 4 Shellcase V2"> 
+              </div> 
+              <div class="ty-control-group"> 
+               <label class="ty-control-group__title" for="call_data_call_request_3690001192_name">Ваше имя</label> 
+               <input id="call_data_call_request_3690001192_name" size="50" class="ty-input-text-full" type="text" name="call_data[name]" value=""> 
+              </div> 
+              <div class="ty-control-group"> 
+               <label for="call_data_call_request_3690001192_phone" class="ty-control-group__title cm-phone">Телефон</label> 
+               <input id="call_data_call_request_3690001192_phone" class="ty-input-text-full cm-cr-mask-phone" size="50" type="text" name="call_data[phone]" value=""> 
+              </div> 
+              <div class="ty-control-group"> 
+               <label for="call_data_call_request_3690001192_email" class="ty-control-group__title cm-email">E-mail</label> 
+               <input id="call_data_call_request_3690001192_email" class="ty-input-text-full" size="50" type="text" name="call_data[email]" value=""> 
+              </div> 
+              <div class="cr-popup-error-box"> 
+               <div class="hidden cm-cr-error-box help-inline"> 
+                <p>Пожалуйста, введите телефон или email, чтобы наш сотрудник мог связаться с вами</p> 
+               </div> 
+              </div> 
+              <div class="buttons-container"> 
+               <button class="ty-btn__primary ty-btn__big cm-form-dialog-closer ty-btn ty-btn" type="submit" name="dispatch[call_requests.request]">Отправить</button> 
+              </div> 
+             </form> 
+            </noindex> 
+           </div> 
+           <div class="ty-product-list clearfix"> 
+            <form action="http://coptertime.ru/" method="post" name="product_form_3690001192" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle "> 
+             <input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*"> 
+             <input type="hidden" name="redirect_url" value="index.php?utm_source=gt_3dmodels&amp;dispatch=products.view&amp;product_id=2206"> 
+             <input type="hidden" name="product_data[1192][product_id]" value="1192"> 
+             <div class="ty-product-list__image"> 
+              <span class="cm-reload-3690001192 image-reload" id="list_image_update_3690001192 image-wrapper"> <a href="http://coptertime.ru/copter-cases/coptercase-bp4-shell-case/"> <input type="hidden" name="image[list_image_update_3690001192][link]" value="http://coptertime.ru/copter-cases/coptercase-bp4-shell-case/"> 
+                <ul class="ty-discount-label cm-reload-3690001192" id="discount_label_update_3690001192"> 
+                 <li class="ty-discount-label__item" id="line_prc_discount_value_3690001192"><span class="ty-discount-label__value" id="prc_discount_value_label_3690001192">Скидка 3%</span></li> 
+                 <!--discount_label_update_3690001192-->
+                </ul> <input type="hidden" name="image[list_image_update_3690001192][data]" value="3690001192,260,,product"> <img class="ty-pict   " id="det_img_3690001192" src="http://coptertime.ru/images/thumbnails/260/173/detailed/14/4shell.png" alt="Универсальный твердый рюкзак для всех моделей Phantom 3 / 4 Shellcase V2 " title="Универсальный твердый рюкзак для всех моделей Phantom 3 / 4 Shellcase V2"> </a> 
+               <!--list_image_update_3690001192--></span> 
+              <div class="ty-product-list__rating"> 
+               <span class="ty-nowrap ty-stars"> <a class="cm-external-click" data-ca-scroll="content_discussion" data-ca-external-click-id="discussion"><i class="ty-stars__icon ty-icon-star"></i><i class="ty-stars__icon ty-icon-star"></i><i class="ty-stars__icon ty-icon-star"></i><i class="ty-stars__icon ty-icon-star"></i><i class="ty-stars__icon ty-icon-star-half"></i></a></span> 
+              </div> 
+             </div> 
+             <div class="ty-product-list__content"> 
+              <div class="ty-control-group product-list-field cm-reload-3690001192" id="sku_update_3690001192"> 
+               <input type="hidden" name="appearance[show_sku]" value="1"> 
+               <label class="ty-control-group__label" style="font-weight: bold" id="sku_3690001192">Артикул:</label> 
+               <span class="ty-control-group__item" id="product_code_3690001192">1192</span> 
+               <!--sku_update_3690001192-->
+              </div> 
+              <div class="ty-product-list__info"> 
+               <div class="ty-product-list__item-name"> 
+                <a href="http://coptertime.ru/copter-cases/coptercase-bp4-shell-case/" class="product-title">Универсальный твердый рюкзак для всех моделей Phantom 3 / 4 Shellcase V2</a> 
+               </div> 
+               <div class="ty-product-list__price"> 
+                <div class="price-txt-new" ">
+                 Цена:
+                </div> 
+                <span class="cm-reload-3690001192" id="old_price_update_3690001192"> <span class="ty-list-price ty-nowrap" id="line_list_price_3690001192"><span class="ty-strike"><span id="sec_list_price_3690001192" class="ty-list-price ty-nowrap">6 500</span>&nbsp;<span class="ty-list-price ty-nowrap"><span>руб.</span></span></span></span> 
+                 <!--old_price_update_3690001192--></span> 
+                <span class="cm-reload-3690001192 ty-price-update" id="price_update_3690001192"> <input type="hidden" name="appearance[show_price_values]" value="1"> <input type="hidden" name="appearance[show_price]" value="1"> <span class="ty-price" id="line_discounted_price_3690001192"><span id="sec_discounted_price_3690001192" class="ty-price-num">6 300</span>&nbsp;<span class="ty-price-num"><span>руб.</span></span></span> 
+                 <!--price_update_3690001192--></span> 
+               </div> 
+               <div class="ty-product-list__feature"> 
+                <div class="cm-reload-3690001192" id="product_features_update_3690001192"> 
+                 <input type="hidden" name="appearance[show_features]" value="1"> 
+                 <!--product_features_update_3690001192-->
+                </div> 
+               </div> 
+               <div class="ty-product-list__description"> 
+                <div>
+                  Твердый рюкзак для квадрокоптеров линейки&nbsp;Phantom 3 -&nbsp;4 / Pro / Plus / Advanced / Obsidian. Производитель:&nbsp;CopterCase ....
+                </div> 
+               </div> 
+               <div class="ty-product-list__option"> 
+               </div> 
+               <div class="cm-reload-3690001192 stock-wrap" id="product_amount_update_3690001192"> 
+                <input type="hidden" name="appearance[show_product_amount]" value="1"> 
+                <div class="ty-control-group product-list-field"> 
+                 <span class="ty-qty-in-stock ty-control-group__item" id="in_stock_info_3690001192">В наличии</span> 
+                </div> 
+                <!--product_amount_update_3690001192-->
+               </div> 
+               <div class="ty-product-list__qty"> 
+                <div class="cm-reload-3690001192" id="qty_update_3690001192"> 
+                 <input type="hidden" name="appearance[show_qty]" value="1"> 
+                 <input type="hidden" name="appearance[capture_options_vs_qty]" value=""> 
+                 <div class="ty-qty clearfix changer" id="qty_3690001192"> 
+                  <label class="ty-control-group__label" for="qty_count_3690001192">Кол-во:</label> 
+                  <div class="ty-center ty-value-changer cm-value-changer"> 
+                   <a class="cm-increase ty-value-changer__increase">+</a> 
+                   <input type="text" size="5" class="ty-value-changer__input cm-amount" id="qty_count_3690001192" name="product_data[1192][amount]" value="1" data-ca-min-qty="1"> 
+                   <a class="cm-decrease ty-value-changer__decrease">−</a> 
+                  </div> 
+                 </div> 
+                 <!--qty_update_3690001192-->
+                </div> 
+               </div> 
+              </div> 
+              <div class="ty-product-list__control"> 
+               <div class="cm-reload-3690001192 " id="add_to_cart_update_3690001192"> 
+                <input type="hidden" name="appearance[show_add_to_cart]" value="1"> 
+                <input type="hidden" name="appearance[show_list_buttons]" value="1"> 
+                <input type="hidden" name="appearance[but_role]" value="action"> 
+                <input type="hidden" name="appearance[quick_view]" value=""> 
+                <button id="button_cart_3690001192" class="ty-btn__primary ty-btn__big ty-btn__add-to-cart cm-form-dialog-closer ty-btn" type="submit" name="dispatch[checkout.add..1192]">В корзину</button> 
+                <a id="opener_call_request_3690001192" class="cm-dialog-opener cm-dialog-auto-size ty-btn one_click_buyer" data-ca-target-id="content_call_request_3690001192">Купить в один клик</a> 
+                <a class="ty-btn ty-btn__text ty-add-to-wish cm-submit text-button" id="button_wishlist_3690001192" data-ca-dispatch="dispatch[wishlist.add..1192]">Отложить</a> 
+                <!--add_to_cart_update_3690001192-->
+               </div> 
+              </div> 
+             </div> 
+            </form> 
+           </div> 
+           <hr> 
+           <div class="hidden" id="content_call_request_3690001425" title="Купить в один клик"> 
+            <noindex> 
+             <form name="call_requests_form" id="form_call_request_3690001425" action="http://coptertime.ru/" method="post" class="cm-ajax"> 
+              <!-- call_request_3690001425 --> 
+              <input type="hidden" name="call_data[product_id_]" value="1425"> 
+              <div class="ty-cr-product-info-container"> 
+               <div class="ty-cr-product-info-image"> 
+                <img class="ty-pict   " id="det_img_1425" src="http://coptertime.ru/images/thumbnails/120/80/detailed/15/p4-charger-hub.png" alt="Хаб для заряда 3 аккумуляторов DJI Phantom 4 " title="Хаб для заряда 3 аккумуляторов DJI Phantom 4"> 
+               </div> 
+               <div class="ty-cr-product-info-header"> 
+                <p class="ty-product-block-title">Хаб для заряда 3 аккумуляторов DJI Phantom 4</p> 
+               </div> 
+               <input class="width:1px; height: 1px;margin:0;padding:0;" type="text" name="goodname" value="Хаб для заряда 3 аккумуляторов DJI Phantom 4"> 
+              </div> 
+              <div class="ty-control-group"> 
+               <label class="ty-control-group__title" for="call_data_call_request_3690001425_name">Ваше имя</label> 
+               <input id="call_data_call_request_3690001425_name" size="50" class="ty-input-text-full" type="text" name="call_data[name]" value=""> 
+              </div> 
+              <div class="ty-control-group"> 
+               <label for="call_data_call_request_3690001425_phone" class="ty-control-group__title cm-phone">Телефон</label> 
+               <input id="call_data_call_request_3690001425_phone" class="ty-input-text-full cm-cr-mask-phone" size="50" type="text" name="call_data[phone]" value=""> 
+              </div> 
+              <div class="ty-control-group"> 
+               <label for="call_data_call_request_3690001425_email" class="ty-control-group__title cm-email">E-mail</label> 
+               <input id="call_data_call_request_3690001425_email" class="ty-input-text-full" size="50" type="text" name="call_data[email]" value=""> 
+              </div> 
+              <div class="cr-popup-error-box"> 
+               <div class="hidden cm-cr-error-box help-inline"> 
+                <p>Пожалуйста, введите телефон или email, чтобы наш сотрудник мог связаться с вами</p> 
+               </div> 
+              </div> 
+              <div class="buttons-container"> 
+               <button class="ty-btn__primary ty-btn__big cm-form-dialog-closer ty-btn ty-btn" type="submit" name="dispatch[call_requests.request]">Отправить</button> 
+              </div> 
+             </form> 
+            </noindex> 
+           </div> 
+           <div class="ty-product-list clearfix"> 
+            <form action="http://coptertime.ru/" method="post" name="product_form_3690001425" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle "> 
+             <input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*"> 
+             <input type="hidden" name="redirect_url" value="index.php?utm_source=gt_3dmodels&amp;dispatch=products.view&amp;product_id=2206"> 
+             <input type="hidden" name="product_data[1425][product_id]" value="1425"> 
+             <div class="ty-product-list__image"> 
+              <span class="cm-reload-3690001425 image-reload" id="list_image_update_3690001425 image-wrapper"> <a href="http://coptertime.ru/copters/dji-phantom-4/phantom-4-acc/p4-hub/"> <input type="hidden" name="image[list_image_update_3690001425][link]" value="http://coptertime.ru/copters/dji-phantom-4/phantom-4-acc/p4-hub/"> 
+                <ul class="ty-discount-label cm-reload-3690001425" id="discount_label_update_3690001425"> 
+                 <li class="ty-discount-label__item" id="line_prc_discount_value_3690001425"><span class="ty-discount-label__value" id="prc_discount_value_label_3690001425">Скидка 5%</span></li> 
+                 <!--discount_label_update_3690001425-->
+                </ul> <input type="hidden" name="image[list_image_update_3690001425][data]" value="3690001425,260,,product"> <img class="ty-pict   " id="det_img_3690001425" src="http://coptertime.ru/images/thumbnails/260/173/detailed/15/p4-charger-hub.png" alt="Хаб для заряда 3 аккумуляторов DJI Phantom 4 " title="Хаб для заряда 3 аккумуляторов DJI Phantom 4"> </a> 
+               <!--list_image_update_3690001425--></span> 
+              <div class="ty-product-list__rating"> 
+              </div> 
+             </div> 
+             <div class="ty-product-list__content"> 
+              <div class="ty-control-group product-list-field cm-reload-3690001425" id="sku_update_3690001425"> 
+               <input type="hidden" name="appearance[show_sku]" value="1"> 
+               <label class="ty-control-group__label" style="font-weight: bold" id="sku_3690001425">Артикул:</label> 
+               <span class="ty-control-group__item" id="product_code_3690001425">1425</span> 
+               <!--sku_update_3690001425-->
+              </div> 
+              <div class="ty-product-list__info"> 
+               <div class="ty-product-list__item-name"> 
+                <a href="http://coptertime.ru/copters/dji-phantom-4/phantom-4-acc/p4-hub/" class="product-title">Хаб для заряда 3 аккумуляторов DJI Phantom 4</a> 
+               </div> 
+               <div class="ty-product-list__price"> 
+                <div class="price-txt-new" ">
+                 Цена:
+                </div> 
+                <span class="cm-reload-3690001425" id="old_price_update_3690001425"> <span class="ty-list-price ty-nowrap" id="line_list_price_3690001425"><span class="ty-strike"><span id="sec_list_price_3690001425" class="ty-list-price ty-nowrap">7 722</span>&nbsp;<span class="ty-list-price ty-nowrap"><span>руб.</span></span></span></span> 
+                 <!--old_price_update_3690001425--></span> 
+                <span class="cm-reload-3690001425 ty-price-update" id="price_update_3690001425"> <input type="hidden" name="appearance[show_price_values]" value="1"> <input type="hidden" name="appearance[show_price]" value="1"> <span class="ty-price" id="line_discounted_price_3690001425"><span id="sec_discounted_price_3690001425" class="ty-price-num">7 326</span>&nbsp;<span class="ty-price-num"><span>руб.</span></span></span> 
+                 <!--price_update_3690001425--></span> 
+               </div> 
+               <div class="ty-product-list__feature"> 
+                <div class="cm-reload-3690001425" id="product_features_update_3690001425"> 
+                 <input type="hidden" name="appearance[show_features]" value="1"> 
+                 <!--product_features_update_3690001425-->
+                </div> 
+               </div> 
+               <div class="ty-product-list__description"> 
+                <div>
+                  Хаб (концентратор) -&nbsp;зарядки 3х аккумуляторов DJI&nbsp;Phantom 4.&nbsp; Аккумуляторы заряжаются последовательно! После зарядки одного, происходит...
+                </div> 
+               </div> 
+               <div class="ty-product-list__option"> 
+               </div> 
+               <div class="cm-reload-3690001425 stock-wrap" id="product_amount_update_3690001425"> 
+                <input type="hidden" name="appearance[show_product_amount]" value="1"> 
+                <div class="ty-control-group product-list-field"> 
+                 <span class="ty-qty-in-stock ty-control-group__item" id="in_stock_info_3690001425">В наличии</span> 
+                </div> 
+                <!--product_amount_update_3690001425-->
+               </div> 
+               <div class="ty-product-list__qty"> 
+                <div class="cm-reload-3690001425" id="qty_update_3690001425"> 
+                 <input type="hidden" name="appearance[show_qty]" value="1"> 
+                 <input type="hidden" name="appearance[capture_options_vs_qty]" value=""> 
+                 <div class="ty-qty clearfix changer" id="qty_3690001425"> 
+                  <label class="ty-control-group__label" for="qty_count_3690001425">Кол-во:</label> 
+                  <div class="ty-center ty-value-changer cm-value-changer"> 
+                   <a class="cm-increase ty-value-changer__increase">+</a> 
+                   <input type="text" size="5" class="ty-value-changer__input cm-amount" id="qty_count_3690001425" name="product_data[1425][amount]" value="1" data-ca-min-qty="1"> 
+                   <a class="cm-decrease ty-value-changer__decrease">−</a> 
+                  </div> 
+                 </div> 
+                 <!--qty_update_3690001425-->
+                </div> 
+               </div> 
+              </div> 
+              <div class="ty-product-list__control"> 
+               <div class="cm-reload-3690001425 " id="add_to_cart_update_3690001425"> 
+                <input type="hidden" name="appearance[show_add_to_cart]" value="1"> 
+                <input type="hidden" name="appearance[show_list_buttons]" value="1"> 
+                <input type="hidden" name="appearance[but_role]" value="action"> 
+                <input type="hidden" name="appearance[quick_view]" value=""> 
+                <button id="button_cart_3690001425" class="ty-btn__primary ty-btn__big ty-btn__add-to-cart cm-form-dialog-closer ty-btn" type="submit" name="dispatch[checkout.add..1425]">В корзину</button> 
+                <a id="opener_call_request_3690001425" class="cm-dialog-opener cm-dialog-auto-size ty-btn one_click_buyer" data-ca-target-id="content_call_request_3690001425">Купить в один клик</a> 
+                <a class="ty-btn ty-btn__text ty-add-to-wish cm-submit text-button" id="button_wishlist_3690001425" data-ca-dispatch="dispatch[wishlist.add..1425]">Отложить</a> 
+                <!--add_to_cart_update_3690001425-->
+               </div> 
+              </div> 
+             </div> 
+            </form> 
+           </div> 
+           <hr> 
+           <div class="hidden" id="content_call_request_3690001446" title="Купить в один клик"> 
+            <noindex> 
+             <form name="call_requests_form" id="form_call_request_3690001446" action="http://coptertime.ru/" method="post" class="cm-ajax"> 
+              <!-- call_request_3690001446 --> 
+              <input type="hidden" name="call_data[product_id_]" value="1446"> 
+              <div class="ty-cr-product-info-container"> 
+               <div class="ty-cr-product-info-image"> 
+                <img class="ty-pict   " id="det_img_1446" src="http://coptertime.ru/images/thumbnails/120/80/detailed/15/parallel4.png" alt="Зарядное устройство для 3х батарей Phantom 4 (зарядка идет параллельно) " title="Зарядное устройство для 3х батарей Phantom 4 (зарядка идет параллельно)"> 
+               </div> 
+               <div class="ty-cr-product-info-header"> 
+                <p class="ty-product-block-title">Зарядное устройство для 3х батарей Phantom 4 (зарядка идет параллельно)</p> 
+               </div> 
+               <input class="width:1px; height: 1px;margin:0;padding:0;" type="text" name="goodname" value="Зарядное устройство для 3х батарей Phantom 4 (зарядка идет параллельно)"> 
+              </div> 
+              <div class="ty-control-group"> 
+               <label class="ty-control-group__title" for="call_data_call_request_3690001446_name">Ваше имя</label> 
+               <input id="call_data_call_request_3690001446_name" size="50" class="ty-input-text-full" type="text" name="call_data[name]" value=""> 
+              </div> 
+              <div class="ty-control-group"> 
+               <label for="call_data_call_request_3690001446_phone" class="ty-control-group__title cm-phone">Телефон</label> 
+               <input id="call_data_call_request_3690001446_phone" class="ty-input-text-full cm-cr-mask-phone" size="50" type="text" name="call_data[phone]" value=""> 
+              </div> 
+              <div class="ty-control-group"> 
+               <label for="call_data_call_request_3690001446_email" class="ty-control-group__title cm-email">E-mail</label> 
+               <input id="call_data_call_request_3690001446_email" class="ty-input-text-full" size="50" type="text" name="call_data[email]" value=""> 
+              </div> 
+              <div class="cr-popup-error-box"> 
+               <div class="hidden cm-cr-error-box help-inline"> 
+                <p>Пожалуйста, введите телефон или email, чтобы наш сотрудник мог связаться с вами</p> 
+               </div> 
+              </div> 
+              <div class="buttons-container"> 
+               <button class="ty-btn__primary ty-btn__big cm-form-dialog-closer ty-btn ty-btn" type="submit" name="dispatch[call_requests.request]">Отправить</button> 
+              </div> 
+             </form> 
+            </noindex> 
+           </div> 
+           <div class="ty-product-list clearfix"> 
+            <form action="http://coptertime.ru/" method="post" name="product_form_3690001446" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle "> 
+             <input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*"> 
+             <input type="hidden" name="redirect_url" value="index.php?utm_source=gt_3dmodels&amp;dispatch=products.view&amp;product_id=2206"> 
+             <input type="hidden" name="product_data[1446][product_id]" value="1446"> 
+             <div class="ty-product-list__image"> 
+              <span class="cm-reload-3690001446 image-reload" id="list_image_update_3690001446 image-wrapper"> <a href="http://coptertime.ru/copters/dji-phantom-4/phantom-4-acc/3-batarey-phantom-4-parralel/"> <input type="hidden" name="image[list_image_update_3690001446][link]" value="http://coptertime.ru/copters/dji-phantom-4/phantom-4-acc/3-batarey-phantom-4-parralel/"> 
+                <ul class="ty-discount-label cm-reload-3690001446" id="discount_label_update_3690001446"> 
+                 <li class="ty-discount-label__item" id="line_prc_discount_value_3690001446"><span class="ty-discount-label__value" id="prc_discount_value_label_3690001446">Скидка 15%</span></li> 
+                 <!--discount_label_update_3690001446-->
+                </ul> <input type="hidden" name="image[list_image_update_3690001446][data]" value="3690001446,260,,product"> <img class="ty-pict   " id="det_img_3690001446" src="http://coptertime.ru/images/thumbnails/260/173/detailed/15/parallel4.png" alt="Зарядное устройство для 3х батарей Phantom 4 (зарядка идет параллельно) " title="Зарядное устройство для 3х батарей Phantom 4 (зарядка идет параллельно)"> </a> 
+               <!--list_image_update_3690001446--></span> 
+              <div class="ty-product-list__rating"> 
+               <span class="ty-nowrap ty-stars"> <a class="cm-external-click" data-ca-scroll="content_discussion" data-ca-external-click-id="discussion"><i class="ty-stars__icon ty-icon-star"></i><i class="ty-stars__icon ty-icon-star"></i><i class="ty-stars__icon ty-icon-star"></i><i class="ty-stars__icon ty-icon-star"></i><i class="ty-stars__icon ty-icon-star"></i></a></span> 
+              </div> 
+             </div> 
+             <div class="ty-product-list__content"> 
+              <div class="ty-control-group product-list-field cm-reload-3690001446" id="sku_update_3690001446"> 
+               <input type="hidden" name="appearance[show_sku]" value="1"> 
+               <label class="ty-control-group__label" style="font-weight: bold" id="sku_3690001446">Артикул:</label> 
+               <span class="ty-control-group__item" id="product_code_3690001446">1446</span> 
+               <!--sku_update_3690001446-->
+              </div> 
+              <div class="ty-product-list__info"> 
+               <div class="ty-product-list__item-name"> 
+                <a href="http://coptertime.ru/copters/dji-phantom-4/phantom-4-acc/3-batarey-phantom-4-parralel/" class="product-title">Зарядное устройство для 3х батарей Phantom 4 (зарядка идет параллельно)</a> 
+               </div> 
+               <div class="ty-product-list__price"> 
+                <div class="price-txt-new" ">
+                 Цена:
+                </div> 
+                <span class="cm-reload-3690001446" id="old_price_update_3690001446"> <span class="ty-list-price ty-nowrap" id="line_list_price_3690001446"><span class="ty-strike"><span id="sec_list_price_3690001446" class="ty-list-price ty-nowrap">5 600</span>&nbsp;<span class="ty-list-price ty-nowrap"><span>руб.</span></span></span></span> 
+                 <!--old_price_update_3690001446--></span> 
+                <span class="cm-reload-3690001446 ty-price-update" id="price_update_3690001446"> <input type="hidden" name="appearance[show_price_values]" value="1"> <input type="hidden" name="appearance[show_price]" value="1"> <span class="ty-price" id="line_discounted_price_3690001446"><span id="sec_discounted_price_3690001446" class="ty-price-num">4 750</span>&nbsp;<span class="ty-price-num"><span>руб.</span></span></span> 
+                 <!--price_update_3690001446--></span> 
+               </div> 
+               <div class="ty-product-list__feature"> 
+                <div class="cm-reload-3690001446" id="product_features_update_3690001446"> 
+                 <input type="hidden" name="appearance[show_features]" value="1"> 
+                 <!--product_features_update_3690001446-->
+                </div> 
+               </div> 
+               <div class="ty-product-list__description"> 
+                <div>
+                  Зарядное устройство позволяет заряжать одновременно 3 аккумулятора&nbsp;квадрокоптера Phantom 4 и пульт.&nbsp; Встроенный вентилятор защищает блок...
+                </div> 
+               </div> 
+               <div class="ty-product-list__option"> 
+               </div> 
+               <div class="cm-reload-3690001446 stock-wrap" id="product_amount_update_3690001446"> 
+                <input type="hidden" name="appearance[show_product_amount]" value="1"> 
+                <!--product_amount_update_3690001446-->
+               </div> 
+               <div class="ty-product-list__qty"> 
+                <div class="cm-reload-3690001446" id="qty_update_3690001446"> 
+                 <input type="hidden" name="appearance[show_qty]" value=""> 
+                 <input type="hidden" name="appearance[capture_options_vs_qty]" value=""> 
+                 <input type="hidden" name="product_data[1446][amount]" value="1"> 
+                 <!--qty_update_3690001446-->
+                </div> 
+               </div> 
+              </div> 
+              <div class="ty-product-list__control"> 
+               <div class="cm-reload-3690001446 " id="add_to_cart_update_3690001446"> 
+                <input type="hidden" name="appearance[show_add_to_cart]" value="1"> 
+                <input type="hidden" name="appearance[show_list_buttons]" value="1"> 
+                <input type="hidden" name="appearance[but_role]" value="action"> 
+                <input type="hidden" name="appearance[quick_view]" value=""> 
+                <span class="ty-qty-out-of-stock ty-control-group__item" id="out_of_stock_info_3690001446">Ожидается</span> 
+                <a class="ty-btn ty-btn__text ty-add-to-wish cm-submit text-button" id="button_wishlist_3690001446" data-ca-dispatch="dispatch[wishlist.add..1446]">Отложить</a> 
+                <!--add_to_cart_update_3690001446-->
+               </div> 
+              </div> 
+             </div> 
+            </form> 
+           </div> 
+           <hr> 
+           <div class="hidden" id="content_call_request_3690001919" title="Купить в один клик"> 
+            <noindex> 
+             <form name="call_requests_form" id="form_call_request_3690001919" action="http://coptertime.ru/" method="post" class="cm-ajax"> 
+              <!-- call_request_3690001919 --> 
+              <input type="hidden" name="call_data[product_id_]" value="1919"> 
+              <div class="ty-cr-product-info-container"> 
+               <div class="ty-cr-product-info-image"> 
+                <img class="ty-pict   " id="det_img_1919" src="http://coptertime.ru/images/thumbnails/120/80/detailed/16/large_8c62f26f-c752-4a35-9f78-81496c078c72_yhwo-ez.png" alt="Аккумулятор Phantom 4 повышенной емкости Intelligent Flight 5870mAh Battery " title="Аккумулятор Phantom 4 повышенной емкости Intelligent Flight 5870mAh Battery"> 
+               </div> 
+               <div class="ty-cr-product-info-header"> 
+                <p class="ty-product-block-title">Аккумулятор Phantom 4 повышенной емкости Intelligent Flight 5870mAh Battery</p> 
+               </div> 
+               <input class="width:1px; height: 1px;margin:0;padding:0;" type="text" name="goodname" value="Аккумулятор Phantom 4 повышенной емкости Intelligent Flight 5870mAh Battery"> 
+              </div> 
+              <div class="ty-control-group"> 
+               <label class="ty-control-group__title" for="call_data_call_request_3690001919_name">Ваше имя</label> 
+               <input id="call_data_call_request_3690001919_name" size="50" class="ty-input-text-full" type="text" name="call_data[name]" value=""> 
+              </div> 
+              <div class="ty-control-group"> 
+               <label for="call_data_call_request_3690001919_phone" class="ty-control-group__title cm-phone">Телефон</label> 
+               <input id="call_data_call_request_3690001919_phone" class="ty-input-text-full cm-cr-mask-phone" size="50" type="text" name="call_data[phone]" value=""> 
+              </div> 
+              <div class="ty-control-group"> 
+               <label for="call_data_call_request_3690001919_email" class="ty-control-group__title cm-email">E-mail</label> 
+               <input id="call_data_call_request_3690001919_email" class="ty-input-text-full" size="50" type="text" name="call_data[email]" value=""> 
+              </div> 
+              <div class="cr-popup-error-box"> 
+               <div class="hidden cm-cr-error-box help-inline"> 
+                <p>Пожалуйста, введите телефон или email, чтобы наш сотрудник мог связаться с вами</p> 
+               </div> 
+              </div> 
+              <div class="buttons-container"> 
+               <button class="ty-btn__primary ty-btn__big cm-form-dialog-closer ty-btn ty-btn" type="submit" name="dispatch[call_requests.request]">Отправить</button> 
+              </div> 
+             </form> 
+            </noindex> 
+           </div> 
+           <div class="ty-product-list clearfix"> 
+            <form action="http://coptertime.ru/" method="post" name="product_form_3690001919" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle "> 
+             <input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*"> 
+             <input type="hidden" name="redirect_url" value="index.php?utm_source=gt_3dmodels&amp;dispatch=products.view&amp;product_id=2206"> 
+             <input type="hidden" name="product_data[1919][product_id]" value="1919"> 
+             <div class="ty-product-list__image"> 
+              <span class="cm-reload-3690001919 image-reload" id="list_image_update_3690001919 image-wrapper"> <a href="http://coptertime.ru/copters/dji-phantom-4/phantom-4-acc/battery-phantom-4-5870mah-high-capacity/"> <input type="hidden" name="image[list_image_update_3690001919][link]" value="http://coptertime.ru/copters/dji-phantom-4/phantom-4-acc/battery-phantom-4-5870mah-high-capacity/"> 
+                <ul class="ty-discount-label cm-reload-3690001919" id="discount_label_update_3690001919"> 
+                 <li class="ty-discount-label__item" id="line_prc_discount_value_3690001919"><span class="ty-discount-label__value" id="prc_discount_value_label_3690001919">Скидка 5%</span></li> 
+                 <!--discount_label_update_3690001919-->
+                </ul> <input type="hidden" name="image[list_image_update_3690001919][data]" value="3690001919,260,,product"> <img class="ty-pict   " id="det_img_3690001919" src="http://coptertime.ru/images/thumbnails/260/173/detailed/16/large_8c62f26f-c752-4a35-9f78-81496c078c72_yhwo-ez.png" alt="Аккумулятор Phantom 4 повышенной емкости Intelligent Flight 5870mAh Battery " title="Аккумулятор Phantom 4 повышенной емкости Intelligent Flight 5870mAh Battery"> </a> 
+               <!--list_image_update_3690001919--></span> 
+              <div class="ty-product-list__rating"> 
+              </div> 
+             </div> 
+             <div class="ty-product-list__content"> 
+              <div class="ty-control-group product-list-field cm-reload-3690001919" id="sku_update_3690001919"> 
+               <input type="hidden" name="appearance[show_sku]" value="1"> 
+               <label class="ty-control-group__label" style="font-weight: bold" id="sku_3690001919">Артикул:</label> 
+               <span class="ty-control-group__item" id="product_code_3690001919">1919</span> 
+               <!--sku_update_3690001919-->
+              </div> 
+              <div class="ty-product-list__info"> 
+               <div class="ty-product-list__item-name"> 
+                <a href="http://coptertime.ru/copters/dji-phantom-4/phantom-4-acc/battery-phantom-4-5870mah-high-capacity/" class="product-title">Аккумулятор Phantom 4 повышенной емкости Intelligent Flight 5870mAh Battery</a> 
+               </div> 
+               <div class="ty-product-list__price"> 
+                <div class="price-txt-new" ">
+                 Цена:
+                </div> 
+                <span class="cm-reload-3690001919" id="old_price_update_3690001919"> <span class="ty-list-price ty-nowrap" id="line_list_price_3690001919"><span class="ty-strike"><span id="sec_list_price_3690001919" class="ty-list-price ty-nowrap">14 742</span>&nbsp;<span class="ty-list-price ty-nowrap"><span>руб.</span></span></span></span> 
+                 <!--old_price_update_3690001919--></span> 
+                <span class="cm-reload-3690001919 ty-price-update" id="price_update_3690001919"> <input type="hidden" name="appearance[show_price_values]" value="1"> <input type="hidden" name="appearance[show_price]" value="1"> <span class="ty-price" id="line_discounted_price_3690001919"><span id="sec_discounted_price_3690001919" class="ty-price-num">13 986</span>&nbsp;<span class="ty-price-num"><span>руб.</span></span></span> 
+                 <!--price_update_3690001919--></span> 
+               </div> 
+               <div class="ty-product-list__feature"> 
+                <div class="cm-reload-3690001919" id="product_features_update_3690001919"> 
+                 <input type="hidden" name="appearance[show_features]" value="1"> 
+                 <!--product_features_update_3690001919-->
+                </div> 
+               </div> 
+               <div class="ty-product-list__description"> 
+                <div>
+                  Фирменная аккумуляторная батарея повышенной ёмкости (5870 mAh) для квадрокоптеров серии DJI Phantom 4 PRO и&nbsp;PRO+. Особенности: Большая емкость...
+                </div> 
+               </div> 
+               <div class="ty-product-list__option"> 
+               </div> 
+               <div class="cm-reload-3690001919 stock-wrap" id="product_amount_update_3690001919"> 
+                <input type="hidden" name="appearance[show_product_amount]" value="1"> 
+                <div class="ty-control-group product-list-field"> 
+                 <span class="ty-qty-in-stock ty-control-group__item" id="in_stock_info_3690001919">В наличии</span> 
+                </div> 
+                <!--product_amount_update_3690001919-->
+               </div> 
+               <div class="ty-product-list__qty"> 
+                <div class="cm-reload-3690001919" id="qty_update_3690001919"> 
+                 <input type="hidden" name="appearance[show_qty]" value="1"> 
+                 <input type="hidden" name="appearance[capture_options_vs_qty]" value=""> 
+                 <div class="ty-qty clearfix changer" id="qty_3690001919"> 
+                  <label class="ty-control-group__label" for="qty_count_3690001919">Кол-во:</label> 
+                  <div class="ty-center ty-value-changer cm-value-changer"> 
+                   <a class="cm-increase ty-value-changer__increase">+</a> 
+                   <input type="text" size="5" class="ty-value-changer__input cm-amount" id="qty_count_3690001919" name="product_data[1919][amount]" value="1" data-ca-min-qty="1"> 
+                   <a class="cm-decrease ty-value-changer__decrease">−</a> 
+                  </div> 
+                 </div> 
+                 <!--qty_update_3690001919-->
+                </div> 
+               </div> 
+              </div> 
+              <div class="ty-product-list__control"> 
+               <div class="cm-reload-3690001919 " id="add_to_cart_update_3690001919"> 
+                <input type="hidden" name="appearance[show_add_to_cart]" value="1"> 
+                <input type="hidden" name="appearance[show_list_buttons]" value="1"> 
+                <input type="hidden" name="appearance[but_role]" value="action"> 
+                <input type="hidden" name="appearance[quick_view]" value=""> 
+                <button id="button_cart_3690001919" class="ty-btn__primary ty-btn__big ty-btn__add-to-cart cm-form-dialog-closer ty-btn" type="submit" name="dispatch[checkout.add..1919]">В корзину</button> 
+                <a id="opener_call_request_3690001919" class="cm-dialog-opener cm-dialog-auto-size ty-btn one_click_buyer" data-ca-target-id="content_call_request_3690001919">Купить в один клик</a> 
+                <a class="ty-btn ty-btn__text ty-add-to-wish cm-submit text-button" id="button_wishlist_3690001919" data-ca-dispatch="dispatch[wishlist.add..1919]">Отложить</a> 
+                <!--add_to_cart_update_3690001919-->
+               </div> 
+              </div> 
+             </div> 
+            </form> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="tygh-footer clearfix" id="tygh_footer"> 
+    <div class="container ty-footer-grid"> 
+     <div class="row"> 
+      <div class="span16 ty-footer-grid__full-width sub_soc_row"> 
+       <div class="row"> 
+        <div class="span4 subs_text"> 
+         <div class="ty-wysiwyg-content">
+          <div class="subscribe_text"> 
+           <p class="subs_ttl"> <img src="/images/mail.png"> ЭКСКЛЮЗИВНЫЕ СКИДКИ </p> 
+           <p class="subs_desc"> Подпишитесь на наши новости и получите купон со скидкой! </p> 
+          </div>
+         </div> 
+        </div>
+        <div class="span6 subscribe_foot"> 
+         <div class="    ty-float-left"> 
+          <div class="ty-footer-form-block"> 
+           <form action="http://coptertime.ru/" method="post" name="subscribe_form"> 
+            <input type="hidden" name="redirect_url" value="index.php?utm_source=gt_3dmodels&amp;dispatch=products.view&amp;product_id=2206"> 
+            <input type="hidden" name="newsletter_format" value="2"> 
+            <p class="ty-footer-form-block__title">Новости и новинки</p> 
+            <div class="ty-footer-form-block__form ty-control-group ty-input-append"> 
+             <label class="cm-required cm-email hidden" for="subscr_email11">E-mail</label> 
+             <input type="text" name="subscribe_email" id="subscr_email11" size="20" value="Ваш e-mail" class="cm-hint ty-input-text"> 
+             <button title="Выполнить" class="ty-btn-go" type="submit"><i class="ty-btn-go__icon ty-icon-right-dir"></i></button> 
+             <input type="hidden" name="dispatch" value="newsletters.add_subscriber"> 
+            </div> 
+           </form> 
+          </div> 
+         </div> 
+        </div>
+        <div class="span6 social_block"> 
+         <div class=" ty-float-right"> 
+          <div class="ty-wysiwyg-content">
+           <div class="ty-social-link-block">
+            <p class="ty-social-link__title">Присоединяйтесь</p> 
+            <div class="ty-social-link"> 
+             <a target="_blank" href="http://instagram.com/coptertime"><i class="inst"></i></a> 
+            </div> 
+            <div class="ty-social-link"> 
+             <a target="_blank" href="http://vk.com/coptertime"><i class="vk"></i></a> 
+            </div> 
+            <div class="ty-social-link"> 
+             <a target="_blank" href="https://www.facebook.com/coptertimeru"><i class="facebook"></i></a> 
+            </div> 
+            <div class="ty-social-link"> 
+             <a target="_blank" href="http://www.youtube.com/user/rctimeru"><i class="yt"></i></a> 
+            </div>
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="row"> 
+       <div class="span16 ty-footer-grid__full-width  footer_bottom"> 
+        <div class="row"> 
+         <div class="span16 "> 
+          <div class="row"> 
+           <div class="span4 foot_block"> 
+            <div class=" foot_logo"> 
+             <div class="ty-wysiwyg-content">
+              <p><img src="http://coptertime.ru/images/companies/1/system/logo-footer150.png?1473943496249"></p>
+              <p><img src="http://coptertime.ru/images/companies/1/system/dji-dealer150.png?1473943502966"></p>
+             </div> 
+            </div> 
+           </div>
+           <div class="span4 foot_block"> 
+            <div class=" footer-no-wysiwyg"> 
+             <div class="ty-wysiwyg-content">
+              <div class="buyer_cabinet"> 
+               <span>Кабинет покупателя</span> 
+               <ul> 
+                <li><a href="/login/">Войти</a></li> 
+                <li><a href="/login/">Создать учетную запись</a></li> 
+                <li><a href="http://coptertime.ru/index.php?dispatch=orders.search">Заказы</a></li> 
+                <li><a href="http://coptertime.ru/wishlist/">Отложенные товары</a></li> 
+                <li><a href="http://coptertime.ru/index.php?dispatch=product_features.compare">Список сравнения</a></li> 
+               </ul> 
+              </div> 
+              <div class="buyer_cabinet" style="padding-top: 15px"> 
+               <span>DJI Innovations</span> 
+               <ul> 
+                <li><a href="/npe/">Мероприятия DJI</a></li> 
+                <li><a href="/geo/">DJI GEO</a></li> 
+               </ul> 
+              </div>
+             </div> 
+            </div> 
+           </div>
+           <div class="span4 foot_block"> 
+            <div class=" footer-no-wysiwyg"> 
+             <div class="ty-wysiwyg-content">
+              <div class="footer_shop"> 
+               <span>Магазин</span> 
+               <ul> 
+                <li><a href="/about-ru/">О магазине</a></li> 
+                <li><a href="/news/">Новости магазина</a></li> 
+                <li><a href="/novelty/">Новинки</a></li> 
+                <li><a href="/pay-and-delivery/">Оплата и доставка</a></li> 
+                <li><a href="/kredit/">Кредит</a></li> 
+                <li><a href="/dealer/">Опт</a></li> 
+                <li><a href="/sitemap/">Карта сайта</a></li> 
+                <li><a href="/services/">Гарантия и возврат</a></li> 
+               </ul> 
+              </div>
+             </div> 
+            </div> 
+           </div>
+           <div class="span4 footer_right foot_block"> 
+            <div class="ty-wysiwyg-content">
+             <div class="footer_contacts footer_shop" style="margin: 0;"> 
+              <span style="">Контакты:</span> 
+              <p> <img src="/images/foot_map.png" alt="" width="8" height="12"> г. Москва, пер. Мажоров 14с7, офис 7201 <br> <img src="/images/foot_map.png" alt="" width="8" height="12"> г. Сочи, ул. Конституции, 22.<br> <img src="/images/foot_map.png" alt="" width="8" height="12"> г. Сочи, ул. Новая Заря д. 7 (ТРЦ Моремолл)<br> <img src="/images/foot_phone.png" alt="" width="12" height="13"><a href="tel:74994902195">+7 (499) 490-21-95</a><br> <img src="/images/foot_phone.png" alt="" width="12" height="13"><a href="tel:78005005198">+7 (800) 500-51-98</a><br> <img src="/images/foot_mail.png" alt="" width="11" height="9"> <a style="text-decoration: underline;" href="mailto:shop@coptertime.ru">shop@coptertime.ru</a> </p> 
+             </div>
+            </div>
+            <div class="ty-wysiwyg-content">
+             <p> <a style="text-decoration: underline;" href="/contacts/#map">Посмотреть на карте</a> </p>
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div>
+        <div class="row"> 
+         <div class="span8 foot_copyright"> 
+          <div class=" footer_copyright    ty-float-left"> 
+           <div class="ty-wysiwyg-content">
+            <p>© 2017 Coptertime. Все права защищены.</p>
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="row"> 
+       <div class="span16 "> 
+        <div class="ty-wysiwyg-content">
+         <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-65129927-1', 'auto');
+  ga('send', 'pageview');
+
+</script> 
+         <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=zvN211y4wSTdjBOsSs5tG10A8vYkVQVlPPWpQhxmoinPgxbxYH5F9j1OSXfSc3Vp/mAdrd8wPL/RumNte32nbKzS43IOVoOVogI8rxpYKTcj6whchsFHOup/HwgR7SFDF/0iE6pn1hkrePM1TVgZjPlsf9BRvHq99o0rd4edpPc-&pixel_id=1000039733';</script> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="copy"></div> 
+    </div> 
+    <script src="https://www.google.com/recaptcha/api.js?render=explicit&amp;onload=sd_recaptcha_callback&amp;hl=ru"></script> 
+    <script type="text/javascript" src="http://coptertime.ru/js/addons/sd_recaptcha/script.js?ver=4.2.3"></script> 
+    <!--tygh_main_container-->
+   </div> 
+   <p class="center" id="back-top" style="display: none;"><a href="#top"><span><img src="var/files/1/top2.png"></span></a></p>
+   <!-- Yandex.Metrika counter --> 
+   <script type="text/javascript">
+
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter16829758 = new Ya.Metrika({id:16829758,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+
+</script> 
+   <noscript>
+    <div>
+     <img src="//mc.yandex.ru/watch/16829758" style="position:absolute; left:-9999px;" alt="">
+    </div>
+   </noscript> 
+   <!-- /Yandex.Metrika counter --> 
+   <script>
+  (function(i,s,o,g,r,a,m){ i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  } )(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-34089514-1', 'auto');
+  ga('send', 'pageview');
+
+</script> 
+   <!-- Код тега ремаркетинга Google --> 
+   <!--
+С помощью тега ремаркетинга запрещается собирать информацию, по которой можно идентифицировать личность пользователя. Также запрещается размещать тег на страницах с контентом деликатного характера. Подробнее об этих требованиях и о настройке тега читайте на странице http://google.com/ads/remarketingsetup.
+---------------------------------------------------> 
+   <script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 996732086;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script> 
+   <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script> 
+   <noscript> 
+    <div style="display:inline;"> 
+     <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/996732086/?value=0&amp;guid=ON&amp;script=0"> 
+    </div> 
+   </noscript> 
+   <!--tygh_container-->
+  </div> 
+  <!-- BEGIN JIVOSITE CODE  --> 
+  <script type="text/javascript">
+(function(){ var widget_id = 'TIFy3vPbey';var d=document;var w=window;function l(){
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script> 
+  <!--  END JIVOSITE CODE --> 
+  <!-- ��� ���� ������������ Google --> 
+  <!--
+� ������� ���� ������������ ����������� �������� ����������, �� ������� ����� ���������������� �������� ������������. ����� ����������� ��������� ��� �� ��������� � ��������� ����������� ���������. ��������� �� ���� ����������� � � ��������� ���� ������� �� �������� http://google.com/ads/remarketingsetup.
+---------------------------------------------------> 
+  <script type="text/javascript">
+var google_tag_params = {
+ecomm_prodid: 'REPLACE_WITH_VALUE',
+ecomm_pagetype: 'REPLACE_WITH_VALUE',
+ecomm_totalvalue: 'REPLACE_WITH_VALUE',
+};
+</script> 
+  <script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 996732086;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script> 
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script> 
+  <noscript> 
+   <div style="display:inline;"> 
+    <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/996732086/?guid=ON&amp;script=0"> 
+   </div> 
+  </noscript>  
+ </div>
+</body>

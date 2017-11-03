@@ -1,0 +1,289 @@
+https://freelansim.ru/tasks/183167
+<body> 
+ <!-- Google Tag Manager --> 
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-5V3WWJ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+ </noscript> 
+ <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5V3WWJ');</script> 
+ <!-- End Google Tag Manager --> 
+ <script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter24049294 = new Ya.Metrika({id:24049294, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script> 
+ <noscript> 
+  <div>
+   <img src="//mc.yandex.ru/watch/24049294" style="position:absolute; left:-9999px;" alt="">
+  </div> 
+ </noscript> 
+ <div class="tm-services-panel" role="tm_panel"> 
+  <ul class="menu menu_horizontal menu_services"> 
+   <li class="menu__item"> <a class="menu__item-link" href="https://tmfeed.ru?utm_source=tm_freelansim&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo">TM Feed</a> </li> 
+   <li class="menu__item"> <a class="menu__item-link" href="https://habrahabr.ru?utm_source=tm_freelansim&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo">Хабрахабр</a> </li> 
+   <li class="menu__item"> <a class="menu__item-link" href="https://geektimes.ru?utm_source=tm_freelansim&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo">Geektimes</a> </li> 
+   <li class="menu__item"> <a class="menu__item-link" href="https://toster.ru?utm_source=tm_freelansim&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo">Тостер</a> </li> 
+   <li class="menu__item"> <a class="menu__item-link" href="https://moikrug.ru?utm_source=tm_freelansim&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo">Мой круг</a> </li> 
+   <li class="menu__item last"> <a class="menu__item-link  menu__item-link_current" href="https://freelansim.ru?utm_source=tm_freelansim&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo">Фрилансим</a> </li> 
+   <li class="menu__item specials"> <span id="adriver_banner_465568687"></span> </li> 
+  </ul> 
+ </div> 
+ <header class="main_header"> 
+  <div class="inner"> 
+   <a class="top_logo" href="/">
+    <!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Слой_1" x="0px" y="0px" width="157.5px" height="30.6px" viewbox="0 0 157.5 30.6" enable-background="new 0 0 157.5 30.6" xml:space="preserve"> 
+     <rect id="XMLID_1_" y="3.6" fill="none" width="157.5" height="26"></rect> 
+     <g id="XMLID_2_" enable-background="new    "> 
+      <path d="M14.82,22.1H9.204v-1.977h-0.52c-4.291,0-7.904-2.834-7.904-7.514c0-4.94,3.822-7.515,7.904-7.515h0.52V3.379h5.616v1.742   h0.521c4.29,0,7.904,2.834,7.904,7.514c0,4.94-3.822,7.515-7.904,7.515H14.82V22.1z M8.918,9.671c-1.898,0-2.964,1.353-2.964,2.964   c0,1.664,1.066,2.938,2.964,2.938h0.286V9.671H8.918z M14.82,9.671v5.902h0.286c1.898,0,2.964-1.274,2.964-2.938   c0-1.611-1.066-2.964-2.964-2.964H14.82z"></path> 
+      <path d="M29.9,9.1v1.689c0.598-1.248,2.028-2.08,3.354-2.08c3.796,0,5.85,3.094,5.85,6.891c0,3.796-2.054,6.89-5.85,6.89   c-1.326,0-2.756-0.832-3.354-2.08v6.995h-4.836V9.1H29.9z M29.9,14.144v2.886c0.442,0.546,1.092,0.884,1.794,0.884   c1.248,0,2.314-1.065,2.314-2.313c0-1.301-1.066-2.314-2.314-2.314C30.992,13.285,30.342,13.623,29.9,14.144z"></path> 
+      <path d="M50.05,22.1v-6.084L45.76,22.1h-4.836v-13h4.836v6.084L50.05,9.1h4.837v13H50.05z"></path> 
+      <path d="M63.205,15.235c0,4.524-1.612,6.864-4.784,6.864h-2.236v-3.614h0.729c1.118,0,1.976-1.065,1.976-4.42V9.1h12.091v13h-4.836   v-8.84h-2.938V15.235z"></path> 
+      <path d="M86.475,22.1h-4.836v-1.69c-1.195,1.353-2.964,2.08-4.29,2.08c-2.756,0-4.55-1.195-4.55-3.691   c0-3.536,3.614-4.446,8.84-4.446v-0.391c0-1.378-0.962-1.664-2.054-1.664c-1.196,0-2.99,0.442-4.187,1.223l-2.288-2.73   c1.769-1.378,4.082-2.08,6.578-2.08c3.017,0,6.786,0.676,6.786,4.473V22.1z M81.639,17.836v-1.301   c-1.924,0-3.484,0.442-3.484,1.664c0,0.494,0.286,1.015,1.274,1.015C80.131,19.214,80.911,18.798,81.639,17.836z"></path> 
+      <path d="M88.555,22.1v-13h4.836v4.056h4.29V9.1h4.837v13h-4.837v-4.524h-4.29V22.1H88.555z"></path> 
+      <path d="M111.747,17.913c1.196,0,1.638-0.104,2.834-0.754l2.028,3.511c-1.353,1.222-2.938,1.819-5.383,1.819   c-3.796,0-6.89-3.094-6.89-6.89c0-3.797,3.094-6.891,6.89-6.891c2.444,0,4.03,0.598,5.383,1.82l-2.028,3.51   c-1.196-0.624-1.638-0.754-2.834-0.754c-1.353,0-2.574,0.937-2.574,2.314S110.395,17.913,111.747,17.913z"></path> 
+      <path d="M127.294,22.1v-6.084l-4.29,6.084h-4.836v-13h4.836v6.084l4.29-6.084h4.837v13H127.294z"></path> 
+      <path d="M146.04,22.1v-6.969l-2.651,3.953h-1.717l-2.626-3.9V22.1h-4.836v-13h5.097l3.224,4.731l3.25-4.731h5.097v13H146.04z"></path> 
+     </g> 
+    </svg> </a>
+   <div class="guest_menu"> 
+    <a title="Войти или зарегистрироваться" href="/users/sign_in">Войти на сайт</a> 
+   </div> 
+   <div class="main_menu"> 
+    <a href="/tasks">Заказы</a> 
+    <a href="/services">Услуги</a> 
+    <a href="/freelancers">Фрилансеры</a> 
+    <a href="/projects">Проекты</a> 
+   </div> 
+  </div> 
+ </header> 
+ <div class="layout"> 
+  <main class="layout__body"> 
+   <section class="column_wrap"> 
+    <div class="column_main"> 
+     <div class="page"> 
+      <div class="main-content"> 
+       <div class="task task_detail"> 
+        <h2 class="task__title"> HTML5/CSS3 Анимация инфографики </h2> 
+        <div class="task__finance"> 
+         <span class="negotiated_price">Цена договорная</span> • безналичный расчёт, электронные деньги 
+        </div> 
+        <div class="task__meta">
+          20 октября 2017, 14:36 • 
+         <span class="count">1</span> отклик • 
+         <span class="count">35</span> просмотров 
+         <!-- - unless @task.today_page_views_count.zero? --> 
+         <!-- %sup --> 
+         <!-- = precede '+' do --> 
+         <!-- = @task.today_page_views_count --> 
+        </div> 
+        <div class="task__tags"> 
+         <ul class="tags ">
+          <li class="tags__item"><a class="tags__item_link" href="http://freelansim.ru/tasks?q=%5Bhtml5%5D">html5</a></li>
+          <li class="tags__item"><a class="tags__item_link" href="http://freelansim.ru/tasks?q=%5Bcss3%5D">css3</a></li>
+          <li class="tags__item"><a class="tags__item_link" href="http://freelansim.ru/tasks?q=%5Bsvg%5D">svg</a></li>
+         </ul> 
+        </div> 
+        <div class="task__description">
+          Привет!
+         <br>
+         <br>Нужен отличный специалист по вёрстке, которы хорошо разбирается и умеет делать отзывчивые интерфейсы.
+         <br>
+         <br>На уже функционирующем сайте нужно из статичной инфографики (картинка) сделать инфографику с плавной анимацией (HTML5/CSS3/SVG).
+         <br>
+         <br>На входе имеем: страничку сайта с инфографикой и согласованный бриф, на выходе нужна вёрстка, которая идеально впишется вместо старой картинки.
+         <br>Бонус: если вы талантливый и ответственный человек и удовлетворите требования по качеству и утвержденным срокам, мы с радостью скинем вам полсотни аналогичных задач, что даст вам хороший объем.
+         <br>
+         <br>В отклике укажите, пожалуйста:
+         <br>1. Вашу примерную почасовую ставку для единичной задачи и для последующего большого потока (мы ожидаем дисконт на первый рейт).
+         <br>2. Пришлите примеры как минимум трёх ваших работ, где мы сможем увидеть вживую работу анимации (с таким же стэком).
+         <br>3. Укажите, за счёт чего вы добиваетесь максимально плавной анимации и каким образом замеряете её показатель. 
+        </div> 
+        <div class="controls"> 
+         <div class="dropdown" role="dropdown" title="Поделиться с миром"> 
+          <div class="dropdown__trigger dropdown__trigger_mini icon_share_control" role="dropdown_trigger">
+            Поделиться 
+          </div> 
+          <div class="dropdown__menu"> 
+           <ul class="menu menu_dropdown"> 
+            <li class="menu__item"> <a class="menu__link link icon_tw" target="_blank" href="https://twitter.com/intent/tweet?text=HTML5/CSS3 Анимация инфографики+%23freelansim+http://freelansim.ru/tasks/183167">Twitter</a> </li> 
+            <li class="menu__item"> <a class="menu__link link icon_fb" onclick="window.open(this.href, 'Опубликовать ссылку в Facebook', 'width=640,height=436,toolbar=0,status=0'); return false" href="https://www.facebook.com/sharer/sharer.php?u=http://freelansim.ru/tasks/183167">Facebook</a> </li> 
+            <li class="menu__item"> <a class="menu__link link icon_vk" onclick="window.open(this.href, 'Опубликовать ссылку во Вконтакте', 'width=800,height=300'); return false" href="https://vkontakte.ru/share.php?url=http://freelansim.ru/tasks/183167">Вконтакте</a> </li> 
+            <li class="menu__item"> <a class=" menu__link link icon_gp" onclick="window.open(this.href, 'Опубликовать ссылку в Google Plus', 'width=800,height=300'); return false" href="https://plus.google.com/share?url=http://freelansim.ru/tasks/183167">Google</a> </li> 
+            <li class="menu__item"> <a class=" menu__link link icon_complaint" title="Пожаловаться" href="/feedback?complain_url=http%3A%2F%2Ffreelansim.ru%2Ftasks%2F183167">Жалоба</a> </li> 
+           </ul> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="response-list response-list_tasks"> 
+        <div class="task__message"> 
+         <span class="icon_signin_ntf"> <a href="/users/sign_in">Войдите</a> или <a href="/users/sign_up">зарегистрируйтесь</a>, чтобы откликаться на заказы </span> 
+        </div> 
+       </div> 
+       <div class="modal" id="on-confirm-executor"> 
+        <div class="modal__title icon_confirm_popup">
+          В заказе есть исполнитель 
+        </div> 
+        <div class="modal__desc">
+          При переводе заказа из архивного в актуальный, текущий исполнитель будет снят с задачи. 
+        </div> 
+        <button class="btn_dark-blue" data-role="confirm">Снять исполнителя</button> 
+        <button class="btn_dark-blue" data-role="cancel">Я передумал</button> 
+       </div> 
+       <div class="modal" id="on-confirm"> 
+        <div class="modal__title icon_confirm_popup">
+          Выбор исполнителя 
+        </div> 
+        <div class="modal__desc">
+          При выборе исполнителя ваш заказ будет перемещён в архив и пропадёт из общего списка заказов. 
+        </div> 
+        <button class="btn_dark-blue" data-role="confirm">Выбрать</button> 
+        <button class="btn_dark-blue" data-role="cancel">Отменить</button> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <aside class="column_sidebar"> 
+     <div class="layout-block"> 
+      <div class="sidebar-block user_about"> 
+       <div class="avatar">
+        <a href="/freelancers/semenbarabash"><img class="avatario" src="https://habrastorage.org/getpro/freelansim/users/avatars/32/321/321627/r100_aed863f168546fcd195523560ba379ff.jpeg" alt="R100 aed863f168546fcd195523560ba379ff"></a>
+       </div> 
+       <div class="fullname">
+        <a href="/freelancers/semenbarabash">semenbarabash</a>
+       </div> 
+       <div class="specialization"></div> 
+       <div class="meta"> 
+       </div> 
+      </div> 
+      <div class="sidebar-block user_role no-border"> 
+       <div class="role">
+        Заказчик
+       </div> 
+      </div> 
+      <div class="sidebar-block user_statistics"> 
+       <div class="title">
+        Статистика заказчика
+       </div> 
+       <div class="row"> 
+        <div class="label">
+         В избранном
+        </div> 
+        <div class="value">
+         0
+        </div> 
+       </div> 
+       <div class="row"> 
+        <div class="label">
+         Просмотры
+        </div> 
+        <div class="value">
+          27 
+        </div> 
+       </div> 
+       <div class="row divider"> 
+        <div class="label">
+         Выполненные заказы
+        </div> 
+        <div class="value">
+         <a href="/freelancers/semenbarabash/tasks_executed">0</a>
+        </div> 
+       </div> 
+       <div class="row"> 
+        <div class="label">
+         Отзывы заказчиков
+        </div> 
+        <div class="value">
+         <a href="/freelancers/semenbarabash/opinions">+0 -0</a>
+        </div> 
+       </div> 
+       <div class="row divider"> 
+        <div class="label">
+         Размещённые заказы
+        </div> 
+        <div class="value"> 
+         <a href="/freelancers/semenbarabash/tasks_published">6</a> 
+        </div> 
+       </div> 
+       <div class="row"> 
+        <div class="label">
+         Отзывы исполнителей
+        </div> 
+        <div class="value">
+         <a href="/freelancers/semenbarabash/opinions">+0 -0</a>
+        </div> 
+       </div> 
+       <div class="row divider"> 
+        <div class="label">
+         Зарегистрирован
+        </div> 
+        <div class="value">
+         29.09.2015
+        </div> 
+       </div> 
+       <div class="row"> 
+        <div class="label">
+         Был последний раз
+        </div> 
+        <div class="value">
+         19.10.2017
+        </div> 
+       </div> 
+      </div> 
+      <div class="sidebar-block user_contacts"> 
+       <div class="title">
+        Контакты заказчика
+       </div> 
+       <p>Авторизуйтесь, чтобы посмотреть контакты пользователя.</p> 
+       <a class="link icon_settings_private" href="/users/sign_in">Авторизоваться</a> 
+      </div> 
+     </div> 
+    </aside> 
+   </section> 
+  </main> 
+ </div> 
+ <div class="footer_height"> 
+  <footer class="layout__footer"> 
+   <div class="inner"> 
+    <div class="social"> 
+     <h5>Следите за нами в соцсетях</h5> 
+     <a title="Наш аккаунт в Facebook" href="https://www.facebook.com/freelansim.ru"><span class="icon icon-facebook-with-circle"></span> </a>
+     <a title="Наш аккаунт в Twitter" href="https://twitter.com/ru_freelansim"><span class="icon icon-twitter-with-circle"></span> </a>
+     <a title="Наша группа на Вконтакте" href="https://vk.com/freelansim"><span class="icon icon-vk-with-circle"></span> </a>
+     <a title="Наш канал в Телеграм" class="telegram_link" href="https://t.me/freelansim_ru"><span class="icon icon-telegram-with-circle"></span> </a>
+     <a title="Наш бот в Телеграм" class="telegram_link" href="https://t.me/freelansim_ru_bot"><span class="icon icon-telegram-with-circle"></span> <span class="hint">Бот</span> </a>
+    </div> 
+    <div class="links"> 
+     <h5> Фрилансим </h5> 
+     <ul> 
+      <li><a href="/info/about">О сервисе</a></li> 
+      <li><a href="https://habrastorage.org/storage/stuff/hr_prices.pdf">Услуги и цены</a></li> 
+     </ul> 
+    </div> 
+    <div class="links"> 
+     <h5>Помощь</h5> 
+     <ul> 
+      <li><a href="/help/freelancer">Фрилансеру</a></li> 
+      <li><a href="/help/customer">Заказчику</a></li> 
+      <li><a href="/help/payments">Оплата услуг</a></li> 
+      <li><a href="/feedback">Служба поддержки</a></li> 
+     </ul> 
+    </div> 
+    <div class="links"> 
+     <h5>Документы</h5> 
+     <ul> 
+      <li><a href="/info/agreement">Соглашение с пользователем</a></li> 
+      <li><a href="/info/rules">Правила оказания услуг</a></li> 
+     </ul> 
+    </div> 
+    <div class="copyright">
+      © 
+     <a target="_blank" href="https://tmtm.ru">ТM</a> , 105082, Москва, Спартаковский переулок, д. 2, стр. 1, секция 3, ООО «Хабр», +7 (499) 653-59-61. 
+    </div> 
+   </div> 
+  </footer> 
+ </div> 
+ <img class="footer__pix" src="http://ad.adriver.ru/cgi-bin/rle.cgi?sid=1&amp;ad=505035&amp;bt=21&amp;pid=1844622&amp;bid=3690127&amp;bn=3690127&amp;rnd=729164517"> 
+ <!-- = render 'layouts/partials/piwik' --> 
+ <div class="overlay" data-block="overlay"></div>  
+</body>

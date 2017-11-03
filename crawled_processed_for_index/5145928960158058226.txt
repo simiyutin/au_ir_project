@@ -1,0 +1,793 @@
+<body itemscope class="  v-glyph v-glyph--m2 v-enableBrandingButtons is-noJs">
+ <script>document.body.className = document.body.className.replace(/(^|\s)is-noJs(\s|$)/, "$1is-js$2")</script>
+ <div class="site-main" id="container">
+  <div class="butterBar butterBar--error"></div>
+  <div class="surface">
+   <div id="prerendered" class="screenContent">
+    <div class="metabar u-clearfix js-metabar">
+     <div class="metabar-inner u-marginAuto u-maxWidth1000 u-flexCenter u-justifyContentSpaceBetween u-paddingLeft20 u-paddingRight20 u-height65 u-xs-height56 js-metabarMiddle">
+      <div class="metabar-block u-flex1">
+       <div class="js-metabarLogoLeft">
+        <a href="https://medium.com/" data-log-event="home" class="siteNav-logo u-flexCenter u-paddingTop0"><span class="svgIcon svgIcon--logoMonogram svgIcon--45px is-flushLeft u-textColorDarker">
+          <svg class="svgIcon-use" width="45" height="45" viewbox="0 0 45 45">
+           <path d="M5 40V5h35v35H5zm8.56-12.627c0 .555-.027.687-.318 1.03l-2.457 2.985v.396h6.974v-.396l-2.456-2.985c-.291-.343-.344-.502-.344-1.03V18.42l6.127 13.364h.714l5.256-13.364v10.644c0 .29 0 .342-.185.528l-1.848 1.796v.396h9.19v-.396l-1.822-1.796c-.184-.186-.21-.238-.21-.528V15.937c0-.291.026-.344.21-.528l1.823-1.797v-.396h-6.471l-4.622 11.542-5.203-11.542h-6.79v.396l2.14 2.64c.239.292.291.37.291.768v10.353z" />
+          </svg></span><span class="u-textScreenReader">Homepage</span></a>
+       </div>
+      </div>
+      <div class="metabar-block u-flex0 u-flexCenter">
+       <div class="u-alignMiddle u-inlineBlock u-verticalAlignTop u-height65 u-xs-height56">
+        <div class="u-alignBlock">
+         <div class="buttonSet buttonSet--wide u-lineHeightInherit">
+          <a class="button button--primary button--chromeless u-accentColor--buttonNormal is-inSiteNavBar u-xs-hide js-signInButton" href="https://medium.com/m/signin?redirect=https%3A%2F%2Fblog.stepik.org%2F&amp;source=--------------------------nav_reg&amp;operation=login">Sign in</a>
+          <a class="button button--primary button--withChrome u-accentColor--buttonNormal is-inSiteNavBar js-signUpButton" href="https://medium.com/m/signin?redirect=https%3A%2F%2Fblog.stepik.org%2F&amp;source=--------------------------nav_reg&amp;operation=register">Get started</a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="u-absolute u-sizeFullWidth u-top0 u-right0 u-textAlignCenter js-metabarLogoCentered u-hide">
+       <a href="https://medium.com/" data-log-event="home" class="siteNav-logo u-flexCenter u-paddingTop0"><span class="svgIcon svgIcon--logoMonogram svgIcon--45px is-flushLeft u-textColorDarker">
+         <svg class="svgIcon-use" width="45" height="45" viewbox="0 0 45 45">
+          <path d="M5 40V5h35v35H5zm8.56-12.627c0 .555-.027.687-.318 1.03l-2.457 2.985v.396h6.974v-.396l-2.456-2.985c-.291-.343-.344-.502-.344-1.03V18.42l6.127 13.364h.714l5.256-13.364v10.644c0 .29 0 .342-.185.528l-1.848 1.796v.396h9.19v-.396l-1.822-1.796c-.184-.186-.21-.238-.21-.528V15.937c0-.291.026-.344.21-.528l1.823-1.797v-.396h-6.471l-4.622 11.542-5.203-11.542h-6.79v.396l2.14 2.64c.239.292.291.37.291.768v10.353z" />
+         </svg></span><span class="u-textScreenReader">Homepage</span></a>
+      </div>
+     </div>
+    </div>
+    <div class="metabar metabar--spacer js-metabarSpacer u-height65 u-xs-height56"></div>
+    <div class="collectionHeader js-collectionHeaderContainer u-relative collectionHeader--layoutLarge collectionHeader--alignmentLeft collectionHeader--withoutLogo collectionHeader--withoutBackground collectionHeader--colorBehaviorSubtle collectionHeader--withoutNavigation collectionHeader--editorLayoutTitle is-modeView is-whiteLabel">
+     <div class="collectionHeader-aspectRatioTable">
+      <div class="collectionHeader-aspectRatioContent u-backgroundSizeCover js-collectionHeaderBackground">
+       <div class="collectionHeader-overlayBackground u-sizeViewHeight100"></div>
+       <header class="collectionHeader-heroAndInlineNav u-borderBox u-maxWidth1040 u-paddingLeft20 u-paddingRight20 u-marginAuto u-foreground js-collectionHeader">
+        <div class="collectionHeader-hero js-collectionHeaderHero u-clearfix">
+         <div class="collectionHeader-heroInner">
+          <div class="collectionHeader-logo js-collectionHeaderLogo" style="">
+           <a class="link u-baseColor--link" href="https://blog.stepik.org" title="Go to Stepik" aria-label="Go to Stepik" data-collection-slug="stepik">
+            <div class="u-relative u-marginAuto">
+             <div style="padding-bottom: 75%"></div>
+             <img class="collectionHeader-logoImage js-collectionHeaderLogoImage">
+            </div></a>
+          </div>
+          <div class="collectionHeader-nameAndDescription">
+           <a class="link link--noUnderline u-baseColor--link" href="https://blog.stepik.org" title="Go to Stepik" aria-label="Go to Stepik" data-collection-slug="stepik"><h1 class="collectionHeader-name js-collectionName u-foreground u-baseColor--textDark u-paddingBottom4 u-lineHeightTightest u-contentSansBold u-fontSize40 u-xs-fontSize32">Stepik</h1></a>
+           <h2 class="collectionHeader-description js-collectionDescription u-foreground u-baseColor--textNormal u-contentSansRegular u-fontSize24 u-xs-fontSize18">Made for instructors by instructors.</h2>
+          </div>
+         </div>
+        </div>
+       </header>
+      </div>
+      <div class="collectionHeader-aspectRatioCell">
+       <div class="collectionHeader-aspectRatioFullWidth"></div>
+      </div>
+     </div>
+     <div class="collectionHeader-blockNav">
+      <div class="u-borderBox u-maxWidth1040 u-paddingLeft20 u-paddingRight20 u-marginAuto">
+       <nav class="collectionHeader-nav u-clearfix js-collectionHeaderNav u-lineHeight40 u-overflowHiddenY">
+        <div class="buttonSet u-flex1 u-noWrap u-overflowX u-paddingBottom100 u-xs-marginRight15">
+         <label class="button button--chromeless inputGroup u-sm-hide metabar-predictiveSearch u-baseColor--buttonNormal u-baseColor--placeholderNormal" title="Search Stepik"><span class="svgIcon svgIcon--search svgIcon--25px u-top0 u-baseColor--iconLight">
+           <svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25">
+            <path d="M20.067 18.933l-4.157-4.157a6 6 0 1 0-.884.884l4.157 4.157a.624.624 0 1 0 .884-.884zM6.5 11c0-2.62 2.13-4.75 4.75-4.75S16 8.38 16 11s-2.13 4.75-4.75 4.75S6.5 13.62 6.5 11z" />
+           </svg></span><input class="js-predictiveSearchInput textInput textInput--rounded textInput--darkText u-baseColor--textNormal textInput--transparent" type="search" placeholder="Search Stepik" required="true" data-collection-id="a6794eebae60"></label>
+         <a class="button button--chromeless is-touchIconBlackPulse u-baseColor--buttonNormal button--withIcon button--withSvgIcon u-verticalAlignMiddle" href="https://twitter.com/stepikorg" title="Visit “Stepik” on Twitter" aria-label="Visit “Stepik” on Twitter" rel="me" target="_blank"><span class="button-defaultState"><span class="svgIcon svgIcon--twitterFilled svgIcon--25px">
+            <svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25">
+             <path d="M21.725 5.338c-.744.47-1.605.804-2.513 1.006a3.978 3.978 0 0 0-2.942-1.293c-2.22 0-4.02 1.81-4.02 4.02 0 .32.034.63.07.94-3.31-.18-6.27-1.78-8.255-4.23a4.544 4.544 0 0 0-.574 2.01c.04 1.43.74 2.66 1.8 3.38-.63-.01-1.25-.19-1.79-.5v.08c0 1.93 1.38 3.56 3.23 3.95-.34.07-.7.12-1.07.14-.25-.02-.5-.04-.72-.07.49 1.58 1.97 2.74 3.74 2.8a8.49 8.49 0 0 1-5.02 1.72c-.3-.03-.62-.04-.93-.07A11.447 11.447 0 0 0 8.88 21c7.386 0 11.43-6.13 11.414-11.414.015-.21.01-.38 0-.578a7.604 7.604 0 0 0 2.01-2.08 7.27 7.27 0 0 1-2.297.645 3.856 3.856 0 0 0 1.72-2.23" />
+            </svg></span></span></a>
+         <a class="button button--chromeless is-touchIconBlackPulse u-baseColor--buttonNormal button--withIcon button--withSvgIcon u-verticalAlignMiddle" href="//facebook.com/stepikorg" title="Visit “Stepik” on Facebook" aria-label="Visit “Stepik” on Facebook" rel="me" target="_blank"><span class="button-defaultState"><span class="svgIcon svgIcon--facebookFilled svgIcon--25px">
+            <svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25">
+             <path d="M21 12.646C21 7.65 16.97 3.6 12 3.6s-9 4.05-9 9.046a9.026 9.026 0 0 0 7.59 8.924v-6.376H8.395V12.64h2.193v-1.88c0-2.186 1.328-3.375 3.267-3.375.93 0 1.728.07 1.96.1V9.77H14.47c-1.055 0-1.26.503-1.26 1.242v1.63h2.517l-.33 2.554H13.21V21.6c4.398-.597 7.79-4.373 7.79-8.954" />
+            </svg></span></span></a>
+        </div>
+        <div class="buttonSet u-textAlignRight u-marginLeft18 u-flex0 u-noWrap">
+         <button class="button button--primary button--smallest u-noUserSelect button--withChrome u-accentColor--buttonNormal button--followCollection js-followCollectionButton" data-action="sign-up-prompt" data-sign-in-action="toggle-subscribe-collection" data-requires-token="true" data-redirect="https://medium.com/_/subscribe/collection/stepik" data-action-source="header----a6794eebae60----------------------follow_pub"><span class="button-label  button-defaultState js-buttonLabel">Follow</span><span class="button-label button-activeState">Following</span></button>
+        </div>
+       </nav>
+      </div>
+     </div>
+    </div>
+    <div class="u-marginBottom40 js-collectionStream">
+     <div class="streamItem streamItem--section js-streamItem">
+      <div class="u-clearfix u-maxWidth1000 u-marginAuto">
+       <div class="row u-marginTop30 u-marginBottom20 u-xs-marginTop0 u-xs-marginRight0 u-xs-marginLeft0">
+        <div class="col u-size8of12 u-xs-size12of12">
+         <div class="postArticle postArticle--short is-withAccentColors">
+          <div class="u-paddingBottom25 u-paddingTop20 js-trackedPost u-borderBottomLight" data-source="collection_home---6------0----------------" data-post-id="f92e5a516cca">
+           <div class="u-clearfix u-marginBottom15 u-paddingTop5">
+            <div class="postMetaInline u-floatLeft">
+             <div class="u-flexCenter">
+              <div class="postMetaInline-avatar u-flex0">
+               <a class="link avatar u-baseColor--link" href="https://blog.stepik.org/@mariabilkova" data-action="show-user-card" data-action-value="9791c56c4595" data-action-type="hover" data-user-id="9791c56c4595" data-collection-slug="stepik" dir="auto"><img src="https://cdn-images-1.medium.com/fit/c/72/72/0*1yR1VGdTKVdgCjLX." class="avatar-image u-size36x36 u-xs-size32x32" alt="Go to the profile of Maria Bilkova"></a>
+              </div>
+              <div class="postMetaInline postMetaInline-authorLockup ui-captionStrong u-flex1 u-noWrapWithEllipsis">
+               <a class="link link link--darken link--accent u-accentColor--textNormal u-accentColor--textDarken u-baseColor--link ui-linkSubtle" href="https://blog.stepik.org/@mariabilkova?source=collection_home---6------0----------------" data-action="show-user-card" data-action-source="collection_home---6------0----------------" data-action-value="9791c56c4595" data-action-type="hover" data-user-id="9791c56c4595" data-collection-slug="stepik" dir="auto">Maria Bilkova</a>
+               <div class="ui-caption u-fontSize12 u-baseColor--textNormal u-textColorNormal js-postMetaInlineSupplemental">
+                <a class="link link--darken" href="https://blog.stepik.org/4-mistakes-you-should-avoid-making-when-studying-online-f92e5a516cca?source=collection_home---6------0----------------" data-action="open-post" data-action-value="https://blog.stepik.org/4-mistakes-you-should-avoid-making-when-studying-online-f92e5a516cca?source=collection_home---6------0----------------" data-action-source="preview-listing"><time datetime="2017-01-30T14:16:40.042Z">Jan 30</time></a>
+                <span class="middotDivider u-fontSize12"></span>
+                <span class="readingTime" title="4 min read"></span>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <a class="" href="https://blog.stepik.org/4-mistakes-you-should-avoid-making-when-studying-online-f92e5a516cca?source=collection_home---6------0----------------" data-action-source="collection_home---6------0----------------">
+            <div class="u-maxWidth600 u-margin0 postArticle-content js-postField">
+             <section class="section section--body section--first section--last">
+              <div class="section-divider">
+               <hr class="section-divider">
+              </div>
+              <div class="section-content">
+               <div class="section-inner sectionLayout--insetColumn">
+                <h3 name="9d94" id="9d94" class="graf graf--h3 graf--leading graf--title">4 Mistakes You Should Avoid When Studying&nbsp;Online</h3>
+                <figure name="9d68" id="9d68" class="graf graf--figure graf--layoutConstrainedHeightPreview graf-after--h3 graf--trailing">
+                 <div class="aspectRatioPlaceholder is-locked" style="max-width: 360px; max-height: 240px;">
+                  <div class="aspectRatioPlaceholder-fill" style="padding-bottom: 66.7%;"></div>
+                  <img class="graf-image" data-image-id="1*lb9lfFpBfoFPIOQBMoFTDA.jpeg" data-width="960" data-height="640" src="https://cdn-images-1.medium.com/max/720/1*lb9lfFpBfoFPIOQBMoFTDA.jpeg">
+                 </div>
+                </figure>
+               </div>
+              </div>
+             </section>
+            </div></a>
+           <div class="postArticle-readMore">
+            <a class="button button--smaller button--chromeless u-baseColor--buttonNormal" href="https://blog.stepik.org/4-mistakes-you-should-avoid-making-when-studying-online-f92e5a516cca?source=collection_home---6------0----------------" data-action="open-post" data-action-source="collection_home---6------0----------------" data-action-value="https://blog.stepik.org/4-mistakes-you-should-avoid-making-when-studying-online-f92e5a516cca?source=collection_home---6------0----------------" data-post-id="f92e5a516cca">Read more…</a>
+           </div>
+           <div class="u-clearfix u-paddingTop10">
+            <div class="u-floatLeft">
+             <div class="multirecommend js-actionMultirecommend u-flexCenter" data-post-id="f92e5a516cca" data-is-flush-left="true" data-is-compressed="true" data-source="listing-----f92e5a516cca---------------------clap_preview">
+              <div class="u-relative u-foreground">
+               <button class="button button--primary button--chromeless u-accentColor--buttonNormal button--withIcon button--withSvgIcon clapButton js-actionMultirecommendButton" data-action="sign-up-prompt" data-sign-in-action="multivote" data-requires-token="true" data-redirect="https://medium.com/_/vote/p/f92e5a516cca" data-action-source="listing-----f92e5a516cca---------------------clap_preview" aria-label="Clap"><span class="button-defaultState"><span class="svgIcon svgIcon--clap svgIcon--25px is-flushLeft">
+                  <svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25">
+                   <g fill-rule="evenodd">
+                    <path d="M11.739 0l.761 2.966L13.261 0z" />
+                    <path d="M14.815 3.776l1.84-2.551-1.43-.471z" />
+                    <path d="M8.378 1.224l1.84 2.551L9.81.753z" />
+                    <path d="M20.382 21.622c-1.04 1.04-2.115 1.507-3.166 1.608.168-.14.332-.29.492-.45 2.885-2.886 3.456-5.982 1.69-9.211l-1.101-1.937-.955-2.02c-.315-.676-.235-1.185.245-1.556a.836.836 0 0 1 .66-.16c.342.056.66.28.879.605l2.856 5.023c1.179 1.962 1.379 5.119-1.6 8.098m-13.29-.528l-5.02-5.02a1 1 0 0 1 .707-1.701c.255 0 .512.098.707.292l2.607 2.607a.442.442 0 0 0 .624-.624L4.11 14.04l-1.75-1.75a.998.998 0 1 1 1.41-1.413l4.154 4.156a.44.44 0 0 0 .624 0 .44.44 0 0 0 0-.624l-4.152-4.153-1.172-1.171a.998.998 0 0 1 0-1.41 1.018 1.018 0 0 1 1.41 0l1.172 1.17 4.153 4.152a.437.437 0 0 0 .624 0 .442.442 0 0 0 0-.624L6.43 8.222a.988.988 0 0 1-.291-.705.99.99 0 0 1 .29-.706 1 1 0 0 1 1.412 0l6.992 6.993a.443.443 0 0 0 .71-.501l-1.35-2.856c-.315-.676-.235-1.185.246-1.557a.85.85 0 0 1 .66-.16c.342.056.659.28.879.606L18.628 14c1.573 2.876 1.067 5.545-1.544 8.156-1.396 1.397-3.144 1.966-5.063 1.652-1.713-.286-3.463-1.248-4.928-2.714zM10.99 5.976l2.562 2.562c-.497.607-.563 1.414-.155 2.284l.265.562-4.257-4.257a.98.98 0 0 1-.117-.445c0-.267.104-.517.292-.706a1.023 1.023 0 0 1 1.41 0zm8.887 2.06c-.375-.557-.902-.916-1.486-1.011a1.738 1.738 0 0 0-1.342.332c-.376.29-.61.656-.712 1.065a2.1 2.1 0 0 0-1.095-.562 1.776 1.776 0 0 0-.992.128l-2.636-2.636a1.883 1.883 0 0 0-2.658 0 1.862 1.862 0 0 0-.478.847 1.886 1.886 0 0 0-2.671-.012 1.867 1.867 0 0 0-.503.909c-.754-.754-1.992-.754-2.703-.044a1.881 1.881 0 0 0 0 2.658c-.288.12-.605.288-.864.547a1.884 1.884 0 0 0 0 2.659l.624.622a1.879 1.879 0 0 0-.91 3.16l5.019 5.02c1.595 1.594 3.515 2.645 5.408 2.959a7.16 7.16 0 0 0 1.173.098c1.026 0 1.997-.24 2.892-.7.279.04.555.065.828.065 1.53 0 2.969-.628 4.236-1.894 3.338-3.338 3.083-6.928 1.738-9.166l-2.868-5.043z" />
+                   </g>
+                  </svg></span></span><span class="button-activeState"><span class="svgIcon svgIcon--clapFilled svgIcon--25px is-flushLeft">
+                  <svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25">
+                   <g fill-rule="evenodd">
+                    <path d="M11.738 0l.762 2.966L13.262 0z" />
+                    <path d="M16.634 1.224l-1.432-.47-.408 3.022z" />
+                    <path d="M9.79.754l-1.431.47 1.84 2.552z" />
+                    <path d="M22.472 13.307l-3.023-5.32c-.287-.426-.689-.705-1.123-.776a1.16 1.16 0 0 0-.911.221c-.297.231-.474.515-.535.84.017.022.036.04.053.063l2.843 5.001c1.95 3.564 1.328 6.973-1.843 10.144a8.46 8.46 0 0 1-.549.501c1.205-.156 2.328-.737 3.351-1.76 3.268-3.268 3.041-6.749 1.737-8.914" />
+                    <path d="M12.58 9.887c-.156-.83.096-1.569.692-2.142L10.78 5.252c-.5-.504-1.378-.504-1.879 0-.178.18-.273.4-.329.63l4.008 4.005z" />
+                    <path d="M15.812 9.04c-.218-.323-.539-.55-.88-.606a.814.814 0 0 0-.644.153c-.176.137-.713.553-.24 1.566l1.43 3.025a.539.539 0 1 1-.868.612L7.2 6.378a.986.986 0 1 0-1.395 1.395l4.401 4.403a.538.538 0 1 1-.762.762L5.046 8.54 3.802 7.295a.99.99 0 0 0-1.396 0 .981.981 0 0 0 0 1.394L3.647 9.93l4.402 4.403a.537.537 0 0 1 0 .761.535.535 0 0 1-.762 0L2.89 10.696a.992.992 0 0 0-1.399-.003.983.983 0 0 0 0 1.395l1.855 1.854 2.763 2.765a.538.538 0 0 1-.76.761l-2.765-2.764a.982.982 0 0 0-1.395 0 .989.989 0 0 0 0 1.395l5.32 5.32c3.371 3.372 6.64 4.977 10.49 1.126C19.74 19.8 20.271 17 18.62 13.982L15.812 9.04z" />
+                   </g>
+                  </svg></span></span></button>
+              </div>
+              <span class="u-textAlignCenter u-relative u-background js-actionMultirecommendCount u-marginLeft5"><button class="button button--chromeless u-baseColor--buttonNormal js-multirecommendCountButton u-disablePointerEvents" data-action="show-recommends" data-action-value="f92e5a516cca">6</button></span>
+             </div>
+            </div>
+            <div class="buttonSet u-floatRight">
+             <button class="button button--chromeless is-touchIconFadeInPulse u-baseColor--buttonNormal button--withIcon button--withSvgIcon button--bookmark js-bookmarkButton" title="Bookmark this story to read later" aria-label="Bookmark this story to read later" data-action="sign-up-prompt" data-sign-in-action="add-to-bookmarks" data-requires-token="true" data-redirect="https://medium.com/_/bookmark/p/f92e5a516cca" data-action-source="listing-----f92e5a516cca---------------------bookmark_preview"><span class="button-defaultState"><span class="svgIcon svgIcon--bookmark svgIcon--25px is-flushRight">
+                <svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25">
+                 <path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd" />
+                </svg></span></span><span class="button-activeState"><span class="svgIcon svgIcon--bookmarkFilled svgIcon--25px is-flushRight">
+                <svg class="svgIcon-use" width="25" height="26" viewbox="0 0 25 26">
+                 <path d="M19 7c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 17.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V7z" fill-rule="evenodd" />
+                </svg></span></span></button>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="postArticle postArticle--short is-withAccentColors">
+          <div class="u-paddingBottom25 u-paddingTop20 js-trackedPost u-borderBottomLight" data-source="collection_home---6------1----------------" data-post-id="4d81a2e30d10">
+           <div class="u-clearfix u-marginBottom15 u-paddingTop5">
+            <div class="postMetaInline u-floatLeft">
+             <div class="u-flexCenter">
+              <div class="postMetaInline-avatar u-flex0">
+               <a class="link avatar u-baseColor--link" href="https://blog.stepik.org/@mariabilkova" data-action="show-user-card" data-action-value="9791c56c4595" data-action-type="hover" data-user-id="9791c56c4595" data-collection-slug="stepik" dir="auto"><img src="https://cdn-images-1.medium.com/fit/c/72/72/0*1yR1VGdTKVdgCjLX." class="avatar-image u-size36x36 u-xs-size32x32" alt="Go to the profile of Maria Bilkova"></a>
+              </div>
+              <div class="postMetaInline postMetaInline-authorLockup ui-captionStrong u-flex1 u-noWrapWithEllipsis">
+               <a class="link link link--darken link--accent u-accentColor--textNormal u-accentColor--textDarken u-baseColor--link ui-linkSubtle" href="https://blog.stepik.org/@mariabilkova?source=collection_home---6------1----------------" data-action="show-user-card" data-action-source="collection_home---6------1----------------" data-action-value="9791c56c4595" data-action-type="hover" data-user-id="9791c56c4595" data-collection-slug="stepik" dir="auto">Maria Bilkova</a>
+               <div class="ui-caption u-fontSize12 u-baseColor--textNormal u-textColorNormal js-postMetaInlineSupplemental">
+                <a class="link link--darken" href="https://blog.stepik.org/10-inspirational-movies-on-computer-science-and-more-4d81a2e30d10?source=collection_home---6------1----------------" data-action="open-post" data-action-value="https://blog.stepik.org/10-inspirational-movies-on-computer-science-and-more-4d81a2e30d10?source=collection_home---6------1----------------" data-action-source="preview-listing"><time datetime="2017-01-03T20:47:08.966Z">Jan 3</time></a>
+                <span class="middotDivider u-fontSize12"></span>
+                <span class="readingTime" title="1 min read"></span>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <a class="" href="https://blog.stepik.org/10-inspirational-movies-on-computer-science-and-more-4d81a2e30d10?source=collection_home---6------1----------------" data-action-source="collection_home---6------1----------------">
+            <div class="u-maxWidth600 u-margin0 postArticle-content js-postField">
+             <section class="section section--body section--first section--last">
+              <div class="section-divider">
+               <hr class="section-divider">
+              </div>
+              <div class="section-content">
+               <div class="section-inner sectionLayout--insetColumn">
+                <h3 name="a5d8" id="a5d8" class="graf graf--h3 graf--leading graf--title"><strong class="markup--strong markup--h3-strong">10 Inspirational Movies on Computer Science and&nbsp;More</strong></h3>
+                <figure name="31d3" id="31d3" class="graf graf--figure graf--layoutConstrainedHeightPreview graf-after--h3 graf--trailing">
+                 <div class="aspectRatioPlaceholder is-locked" style="max-width: 256px; max-height: 240px;">
+                  <div class="aspectRatioPlaceholder-fill" style="padding-bottom: 93.8%;"></div>
+                  <img class="graf-image" data-image-id="1*o3DtGy64CNejJw0eTvqZWA.png" data-width="592" data-height="555" src="https://cdn-images-1.medium.com/max/512/1*o3DtGy64CNejJw0eTvqZWA.png">
+                 </div>
+                </figure>
+               </div>
+              </div>
+             </section>
+            </div></a>
+           <div class="postArticle-readMore">
+            <a class="button button--smaller button--chromeless u-baseColor--buttonNormal" href="https://blog.stepik.org/10-inspirational-movies-on-computer-science-and-more-4d81a2e30d10?source=collection_home---6------1----------------" data-action="open-post" data-action-source="collection_home---6------1----------------" data-action-value="https://blog.stepik.org/10-inspirational-movies-on-computer-science-and-more-4d81a2e30d10?source=collection_home---6------1----------------" data-post-id="4d81a2e30d10">Read more…</a>
+           </div>
+           <div class="u-clearfix u-paddingTop10">
+            <div class="u-floatLeft">
+             <div class="multirecommend js-actionMultirecommend u-flexCenter" data-post-id="4d81a2e30d10" data-is-flush-left="true" data-is-compressed="true" data-source="listing-----4d81a2e30d10---------------------clap_preview">
+              <div class="u-relative u-foreground">
+               <button class="button button--primary button--chromeless u-accentColor--buttonNormal button--withIcon button--withSvgIcon clapButton js-actionMultirecommendButton" data-action="sign-up-prompt" data-sign-in-action="multivote" data-requires-token="true" data-redirect="https://medium.com/_/vote/p/4d81a2e30d10" data-action-source="listing-----4d81a2e30d10---------------------clap_preview" aria-label="Clap"><span class="button-defaultState"><span class="svgIcon svgIcon--clap svgIcon--25px is-flushLeft">
+                  <svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25">
+                   <g fill-rule="evenodd">
+                    <path d="M11.739 0l.761 2.966L13.261 0z" />
+                    <path d="M14.815 3.776l1.84-2.551-1.43-.471z" />
+                    <path d="M8.378 1.224l1.84 2.551L9.81.753z" />
+                    <path d="M20.382 21.622c-1.04 1.04-2.115 1.507-3.166 1.608.168-.14.332-.29.492-.45 2.885-2.886 3.456-5.982 1.69-9.211l-1.101-1.937-.955-2.02c-.315-.676-.235-1.185.245-1.556a.836.836 0 0 1 .66-.16c.342.056.66.28.879.605l2.856 5.023c1.179 1.962 1.379 5.119-1.6 8.098m-13.29-.528l-5.02-5.02a1 1 0 0 1 .707-1.701c.255 0 .512.098.707.292l2.607 2.607a.442.442 0 0 0 .624-.624L4.11 14.04l-1.75-1.75a.998.998 0 1 1 1.41-1.413l4.154 4.156a.44.44 0 0 0 .624 0 .44.44 0 0 0 0-.624l-4.152-4.153-1.172-1.171a.998.998 0 0 1 0-1.41 1.018 1.018 0 0 1 1.41 0l1.172 1.17 4.153 4.152a.437.437 0 0 0 .624 0 .442.442 0 0 0 0-.624L6.43 8.222a.988.988 0 0 1-.291-.705.99.99 0 0 1 .29-.706 1 1 0 0 1 1.412 0l6.992 6.993a.443.443 0 0 0 .71-.501l-1.35-2.856c-.315-.676-.235-1.185.246-1.557a.85.85 0 0 1 .66-.16c.342.056.659.28.879.606L18.628 14c1.573 2.876 1.067 5.545-1.544 8.156-1.396 1.397-3.144 1.966-5.063 1.652-1.713-.286-3.463-1.248-4.928-2.714zM10.99 5.976l2.562 2.562c-.497.607-.563 1.414-.155 2.284l.265.562-4.257-4.257a.98.98 0 0 1-.117-.445c0-.267.104-.517.292-.706a1.023 1.023 0 0 1 1.41 0zm8.887 2.06c-.375-.557-.902-.916-1.486-1.011a1.738 1.738 0 0 0-1.342.332c-.376.29-.61.656-.712 1.065a2.1 2.1 0 0 0-1.095-.562 1.776 1.776 0 0 0-.992.128l-2.636-2.636a1.883 1.883 0 0 0-2.658 0 1.862 1.862 0 0 0-.478.847 1.886 1.886 0 0 0-2.671-.012 1.867 1.867 0 0 0-.503.909c-.754-.754-1.992-.754-2.703-.044a1.881 1.881 0 0 0 0 2.658c-.288.12-.605.288-.864.547a1.884 1.884 0 0 0 0 2.659l.624.622a1.879 1.879 0 0 0-.91 3.16l5.019 5.02c1.595 1.594 3.515 2.645 5.408 2.959a7.16 7.16 0 0 0 1.173.098c1.026 0 1.997-.24 2.892-.7.279.04.555.065.828.065 1.53 0 2.969-.628 4.236-1.894 3.338-3.338 3.083-6.928 1.738-9.166l-2.868-5.043z" />
+                   </g>
+                  </svg></span></span><span class="button-activeState"><span class="svgIcon svgIcon--clapFilled svgIcon--25px is-flushLeft">
+                  <svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25">
+                   <g fill-rule="evenodd">
+                    <path d="M11.738 0l.762 2.966L13.262 0z" />
+                    <path d="M16.634 1.224l-1.432-.47-.408 3.022z" />
+                    <path d="M9.79.754l-1.431.47 1.84 2.552z" />
+                    <path d="M22.472 13.307l-3.023-5.32c-.287-.426-.689-.705-1.123-.776a1.16 1.16 0 0 0-.911.221c-.297.231-.474.515-.535.84.017.022.036.04.053.063l2.843 5.001c1.95 3.564 1.328 6.973-1.843 10.144a8.46 8.46 0 0 1-.549.501c1.205-.156 2.328-.737 3.351-1.76 3.268-3.268 3.041-6.749 1.737-8.914" />
+                    <path d="M12.58 9.887c-.156-.83.096-1.569.692-2.142L10.78 5.252c-.5-.504-1.378-.504-1.879 0-.178.18-.273.4-.329.63l4.008 4.005z" />
+                    <path d="M15.812 9.04c-.218-.323-.539-.55-.88-.606a.814.814 0 0 0-.644.153c-.176.137-.713.553-.24 1.566l1.43 3.025a.539.539 0 1 1-.868.612L7.2 6.378a.986.986 0 1 0-1.395 1.395l4.401 4.403a.538.538 0 1 1-.762.762L5.046 8.54 3.802 7.295a.99.99 0 0 0-1.396 0 .981.981 0 0 0 0 1.394L3.647 9.93l4.402 4.403a.537.537 0 0 1 0 .761.535.535 0 0 1-.762 0L2.89 10.696a.992.992 0 0 0-1.399-.003.983.983 0 0 0 0 1.395l1.855 1.854 2.763 2.765a.538.538 0 0 1-.76.761l-2.765-2.764a.982.982 0 0 0-1.395 0 .989.989 0 0 0 0 1.395l5.32 5.32c3.371 3.372 6.64 4.977 10.49 1.126C19.74 19.8 20.271 17 18.62 13.982L15.812 9.04z" />
+                   </g>
+                  </svg></span></span></button>
+              </div>
+              <span class="u-textAlignCenter u-relative u-background js-actionMultirecommendCount u-marginLeft5"><button class="button button--chromeless u-baseColor--buttonNormal js-multirecommendCountButton u-disablePointerEvents" data-action="show-recommends" data-action-value="4d81a2e30d10">3</button></span>
+             </div>
+            </div>
+            <div class="buttonSet u-floatRight">
+             <button class="button button--chromeless is-touchIconFadeInPulse u-baseColor--buttonNormal button--withIcon button--withSvgIcon button--bookmark js-bookmarkButton" title="Bookmark this story to read later" aria-label="Bookmark this story to read later" data-action="sign-up-prompt" data-sign-in-action="add-to-bookmarks" data-requires-token="true" data-redirect="https://medium.com/_/bookmark/p/4d81a2e30d10" data-action-source="listing-----4d81a2e30d10---------------------bookmark_preview"><span class="button-defaultState"><span class="svgIcon svgIcon--bookmark svgIcon--25px is-flushRight">
+                <svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25">
+                 <path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd" />
+                </svg></span></span><span class="button-activeState"><span class="svgIcon svgIcon--bookmarkFilled svgIcon--25px is-flushRight">
+                <svg class="svgIcon-use" width="25" height="26" viewbox="0 0 25 26">
+                 <path d="M19 7c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 17.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V7z" fill-rule="evenodd" />
+                </svg></span></span></button>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="postArticle postArticle--short is-withAccentColors">
+          <div class="u-paddingBottom25 u-paddingTop20 js-trackedPost u-borderBottomLight" data-source="collection_home---6------2----------------" data-post-id="934b306e76e1">
+           <div class="u-clearfix u-marginBottom15 u-paddingTop5">
+            <div class="postMetaInline u-floatLeft">
+             <div class="u-flexCenter">
+              <div class="postMetaInline-avatar u-flex0">
+               <a class="link avatar u-baseColor--link" href="https://blog.stepik.org/@mariabilkova" data-action="show-user-card" data-action-value="9791c56c4595" data-action-type="hover" data-user-id="9791c56c4595" data-collection-slug="stepik" dir="auto"><img src="https://cdn-images-1.medium.com/fit/c/72/72/0*1yR1VGdTKVdgCjLX." class="avatar-image u-size36x36 u-xs-size32x32" alt="Go to the profile of Maria Bilkova"></a>
+              </div>
+              <div class="postMetaInline postMetaInline-authorLockup ui-captionStrong u-flex1 u-noWrapWithEllipsis">
+               <a class="link link link--darken link--accent u-accentColor--textNormal u-accentColor--textDarken u-baseColor--link ui-linkSubtle" href="https://blog.stepik.org/@mariabilkova?source=collection_home---6------2----------------" data-action="show-user-card" data-action-source="collection_home---6------2----------------" data-action-value="9791c56c4595" data-action-type="hover" data-user-id="9791c56c4595" data-collection-slug="stepik" dir="auto">Maria Bilkova</a>
+               <div class="ui-caption u-fontSize12 u-baseColor--textNormal u-textColorNormal js-postMetaInlineSupplemental">
+                <a class="link link--darken" href="https://blog.stepik.org/what-is-adaptive-learning-and-why-we-need-more-of-it-in-cs-934b306e76e1?source=collection_home---6------2----------------" data-action="open-post" data-action-value="https://blog.stepik.org/what-is-adaptive-learning-and-why-we-need-more-of-it-in-cs-934b306e76e1?source=collection_home---6------2----------------" data-action-source="preview-listing"><time datetime="2016-12-15T19:22:04.664Z">Dec 15, 2016</time></a>
+                <span class="middotDivider u-fontSize12"></span>
+                <span class="readingTime" title="4 min read"></span>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <a class="" href="https://blog.stepik.org/what-is-adaptive-learning-and-why-we-need-more-of-it-in-cs-934b306e76e1?source=collection_home---6------2----------------" data-action-source="collection_home---6------2----------------">
+            <div class="u-maxWidth600 u-margin0 postArticle-content js-postField">
+             <section class="section section--body section--first section--last">
+              <div class="section-divider">
+               <hr class="section-divider">
+              </div>
+              <div class="section-content">
+               <div class="section-inner sectionLayout--insetColumn">
+                <h3 name="1bc6" id="1bc6" class="graf graf--h3 graf--leading graf--title">What Is Adaptive Learning and Why We Need More of It in&nbsp;CS</h3>
+                <figure name="1567" id="1567" class="graf graf--figure graf--layoutConstrainedHeightPreview graf-after--h3 graf--trailing">
+                 <div class="aspectRatioPlaceholder is-locked" style="max-width: 389.7911832946636px; max-height: 240px;">
+                  <div class="aspectRatioPlaceholder-fill" style="padding-bottom: 61.6%;"></div>
+                  <img class="graf-image" data-image-id="1*9jzd3foaAaCLxtF3tqyRFw.jpeg" data-width="700" data-height="431" src="https://cdn-images-1.medium.com/max/779/1*9jzd3foaAaCLxtF3tqyRFw.jpeg">
+                 </div>
+                </figure>
+               </div>
+              </div>
+             </section>
+            </div></a>
+           <div class="postArticle-readMore">
+            <a class="button button--smaller button--chromeless u-baseColor--buttonNormal" href="https://blog.stepik.org/what-is-adaptive-learning-and-why-we-need-more-of-it-in-cs-934b306e76e1?source=collection_home---6------2----------------" data-action="open-post" data-action-source="collection_home---6------2----------------" data-action-value="https://blog.stepik.org/what-is-adaptive-learning-and-why-we-need-more-of-it-in-cs-934b306e76e1?source=collection_home---6------2----------------" data-post-id="934b306e76e1">Read more…</a>
+           </div>
+           <div class="u-clearfix u-paddingTop10">
+            <div class="u-floatLeft">
+             <div class="multirecommend js-actionMultirecommend u-flexCenter" data-post-id="934b306e76e1" data-is-flush-left="true" data-is-compressed="true" data-source="listing-----934b306e76e1---------------------clap_preview">
+              <div class="u-relative u-foreground">
+               <button class="button button--primary button--chromeless u-accentColor--buttonNormal button--withIcon button--withSvgIcon clapButton js-actionMultirecommendButton" data-action="sign-up-prompt" data-sign-in-action="multivote" data-requires-token="true" data-redirect="https://medium.com/_/vote/p/934b306e76e1" data-action-source="listing-----934b306e76e1---------------------clap_preview" aria-label="Clap"><span class="button-defaultState"><span class="svgIcon svgIcon--clap svgIcon--25px is-flushLeft">
+                  <svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25">
+                   <g fill-rule="evenodd">
+                    <path d="M11.739 0l.761 2.966L13.261 0z" />
+                    <path d="M14.815 3.776l1.84-2.551-1.43-.471z" />
+                    <path d="M8.378 1.224l1.84 2.551L9.81.753z" />
+                    <path d="M20.382 21.622c-1.04 1.04-2.115 1.507-3.166 1.608.168-.14.332-.29.492-.45 2.885-2.886 3.456-5.982 1.69-9.211l-1.101-1.937-.955-2.02c-.315-.676-.235-1.185.245-1.556a.836.836 0 0 1 .66-.16c.342.056.66.28.879.605l2.856 5.023c1.179 1.962 1.379 5.119-1.6 8.098m-13.29-.528l-5.02-5.02a1 1 0 0 1 .707-1.701c.255 0 .512.098.707.292l2.607 2.607a.442.442 0 0 0 .624-.624L4.11 14.04l-1.75-1.75a.998.998 0 1 1 1.41-1.413l4.154 4.156a.44.44 0 0 0 .624 0 .44.44 0 0 0 0-.624l-4.152-4.153-1.172-1.171a.998.998 0 0 1 0-1.41 1.018 1.018 0 0 1 1.41 0l1.172 1.17 4.153 4.152a.437.437 0 0 0 .624 0 .442.442 0 0 0 0-.624L6.43 8.222a.988.988 0 0 1-.291-.705.99.99 0 0 1 .29-.706 1 1 0 0 1 1.412 0l6.992 6.993a.443.443 0 0 0 .71-.501l-1.35-2.856c-.315-.676-.235-1.185.246-1.557a.85.85 0 0 1 .66-.16c.342.056.659.28.879.606L18.628 14c1.573 2.876 1.067 5.545-1.544 8.156-1.396 1.397-3.144 1.966-5.063 1.652-1.713-.286-3.463-1.248-4.928-2.714zM10.99 5.976l2.562 2.562c-.497.607-.563 1.414-.155 2.284l.265.562-4.257-4.257a.98.98 0 0 1-.117-.445c0-.267.104-.517.292-.706a1.023 1.023 0 0 1 1.41 0zm8.887 2.06c-.375-.557-.902-.916-1.486-1.011a1.738 1.738 0 0 0-1.342.332c-.376.29-.61.656-.712 1.065a2.1 2.1 0 0 0-1.095-.562 1.776 1.776 0 0 0-.992.128l-2.636-2.636a1.883 1.883 0 0 0-2.658 0 1.862 1.862 0 0 0-.478.847 1.886 1.886 0 0 0-2.671-.012 1.867 1.867 0 0 0-.503.909c-.754-.754-1.992-.754-2.703-.044a1.881 1.881 0 0 0 0 2.658c-.288.12-.605.288-.864.547a1.884 1.884 0 0 0 0 2.659l.624.622a1.879 1.879 0 0 0-.91 3.16l5.019 5.02c1.595 1.594 3.515 2.645 5.408 2.959a7.16 7.16 0 0 0 1.173.098c1.026 0 1.997-.24 2.892-.7.279.04.555.065.828.065 1.53 0 2.969-.628 4.236-1.894 3.338-3.338 3.083-6.928 1.738-9.166l-2.868-5.043z" />
+                   </g>
+                  </svg></span></span><span class="button-activeState"><span class="svgIcon svgIcon--clapFilled svgIcon--25px is-flushLeft">
+                  <svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25">
+                   <g fill-rule="evenodd">
+                    <path d="M11.738 0l.762 2.966L13.262 0z" />
+                    <path d="M16.634 1.224l-1.432-.47-.408 3.022z" />
+                    <path d="M9.79.754l-1.431.47 1.84 2.552z" />
+                    <path d="M22.472 13.307l-3.023-5.32c-.287-.426-.689-.705-1.123-.776a1.16 1.16 0 0 0-.911.221c-.297.231-.474.515-.535.84.017.022.036.04.053.063l2.843 5.001c1.95 3.564 1.328 6.973-1.843 10.144a8.46 8.46 0 0 1-.549.501c1.205-.156 2.328-.737 3.351-1.76 3.268-3.268 3.041-6.749 1.737-8.914" />
+                    <path d="M12.58 9.887c-.156-.83.096-1.569.692-2.142L10.78 5.252c-.5-.504-1.378-.504-1.879 0-.178.18-.273.4-.329.63l4.008 4.005z" />
+                    <path d="M15.812 9.04c-.218-.323-.539-.55-.88-.606a.814.814 0 0 0-.644.153c-.176.137-.713.553-.24 1.566l1.43 3.025a.539.539 0 1 1-.868.612L7.2 6.378a.986.986 0 1 0-1.395 1.395l4.401 4.403a.538.538 0 1 1-.762.762L5.046 8.54 3.802 7.295a.99.99 0 0 0-1.396 0 .981.981 0 0 0 0 1.394L3.647 9.93l4.402 4.403a.537.537 0 0 1 0 .761.535.535 0 0 1-.762 0L2.89 10.696a.992.992 0 0 0-1.399-.003.983.983 0 0 0 0 1.395l1.855 1.854 2.763 2.765a.538.538 0 0 1-.76.761l-2.765-2.764a.982.982 0 0 0-1.395 0 .989.989 0 0 0 0 1.395l5.32 5.32c3.371 3.372 6.64 4.977 10.49 1.126C19.74 19.8 20.271 17 18.62 13.982L15.812 9.04z" />
+                   </g>
+                  </svg></span></span></button>
+              </div>
+              <span class="u-textAlignCenter u-relative u-background js-actionMultirecommendCount u-marginLeft5"><button class="button button--chromeless u-baseColor--buttonNormal js-multirecommendCountButton u-disablePointerEvents" data-action="show-recommends" data-action-value="934b306e76e1">21</button></span>
+             </div>
+            </div>
+            <div class="buttonSet u-floatRight">
+             <button class="button button--chromeless is-touchIconFadeInPulse u-baseColor--buttonNormal button--withIcon button--withSvgIcon button--bookmark js-bookmarkButton" title="Bookmark this story to read later" aria-label="Bookmark this story to read later" data-action="sign-up-prompt" data-sign-in-action="add-to-bookmarks" data-requires-token="true" data-redirect="https://medium.com/_/bookmark/p/934b306e76e1" data-action-source="listing-----934b306e76e1---------------------bookmark_preview"><span class="button-defaultState"><span class="svgIcon svgIcon--bookmark svgIcon--25px is-flushRight">
+                <svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25">
+                 <path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd" />
+                </svg></span></span><span class="button-activeState"><span class="svgIcon svgIcon--bookmarkFilled svgIcon--25px is-flushRight">
+                <svg class="svgIcon-use" width="25" height="26" viewbox="0 0 25 26">
+                 <path d="M19 7c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 17.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V7z" fill-rule="evenodd" />
+                </svg></span></span></button>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="postArticle postArticle--short is-withAccentColors">
+          <div class="u-paddingBottom25 u-paddingTop20 js-trackedPost u-borderBottomLight" data-source="collection_home---6------3----------------" data-post-id="f4fd05308074">
+           <div class="u-clearfix u-marginBottom15 u-paddingTop5">
+            <div class="postMetaInline u-floatLeft">
+             <div class="u-flexCenter">
+              <div class="postMetaInline-avatar u-flex0">
+               <a class="link avatar u-baseColor--link" href="https://blog.stepik.org/@mariabilkova" data-action="show-user-card" data-action-value="9791c56c4595" data-action-type="hover" data-user-id="9791c56c4595" data-collection-slug="stepik" dir="auto"><img src="https://cdn-images-1.medium.com/fit/c/72/72/0*1yR1VGdTKVdgCjLX." class="avatar-image u-size36x36 u-xs-size32x32" alt="Go to the profile of Maria Bilkova"></a>
+              </div>
+              <div class="postMetaInline postMetaInline-authorLockup ui-captionStrong u-flex1 u-noWrapWithEllipsis">
+               <a class="link link link--darken link--accent u-accentColor--textNormal u-accentColor--textDarken u-baseColor--link ui-linkSubtle" href="https://blog.stepik.org/@mariabilkova?source=collection_home---6------3----------------" data-action="show-user-card" data-action-source="collection_home---6------3----------------" data-action-value="9791c56c4595" data-action-type="hover" data-user-id="9791c56c4595" data-collection-slug="stepik" dir="auto">Maria Bilkova</a>
+               <div class="ui-caption u-fontSize12 u-baseColor--textNormal u-textColorNormal js-postMetaInlineSupplemental">
+                <a class="link link--darken" href="https://blog.stepik.org/12-resources-every-cs-student-should-know-about-f4fd05308074?source=collection_home---6------3----------------" data-action="open-post" data-action-value="https://blog.stepik.org/12-resources-every-cs-student-should-know-about-f4fd05308074?source=collection_home---6------3----------------" data-action-source="preview-listing"><time datetime="2016-12-05T16:50:49.786Z">Dec 5, 2016</time></a>
+                <span class="middotDivider u-fontSize12"></span>
+                <span class="readingTime" title="2 min read"></span>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <a class="" href="https://blog.stepik.org/12-resources-every-cs-student-should-know-about-f4fd05308074?source=collection_home---6------3----------------" data-action-source="collection_home---6------3----------------">
+            <div class="u-maxWidth600 u-margin0 postArticle-content js-postField">
+             <section class="section section--body section--first section--last">
+              <div class="section-divider">
+               <hr class="section-divider">
+              </div>
+              <div class="section-content">
+               <div class="section-inner sectionLayout--insetColumn">
+                <h3 name="f399" id="f399" class="graf graf--h3 graf--leading graf--title">12 Resources Every CS Student Should Know&nbsp;About</h3>
+                <figure name="d8b6" id="d8b6" class="graf graf--figure graf--layoutConstrainedHeightPreview graf-after--h3 graf--trailing">
+                 <div class="aspectRatioPlaceholder is-locked" style="max-width: 480px; max-height: 240px;">
+                  <div class="aspectRatioPlaceholder-fill" style="padding-bottom: 50%;"></div>
+                  <img class="graf-image" data-image-id="1*TqvPqo9x9GWSrhznP3ASKg.jpeg" data-width="1400" data-height="700" src="https://cdn-images-1.medium.com/max/960/1*TqvPqo9x9GWSrhznP3ASKg.jpeg">
+                 </div>
+                </figure>
+               </div>
+              </div>
+             </section>
+            </div></a>
+           <div class="postArticle-readMore">
+            <a class="button button--smaller button--chromeless u-baseColor--buttonNormal" href="https://blog.stepik.org/12-resources-every-cs-student-should-know-about-f4fd05308074?source=collection_home---6------3----------------" data-action="open-post" data-action-source="collection_home---6------3----------------" data-action-value="https://blog.stepik.org/12-resources-every-cs-student-should-know-about-f4fd05308074?source=collection_home---6------3----------------" data-post-id="f4fd05308074">Read more…</a>
+           </div>
+           <div class="u-clearfix u-paddingTop10">
+            <div class="u-floatLeft">
+             <div class="multirecommend js-actionMultirecommend u-flexCenter" data-post-id="f4fd05308074" data-is-flush-left="true" data-is-compressed="true" data-source="listing-----f4fd05308074---------------------clap_preview">
+              <div class="u-relative u-foreground">
+               <button class="button button--primary button--chromeless u-accentColor--buttonNormal button--withIcon button--withSvgIcon clapButton js-actionMultirecommendButton" data-action="sign-up-prompt" data-sign-in-action="multivote" data-requires-token="true" data-redirect="https://medium.com/_/vote/p/f4fd05308074" data-action-source="listing-----f4fd05308074---------------------clap_preview" aria-label="Clap"><span class="button-defaultState"><span class="svgIcon svgIcon--clap svgIcon--25px is-flushLeft">
+                  <svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25">
+                   <g fill-rule="evenodd">
+                    <path d="M11.739 0l.761 2.966L13.261 0z" />
+                    <path d="M14.815 3.776l1.84-2.551-1.43-.471z" />
+                    <path d="M8.378 1.224l1.84 2.551L9.81.753z" />
+                    <path d="M20.382 21.622c-1.04 1.04-2.115 1.507-3.166 1.608.168-.14.332-.29.492-.45 2.885-2.886 3.456-5.982 1.69-9.211l-1.101-1.937-.955-2.02c-.315-.676-.235-1.185.245-1.556a.836.836 0 0 1 .66-.16c.342.056.66.28.879.605l2.856 5.023c1.179 1.962 1.379 5.119-1.6 8.098m-13.29-.528l-5.02-5.02a1 1 0 0 1 .707-1.701c.255 0 .512.098.707.292l2.607 2.607a.442.442 0 0 0 .624-.624L4.11 14.04l-1.75-1.75a.998.998 0 1 1 1.41-1.413l4.154 4.156a.44.44 0 0 0 .624 0 .44.44 0 0 0 0-.624l-4.152-4.153-1.172-1.171a.998.998 0 0 1 0-1.41 1.018 1.018 0 0 1 1.41 0l1.172 1.17 4.153 4.152a.437.437 0 0 0 .624 0 .442.442 0 0 0 0-.624L6.43 8.222a.988.988 0 0 1-.291-.705.99.99 0 0 1 .29-.706 1 1 0 0 1 1.412 0l6.992 6.993a.443.443 0 0 0 .71-.501l-1.35-2.856c-.315-.676-.235-1.185.246-1.557a.85.85 0 0 1 .66-.16c.342.056.659.28.879.606L18.628 14c1.573 2.876 1.067 5.545-1.544 8.156-1.396 1.397-3.144 1.966-5.063 1.652-1.713-.286-3.463-1.248-4.928-2.714zM10.99 5.976l2.562 2.562c-.497.607-.563 1.414-.155 2.284l.265.562-4.257-4.257a.98.98 0 0 1-.117-.445c0-.267.104-.517.292-.706a1.023 1.023 0 0 1 1.41 0zm8.887 2.06c-.375-.557-.902-.916-1.486-1.011a1.738 1.738 0 0 0-1.342.332c-.376.29-.61.656-.712 1.065a2.1 2.1 0 0 0-1.095-.562 1.776 1.776 0 0 0-.992.128l-2.636-2.636a1.883 1.883 0 0 0-2.658 0 1.862 1.862 0 0 0-.478.847 1.886 1.886 0 0 0-2.671-.012 1.867 1.867 0 0 0-.503.909c-.754-.754-1.992-.754-2.703-.044a1.881 1.881 0 0 0 0 2.658c-.288.12-.605.288-.864.547a1.884 1.884 0 0 0 0 2.659l.624.622a1.879 1.879 0 0 0-.91 3.16l5.019 5.02c1.595 1.594 3.515 2.645 5.408 2.959a7.16 7.16 0 0 0 1.173.098c1.026 0 1.997-.24 2.892-.7.279.04.555.065.828.065 1.53 0 2.969-.628 4.236-1.894 3.338-3.338 3.083-6.928 1.738-9.166l-2.868-5.043z" />
+                   </g>
+                  </svg></span></span><span class="button-activeState"><span class="svgIcon svgIcon--clapFilled svgIcon--25px is-flushLeft">
+                  <svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25">
+                   <g fill-rule="evenodd">
+                    <path d="M11.738 0l.762 2.966L13.262 0z" />
+                    <path d="M16.634 1.224l-1.432-.47-.408 3.022z" />
+                    <path d="M9.79.754l-1.431.47 1.84 2.552z" />
+                    <path d="M22.472 13.307l-3.023-5.32c-.287-.426-.689-.705-1.123-.776a1.16 1.16 0 0 0-.911.221c-.297.231-.474.515-.535.84.017.022.036.04.053.063l2.843 5.001c1.95 3.564 1.328 6.973-1.843 10.144a8.46 8.46 0 0 1-.549.501c1.205-.156 2.328-.737 3.351-1.76 3.268-3.268 3.041-6.749 1.737-8.914" />
+                    <path d="M12.58 9.887c-.156-.83.096-1.569.692-2.142L10.78 5.252c-.5-.504-1.378-.504-1.879 0-.178.18-.273.4-.329.63l4.008 4.005z" />
+                    <path d="M15.812 9.04c-.218-.323-.539-.55-.88-.606a.814.814 0 0 0-.644.153c-.176.137-.713.553-.24 1.566l1.43 3.025a.539.539 0 1 1-.868.612L7.2 6.378a.986.986 0 1 0-1.395 1.395l4.401 4.403a.538.538 0 1 1-.762.762L5.046 8.54 3.802 7.295a.99.99 0 0 0-1.396 0 .981.981 0 0 0 0 1.394L3.647 9.93l4.402 4.403a.537.537 0 0 1 0 .761.535.535 0 0 1-.762 0L2.89 10.696a.992.992 0 0 0-1.399-.003.983.983 0 0 0 0 1.395l1.855 1.854 2.763 2.765a.538.538 0 0 1-.76.761l-2.765-2.764a.982.982 0 0 0-1.395 0 .989.989 0 0 0 0 1.395l5.32 5.32c3.371 3.372 6.64 4.977 10.49 1.126C19.74 19.8 20.271 17 18.62 13.982L15.812 9.04z" />
+                   </g>
+                  </svg></span></span></button>
+              </div>
+              <span class="u-textAlignCenter u-relative u-background js-actionMultirecommendCount u-marginLeft5"><button class="button button--chromeless u-baseColor--buttonNormal js-multirecommendCountButton u-disablePointerEvents" data-action="show-recommends" data-action-value="f4fd05308074">27</button></span>
+             </div>
+            </div>
+            <div class="buttonSet u-floatRight">
+             <button class="button button--chromeless is-touchIconFadeInPulse u-baseColor--buttonNormal button--withIcon button--withSvgIcon button--bookmark js-bookmarkButton" title="Bookmark this story to read later" aria-label="Bookmark this story to read later" data-action="sign-up-prompt" data-sign-in-action="add-to-bookmarks" data-requires-token="true" data-redirect="https://medium.com/_/bookmark/p/f4fd05308074" data-action-source="listing-----f4fd05308074---------------------bookmark_preview"><span class="button-defaultState"><span class="svgIcon svgIcon--bookmark svgIcon--25px is-flushRight">
+                <svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25">
+                 <path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd" />
+                </svg></span></span><span class="button-activeState"><span class="svgIcon svgIcon--bookmarkFilled svgIcon--25px is-flushRight">
+                <svg class="svgIcon-use" width="25" height="26" viewbox="0 0 25 26">
+                 <path d="M19 7c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 17.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V7z" fill-rule="evenodd" />
+                </svg></span></span></button>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="postArticle postArticle--short is-withAccentColors">
+          <div class="u-paddingBottom25 u-paddingTop20 js-trackedPost u-borderBottomLight" data-source="collection_home---6------4----------------" data-post-id="990d09eaccca">
+           <div class="u-clearfix u-marginBottom15 u-paddingTop5">
+            <div class="postMetaInline u-floatLeft">
+             <div class="u-flexCenter">
+              <div class="postMetaInline-avatar u-flex0">
+               <a class="link avatar u-baseColor--link" href="https://blog.stepik.org/@mariabilkova" data-action="show-user-card" data-action-value="9791c56c4595" data-action-type="hover" data-user-id="9791c56c4595" data-collection-slug="stepik" dir="auto"><img src="https://cdn-images-1.medium.com/fit/c/72/72/0*1yR1VGdTKVdgCjLX." class="avatar-image u-size36x36 u-xs-size32x32" alt="Go to the profile of Maria Bilkova"></a>
+              </div>
+              <div class="postMetaInline postMetaInline-authorLockup ui-captionStrong u-flex1 u-noWrapWithEllipsis">
+               <a class="link link link--darken link--accent u-accentColor--textNormal u-accentColor--textDarken u-baseColor--link ui-linkSubtle" href="https://blog.stepik.org/@mariabilkova?source=collection_home---6------4----------------" data-action="show-user-card" data-action-source="collection_home---6------4----------------" data-action-value="9791c56c4595" data-action-type="hover" data-user-id="9791c56c4595" data-collection-slug="stepik" dir="auto">Maria Bilkova</a>
+               <div class="ui-caption u-fontSize12 u-baseColor--textNormal u-textColorNormal js-postMetaInlineSupplemental">
+                <a class="link link--darken" href="https://blog.stepik.org/edtech-principles-we-believe-in-990d09eaccca?source=collection_home---6------4----------------" data-action="open-post" data-action-value="https://blog.stepik.org/edtech-principles-we-believe-in-990d09eaccca?source=collection_home---6------4----------------" data-action-source="preview-listing"><time datetime="2016-11-21T20:24:27.707Z">Nov 21, 2016</time></a>
+                <span class="middotDivider u-fontSize12"></span>
+                <span class="readingTime" title="3 min read"></span>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <a class="" href="https://blog.stepik.org/edtech-principles-we-believe-in-990d09eaccca?source=collection_home---6------4----------------" data-action-source="collection_home---6------4----------------">
+            <div class="u-maxWidth600 u-margin0 postArticle-content js-postField">
+             <section class="section section--body section--first section--last">
+              <div class="section-divider">
+               <hr class="section-divider">
+              </div>
+              <div class="section-content">
+               <div class="section-inner sectionLayout--insetColumn">
+                <h3 name="f761" id="f761" class="graf graf--h3 graf--leading graf--title">EdTech Principles We Believe&nbsp;in</h3>
+                <figure name="4aa2" id="4aa2" class="graf graf--figure graf--layoutConstrainedHeightPreview graf-after--h3">
+                 <div class="aspectRatioPlaceholder is-locked" style="max-width: 426.66666666666663px; max-height: 240px;">
+                  <div class="aspectRatioPlaceholder-fill" style="padding-bottom: 56.3%;"></div>
+                  <img class="graf-image" data-image-id="1*5_bzFtdtM71Zna45vuc_sg.jpeg" data-width="2880" data-height="1620" src="https://cdn-images-1.medium.com/max/853/1*5_bzFtdtM71Zna45vuc_sg.jpeg">
+                 </div>
+                </figure>
+                <p name="3f87" id="3f87" class="graf graf--p graf-after--figure graf--trailing">The EdTech industry has rapidly grown over the past couple of years. However, it is still pretty much a…</p>
+               </div>
+              </div>
+             </section>
+            </div></a>
+           <div class="postArticle-readMore">
+            <a class="button button--smaller button--chromeless u-baseColor--buttonNormal" href="https://blog.stepik.org/edtech-principles-we-believe-in-990d09eaccca?source=collection_home---6------4----------------" data-action="open-post" data-action-source="collection_home---6------4----------------" data-action-value="https://blog.stepik.org/edtech-principles-we-believe-in-990d09eaccca?source=collection_home---6------4----------------" data-post-id="990d09eaccca">Read more…</a>
+           </div>
+           <div class="u-clearfix u-paddingTop10">
+            <div class="u-floatLeft">
+             <div class="multirecommend js-actionMultirecommend u-flexCenter" data-post-id="990d09eaccca" data-is-flush-left="true" data-is-compressed="true" data-source="listing-----990d09eaccca---------------------clap_preview">
+              <div class="u-relative u-foreground">
+               <button class="button button--primary button--chromeless u-accentColor--buttonNormal button--withIcon button--withSvgIcon clapButton js-actionMultirecommendButton" data-action="sign-up-prompt" data-sign-in-action="multivote" data-requires-token="true" data-redirect="https://medium.com/_/vote/p/990d09eaccca" data-action-source="listing-----990d09eaccca---------------------clap_preview" aria-label="Clap"><span class="button-defaultState"><span class="svgIcon svgIcon--clap svgIcon--25px is-flushLeft">
+                  <svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25">
+                   <g fill-rule="evenodd">
+                    <path d="M11.739 0l.761 2.966L13.261 0z" />
+                    <path d="M14.815 3.776l1.84-2.551-1.43-.471z" />
+                    <path d="M8.378 1.224l1.84 2.551L9.81.753z" />
+                    <path d="M20.382 21.622c-1.04 1.04-2.115 1.507-3.166 1.608.168-.14.332-.29.492-.45 2.885-2.886 3.456-5.982 1.69-9.211l-1.101-1.937-.955-2.02c-.315-.676-.235-1.185.245-1.556a.836.836 0 0 1 .66-.16c.342.056.66.28.879.605l2.856 5.023c1.179 1.962 1.379 5.119-1.6 8.098m-13.29-.528l-5.02-5.02a1 1 0 0 1 .707-1.701c.255 0 .512.098.707.292l2.607 2.607a.442.442 0 0 0 .624-.624L4.11 14.04l-1.75-1.75a.998.998 0 1 1 1.41-1.413l4.154 4.156a.44.44 0 0 0 .624 0 .44.44 0 0 0 0-.624l-4.152-4.153-1.172-1.171a.998.998 0 0 1 0-1.41 1.018 1.018 0 0 1 1.41 0l1.172 1.17 4.153 4.152a.437.437 0 0 0 .624 0 .442.442 0 0 0 0-.624L6.43 8.222a.988.988 0 0 1-.291-.705.99.99 0 0 1 .29-.706 1 1 0 0 1 1.412 0l6.992 6.993a.443.443 0 0 0 .71-.501l-1.35-2.856c-.315-.676-.235-1.185.246-1.557a.85.85 0 0 1 .66-.16c.342.056.659.28.879.606L18.628 14c1.573 2.876 1.067 5.545-1.544 8.156-1.396 1.397-3.144 1.966-5.063 1.652-1.713-.286-3.463-1.248-4.928-2.714zM10.99 5.976l2.562 2.562c-.497.607-.563 1.414-.155 2.284l.265.562-4.257-4.257a.98.98 0 0 1-.117-.445c0-.267.104-.517.292-.706a1.023 1.023 0 0 1 1.41 0zm8.887 2.06c-.375-.557-.902-.916-1.486-1.011a1.738 1.738 0 0 0-1.342.332c-.376.29-.61.656-.712 1.065a2.1 2.1 0 0 0-1.095-.562 1.776 1.776 0 0 0-.992.128l-2.636-2.636a1.883 1.883 0 0 0-2.658 0 1.862 1.862 0 0 0-.478.847 1.886 1.886 0 0 0-2.671-.012 1.867 1.867 0 0 0-.503.909c-.754-.754-1.992-.754-2.703-.044a1.881 1.881 0 0 0 0 2.658c-.288.12-.605.288-.864.547a1.884 1.884 0 0 0 0 2.659l.624.622a1.879 1.879 0 0 0-.91 3.16l5.019 5.02c1.595 1.594 3.515 2.645 5.408 2.959a7.16 7.16 0 0 0 1.173.098c1.026 0 1.997-.24 2.892-.7.279.04.555.065.828.065 1.53 0 2.969-.628 4.236-1.894 3.338-3.338 3.083-6.928 1.738-9.166l-2.868-5.043z" />
+                   </g>
+                  </svg></span></span><span class="button-activeState"><span class="svgIcon svgIcon--clapFilled svgIcon--25px is-flushLeft">
+                  <svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25">
+                   <g fill-rule="evenodd">
+                    <path d="M11.738 0l.762 2.966L13.262 0z" />
+                    <path d="M16.634 1.224l-1.432-.47-.408 3.022z" />
+                    <path d="M9.79.754l-1.431.47 1.84 2.552z" />
+                    <path d="M22.472 13.307l-3.023-5.32c-.287-.426-.689-.705-1.123-.776a1.16 1.16 0 0 0-.911.221c-.297.231-.474.515-.535.84.017.022.036.04.053.063l2.843 5.001c1.95 3.564 1.328 6.973-1.843 10.144a8.46 8.46 0 0 1-.549.501c1.205-.156 2.328-.737 3.351-1.76 3.268-3.268 3.041-6.749 1.737-8.914" />
+                    <path d="M12.58 9.887c-.156-.83.096-1.569.692-2.142L10.78 5.252c-.5-.504-1.378-.504-1.879 0-.178.18-.273.4-.329.63l4.008 4.005z" />
+                    <path d="M15.812 9.04c-.218-.323-.539-.55-.88-.606a.814.814 0 0 0-.644.153c-.176.137-.713.553-.24 1.566l1.43 3.025a.539.539 0 1 1-.868.612L7.2 6.378a.986.986 0 1 0-1.395 1.395l4.401 4.403a.538.538 0 1 1-.762.762L5.046 8.54 3.802 7.295a.99.99 0 0 0-1.396 0 .981.981 0 0 0 0 1.394L3.647 9.93l4.402 4.403a.537.537 0 0 1 0 .761.535.535 0 0 1-.762 0L2.89 10.696a.992.992 0 0 0-1.399-.003.983.983 0 0 0 0 1.395l1.855 1.854 2.763 2.765a.538.538 0 0 1-.76.761l-2.765-2.764a.982.982 0 0 0-1.395 0 .989.989 0 0 0 0 1.395l5.32 5.32c3.371 3.372 6.64 4.977 10.49 1.126C19.74 19.8 20.271 17 18.62 13.982L15.812 9.04z" />
+                   </g>
+                  </svg></span></span></button>
+              </div>
+              <span class="u-textAlignCenter u-relative u-background js-actionMultirecommendCount u-marginLeft5"><button class="button button--chromeless u-baseColor--buttonNormal js-multirecommendCountButton u-disablePointerEvents" data-action="show-recommends" data-action-value="990d09eaccca">9</button></span>
+             </div>
+            </div>
+            <div class="buttonSet u-floatRight">
+             <button class="button button--chromeless is-touchIconFadeInPulse u-baseColor--buttonNormal button--withIcon button--withSvgIcon button--bookmark js-bookmarkButton" title="Bookmark this story to read later" aria-label="Bookmark this story to read later" data-action="sign-up-prompt" data-sign-in-action="add-to-bookmarks" data-requires-token="true" data-redirect="https://medium.com/_/bookmark/p/990d09eaccca" data-action-source="listing-----990d09eaccca---------------------bookmark_preview"><span class="button-defaultState"><span class="svgIcon svgIcon--bookmark svgIcon--25px is-flushRight">
+                <svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25">
+                 <path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd" />
+                </svg></span></span><span class="button-activeState"><span class="svgIcon svgIcon--bookmarkFilled svgIcon--25px is-flushRight">
+                <svg class="svgIcon-use" width="25" height="26" viewbox="0 0 25 26">
+                 <path d="M19 7c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 17.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V7z" fill-rule="evenodd" />
+                </svg></span></span></button>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="postArticle postArticle--short is-withAccentColors">
+          <div class="u-paddingBottom25 u-paddingTop20 js-trackedPost" data-source="collection_home---6------5----------------" data-post-id="98e9679fcb55">
+           <div class="u-clearfix u-marginBottom15 u-paddingTop5">
+            <div class="postMetaInline u-floatLeft">
+             <div class="u-flexCenter">
+              <div class="postMetaInline-avatar u-flex0">
+               <a class="link avatar u-baseColor--link" href="https://blog.stepik.org/@vyahhi" data-action="show-user-card" data-action-value="7d92c840a5c6" data-action-type="hover" data-user-id="7d92c840a5c6" data-collection-slug="stepik" dir="auto"><img src="https://cdn-images-1.medium.com/fit/c/72/72/0*MELuCMVR5-pw2n7P.jpg" class="avatar-image u-size36x36 u-xs-size32x32" alt="Go to the profile of Nikolay Vyahhi"></a>
+              </div>
+              <div class="postMetaInline postMetaInline-authorLockup ui-captionStrong u-flex1 u-noWrapWithEllipsis">
+               <a class="link link link--darken link--accent u-accentColor--textNormal u-accentColor--textDarken u-baseColor--link ui-linkSubtle" href="https://blog.stepik.org/@vyahhi?source=collection_home---6------5----------------" data-action="show-user-card" data-action-source="collection_home---6------5----------------" data-action-value="7d92c840a5c6" data-action-type="hover" data-user-id="7d92c840a5c6" data-collection-slug="stepik" dir="auto">Nikolay Vyahhi</a>
+               <div class="ui-caption u-fontSize12 u-baseColor--textNormal u-textColorNormal js-postMetaInlineSupplemental">
+                <a class="link link--darken" href="https://blog.stepik.org/hello-world-98e9679fcb55?source=collection_home---6------5----------------" data-action="open-post" data-action-value="https://blog.stepik.org/hello-world-98e9679fcb55?source=collection_home---6------5----------------" data-action-source="preview-listing"><time datetime="2016-10-25T15:37:21.075Z">Oct 25, 2016</time></a>
+                <span class="middotDivider u-fontSize12"></span>
+                <span class="readingTime" title="2 min read"></span>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <a class="" href="https://blog.stepik.org/hello-world-98e9679fcb55?source=collection_home---6------5----------------" data-action-source="collection_home---6------5----------------">
+            <div class="u-maxWidth600 u-margin0 postArticle-content js-postField">
+             <section class="section section--body section--first section--last">
+              <div class="section-divider">
+               <hr class="section-divider">
+              </div>
+              <div class="section-content">
+               <div class="section-inner sectionLayout--insetColumn">
+                <h3 name="0d58" id="0d58" class="graf graf--h3 graf--leading graf--title">Hello, world!</h3>
+                <figure name="229a" id="229a" class="graf graf--figure graf--layoutConstrainedHeightPreview graf-after--h3">
+                 <div class="aspectRatioPlaceholder is-locked" style="max-width: 359.4962216624685px; max-height: 240px;">
+                  <div class="aspectRatioPlaceholder-fill" style="padding-bottom: 66.8%;"></div>
+                  <img class="graf-image" data-image-id="1*N6gcZfOl-mTprG7C7y188Q.jpeg" data-width="5352" data-height="3573" src="https://cdn-images-1.medium.com/max/719/1*N6gcZfOl-mTprG7C7y188Q.jpeg">
+                 </div>
+                </figure>
+                <p name="6d94" id="6d94" class="graf graf--p graf-after--figure graf--trailing">I am excited and amazed looking back at all the things that we’ve done in <span class="markup--anchor markup--p-anchor" data-action="open-inner-link" data-action-value="http://welcome.stepik.org">Stepik</span> since launching it in 2013. We’ve built stuff and…</p>
+               </div>
+              </div>
+             </section>
+            </div></a>
+           <div class="postArticle-readMore">
+            <a class="button button--smaller button--chromeless u-baseColor--buttonNormal" href="https://blog.stepik.org/hello-world-98e9679fcb55?source=collection_home---6------5----------------" data-action="open-post" data-action-source="collection_home---6------5----------------" data-action-value="https://blog.stepik.org/hello-world-98e9679fcb55?source=collection_home---6------5----------------" data-post-id="98e9679fcb55">Read more…</a>
+           </div>
+           <div class="u-clearfix u-paddingTop10">
+            <div class="u-floatLeft">
+             <div class="multirecommend js-actionMultirecommend u-flexCenter" data-post-id="98e9679fcb55" data-is-flush-left="true" data-is-compressed="true" data-source="listing-----98e9679fcb55---------------------clap_preview">
+              <div class="u-relative u-foreground">
+               <button class="button button--primary button--chromeless u-accentColor--buttonNormal button--withIcon button--withSvgIcon clapButton js-actionMultirecommendButton" data-action="sign-up-prompt" data-sign-in-action="multivote" data-requires-token="true" data-redirect="https://medium.com/_/vote/p/98e9679fcb55" data-action-source="listing-----98e9679fcb55---------------------clap_preview" aria-label="Clap"><span class="button-defaultState"><span class="svgIcon svgIcon--clap svgIcon--25px is-flushLeft">
+                  <svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25">
+                   <g fill-rule="evenodd">
+                    <path d="M11.739 0l.761 2.966L13.261 0z" />
+                    <path d="M14.815 3.776l1.84-2.551-1.43-.471z" />
+                    <path d="M8.378 1.224l1.84 2.551L9.81.753z" />
+                    <path d="M20.382 21.622c-1.04 1.04-2.115 1.507-3.166 1.608.168-.14.332-.29.492-.45 2.885-2.886 3.456-5.982 1.69-9.211l-1.101-1.937-.955-2.02c-.315-.676-.235-1.185.245-1.556a.836.836 0 0 1 .66-.16c.342.056.66.28.879.605l2.856 5.023c1.179 1.962 1.379 5.119-1.6 8.098m-13.29-.528l-5.02-5.02a1 1 0 0 1 .707-1.701c.255 0 .512.098.707.292l2.607 2.607a.442.442 0 0 0 .624-.624L4.11 14.04l-1.75-1.75a.998.998 0 1 1 1.41-1.413l4.154 4.156a.44.44 0 0 0 .624 0 .44.44 0 0 0 0-.624l-4.152-4.153-1.172-1.171a.998.998 0 0 1 0-1.41 1.018 1.018 0 0 1 1.41 0l1.172 1.17 4.153 4.152a.437.437 0 0 0 .624 0 .442.442 0 0 0 0-.624L6.43 8.222a.988.988 0 0 1-.291-.705.99.99 0 0 1 .29-.706 1 1 0 0 1 1.412 0l6.992 6.993a.443.443 0 0 0 .71-.501l-1.35-2.856c-.315-.676-.235-1.185.246-1.557a.85.85 0 0 1 .66-.16c.342.056.659.28.879.606L18.628 14c1.573 2.876 1.067 5.545-1.544 8.156-1.396 1.397-3.144 1.966-5.063 1.652-1.713-.286-3.463-1.248-4.928-2.714zM10.99 5.976l2.562 2.562c-.497.607-.563 1.414-.155 2.284l.265.562-4.257-4.257a.98.98 0 0 1-.117-.445c0-.267.104-.517.292-.706a1.023 1.023 0 0 1 1.41 0zm8.887 2.06c-.375-.557-.902-.916-1.486-1.011a1.738 1.738 0 0 0-1.342.332c-.376.29-.61.656-.712 1.065a2.1 2.1 0 0 0-1.095-.562 1.776 1.776 0 0 0-.992.128l-2.636-2.636a1.883 1.883 0 0 0-2.658 0 1.862 1.862 0 0 0-.478.847 1.886 1.886 0 0 0-2.671-.012 1.867 1.867 0 0 0-.503.909c-.754-.754-1.992-.754-2.703-.044a1.881 1.881 0 0 0 0 2.658c-.288.12-.605.288-.864.547a1.884 1.884 0 0 0 0 2.659l.624.622a1.879 1.879 0 0 0-.91 3.16l5.019 5.02c1.595 1.594 3.515 2.645 5.408 2.959a7.16 7.16 0 0 0 1.173.098c1.026 0 1.997-.24 2.892-.7.279.04.555.065.828.065 1.53 0 2.969-.628 4.236-1.894 3.338-3.338 3.083-6.928 1.738-9.166l-2.868-5.043z" />
+                   </g>
+                  </svg></span></span><span class="button-activeState"><span class="svgIcon svgIcon--clapFilled svgIcon--25px is-flushLeft">
+                  <svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25">
+                   <g fill-rule="evenodd">
+                    <path d="M11.738 0l.762 2.966L13.262 0z" />
+                    <path d="M16.634 1.224l-1.432-.47-.408 3.022z" />
+                    <path d="M9.79.754l-1.431.47 1.84 2.552z" />
+                    <path d="M22.472 13.307l-3.023-5.32c-.287-.426-.689-.705-1.123-.776a1.16 1.16 0 0 0-.911.221c-.297.231-.474.515-.535.84.017.022.036.04.053.063l2.843 5.001c1.95 3.564 1.328 6.973-1.843 10.144a8.46 8.46 0 0 1-.549.501c1.205-.156 2.328-.737 3.351-1.76 3.268-3.268 3.041-6.749 1.737-8.914" />
+                    <path d="M12.58 9.887c-.156-.83.096-1.569.692-2.142L10.78 5.252c-.5-.504-1.378-.504-1.879 0-.178.18-.273.4-.329.63l4.008 4.005z" />
+                    <path d="M15.812 9.04c-.218-.323-.539-.55-.88-.606a.814.814 0 0 0-.644.153c-.176.137-.713.553-.24 1.566l1.43 3.025a.539.539 0 1 1-.868.612L7.2 6.378a.986.986 0 1 0-1.395 1.395l4.401 4.403a.538.538 0 1 1-.762.762L5.046 8.54 3.802 7.295a.99.99 0 0 0-1.396 0 .981.981 0 0 0 0 1.394L3.647 9.93l4.402 4.403a.537.537 0 0 1 0 .761.535.535 0 0 1-.762 0L2.89 10.696a.992.992 0 0 0-1.399-.003.983.983 0 0 0 0 1.395l1.855 1.854 2.763 2.765a.538.538 0 0 1-.76.761l-2.765-2.764a.982.982 0 0 0-1.395 0 .989.989 0 0 0 0 1.395l5.32 5.32c3.371 3.372 6.64 4.977 10.49 1.126C19.74 19.8 20.271 17 18.62 13.982L15.812 9.04z" />
+                   </g>
+                  </svg></span></span></button>
+              </div>
+              <span class="u-textAlignCenter u-relative u-background js-actionMultirecommendCount u-marginLeft5"><button class="button button--chromeless u-baseColor--buttonNormal js-multirecommendCountButton u-disablePointerEvents" data-action="show-recommends" data-action-value="98e9679fcb55">11</button></span>
+             </div>
+            </div>
+            <div class="buttonSet u-floatRight">
+             <button class="button button--chromeless is-touchIconFadeInPulse u-baseColor--buttonNormal button--withIcon button--withSvgIcon button--bookmark js-bookmarkButton" title="Bookmark this story to read later" aria-label="Bookmark this story to read later" data-action="sign-up-prompt" data-sign-in-action="add-to-bookmarks" data-requires-token="true" data-redirect="https://medium.com/_/bookmark/p/98e9679fcb55" data-action-source="listing-----98e9679fcb55---------------------bookmark_preview"><span class="button-defaultState"><span class="svgIcon svgIcon--bookmark svgIcon--25px is-flushRight">
+                <svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25">
+                 <path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd" />
+                </svg></span></span><span class="button-activeState"><span class="svgIcon svgIcon--bookmarkFilled svgIcon--25px is-flushRight">
+                <svg class="svgIcon-use" width="25" height="26" viewbox="0 0 25 26">
+                 <path d="M19 7c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 17.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V7z" fill-rule="evenodd" />
+                </svg></span></span></button>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="col u-size4of12 u-xs-size12of12 js-aboutCollectionBox u-marginTop30 u-minHeight250 u-xs-hide"></div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <style class="js-collectionStyle">
+.u-accentColor--borderLight {border-color: #02B875 !important;}
+.u-accentColor--borderNormal {border-color: #02B875 !important;}
+.u-accentColor--borderDark {border-color: #1C9963 !important;}
+.u-accentColor--iconLight .svgIcon,.u-accentColor--iconLight.svgIcon {fill: #02B875 !important;}
+.u-accentColor--iconNormal .svgIcon,.u-accentColor--iconNormal.svgIcon {fill: #02B875 !important;}
+.u-accentColor--iconDark .svgIcon,.u-accentColor--iconDark.svgIcon {fill: #1C9963 !important;}
+.u-accentColor--textNormal {color: #1C9963 !important;}
+.u-accentColor--hoverTextNormal:hover {color: #1C9963 !important;}
+.u-accentColor--textNormal.u-accentColor--textDarken:hover {color: #1C9963 !important;}
+.u-accentColor--textDark {color: #1C9963 !important;}
+.u-accentColor--backgroundLight {background-color: #02B875 !important;}
+.u-accentColor--backgroundNormal {background-color: #02B875 !important;}
+.u-accentColor--backgroundDark {background-color: #1C9963 !important;}
+.u-accentColor--buttonDark {border-color: #1C9963 !important; color: #1C9963 !important;}
+.u-accentColor--buttonDark:hover {border-color: #1C9963 !important;}
+.u-accentColor--buttonDark .icon:before,.u-accentColor--buttonDark .svgIcon{color: #1C9963 !important; fill: #1C9963 !important;}
+.u-accentColor--buttonNormal:not(.clapButton--largePill) {border-color: #02B875 !important; color: #1C9963 !important;}
+.u-accentColor--buttonNormal:hover {border-color: #1C9963 !important;}
+.u-accentColor--buttonNormal .icon:before,.u-accentColor--buttonNormal .svgIcon{color: #02B875 !important; fill: #02B875 !important;}
+.u-accentColor--buttonNormal.button--filled .icon:before,.u-accentColor--buttonNormal.button--filled .svgIcon{color: rgba(255, 255, 255, 1) !important; fill: rgba(255, 255, 255, 1) !important;}
+.u-accentColor--buttonDark.button--filled,.u-accentColor--buttonDark.button--withChrome.is-active,.u-accentColor--fillWhenActive.is-active {background-color: #1C9963 !important; border-color: #1C9963 !important; color: rgba(255, 255, 255, 1) !important; fill: rgba(255, 255, 255, 1) !important;}
+.u-accentColor--buttonNormal.button--filled:not(.clapButton--largePill),.u-accentColor--buttonNormal.button--withChrome.is-active:not(.clapButton--largePill) {background-color: #02B875 !important; border-color: #02B875 !important; color: rgba(255, 255, 255, 1) !important; fill: rgba(255, 255, 255, 1) !important;}
+.postArticle.is-withAccentColors .markup--user,.postArticle.is-withAccentColors .markup--query {color: #1C9963 !important;}
+.u-accentColor--highlightFaint {background-color: rgba(233, 253, 240, 1) !important;}
+.u-accentColor--highlightStrong.is-active .svgIcon {fill: rgba(125, 255, 179, 1) !important;}
+.postArticle.is-withAccentColors .markup--quote.is-other {background-color: rgba(233, 253, 240, 1) !important;}
+body.is-withMagicUnderlines .postArticle.is-withAccentColors .markup--quote.is-other {background-color: transparent !important; background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));}
+.postArticle.is-withAccentColors .markup--quote.is-me {background-color: rgba(173, 255, 207, 1) !important;}
+body.is-withMagicUnderlines .postArticle.is-withAccentColors .markup--quote.is-me {background-color: transparent !important; background-image: linear-gradient(to bottom, rgba(173, 255, 207, 1), rgba(173, 255, 207, 1));}
+.postArticle.is-withAccentColors .markup--quote.is-targeted {background-color: rgba(125, 255, 179, 1) !important;}
+body.is-withMagicUnderlines .postArticle.is-withAccentColors .markup--quote.is-targeted {background-color: transparent !important; background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));}
+.postArticle.is-withAccentColors .markup--quote.is-selected {background-color: rgba(125, 255, 179, 1) !important;}
+body.is-withMagicUnderlines .postArticle.is-withAccentColors .markup--quote.is-selected {background-color: transparent !important; background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));}
+.postArticle.is-withAccentColors .markup--highlight {background-color: rgba(125, 255, 179, 1) !important;}
+body.is-withMagicUnderlines .postArticle.is-withAccentColors .markup--highlight {background-color: transparent !important; background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));}.u-baseColor--iconNormal.avatar-halo {fill: rgba(0, 0, 0, 0.4980392156862745) !important;}</style>
+    <style class="js-collectionStyleConstant">.u-imageBgColor {background-color: rgba(0, 0, 0, 0.24705882352941178);}
+.u-imageSpectrum .u-baseColor--borderLight {border-color: rgba(255, 255, 255, 0.6980392156862745) !important;}
+.u-imageSpectrum .u-baseColor--borderNormal {border-color: rgba(255, 255, 255, 0.8980392156862745) !important;}
+.u-imageSpectrum .u-baseColor--borderDark {border-color: rgba(255, 255, 255, 0.9490196078431372) !important;}
+.u-imageSpectrum .u-baseColor--iconLight .svgIcon,.u-imageSpectrum .u-baseColor--iconLight.svgIcon {fill: rgba(255, 255, 255, 0.8) !important;}
+.u-imageSpectrum .u-baseColor--iconNormal .svgIcon,.u-imageSpectrum .u-baseColor--iconNormal.svgIcon {fill: rgba(255, 255, 255, 0.9490196078431372) !important;}
+.u-imageSpectrum .u-baseColor--iconDark .svgIcon,.u-imageSpectrum .u-baseColor--iconDark.svgIcon {fill: rgba(255, 255, 255, 1) !important;}
+.u-imageSpectrum .u-baseColor--textNormal {color: rgba(255, 255, 255, 0.9490196078431372) !important;}
+.u-imageSpectrum .u-baseColor--textNormal.u-baseColor--textDarken:hover {color: rgba(255, 255, 255, 1) !important;}
+.u-imageSpectrum .u-baseColor--textDark {color: rgba(255, 255, 255, 1) !important;}
+.u-imageSpectrum .u-baseColor--textDarker {color: rgba(255, 255, 255, 1) !important;}
+.u-imageSpectrum .u-baseColor--backgroundLight {background-color: rgba(255, 255, 255, 0.8980392156862745) !important;}
+.u-imageSpectrum .u-baseColor--backgroundNormal {background-color: rgba(255, 255, 255, 0.9490196078431372) !important;}
+.u-imageSpectrum .u-baseColor--backgroundDark {background-color: rgba(255, 255, 255, 1) !important;}
+.u-imageSpectrum .u-baseColor--buttonLight {border-color: rgba(255, 255, 255, 0.6980392156862745) !important; color: rgba(255, 255, 255, 0.8) !important;}
+.u-imageSpectrum .u-baseColor--buttonLight:hover {border-color: rgba(255, 255, 255, 0.6980392156862745) !important;}
+.u-imageSpectrum .u-baseColor--buttonLight .icon:before,.u-imageSpectrum .u-baseColor--buttonLight .svgIcon {color: rgba(255, 255, 255, 0.8) !important; fill: rgba(255, 255, 255, 0.8) !important;}
+.u-imageSpectrum .u-baseColor--buttonDark {border-color: rgba(255, 255, 255, 0.9490196078431372) !important; color: rgba(255, 255, 255, 1) !important;}
+.u-imageSpectrum .u-baseColor--buttonDark:hover {border-color: rgba(255, 255, 255, 1) !important;}
+.u-imageSpectrum .u-baseColor--buttonDark .icon:before,.u-imageSpectrum .u-baseColor--buttonDark .svgIcon {color: rgba(255, 255, 255, 1) !important; fill: rgba(255, 255, 255, 1) !important;}
+.u-imageSpectrum .u-baseColor--buttonNormal {border-color: rgba(255, 255, 255, 0.8980392156862745) !important; color: rgba(255, 255, 255, 0.9490196078431372) !important;}
+.u-imageSpectrum .u-baseColor--buttonNormal:hover {border-color: rgba(255, 255, 255, 0.9490196078431372) !important;}
+.u-imageSpectrum .u-baseColor--buttonNormal .icon:before,.u-imageSpectrum .u-baseColor--buttonNormal .svgIcon {color: rgba(255, 255, 255, 0.9490196078431372) !important; fill: rgba(255, 255, 255, 0.9490196078431372) !important;}
+.u-imageSpectrum .u-baseColor--buttonDark.button--filled,.u-imageSpectrum .u-baseColor--buttonDark.button--withChrome.is-active {background-color: rgba(255, 255, 255, 1) !important; border-color: rgba(255, 255, 255, 1) !important; color: rgba(0, 0, 0, 0.24705882352941178) !important; fill: rgba(0, 0, 0, 0.24705882352941178) !important;}
+.u-imageSpectrum .u-baseColor--buttonNormal.button--filled,.u-imageSpectrum .u-baseColor--buttonNormal.button--withChrome.is-active {background-color: rgba(255, 255, 255, 0.9490196078431372) !important; border-color: rgba(255, 255, 255, 0.9490196078431372) !important; color: rgba(0, 0, 0, 0.24705882352941178) !important; fill: rgba(0, 0, 0, 0.24705882352941178) !important;}
+.u-imageSpectrum .u-baseColor--link {color: rgba(255, 255, 255, 0.9490196078431372) !important;}
+.u-imageSpectrum .u-baseColor--link.link--darkenOnHover:hover {color: rgba(255, 255, 255, 1) !important;}
+.u-imageSpectrum .u-baseColor--link.link--darken:hover,.u-imageSpectrum .u-baseColor--link.link--darken:focus,.u-imageSpectrum .u-baseColor--link.link--darken:active {color: rgba(255, 255, 255, 1) !important;}
+.u-imageSpectrum .u-baseColor--link.link--dark {color: rgba(255, 255, 255, 1) !important;}
+.u-imageSpectrum .u-baseColor--link.link--dark.link--darken:hover,.u-imageSpectrum .u-baseColor--link.link--dark.link--darken:focus,.u-imageSpectrum .u-baseColor--link.link--dark.link--darken:active {color: rgba(255, 255, 255, 1) !important;}
+.u-imageSpectrum .u-baseColor--link.link--darker {color: rgba(255, 255, 255, 1) !important;}
+.u-imageSpectrum .u-baseColor--placeholderNormal ::-webkit-input-placeholder {color: rgba(255, 255, 255, 0.8);}
+.u-imageSpectrum .u-baseColor--placeholderNormal ::-moz-placeholder {color: rgba(255, 255, 255, 0.8);}
+.u-imageSpectrum .u-baseColor--placeholderNormal :-ms-input-placeholder {color: rgba(255, 255, 255, 0.8);}
+.u-imageSpectrum .svgIcon--logoNew path:nth-child(1) {stroke: none !important; fill: rgba(255, 255, 255, 0.4) !important;}
+.u-imageSpectrum .svgIcon--logoNew path:nth-child(2) {stroke: none !important; fill: rgba(255, 255, 255, 0.4980392156862745) !important;}
+.u-imageSpectrum .svgIcon--logoNew path:nth-child(3) {stroke: none !important; fill: rgba(255, 255, 255, 0.6980392156862745) !important;}
+.u-imageSpectrum .svgIcon--logoNew path:nth-child(4) {stroke: none !important; fill: rgba(255, 255, 255, 0.8980392156862745) !important;}
+.u-imageSpectrum .svgIcon--logoWordmark {stroke: none !important; fill: rgba(255, 255, 255, 1) !important;}
+.u-imageSpectrum .svgIcon--logoMonogram {stroke: none !important; fill: rgba(255, 255, 255, 1) !important;}
+.u-imageSpectrum  .ui-heading,.u-imageSpectrum  .ui-pageTitle,.u-imageSpectrum  .ui-brandTitle,.u-imageSpectrum  .ui-captionStrong {color: rgba(255, 255, 255, 1) !important; fill: rgba(255, 255, 255, 1) !important;}
+.u-imageSpectrum  .ui-body,.u-imageSpectrum  .ui-caps {color: rgba(255, 255, 255, 1) !important; fill: rgba(255, 255, 255, 1) !important;}
+.u-imageSpectrum  .ui-summary,.u-imageSpectrum  .ui-caption {color: rgba(255, 255, 255, 0.8) !important; fill: rgba(255, 255, 255, 0.8) !important;}
+.u-imageSpectrum .u-accentColor--borderLight {border-color: rgba(255, 255, 255, 0.6980392156862745) !important;}
+.u-imageSpectrum .u-accentColor--borderNormal {border-color: rgba(255, 255, 255, 0.8980392156862745) !important;}
+.u-imageSpectrum .u-accentColor--borderDark {border-color: rgba(255, 255, 255, 0.9490196078431372) !important;}
+.u-imageSpectrum .u-accentColor--iconLight .svgIcon,.u-imageSpectrum .u-accentColor--iconLight.svgIcon {fill: rgba(255, 255, 255, 0.8) !important;}
+.u-imageSpectrum .u-accentColor--iconNormal .svgIcon,.u-imageSpectrum .u-accentColor--iconNormal.svgIcon {fill: rgba(255, 255, 255, 0.9490196078431372) !important;}
+.u-imageSpectrum .u-accentColor--iconDark .svgIcon,.u-imageSpectrum .u-accentColor--iconDark.svgIcon {fill: rgba(255, 255, 255, 1) !important;}
+.u-imageSpectrum .u-accentColor--textNormal {color: rgba(255, 255, 255, 0.9490196078431372) !important;}
+.u-imageSpectrum .u-accentColor--hoverTextNormal:hover {color: rgba(255, 255, 255, 0.9490196078431372) !important;}
+.u-imageSpectrum .u-accentColor--textNormal.u-accentColor--textDarken:hover {color: rgba(255, 255, 255, 1) !important;}
+.u-imageSpectrum .u-accentColor--textDark {color: rgba(255, 255, 255, 1) !important;}
+.u-imageSpectrum .u-accentColor--backgroundLight {background-color: rgba(255, 255, 255, 0.8980392156862745) !important;}
+.u-imageSpectrum .u-accentColor--backgroundNormal {background-color: rgba(255, 255, 255, 0.9490196078431372) !important;}
+.u-imageSpectrum .u-accentColor--backgroundDark {background-color: rgba(255, 255, 255, 1) !important;}
+.u-imageSpectrum .u-accentColor--buttonDark {border-color: rgba(255, 255, 255, 0.9490196078431372) !important; color: rgba(255, 255, 255, 1) !important;}
+.u-imageSpectrum .u-accentColor--buttonDark:hover {border-color: rgba(255, 255, 255, 1) !important;}
+.u-imageSpectrum .u-accentColor--buttonDark .icon:before,.u-imageSpectrum .u-accentColor--buttonDark .svgIcon{color: rgba(255, 255, 255, 1) !important; fill: rgba(255, 255, 255, 1) !important;}
+.u-imageSpectrum .u-accentColor--buttonNormal:not(.clapButton--largePill) {border-color: rgba(255, 255, 255, 0.8980392156862745) !important; color: rgba(255, 255, 255, 0.9490196078431372) !important;}
+.u-imageSpectrum .u-accentColor--buttonNormal:hover {border-color: rgba(255, 255, 255, 0.9490196078431372) !important;}
+.u-imageSpectrum .u-accentColor--buttonNormal .icon:before,.u-imageSpectrum .u-accentColor--buttonNormal .svgIcon{color: rgba(255, 255, 255, 0.9490196078431372) !important; fill: rgba(255, 255, 255, 0.9490196078431372) !important;}
+.u-imageSpectrum .u-accentColor--buttonNormal.button--filled .icon:before,.u-imageSpectrum .u-accentColor--buttonNormal.button--filled .svgIcon{color: rgba(0, 0, 0, 0.24705882352941178) !important; fill: rgba(0, 0, 0, 0.24705882352941178) !important;}
+.u-imageSpectrum .u-accentColor--buttonDark.button--filled,.u-imageSpectrum .u-accentColor--buttonDark.button--withChrome.is-active,.u-imageSpectrum .u-accentColor--fillWhenActive.is-active {background-color: rgba(255, 255, 255, 1) !important; border-color: rgba(255, 255, 255, 1) !important; color: rgba(0, 0, 0, 0.24705882352941178) !important; fill: rgba(0, 0, 0, 0.24705882352941178) !important;}
+.u-imageSpectrum .u-accentColor--buttonNormal.button--filled:not(.clapButton--largePill),.u-imageSpectrum .u-accentColor--buttonNormal.button--withChrome.is-active:not(.clapButton--largePill) {background-color: rgba(255, 255, 255, 0.9490196078431372) !important; border-color: rgba(255, 255, 255, 0.9490196078431372) !important; color: rgba(0, 0, 0, 0.24705882352941178) !important; fill: rgba(0, 0, 0, 0.24705882352941178) !important;}
+.u-imageSpectrum .postArticle.is-withAccentColors .markup--user,.u-imageSpectrum .postArticle.is-withAccentColors .markup--query {color: rgba(255, 255, 255, 0.9490196078431372) !important;}
+.u-imageSpectrum .u-accentColor--highlightFaint {background-color: rgba(255, 255, 255, 0.2) !important;}
+.u-imageSpectrum .u-accentColor--highlightStrong.is-active .svgIcon {fill: rgba(255, 255, 255, 0.6) !important;}
+.postArticle.is-withAccentColors .u-imageSpectrum .markup--quote.is-other {background-color: rgba(255, 255, 255, 0.2) !important;}
+body.is-withMagicUnderlines .postArticle.is-withAccentColors .u-imageSpectrum .markup--quote.is-other {background-color: transparent !important; background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));}
+.postArticle.is-withAccentColors .u-imageSpectrum .markup--quote.is-me {background-color: rgba(255, 255, 255, 0.4) !important;}
+body.is-withMagicUnderlines .postArticle.is-withAccentColors .u-imageSpectrum .markup--quote.is-me {background-color: transparent !important; background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4));}
+.postArticle.is-withAccentColors .u-imageSpectrum .markup--quote.is-targeted {background-color: rgba(255, 255, 255, 0.6) !important;}
+body.is-withMagicUnderlines .postArticle.is-withAccentColors .u-imageSpectrum .markup--quote.is-targeted {background-color: transparent !important; background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));}
+.postArticle.is-withAccentColors .u-imageSpectrum .markup--quote.is-selected {background-color: rgba(255, 255, 255, 0.6) !important;}
+body.is-withMagicUnderlines .postArticle.is-withAccentColors .u-imageSpectrum .markup--quote.is-selected {background-color: transparent !important; background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));}
+.postArticle.is-withAccentColors .u-imageSpectrum .markup--highlight {background-color: rgba(255, 255, 255, 0.6) !important;}
+body.is-withMagicUnderlines .postArticle.is-withAccentColors .u-imageSpectrum .markup--highlight {background-color: transparent !important; background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));}.u-resetSpectrum .u-tintBgColor {background-color: rgba(255, 255, 255, 1) !important;}.u-resetSpectrum .u-tintBgColor .u-fadeLeft:before {background-image: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%) !important;}.u-resetSpectrum .u-tintBgColor .u-fadeRight:after {background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%) !important;}
+.u-resetSpectrum .u-baseColor--borderLight {border-color: rgba(0, 0, 0, 0.2980392156862745) !important;}
+.u-resetSpectrum .u-baseColor--borderNormal {border-color: rgba(0, 0, 0, 0.4980392156862745) !important;}
+.u-resetSpectrum .u-baseColor--borderDark {border-color: rgba(0, 0, 0, 0.6) !important;}
+.u-resetSpectrum .u-baseColor--iconLight .svgIcon,.u-resetSpectrum .u-baseColor--iconLight.svgIcon {fill: rgba(0, 0, 0, 0.2980392156862745) !important;}
+.u-resetSpectrum .u-baseColor--iconNormal .svgIcon,.u-resetSpectrum .u-baseColor--iconNormal.svgIcon {fill: rgba(0, 0, 0, 0.4980392156862745) !important;}
+.u-resetSpectrum .u-baseColor--iconDark .svgIcon,.u-resetSpectrum .u-baseColor--iconDark.svgIcon {fill: rgba(0, 0, 0, 0.6) !important;}
+.u-resetSpectrum .u-baseColor--textNormal {color: rgba(0, 0, 0, 0.4980392156862745) !important;}
+.u-resetSpectrum .u-baseColor--textNormal.u-baseColor--textDarken:hover {color: rgba(0, 0, 0, 0.6) !important;}
+.u-resetSpectrum .u-baseColor--textDark {color: rgba(0, 0, 0, 0.6) !important;}
+.u-resetSpectrum .u-baseColor--textDarker {color: rgba(0, 0, 0, 0.8) !important;}
+.u-resetSpectrum .u-baseColor--backgroundLight {background-color: rgba(0, 0, 0, 0.09803921568627451) !important;}
+.u-resetSpectrum .u-baseColor--backgroundNormal {background-color: rgba(0, 0, 0, 0.2) !important;}
+.u-resetSpectrum .u-baseColor--backgroundDark {background-color: rgba(0, 0, 0, 0.2980392156862745) !important;}
+.u-resetSpectrum .u-baseColor--buttonLight {border-color: rgba(0, 0, 0, 0.2980392156862745) !important; color: rgba(0, 0, 0, 0.2980392156862745) !important;}
+.u-resetSpectrum .u-baseColor--buttonLight:hover {border-color: rgba(0, 0, 0, 0.2980392156862745) !important;}
+.u-resetSpectrum .u-baseColor--buttonLight .icon:before,.u-resetSpectrum .u-baseColor--buttonLight .svgIcon {color: rgba(0, 0, 0, 0.2980392156862745) !important; fill: rgba(0, 0, 0, 0.2980392156862745) !important;}
+.u-resetSpectrum .u-baseColor--buttonDark {border-color: rgba(0, 0, 0, 0.6) !important; color: rgba(0, 0, 0, 0.6) !important;}
+.u-resetSpectrum .u-baseColor--buttonDark:hover {border-color: rgba(0, 0, 0, 0.8) !important;}
+.u-resetSpectrum .u-baseColor--buttonDark .icon:before,.u-resetSpectrum .u-baseColor--buttonDark .svgIcon {color: rgba(0, 0, 0, 0.6) !important; fill: rgba(0, 0, 0, 0.6) !important;}
+.u-resetSpectrum .u-baseColor--buttonNormal {border-color: rgba(0, 0, 0, 0.4980392156862745) !important; color: rgba(0, 0, 0, 0.4980392156862745) !important;}
+.u-resetSpectrum .u-baseColor--buttonNormal:hover {border-color: rgba(0, 0, 0, 0.6) !important;}
+.u-resetSpectrum .u-baseColor--buttonNormal .icon:before,.u-resetSpectrum .u-baseColor--buttonNormal .svgIcon {color: rgba(0, 0, 0, 0.4980392156862745) !important; fill: rgba(0, 0, 0, 0.4980392156862745) !important;}
+.u-resetSpectrum .u-baseColor--buttonDark.button--filled,.u-resetSpectrum .u-baseColor--buttonDark.button--withChrome.is-active {background-color: rgba(0, 0, 0, 0.2980392156862745) !important; border-color: rgba(0, 0, 0, 0.2980392156862745) !important; color: rgba(255, 255, 255, 1) !important; fill: rgba(255, 255, 255, 1) !important;}
+.u-resetSpectrum .u-baseColor--buttonNormal.button--filled,.u-resetSpectrum .u-baseColor--buttonNormal.button--withChrome.is-active {background-color: rgba(0, 0, 0, 0.2) !important; border-color: rgba(0, 0, 0, 0.2) !important; color: rgba(255, 255, 255, 1) !important; fill: rgba(255, 255, 255, 1) !important;}
+.u-resetSpectrum .u-baseColor--link {color: rgba(0, 0, 0, 0.4980392156862745) !important;}
+.u-resetSpectrum .u-baseColor--link.link--darkenOnHover:hover {color: rgba(0, 0, 0, 0.6) !important;}
+.u-resetSpectrum .u-baseColor--link.link--darken:hover,.u-resetSpectrum .u-baseColor--link.link--darken:focus,.u-resetSpectrum .u-baseColor--link.link--darken:active {color: rgba(0, 0, 0, 0.6) !important;}
+.u-resetSpectrum .u-baseColor--link.link--dark {color: rgba(0, 0, 0, 0.6) !important;}
+.u-resetSpectrum .u-baseColor--link.link--dark.link--darken:hover,.u-resetSpectrum .u-baseColor--link.link--dark.link--darken:focus,.u-resetSpectrum .u-baseColor--link.link--dark.link--darken:active {color: rgba(0, 0, 0, 0.8) !important;}
+.u-resetSpectrum .u-baseColor--link.link--darker {color: rgba(0, 0, 0, 0.8) !important;}
+.u-resetSpectrum .u-baseColor--placeholderNormal ::-webkit-input-placeholder {color: rgba(0, 0, 0, 0.2980392156862745);}
+.u-resetSpectrum .u-baseColor--placeholderNormal ::-moz-placeholder {color: rgba(0, 0, 0, 0.2980392156862745);}
+.u-resetSpectrum .u-baseColor--placeholderNormal :-ms-input-placeholder {color: rgba(0, 0, 0, 0.2980392156862745);}
+.u-resetSpectrum .svgIcon--logoNew path:nth-child(1) {stroke: none !important; fill: rgba(0, 0, 0, 0.2) !important;}
+.u-resetSpectrum .svgIcon--logoNew path:nth-child(2) {stroke: none !important; fill: rgba(0, 0, 0, 0.2980392156862745) !important;}
+.u-resetSpectrum .svgIcon--logoNew path:nth-child(3) {stroke: none !important; fill: rgba(0, 0, 0, 0.4) !important;}
+.u-resetSpectrum .svgIcon--logoNew path:nth-child(4) {stroke: none !important; fill: rgba(0, 0, 0, 0.4980392156862745) !important;}
+.u-resetSpectrum .svgIcon--logoWordmark {stroke: none !important; fill: rgba(0, 0, 0, 0.6) !important;}
+.u-resetSpectrum .svgIcon--logoMonogram {stroke: none !important; fill: rgba(0, 0, 0, 0.6) !important;}
+.u-resetSpectrum  .ui-heading,.u-resetSpectrum  .ui-pageTitle,.u-resetSpectrum  .ui-brandTitle,.u-resetSpectrum  .ui-captionStrong {color: rgba(0, 0, 0, 0.8) !important; fill: rgba(0, 0, 0, 0.8) !important;}
+.u-resetSpectrum  .ui-body,.u-resetSpectrum  .ui-caps {color: rgba(0, 0, 0, 0.6) !important; fill: rgba(0, 0, 0, 0.6) !important;}
+.u-resetSpectrum  .ui-summary,.u-resetSpectrum  .ui-caption {color: rgba(0, 0, 0, 0.2980392156862745) !important; fill: rgba(0, 0, 0, 0.2980392156862745) !important;}
+.u-resetSpectrum .u-accentColor--borderLight {border-color: rgba(2, 184, 117, 1) !important;}
+.u-resetSpectrum .u-accentColor--borderNormal {border-color: rgba(2, 184, 117, 1) !important;}
+.u-resetSpectrum .u-accentColor--borderDark {border-color: rgba(0, 171, 107, 1) !important;}
+.u-resetSpectrum .u-accentColor--iconLight .svgIcon,.u-resetSpectrum .u-accentColor--iconLight.svgIcon {fill: rgba(2, 184, 117, 1) !important;}
+.u-resetSpectrum .u-accentColor--iconNormal .svgIcon,.u-resetSpectrum .u-accentColor--iconNormal.svgIcon {fill: rgba(0, 171, 107, 1) !important;}
+.u-resetSpectrum .u-accentColor--iconDark .svgIcon,.u-resetSpectrum .u-accentColor--iconDark.svgIcon {fill: rgba(28, 153, 99, 1) !important;}
+.u-resetSpectrum .u-accentColor--textNormal {color: rgba(0, 171, 107, 1) !important;}
+.u-resetSpectrum .u-accentColor--hoverTextNormal:hover {color: rgba(0, 171, 107, 1) !important;}
+.u-resetSpectrum .u-accentColor--textNormal.u-accentColor--textDarken:hover {color: rgba(28, 153, 99, 1) !important;}
+.u-resetSpectrum .u-accentColor--textDark {color: rgba(28, 153, 99, 1) !important;}
+.u-resetSpectrum .u-accentColor--backgroundLight {background-color: rgba(2, 184, 117, 1) !important;}
+.u-resetSpectrum .u-accentColor--backgroundNormal {background-color: rgba(0, 171, 107, 1) !important;}
+.u-resetSpectrum .u-accentColor--backgroundDark {background-color: rgba(28, 153, 99, 1) !important;}
+.u-resetSpectrum .u-accentColor--buttonDark {border-color: rgba(0, 171, 107, 1) !important; color: rgba(28, 153, 99, 1) !important;}
+.u-resetSpectrum .u-accentColor--buttonDark:hover {border-color: rgba(28, 153, 99, 1) !important;}
+.u-resetSpectrum .u-accentColor--buttonDark .icon:before,.u-resetSpectrum .u-accentColor--buttonDark .svgIcon{color: rgba(28, 153, 99, 1) !important; fill: rgba(28, 153, 99, 1) !important;}
+.u-resetSpectrum .u-accentColor--buttonNormal:not(.clapButton--largePill) {border-color: rgba(2, 184, 117, 1) !important; color: rgba(0, 171, 107, 1) !important;}
+.u-resetSpectrum .u-accentColor--buttonNormal:hover {border-color: rgba(0, 171, 107, 1) !important;}
+.u-resetSpectrum .u-accentColor--buttonNormal .icon:before,.u-resetSpectrum .u-accentColor--buttonNormal .svgIcon{color: rgba(0, 171, 107, 1) !important; fill: rgba(0, 171, 107, 1) !important;}
+.u-resetSpectrum .u-accentColor--buttonNormal.button--filled .icon:before,.u-resetSpectrum .u-accentColor--buttonNormal.button--filled .svgIcon{color: rgba(255, 255, 255, 1) !important; fill: rgba(255, 255, 255, 1) !important;}
+.u-resetSpectrum .u-accentColor--buttonDark.button--filled,.u-resetSpectrum .u-accentColor--buttonDark.button--withChrome.is-active,.u-resetSpectrum .u-accentColor--fillWhenActive.is-active {background-color: rgba(28, 153, 99, 1) !important; border-color: rgba(28, 153, 99, 1) !important; color: rgba(255, 255, 255, 1) !important; fill: rgba(255, 255, 255, 1) !important;}
+.u-resetSpectrum .u-accentColor--buttonNormal.button--filled:not(.clapButton--largePill),.u-resetSpectrum .u-accentColor--buttonNormal.button--withChrome.is-active:not(.clapButton--largePill) {background-color: rgba(0, 171, 107, 1) !important; border-color: rgba(0, 171, 107, 1) !important; color: rgba(255, 255, 255, 1) !important; fill: rgba(255, 255, 255, 1) !important;}
+.u-resetSpectrum .postArticle.is-withAccentColors .markup--user,.u-resetSpectrum .postArticle.is-withAccentColors .markup--query {color: rgba(0, 171, 107, 1) !important;}</style>
+    <div class="js-collectionFooter u-hide">
+     <div class="container u-maxWidth1040">
+      <div class="u-marginTop10 u-paddingTop10 u-paddingBottom30 u-borderTopLighter">
+       <div class="linkSet u-clearfix">
+        <div class="u-floatRight u-textColorNormal u-baseColor--textNormal u-xs-floatLeft">
+         <a class="button button--chromeless u-baseColor--buttonNormal u-marginLeft15 u-lineHeight35 u-xs-block u-xs-marginLeft0" href="https://blog.stepik.org/about" title="About Stepik" aria-label="About Stepik" data-collection-slug="stepik">About Stepik</a>
+         <span class="middotDivider u-xs-hide"></span>
+         <a class="button button--chromeless u-baseColor--buttonNormal u-lineHeight35 u-xs-block" href="https://blog.stepik.org/latest" title="Latest Stories for Stepik" aria-label="Latest Stories for Stepik" data-collection-slug="stepik">Latest Stories</a>
+         <span class="middotDivider u-xs-hide"></span>
+         <a class="button button--chromeless u-baseColor--buttonNormal u-lineHeight35 u-xs-block" href="https://blog.stepik.org/archive" title="Archive for Stepik" aria-label="Archive for Stepik" data-collection-slug="stepik">Archive</a>
+         <span class="middotDivider u-xs-hide"></span>
+         <a class="button button--chromeless u-baseColor--buttonNormal u-lineHeight35 u-xs-block" href="https://about.medium.com">About Medium</a>
+         <span class="middotDivider u-xs-hide"></span>
+         <a class="button button--chromeless u-baseColor--buttonNormal u-lineHeight35 u-xs-block" href="https://medium.com/policy/9db0094a1e0f">Terms</a>
+         <span class="middotDivider u-xs-hide"></span>
+         <a class="button button--chromeless u-baseColor--buttonNormal u-lineHeight35 u-xs-block" href="https://medium.com/policy/f03bf92035c9">Privacy</a>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="loadingBar"></div>
+ <script>// <![CDATA[
+window["obvInit"] = function (opt_embedded) {window["obvInit"]["embedded"] = opt_embedded; window["obvInit"]["ready"] = true;}
+// ]]></script>
+ <script>// <![CDATA[
+var GLOBALS = {"audioUrl":"https://d1fcbxp97j4nb2.cloudfront.net","baseUrl":"https://blog.stepik.org","buildLabel":"31199-da4dc0c","currentUser":{"userId":"lo_Ar0jKKshj3RB","isVerified":false,"subscriberEmail":"","hasPastMemberships":false,"isEnrolledInHightower":false,"isEligibleForHightower":false,"hightowerLastLockedAt":0},"currentUserHasUnverifiedEmail":false,"isAuthenticated":false,"isCurrentUserVerified":false,"mediumTwitterScreenName":"medium","miroUrl":"https://cdn-images-1.medium.com","moduleUrls":{"base":"https://cdn-static-1.medium.com/_/fp/gen-js/main-base.bundle.X06uFMSorNnqZXQPraYG_w.js","common-async":"https://cdn-static-1.medium.com/_/fp/gen-js/main-common-async.bundle.kTpncEcjOp2paQaklKNa-A.js","home-screens":"https://cdn-static-1.medium.com/_/fp/gen-js/main-home-screens.bundle.HRS_yHxBwRcCH-zmP_fkSw.js","misc-screens":"https://cdn-static-1.medium.com/_/fp/gen-js/main-misc-screens.bundle.KesVeJvg20oauLweHh6Chw.js","notes":"https://cdn-static-1.medium.com/_/fp/gen-js/main-notes.bundle.EcY7e4nBxgnT2Z0Dz2hwCA.js","payments":"https://cdn-static-1.medium.com/_/fp/gen-js/main-payments.bundle.WloTKg9XFHo1Qy-C2Az0_Q.js","posters":"https://cdn-static-1.medium.com/_/fp/gen-js/main-posters.bundle.fKWI3LSx3h_bewQkZYaNCQ.js","pubs":"https://cdn-static-1.medium.com/_/fp/gen-js/main-pubs.bundle.Ya8EEsuEECrK1BYCW8a7kA.js","stats":"https://cdn-static-1.medium.com/_/fp/gen-js/main-stats.bundle.ZbkZtJepLY3Svh-t_rxB8g.js"},"previewConfig":{"weightThreshold":1,"weightImageParagraph":0.51,"weightIframeParagraph":0.8,"weightTextParagraph":0.08,"weightEmptyParagraph":0,"weightP":0.003,"weightH":0.005,"weightBq":0.003,"minPTextLength":60,"truncateBoundaryChars":20,"detectTitle":true,"detectTitleLevThreshold":0.15},"productName":"Medium","supportsEdit":false,"termsUrl":"//medium.com/policy/9db0094a1e0f","textshotHost":"textshot.medium.com","transactionId":"1508518940899:d4ea6d73f501","useragent":{"browser":"spbauircrawler","family":"","os":"","version":0,"supportsDesktopEdit":false,"supportsInteract":false,"supportsView":true,"isMobile":false,"isTablet":false,"isNative":false,"supportsFileAPI":false,"isTier1":false,"clientVersion":"","unknownParagraphsBad":false,"clientChannel":"","supportsRealScrollEvents":false,"supportsVhUnits":false,"ruinsViewportSections":false,"supportsHtml5Video":false,"supportsMagicUnderlines":false,"isWebView":false,"isFacebookWebView":false,"supportsProgressiveMedia":false,"supportsPromotedPosts":true,"isBot":false,"isNativeIphone":false,"supportsCssVariables":false,"supportsVideoSections":false,"emojiSupportLevel":1,"supportsScrollableMetabar":false},"variants":{"allow_access":true,"allow_signup":true,"allow_test_auth":"disallow","signin_services":"twitter,facebook,google,email,google-fastidv","signup_services":"twitter,facebook,google,email,google-fastidv","android_rating_prompt_recommend_threshold":5,"google_sign_in_android":true,"enable_onboarding":true,"reengagement_notification_duration":3,"browsable_stream_config_bucket":"curated-topics","enable_series_creation":true,"enable_your_series_pages":true,"enable_productionized_series":true,"enable_dedicated_series_tab_api_ios":true,"enable_clap_milestone_notifications":true,"enable_series_stats_page":true,"enable_post_import":true,"enable_sponsored_post_labelling":true,"enable_logged_in_follow_on_collection_post":true,"enable_export_members":true,"enable_series_card_background_creation":true,"available_membership_plans":"60e220181034","available_monthly_plan":"60e220181034","available_annual_plan":"2c754bcc2995","enable_sms":true,"enable_series_in_user_profiles":true,"is_not_medium_subscriber":true,"subs_landing_copy_experiments":"long","logged_out_homepage_promo":"content","enable_dynamic_topic_windows":true,"enable_emoji_in_editor":true,"enable_glyph":true,"glyph_font_set":"m2","enable_branding":true,"enable_branding_fonts":true,"enable_branding_buttons":true,"enable_upsell_tracking":true,"enable_nav_upsell":true,"enable_sequence_carousel":true,"enable_multirecommends":true,"enable_noteworthy_promo":true,"enable_clementine":true,"enable_hightower_open_access":true,"enable_user_post_metering":true,"max_premium_content_per_user_under_metering":3,"tag_intercom_user_on_metering_count":3,"enable_welcome_email_v2":true,"enable_topic_writer_onboarding":true,"enable_algolia_search_reporting":true,"enable_direct_signin":true,"enable_strong_graph_chp_reorder":true,"remove_people_and_pubs_onboarding_experiment":true,"enable_creators_landing":true},"xsrfToken":"","iosAppId":"828256236","supportEmail":"yourfriends@medium.com","fp":{"/icons/monogram-mask.svg":"https://cdn-static-1.medium.com/_/fp/icons/monogram-mask.KPLCSFEZviQN0jQ7veN2RQ.svg","/icons/favicon-dev-editor.ico":"https://cdn-static-1.medium.com/_/fp/icons/favicon-dev-editor.YKKRxBO8EMvIqhyCwIiJeQ.ico","/icons/favicon-hatch-editor.ico":"https://cdn-static-1.medium.com/_/fp/icons/favicon-hatch-editor.BuEyHIqlyh2s_XEk4Rl32Q.ico","/icons/favicon-medium-editor.ico":"https://cdn-static-1.medium.com/_/fp/icons/favicon-medium-editor.PiakrZWB7Yb80quUVQWM6g.ico"},"authBaseUrl":"https://medium.com","imageUploadSizeMb":25,"isAuthDomainRequest":false,"domainCollectionSlug":"stepik","algoliaApiEndpoint":"https://MQ57UUUQZ2-dsn.algolia.net","algoliaAppId":"MQ57UUUQZ2","algoliaSearchOnlyApiKey":"394474ced050e3911ae2249ecc774921","iosAppStoreUrl":"https://itunes.apple.com/app/medium-everyones-stories/id828256236?pt=698524&mt=8","iosAppLinkBaseUrl":"medium:","algoliaIndexPrefix":"medium_","androidPlayStoreUrl":"https://play.google.com/store/apps/details?id=com.medium.reader","googleClientId":"216296035834-k1k6qe060s2tp2a2jam4ljdcms00sttg.apps.googleusercontent.com","androidPackage":"com.medium.reader","androidPlayStoreMarketScheme":"market://details?id=com.medium.reader","googleAuthUri":"https://accounts.google.com/o/oauth2/auth","androidScheme":"medium","layoutData":{"useDynamicScripts":false,"googleAnalyticsTrackingCode":"UA-24232453-2","jsShivUrl":"https://cdn-static-1.medium.com/_/fp/js/shiv.RI2ePTZ5gFmMgLzG5bEVAA.js","useDynamicCss":false,"faviconUrl":"https://cdn-static-1.medium.com/_/fp/icons/favicon-rebrand-medium.3Y6xpZ-0FSdWDnPM3hSBIA.ico","faviconImageId":"1*8I-HPL0bfoIzGied-dzOvA.png","fontSets":[{"id":8,"url":"https://glyph.medium.com/css/e/sr/latin/e/ssr/latin/e/ssb/latin/m2.css"},{"id":9,"url":"https://glyph.medium.com/css/mkt.css"}],"editorFaviconUrl":"https://cdn-static-1.medium.com/_/fp/icons/favicon-rebrand-medium-editor.3Y6xpZ-0FSdWDnPM3hSBIA.ico","glyphUrl":"https://glyph.medium.com"},"authBaseUrlRev":"moc.muidem//:sptth","isDnt":false,"stripePublishableKey":"pk_live_7FReX44VnNIInZwrIIx6ghjl","archiveUploadSizeMb":100,"paymentData":{"currencies":{"1":{"label":"US Dollar","external":"usd"}},"countries":{"1":{"label":"United States of America","external":"US"}},"accountTypes":{"1":{"label":"Individual","external":"individual"},"2":{"label":"Company","external":"company"}}},"previewConfig2":{"weightThreshold":1,"weightImageParagraph":0.05,"raiseImage":true,"enforceHeaderHierarchy":true,"isImageInsetRight":true},"isAmp":false,"iosScheme":"medium","isSwBoot":false,"lightstep":{"accessToken":"ce5be895bef60919541332990ac9fef2","carrier":"{\"ot-tracer-spanid\":\"52f39bf24c0c4981\",\"ot-tracer-traceid\":\"14523e4a4406e9cc\",\"ot-tracer-sampled\":\"true\"}","host":"collector-medium.lightstep.com"},"facebook":{"key":"542599432471018","namespace":"medium-com","scope":{"default":["public_profile","email","user_friends"],"connect":["public_profile","email","user_friends"],"login":["public_profile","email","user_friends"],"share":["public_profile","email","user_friends","publish_actions"]}},"mailingListArchiveUploadSizeMb":2,"availableMembershipPlans":["60e220181034"],"editorsPicksTopicId":"3985d2a191c5","popularOnMediumTopicId":"9d34e48ecf94","memberContentTopicId":"13d7efd82fb2","audioContentTopicId":"3792abbd134","brandedSequenceId":"7d337ddf1941","isDoNotAuth":false,"goldfinchUrl":"https://goldfinch.medium.com","buggle":{"url":"https://buggle.medium.com","videoUrl":"https://cdn-videos-1.medium.com","audioUrl":"https://cdn-audio-1.medium.com"},"referrerType":5,"isMeteredOut":false}
+// ]]></script>
+ <script charset="UTF-8" src="https://cdn-static-1.medium.com/_/fp/gen-js/main-base.bundle.X06uFMSorNnqZXQPraYG_w.js" async></script>
+ <script>// <![CDATA[
+window["obvInit"]({"references":{"Collection":{"a6794eebae60":{"id":"a6794eebae60","name":"Stepik","slug":"stepik","tags":["EDUCATION","COMPUTER SCIENCE"],"creatorId":"7d92c840a5c6","description":"Stepik is a platform which makes computer science education more efficient by providing powerful content creation tools for instructors and the best interactive learning experience for students.","shortDescription":"Stepik is a platform which makes computer science education…","image":{"imageId":"1*HAhAcplPFOfoocowffsN4w.jpeg","filter":"","backgroundSize":"","originalWidth":1579,"originalHeight":1567,"strategy":"resample","height":0,"width":0},"metadata":{"followerCount":93,"activeAt":1485785800553},"virtuals":{"permissions":{"canPublish":false,"canPublishAll":false,"canRepublish":false,"canRemove":false,"canManageAll":false,"canSubmit":false,"canEditPosts":false,"canAddWriters":false,"canViewStats":false,"canSendNewsletter":false,"canViewLockedPosts":false,"canViewCloaked":false,"canEditOwnPosts":false,"canBeAssignedAuthor":false,"canEnrollInHightower":false,"canLockPostsForMediumMembers":false},"isSubscribed":false,"isNewsletterSubscribed":false,"memberOfMembershipPlanId":"","isEnrolledInHightower":false,"isEligibleForHightower":false},"logo":{"imageId":"","filter":"","backgroundSize":"","originalWidth":0,"originalHeight":0,"strategy":"resample","height":0,"width":0},"twitterUsername":"stepikorg","facebookPageName":"stepikorg","publicEmail":"support@stepik.org","domain":"blog.stepik.org","sections":[{"type":2,"collectionHeaderMetadata":{"title":"Stepik","description":"Made for instructors by instructors.","backgroundImage":{},"logoImage":{},"alignment":2,"layout":6}},{"type":1,"postListMetadata":{"source":1,"layout":6,"number":10,"postIds":[]}}],"favicon":{"imageId":"","filter":"","backgroundSize":"","originalWidth":0,"originalHeight":0,"strategy":"resample","height":0,"width":0},"colorPalette":{"defaultBackgroundSpectrum":{"colorPoints":[{"color":"#FF02B875","point":0},{"color":"#FF00AB6B","point":0.1},{"color":"#FF1C9963","point":0.2},{"color":"#FF092E20","point":1}],"backgroundColor":"#FFFFFFFF"},"highlightSpectrum":{"colorPoints":[{"color":"#FFFFFFFF","point":0},{"color":"#FFE9FDF0","point":0.1},{"color":"#FFE2FAEE","point":0.2},{"color":"#FFADFFCF","point":0.6},{"color":"#FF7DFFB3","point":1}],"backgroundColor":"#FFFFFFFF"}},"navItems":[],"colorBehavior":1,"instantArticlesState":0,"acceleratedMobilePagesState":0,"ampLogo":{"imageId":"","filter":"","backgroundSize":"","originalWidth":0,"originalHeight":0,"strategy":"resample","height":0,"width":0},"header":{"title":"Stepik","description":"Made for instructors by instructors.","backgroundImage":{},"logoImage":{},"alignment":2,"layout":6},"type":"Collection"}},"User":{"9791c56c4595":{"userId":"9791c56c4595","name":"Maria Bilkova","username":"mariabilkova","createdAt":1473778941357,"lastPostCreatedAt":1485344095908,"imageId":"0*1yR1VGdTKVdgCjLX.","backgroundImageId":"","bio":"","twitterScreenName":"","facebookAccountId":"1214578701927884","allowNotes":1,"mediumMemberAt":0,"isNsfw":false,"type":"User"},"7d92c840a5c6":{"userId":"7d92c840a5c6","name":"Nikolay Vyahhi","username":"vyahhi","createdAt":1392221313204,"lastPostCreatedAt":1493755353970,"imageId":"0*MELuCMVR5-pw2n7P.jpg","backgroundImageId":"","bio":"Founder at Stepik.org","allowNotes":1,"mediumMemberAt":0,"isNsfw":false,"type":"User"}},"Post":{"f92e5a516cca":{"id":"f92e5a516cca","versionId":"e37c49f5acb8","creatorId":"9791c56c4595","homeCollectionId":"a6794eebae60","title":"4 Mistakes You Should Avoid When Studying Online","detectedLanguage":"en","latestVersion":"e37c49f5acb8","latestPublishedVersion":"e37c49f5acb8","hasUnpublishedEdits":false,"latestRev":191,"createdAt":1485344095908,"updatedAt":1502883591337,"acceptedAt":0,"firstPublishedAt":1485785800042,"latestPublishedAt":1493755643731,"vote":false,"experimentalCss":"","displayAuthor":"","content":{"subtitle":"Despite obvious advantages of asynchronous education, succeeding at studying online often requires more self discipline and time management…","postDisplay":{"coverless":true}},"virtuals":{"statusForCollection":"APPROVED","allowNotes":true,"previewImage":{"imageId":"1*lb9lfFpBfoFPIOQBMoFTDA.jpeg","filter":"","backgroundSize":"","originalWidth":960,"originalHeight":640,"strategy":"resample","height":0,"width":0},"wordCount":891,"imageCount":1,"readingTime":3.5622641509433963,"subtitle":"Despite obvious advantages of asynchronous education, succeeding at studying online often requires more self discipline and time management…","publishedInCount":1,"usersBySocialRecommends":[],"recommends":6,"isBookmarked":false,"tags":[{"slug":"education","name":"Education","postCount":132022,"virtuals":{"isFollowing":false},"metadata":{"followerCount":638502,"postCount":132022,"coverImage":{"id":"1*dVmAyTviHMkGJq46uvrLcg.jpeg"}},"type":"Tag"},{"slug":"learning","name":"Learning","postCount":22421,"virtuals":{"isFollowing":false},"metadata":{"followerCount":171803,"postCount":22421,"coverImage":{"id":"1*p7nKuuXa3YyaweOlIiJ4mQ.jpeg","originalWidth":2151,"originalHeight":1356}},"type":"Tag"},{"slug":"life-lessons","name":"Life Lessons","postCount":165376,"virtuals":{"isFollowing":false},"metadata":{"followerCount":1079846,"postCount":165376,"coverImage":{"id":"1*xJV8uYsDYrnDwulfbMByRQ.jpeg"}},"type":"Tag"},{"slug":"productivity","name":"Productivity","postCount":60059,"virtuals":{"isFollowing":false},"metadata":{"followerCount":1010756,"postCount":60059,"coverImage":{"id":"1*23EURixTdGzquD9--plvmw.jpeg"}},"type":"Tag"},{"slug":"edtech","name":"Edtech","postCount":5988,"virtuals":{"isFollowing":false},"metadata":{"followerCount":223718,"postCount":5988,"coverImage":{"id":"1*BFC7m14Jm9LAoeWOF6DjEw.png","originalWidth":1600,"originalHeight":900}},"type":"Tag"}],"socialRecommendsCount":0,"responsesCreatedCount":0,"links":{"entries":[{"url":"https://www.youtube.com/watch?v=O96fE1E-rf8","alts":[{"type":2,"url":"vnd.youtube://www.youtube.com/watch?v=O96fE1E-rf8&feature=applinks"},{"type":3,"url":"vnd.youtube://www.youtube.com/watch?v=O96fE1E-rf8&feature=applinks"}],"httpStatus":200}],"version":"0.3","generatedAt":1493755644265},"isLockedPreviewOnly":false,"takeoverId":"","metaDescription":"","totalClapCount":6,"sectionCount":1},"coverless":true,"slug":"4-mistakes-you-should-avoid-making-when-studying-online","translationSourcePostId":"","translationSourceCreatorId":"","isApprovedTranslation":false,"inResponseToPostId":"","inResponseToRemovedAt":0,"isTitleSynthesized":true,"allowResponses":true,"importedUrl":"","importedPublishedAt":0,"visibility":0,"uniqueSlug":"4-mistakes-you-should-avoid-making-when-studying-online-f92e5a516cca","previewContent":{"bodyModel":{"paragraphs":[{"name":"9d94","type":3,"text":"4 Mistakes You Should Avoid When Studying Online","markups":[],"alignment":1},{"name":"9d68","type":4,"text":"","markups":[],"layout":9,"metadata":{"id":"1*lb9lfFpBfoFPIOQBMoFTDA.jpeg","originalWidth":960,"originalHeight":640}}],"sections":[{"startIndex":0}]},"isFullContent":false},"license":0,"inResponseToMediaResourceId":"","canonicalUrl":"","approvedHomeCollectionId":"a6794eebae60","newsletterId":"","webCanonicalUrl":"","mediumUrl":"","migrationId":"","notifyFollowers":true,"notifyTwitter":false,"isSponsored":false,"isRequestToPubDisabled":false,"notifyFacebook":false,"responseHiddenOnParentPostAt":0,"isSeries":false,"isSubscriptionLocked":false,"seriesLastAppendedAt":0,"audioVersionDurationSec":0,"sequenceId":"","isNsfw":false,"isEligibleForRevenue":false,"isBlockedFromHightower":false,"deletedAt":0,"lockedPostSource":0,"type":"Post"},"4d81a2e30d10":{"id":"4d81a2e30d10","versionId":"35f38bcd0c76","creatorId":"9791c56c4595","homeCollectionId":"a6794eebae60","title":"10 Inspirational Movies on Computer Science and More","detectedLanguage":"en","latestVersion":"35f38bcd0c76","latestPublishedVersion":"35f38bcd0c76","hasUnpublishedEdits":false,"latestRev":218,"createdAt":1483113136771,"updatedAt":1500370166996,"acceptedAt":0,"firstPublishedAt":1483476428966,"latestPublishedAt":1487340079528,"vote":false,"experimentalCss":"","displayAuthor":"","content":{"subtitle":"With all the celebrations behind us, it’s nice to just seat back and relax with some movies. Especially, if they are not only fun but also…","postDisplay":{"coverless":true}},"virtuals":{"statusForCollection":"APPROVED","allowNotes":true,"previewImage":{"imageId":"1*o3DtGy64CNejJw0eTvqZWA.png","filter":"","backgroundSize":"","originalWidth":592,"originalHeight":555,"strategy":"resample","height":0,"width":0},"wordCount":107,"imageCount":1,"readingTime":0.6037735849056605,"subtitle":"With all the celebrations behind us, it’s nice to just seat back and relax with some movies. Especially, if they are not only fun but also…","publishedInCount":1,"usersBySocialRecommends":[],"recommends":3,"isBookmarked":false,"tags":[{"slug":"movies","name":"Movies","postCount":55233,"virtuals":{"isFollowing":false},"metadata":{"followerCount":1091159,"postCount":55233,"coverImage":{"id":"1*39oXVsJPtgLgXwHPzkhbSg.jpeg"}},"type":"Tag"},{"slug":"film","name":"Film","postCount":32592,"virtuals":{"isFollowing":false},"metadata":{"followerCount":202747,"postCount":32592,"coverImage":{"id":"1*l2s192tFqCaQkKMWAgNM3g.jpeg","originalWidth":1481,"originalHeight":916}},"type":"Tag"},{"slug":"computer-science","name":"Computer Science","postCount":4224,"virtuals":{"isFollowing":false},"metadata":{"followerCount":3989,"postCount":4224,"coverImage":{"id":"1*49LYe8afsfWMxhagLTr9AQ.jpeg","originalWidth":1568,"originalHeight":800}},"type":"Tag"},{"slug":"technology","name":"Technology","postCount":93886,"virtuals":{"isFollowing":false},"metadata":{"followerCount":1833399,"postCount":93886,"coverImage":{"id":"1*yH2cmH1uhoFpR7HIseOAsw.jpeg"}},"type":"Tag"},{"slug":"education","name":"Education","postCount":132022,"virtuals":{"isFollowing":false},"metadata":{"followerCount":638502,"postCount":132022,"coverImage":{"id":"1*dVmAyTviHMkGJq46uvrLcg.jpeg"}},"type":"Tag"}],"socialRecommendsCount":0,"responsesCreatedCount":0,"links":{"entries":[],"version":"0.3","generatedAt":1487340082255},"isLockedPreviewOnly":false,"takeoverId":"","metaDescription":"","totalClapCount":3,"sectionCount":1},"coverless":true,"slug":"10-inspirational-movies-on-computer-science-and-more","translationSourcePostId":"","translationSourceCreatorId":"","isApprovedTranslation":false,"inResponseToPostId":"","inResponseToRemovedAt":0,"isTitleSynthesized":true,"allowResponses":true,"importedUrl":"","importedPublishedAt":0,"visibility":0,"uniqueSlug":"10-inspirational-movies-on-computer-science-and-more-4d81a2e30d10","previewContent":{"bodyModel":{"paragraphs":[{"name":"a5d8","type":3,"text":"10 Inspirational Movies on Computer Science and More","markups":[{"type":1,"start":0,"end":52}],"alignment":1},{"name":"31d3","type":4,"text":"","markups":[],"layout":9,"metadata":{"id":"1*o3DtGy64CNejJw0eTvqZWA.png","originalWidth":592,"originalHeight":555}}],"sections":[{"startIndex":0}]},"isFullContent":false},"license":0,"inResponseToMediaResourceId":"","canonicalUrl":"","approvedHomeCollectionId":"a6794eebae60","newsletterId":"","webCanonicalUrl":"","mediumUrl":"","migrationId":"","notifyFollowers":true,"notifyTwitter":false,"isSponsored":false,"isRequestToPubDisabled":false,"notifyFacebook":false,"responseHiddenOnParentPostAt":0,"isSeries":false,"isSubscriptionLocked":false,"seriesLastAppendedAt":0,"audioVersionDurationSec":0,"sequenceId":"","isNsfw":false,"isEligibleForRevenue":false,"isBlockedFromHightower":false,"deletedAt":0,"lockedPostSource":0,"type":"Post"},"934b306e76e1":{"id":"934b306e76e1","versionId":"4b59b1582a88","creatorId":"9791c56c4595","homeCollectionId":"a6794eebae60","title":"What Is Adaptive Learning and Why We Need More of It in CS","detectedLanguage":"en","latestVersion":"4b59b1582a88","latestPublishedVersion":"4b59b1582a88","hasUnpublishedEdits":false,"latestRev":128,"createdAt":1481712393981,"updatedAt":1506430715292,"acceptedAt":0,"firstPublishedAt":1481829724664,"latestPublishedAt":1491392450051,"vote":false,"experimentalCss":"","displayAuthor":"","content":{"subtitle":"Do you remember ever being in class and thinking that whatever the teacher was saying or wanted you to do was completely irrelevant and…","postDisplay":{"coverless":true}},"virtuals":{"statusForCollection":"APPROVED","allowNotes":true,"previewImage":{"imageId":"1*9jzd3foaAaCLxtF3tqyRFw.jpeg","filter":"","backgroundSize":"","originalWidth":700,"originalHeight":431,"strategy":"resample","height":0,"width":0},"wordCount":707,"imageCount":2,"readingTime":3.05125786163522,"subtitle":"Do you remember ever being in class and thinking that whatever the teacher was saying or wanted you to do was completely irrelevant and…","publishedInCount":1,"usersBySocialRecommends":[],"recommends":11,"isBookmarked":false,"tags":[{"slug":"edtech","name":"Edtech","postCount":5988,"virtuals":{"isFollowing":false},"metadata":{"followerCount":223718,"postCount":5988,"coverImage":{"id":"1*BFC7m14Jm9LAoeWOF6DjEw.png","originalWidth":1600,"originalHeight":900}},"type":"Tag"},{"slug":"computer-science","name":"Computer Science","postCount":4224,"virtuals":{"isFollowing":false},"metadata":{"followerCount":3989,"postCount":4224,"coverImage":{"id":"1*49LYe8afsfWMxhagLTr9AQ.jpeg","originalWidth":1568,"originalHeight":800}},"type":"Tag"},{"slug":"technology","name":"Technology","postCount":93886,"virtuals":{"isFollowing":false},"metadata":{"followerCount":1833399,"postCount":93886,"coverImage":{"id":"1*yH2cmH1uhoFpR7HIseOAsw.jpeg"}},"type":"Tag"},{"slug":"education","name":"Education","postCount":132022,"virtuals":{"isFollowing":false},"metadata":{"followerCount":638502,"postCount":132022,"coverImage":{"id":"1*dVmAyTviHMkGJq46uvrLcg.jpeg"}},"type":"Tag"},{"slug":"learning","name":"Learning","postCount":22421,"virtuals":{"isFollowing":false},"metadata":{"followerCount":171803,"postCount":22421,"coverImage":{"id":"1*p7nKuuXa3YyaweOlIiJ4mQ.jpeg","originalWidth":2151,"originalHeight":1356}},"type":"Tag"}],"socialRecommendsCount":0,"responsesCreatedCount":0,"links":{"entries":[],"version":"0.3","generatedAt":1491392450504},"isLockedPreviewOnly":false,"takeoverId":"","metaDescription":"","totalClapCount":21,"sectionCount":1},"coverless":true,"slug":"what-is-adaptive-learning-and-why-we-need-more-of-it-in-cs","translationSourcePostId":"","translationSourceCreatorId":"","isApprovedTranslation":false,"inResponseToPostId":"","inResponseToRemovedAt":0,"isTitleSynthesized":true,"allowResponses":true,"importedUrl":"","importedPublishedAt":0,"visibility":0,"uniqueSlug":"what-is-adaptive-learning-and-why-we-need-more-of-it-in-cs-934b306e76e1","previewContent":{"bodyModel":{"paragraphs":[{"name":"1bc6","type":3,"text":"What Is Adaptive Learning and Why We Need More of It in CS","markups":[],"alignment":1},{"name":"1567","type":4,"text":"","markups":[{"type":3,"start":0,"end":93,"href":"http://smartdesignworldwide.com/thinking/6-predictions-that-will-change-design-as-we-know-it/","title":"","rel":"nofollow","anchorType":0}],"layout":9,"metadata":{"id":"1*9jzd3foaAaCLxtF3tqyRFw.jpeg","originalWidth":700,"originalHeight":431}}],"sections":[{"startIndex":0}]},"isFullContent":false},"license":0,"inResponseToMediaResourceId":"","canonicalUrl":"","approvedHomeCollectionId":"a6794eebae60","newsletterId":"","webCanonicalUrl":"","mediumUrl":"","migrationId":"","notifyFollowers":true,"notifyTwitter":false,"isSponsored":false,"isRequestToPubDisabled":false,"notifyFacebook":false,"responseHiddenOnParentPostAt":0,"isSeries":false,"isSubscriptionLocked":false,"seriesLastAppendedAt":0,"audioVersionDurationSec":0,"sequenceId":"","isNsfw":false,"isEligibleForRevenue":false,"isBlockedFromHightower":false,"deletedAt":0,"lockedPostSource":0,"type":"Post"},"f4fd05308074":{"id":"f4fd05308074","versionId":"f88ad10af32c","creatorId":"9791c56c4595","homeCollectionId":"a6794eebae60","title":"12 Resources Every CS Student Should Know About","detectedLanguage":"en","latestVersion":"f88ad10af32c","latestPublishedVersion":"f88ad10af32c","hasUnpublishedEdits":false,"latestRev":199,"createdAt":1480934607995,"updatedAt":1505962778259,"acceptedAt":0,"firstPublishedAt":1480956649786,"latestPublishedAt":1487340163019,"vote":false,"experimentalCss":"","displayAuthor":"","content":{"subtitle":"Where should CS students go to find answers to their questions and information beyond the curriculum? Stack-overflow, GitHub and Quora come…","postDisplay":{"coverless":true}},"virtuals":{"statusForCollection":"APPROVED","allowNotes":true,"previewImage":{"imageId":"1*TqvPqo9x9GWSrhznP3ASKg.jpeg","filter":"","backgroundSize":"","originalWidth":1400,"originalHeight":700,"strategy":"resample","height":0,"width":0},"wordCount":304,"imageCount":1,"readingTime":1.3471698113207546,"subtitle":"Where should CS students go to find answers to their questions and information beyond the curriculum? Stack-overflow, GitHub and Quora come…","publishedInCount":1,"usersBySocialRecommends":[],"recommends":27,"isBookmarked":false,"tags":[{"slug":"programming","name":"Programming","postCount":45896,"virtuals":{"isFollowing":false},"metadata":{"followerCount":47933,"postCount":45896,"coverImage":{"id":"1*1IogdXEkHf5_6iQlULXD7g.png","originalWidth":1994,"originalHeight":900,"isFeatured":true}},"type":"Tag"},{"slug":"education","name":"Education","postCount":132022,"virtuals":{"isFollowing":false},"metadata":{"followerCount":638502,"postCount":132022,"coverImage":{"id":"1*dVmAyTviHMkGJq46uvrLcg.jpeg"}},"type":"Tag"},{"slug":"computer-science","name":"Computer Science","postCount":4224,"virtuals":{"isFollowing":false},"metadata":{"followerCount":3989,"postCount":4224,"coverImage":{"id":"1*49LYe8afsfWMxhagLTr9AQ.jpeg","originalWidth":1568,"originalHeight":800}},"type":"Tag"},{"slug":"algorithms","name":"Algorithms","postCount":3600,"virtuals":{"isFollowing":false},"metadata":{"followerCount":2370,"postCount":3600,"coverImage":{"id":"1*49LYe8afsfWMxhagLTr9AQ.jpeg","originalWidth":1568,"originalHeight":800}},"type":"Tag"},{"slug":"data-structures","name":"Data Structures","postCount":759,"virtuals":{"isFollowing":false},"metadata":{"followerCount":563,"postCount":759,"coverImage":{"id":"1*49LYe8afsfWMxhagLTr9AQ.jpeg","originalWidth":1568,"originalHeight":800}},"type":"Tag"}],"socialRecommendsCount":0,"responsesCreatedCount":0,"links":{"entries":[],"version":"0.3","generatedAt":1487340166820},"isLockedPreviewOnly":false,"takeoverId":"","metaDescription":"","totalClapCount":27,"sectionCount":1},"coverless":true,"slug":"12-resources-every-cs-student-should-know-about","translationSourcePostId":"","translationSourceCreatorId":"","isApprovedTranslation":false,"inResponseToPostId":"","inResponseToRemovedAt":0,"isTitleSynthesized":true,"allowResponses":true,"importedUrl":"","importedPublishedAt":0,"visibility":0,"uniqueSlug":"12-resources-every-cs-student-should-know-about-f4fd05308074","previewContent":{"bodyModel":{"paragraphs":[{"name":"f399","type":3,"text":"12 Resources Every CS Student Should Know About","markups":[],"alignment":1},{"name":"d8b6","type":4,"text":"","markups":[],"layout":9,"metadata":{"id":"1*TqvPqo9x9GWSrhznP3ASKg.jpeg","originalWidth":1400,"originalHeight":700}}],"sections":[{"startIndex":0}]},"isFullContent":false},"license":0,"inResponseToMediaResourceId":"","canonicalUrl":"","approvedHomeCollectionId":"a6794eebae60","newsletterId":"","webCanonicalUrl":"","mediumUrl":"","migrationId":"","notifyFollowers":true,"notifyTwitter":false,"isSponsored":false,"isRequestToPubDisabled":false,"notifyFacebook":false,"responseHiddenOnParentPostAt":0,"isSeries":false,"isSubscriptionLocked":false,"seriesLastAppendedAt":0,"audioVersionDurationSec":0,"sequenceId":"","isNsfw":false,"isEligibleForRevenue":false,"isBlockedFromHightower":false,"deletedAt":0,"lockedPostSource":0,"type":"Post"},"990d09eaccca":{"id":"990d09eaccca","versionId":"82a2421f31d1","creatorId":"9791c56c4595","homeCollectionId":"a6794eebae60","title":"EdTech Principles We Believe in","detectedLanguage":"en","latestVersion":"82a2421f31d1","latestPublishedVersion":"82a2421f31d1","hasUnpublishedEdits":false,"latestRev":45,"createdAt":1479724373775,"updatedAt":1501009692100,"acceptedAt":0,"firstPublishedAt":1479759867707,"latestPublishedAt":1487340232881,"vote":false,"experimentalCss":"","displayAuthor":"","content":{"subtitle":"The EdTech industry has rapidly grown over the past couple of years. However, it is still pretty much a wild frontier, where everyone tries…","postDisplay":{"coverless":true}},"virtuals":{"statusForCollection":"APPROVED","allowNotes":true,"previewImage":{"imageId":"1*5_bzFtdtM71Zna45vuc_sg.jpeg","filter":"","backgroundSize":"","originalWidth":2880,"originalHeight":1620,"strategy":"resample","height":0,"width":0},"wordCount":560,"imageCount":1,"readingTime":2.3132075471698115,"subtitle":"The EdTech industry has rapidly grown over the past couple of years. However, it is still pretty much a wild frontier, where everyone tries…","publishedInCount":1,"usersBySocialRecommends":[],"recommends":9,"isBookmarked":false,"tags":[{"slug":"education","name":"Education","postCount":132022,"virtuals":{"isFollowing":false},"metadata":{"followerCount":638502,"postCount":132022,"coverImage":{"id":"1*dVmAyTviHMkGJq46uvrLcg.jpeg"}},"type":"Tag"},{"slug":"teaching","name":"Teaching","postCount":18556,"virtuals":{"isFollowing":false},"metadata":{"followerCount":242809,"postCount":18556,"coverImage":{"id":"1*U72aZV6Rdvq7nMJiPhNcuQ.jpeg","originalWidth":1205,"originalHeight":902,"isFeatured":true}},"type":"Tag"},{"slug":"edtech","name":"Edtech","postCount":5988,"virtuals":{"isFollowing":false},"metadata":{"followerCount":223718,"postCount":5988,"coverImage":{"id":"1*BFC7m14Jm9LAoeWOF6DjEw.png","originalWidth":1600,"originalHeight":900}},"type":"Tag"},{"slug":"mooc","name":"Mooc","postCount":743,"virtuals":{"isFollowing":false},"metadata":{"followerCount":121,"postCount":743,"coverImage":{"id":"1*B8eQlw_-Ll5HJvAaZjx30g.png","originalWidth":1596,"originalHeight":997,"isFeatured":true}},"type":"Tag"},{"slug":"online-education","name":"Online Education","postCount":912,"virtuals":{"isFollowing":false},"metadata":{"followerCount":138,"postCount":912,"coverImage":{"id":"0*oxPmObzkJu_Cgsx0.jpg","originalWidth":960,"originalHeight":720}},"type":"Tag"}],"socialRecommendsCount":0,"responsesCreatedCount":0,"links":{"entries":[],"version":"0.3","generatedAt":1487340234383},"isLockedPreviewOnly":false,"takeoverId":"","metaDescription":"","totalClapCount":9,"sectionCount":1},"coverless":true,"slug":"edtech-principles-we-believe-in","translationSourcePostId":"","translationSourceCreatorId":"","isApprovedTranslation":false,"inResponseToPostId":"","inResponseToRemovedAt":0,"isTitleSynthesized":true,"allowResponses":true,"importedUrl":"","importedPublishedAt":0,"visibility":0,"uniqueSlug":"edtech-principles-we-believe-in-990d09eaccca","previewContent":{"bodyModel":{"paragraphs":[{"name":"f761","type":3,"text":"EdTech Principles We Believe in","markups":[],"alignment":1},{"name":"4aa2","type":4,"text":"","markups":[],"layout":9,"metadata":{"id":"1*5_bzFtdtM71Zna45vuc_sg.jpeg","originalWidth":2880,"originalHeight":1620}},{"name":"3f87","type":1,"text":"The EdTech industry has rapidly grown over the past couple of years. However, it is still pretty much a…","markups":[],"alignment":1}],"sections":[{"startIndex":0}]},"isFullContent":false},"license":0,"inResponseToMediaResourceId":"","canonicalUrl":"","approvedHomeCollectionId":"a6794eebae60","newsletterId":"","webCanonicalUrl":"","mediumUrl":"","migrationId":"","notifyFollowers":true,"notifyTwitter":false,"isSponsored":false,"isRequestToPubDisabled":false,"notifyFacebook":false,"responseHiddenOnParentPostAt":0,"isSeries":false,"isSubscriptionLocked":false,"seriesLastAppendedAt":0,"audioVersionDurationSec":0,"sequenceId":"","isNsfw":false,"isEligibleForRevenue":false,"isBlockedFromHightower":false,"deletedAt":0,"lockedPostSource":0,"type":"Post"},"98e9679fcb55":{"id":"98e9679fcb55","versionId":"34ee136fc45f","creatorId":"7d92c840a5c6","homeCollectionId":"a6794eebae60","title":"Hello, world!","detectedLanguage":"en","latestVersion":"34ee136fc45f","latestPublishedVersion":"34ee136fc45f","hasUnpublishedEdits":false,"latestRev":63,"createdAt":1477407533329,"updatedAt":1501044280616,"acceptedAt":0,"firstPublishedAt":1477409841075,"latestPublishedAt":1477409841075,"vote":false,"experimentalCss":"","displayAuthor":"","content":{"subtitle":"I am excited and amazed looking back at all the things that we’ve done in Stepik since launching it in 2013. We’ve built stuff and…","postDisplay":{"coverless":true}},"virtuals":{"statusForCollection":"APPROVED","allowNotes":true,"previewImage":{"imageId":"1*N6gcZfOl-mTprG7C7y188Q.jpeg","filter":"","backgroundSize":"","originalWidth":5352,"originalHeight":3573,"strategy":"resample","height":0,"width":0},"wordCount":242,"imageCount":1,"readingTime":1.1132075471698113,"subtitle":"I am excited and amazed looking back at all the things that we’ve done in Stepik since launching it in 2013. We’ve built stuff and…","publishedInCount":1,"usersBySocialRecommends":[],"recommends":11,"isBookmarked":false,"tags":[{"slug":"education","name":"Education","postCount":132022,"virtuals":{"isFollowing":false},"metadata":{"followerCount":638502,"postCount":132022,"coverImage":{"id":"1*dVmAyTviHMkGJq46uvrLcg.jpeg"}},"type":"Tag"},{"slug":"edtech","name":"Edtech","postCount":5988,"virtuals":{"isFollowing":false},"metadata":{"followerCount":223718,"postCount":5988,"coverImage":{"id":"1*BFC7m14Jm9LAoeWOF6DjEw.png","originalWidth":1600,"originalHeight":900}},"type":"Tag"}],"socialRecommendsCount":0,"responsesCreatedCount":0,"links":{"entries":[{"url":"https://blog.stepik.org","alts":[{"type":2,"url":"medium://stepik"},{"type":3,"url":"medium://stepik"}]}],"version":"0.3","generatedAt":1477409842201},"isLockedPreviewOnly":false,"takeoverId":"","metaDescription":"","totalClapCount":11,"sectionCount":1},"coverless":true,"slug":"hello-world","translationSourcePostId":"","translationSourceCreatorId":"","isApprovedTranslation":false,"inResponseToPostId":"","inResponseToRemovedAt":0,"isTitleSynthesized":true,"allowResponses":true,"importedUrl":"","importedPublishedAt":0,"visibility":0,"uniqueSlug":"hello-world-98e9679fcb55","previewContent":{"bodyModel":{"paragraphs":[{"name":"0d58","type":3,"text":"Hello, world!","markups":[],"alignment":1},{"name":"229a","type":4,"text":"","markups":[],"layout":9,"metadata":{"id":"1*N6gcZfOl-mTprG7C7y188Q.jpeg","originalWidth":5352,"originalHeight":3573}},{"name":"6d94","type":1,"text":"I am excited and amazed looking back at all the things that we’ve done in Stepik since launching it in 2013. We’ve built stuff and…","markups":[{"type":3,"start":74,"end":80,"href":"http://welcome.stepik.org","title":"","rel":"","anchorType":0}],"alignment":1}],"sections":[{"startIndex":0}]},"isFullContent":false},"license":3,"inResponseToMediaResourceId":"","canonicalUrl":"","approvedHomeCollectionId":"a6794eebae60","newsletterId":"","webCanonicalUrl":"","mediumUrl":"","migrationId":"","notifyFollowers":true,"notifyTwitter":false,"isSponsored":false,"isRequestToPubDisabled":false,"notifyFacebook":false,"responseHiddenOnParentPostAt":0,"isSeries":false,"isSubscriptionLocked":false,"seriesLastAppendedAt":0,"audioVersionDurationSec":0,"sequenceId":"","isNsfw":false,"isEligibleForRevenue":false,"isBlockedFromHightower":false,"deletedAt":0,"lockedPostSource":0,"type":"Post"}}},"paging":{"path":"/_/api/collections/a6794eebae60/stream","next":{"to":"1477409841075","ignoredIds":[],"page":2}},"collection":{"id":"a6794eebae60","name":"Stepik","slug":"stepik","tags":["EDUCATION","COMPUTER SCIENCE"],"creatorId":"7d92c840a5c6","description":"Stepik is a platform which makes computer science education more efficient by providing powerful content creation tools for instructors and the best interactive learning experience for students.","shortDescription":"Stepik is a platform which makes computer science education…","image":{"imageId":"1*HAhAcplPFOfoocowffsN4w.jpeg","filter":"","backgroundSize":"","originalWidth":1579,"originalHeight":1567,"strategy":"resample","height":0,"width":0},"metadata":{"followerCount":93,"activeAt":1485785800553},"virtuals":{"permissions":{"canPublish":false,"canPublishAll":false,"canRepublish":false,"canRemove":false,"canManageAll":false,"canSubmit":false,"canEditPosts":false,"canAddWriters":false,"canViewStats":false,"canSendNewsletter":false,"canViewLockedPosts":false,"canViewCloaked":false,"canEditOwnPosts":false,"canBeAssignedAuthor":false,"canEnrollInHightower":false,"canLockPostsForMediumMembers":false},"isSubscribed":false,"isNewsletterSubscribed":false,"memberOfMembershipPlanId":"","isEnrolledInHightower":false,"isEligibleForHightower":false},"logo":{"imageId":"","filter":"","backgroundSize":"","originalWidth":0,"originalHeight":0,"strategy":"resample","height":0,"width":0},"twitterUsername":"stepikorg","facebookPageName":"stepikorg","publicEmail":"support@stepik.org","domain":"blog.stepik.org","sections":[{"type":2,"collectionHeaderMetadata":{"title":"Stepik","description":"Made for instructors by instructors.","backgroundImage":{},"logoImage":{},"alignment":2,"layout":6}},{"type":1,"postListMetadata":{"source":1,"layout":6,"number":10,"postIds":["f92e5a516cca","4d81a2e30d10","934b306e76e1","f4fd05308074","990d09eaccca","98e9679fcb55"]}}],"favicon":{"imageId":"","filter":"","backgroundSize":"","originalWidth":0,"originalHeight":0,"strategy":"resample","height":0,"width":0},"colorPalette":{"defaultBackgroundSpectrum":{"colorPoints":[{"color":"#FF02B875","point":0},{"color":"#FF00AB6B","point":0.1},{"color":"#FF1C9963","point":0.2},{"color":"#FF092E20","point":1}],"backgroundColor":"#FFFFFFFF"},"highlightSpectrum":{"colorPoints":[{"color":"#FFFFFFFF","point":0},{"color":"#FFE9FDF0","point":0.1},{"color":"#FFE2FAEE","point":0.2},{"color":"#FFADFFCF","point":0.6},{"color":"#FF7DFFB3","point":1}],"backgroundColor":"#FFFFFFFF"}},"navItems":[],"colorBehavior":1,"instantArticlesState":0,"acceleratedMobilePagesState":0,"ampLogo":{"imageId":"","filter":"","backgroundSize":"","originalWidth":0,"originalHeight":0,"strategy":"resample","height":0,"width":0},"header":{"title":"Stepik","description":"Made for instructors by instructors.","backgroundImage":{},"logoImage":{},"alignment":2,"layout":6},"type":"Collection"},"header":{"title":"Stepik","description":"Made for instructors by instructors.","backgroundImage":{},"logoImage":{},"alignment":2,"layout":6},"streamItems":[{"createdAt":1508518941239,"randomId":"8e453294cbde","section":{"items":[{"post":{"postId":"f92e5a516cca"},"itemType":"post"},{"post":{"postId":"4d81a2e30d10"},"itemType":"post"},{"post":{"postId":"934b306e76e1"},"itemType":"post"},{"post":{"postId":"f4fd05308074"},"itemType":"post"},{"post":{"postId":"990d09eaccca"},"itemType":"post"},{"post":{"postId":"98e9679fcb55"},"itemType":"post"}],"layout":6},"itemType":"section","type":"StreamItem"}]})
+// ]]></script>
+</body>

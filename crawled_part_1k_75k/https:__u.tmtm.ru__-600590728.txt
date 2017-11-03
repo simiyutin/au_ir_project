@@ -1,0 +1,196 @@
+https://u.tmtm.ru/
+<body> 
+ <div class="layout_main"> 
+  <header class="layout_header"> 
+   <div class="inner"> 
+    <a href="/" class="logo">Tech<b>Media</b></a> 
+    <nav> 
+     <a href="/#projects">Проекты</a> 
+     <a href="/#services">Услуги</a> 
+     <a href="/contacts/">Контакты</a> 
+    </nav> 
+   </div> 
+  </header> 
+  <section class="title"> 
+   <h1>TechMedia</h1> 
+   <p>Издательство интернет-проектов<br>для IT-специалистов</p> 
+   <div class="buttons"> 
+    <a href="/#projects" class="btn btn-red">Проекты</a> 
+   </div> 
+   <a href="#about" class="arrow"></a> 
+  </section> 
+  <section class="about" id="about"> 
+   <h1>О нас</h1> 
+   <p>TechMedia — интернет-компания, занимающаяся<br> созданием и развитием собственных интернет-проектов и сервисов<br> для разработчиков. Суммарный объём ежемесячной аудитории наших<br> проектов — более 14 млн уникальных пользователей в месяц.</p> 
+  </section> 
+  <section class="projects" id="projects"> 
+   <a href="/projects/habrahabr/" class="project habrahabr"> <img src="/img/site/sections/projects/habrahabr.bg.jpg" class="bg"> 
+    <div class="content"> 
+     <span class="icon">H</span> 
+     <h3 class="title">Хабрахабр</h3> 
+     <p>Сообщество IT-специалистов</p> 
+    </div> </a> 
+   <a href="/projects/geektimes/" class="project geektimes"> <img src="/img/site/sections/projects/geektimes.bg.jpg" class="bg"> 
+    <div class="content"> 
+     <span class="icon">GT</span> 
+     <h3 class="title">Geektimes</h3> 
+     <p>Наука, гаджеты, технологии</p> 
+    </div> </a> 
+   <a href="/projects/moikrug/" class="project moikrug"> <img src="/img/site/sections/projects/moikrug.bg.jpg" class="bg"> 
+    <div class="content"> 
+     <span class="icon">МК</span> 
+     <h3 class="title">Мой Круг</h3> 
+     <p>Работа для IT-специалистов</p> 
+    </div> </a> 
+   <a href="/projects/freelansim/" class="project freelansim"> <img src="/img/site/sections/projects/freelansim.bg.jpg" class="bg"> 
+    <div class="content"> 
+     <span class="icon">Ф</span> 
+     <h3 class="title">Фрилансим</h3> 
+     <p>Фриланс-биржа для решения IT-задач</p> 
+    </div> </a> 
+   <a href="/projects/toster/" class="project toster"> <img src="/img/site/sections/projects/toster.bg.jpg" class="bg"> 
+    <div class="content"> 
+     <span class="icon">Т</span> 
+     <h3 class="title">Тостер</h3> 
+     <p>Q&amp;A сервис для разработчиков</p> 
+    </div> </a> 
+   <span class="project megamozg"> <img src="/img/site/sections/projects/megamozg.bg.jpg" class="bg"> </span> 
+  </section> 
+  <section class="services" id="services"> 
+   <h2>Услуги</h2> 
+   <div class="grid"> 
+    <div class="row"> 
+     <div class="cell"> 
+      <a href="/services/corpblog/" class="service"> <span class="icon blogs"> 
+        <!--?xml version="1.0" encoding="utf-8"?--> 
+        <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --> 
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"> 
+         <path fill="#020202" d="M34.6,18C17.9,18,4.5,29.5,4.5,43.7c0,13.8,12.9,25.2,29,25.6v12.6c0,0.3,0.2,0.8,0.6,0.9
+	c0.2,0.1,0.4,0.2,0.6,0.2s0.3,0,0.4-0.1c20.4-9.6,29.6-21.6,29.6-39.2C64.6,29.5,51.1,18,34.6,18z M35.7,80.1V68.2
+	c0-0.7-0.4-1.1-1.1-1.1c-15.4,0-27.9-10.6-27.9-23.4c0-12.9,12.4-23.4,27.9-23.4c15.4,0,27.9,10.5,27.9,23.4
+	C62.4,59.8,54.1,71.1,35.7,80.1z" /> 
+         <path fill="#020202" d="M72.6,30.6c-2.1,0-4.2,0.2-6.2,0.8c-0.6,0.1-1,0.8-0.8,1.3c0.1,0.6,0.8,1,1.3,0.8c1.9-0.4,3.8-0.7,5.8-0.7
+	c11.4,0,20.6,7.8,20.6,17.4c0,9.6-9.2,17.4-20.6,17.4c-0.7,0-1.1,0.4-1.1,1.1v8.6c-4.3-2.1-7.8-4.5-10.7-6.9
+	c-0.4-0.4-1.1-0.3-1.6,0.1c-0.4,0.4-0.3,1.1,0.1,1.6c3.3,3,7.4,5.6,12.8,8c0.1,0.1,0.3,0.1,0.4,0.1c0.2,0,0.4-0.1,0.6-0.2
+	c0.3-0.2,0.6-0.6,0.6-0.9v-9.2c12-0.6,21.6-9.1,21.6-19.6C95.5,39.4,85.3,30.6,72.6,30.6z" /> 
+         <path fill="#020202" d="M46.2,36.9H22.9c-0.7,0-1.1,0.4-1.1,1.1c0,0.7,0.4,1.1,1.1,1.1h23.3c0.7,0,1.1-0.4,1.1-1.1
+	C47.3,37.4,46.9,36.9,46.2,36.9z" /> 
+         <path fill="#020202" d="M46.2,43.4H22.9c-0.7,0-1.1,0.4-1.1,1.1c0,0.7,0.4,1.1,1.1,1.1h23.3c0.7,0,1.1-0.4,1.1-1.1
+	C47.3,43.8,46.9,43.4,46.2,43.4z" /> 
+         <path fill="#020202" d="M46.2,49.9H22.9c-0.7,0-1.1,0.4-1.1,1.1c0,0.7,0.4,1.1,1.1,1.1h23.3c0.7,0,1.1-0.4,1.1-1.1
+	C47.3,50.4,46.9,49.9,46.2,49.9z" /> 
+        </svg> </span> <h3 class="title">Корпоративные<br>блоги</h3> </a> 
+     </div> 
+     <div class="cell"> 
+      <a href="/services/advertising/" class="service"> <span class="icon"> 
+        <!--?xml version="1.0" encoding="utf-8"?--> 
+        <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --> 
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"> 
+         <path d="M39.6,23c-0.2-0.2-0.4-0.3-0.7-0.2c-0.3,0-0.5,0.2-0.6,0.4L12.7,76.1c-0.2,0.3-0.1,0.7,0.2,0.9l10.3,9.6
+	c0.2,0.1,0.3,0.2,0.5,0.2c0.1,0,0.2,0,0.3-0.1l10.3-4.8l4.7,8.7c0.1,0.3,0.4,0.4,0.7,0.4c0.1,0,0.2,0,0.3-0.1l24.1-11.6
+	c0.2-0.1,0.4-0.3,0.4-0.5c0.1-0.2,0-0.4-0.1-0.6L59.7,70l17.9-8.4c0.2-0.1,0.4-0.3,0.4-0.6c0-0.3,0-0.5-0.2-0.7L39.6,23z M62.8,78.3
+	L40.1,89.1l-4.3-8l22.5-10.5L62.8,78.3z M34.3,80.1L34.3,80.1L34.3,80.1L23.8,85l-9.5-8.8l24.9-51.4l36.7,35.8L34.3,80.1z" /> 
+         <path d="M88.4,39.4c-0.1-0.4-0.6-0.7-1-0.5l-12.6,3.6c-0.4,0.1-0.7,0.6-0.5,1c0.1,0.3,0.4,0.6,0.8,0.6c0.1,0,0.1,0,0.2,0l12.6-3.6
+	C88.3,40.3,88.5,39.8,88.4,39.4z" /> 
+         <path d="M66.2,33.1c0.2,0,0.4-0.1,0.5-0.2l15.1-12.5c0.3-0.3,0.4-0.8,0.1-1.1c-0.3-0.3-0.8-0.4-1.1-0.1L65.7,31.7
+	c-0.3,0.3-0.4,0.8-0.1,1.1C65.7,33,66,33.1,66.2,33.1z" /> 
+         <path d="M55.4,24.3c0.1,0,0.2,0.1,0.3,0.1c0.3,0,0.6-0.2,0.7-0.5l5-12.6c0.2-0.4,0-0.9-0.4-1c-0.4-0.2-0.9,0-1,0.4l-5,12.6
+	C54.8,23.6,55,24.1,55.4,24.3z" /> 
+        </svg> </span> <h3 class="title">Медийная реклама</h3> <p>Охватное анонсирование</p> </a> 
+     </div> 
+    </div> 
+    <div class="row"> 
+     <div class="cell"> 
+      <a href="/services/native_special/" class="service"> <span class="icon pr"> 
+        <!--?xml version="1.0" encoding="utf-8"?--> 
+        <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --> 
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"> 
+         <path d="M40.7,76.8c-6.5-3.7-7.1-5.3-7.1-5.6c0-0.2,0-0.4,0.2-0.5l7.2-6c0.2-0.2,0.5-0.1,0.7,0.1c0.2,0.2,0.2,0.5-0.1,0.7l-6.8,5.7
+	c0.4,0.5,1.8,2,6.5,4.7c4.5,2.6,6.6,3.1,7.3,3.2l1.5-8.8c0-0.3,0.3-0.5,0.6-0.4c0.3,0,0.5,0.3,0.4,0.6l-1.6,9.3
+	c0,0.2-0.2,0.4-0.4,0.4C48.8,80.2,47,80.4,40.7,76.8z" /> 
+         <path d="M43.9,42c-0.2-0.1-0.3-0.4-0.2-0.6c1.4-3.5,3.1-7,5-10.4C58.3,14.5,76.7,4.5,81,7c3.8,2.2,5,23.1-4.7,39.9
+	c-2,3.4-4.1,6.6-6.5,9.5c-0.2,0.2-0.5,0.2-0.7,0.1c-0.2-0.2-0.3-0.5-0.1-0.7c2.3-2.9,4.4-6,6.4-9.4C85,29.7,83.5,9.7,80.5,7.9
+	c-3.1-1.8-20.9,6.6-30.8,23.7c-1.9,3.4-3.6,6.8-5,10.2C44.6,42.1,44.3,42.2,43.9,42C44,42.1,44,42.1,43.9,42z" /> 
+         <path d="M50.3,70.9C50.3,70.9,50.3,70.9,50.3,70.9l-9.4-5.5c-0.2-0.1-0.3-0.4-0.2-0.7c0.1-0.2,0.4-0.3,0.7-0.2c0,0,0,0,0,0l9.4,5.5
+	c0.2,0.1,0.3,0.4,0.2,0.7C50.9,71,50.5,71,50.3,70.9z" /> 
+         <path d="M14.1,69.9c-0.1,0-0.1-0.1-0.2-0.1c-0.1-0.2-0.1-0.4,0-0.5l6.2-10.7c0-0.1,0.1-0.1,0.1-0.2l23.7-17.2c0.2-0.1,0.4-0.1,0.6,0
+	c0.2,0.1,0.3,0.3,0.2,0.5l-2.9,23.6c0,0.2-0.2,0.4-0.4,0.4l-27,4.4C14.3,70,14.2,70,14.1,69.9z M20.9,59.1l-5.6,9.7l25.5-4.1l2.7-22
+	L20.9,59.1z" /> 
+         <path d="M59.9,96.4c-0.1-0.1-0.2-0.1-0.2-0.3L50,70.6c-0.1-0.2,0-0.4,0.2-0.6l19-14.3c0.2-0.1,0.4-0.1,0.6,0
+	c0.1,0.1,0.3,0.3,0.3,0.5l-3.1,29.1c0,0.1,0,0.1-0.1,0.2l-6.2,10.7c-0.1,0.2-0.3,0.3-0.5,0.2C60.1,96.5,60,96.4,59.9,96.4z
+	 M51.1,70.6l9.2,24.2l5.6-9.7l2.9-27.8L51.1,70.6z" /> 
+         <path d="M35.9,84.9c-0.2-0.1-0.3-0.4-0.2-0.7l19.8-34.3c0.1-0.2,0.4-0.3,0.7-0.2c0.2,0.1,0.3,0.4,0.2,0.7L36.6,84.7
+	C36.4,85,36.1,85.1,35.9,84.9z" /> 
+         <path d="M74.9,17.4c-6.1-3.5-7.2-5.4-7.3-5.4c-0.1-0.2-0.1-0.5,0.2-0.7c0.2-0.1,0.5-0.1,0.7,0.2c0,0,1.2,1.8,6.9,5.1
+	c5.8,3.3,7.8,3.4,7.8,3.4c0.3,0,0.5,0.2,0.5,0.5c0,0.3-0.2,0.5-0.5,0.5C83,21,80.9,20.9,74.9,17.4z" /> 
+         <path d="M65.4,34c-2.7-1.6-3.7-5.1-2.1-7.8c1.6-2.7,5.1-3.6,7.8-2.1c2.7,1.6,3.7,5.1,2.1,7.8C71.6,34.6,68.1,35.6,65.4,34z M70.6,25
+	c-2.2-1.3-5.1-0.5-6.4,1.7c-1.3,2.2-0.5,5.1,1.7,6.4c2.2,1.3,5.1,0.5,6.4-1.7C73.6,29.2,72.8,26.3,70.6,25z" /> 
+        </svg> </span> <h3 class="title">Нативные проекты</h3> <p>Интерактивные материалы</p> </a> 
+     </div> 
+     <div class="cell"> 
+      <a href="/services/content/" class="service"> <span class="icon hr"> 
+        <!--?xml version="1.0" encoding="utf-8"?--> 
+        <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --> 
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"> 
+         <path d="M32.2,80.2l36.6-36.7l1.1-1h0l11.5-24.9L56.7,29l0,0l-1.1,1.1L18.9,66.8c-1.4,1.4-1.3,3.6,0.1,5l8.2,8.3
+	C28.6,81.5,30.8,81.6,32.2,80.2z M72.4,23.1l6.3-2.9l-2.9,6.3L72.4,23.1z M71.1,23.6l4.1,4.1l-5.5,12c-0.2-0.5-0.5-1-0.9-1.4
+	c-0.9-0.9-2.1-1.2-3.2-1c0.2-1.1-0.1-2.3-1-3.2c-0.9-0.9-2-1.2-3.2-1c0.2-1.1-0.1-2.3-1-3.2c-0.4-0.4-0.9-0.7-1.4-0.9L71.1,23.6z
+	 M61.9,40.3L38,64.2L34.8,61l23.8-24l1.9-1.9c0.9-0.9,2.3-0.9,3.2,0c0.9,0.9,0.9,2.4,0,3.3L61.9,40.3z M30.5,57l24-24.1l1.9-1.9
+	c0.9-0.9,2.3-0.9,3.2,0c0.9,0.9,0.9,2.4,0,3.3l-1.9,1.9l-24,24.1L30.5,57z M38.8,65.3l24-24.1l1.9-1.9c0.9-0.9,2.3-0.9,3.2,0
+	c0.9,0.9,0.9,2.4,0,3.3L66,44.4L42,68.5L38.8,65.3z M26.4,61.1l3.2-3.3l1.6,1.6l8.2,8.3l1.6,1.6l-3.2,3.3L26.4,61.1z M19.9,70.9
+	c-0.9-0.9-1-2.3-0.1-3.2l5.7-5.7L37,73.6l-5.7,5.7c-0.9,0.9-2.3,0.8-3.2-0.1L19.9,70.9z" /> 
+        </svg> </span> <h3 class="title">Контент-услуги</h3> <p>Для вашего блога</p> </a> 
+     </div> 
+    </div> 
+    <div class="row"> 
+     <div class="cell"> 
+      <a href="/services/hr/" class="service"> <span class="icon hr"> 
+        <!--?xml version="1.0" encoding="utf-8"?--> 
+        <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --> 
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"> 
+         <path d="M83.6,23.3H67.2c0-0.2,0-0.4-0.1-0.5C63.7,18,57.4,15,50.6,15c-6.9,0-13.2,3-16.5,7.8C34,23,34,23.2,34,23.3H17.5
+	c-3.8,0-7,3.1-7,6.9v38.9c0,3.8,3.1,6.9,7,6.9h66.1c3.8,0,7-3.1,7-6.9V30.2C90.5,26.4,87.4,23.3,83.6,23.3z M50.6,16.5
+	c6.2,0,11.9,2.6,15,6.9h-30C38.6,19.1,44.3,16.5,50.6,16.5z M17.5,24.8h66.1c3,0,5.5,2.4,5.5,5.4v12.4H12V30.2
+	C12,27.2,14.4,24.8,17.5,24.8z M44.6,44.1h11.7v11.6H44.6V44.1z M83.6,74.5H17.5c-3,0-5.5-2.4-5.5-5.4v-25h31.2v12.3
+	c0,0.4,0.3,0.7,0.7,0.7h13.2c0.4,0,0.7-0.3,0.7-0.7V44.1H89v25C89,72.1,86.6,74.5,83.6,74.5z" /> 
+        </svg> </span> <h3 class="title">HR-услуги</h3> <p>Поиск сотрудников</p> </a> 
+     </div> 
+     <div class="cell"> 
+      <a href="/workshops/" class="service"> <span class="icon hr"> 
+        <!--?xml version="1.0" encoding="utf-8"?--> 
+        <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --> 
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"> 
+         <path d="M57.4,73.3c15-0.3,27.1-12.5,27.1-27.5v-2.4c-0.1-1.2-0.8-4.1-4.7-4.1h-6.7V23.7c0-8.6-7-15.6-15.8-15.6h-1.6
+	C47,8,39.9,15,39.9,23.7v15.6h-7.6c-3,0-3.8,2.4-3.8,3.8v2.7c0,15.1,12.3,27.4,27.5,27.5v6.4c0,0.1,0,0.1,0,0.2H41.6
+	c-1.8,0-3.2,1.4-3.2,3.2v5.8c0,1.7,1.4,3.2,3.2,3.2h30c1.8,0,3.2-1.4,3.2-3.2v-5.8c0-1.7-1.4-3.2-3.2-3.2H57.4c0-0.1,0-0.1,0-0.2
+	V73.3z M73.5,83.1v5.8c0,1-0.8,1.8-1.9,1.8h-30c-1,0-1.9-0.8-1.9-1.8v-5.8c0-1,0.8-1.8,1.9-1.8h30C72.8,81.3,73.5,82.1,73.5,83.1z
+	 M55.8,9.3h1.6c7.9,0,14.4,6.4,14.4,14.2v16.4v8c0,7.8-6.5,14.2-14.4,14.2h-1.6c-7.9,0-14.4-6.4-14.4-14.2v-7.3h15.2
+	c0.3,0,0.7-0.3,0.7-0.7c0-0.3-0.3-0.7-0.7-0.7H41.3v-8.6h15.2c0.3,0,0.7-0.3,0.7-0.7c0-0.3-0.3-0.7-0.7-0.7H41.3v-5.8
+	c0-1,0.1-1.8,0.3-2.8h14.9c0.3,0,0.7-0.3,0.7-0.7c0-0.3-0.3-0.7-0.7-0.7H42C43.7,13.7,49.2,9.3,55.8,9.3z M29.9,45.8v-2.7
+	c0-0.5,0.2-2.4,2.5-2.4H40V48c0,8.6,7,15.6,15.8,15.6h1.6c8.7,0,15.8-7,15.8-15.6v-7.3h6.7c2.6,0,3.3,1.5,3.4,2.8v2.3
+	C83.3,60.3,71.5,72,56.9,72h-0.4C41.8,72,29.9,60.3,29.9,45.8z" /> 
+        </svg> </span> <h3 class="title">Семинары</h3> <p>Рассказываем, как всё устроено</p> </a> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+ </div> 
+ <footer class="layout_footer"> 
+  <div class="inner"> 
+   <address> <a href="https://maps.yandex.ru/-/CVgXjNjx" target="_blank">105082, Москва, Спартаковский переулок, д.&nbsp;2, стр.&nbsp;1, секция&nbsp;3, ООО&nbsp;«Хабр»</a> <a href="tel:74996535961" class="phone">+7 (499) 653-59-61</a> <a href="mailto:info@tmtm.ru" class="email">info@tmtm.ru</a> </address> 
+   <span class="links"> <a href="https://moikrug.ru/companies/tm" target="_blank">Вакансии</a> <a href="https://habrahabr.ru/company/tm/" target="_blank">Блог</a> </span> 
+   <span class="copyright">© TM</span> 
+  </div> 
+ </footer> 
+ <script type="text/javascript" src="/js/0/site/libs/jquery-2.1.4.min.js"></script>
+ <script type="text/javascript" src="/js/0/site/libs/jquery.bxslider.min.js"></script>
+ <script type="text/javascript" src="/js/0/site/libs/jquery.form.js"></script>
+ <script type="text/javascript" src="/js/0/site/libs/jquery.jgrowl.js"></script>
+ <script type="text/javascript" src="/js/0/site/libs/jquery.scrollto.js"></script>
+ <script type="text/javascript" src="/js/0/site/home/index.js"></script>
+ <script type="text/javascript" src="/js/0/site/parts/sections/service-advertising-format.js"></script>
+ <script type="text/javascript" src="/js/0/site/parts/sections/service-corpblog-tariffs.js"></script>
+ <script type="text/javascript" src="/js/0/site/parts/sections/service-special-form.js"></script>
+ <script type="text/javascript" src="/js/0/site/parts/sections/map.js"></script>
+ <script type="text/javascript" src="/js/0/site/parts/forms.js"></script>  
+</body>

@@ -1,0 +1,685 @@
+http://wiki.ros.org/rosbridge_library
+<body lang="en" dir="ltr"> 
+ <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script> 
+ <script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-5950817-2");
+pageTracker._trackPageview();
+} catch(err) {}</script> 
+ <script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+if(f) f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+if(e) {
+  searchChange(e);
+  searchBlur(e);
+}
+
+function handleSubmit() {
+  var f = document.getElementById('searchform');
+  var t = document.getElementById('searchinput');
+  var r = document.getElementById('real_searchinput');
+
+  //alert("handleSubmit "+ t.value);
+  if(t.value.match(/review/)) {
+    r.value = t.value;
+  } else {
+    //r.value = t.value + " -PackageReviewCategory -StackReviewCategory -M3Review -DocReview -ApiReview -HelpOn -BadContent -LocalSpellingWords";
+    r.value = t.value + " -PackageReviewCategory -StackReviewCategory -DocReview -ApiReview";
+  }
+  //return validate(f);
+}
+//-->
+</script> 
+ <div id="dpage"> 
+  <div id="dpage-inner"> 
+   <div id="header">
+    <div id="topnav"> 
+     <!-- Alert box --> 
+     <!-- To enable/disable the alert box, uncomment/comment the block below and update the content below the button. --> 
+     <!--
+    <div class="alert alert-info alert-dismissable" style="text-align: center;">
+<script>
+jQuery(function( $ ){
+    alert_box_name = 'roswiki_10year_montage'
+    state = localStorage.getItem(alert_box_name);
+    if (!state) {
+      localStorage.setItem(alert_box_name, 'open');
+    }
+    state = localStorage.getItem(alert_box_name);
+    if (state == 'closed') {
+        $( '#topnav .alert' ).hide();
+    }
+    $( '.close' ).click(function () {
+	console.log('in .close.click');
+        localStorage.setItem(alert_box_name, 'closed');
+        $( '#topnav .alert' ).hide();
+  });
+});
+</script>
+      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+      <a href="https://events.osrfoundation.org/civicrm/?page=CiviCRM&q=civicrm/petition/sign&sid=9&reset=1">Submit your video clips to be included in the ROS 10 Year Montage!<br>
+      The deadline for submission is October 15th.</a>.
+    </div>
+--> 
+     <!-- End Alert box --> 
+     <table id="topnav-table"> 
+      <tbody>
+       <tr> 
+        <td width="300" valign="top"><a href="/"><img border="0" src="/custom/images/ros_org.png" alt="ros.org" width="238" height="51"></a></td> 
+        <td width="500" valign="middle"> <a href="http://www.ros.org/about-ros">About</a> | <a href="/Support">Support</a> | <a href="http://discourse.ros.org/">Discussion Forum</a> | <a href="http://status.ros.org/">Service Status</a> | <a href="http://answers.ros.org/">Q&amp;A answers.ros.org</a> 
+         <!--<a href="http://roscon.ros.org/2016/"><img align="middle" style="padding-left: 15px;" src="http://ros.org/images/roscon_wiki_header.jpg" width="133" height="65" alt="ROSCon 2016" /></a>
+--> 
+         <!-- <a href="https://events.osrfoundation.org/ros-kong-2014/"><img align="middle" style="padding-left: 15px;" src="http://ros.org/images/ros_kong_2014_badge.png" width="133" height="38" alt="roskong" /></a>
+--> 
+         <!--a href="https://events.osrfoundation.org/ros-kong-2014/"><img align="middle" style="padding-left: 15px;" src="http://imgur.com/eMzUJVe.png" width="133" height="38" alt="roskong" /></a--> </td> 
+        <td valign="middle" align="right"> <script language="Javascript">
+
+function Searchy(theButton){
+
+theForm = theButton.form;
+newID = theForm.input.value;
+theForm.q.value = newID;
+theForm.input.value=theForm.input.value
+
+}
+</script> 
+         <form action="http://www.ros.org/search/index.html" id="cse"> 
+          <div> 
+           <label>Search:</label> 
+           <input type="hidden" name="cx" value="018259903093183594226:txvzw9fat6w"> 
+           <input type="hidden" name="cof" value="FORID:11;NB:1"> 
+           <input type="hidden" name="filter" value="0"> 
+           <input type="hidden" name="num" value="10"> 
+           <input type="hidden" name="ie" value="UTF-8"> 
+           <input type="text" name="input" id="input" autocomplete="on" style="width: 35%"> 
+           <input type="hidden" name="q" value=""> 
+           <input type="submit" name="sa" value="Submit" onClick="Searchy(this)"> 
+          </div> 
+         </form> </td> 
+       </tr> 
+       <tr> 
+        <td colspan="3" height="53" width="1024">
+         <nobr>
+          <img src="/custom/images/menu_left.png" width="17" height="53" alt="">
+          <a href="/"><img border="0" src="/custom/images/menu_documentation.png" width="237" height="53" alt="Documentation"></a>
+          <img src="/custom/images/menu_spacer.png" width="69" height="53">
+          <a href="http://www.ros.org/browse/"><img border="0" src="/custom/images/menu_browse_software.png" width="268" height="53" alt="Browse Software"></a>
+          <img src="/custom/images/menu_spacer.png" width="69" height="53">
+          <a href="http://www.ros.org/news"><img border="0" src="/custom/images/menu_news.png" width="84" height="53" alt="News"></a>
+          <img src="/custom/images/menu_spacer.png" width="69" height="53">
+          <a href="/ROS/Installation"><img border="0" src="/custom/images/menu_download.png" width="151" height="53" alt="Download"></a>
+          <img src="/custom/images/menu_right.png" width="60" height="53">
+         </nobr></td> 
+       </tr> 
+      </tbody>
+     </table> 
+     <!-- topnav-table --> 
+    </div> 
+    <!-- /#topav --> 
+   </div> 
+   <!-- /#header --> 
+   <div id="header2"> 
+    <ul id="pagelocation"> 
+     <li><a class="backlink" href="/action/fullsearch/rosbridge_library?action=fullsearch&amp;context=180&amp;value=linkto%3A%22rosbridge_library%22" rel="nofollow" title="Click to do a full-text search for this title">rosbridge_library</a></li> 
+    </ul> 
+    <div id="locationline"> 
+    </div> 
+   </div> 
+   <div id="sidebar"> 
+    <div class="sidepanel"> 
+     <h1>Wiki</h1> 
+     <ul id="navibar"> 
+      <li class="wikilink"><a href="/Distributions">Distributions</a></li>
+      <li class="wikilink"><a href="/ROS/Installation">ROS/Installation</a></li>
+      <li class="wikilink"><a href="/ROS/Tutorials">ROS/Tutorials</a></li>
+      <li class="wikilink"><a href="/RecentChanges">RecentChanges</a></li>
+      <li class="current"><a href="/rosbridge_library">rosbridge_library</a></li> 
+     </ul> 
+    </div> 
+    <div class="sidepanel"> 
+     <h1>Page</h1> 
+     <ul class="editbar">
+      <li><span class="disabled">Immutable Page</span></li>
+      <li class="toggleCommentsButton" style="display:none;"><a href="#" class="nbcomment" onclick="toggleComments();return false;">Comments</a></li>
+      <li><a class="nbinfo" href="/action/info/rosbridge_library?action=info" rel="nofollow">Info</a></li>
+      <li><a class="nbattachments" href="/action/AttachFile/rosbridge_library?action=AttachFile" rel="nofollow">Attachments</a></li>
+      <li> 
+       <form class="actionsmenu" method="GET" action="/rosbridge_library"> 
+        <div> 
+         <label>More Actions:</label> 
+         <select name="action" onchange="if ((this.selectedIndex != 0) &amp;&amp;
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;"> <option value="raw">Raw Text</option> <option value="print">Print View</option> <option value="RenderAsDocbook">Render as Docbook</option> <option value="show" disabled class="disabled">Delete Cache</option> <option value="show" disabled class="disabled">------------------------</option> <option value="SpellCheck">Check Spelling</option> <option value="LikePages">Like Pages</option> <option value="LocalSiteMap">Local Site Map</option> <option value="show" disabled class="disabled">------------------------</option> <option value="RenamePage" disabled class="disabled">Rename Page</option> <option value="CopyPage">Copy Page</option> <option value="DeletePage" disabled class="disabled">Delete Page</option> <option value="show" disabled class="disabled">------------------------</option> <option value="MyPages">My Pages</option> <option value="show" disabled class="disabled">Subscribe User</option> <option value="show" disabled class="disabled">------------------------</option> <option value="show" disabled class="disabled">Remove Spam</option> <option value="show" disabled class="disabled">Revert to this revision</option> <option value="PackagePages">Package Pages</option> <option value="SyncPages">Sync Pages</option> <option value="show" disabled class="disabled">------------------------</option> <option value="CreatePdfDocument">CreatePdfDocument</option> <option value="Load">Load</option> <option value="RawFile">RawFile</option> <option value="Save">Save</option> <option value="SlideShow">SlideShow</option> </select> 
+         <input type="submit" value="Do"> 
+        </div> 
+        <script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script> 
+       </form> </li>
+     </ul> 
+    </div> 
+    <div class="sidepanel"> 
+     <h1>User</h1> 
+     <ul id="username">
+      <li><a href="/action/login/rosbridge_library?action=login" id="login" rel="nofollow">Login</a></li>
+     </ul> 
+    </div> 
+   </div> 
+   <div id="page" lang="en" dir="ltr"> 
+    <div dir="ltr" id="content" lang="en">
+     <span class="anchor" id="top"></span> 
+     <span class="anchor" id="line-1"></span>
+     <p class="line867"><span id="rosversion_selector" class="btn-group"> <button id="fuerte" class="btn btn-default" onclick="Version({show:['fuerte_and_newer', 'fuerte_and_older', 'groovy_and_older', 'hydro_and_older', 'indigo_and_older', 'jade_and_older', 'kinetic_and_older', 'lunar_and_older', 'fuerte'], hide:['fuerte_and_newer', 'groovy_and_newer', 'hydro_and_newer', 'indigo_and_newer', 'jade_and_newer', 'kinetic_and_newer', 'lunar_and_newer', 'fuerte_and_older', 'groovy', 'hydro', 'indigo', 'jade', 'kinetic', 'lunar'], target_ros_distro:'fuerte'});this.style.color='#e6e6e6';this.style.background='#3e4f6e';document.getElementById('groovy').style.background='#e6e6e6';document.getElementById('groovy').style.color='#3e4f6e';document.getElementById('hydro').style.background='#e6e6e6';document.getElementById('hydro').style.color='#3e4f6e';document.getElementById('indigo').style.background='#e6e6e6';document.getElementById('indigo').style.color='#3e4f6e';document.getElementById('jade').style.background='#e6e6e6';document.getElementById('jade').style.color='#3e4f6e';document.getElementById('kinetic').style.background='#e6e6e6';document.getElementById('kinetic').style.color='#3e4f6e';document.getElementById('lunar').style.background='#e6e6e6';document.getElementById('lunar').style.color='#3e4f6e';return false"> fuerte </button> <button id="groovy" class="btn btn-default" onclick="Version({show:['fuerte_and_newer', 'groovy_and_newer', 'groovy_and_older', 'hydro_and_older', 'indigo_and_older', 'jade_and_older', 'kinetic_and_older', 'lunar_and_older', 'groovy'], hide:['groovy_and_newer', 'hydro_and_newer', 'indigo_and_newer', 'jade_and_newer', 'kinetic_and_newer', 'lunar_and_newer', 'fuerte_and_older', 'groovy_and_older', 'fuerte', 'hydro', 'indigo', 'jade', 'kinetic', 'lunar'], target_ros_distro:'groovy'});this.style.color='#e6e6e6';this.style.background='#3e4f6e';document.getElementById('fuerte').style.background='#e6e6e6';document.getElementById('fuerte').style.color='#3e4f6e';document.getElementById('hydro').style.background='#e6e6e6';document.getElementById('hydro').style.color='#3e4f6e';document.getElementById('indigo').style.background='#e6e6e6';document.getElementById('indigo').style.color='#3e4f6e';document.getElementById('jade').style.background='#e6e6e6';document.getElementById('jade').style.color='#3e4f6e';document.getElementById('kinetic').style.background='#e6e6e6';document.getElementById('kinetic').style.color='#3e4f6e';document.getElementById('lunar').style.background='#e6e6e6';document.getElementById('lunar').style.color='#3e4f6e';return false"> groovy </button> <button id="hydro" class="btn btn-default" onclick="Version({show:['fuerte_and_newer', 'groovy_and_newer', 'hydro_and_newer', 'hydro_and_older', 'indigo_and_older', 'jade_and_older', 'kinetic_and_older', 'lunar_and_older', 'hydro'], hide:['hydro_and_newer', 'indigo_and_newer', 'jade_and_newer', 'kinetic_and_newer', 'lunar_and_newer', 'fuerte_and_older', 'groovy_and_older', 'hydro_and_older', 'fuerte', 'groovy', 'indigo', 'jade', 'kinetic', 'lunar'], target_ros_distro:'hydro'});this.style.color='#e6e6e6';this.style.background='#3e4f6e';document.getElementById('fuerte').style.background='#e6e6e6';document.getElementById('fuerte').style.color='#3e4f6e';document.getElementById('groovy').style.background='#e6e6e6';document.getElementById('groovy').style.color='#3e4f6e';document.getElementById('indigo').style.background='#e6e6e6';document.getElementById('indigo').style.color='#3e4f6e';document.getElementById('jade').style.background='#e6e6e6';document.getElementById('jade').style.color='#3e4f6e';document.getElementById('kinetic').style.background='#e6e6e6';document.getElementById('kinetic').style.color='#3e4f6e';document.getElementById('lunar').style.background='#e6e6e6';document.getElementById('lunar').style.color='#3e4f6e';return false"> hydro </button> <button id="indigo" class="btn btn-default" onclick="Version({show:['fuerte_and_newer', 'groovy_and_newer', 'hydro_and_newer', 'indigo_and_newer', 'indigo_and_older', 'jade_and_older', 'kinetic_and_older', 'lunar_and_older', 'indigo'], hide:['indigo_and_newer', 'jade_and_newer', 'kinetic_and_newer', 'lunar_and_newer', 'fuerte_and_older', 'groovy_and_older', 'hydro_and_older', 'indigo_and_older', 'fuerte', 'groovy', 'hydro', 'jade', 'kinetic', 'lunar'], target_ros_distro:'indigo'});this.style.color='#e6e6e6';this.style.background='#3e4f6e';document.getElementById('fuerte').style.background='#e6e6e6';document.getElementById('fuerte').style.color='#3e4f6e';document.getElementById('groovy').style.background='#e6e6e6';document.getElementById('groovy').style.color='#3e4f6e';document.getElementById('hydro').style.background='#e6e6e6';document.getElementById('hydro').style.color='#3e4f6e';document.getElementById('jade').style.background='#e6e6e6';document.getElementById('jade').style.color='#3e4f6e';document.getElementById('kinetic').style.background='#e6e6e6';document.getElementById('kinetic').style.color='#3e4f6e';document.getElementById('lunar').style.background='#e6e6e6';document.getElementById('lunar').style.color='#3e4f6e';return false"> indigo </button> <button id="jade" class="btn btn-default" onclick="Version({show:['fuerte_and_newer', 'groovy_and_newer', 'hydro_and_newer', 'indigo_and_newer', 'jade_and_newer', 'jade_and_older', 'kinetic_and_older', 'lunar_and_older', 'jade'], hide:['jade_and_newer', 'kinetic_and_newer', 'lunar_and_newer', 'fuerte_and_older', 'groovy_and_older', 'hydro_and_older', 'indigo_and_older', 'jade_and_older', 'fuerte', 'groovy', 'hydro', 'indigo', 'kinetic', 'lunar'], target_ros_distro:'jade'});this.style.color='#e6e6e6';this.style.background='#3e4f6e';document.getElementById('fuerte').style.background='#e6e6e6';document.getElementById('fuerte').style.color='#3e4f6e';document.getElementById('groovy').style.background='#e6e6e6';document.getElementById('groovy').style.color='#3e4f6e';document.getElementById('hydro').style.background='#e6e6e6';document.getElementById('hydro').style.color='#3e4f6e';document.getElementById('indigo').style.background='#e6e6e6';document.getElementById('indigo').style.color='#3e4f6e';document.getElementById('kinetic').style.background='#e6e6e6';document.getElementById('kinetic').style.color='#3e4f6e';document.getElementById('lunar').style.background='#e6e6e6';document.getElementById('lunar').style.color='#3e4f6e';return false"> jade </button> <button id="kinetic" class="btn btn-default" onclick="Version({show:['fuerte_and_newer', 'groovy_and_newer', 'hydro_and_newer', 'indigo_and_newer', 'jade_and_newer', 'kinetic_and_newer', 'kinetic_and_older', 'lunar_and_older', 'kinetic'], hide:['kinetic_and_newer', 'lunar_and_newer', 'fuerte_and_older', 'groovy_and_older', 'hydro_and_older', 'indigo_and_older', 'jade_and_older', 'kinetic_and_older', 'fuerte', 'groovy', 'hydro', 'indigo', 'jade', 'lunar'], target_ros_distro:'kinetic'});this.style.color='#e6e6e6';this.style.background='#3e4f6e';document.getElementById('fuerte').style.background='#e6e6e6';document.getElementById('fuerte').style.color='#3e4f6e';document.getElementById('groovy').style.background='#e6e6e6';document.getElementById('groovy').style.color='#3e4f6e';document.getElementById('hydro').style.background='#e6e6e6';document.getElementById('hydro').style.color='#3e4f6e';document.getElementById('indigo').style.background='#e6e6e6';document.getElementById('indigo').style.color='#3e4f6e';document.getElementById('jade').style.background='#e6e6e6';document.getElementById('jade').style.color='#3e4f6e';document.getElementById('lunar').style.background='#e6e6e6';document.getElementById('lunar').style.color='#3e4f6e';return false"> kinetic </button> <button id="lunar" class="btn btn-default" onclick="Version({show:['fuerte_and_newer', 'groovy_and_newer', 'hydro_and_newer', 'indigo_and_newer', 'jade_and_newer', 'kinetic_and_newer', 'lunar_and_newer', 'lunar_and_older', 'lunar'], hide:['lunar_and_newer', 'fuerte_and_older', 'groovy_and_older', 'hydro_and_older', 'indigo_and_older', 'jade_and_older', 'kinetic_and_older', 'lunar_and_older', 'fuerte', 'groovy', 'hydro', 'indigo', 'jade', 'kinetic'], target_ros_distro:'lunar'});this.style.color='#e6e6e6';this.style.background='#3e4f6e';document.getElementById('fuerte').style.background='#e6e6e6';document.getElementById('fuerte').style.color='#3e4f6e';document.getElementById('groovy').style.background='#e6e6e6';document.getElementById('groovy').style.color='#3e4f6e';document.getElementById('hydro').style.background='#e6e6e6';document.getElementById('hydro').style.color='#3e4f6e';document.getElementById('indigo').style.background='#e6e6e6';document.getElementById('indigo').style.color='#3e4f6e';document.getElementById('jade').style.background='#e6e6e6';document.getElementById('jade').style.color='#3e4f6e';document.getElementById('kinetic').style.background='#e6e6e6';document.getElementById('kinetic').style.color='#3e4f6e';return false"> lunar </button> </span><span style="text-align:left">&nbsp;&nbsp;<a href="javascript:toggleDocStatus()">Documentation Status</a></span></p>
+     <div id="doc_status" style="background:#CCCCCC;display:none;margin-top:0px;margin-bottom:0px;padding-top:0px">
+      <ul style="padding-top:5px;margin-top:0px;margin-bottom:0px;padding-bottom:5px;">
+       <li><b>electric:</b> Cannot load information on <strong>name: rosbridge_library, distro: electric</strong>, which means that it is not yet in our index. Please see <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.</li>
+       <br>
+       <li><b>fuerte:</b> <i>Documentation generated on January 02, 2014 at 11:53 AM</i></li>
+       <br>
+       <li><b>groovy:</b> <i>Documentation generated on October 06, 2014 at 06:58 AM</i></li>
+       <br>
+       <li><b>hydro:</b> <i>Documentation generated on August 27, 2015 at 02:50 PM</i><span style="font-size:10px"> (<a href="http://jenkins.ros.org/job/doc-hydro-rosbridge_suite/">doc job</a>).</span></li>
+       <br>
+       <li><b>indigo:</b> <i>Documentation generated on October 18, 2017 at 11:04 AM</i><span style="font-size:10px"> (<a href="http://build.ros.org/view/Idoc/job/Idoc__rosbridge_suite__ubuntu_trusty_amd64">doc job</a>).</span></li>
+       <br>
+       <li><b>jade:</b> <i>Documentation generated on September 13, 2017 at 11:00 AM</i><span style="font-size:10px"> (<a href="http://build.ros.org/view/Jdoc/job/Jdoc__rosbridge_suite__ubuntu_trusty_amd64">doc job</a>).</span></li>
+       <br>
+       <li><b>kinetic:</b> <i>Documentation generated on October 18, 2017 at 10:58 AM</i><span style="font-size:10px"> (<a href="http://build.ros.org/view/Kdoc/job/Kdoc__rosbridge_suite__ubuntu_xenial_amd64">doc job</a>).</span></li>
+       <br>
+       <li><b>lunar:</b> <i>Documentation generated on October 19, 2017 at 10:17 AM</i><span style="font-size:10px"> (<a href="http://build.ros.org/view/Ldoc/job/Ldoc__rosbridge_suite__ubuntu_xenial_amd64">doc job</a>).</span></li>
+       <br>
+      </ul>
+     </div>
+     <div class="version electric">
+      Cannot load information on 
+      <strong>name: rosbridge_library, distro: electric</strong>, which means that it is not yet in our index. Please see 
+      <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.
+     </div> 
+     <div class="version fuerte">
+      <em><strong><a href="/rosbridge_suite?distro=fuerte">rosbridge_suite</a></strong>: <a href="/rosapi?distro=fuerte">rosapi</a> | <a class="nonexistent" href="/rosbridge_launch?distro=fuerte">rosbridge_launch</a> | rosbridge_library | <a href="/rosbridge_server?distro=fuerte">rosbridge_server</a> | <a class="nonexistent" href="/rosbridge_test?distro=fuerte">rosbridge_test</a> | <a href="/roswww?distro=fuerte">roswww</a> | <a class="nonexistent" href="/tf_smart_throttle?distro=fuerte">tf_smart_throttle</a></em>
+      <br>
+      <div class="package-links">
+       <strong>Package Links</strong>
+       <ul>
+        <li><strong><a href="http://docs.ros.org/fuerte/api/rosbridge_library/html">Code API</a></strong></li>
+        <li><a href="http://answers.ros.org/questions/scope:all/sort:activity-desc/tags:rosbridge_library/page:1/">FAQ</a></li>
+        <li><a href="/rosbridge_suite/ChangeList">Change List</a></li>
+        <li><a class="nonexistent" href="/rosbridge_library/Reviews">Reviews</a></li>
+       </ul>
+       <script type="text/javascript" src="/custom/js/roswiki.js"></script>
+       <strong><a href="#" onclick="toggleExpandable('fuertedependencies-list'); return false;">Dependencies</a> (4)</strong>
+       <br>
+       <div id="fuertedependencies-list" style="display:none">
+        <ul>
+         <li><a class="nonexistent" href="/python-imaging?distro=fuerte">python-imaging</a></li>
+         <li><a href="/rospy?distro=fuerte">rospy</a></li>
+         <li><a href="/rosservice?distro=fuerte">rosservice</a></li>
+         <li><a href="/rostopic?distro=fuerte">rostopic</a></li>
+        </ul>
+       </div>
+       <strong><a href="#" onclick="toggleExpandable('fuerteused-by-list'); return false;">Used by</a> (3)</strong>
+       <br>
+       <div id="fuerteused-by-list" style="display:none">
+        <ul>
+         <li><a href="/rosapi?distro=fuerte">rosapi</a></li>
+         <li><a href="/rosbridge_server?distro=fuerte">rosbridge_server</a></li>
+         <li><a class="nonexistent" href="/rosbridge_test?distro=fuerte">rosbridge_test</a></li>
+        </ul>
+       </div>
+      </div>
+      <h1>Package Summary</h1>
+      <p><span class="badge" style="background-color: #5cb85c;"><span class="glyphicon glyphicon-ok" style="color: white;"></span> Documented</span></p>
+      <p id="package-info"> rosbridge_library </p>
+      <p id="package-info-1"></p>
+      <ul>
+       <li>Author: Jonathan Mace</li>
+       <li>License: BSD</li>
+       <li>Source: git <a href="https://github.com/RobotWebTools/rosbridge_suite">https://github.com/RobotWebTools/rosbridge_suite.git</a> (branch: fuerte-devel)</li>
+      </ul>
+     </div> 
+     <div class="version groovy">
+      <em><strong><a href="/rosbridge_suite?distro=groovy">rosbridge_suite</a></strong>: <a href="/rosapi?distro=groovy">rosapi</a> | rosbridge_library | <a href="/rosbridge_server?distro=groovy">rosbridge_server</a></em>
+      <br>
+      <div class="package-links">
+       <strong>Package Links</strong>
+       <ul>
+        <li><strong><a href="http://docs.ros.org/groovy/api/rosbridge_library/html">Code API</a></strong></li>
+        <li><strong><a href="http://docs.ros.org/groovy/api/rosbridge_library/html/index-msg.html">Msg/Srv API</a></strong></li>
+        <li><a href="https://github.com/RobotWebTools/rosbridge_suite">rosbridge_library website</a></li>
+        <li><a href="http://answers.ros.org/questions/scope:all/sort:activity-desc/tags:rosbridge_library/page:1/">FAQ</a></li>
+        <li><a href="http://docs.ros.org/groovy/changelogs/rosbridge_library/changelog.html">Changelog</a></li>
+        <li><a href="/rosbridge_suite/ChangeList">Change List</a></li>
+        <li><a class="nonexistent" href="/rosbridge_library/Reviews">Reviews</a></li>
+       </ul>
+       <script type="text/javascript" src="/custom/js/roswiki.js"></script>
+       <strong><a href="#" onclick="toggleExpandable('groovydependencies-list'); return false;">Dependencies</a> (18)</strong>
+       <br>
+       <div id="groovydependencies-list" style="display:none">
+        <ul>
+         <li><a href="/actionlib_msgs?distro=groovy">actionlib_msgs</a></li>
+         <li><a href="/catkin?distro=groovy">catkin</a></li>
+         <li><a href="/diagnostic_msgs?distro=groovy">diagnostic_msgs</a></li>
+         <li><a href="/geometry_msgs?distro=groovy">geometry_msgs</a></li>
+         <li><a href="/message_generation?distro=groovy">message_generation</a></li>
+         <li><a href="/message_runtime?distro=groovy">message_runtime</a></li>
+         <li><a href="/nav_msgs?distro=groovy">nav_msgs</a></li>
+         <li><a class="nonexistent" href="/python-imaging?distro=groovy">python-imaging</a></li>
+         <li><a href="/rospy?distro=groovy">rospy</a></li>
+         <li><a href="/rospy_tutorials?distro=groovy">rospy_tutorials</a></li>
+         <li><a href="/rosservice?distro=groovy">rosservice</a></li>
+         <li><a href="/rostopic?distro=groovy">rostopic</a></li>
+         <li><a href="/sensor_msgs?distro=groovy">sensor_msgs</a></li>
+         <li><a href="/std_srvs?distro=groovy">std_srvs</a></li>
+         <li><a href="/stereo_msgs?distro=groovy">stereo_msgs</a></li>
+         <li><a href="/tf2_msgs?distro=groovy">tf2_msgs</a></li>
+         <li><a href="/trajectory_msgs?distro=groovy">trajectory_msgs</a></li>
+         <li><a href="/visualization_msgs?distro=groovy">visualization_msgs</a></li>
+        </ul>
+       </div>
+       <strong><a href="#" onclick="toggleExpandable('groovyused-by-list'); return false;">Used by</a> (3)</strong>
+       <br>
+       <div id="groovyused-by-list" style="display:none">
+        <ul>
+         <li><a href="/rosapi?distro=groovy">rosapi</a></li>
+         <li><a href="/rosbridge_server?distro=groovy">rosbridge_server</a></li>
+         <li><a href="/rosbridge_suite?distro=groovy">rosbridge_suite</a></li>
+        </ul>
+       </div>
+      </div>
+      <h1>Package Summary</h1>
+      <p><span class="badge" style="background-color: #5cb85c;"><span class="glyphicon glyphicon-ok" style="color: white;"></span> Released</span> <span class="badge" style="background-color: #5cb85c;"><span class="glyphicon glyphicon-ok" style="color: white;"></span> Continuous integration</span> <span class="badge" style="background-color: #5cb85c;"><span class="glyphicon glyphicon-ok" style="color: white;"></span> Documented</span></p>
+      <p id="package-info-2">The core rosbridge package, repsonsible for interpreting JSON andperforming the appropriate ROS action, like subscribe, publish, call service, and interact with params.</p>
+      <p id="package-info-3"></p>
+      <ul>
+       <li>Maintainer status: maintained</li>
+       <li>Maintainer: Brandon Alexander &lt;baalexander AT gmail DOT com&gt;, Jihoon Lee &lt;jihoonlee.in AT gmail DOT com&gt;</li>
+       <li>Author: Jonathan Mace &lt;jonathan.c.mace AT gmail DOT com&gt;</li>
+       <li>License: BSD</li>
+       <li>External website: <a href="https://github.com/RobotWebTools/rosbridge_suite">https://github.com/RobotWebTools/rosbridge_suite</a></li>
+       <li>Source: git <a href="https://github.com/RobotWebTools/rosbridge_suite">https://github.com/RobotWebTools/rosbridge_suite.git</a> (branch: master)</li>
+      </ul>
+     </div> 
+     <div class="version hydro">
+      <em><strong><a href="/rosbridge_suite?distro=hydro">rosbridge_suite</a></strong>: <a href="/rosapi?distro=hydro">rosapi</a> | rosbridge_library | <a href="/rosbridge_server?distro=hydro">rosbridge_server</a></em>
+      <br>
+      <div class="package-links">
+       <strong>Package Links</strong>
+       <ul>
+        <li><strong><a href="http://docs.ros.org/hydro/api/rosbridge_library/html">Code API</a></strong></li>
+        <li><strong><a href="http://docs.ros.org/hydro/api/rosbridge_library/html/index-msg.html">Msg/Srv API</a></strong></li>
+        <li><a href="http://answers.ros.org/questions/scope:all/sort:activity-desc/tags:rosbridge_library/page:1/">FAQ</a></li>
+        <li><a href="http://docs.ros.org/hydro/changelogs/rosbridge_library/changelog.html">Changelog</a></li>
+        <li><a href="/rosbridge_suite/ChangeList">Change List</a></li>
+        <li><a class="nonexistent" href="/rosbridge_library/Reviews">Reviews</a></li>
+       </ul>
+       <script type="text/javascript" src="/custom/js/roswiki.js"></script>
+       <strong><a href="#" onclick="toggleExpandable('hydrodependencies-list'); return false;">Dependencies</a> (22)</strong>
+       <br>
+       <div id="hydrodependencies-list" style="display:none">
+        <ul>
+         <li><a href="/actionlib_msgs?distro=hydro">actionlib_msgs</a></li>
+         <li><a href="/catkin?distro=hydro">catkin</a></li>
+         <li><a href="/diagnostic_msgs?distro=hydro">diagnostic_msgs</a></li>
+         <li><a href="/geometry_msgs?distro=hydro">geometry_msgs</a></li>
+         <li><a href="/message_generation?distro=hydro">message_generation</a></li>
+         <li><a href="/message_runtime?distro=hydro">message_runtime</a></li>
+         <li><a href="/nav_msgs?distro=hydro">nav_msgs</a></li>
+         <li><a class="nonexistent" href="/python-bson?distro=hydro">python-bson</a></li>
+         <li><a class="nonexistent" href="/python-imaging?distro=hydro">python-imaging</a></li>
+         <li><a href="/roscpp?distro=hydro">roscpp</a></li>
+         <li><a href="/rosgraph?distro=hydro">rosgraph</a></li>
+         <li><a href="/rospy?distro=hydro">rospy</a></li>
+         <li><a href="/rospy_tutorials?distro=hydro">rospy_tutorials</a></li>
+         <li><a href="/rosservice?distro=hydro">rosservice</a></li>
+         <li><a href="/rostopic?distro=hydro">rostopic</a></li>
+         <li><a href="/sensor_msgs?distro=hydro">sensor_msgs</a></li>
+         <li><a href="/std_msgs?distro=hydro">std_msgs</a></li>
+         <li><a href="/std_srvs?distro=hydro">std_srvs</a></li>
+         <li><a href="/stereo_msgs?distro=hydro">stereo_msgs</a></li>
+         <li><a href="/tf2_msgs?distro=hydro">tf2_msgs</a></li>
+         <li><a href="/trajectory_msgs?distro=hydro">trajectory_msgs</a></li>
+         <li><a href="/visualization_msgs?distro=hydro">visualization_msgs</a></li>
+        </ul>
+       </div>
+       <strong><a href="#" onclick="toggleExpandable('hydroused-by-list'); return false;">Used by</a> (4)</strong>
+       <br>
+       <div id="hydroused-by-list" style="display:none">
+        <ul>
+         <li><a href="/rosapi?distro=hydro">rosapi</a></li>
+         <li><a href="/rosbridge_server?distro=hydro">rosbridge_server</a></li>
+         <li><a href="/rosbridge_suite?distro=hydro">rosbridge_suite</a></li>
+         <li><a href="/rosjava_messages?distro=hydro">rosjava_messages</a></li>
+        </ul>
+       </div>
+      </div>
+      <h1>Package Summary</h1>
+      <p><span class="badge" style="background-color: #5cb85c;"><span class="glyphicon glyphicon-ok" style="color: white;"></span> Released</span> <span class="badge" style="background-color: #5cb85c;"><span class="glyphicon glyphicon-ok" style="color: white;"></span> Continuous integration</span> <span class="badge" style="background-color: #5cb85c;"><span class="glyphicon glyphicon-ok" style="color: white;"></span> Documented</span></p>
+      <p id="package-info-4">The core rosbridge package, repsonsible for interpreting JSON andperforming the appropriate ROS action, like subscribe, publish, call service, and interact with params.</p>
+      <p id="package-info-5"></p>
+      <ul>
+       <li>Maintainer status: maintained</li>
+       <li>Maintainer: Russell Toris &lt;rctoris AT wpi DOT edu&gt;, Jihoon Lee &lt;jihoonlee.in AT gmail DOT com&gt;</li>
+       <li>Author: Jonathan Mace &lt;jonathan.c.mace AT gmail DOT com&gt;</li>
+       <li>License: BSD</li>
+       <li>Bug / feature tracker: <a href="https://github.com/RobotWebTools/rosbridge_suite/issues">https://github.com/RobotWebTools/rosbridge_suite/issues</a></li>
+       <li>Source: git <a href="https://github.com/RobotWebTools/rosbridge_suite">https://github.com/RobotWebTools/rosbridge_suite.git</a> (branch: master)</li>
+      </ul>
+     </div> 
+     <div class="version indigo">
+      <em><strong><a href="/rosbridge_suite?distro=indigo">rosbridge_suite</a></strong>: <a href="/rosapi?distro=indigo">rosapi</a> | rosbridge_library | <a href="/rosbridge_server?distro=indigo">rosbridge_server</a></em>
+      <br>
+      <div class="package-links">
+       <strong>Package Links</strong>
+       <ul>
+        <li><strong><a href="http://docs.ros.org/indigo/api/rosbridge_library/html">Code API</a></strong></li>
+        <li><strong><a href="http://docs.ros.org/indigo/api/rosbridge_library/html/index-msg.html">Msg/Srv API</a></strong></li>
+        <li><a href="http://answers.ros.org/questions/scope:all/sort:activity-desc/tags:rosbridge_library/page:1/">FAQ</a></li>
+        <li><a href="http://docs.ros.org/indigo/changelogs/rosbridge_library/changelog.html">Changelog</a></li>
+        <li><a href="/rosbridge_suite/ChangeList">Change List</a></li>
+        <li><a class="nonexistent" href="/rosbridge_library/Reviews">Reviews</a></li>
+       </ul>
+       <script type="text/javascript" src="/custom/js/roswiki.js"></script>
+       <strong><a href="#" onclick="toggleExpandable('indigodependencies-list'); return false;">Dependencies</a> (10)</strong>
+       <br>
+       <div id="indigodependencies-list" style="display:none">
+        <ul>
+         <li><a href="/catkin?distro=indigo">catkin</a></li>
+         <li><a href="/geometry_msgs?distro=indigo">geometry_msgs</a></li>
+         <li><a href="/message_generation?distro=indigo">message_generation</a></li>
+         <li><a href="/message_runtime?distro=indigo">message_runtime</a></li>
+         <li><a href="/roscpp?distro=indigo">roscpp</a></li>
+         <li><a href="/rosgraph?distro=indigo">rosgraph</a></li>
+         <li><a href="/rospy?distro=indigo">rospy</a></li>
+         <li><a href="/rosservice?distro=indigo">rosservice</a></li>
+         <li><a href="/rostopic?distro=indigo">rostopic</a></li>
+         <li><a href="/std_msgs?distro=indigo">std_msgs</a></li>
+        </ul>
+       </div>
+       <strong><a href="#" onclick="toggleExpandable('indigoused-by-list'); return false;">Used by</a> (3)</strong>
+       <br>
+       <div id="indigoused-by-list" style="display:none">
+        <ul>
+         <li><a href="/rosapi?distro=indigo">rosapi</a></li>
+         <li><a href="/rosbridge_server?distro=indigo">rosbridge_server</a></li>
+         <li><a href="/rosbridge_suite?distro=indigo">rosbridge_suite</a></li>
+        </ul>
+       </div>
+       <script type="text/javascript" src="/custom/js/roswiki.js"></script>
+       <strong><a href="#" onclick="toggleExpandableJenkins('stack-indigojenkins-list'); return false;">Jenkins jobs</a> (6)</strong>
+       <br>
+       <div id="stack-indigojenkins-list" style="display:none">
+        <ul>
+         <li><a href="http://build.ros.org/view/Isrc_uT/job/Isrc_uT__rosbridge_library__ubuntu_trusty__source">source ubuntu trusty</a></li>
+         <li><a href="http://build.ros.org/view/Ibin_arm_uThf/job/Ibin_arm_uThf__rosbridge_library__ubuntu_trusty_armhf__binary">binary ubuntu trusty armhf</a></li>
+         <li><a href="http://build.ros.org/view/Ibin_uT64/job/Ibin_uT64__rosbridge_library__ubuntu_trusty_amd64__binary">binary ubuntu trusty amd64</a></li>
+         <li><a href="http://build.ros.org/view/Ibin_uT32/job/Ibin_uT32__rosbridge_library__ubuntu_trusty_i386__binary">binary ubuntu trusty i386</a></li>
+         <li><a href="http://build.ros.org/view/Idev/job/Idev__rosbridge_suite__ubuntu_trusty_amd64">devel ubuntu trusty amd64</a></li>
+         <li><a href="http://build.ros.org/view/Idoc/job/Idoc__rosbridge_suite__ubuntu_trusty_amd64">doc</a></li>
+        </ul>
+       </div>
+      </div>
+      <h1>Package Summary</h1>
+      <p><span class="badge" style="background-color: #5cb85c;"><span class="glyphicon glyphicon-ok" style="color: white;"></span> Released</span> <span class="badge" style="background-color: #5cb85c;"><span class="glyphicon glyphicon-ok" style="color: white;"></span> Continuous integration</span> <span class="badge" style="background-color: #5cb85c;"><span class="glyphicon glyphicon-ok" style="color: white;"></span> Documented</span></p>
+      <p id="package-info-6">The core rosbridge package, repsonsible for interpreting JSON andperforming the appropriate ROS action, like subscribe, publish, call service, and interact with params.</p>
+      <p id="package-info-7"></p>
+      <ul>
+       <li>Maintainer status: maintained</li>
+       <li>Maintainer: Russell Toris &lt;rctoris AT wpi DOT edu&gt;, Jihoon Lee &lt;jihoonlee.in AT gmail DOT com&gt;</li>
+       <li>Author: Jonathan Mace &lt;jonathan.c.mace AT gmail DOT com&gt;</li>
+       <li>License: BSD</li>
+       <li>Bug / feature tracker: <a href="https://github.com/RobotWebTools/rosbridge_suite/issues">https://github.com/RobotWebTools/rosbridge_suite/issues</a></li>
+       <li>Source: git <a href="https://github.com/RobotWebTools/rosbridge_suite">https://github.com/RobotWebTools/rosbridge_suite.git</a> (branch: master)</li>
+      </ul>
+     </div> 
+     <div class="version jade">
+      <em><strong><a href="/rosbridge_suite?distro=jade">rosbridge_suite</a></strong>: <a href="/rosapi?distro=jade">rosapi</a> | rosbridge_library | <a href="/rosbridge_server?distro=jade">rosbridge_server</a></em>
+      <br>
+      <div class="package-links">
+       <strong>Package Links</strong>
+       <ul>
+        <li><strong><a href="http://docs.ros.org/jade/api/rosbridge_library/html">Code API</a></strong></li>
+        <li><strong><a href="http://docs.ros.org/jade/api/rosbridge_library/html/index-msg.html">Msg/Srv API</a></strong></li>
+        <li><a href="http://answers.ros.org/questions/scope:all/sort:activity-desc/tags:rosbridge_library/page:1/">FAQ</a></li>
+        <li><a href="http://docs.ros.org/jade/changelogs/rosbridge_library/changelog.html">Changelog</a></li>
+        <li><a href="/rosbridge_suite/ChangeList">Change List</a></li>
+        <li><a class="nonexistent" href="/rosbridge_library/Reviews">Reviews</a></li>
+       </ul>
+       <script type="text/javascript" src="/custom/js/roswiki.js"></script>
+       <strong><a href="#" onclick="toggleExpandable('jadedependencies-list'); return false;">Dependencies</a> (10)</strong>
+       <br>
+       <div id="jadedependencies-list" style="display:none">
+        <ul>
+         <li><a href="/catkin?distro=jade">catkin</a></li>
+         <li><a href="/geometry_msgs?distro=jade">geometry_msgs</a></li>
+         <li><a href="/message_generation?distro=jade">message_generation</a></li>
+         <li><a href="/message_runtime?distro=jade">message_runtime</a></li>
+         <li><a href="/roscpp?distro=jade">roscpp</a></li>
+         <li><a href="/rosgraph?distro=jade">rosgraph</a></li>
+         <li><a href="/rospy?distro=jade">rospy</a></li>
+         <li><a href="/rosservice?distro=jade">rosservice</a></li>
+         <li><a href="/rostopic?distro=jade">rostopic</a></li>
+         <li><a href="/std_msgs?distro=jade">std_msgs</a></li>
+        </ul>
+       </div>
+       <strong><a href="#" onclick="toggleExpandable('jadeused-by-list'); return false;">Used by</a> (3)</strong>
+       <br>
+       <div id="jadeused-by-list" style="display:none">
+        <ul>
+         <li><a href="/rosapi?distro=jade">rosapi</a></li>
+         <li><a href="/rosbridge_server?distro=jade">rosbridge_server</a></li>
+         <li><a href="/rosbridge_suite?distro=jade">rosbridge_suite</a></li>
+        </ul>
+       </div>
+       <script type="text/javascript" src="/custom/js/roswiki.js"></script>
+       <strong><a href="#" onclick="toggleExpandableJenkins('stack-jadejenkins-list'); return false;">Jenkins jobs</a> (6)</strong>
+       <br>
+       <div id="stack-jadejenkins-list" style="display:none">
+        <ul>
+         <li><a href="http://build.ros.org/view/Jsrc_uT/job/Jsrc_uT__rosbridge_library__ubuntu_trusty__source">source ubuntu trusty</a></li>
+         <li><a href="http://build.ros.org/view/Jbin_arm_uThf/job/Jbin_arm_uThf__rosbridge_library__ubuntu_trusty_armhf__binary">binary ubuntu trusty armhf</a></li>
+         <li><a href="http://build.ros.org/view/Jbin_uT32/job/Jbin_uT32__rosbridge_library__ubuntu_trusty_i386__binary">binary ubuntu trusty i386</a></li>
+         <li><a href="http://build.ros.org/view/Jbin_uT64/job/Jbin_uT64__rosbridge_library__ubuntu_trusty_amd64__binary">binary ubuntu trusty amd64</a></li>
+         <li><a href="http://build.ros.org/view/Jdev/job/Jdev__rosbridge_suite__ubuntu_trusty_amd64">devel ubuntu trusty amd64</a></li>
+         <li><a href="http://build.ros.org/view/Jdoc/job/Jdoc__rosbridge_suite__ubuntu_trusty_amd64">doc</a></li>
+        </ul>
+       </div>
+      </div>
+      <h1>Package Summary</h1>
+      <p><span class="badge" style="background-color: #5cb85c;"><span class="glyphicon glyphicon-ok" style="color: white;"></span> Released</span> <span class="badge" style="background-color: #5cb85c;"><span class="glyphicon glyphicon-ok" style="color: white;"></span> Continuous integration</span> <span class="badge" style="background-color: #5cb85c;"><span class="glyphicon glyphicon-ok" style="color: white;"></span> Documented</span></p>
+      <p id="package-info-8">The core rosbridge package, repsonsible for interpreting JSON andperforming the appropriate ROS action, like subscribe, publish, call service, and interact with params.</p>
+      <p id="package-info-9"></p>
+      <ul>
+       <li>Maintainer status: maintained</li>
+       <li>Maintainer: Russell Toris &lt;rctoris AT wpi DOT edu&gt;, Jihoon Lee &lt;jihoonlee.in AT gmail DOT com&gt;</li>
+       <li>Author: Jonathan Mace &lt;jonathan.c.mace AT gmail DOT com&gt;</li>
+       <li>License: BSD</li>
+       <li>Bug / feature tracker: <a href="https://github.com/RobotWebTools/rosbridge_suite/issues">https://github.com/RobotWebTools/rosbridge_suite/issues</a></li>
+       <li>Source: git <a href="https://github.com/RobotWebTools/rosbridge_suite">https://github.com/RobotWebTools/rosbridge_suite.git</a> (branch: master)</li>
+      </ul>
+     </div> 
+     <div class="version kinetic">
+      <em><strong><a href="/rosbridge_suite?distro=kinetic">rosbridge_suite</a></strong>: <a href="/rosapi?distro=kinetic">rosapi</a> | rosbridge_library | <a href="/rosbridge_server?distro=kinetic">rosbridge_server</a></em>
+      <br>
+      <div class="package-links">
+       <strong>Package Links</strong>
+       <ul>
+        <li><strong><a href="http://docs.ros.org/kinetic/api/rosbridge_library/html">Code API</a></strong></li>
+        <li><strong><a href="http://docs.ros.org/kinetic/api/rosbridge_library/html/index-msg.html">Msg/Srv API</a></strong></li>
+        <li><a href="http://answers.ros.org/questions/scope:all/sort:activity-desc/tags:rosbridge_library/page:1/">FAQ</a></li>
+        <li><a href="http://docs.ros.org/kinetic/changelogs/rosbridge_library/changelog.html">Changelog</a></li>
+        <li><a href="/rosbridge_suite/ChangeList">Change List</a></li>
+        <li><a class="nonexistent" href="/rosbridge_library/Reviews">Reviews</a></li>
+       </ul>
+       <script type="text/javascript" src="/custom/js/roswiki.js"></script>
+       <strong><a href="#" onclick="toggleExpandable('kineticdependencies-list'); return false;">Dependencies</a> (10)</strong>
+       <br>
+       <div id="kineticdependencies-list" style="display:none">
+        <ul>
+         <li><a href="/catkin?distro=kinetic">catkin</a></li>
+         <li><a href="/geometry_msgs?distro=kinetic">geometry_msgs</a></li>
+         <li><a href="/message_generation?distro=kinetic">message_generation</a></li>
+         <li><a href="/message_runtime?distro=kinetic">message_runtime</a></li>
+         <li><a href="/roscpp?distro=kinetic">roscpp</a></li>
+         <li><a href="/rosgraph?distro=kinetic">rosgraph</a></li>
+         <li><a href="/rospy?distro=kinetic">rospy</a></li>
+         <li><a href="/rosservice?distro=kinetic">rosservice</a></li>
+         <li><a href="/rostopic?distro=kinetic">rostopic</a></li>
+         <li><a href="/std_msgs?distro=kinetic">std_msgs</a></li>
+        </ul>
+       </div>
+       <strong><a href="#" onclick="toggleExpandable('kineticused-by-list'); return false;">Used by</a> (4)</strong>
+       <br>
+       <div id="kineticused-by-list" style="display:none">
+        <ul>
+         <li><a href="/mqtt_bridge?distro=kinetic">mqtt_bridge</a></li>
+         <li><a href="/rosapi?distro=kinetic">rosapi</a></li>
+         <li><a href="/rosbridge_server?distro=kinetic">rosbridge_server</a></li>
+         <li><a href="/rosbridge_suite?distro=kinetic">rosbridge_suite</a></li>
+        </ul>
+       </div>
+       <script type="text/javascript" src="/custom/js/roswiki.js"></script>
+       <strong><a href="#" onclick="toggleExpandableJenkins('stack-kineticjenkins-list'); return false;">Jenkins jobs</a> (10)</strong>
+       <br>
+       <div id="stack-kineticjenkins-list" style="display:none">
+        <ul>
+         <li><a href="http://build.ros.org/view/Ksrc_uX/job/Ksrc_uX__rosbridge_library__ubuntu_xenial__source">source ubuntu xenial</a></li>
+         <li><a href="http://build.ros.org/view/Ksrc_dJ/job/Ksrc_dJ__rosbridge_library__debian_jessie__source">source debian jessie</a></li>
+         <li><a href="http://build.ros.org/view/Kbin_uX32/job/Kbin_uX32__rosbridge_library__ubuntu_xenial_i386__binary">binary ubuntu xenial i386</a></li>
+         <li><a href="http://build.ros.org/view/Kbin_uX64/job/Kbin_uX64__rosbridge_library__ubuntu_xenial_amd64__binary">binary ubuntu xenial amd64</a></li>
+         <li><a href="http://build.ros.org/view/Kbin_dj_dJ64/job/Kbin_dj_dJ64__rosbridge_library__debian_jessie_amd64__binary">binary debian jessie amd64</a></li>
+         <li><a href="http://build.ros.org/view/Kbin_djv8_dJv8/job/Kbin_djv8_dJv8__rosbridge_library__debian_jessie_arm64__binary">binary debian jessie arm64</a></li>
+         <li><a href="http://build.ros.org/view/Kbin_uxhf_uXhf/job/Kbin_uxhf_uXhf__rosbridge_library__ubuntu_xenial_armhf__binary">binary ubuntu xenial armhf</a></li>
+         <li><a href="http://build.ros.org/view/Kbin_uxv8_uXv8/job/Kbin_uxv8_uXv8__rosbridge_library__ubuntu_xenial_arm64__binary">binary ubuntu xenial arm64</a></li>
+         <li><a href="http://build.ros.org/view/Kdev/job/Kdev__rosbridge_suite__ubuntu_xenial_amd64">devel ubuntu xenial amd64</a></li>
+         <li><a href="http://build.ros.org/view/Kdoc/job/Kdoc__rosbridge_suite__ubuntu_xenial_amd64">doc</a></li>
+        </ul>
+       </div>
+      </div>
+      <h1>Package Summary</h1>
+      <p><span class="badge" style="background-color: #5cb85c;"><span class="glyphicon glyphicon-ok" style="color: white;"></span> Released</span> <span class="badge" style="background-color: #5cb85c;"><span class="glyphicon glyphicon-ok" style="color: white;"></span> Continuous integration</span> <span class="badge" style="background-color: #5cb85c;"><span class="glyphicon glyphicon-ok" style="color: white;"></span> Documented</span></p>
+      <p id="package-info-10">The core rosbridge package, repsonsible for interpreting JSON andperforming the appropriate ROS action, like subscribe, publish, call service, and interact with params.</p>
+      <p id="package-info-11"></p>
+      <ul>
+       <li>Maintainer status: maintained</li>
+       <li>Maintainer: Russell Toris &lt;rctoris AT wpi DOT edu&gt;, Jihoon Lee &lt;jihoonlee.in AT gmail DOT com&gt;</li>
+       <li>Author: Jonathan Mace &lt;jonathan.c.mace AT gmail DOT com&gt;</li>
+       <li>License: BSD</li>
+       <li>Bug / feature tracker: <a href="https://github.com/RobotWebTools/rosbridge_suite/issues">https://github.com/RobotWebTools/rosbridge_suite/issues</a></li>
+       <li>Source: git <a href="https://github.com/RobotWebTools/rosbridge_suite">https://github.com/RobotWebTools/rosbridge_suite.git</a> (branch: master)</li>
+      </ul>
+     </div> 
+     <div class="version lunar">
+      <em><strong><a href="/rosbridge_suite?distro=lunar">rosbridge_suite</a></strong>: <a href="/rosapi?distro=lunar">rosapi</a> | rosbridge_library | <a href="/rosbridge_server?distro=lunar">rosbridge_server</a></em>
+      <br>
+      <div class="package-links">
+       <strong>Package Links</strong>
+       <ul>
+        <li><strong><a href="http://docs.ros.org/lunar/api/rosbridge_library/html">Code API</a></strong></li>
+        <li><strong><a href="http://docs.ros.org/lunar/api/rosbridge_library/html/index-msg.html">Msg/Srv API</a></strong></li>
+        <li><a href="http://answers.ros.org/questions/scope:all/sort:activity-desc/tags:rosbridge_library/page:1/">FAQ</a></li>
+        <li><a href="http://docs.ros.org/lunar/changelogs/rosbridge_library/changelog.html">Changelog</a></li>
+        <li><a href="/rosbridge_suite/ChangeList">Change List</a></li>
+        <li><a class="nonexistent" href="/rosbridge_library/Reviews">Reviews</a></li>
+       </ul>
+       <script type="text/javascript" src="/custom/js/roswiki.js"></script>
+       <strong><a href="#" onclick="toggleExpandable('lunardependencies-list'); return false;">Dependencies</a> (10)</strong>
+       <br>
+       <div id="lunardependencies-list" style="display:none">
+        <ul>
+         <li><a href="/catkin?distro=lunar">catkin</a></li>
+         <li><a href="/geometry_msgs?distro=lunar">geometry_msgs</a></li>
+         <li><a href="/message_generation?distro=lunar">message_generation</a></li>
+         <li><a href="/message_runtime?distro=lunar">message_runtime</a></li>
+         <li><a href="/roscpp?distro=lunar">roscpp</a></li>
+         <li><a href="/rosgraph?distro=lunar">rosgraph</a></li>
+         <li><a href="/rospy?distro=lunar">rospy</a></li>
+         <li><a href="/rosservice?distro=lunar">rosservice</a></li>
+         <li><a href="/rostopic?distro=lunar">rostopic</a></li>
+         <li><a href="/std_msgs?distro=lunar">std_msgs</a></li>
+        </ul>
+       </div>
+       <strong><a href="#" onclick="toggleExpandable('lunarused-by-list'); return false;">Used by</a> (3)</strong>
+       <br>
+       <div id="lunarused-by-list" style="display:none">
+        <ul>
+         <li><a href="/rosapi?distro=lunar">rosapi</a></li>
+         <li><a href="/rosbridge_server?distro=lunar">rosbridge_server</a></li>
+         <li><a href="/rosbridge_suite?distro=lunar">rosbridge_suite</a></li>
+        </ul>
+       </div>
+       <script type="text/javascript" src="/custom/js/roswiki.js"></script>
+       <strong><a href="#" onclick="toggleExpandableJenkins('stack-lunarjenkins-list'); return false;">Jenkins jobs</a> (11)</strong>
+       <br>
+       <div id="stack-lunarjenkins-list" style="display:none">
+        <ul>
+         <li><a href="http://build.ros.org/view/Lsrc_uX/job/Lsrc_uX__rosbridge_library__ubuntu_xenial__source">source ubuntu xenial</a></li>
+         <li><a href="http://build.ros.org/view/Lsrc_uZ/job/Lsrc_uZ__rosbridge_library__ubuntu_zesty__source">source ubuntu zesty</a></li>
+         <li><a href="http://build.ros.org/view/Lsrc_dS/job/Lsrc_dS__rosbridge_library__debian_stretch__source">source debian stretch</a></li>
+         <li><a href="http://build.ros.org/view/Lbin_uX64/job/Lbin_uX64__rosbridge_library__ubuntu_xenial_amd64__binary">binary ubuntu xenial amd64</a></li>
+         <li><a href="http://build.ros.org/view/Lbin_uZ64/job/Lbin_uZ64__rosbridge_library__ubuntu_zesty_amd64__binary">binary ubuntu zesty amd64</a></li>
+         <li><a href="http://build.ros.org/view/Lbin_ds_dS64/job/Lbin_ds_dS64__rosbridge_library__debian_stretch_amd64__binary">binary debian stretch amd64</a></li>
+         <li><a href="http://build.ros.org/view/Lbin_dsv8_dSv8/job/Lbin_dsv8_dSv8__rosbridge_library__debian_stretch_arm64__binary">binary debian stretch arm64</a></li>
+         <li><a href="http://build.ros.org/view/Lbin_uxhf_uXhf/job/Lbin_uxhf_uXhf__rosbridge_library__ubuntu_xenial_armhf__binary">binary ubuntu xenial armhf</a></li>
+         <li><a href="http://build.ros.org/view/Lbin_uxv8_uXv8/job/Lbin_uxv8_uXv8__rosbridge_library__ubuntu_xenial_arm64__binary">binary ubuntu xenial arm64</a></li>
+         <li><a href="http://build.ros.org/view/Ldev/job/Ldev__rosbridge_suite__ubuntu_xenial_amd64">devel ubuntu xenial amd64</a></li>
+         <li><a href="http://build.ros.org/view/Ldoc/job/Ldoc__rosbridge_suite__ubuntu_xenial_amd64">doc</a></li>
+        </ul>
+       </div>
+      </div>
+      <h1>Package Summary</h1>
+      <p><span class="badge" style="background-color: #5cb85c;"><span class="glyphicon glyphicon-ok" style="color: white;"></span> Released</span> <span class="badge" style="background-color: #5cb85c;"><span class="glyphicon glyphicon-ok" style="color: white;"></span> Continuous integration</span> <span class="badge" style="background-color: #5cb85c;"><span class="glyphicon glyphicon-ok" style="color: white;"></span> Documented</span></p>
+      <p id="package-info-12">The core rosbridge package, repsonsible for interpreting JSON andperforming the appropriate ROS action, like subscribe, publish, call service, and interact with params.</p>
+      <p id="package-info-13"></p>
+      <ul>
+       <li>Maintainer status: maintained</li>
+       <li>Maintainer: Russell Toris &lt;rctoris AT wpi DOT edu&gt;, Jihoon Lee &lt;jihoonlee.in AT gmail DOT com&gt;</li>
+       <li>Author: Jonathan Mace &lt;jonathan.c.mace AT gmail DOT com&gt;</li>
+       <li>License: BSD</li>
+       <li>Bug / feature tracker: <a href="https://github.com/RobotWebTools/rosbridge_suite/issues">https://github.com/RobotWebTools/rosbridge_suite/issues</a></li>
+       <li>Source: git <a href="https://github.com/RobotWebTools/rosbridge_suite">https://github.com/RobotWebTools/rosbridge_suite.git</a> (branch: master)</li>
+      </ul>
+     </div>
+     <p class="line874"> <span class="anchor" id="line-2"></span></p>
+     <div class="table-of-contents">
+      <p class="table-of-contents-heading">Contents</p>
+      <ol>
+       <li> <a href="#About">About</a></li>
+      </ol>
+     </div>
+     <p class="line874"> <span class="anchor" id="line-3"></span> </p>
+     <h2 id="About">About</h2> 
+     <span class="anchor" id="line-4"></span>
+     <span class="anchor" id="line-5"></span>
+     <p class="line862">Rosbridge library is a Python library responsible for taking JSON strings and converting them to ROS messages, and vice versa. Rosbridge library is meant to be used as a library for transport layer packages. For example, the rosbridge_server package creates a <a class="nonexistent" href="/WebSocket">WebSocket</a> connection and uses the rosbridge library to handle the JSON to ROS conversion. <span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span></p>
+     <p class="line874">Any Python package or program can use rosbridge library for direct JSON to ROS communication. For example, a TCP server, a serial bridge, etc. <span class="anchor" id="line-8"></span><span class="anchor" id="line-9"></span></p>
+     <p class="line867"><span class="anchor" id="line-10"></span></p>
+     <p class="line867"><span class="anchor" id="line-11"></span><span class="anchor" id="bottom"></span></p>
+    </div>
+   </div> 
+   <div id="pagebottom"></div> 
+  </div> 
+  <p id="pageinfo" class="info" lang="en" dir="ltr">Wiki: rosbridge_library (last edited 2013-05-04 21:03:05 by <span title="baalexander @ c-50-131-214-219.hsd1.ca.comcast.net[50.131.214.219]"><a href="/baalexander" title="baalexander @ c-50-131-214-219.hsd1.ca.comcast.net[50.131.214.219]">baalexander</a></span>)</p> 
+  <div style="margin-top: 9px;" class="footer">
+    Except where otherwise noted, the ROS wiki is licensed under the 
+   <br>
+   <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0</a> | 
+   <a href="https://plus.google.com/113789706402978299308" rel="publisher">Find us on Google+</a> 
+   <hr style="margin-top: 10px;"> 
+   <div class="row"> 
+    <div class="col-md-4 col-md-offset-4"> 
+     <a href="http://www.osrfoundation.org"><img style="margin-top: -1px;" src="/custom/images/brought_by_horiz.png"><p></p></a> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+ <!-- /#dpage-inner, /#dpage -->   
+</body>

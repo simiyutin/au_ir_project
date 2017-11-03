@@ -1,0 +1,1772 @@
+<body>
+ <div>
+  <script>window.TM_APP_INITIAL_STATE = {"settings":{"geektimes":true,"habrahabr":true,"height":500,"heightStyle":"500px"},"toplink":{"links":[{"color":"#3c86ee","title":"Чемпионат по AI","url":"https://bit.ly/2fkIOqX"},{"color":"#32CD32","title":"Умный стол","url":"https://u.tmtm.ru/gAay2"},{"color":"#13A9BA","title":"Валютный контроль   ","url":"https://u.tmtm.ru/EU0Qs"}],"loaded":true}}</script>
+  <div id="app">
+   <div class="tm-layout">
+    <div class="tm-toppanel">
+     <div class="tm-toppanel__inner">
+      <div class="tm-toppanel__links">
+       <a href="http://tmfeed.ru/?utm_source=tm_tmfeed&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo" class="tm-toppanel__link tm-toppanel__link_current"> TM Feed </a>
+       <a href="http://habrahabr.ru?utm_source=tm_tmfeed&amp;amp;utm_medium=tm_top_panel&amp;amp;utm_campaign=tm_promo" class="tm-toppanel__link"> Хабрахабр </a>
+       <a href="http://geektimes.ru?utm_source=tm_tmfeed&amp;amp;utm_medium=tm_top_panel&amp;amp;utm_campaign=tm_promo" class="tm-toppanel__link"> Geektimes </a>
+       <a href="http://toster.ru?utm_source=tm_tmfeed&amp;amp;utm_medium=tm_top_panel&amp;amp;utm_campaign=tm_promo" class="tm-toppanel__link"> Тостер </a>
+       <a href="http://moikrug.ru?utm_source=tm_tmfeed&amp;amp;utm_medium=tm_top_panel&amp;amp;utm_campaign=tm_promo" class="tm-toppanel__link"> Мой круг </a>
+       <a href="http://freelansim.ru?utm_source=tm_tmfeed&amp;amp;utm_medium=tm_top_panel&amp;amp;utm_campaign=tm_promo" class="tm-toppanel__link"> Фрилансим </a>
+      </div> 
+      <div class="tm-megaposts-links">
+       <div class="tm-megaposts-links__title">
+        Мегапосты:
+       </div> 
+       <div class="tm-megaposts-links__links">
+        <a href="https://bit.ly/2fkIOqX" class="tm-megaposts-links__link" style="color:#3c86ee;">Чемпионат по AI</a>
+        <a href="https://u.tmtm.ru/gAay2" class="tm-megaposts-links__link" style="color:#32CD32;">Умный стол</a>
+        <a href="https://u.tmtm.ru/EU0Qs" class="tm-megaposts-links__link" style="color:#13A9BA;">Валютный контроль </a>
+       </div>
+      </div> 
+      <span class="tm-top-banner">
+       <div id="adriver_banner_465568687"></div></span>
+     </div>
+    </div> 
+    <div class="tm-layout-container">
+     <div class="tm-header">
+      <div class="tm-header__inner">
+       <div class="tm-header__logo-wrapper">
+        <a href="/" class="tm-header__logo"></a>
+       </div> 
+       <div class="tm-header__filter">
+        <!----> 
+        <div class="tm-filter">
+         <a href="/popular/month/?ignore=habrahabr">
+          <div class="tm-checkbox tm-checkbox_checked">
+           <span class="tm-checkbox__box"></span> 
+           <span class="tm-checkbox__label"> Хабрахабр </span>
+          </div></a> 
+         <a href="/popular/month/?ignore=geektimes">
+          <div class="tm-checkbox tm-checkbox_checked">
+           <span class="tm-checkbox__box"></span> 
+           <span class="tm-checkbox__label"> Geektimes </span>
+          </div></a>
+        </div>
+       </div> 
+       <div class="tm-header__nav">
+        <div class="tm-header__nav-inner">
+         <div class="tm-header__tabs">
+          <div class="tm-nav">
+           <div class="tm-tabs">
+            <a href="/popular/day"><span class="tm-tab tm-tab_active"> Лучшие </span></a>
+            <a href="/all"><span class="tm-tab"> Все подряд </span></a>
+           </div>
+          </div>
+         </div> 
+         <div class="tm-header__burger">
+          <div class="tm-burger">
+           <a href="/settings">
+            <div class="tm-burger__icon"></div></a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div> 
+     <div class="tm-layout-main">
+      <div class="tm-subnav">
+       <div class="tm-buttongroup">
+        <a href="/popular/day" class="tm-subnav__link">
+         <div class="tm-button tm-button_first">
+          <!----> 
+          <span class="tm-button__text"> Сутки </span>
+         </div></a>
+        <a href="/popular/week" class="tm-subnav__link">
+         <div class="tm-button">
+          <!----> 
+          <span class="tm-button__text"> Неделя </span>
+         </div></a>
+        <a href="/popular/month" class="tm-subnav__link router-link-exact-active router-link-active">
+         <div class="tm-button tm-button_last tm-button_active">
+          <!----> 
+          <span class="tm-button__text"> Месяц </span>
+         </div></a>
+       </div>
+      </div> 
+      <!----> 
+      <ul class="tm-posts">
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">18 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340370/" target="_blank" class="tm-post__title-link">Вы уволили самого талантливого сотрудника. Надеюсь, теперь вы довольны</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/startuprise/" target="_blank" class="tm-post__hub-link">Развитие стартапа, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/hr_management/" target="_blank" class="tm-post__hub-link">Управление персоналом, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/productpm/" target="_blank" class="tm-post__hub-link">Управление продуктом, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/pm/" target="_blank" class="tm-post__hub-link">Управление проектами, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/dev_management/" target="_blank" class="tm-post__hub-link">Управление разработкой</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +283
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           63.8k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           242
+          </div> 
+          <a href="https://habrahabr.ru/post/340370/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">329</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">16 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294371/" target="_blank" class="tm-post__title-link">Эх, кувалдушка, ухнем: как в «Салюте-7» сделали ненаучную фантастику вместо исторического кино</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/space/" target="_blank" class="tm-post__hub-link">Космонавтика, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/popular_science/" target="_blank" class="tm-post__hub-link">Научно-популярное</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +159
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           41.4k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           88
+          </div> 
+          <a href="https://geektimes.ru/post/294371/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">288</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">15 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340106/" target="_blank" class="tm-post__title-link">Как мы изгоняли наркоторговцев из рунета</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/pm/" target="_blank" class="tm-post__hub-link">Управление проектами</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +151
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           38.8k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           86
+          </div> 
+          <a href="https://habrahabr.ru/post/340106/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">335</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">17 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294459/" target="_blank" class="tm-post__title-link">Как РЕН ТВ про Землю плоскую вещал, или премия ТЭФИ Игорю Прокопенко</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/astronomy/" target="_blank" class="tm-post__hub-link">Астрономия, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/space/" target="_blank" class="tm-post__hub-link">Космонавтика, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/sci-fi/" target="_blank" class="tm-post__hub-link">Научная фантастика, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/popular_science/" target="_blank" class="tm-post__hub-link">Научно-популярное</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +138
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           35.7k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           85
+          </div> 
+          <a href="https://geektimes.ru/post/294459/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">236</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">16 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340176/" target="_blank" class="tm-post__title-link">Весь веб на 60+&nbsp;FPS: как новый рендерер в Firefox избавился от рывков и подтормаживаний</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/api/" target="_blank" class="tm-post__hub-link">API, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/css/" target="_blank" class="tm-post__hub-link">CSS, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/firefox/" target="_blank" class="tm-post__hub-link">Firefox, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/open_source/" target="_blank" class="tm-post__hub-link">Open source, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/browsers/" target="_blank" class="tm-post__hub-link">Браузеры</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +119
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           27.3k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           168
+          </div> 
+          <a href="https://habrahabr.ru/post/340176/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">76</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">18 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294511/" target="_blank" class="tm-post__title-link">Как не надо работать с часовыми поясами или Аэрофлот-фэйл</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/programming/" target="_blank" class="tm-post__hub-link">Программирование</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +114
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           21.8k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           25
+          </div> 
+          <a href="https://geektimes.ru/post/294511/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">53</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">18 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340376/" target="_blank" class="tm-post__title-link">Киллерфича в vim — это режимы? Серьёзно?</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/vim/" target="_blank" class="tm-post__hub-link">VIM, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/programming/" target="_blank" class="tm-post__hub-link">Программирование</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +112
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           15.8k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           36
+          </div> 
+          <a href="https://habrahabr.ru/post/340376/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">178</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">18 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/339936/" target="_blank" class="tm-post__title-link">Ищем сокровища в исходном коде Aladdin</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/gamedev/" target="_blank" class="tm-post__hub-link">Разработка игр, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/reverse-engineering/" target="_blank" class="tm-post__hub-link">Реверс-инжиниринг</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +105
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           17.5k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           85
+          </div> 
+          <a href="https://habrahabr.ru/post/339936/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">8</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">вчера в 08:44</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340358/" target="_blank" class="tm-post__title-link">Деловая переписка на английском языке: фразы и советы</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/netologyru/" target="_blank" class="tm-post__hub-link">Блог компании Нетология, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/career/" target="_blank" class="tm-post__hub-link">Карьера в IT-индустрии</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +94
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           17.5k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           573
+          </div> 
+          <a href="https://habrahabr.ru/post/340358/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">51</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">17 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294461/" target="_blank" class="tm-post__title-link">LIGO: линейка точностью в 1/10000 диаметра протона</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/astronomy/" target="_blank" class="tm-post__hub-link">Астрономия, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/popular_science/" target="_blank" class="tm-post__hub-link">Научно-популярное, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/physics/" target="_blank" class="tm-post__hub-link">Физика</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +91
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           18k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           55
+          </div> 
+          <a href="https://geektimes.ru/post/294461/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">151</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">16 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340154/" target="_blank" class="tm-post__title-link">Смена пола и расы на селфи с помощью нейросетей</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/ods/" target="_blank" class="tm-post__hub-link">Блог компании Open Data Science, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/algorithms/" target="_blank" class="tm-post__hub-link">Алгоритмы, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/maths/" target="_blank" class="tm-post__hub-link">Математика, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/machine_learning/" target="_blank" class="tm-post__hub-link">Машинное обучение, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/image_processing/" target="_blank" class="tm-post__hub-link">Обработка изображений</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +90
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           16.8k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           109
+          </div> 
+          <a href="https://habrahabr.ru/post/340154/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">59</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">16 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340182/" target="_blank" class="tm-post__title-link">Обнаружены критичные уязвимости в протоколе WPA2 — Key Reinstallation Attacks (KRACK)</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/pentestit/" target="_blank" class="tm-post__hub-link">Блог компании Pentestit, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/infosecurity/" target="_blank" class="tm-post__hub-link">Информационная безопасность</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +84
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           42.4k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           167
+          </div> 
+          <a href="https://habrahabr.ru/post/340182/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">146</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">сегодня в 12:03</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340540/" target="_blank" class="tm-post__title-link">Russian AI Cup 2017 — всем поклонникам StarCraft и C&amp;C посвящается</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/mailru/" target="_blank" class="tm-post__hub-link">Блог компании Mail.Ru Group, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/zadachki/" target="_blank" class="tm-post__hub-link">Занимательные задачки, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/programming/" target="_blank" class="tm-post__hub-link">Программирование, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/gamedev/" target="_blank" class="tm-post__hub-link">Разработка игр, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/sport_programming/" target="_blank" class="tm-post__hub-link">Спортивное программирование</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +70
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           6.43k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           35
+          </div> 
+          <a href="https://habrahabr.ru/post/340540/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">29</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">16 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340258/" target="_blank" class="tm-post__title-link">Взлом визуальной системы: 11 оптических иллюзий в графическом дизайне</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/usability/" target="_blank" class="tm-post__hub-link">Usability, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/web_design/" target="_blank" class="tm-post__hub-link">Веб-дизайн, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/graph_design/" target="_blank" class="tm-post__hub-link">Графический дизайн, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/ui/" target="_blank" class="tm-post__hub-link">Интерфейсы, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/typography/" target="_blank" class="tm-post__hub-link">Типографика</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +70
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           23.9k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           251
+          </div> 
+          <a href="https://habrahabr.ru/post/340258/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">26</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">17 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340242/" target="_blank" class="tm-post__title-link">Поиск и исправление багов в исходниках PHP</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/mailru/" target="_blank" class="tm-post__hub-link">Блог компании Mail.Ru Group, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/open_source/" target="_blank" class="tm-post__hub-link">Open source, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/php/" target="_blank" class="tm-post__hub-link">PHP, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/analysis_design/" target="_blank" class="tm-post__hub-link">Анализ и проектирование систем, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/it_testing/" target="_blank" class="tm-post__hub-link">Тестирование IT-систем</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +66
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           11k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           44
+          </div> 
+          <a href="https://habrahabr.ru/post/340242/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">9</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">вчера в 07:51</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340234/" target="_blank" class="tm-post__title-link">Пишем движок трёхмерного ретро-шутера с нуля</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/image_processing/" target="_blank" class="tm-post__hub-link">Обработка изображений, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/gamedev/" target="_blank" class="tm-post__hub-link">Разработка игр</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +65
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           13k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           140
+          </div> 
+          <a href="https://habrahabr.ru/post/340234/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">14</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">вчера в 05:55</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340320/" target="_blank" class="tm-post__title-link">Бесплатная YouTube-трансляция DevOps-конференции DevOops 2017</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/jugru/" target="_blank" class="tm-post__hub-link">Блог компании JUG.ru Group, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/devops/" target="_blank" class="tm-post__hub-link">DevOps, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/cloud_computing/" target="_blank" class="tm-post__hub-link">Облачные вычисления, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/s_admin/" target="_blank" class="tm-post__hub-link">Серверное администрирование, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/sys_admin/" target="_blank" class="tm-post__hub-link">Системное администрирование</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +64
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           8.77k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           44
+          </div> 
+          <a href="https://habrahabr.ru/post/340320/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">4</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">сегодня в 08:04</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340352/" target="_blank" class="tm-post__title-link">Структура и случайность простых чисел</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/data_visualization/" target="_blank" class="tm-post__hub-link">Визуализация данных, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/maths/" target="_blank" class="tm-post__hub-link">Математика</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +63
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           7.79k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           90
+          </div> 
+          <a href="https://habrahabr.ru/post/340352/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">19</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">16 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294425/" target="_blank" class="tm-post__title-link">Впервые зарегистрированы гравитационные волны от слияния нейтронных звезд — и свет от них</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/astronomy/" target="_blank" class="tm-post__hub-link">Астрономия, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/lasers/" target="_blank" class="tm-post__hub-link">Лазеры, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/popular_science/" target="_blank" class="tm-post__hub-link">Научно-популярное, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/physics/" target="_blank" class="tm-post__hub-link">Физика</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +59
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           18.1k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           37
+          </div> 
+          <a href="https://geektimes.ru/post/294425/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">123</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">14 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/339038/" target="_blank" class="tm-post__title-link">Как отлаживать маленькие программы</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/debug/" target="_blank" class="tm-post__hub-link">Отладка, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/programming/" target="_blank" class="tm-post__hub-link">Программирование</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +58
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           17.7k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           128
+          </div> 
+          <a href="https://habrahabr.ru/post/339038/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">86</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">17 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294455/" target="_blank" class="tm-post__title-link">Почему нельзя кричать на свой HDD</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/hardware/" target="_blank" class="tm-post__hub-link">Железо, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/sound/" target="_blank" class="tm-post__hub-link">Звук, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/infosecurity/" target="_blank" class="tm-post__hub-link">Информационная безопасность</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +58
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           29.3k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           63
+          </div> 
+          <a href="https://geektimes.ru/post/294455/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">34</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">14 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294363/" target="_blank" class="tm-post__title-link">Выбираем и собираем 60% клавиатуру</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/DIY/" target="_blank" class="tm-post__hub-link">DIY или Сделай сам, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/hardware/" target="_blank" class="tm-post__hub-link">Железо, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/Peripheral/" target="_blank" class="tm-post__hub-link">Периферия</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +55
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           32.1k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           114
+          </div> 
+          <a href="https://geektimes.ru/post/294363/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">119</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">16 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340178/" target="_blank" class="tm-post__title-link">Моноиды, полугруппы и все-все-все</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/jugru/" target="_blank" class="tm-post__hub-link">Блог компании JUG.ru Group, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/net/" target="_blank" class="tm-post__hub-link">.NET, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/csharp/" target="_blank" class="tm-post__hub-link">C#, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/haskell/" target="_blank" class="tm-post__hub-link">Haskell, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/funcprog/" target="_blank" class="tm-post__hub-link">Функциональное программирование</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +54
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           10.6k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           152
+          </div> 
+          <a href="https://habrahabr.ru/post/340178/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">14</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">вчера в 09:38</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340444/" target="_blank" class="tm-post__title-link">Мы на Highload++ в этом ноябре: задай вопрос инженерам Badoo</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/badoo/" target="_blank" class="tm-post__hub-link">Блог компании Badoo, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/programming/" target="_blank" class="tm-post__hub-link">Программирование</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +53
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           4.75k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           9
+          </div> 
+          <a href="https://habrahabr.ru/post/340444/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">72</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">18 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340448/" target="_blank" class="tm-post__title-link">Ардуино головного мозга: импульсный датчик положения</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/cpp/" target="_blank" class="tm-post__hub-link">C++, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/algorithms/" target="_blank" class="tm-post__hub-link">Алгоритмы, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/programming/" target="_blank" class="tm-post__hub-link">Программирование, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/controllers/" target="_blank" class="tm-post__hub-link">Программирование микроконтроллеров, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/robo_dev/" target="_blank" class="tm-post__hub-link">Разработка робототехники</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +52
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           9.60k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           88
+          </div> 
+          <a href="https://habrahabr.ru/post/340448/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">64</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">16 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340184/" target="_blank" class="tm-post__title-link">Введение в архитектуры нейронных сетей</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/oleg-bunin/" target="_blank" class="tm-post__hub-link">Блог компании Конференции Олега Бунина (Онтико), </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/bigdata/" target="_blank" class="tm-post__hub-link">Big Data, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/data_mining/" target="_blank" class="tm-post__hub-link">Data Mining, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/hi/" target="_blank" class="tm-post__hub-link">Высокая производительность, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/machine_learning/" target="_blank" class="tm-post__hub-link">Машинное обучение</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +48
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           17.6k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           440
+          </div> 
+          <a href="https://habrahabr.ru/post/340184/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">1</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">14 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340062/" target="_blank" class="tm-post__title-link">За счет чего Tarantool такой оптимальный</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/oleg-bunin/" target="_blank" class="tm-post__hub-link">Блог компании Конференции Олега Бунина (Онтико), </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/nosql/" target="_blank" class="tm-post__hub-link">NoSQL, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/hi/" target="_blank" class="tm-post__hub-link">Высокая производительность, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/system_programming/" target="_blank" class="tm-post__hub-link">Системное программирование</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +47
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           11.9k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           94
+          </div> 
+          <a href="https://habrahabr.ru/post/340062/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">23</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">14 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340040/" target="_blank" class="tm-post__title-link">«Информационные науки могут преподавать только молодые люди» — Интервью с А.А. Шалыто, профессором Университета ИТМО</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/jugru/" target="_blank" class="tm-post__hub-link">Блог компании JUG.ru Group</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +47
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           11.7k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           41
+          </div> 
+          <a href="https://habrahabr.ru/post/340040/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">40</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">13 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340066/" target="_blank" class="tm-post__title-link">Как взломать более 17 000 сайтов за одну ночь</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/infosecurity/" target="_blank" class="tm-post__hub-link">Информационная безопасность</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +47
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           27.4k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           77
+          </div> 
+          <a href="https://habrahabr.ru/post/340066/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">18</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">17 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340318/" target="_blank" class="tm-post__title-link">Behind the scene of TOP-1 supercomputer</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/c/" target="_blank" class="tm-post__hub-link">C, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/fortran/" target="_blank" class="tm-post__hub-link">Fortran, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/parallel_programming/" target="_blank" class="tm-post__hub-link">Параллельное программирование</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +47
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           8.63k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           20
+          </div> 
+          <a href="https://habrahabr.ru/post/340318/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">13</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">вчера в 08:14</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294543/" target="_blank" class="tm-post__title-link">Arduino! Что дальше? Делаем велокомпьютер</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/arduino/" target="_blank" class="tm-post__hub-link">Arduino, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/DIY/" target="_blank" class="tm-post__hub-link">DIY или Сделай сам, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/gadgets/" target="_blank" class="tm-post__hub-link">Гаджеты, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/easyelectronics/" target="_blank" class="tm-post__hub-link">Электроника для начинающих</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +45
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           17k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           73
+          </div> 
+          <a href="https://geektimes.ru/post/294543/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">70</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">вчера в 09:53</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340496/" target="_blank" class="tm-post__title-link">Burn-out или выгорание</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/career/" target="_blank" class="tm-post__hub-link">Карьера в IT-индустрии, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/hr_management/" target="_blank" class="tm-post__hub-link">Управление персоналом, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/community_management/" target="_blank" class="tm-post__hub-link">Управление сообществом</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +40
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           21k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           92
+          </div> 
+          <a href="https://habrahabr.ru/post/340496/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">102</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">16 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340202/" target="_blank" class="tm-post__title-link">Любите статический анализ кода</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/pvs-studio/" target="_blank" class="tm-post__hub-link">Блог компании PVS-Studio, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/c/" target="_blank" class="tm-post__hub-link">C, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/cpp/" target="_blank" class="tm-post__hub-link">C++, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/programming/" target="_blank" class="tm-post__hub-link">Программирование</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +40
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           8.71k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           25
+          </div> 
+          <a href="https://habrahabr.ru/post/340202/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">64</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">16 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294397/" target="_blank" class="tm-post__title-link">Полевое радиолюбительство или теория полевых выездов</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/DIY/" target="_blank" class="tm-post__hub-link">DIY или Сделай сам, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/hardware/" target="_blank" class="tm-post__hub-link">Железо</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +40
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           12.1k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           24
+          </div> 
+          <a href="https://geektimes.ru/post/294397/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">61</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">16 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294413/" target="_blank" class="tm-post__title-link">На бортовом компьютере «ГАЗели Next» нашли пасхалку&nbsp;— тетрис</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/demoscene/" target="_blank" class="tm-post__hub-link">Демосцена, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/games/" target="_blank" class="tm-post__hub-link">Игры, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/transport/" target="_blank" class="tm-post__hub-link">Транспорт будущего</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +38
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           27.2k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           21
+          </div> 
+          <a href="https://geektimes.ru/post/294413/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">123</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">17 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294437/" target="_blank" class="tm-post__title-link">Серверная машина из середины 90х</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/antikvariat/" target="_blank" class="tm-post__hub-link">Старое железо</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +38
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           20.7k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           15
+          </div> 
+          <a href="https://geektimes.ru/post/294437/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">55</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">15 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294373/" target="_blank" class="tm-post__title-link">Путин распорядился выпустить российскую криптовалюту — крипторубль</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/cryptocurrency/" target="_blank" class="tm-post__hub-link">Криптовалюты, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/it_regulation/" target="_blank" class="tm-post__hub-link">Регулирование IT-сектора, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/finance/" target="_blank" class="tm-post__hub-link">Финансы</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +37
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           39.8k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           41
+          </div> 
+          <a href="https://geektimes.ru/post/294373/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">543</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">16 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294439/" target="_blank" class="tm-post__title-link">Эмулятор дисковода для Atari на Arduino</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/arduino/" target="_blank" class="tm-post__hub-link">Arduino, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/DIY/" target="_blank" class="tm-post__hub-link">DIY или Сделай сам, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/antikvariat/" target="_blank" class="tm-post__hub-link">Старое железо</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +37
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           8.97k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           30
+          </div> 
+          <a href="https://geektimes.ru/post/294439/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">19</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">18 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294503/" target="_blank" class="tm-post__title-link">Горизонтально-шлифовальный станок</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/DIY/" target="_blank" class="tm-post__hub-link">DIY или Сделай сам, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/easyelectronics/" target="_blank" class="tm-post__hub-link">Электроника для начинающих</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +36
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           9.18k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           40
+          </div> 
+          <a href="https://geektimes.ru/post/294503/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">47</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">16 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294403/" target="_blank" class="tm-post__title-link">42 дня до блокировки Телеграмма</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/it_regulation/" target="_blank" class="tm-post__hub-link">Регулирование IT-сектора</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +35
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           30.5k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           19
+          </div> 
+          <a href="https://geektimes.ru/post/294403/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">139</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">18 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294513/" target="_blank" class="tm-post__title-link">Intel предложила математические правила безопасности для беспилотных автомобилей вместо обучения нейросети</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/artificial_intelligence/" target="_blank" class="tm-post__hub-link">Искусственный интеллект, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/robot/" target="_blank" class="tm-post__hub-link">Робототехника, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/transport/" target="_blank" class="tm-post__hub-link">Транспорт будущего</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +35
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           14.2k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           43
+          </div> 
+          <a href="https://geektimes.ru/post/294513/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">83</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">18 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340458/" target="_blank" class="tm-post__title-link">Как проверить, находится ли значение указателя в заданной области памяти</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/pvs-studio/" target="_blank" class="tm-post__hub-link">Блог компании PVS-Studio, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/c/" target="_blank" class="tm-post__hub-link">C, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/cpp/" target="_blank" class="tm-post__hub-link">C++, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/system_programming/" target="_blank" class="tm-post__hub-link">Системное программирование</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +34
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           7.09k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           54
+          </div> 
+          <a href="https://habrahabr.ru/post/340458/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">15</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">18 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340412/" target="_blank" class="tm-post__title-link">Понедельник начинается в субботу: 28 лет ЛАНИТ</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/lanit/" target="_blank" class="tm-post__hub-link">Блог компании ГК ЛАНИТ, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/career/" target="_blank" class="tm-post__hub-link">Карьера в IT-индустрии</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +34
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           8.51k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           28
+          </div> 
+          <a href="https://habrahabr.ru/post/340412/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">34</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">вчера в 12:05</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340418/" target="_blank" class="tm-post__title-link">Как мы заставили npm-пакеты работать в браузере</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/mailru/" target="_blank" class="tm-post__hub-link">Блог компании Mail.Ru Group, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/javascript/" target="_blank" class="tm-post__hub-link">JavaScript, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/open_source/" target="_blank" class="tm-post__hub-link">Open source, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/webdev/" target="_blank" class="tm-post__hub-link">Разработка веб-сайтов, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/build_automation/" target="_blank" class="tm-post__hub-link">Системы сборки</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +33
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           6.98k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           38
+          </div> 
+          <a href="https://habrahabr.ru/post/340418/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">5</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">16 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340170/" target="_blank" class="tm-post__title-link">Выпуск Rust 1.21</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/open_source/" target="_blank" class="tm-post__hub-link">Open source, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/rust/" target="_blank" class="tm-post__hub-link">Rust, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/compilers/" target="_blank" class="tm-post__hub-link">Компиляторы, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/programming/" target="_blank" class="tm-post__hub-link">Программирование, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/system_programming/" target="_blank" class="tm-post__hub-link">Системное программирование</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +33
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           4.32k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           14
+          </div> 
+          <a href="https://habrahabr.ru/post/340170/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">26</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">17 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/339270/" target="_blank" class="tm-post__title-link">Wi-Fi is over: вычисляем нарушителей беспроводного эфира</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/pentestit/" target="_blank" class="tm-post__hub-link">Блог компании Pentestit, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/infosecurity/" target="_blank" class="tm-post__hub-link">Информационная безопасность</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +32
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           20.5k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           243
+          </div> 
+          <a href="https://habrahabr.ru/post/339270/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">12</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">сегодня в 04:45</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294555/" target="_blank" class="tm-post__title-link">122 дня под УФ-лучами: сравнительное тестирование 3D-печатных изделий из пластиков ABS и ASA</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/3d-printers/" target="_blank" class="tm-post__hub-link">3D-принтеры, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/DIY/" target="_blank" class="tm-post__hub-link">DIY или Сделай сам, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/futurenow/" target="_blank" class="tm-post__hub-link">Будущее здесь</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +32
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           8.01k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           14
+          </div> 
+          <a href="https://geektimes.ru/post/294555/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">21</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">17 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294479/" target="_blank" class="tm-post__title-link">Досмотреть каждого, кто входит в метро</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/futurenow/" target="_blank" class="tm-post__hub-link">Будущее здесь, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/gadgets/" target="_blank" class="tm-post__hub-link">Гаджеты, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/hardware/" target="_blank" class="tm-post__hub-link">Железо, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/popular_science/" target="_blank" class="tm-post__hub-link">Научно-популярное, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/electronics/" target="_blank" class="tm-post__hub-link">Производство и разработка электроники</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +31
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           16.6k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           46
+          </div> 
+          <a href="https://geektimes.ru/post/294479/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">276</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">15 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294367/" target="_blank" class="tm-post__title-link">Почему у нас будут доказательства существования пришельцев – если они существуют – к 2035 году</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/company/madrobots/" target="_blank" class="tm-post__hub-link">Блог компании Madrobots, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/astronomy/" target="_blank" class="tm-post__hub-link">Астрономия, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/popular_science/" target="_blank" class="tm-post__hub-link">Научно-популярное</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +31
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           29.9k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           30
+          </div> 
+          <a href="https://geektimes.ru/post/294367/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">175</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">16 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294431/" target="_blank" class="tm-post__title-link">Критическая уязвимость в WPA2 — Key Reinstallation Attack</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/infosecurity/" target="_blank" class="tm-post__hub-link">Информационная безопасность</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +31
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           26.1k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           56
+          </div> 
+          <a href="https://geektimes.ru/post/294431/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">43</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">18 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294509/" target="_blank" class="tm-post__title-link">Анатомия моралистической паники</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/artificial_intelligence/" target="_blank" class="tm-post__hub-link">Искусственный интеллект, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/ecommerce/" target="_blank" class="tm-post__hub-link">Электронная коммерция</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +29
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           10.8k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           17
+          </div> 
+          <a href="https://geektimes.ru/post/294509/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">20</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">16 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294421/" target="_blank" class="tm-post__title-link">Илон Маск рассказал о полете на Марс и межпланетной транспортной системе</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/futurenow/" target="_blank" class="tm-post__hub-link">Будущее здесь, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/space/" target="_blank" class="tm-post__hub-link">Космонавтика, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/popular_science/" target="_blank" class="tm-post__hub-link">Научно-популярное</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +29
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           12.7k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           18
+          </div> 
+          <a href="https://geektimes.ru/post/294421/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">78</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">сегодня в 11:09</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294585/" target="_blank" class="tm-post__title-link">Телескоп «Джеймс Уэбб» прошёл критическое испытание&nbsp;— он сделал селфи</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/astronomy/" target="_blank" class="tm-post__hub-link">Астрономия, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/popular_science/" target="_blank" class="tm-post__hub-link">Научно-популярное, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/photo/" target="_blank" class="tm-post__hub-link">Фототехника</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +28
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           5.96k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           3
+          </div> 
+          <a href="https://geektimes.ru/post/294585/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">18</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">18 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294531/" target="_blank" class="tm-post__title-link">Глава Минкомсвязи предлагает отслеживать потребителей незаконного контента вместо блокировок сайтов</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/it_regulation/" target="_blank" class="tm-post__hub-link">Регулирование IT-сектора</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +28
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           27.8k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           27
+          </div> 
+          <a href="https://geektimes.ru/post/294531/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">272</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">16 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294399/" target="_blank" class="tm-post__title-link">Астигматизм – зрение как в королевстве «кривых зеркал»</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/company/klinika_shilovoy/" target="_blank" class="tm-post__hub-link">Блог компании Клиника офтальмологии доктора Шиловой, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/health/" target="_blank" class="tm-post__hub-link">Здоровье гика</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +28
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           13.6k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           72
+          </div> 
+          <a href="https://geektimes.ru/post/294399/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">45</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">17 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294485/" target="_blank" class="tm-post__title-link">В Google Maps появились карты планет и спутников Солнечной системы</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/astronomy/" target="_blank" class="tm-post__hub-link">Астрономия, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/popular_science/" target="_blank" class="tm-post__hub-link">Научно-популярное, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/cloud_services/" target="_blank" class="tm-post__hub-link">Облачные сервисы</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +27
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           9.60k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           19
+          </div> 
+          <a href="https://geektimes.ru/post/294485/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">20</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">16 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294261/" target="_blank" class="tm-post__title-link">«Жизнь со звездой» — часть 3: аппараты следящие за Солнцем</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/astronomy/" target="_blank" class="tm-post__hub-link">Астрономия, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/space/" target="_blank" class="tm-post__hub-link">Космонавтика, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/popular_science/" target="_blank" class="tm-post__hub-link">Научно-популярное</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +27
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           6.78k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           17
+          </div> 
+          <a href="https://geektimes.ru/post/294261/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">7</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">18 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294405/" target="_blank" class="tm-post__title-link">Выбираем оптимальный процессор для ноутбуков диапазона 30-50 тыс рублей</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/company/mvideo/" target="_blank" class="tm-post__hub-link">Блог компании М.Видео, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/notebooks/" target="_blank" class="tm-post__hub-link">Ноутбуки, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/cpu/" target="_blank" class="tm-post__hub-link">Процессоры</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +26
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           16.1k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           62
+          </div> 
+          <a href="https://geektimes.ru/post/294405/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">47</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">18 октября</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294493/" target="_blank" class="tm-post__title-link">«Роскосмосу» доверили строительство шлюзового модуля на Международной лунной орбитальной станции</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/futurenow/" target="_blank" class="tm-post__hub-link">Будущее здесь, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/space/" target="_blank" class="tm-post__hub-link">Космонавтика</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +26
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           9.31k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           11
+          </div> 
+          <a href="https://geektimes.ru/post/294493/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">89</a>
+         </div> 
+         <!---->
+        </div></li>
+      </ul> 
+      <!----> 
+      <!---->
+     </div> 
+     <!---->
+    </div> 
+    <div class="tm-footer tm-footer_dark tm-footer_narrow">
+     <div class="tm-footer__inner">
+      <div class="tm-footer-copyright">
+       <a href="https://tmtm.ru" target="_blank" class="tm-tmlogo"></a> 
+       <span class="tm-copyright"><span class="tm-copyright__years"> 2006 — 2017 </span> <span class="tm-copyright__name"> «<a href="https://tmtm.ru" target="_blank" class="tm-copyright__link">TM</a>» </span></span>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <script>(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter28095615 = new Ya.Metrika({id:28095615, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script>
+ <noscript>
+  <img src="//mc.yandex.ru/watch/28095615" style="position:absolute; left:-9999px;" alt="">
+ </noscript> 
+ <!-- Vue rendering --> 
+ <!-- 265.437433 since request --> 
+ <!-- 265.437433 since last milestone --> 
+ <!-- Express rendering --> 
+ <!-- 265.801888 since request --> 
+ <!-- 0.36445500000002085 since last milestone --> 
+</body>

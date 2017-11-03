@@ -1,0 +1,80 @@
+<body> 
+ <div class="tgme_page_wrap"> 
+  <div class="tgme_head_wrap"> 
+   <div class="tgme_head"> 
+    <a href="//telegram.org/" class="tgme_head_brand"> <i class="tgme_logo"></i> </a> 
+   </div> 
+  </div> 
+  <a class="tgme_head_dl_button" href="//telegram.org/dl?tme=4714ecd28cbb74d060_16013149667234533887"> Don't have <strong>Telegram</strong> yet? Try it now!<i class="tgme_icon_arrow"></i> </a> 
+  <div class="tgme_page"> 
+   <div class="tgme_page_photo"> 
+    <a href="tg://resolve?domain=smartdataconf"><img class="tgme_page_photo_image" src="https://cdn4.telesco.pe/file/aOvi5dYss9GGV8yhKCCqJKCpUH1a7JmySLq9v2pbsEH2P5CdXlswMGOcaF9wv6yrHICD8Vv7ld3wV7dC5kXUvTLez5iHTi20jmNat0gUindu87N1VfyRa4kiFEoDsuIiyCw6vaplSeotzJNOLv4uYJqxbozVpvLOMh1tFz_nr0BcKYodk6LfzAeBpONAY_Py0NDZ0eL3PNPdSBTP_whd9qqcVFMfMTGg2HUbw7Ttt4TbvVPI_uDjdXVzzPljVOybyAypNpVrOSN2wZqk0tsTD6O0wNGVofzTUHv0u_obeMJHkSIibaU5facdahJjFGXlARNJEro03uCPYr6_ZU9o8Q"></a> 
+   </div> 
+   <div class="tgme_page_title">
+     SmartData - Конференция по большим и умным данным от @jugrugroup. 21 октября 2017. Санкт-Петербург 
+   </div> 
+   <div class="tgme_page_extra">
+    117 members
+   </div> 
+   <div class="tgme_page_description">
+    Конференция по большим и умным данным от 
+    <a href="https://t.me/jugrugroup">@jugrugroup</a>
+    <br>
+    <br>https://smartdataconf.ru
+    <br>
+    <br>Это чат конференции 
+    <br>У нас есть несколько простых правил, которые мы просим вас соблюдать. По хэштегу #правила
+   </div> 
+   <div class="tgme_page_action"> 
+    <a class="tgme_action_button_new" href="tg://resolve?domain=smartdataconf">View Group</a> 
+   </div> 
+   <!-- WEBOGRAM_BTN --> 
+   <div class="tgme_page_additional">
+     If you have 
+    <strong>Telegram</strong>, you can view and join 
+    <br>
+    <strong>SmartData - Конференция по большим и умным данным от @jugrugroup. 21 октября 2017. Санкт-Петербург</strong> right away. 
+   </div> 
+  </div> 
+ </div> 
+ <div id="tgme_frame_cont"></div> 
+ <script type="text/javascript">
+
+var protoUrl = "tg:\/\/resolve?domain=smartdataconf";
+if (false) {
+  var iframeContEl = document.getElementById('tgme_frame_cont') || document.body;
+  var iframeEl = document.createElement('iframe');
+  iframeContEl.appendChild(iframeEl);
+  var pageHidden = false;
+  window.addEventListener('pagehide', function () {
+    pageHidden = true;
+  }, false);
+  window.addEventListener('blur', function () {
+    pageHidden = true;
+  }, false);
+  if (iframeEl !== null) {
+    iframeEl.src = protoUrl;
+  }
+  setTimeout(function() {
+    if (!pageHidden) {
+      window.location = protoUrl;
+    }
+  }, 2000);
+}
+else if (protoUrl) {
+  setTimeout(function() {
+    window.location = protoUrl;
+  }, 100);
+}
+
+
+    </script> 
+ <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-45099287-3', 'auto', {'sampleRate': 5});
+ga('send', 'pageview');</script>   
+ <!-- page generated in 16.84ms -->
+</body>

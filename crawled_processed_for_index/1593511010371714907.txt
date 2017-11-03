@@ -1,0 +1,461 @@
+<body ng-class="{'hub-full': state.current().opts.full, 'no-sidebar': !state.current().opts.sidebar, 'hub-is-home': state.current().name == 'home' &amp;&amp; 'docs' == 'landing', 'hub-suggested-edits': suggestedEdits.isEnabled}" class="body-overlap theme-line header-solid header-bg-size-auto header-bg-pos-tl header-overlay-triangles lumosity-normal ">
+ <div id="hub-me" style="display: none;">
+  {"oauth_url":"","loggedIn":false,"search":{"token":"ZDc2NTJkYmVmNWI2ZmJkMjBiMzE4YjdhN2I3YzVmMjI1NDllNjY5NThiMDBjMDQzOGFhMTU2YjU5YmQ5ZmM3MnRhZ0ZpbHRlcnM9cHJvamVjdDo1ODM1ZWZmZGE5MTM3MTMxMDBkNTEyOTgsKGhpZGRlbjpub25lLGhpZGRlbjpmYWxzZSksKHZlcnNpb246bm9uZSx2ZXJzaW9uOjU5YzJjZTdiYjJiNDVjMDAxMGI3OWM3Myk=","filters":"tagFilters=project:5835effda913713100d51298,(hidden:none,hidden:false),(version:none,version:59c2ce7bb2b45c0010b79c73)","app":"T28YKFATPY","modules":{"landing":false,"docs":true,"examples":true,"reference":false,"blog":false,"discuss":false,"suggested_edits":true}}}
+ </div>
+ <header id="hub-header">
+  <div id="header-top">
+   <div class="hub-container">
+    <div class="clearfix">
+     <a href="https://ignite.apache.org/" class="header-link"><h1 id="header-logo">Apache Ignite Integrations</h1></a>
+     <nav>
+      <ul id="header-nav-left">
+       <li><a href="https://apacheignite.readme.io" target="_self">Java</a></li>
+       <li><a href="https://apacheignite-net.readme.io/docs/" target="_self">C#/.NET</a></li>
+       <li><a href="https://apacheignite-cpp.readme.io" target="_self">C++</a></li>
+       <li><a href="https://apacheignite-mix.readme.io/docs" target="_self">Integrations*</a></li>
+       <li><a href="https://apacheignite-fs.readme.io/docs" target="_self">Hadoop/Spark</a></li>
+       <li><a href="https://apacheignite-tools.readme.io/docs" target="_self">Tools</a></li>
+       <li><a href="https://ignite.apache.org/community/resources.html#ask" target="_self">Ask a Question</a></li>
+       <li><a href="https://ignite.apache.org/download.cgi" target="_self">Download</a></li>
+      </ul>
+      <ul id="header-nav-right">
+       <li><span login class="ng-cloak"><span ng-show="user.loggedIn" ng-cloak class="login hub-subheader-breadcrumbs"><span class="dropdown right-dropdown"><script type="text/ng-template" id="loginPopover"><div id="hub-user-dropdown" class="ns-popover-tooltip"><div class="ns-triangle"></div><div class="triangle"></div><ul><li ng-show="user.isAdmin"><a href="https://dash.readme.io/project/apacheignite-mix/v2.2/dashboard"> <i class="fa fa-lock"></i>Admin Panel</a></li><li><a ng-href="/logout?redirect_uri={{redirect()}}" target="_self"> <i class="fa fa-power-off"></i>Log out</a></li></ul></div></script><a ns-popover ns-popover-trigger="click" ns-popover-theme="ns-popover-dropdown-theme" ns-popover-placement="bottom|right" ns-popover-template="loginPopover" ns-popover-timeout="-1" class="hub-breadcrumb-item dropdown-toggle">{{user.name}}<i class="fa fa-chevron-down"></i></a></span></span><span ng-show="!user.loggedIn" ng-cloak class="login"><a ng-href="/login?redirect={{redirect()}}" target="_self">Log In</a></span></span></li>
+       <li><a href="https://ignite.apache.org/releases/2.2.0/javadoc/" target="_self">Javadoc</a></li>
+       <li><a href="https://github.com/apache/ignite/tree/master/examples" target="_self">Examples</a></li>
+      </ul>
+     </nav>
+    </div>
+    <div id="hub-landing-top" class="hub-landing-buttons">
+     <h2>The Apache Ignite Integrations Developer Hub</h2>
+     <div class="hub-landing-description">
+      <p>Welcome to the Apache Ignite Integrations developer hub. You'll find comprehensive guides and documentation to help you start working with Apache Ignite Integrations as quickly as possible, as well as support if you get stuck. Let's jump right in!</p> 
+     </div>
+     <a href="/docs" class="btn btn-lg btn-primary"><i class="fa fa-rocket"></i>Get Started</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+   </div>
+  </div>
+  <div id="hub-subheader-parent">
+   <div id="hub-subheader">
+    <div class="hub-container">
+     <nav id="header-bottom-nav">
+      <div id="header-icon-nav">
+       <div class="icons">
+        <div class="hub-subheader-breadcrumbs">
+         <!-- Version picker-->
+         <span dropdown class="left-dropdown"><a dropdown-toggle href="" class="hub-breadcrumb-item"><span>v2.2</span><i class="fa fa-chevron-down"></i></a>
+          <ul dropdown-menu class="ng-cloak">
+           <li><a href="/v1.7/{{state.current().root != &quot;home&quot; &amp;&amp; state.current().root != &quot;error&quot; ? state.current().root : &quot;&quot;}}" target="_self">v1.7<span class="badges pull-right">
+              <!-- TODO: Show this to admins--></span></a></li>
+           <li><a href="/v1.8/{{state.current().root != &quot;home&quot; &amp;&amp; state.current().root != &quot;error&quot; ? state.current().root : &quot;&quot;}}" target="_self">v1.8<span class="badges pull-right">
+              <!-- TODO: Show this to admins--></span></a></li>
+           <li><a href="/v1.9/{{state.current().root != &quot;home&quot; &amp;&amp; state.current().root != &quot;error&quot; ? state.current().root : &quot;&quot;}}" target="_self">v1.9<span class="badges pull-right">
+              <!-- TODO: Show this to admins--></span></a></li>
+           <li><a href="/v2.0/{{state.current().root != &quot;home&quot; &amp;&amp; state.current().root != &quot;error&quot; ? state.current().root : &quot;&quot;}}" target="_self">v2.0<span class="badges pull-right">
+              <!-- TODO: Show this to admins--></span></a></li>
+           <li><a href="/v2.1/{{state.current().root != &quot;home&quot; &amp;&amp; state.current().root != &quot;error&quot; ? state.current().root : &quot;&quot;}}" target="_self">v2.1<span class="badges pull-right">
+              <!-- TODO: Show this to admins--></span></a></li>
+           <li><a href="/v2.2/{{state.current().root != &quot;home&quot; &amp;&amp; state.current().root != &quot;error&quot; ? state.current().root : &quot;&quot;}}" target="_self" class="active">v2.2<span class="badges pull-right">
+              <!-- TODO: Show this to admins--><span class="stable">stable</span></span></a></li>
+          </ul></span>
+         <span dropdown class="left-dropdown ng-cloak"><a href="" ng-class="{'hub-breadcrumb-last': !showTitle() &amp;&amp; !state.current().params.category}" dropdown-toggle class="hub-breadcrumb-item hub-breadcrumb-item-type"><span ng-show="state.current().root == 'home'">Home</span><span ng-show="state.current().root == 'docs'">Home</span><span ng-show="state.current().root == 'reference'">Reference</span><span ng-show="state.current().root == 'preview'">Reference</span><span ng-show="state.current().root == 'blog'">Announcements</span><span ng-show="state.current().root == 'discuss'">Ask a Question</span><span ng-show="state.current().root == 'error'">Page Not Found</span><span ng-show="state.current().root == 'search'">Search</span><span ng-show="state.current().root == 'custompages'" style="text-transform: capitalize;">{{state.current().params.custompage}}</span><i class="fa fa-chevron-down"></i></a>
+          <ul dropdown-menu class="ng-cloak">
+           <a href="" ui-sref="docs" ng-class="{muted: false}" class="subheaderLink"><i class="icon icon-documentation"></i><span>Home</span></a>
+          </ul></span>
+         <span ng-show="showTitle()" class="hub-breadcrumb-item hub-breadcrumb-item-title ng-cloak"><span>{{ showTitle() }}</span></span>
+        </div>
+        <div>
+         <div id="hub-search">
+          <div searchbox ng-class="{full:search.full}" class="searchbox">
+           <input ng-model="search.query" type="text" placeholder="Search" class="search-box">
+           <div class="fa fa-search"></div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </nav>
+     <div id="header-bottom-suggested-edits">
+      <div class="pull-right">
+       <a href="" ng-click="suggestedEdits.disable()" class="hub-suggested-edits-cancel"><i class="icon icon-cross-circle"></i>discard</a>
+       <button ng-if="user.isAdmin" ng-click="suggestedEdits.adminSave()" class="btn btn-default hub-suggested-edits-save"><i class="icon icon-right icon-floppy-disk"></i><strong ng-show="!suggestedEdits.loading">Save Edits</strong><span ng-show="suggestedEdits.loading" class="loader"></span></button>
+       <button ng-click="suggestedEdits.prepare()" class="btn btn-default"><i class="icon icon-right icon-register"></i><strong>Submit</strong> Suggested Edits</button>
+      </div>
+     </div>
+    </div>
+    <div>
+     <div id="hub-search-results" searchresults ng-class="{'hub-search-results-active':search.full}">
+      <div class="hub-container">
+       <h3>Search results for "<em>{{ search.query }}</em>"</h3>
+       <div ng-show="!search.results.length" class="hub-search-noresults">
+        <em>No results found for "{{search.query}}".&nbsp;</em>
+       </div>
+      </div>
+      <ul ng-show="search.results.length">
+       <li ng-repeat="result in search.results" ng-class="{activeSearch: $index == search.highlighted}"><a ng-if="result._index == 'Page' &amp;&amp; result.link_url" ng-href="{{result.link_url}}" class="external">
+         <div class="hub-container">
+          <i class="icon icon-documentation"></i>
+          <div>
+           <strong ng-bind-html="result._title" class="hub-result-title"></strong>
+           <em class="hub-result-type">Guide</em>
+          </div>
+          <p ng-bind-html="result._body" class="text-overflow"></p>
+         </div></a><a ng-if="result._index == 'Page' &amp;&amp; !result._isReference &amp;&amp; !result.link_url" href="" ui-sref="docs.show({doc:result._slug})">
+         <div class="hub-container">
+          <i class="icon icon-documentation"></i>
+          <div>
+           <strong ng-bind-html="result._title" class="hub-result-title"></strong>
+           <em class="hub-result-type">Guide</em>
+          </div>
+          <p ng-bind-html="result._body" class="text-overflow"></p>
+         </div></a><a ng-if="result._index == 'Page' &amp;&amp; result._isReference &amp;&amp; !result.link_url" href="" ui-sref="reference#{{result._slug}}">
+         <div class="hub-container">
+          <i class="icon icon-reference"></i>
+          <div>
+           <!-- TODO: Fix this is search-->
+           <strong ng-bind-html="result._title" class="hub-result-title"></strong>
+           <em class="hub-result-type">Reference</em>
+          </div>
+          <p ng-bind-html="result._body" class="text-overflow"></p>
+         </div></a><a ng-if="result._index == 'Blog'" href="" ui-sref="blog.show({blog:result._slug})">
+         <div class="hub-container">
+          <i class="icon icon-announcements"></i>
+          <div>
+           <strong ng-bind-html="result._title" class="hub-result-title"></strong>
+           <em class="hub-result-type">Announcement</em>
+          </div>
+          <p ng-bind-html="result._body" class="text-overflow"></p>
+         </div></a><a ng-if="result._index == 'Discuss'" href="" ui-sref="discuss.show({discuss:result._id})">
+         <div class="hub-container">
+          <i class="icon icon-support"></i>
+          <div>
+           <strong ng-bind-html="result._title" class="hub-result-title"></strong>
+           <em class="hub-result-type">Support</em>
+          </div>
+          <p ng-bind-html="result._body" class="text-overflow"></p>
+         </div></a><a ng-if="result._index == 'CustomPage'" href="" ui-sref="custompages.show({custompage:result._slug})">
+         <div class="hub-container">
+          <i class="icon icon-custom-pages"></i>
+          <div>
+           <strong ng-bind-html="result._title" class="hub-result-title"></strong>
+           <em class="hub-result-type">Page</em>
+          </div>
+          <p ng-bind-html="result._body" class="text-overflow"></p>
+         </div></a></li>
+      </ul>
+      <a ng-show="search.results.length" ng-href="/v2.2/search?q={{search.query}}" class="viewAll">View All Results</a>
+     </div>
+    </div>
+    <div ng-cloak ng-if="isMobile" class="mobile-nav"></div>
+   </div>
+  </div>
+ </header>
+ <div ng-class="{active:contentLoadingSection || contentLoading}" class="hub-loading-indicator"></div>
+ <div id="hub-container" ng-class="{loading:contentLoadingSection}">
+  <div class="hub-container">
+   <div id="hub-sidebar-parent" sidebar class="hub-sidebar-sticky">
+    <nav id="hub-sidebar">
+     <div class="scrollable-parent">
+      <scrollable scroll-to-top="state.current().root">
+       <div id="hub-sidebar-content">
+        <div ng-show="state.current().root == 'docs'">
+         <h3>Basic Overview</h3>
+         <ul>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c52')}"> <a ui-sref="docs.show({'doc': 'getting-started'})" href="" ui-sref-alt="docs" class="text-overflow active ">Apache Ignite Integrations</a>
+           <ul class="subpages"></ul></li>
+         </ul>
+         <h3>Clustering</h3>
+         <ul>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c6a')}"> <a ui-sref="docs.show({'doc': 'amazon-aws'})" href="" ui-sref-alt="" class="text-overflow">Amazon AWS Discovery</a>
+           <ul class="subpages"></ul></li>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c6b')}"> <a ui-sref="docs.show({'doc': 'google-compute-engine'})" href="" ui-sref-alt="" class="text-overflow">Google Compute Discovery</a>
+           <ul class="subpages"></ul></li>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c6c')}"> <a ui-sref="docs.show({'doc': 'jclouds'})" href="" ui-sref-alt="" class="text-overflow">JClouds Discovery</a>
+           <ul class="subpages"></ul></li>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c6f')}"> <a ui-sref="docs.show({'doc': 'kubernetes-discovery'})" href="" ui-sref-alt="" class="text-overflow">Kubernetes Discovery</a>
+           <ul class="subpages"></ul></li>
+         </ul>
+         <h3>Hadoop and Spark</h3>
+         <ul>
+          <li><a href="https://apacheignite-fs.readme.io/docs/hadoop-accelerator" data-sidebar="hadoop-accelerator" target="_blank" class="sidebar-link"><span>Hadoop Accelerator</span>
+            <div class="fa fa-external-link-square external"></div></a></li>
+          <li><a href="https://apacheignite-fs.readme.io/docs/ignite-for-spark" data-sidebar="spark-shared-rdds" target="_blank" class="sidebar-link"><span>Spark Shared RDDs</span>
+            <div class="fa fa-external-link-square external"></div></a></li>
+         </ul>
+         <h3>Web Session Clustering</h3>
+         <ul>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c5f')}"> <a ui-sref="docs.show({'doc': 'web-session-clustering'})" href="" ui-sref-alt="" class="text-overflow">Web Session Clustering</a>
+           <ul class="subpages"></ul></li>
+         </ul>
+         <h3>Hibernate</h3>
+         <ul>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c5c')}"> <a ui-sref="docs.show({'doc': 'hibernate-l2-cache'})" href="" ui-sref-alt="" class="text-overflow">Hibernate L2 Cache</a>
+           <ul class="subpages"></ul></li>
+         </ul>
+         <h3>Spring</h3>
+         <ul>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c5e')}"> <a ui-sref="docs.show({'doc': 'spring-caching'})" href="" ui-sref-alt="" class="text-overflow">Spring Caching</a>
+           <ul class="subpages"></ul></li>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c72')}"> <a ui-sref="docs.show({'doc': 'spring-data'})" href="" ui-sref-alt="" class="text-overflow">Spring Data</a>
+           <ul class="subpages"></ul></li>
+         </ul>
+         <h3>MyBatis</h3>
+         <ul>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c5d')}"> <a ui-sref="docs.show({'doc': 'mybatis-l2-cache'})" href="" ui-sref-alt="" class="text-overflow">MyBatis L2 Cache</a>
+           <ul class="subpages"></ul></li>
+         </ul>
+         <h3>PHP</h3>
+         <ul>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c4f')}"> <a ui-sref="docs.show({'doc': 'php-pdo'})" href="" ui-sref-alt="" class="text-overflow">PHP PDO</a>
+           <ul class="subpages"></ul></li>
+         </ul>
+         <h3>Cassandra Integration</h3>
+         <ul>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c60')}"> <a ui-sref="docs.show({'doc': 'ignite-with-apache-cassandra'})" href="" ui-sref-alt="" class="text-overflow">Ignite With Apache Cassandra</a>
+           <ul class="subpages"></ul></li>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c61')}"> <a ui-sref="docs.show({'doc': 'base-concepts'})" href="" ui-sref-alt="" class="text-overflow">Base Concepts</a>
+           <ul class="subpages"></ul></li>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c62')}"> <a ui-sref="docs.show({'doc': 'examples'})" href="" ui-sref-alt="" class="text-overflow">Examples</a>
+           <ul class="subpages"></ul></li>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c63')}"> <a ui-sref="docs.show({'doc': 'ddl-generator'})" href="" ui-sref-alt="" class="text-overflow">DDL Generator</a>
+           <ul class="subpages"></ul></li>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c64')}"> <a ui-sref="docs.show({'doc': 'load-tests'})" href="" ui-sref-alt="" class="text-overflow">Load Tests</a>
+           <ul class="subpages"></ul></li>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c65')}"> <a ui-sref="docs.show({'doc': 'unit-tests'})" href="" ui-sref-alt="" class="text-overflow">Unit Tests</a>
+           <ul class="subpages"></ul></li>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c66')}"> <a ui-sref="docs.show({'doc': 'aws-infrastructure-deployment'})" href="" ui-sref-alt="" class="text-overflow">AWS Infrastructure Deployment</a>
+           <ul class="subpages"></ul></li>
+         </ul>
+         <h3>Streaming Integrations</h3>
+         <ul>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c53')}"> <a ui-sref="docs.show({'doc': 'overview'})" href="" ui-sref-alt="" class="text-overflow">Overview</a>
+           <ul class="subpages"></ul></li>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c54')}"> <a ui-sref="docs.show({'doc': 'kafka-streamer'})" href="" ui-sref-alt="" class="text-overflow">Kafka Streamer</a>
+           <ul class="subpages"></ul></li>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c55')}"> <a ui-sref="docs.show({'doc': 'camel-streamer'})" href="" ui-sref-alt="" class="text-overflow">Camel Streamer</a>
+           <ul class="subpages"></ul></li>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c56')}"> <a ui-sref="docs.show({'doc': 'jms-data-streamer'})" href="" ui-sref-alt="" class="text-overflow">JMS Streamer</a>
+           <ul class="subpages"></ul></li>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c57')}"> <a ui-sref="docs.show({'doc': 'mqtt-streamer'})" href="" ui-sref-alt="" class="text-overflow">MQTT Streamer</a>
+           <ul class="subpages"></ul></li>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c58')}"> <a ui-sref="docs.show({'doc': 'storm-streamer'})" href="" ui-sref-alt="" class="text-overflow">Storm Streamer</a>
+           <ul class="subpages"></ul></li>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c59')}"> <a ui-sref="docs.show({'doc': 'flink-streamer'})" href="" ui-sref-alt="" class="text-overflow">Flink Streamer</a>
+           <ul class="subpages"></ul></li>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c5a')}"> <a ui-sref="docs.show({'doc': 'twitter-streamer'})" href="" ui-sref-alt="" class="text-overflow">Twitter Streamer</a>
+           <ul class="subpages"></ul></li>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c5b')}"> <a ui-sref="docs.show({'doc': 'flume-sink'})" href="" ui-sref-alt="" class="text-overflow">Flume Sink</a>
+           <ul class="subpages"></ul></li>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c70')}"> <a ui-sref="docs.show({'doc': 'zeromq-streamer'})" href="" ui-sref-alt="" class="text-overflow">ZeroMQ Streamer</a>
+           <ul class="subpages"></ul></li>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c71')}"> <a ui-sref="docs.show({'doc': 'rocketmq-streamer'})" href="" ui-sref-alt="" class="text-overflow">RocketMQ Streamer</a>
+           <ul class="subpages"></ul></li>
+         </ul>
+         <h3>OSGi Support</h3>
+         <ul>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c67')}"> <a ui-sref="docs.show({'doc': 'installation-in-apache-karaf'})" href="" ui-sref-alt="" class="text-overflow">Installation in Apache Karaf</a>
+           <ul class="subpages"></ul></li>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c68')}"> <a ui-sref="docs.show({'doc': 'supported-modules'})" href="" ui-sref-alt="" class="text-overflow">Supported Modules</a>
+           <ul class="subpages"></ul></li>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c69')}"> <a ui-sref="docs.show({'doc': 'starting-inside-an-osgi-container'})" href="" ui-sref-alt="" class="text-overflow">Starting Inside an OSGi Container</a>
+           <ul class="subpages"></ul></li>
+         </ul>
+         <h3>Legal</h3>
+         <ul>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c6d')}"> <a ui-sref="docs.show({'doc': 'apache-license'})" href="" ui-sref-alt="" class="text-overflow">Apache License</a>
+           <ul class="subpages"></ul></li>
+          <li ng-class="{'subnav-expanded' : isActive('59c2ce7bb2b45c0010b79c6e')}"> <a ui-sref="docs.show({'doc': 'copyright'})" href="" ui-sref-alt="" class="text-overflow">Copyright</a>
+           <ul class="subpages"></ul></li>
+         </ul>
+        </div>
+        <div ng-show="state.current().root == 'discuss'" class="ng-cloak">
+         <!--a.btn.btn-primary.btn-full.btn-lg(href="" ui-sref="discuss.create") Ask A Question-->
+         <h3>Support</h3>
+        </div>
+        <div ng-show="state.current().root == 'reference' || state.current().root == 'preview'" class="ng-cloak">
+         <div class="disabled-warning">
+          <i class="icon icon-notification"></i> Only admins can see this
+          <a href="http://dash.readme.io/project/apacheignite-mix/v2.2/dashboard" target="_blank">Enable it for everyone <i class="fa fa-chevron-right"></i></a>
+         </div>
+        </div>
+        <div ng-show="state.current().root == 'reference-edit'" class="ng-cloak"></div>
+        <div ng-show="state.current().root == 'blog'" class="ng-cloak">
+         <h3>Recent Posts</h3>
+         <ul>
+          <li><a ui-sref="blog.show({'blog': 'welcome-to-apache-ignite-integrations'})" class="text-overflow">Welcome to Apache Ignite Integrations</a></li>
+         </ul>
+         <h3>Archive</h3>
+         <ul>
+          <li><a ui-sref="blog.archive({'year': '2016', 'month': 'November'})" class="text-overflow">November 2016 (1)</a></li>
+         </ul>
+        </div>
+       </div>
+      </scrollable>
+     </div>
+    </nav>
+   </div>
+   <section id="hub-content">
+    <div state-container ng-class="{loading: contentLoading}" class="hub-content-container">
+     <div id="replace-view" ng-non-bindable>
+      <meta name="meta:slug" content="getting-started">
+      <meta name="meta:type" content="docs">
+      <meta name="meta:parent">
+      <meta name="meta:title" content="Apache Ignite Integrations">
+      <meta name="meta:description" content="   Apache Ignite Integrations documentation contains excessive information on all the integrations existed in between Apache Ignite and other technologies and products.   The integrations are intended to simplify coupling of Apache Ignite and other technologies, used in your applications or services...">
+      <meta name="meta:_id" content="59c2ce7bb2b45c0010b79c52">
+      <meta name="meta:hidden">
+      <div ng-if="!suggestedEdits.isEnabled">
+       <header id="content-head">
+        <div class="row clearfix">
+         <div class="col-xs-9">
+          <h1>Apache Ignite Integrations</h1>
+          <div class="excerpt"></div>
+         </div>
+         <div class="col-xs-3">
+          <a ng-click="suggestedEdits.enable()" href="" ng-cloak class="suggestEdits"><i class="icon icon-register"></i>Suggest Edits</a>
+         </div>
+        </div>
+       </header>
+       <div id="content-container" scroll-spy class="grid-container-fluid">
+        <section ng-class="{&quot;grid-75&quot;: false != true &amp;&amp; ss.toc.length , &quot;grid-100&quot;: false != false || !ss.toc.length}" class="content-body"> 
+         <!-- Gah, you have to manually restart the app if you change this!--> 
+         <div class="magic-block-callout type-info "> 
+          <h3><i title="Info" class="fa fa-info-circle"></i>Apache Ignite is ... </h3> 
+          <div class="callout-body">
+           <p>the <strong>in-memory</strong> computing platform that is <strong>durable</strong>, <strong>strongly consistent</strong>, and <strong>highly available</strong> with powerful <strong>SQL</strong>, <strong>key-value</strong> and <strong>processing</strong> APIs</p> 
+          </div> 
+         </div> 
+         <div class="magic-block-image"> 
+          <figure>
+           <a href="https://files.readme.io/55b0488-durable-memory.png" class="block-display-image-parent block-display-image-size-smart "><img src="https://files.readme.io/55b0488-durable-memory.png"></a> 
+          </figure> 
+         </div> 
+         <div class="magic-block-textarea">
+          <p>Apache Ignite Integrations documentation contains excessive information on all the integrations existed in between Apache Ignite and other technologies and products. </p> 
+          <p>The integrations are intended to simplify coupling of Apache Ignite and other technologies, used in your applications or services, in order to either perform a transition to Apache Ignite smoothly or to boost an existed solution by plugging Ignite into it.</p> 
+          <p>The existed integrations are divided into a number of realms covered below. To learn more about Apache Ignite In-Memory Data Fabric, in general, go to the <a href="https://apacheignite.readme.io" target="_self">main documentation site</a>.</p> 
+          <h2 class="header-scroll">
+           <div class="anchor waypoint" id="section-clustering"></div>Clustering<a class="fa fa-anchor" href="#section-clustering"></a></h2> 
+          <p>Apache Ignite can be deployed on-premise or in cloud environments. Ignite cluster can be deployed in literally every well-known cloud environment thanks to its integrations with Amazon AWS, Google Compute Engine and Apache JClouds.</p> 
+          <ul> 
+           <li><a href="" ui-sref="docs.show({'doc': 'amazon-aws'})" class="doc-link" data-sidebar="amazon-aws">Amazon AWS</a> </li>
+           <li><a href="" ui-sref="docs.show({'doc': 'google-compute-engine'})" class="doc-link" data-sidebar="google-compute-engine">Google Compute Engine</a> </li>
+           <li><a href="" ui-sref="docs.show({'doc': 'jclouds'})" class="doc-link" data-sidebar="jclouds">JClouds</a> </li>
+          </ul> 
+          <h2 class="header-scroll">
+           <div class="anchor waypoint" id="section-hadoop-and-spark"></div>Hadoop and Spark<a class="fa fa-anchor" href="#section-hadoop-and-spark"></a></h2> 
+          <p>Apache Ignite Hadoop Accelerator provides a set of components allowing for in-memory Hadoop job execution and file system operations. As for Spark, Ignite enriches it with an implementation of Spark RDD abstraction which allows to easily share state in memory across Spark jobs.</p> 
+          <ul> 
+           <li><a href="https://apacheignite-fs.readme.io/docs/hadoop-accelerator" target="_self">Hadoop Accelerator</a> </li>
+           <li><a href="https://apacheignite-fs.readme.io/docs/ignite-for-spark" target="_self">Spark Shared RDDs</a> </li>
+          </ul> 
+          <h2 class="header-scroll">
+           <div class="anchor waypoint" id="section-in-memory-caching"></div>In-Memory Caching<a class="fa fa-anchor" href="#section-in-memory-caching"></a></h2> 
+          <p>The integrations that fall under this section allows leveraging from Apache Ignite for solely caching purposes. Usually, in such situations, Ignite is enabled at the configuration level and the benefit is that you avoid code level modifications.</p> 
+          <ul> 
+           <li><a href="" ui-sref="docs.show({'doc': 'hibernate-l2-cache'})" class="doc-link" data-sidebar="hibernate-l2-cache">Hibernate L2 Cache</a> </li>
+           <li><a href="" ui-sref="docs.show({'doc': 'mybatis-l2-cache'})" class="doc-link" data-sidebar="mybatis-l2-cache">MyBatis L2 Cache</a> </li>
+           <li><a href="" ui-sref="docs.show({'doc': 'spring-caching'})" class="doc-link" data-sidebar="spring-caching">Spring Caching</a> </li>
+           <li><a href="" ui-sref="docs.show({'doc': 'web-session-clustering'})" class="doc-link" data-sidebar="web-session-clustering">Web Session Clustering</a> </li>
+          </ul> 
+          <h2 class="header-scroll">
+           <div class="anchor waypoint" id="section-osgi-support"></div>OSGi Support<a class="fa fa-anchor" href="#section-osgi-support"></a></h2> 
+          <p>In order to facilitate the deployment of the different Ignite modules, along with their dependencies, Apache Ignite offers a set of Karaf features packaged in a feature repository. This makes it possible to quickly provision Ignite onto the OSGi environment by means of a single command in the Karaf shell.</p> 
+          <ul> 
+           <li><a href="" ui-sref="docs.show({'doc': 'installation-in-apache-karaf'})" class="doc-link" data-sidebar="installation-in-apache-karaf">Installation in Apache Karaf</a> </li>
+          </ul> 
+          <h2 class="header-scroll">
+           <div class="anchor waypoint" id="section-integration-with-apache-cassandra"></div>Integration With Apache Cassandra<a class="fa fa-anchor" href="#section-integration-with-apache-cassandra"></a></h2> 
+          <p>The integration makes it feasible to use Apache Ignite as a distributed in-memory system together with Apache Cassandra as a persistent store. Once the data is pre-loaded from Cassandra into Ignite you're able to execute ANSI-99 SQL Queries and ACID transactions over this data letting Ignite keeping in sync in memory and disk data sets.</p> 
+          <ul> 
+           <li><a href="" ui-sref="docs.show({'doc': 'ignite-with-apache-cassandra'})" class="doc-link" data-sidebar="ignite-with-apache-cassandra">Ignite With Apache Cassandra</a></li>
+          </ul> 
+          <h2 class="header-scroll">
+           <div class="anchor waypoint" id="section-streaming-integrations"></div>Streaming Integrations<a class="fa fa-anchor" href="#section-streaming-integrations"></a></h2> 
+          <p>Apache Ignite has a variety of integrations with well-known streaming products and technologies like Kafka, Camel or JMS which enables to inject streams of data into Ignite easily and efficiently.</p> 
+          <ul> 
+           <li><a href="" ui-sref="docs.show({'doc': 'kafka-streamer'})" class="doc-link" data-sidebar="kafka-streamer">Kafka Streamer</a></li>
+           <li><a href="" ui-sref="docs.show({'doc': 'camel-streamer'})" class="doc-link" data-sidebar="camel-streamer">Camel Streamer</a> </li>
+           <li><a href="" ui-sref="docs.show({'doc': 'jms-data-streamer'})" class="doc-link" data-sidebar="jms-data-streamer">JMS Streamer</a> </li>
+           <li><a href="" ui-sref="docs.show({'doc': 'mqtt-streamer'})" class="doc-link" data-sidebar="mqtt-streamer">MQTT Streamer</a> </li>
+           <li><a href="" ui-sref="docs.show({'doc': 'storm-streamer'})" class="doc-link" data-sidebar="storm-streamer">Storm Streamer</a> </li>
+           <li><a href="" ui-sref="docs.show({'doc': 'flink-streamer'})" class="doc-link" data-sidebar="flink-streamer">Flink Streamer</a> </li>
+           <li><a href="" ui-sref="docs.show({'doc': 'twitter-streamer'})" class="doc-link" data-sidebar="twitter-streamer">Twitter Streamer</a> </li>
+           <li><a href="" ui-sref="docs.show({'doc': 'flume-sink'})" class="doc-link" data-sidebar="flume-sink">Flume Sink</a></li>
+          </ul> 
+         </div>
+        </section>
+        <section ng-show="ss.toc.length" class="content-toc grid-25">
+         <div sticky="66" ng-if="stickyTOC" class="sticky-toc">
+          <nav>
+           <div class="ng-cloak">
+            <ul>
+             <li ng-show="ss.toc.length"><a href="" ng-click="scrollTo()" class="tocHeader"><i class="icon icon-text-align-left"></i>Table of Contents</a></li>
+             <li ng-repeat="toc in ss.toc" class="toc-{{ toc[2] }}"> <a href="" ng-cloak="ng-cloak" ng-click="scrollTo(toc[0])">{{ toc[1] }}</a></li>
+            </ul>
+           </div>
+          </nav>
+         </div>
+         <div ng-if="!stickyTOC" class="fixed-toc">
+          <nav>
+           <div class="ng-cloak">
+            <ul>
+             <li ng-show="ss.toc.length"><a href="" ng-click="scrollTo()" class="tocHeader"><i class="icon icon-text-align-left"></i>Table of Contents</a></li>
+             <li ng-repeat="toc in ss.toc" class="toc-{{ toc[2] }}"> <a href="" ng-cloak="ng-cloak" ng-click="scrollTo(toc[0])">{{ toc[1] }}</a></li>
+            </ul>
+           </div>
+          </nav>
+         </div>
+        </section>
+       </div>
+      </div>
+      <div id="content-suggested-edits" ng-if="suggestedEdits.isEnabled" class="ng-cloak">
+       <form name="suggestedEditsForm" ng-if="suggestedEdits.isReady">
+        <div ng-init="suggestedEdits.setForm(suggestedEditsForm)"></div>
+        <header id="content-head">
+         <h1>Apache Ignite Integrations</h1>
+         <div class="excerpt"></div>
+        </header>
+        <div class="content-container">
+         <magictextarea placeholder="Content goes here..." ng-model="suggestedEdits.current.data.body" sticky-top="66" project="project" class="hub-se-magic content"></magictextarea>
+        </div>
+       </form>
+      </div>
+     </div>
+    </div>
+   </section>
+  </div>
+ </div>
+ <!-- Logo-->
+ <footer>
+  <div class="hub-container">
+   <div id="readmeLogo">
+    <a href="https://readme.io?ref_src=hub&amp;project=apacheignite-mix" class="icon icon-readme"></a>
+   </div>
+  </div>
+ </footer>
+ <script>var is_hub = true;
+var is_hub2 = true;
+var is_hub_edit = true;
+</script>
+ <script src="https://d2sl9eawlu179j.cloudfront.net/js/bundle-hub2.js?1508453641595"></script>
+ <!-- Google Analytics-->
+ <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-52479696-1', 'auto');
+ga('send', 'pageview');
+
+$(window).on('pageLoad', function(e, state){
+  ga('send', 'pageview', window.location.pathname);
+});
+</script>
+ <script>ga('create', 'UA-61232409-1', 'auto', {'name': 'custom'});
+ga('custom.send', 'pageview');
+$(window).on('pageLoad', function(e, state){
+  ga('custom.send', 'pageview', window.location.pathname);
+});
+
+</script>
+</body>

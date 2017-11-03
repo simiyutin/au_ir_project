@@ -1,0 +1,959 @@
+<body class="t-body" style="margin: 0px;"> 
+ <!--allrecords--> 
+ <div id="allrecords" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="14525" data-tilda-page-id="868022" data-tilda-formskey="3b210738221af134cced63282d7ec63c"> 
+  <div id="rec21299078" class="r" style=" " data-animationappear="off" data-record-type="3"> 
+   <!-- T107 --> 
+   <div class="t107"> 
+    <div class="t-align_center" itemscope itemtype="http://schema.org/ImageObject">
+     <meta itemprop="image" content="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild3732-6230-4435-a666-396631326665__banners_mega.png"> 
+     <img src="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild3732-6230-4435-a666-396631326665__banners_mega.png" class="t107__widthauto t-img" imgfield="img"> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19353960" class="r" style="padding-top:135px;padding-bottom:0px; " data-animationappear="off" data-record-type="60"> 
+   <!-- T050 --> 
+   <div class="t050"> 
+    <div class="t-container t-align_left"> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div class="t050__title t-title t-title_xxl" field="title" style="">
+       <div style="font-size:32px;line-height:36px;color:#343434;" data-customstyle="yes"> 
+        <strong><span data-redactor-tag="span" style="font-weight: 500;">Мегапост</span></strong>
+       </div>
+      </div> 
+      <div class="t050__descr t-descr t-descr_xxl" field="descr" style="">
+       <strong><span style="font-weight: 500;" data-redactor-tag="span">Нативно. Супер</span></strong>
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19354016" class="r" style=" " data-animationappear="off" data-record-type="126"> 
+   <!-- T118 --> 
+   <div class="t118"> 
+    <div class="t-container"> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <hr class="t118__line" style="background-color:#464646;opacity:1;"> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec20748884" class="r" style="padding-top:42px;padding-bottom:42px; " data-record-type="127"> 
+   <!-- T119 --> 
+   <div class="t119"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div class="t119__preface t-descr t-opacity_70" style="opacity:0.70;" field="text">
+       <div style="font-size:24px;color:#0a0404;" data-customstyle="yes">
+        Это зарисовка из жизни редакции. О нативе на площадках Хабрахабр и Гиктаймс. Об уникальном формате мегапоста, который легко и непринужденно решает сложные имиджевые задачи, — рассказывая интересные истории. Ведь важнейшим из искусств для нас является искусство рассказывать истории.
+       </div>
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19354334" class="r" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="106"> 
+   <!-- T004 --> 
+   <div class="t004"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div field="text" class="t-text t-text_md  ">
+       Однажды в огромном и прекрасном, как мир, интернете появился небольшой ресурс по имени Хабрахабр. Он быстро вырос и стал заметным, благодаря тому, что позволял людям как угодно — просто или сложно, коротко или растянуто — говорить о важных вещах в IT. Так было, так есть и так будет. Почти любой может написать на Хабр, поделившись с аудиторией своим опытом, знаниями, самыми удивительными открытиями или самыми заурядными наблюдениями. Почти любой может прокомментировать публикацию, добавив немного веселья, печали и дичи. Да, на Хабре всегда поддерживают максимально честную и близкую «обратную связь». Возможность высказаться, возможность оценить — главные принципы работы с авторами и с аудиторией. И знаете, именно это нравится и авторам, и аудитории — искренность текста, неповторимость интонации, талант и профессионализм, считывающиеся в каждом слове. Такие люди обязательно остаются на Хабре. Прочих 
+       <del>нещадно</del> минусуют.
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19354446" class="r" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="106"> 
+   <!-- T004 --> 
+   <div class="t004"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div field="text" class="t-text t-text_md  ">
+        За несколько лет мы «обросли» миллиардами печатных знаков от тысяч интереснейших авторов. Хабрахабр, как московское метро, самое «повернутое» на чтении место в рунете. 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19354668" class="r" style="padding-top:45px;padding-bottom:45px; " data-animationappear="off" data-record-type="36"> 
+   <!-- T021 --> 
+   <div class="t021"> 
+    <div class="t-container"> 
+     <div class="t-row"> 
+      <div class="t-col t-col_2 t-prefix_5"> 
+       <div class="t021__line"></div> 
+      </div> 
+     </div> 
+     <div class="t-row"> 
+      <div class="t-col t-col_10 t-prefix_1"> 
+       <div class="t021__text-impact t-text-impact t-text-impact_md" field="text">
+        <div style="font-size:30px;line-height:36px;font-family:'PT Serif';color:#000000;" data-customstyle="yes">
+         <strong></strong>
+         <strong><strong data-redactor-tag="strong"></strong> <strong>К нам приходят за уникальными рассказами о жизни и работе IT-специалистов, их коде и «железе».</strong> </strong>
+        </div>
+       </div> 
+      </div> 
+     </div> 
+     <div class="t-row"> 
+      <div class="t-col t-col_2 t-prefix_5"> 
+       <div class="t021__line"></div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec21477100" class="r" style="padding-top:15px;padding-bottom:15px; " data-animationappear="off" data-record-type="3"> 
+   <!-- T107 --> 
+   <div class="t107"> 
+    <div class="t-align_center" itemscope itemtype="http://schema.org/ImageObject">
+     <meta itemprop="image" content="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild3333-6637-4365-b466-333330666163__sap_block_exmple2.png"> 
+     <a href="https://habrahabr.ru/article/323088/" target="_blank"><img src="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild3333-6637-4365-b466-333330666163__sap_block_exmple2.png" class="t107__widthauto t-img" imgfield="img"></a> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19354766" class="r" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="106"> 
+   <!-- T004 --> 
+   <div class="t004"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div field="text" class="t-text t-text_md  ">
+        Эти истории потом тиражируют по другим ресурсам и долго обсуждают в соцсетях. И в то время как другие сайты идут по пути усечения контента до уровня «снэкового потребления», нивелируют индивидуальность, принижают ценность личного опыта, мы отстаиваем свои большие сочные публикации. 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19355184" class="r" style="padding-top:45px;padding-bottom:45px; " data-animationappear="off" data-record-type="36"> 
+   <!-- T021 --> 
+   <div class="t021"> 
+    <div class="t-container"> 
+     <div class="t-row"> 
+      <div class="t-col t-col_2 t-prefix_5"> 
+       <div class="t021__line"></div> 
+      </div> 
+     </div> 
+     <div class="t-row"> 
+      <div class="t-col t-col_10 t-prefix_1"> 
+       <div class="t021__text-impact t-text-impact t-text-impact_md" field="text">
+        <div style="font-size:30px;line-height:36px;font-family:'PT Serif';color:#000000;" data-customstyle="yes">
+         <strong></strong>
+         <strong><strong data-redactor-tag="strong"></strong> <strong> <strong data-redactor-tag="strong">Наши тексты — не снэки, ими не закусывают.</strong> </strong> </strong>
+        </div>
+       </div> 
+      </div> 
+     </div> 
+     <div class="t-row"> 
+      <div class="t-col t-col_2 t-prefix_5"> 
+       <div class="t021__line"></div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19355260" class="r" style="padding-top:15px;padding-bottom:0px; " data-animationappear="off" data-record-type="128"> 
+   <!-- T120 --> 
+   <div class="t120"> 
+    <div class="t-container t-align_left"> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div class="t120__title t-heading t-heading_sm" field="title" style="">
+       <div style="font-size:24px;line-height:28px;color:#343434;" data-customstyle="yes">
+         Экологически чистый натив. И никаких спецпроектов 
+       </div>
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19355306" class="r" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="106"> 
+   <!-- T004 --> 
+   <div class="t004"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div field="text" class="t-text t-text_md  ">
+        Наши сайты любят читать специалисты, способные блокировать любую рекламу и настроить любой файервол. Они сами выбирают площадки и контент, обмануть их невозможно. 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19355358" class="r" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="106"> 
+   <!-- T004 --> 
+   <div class="t004"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div field="text" class="t-text t-text_md  ">
+       Именно поэтому мы избегаем ярмарочные расписные лендинги, бессмысленные и беспощадные спецпроекты и балаганные рекламные объявления. А сосредоточились на создании релевантного контента для аудитории. 
+       <span style="color: rgb(0, 0, 0);">Экологически чистого натива.</span>
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19355474" class="r" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="106"> 
+   <!-- T004 --> 
+   <div class="t004"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div field="text" class="t-text t-text_md  ">
+        Мы не могли и не можем позволить себе наполнять Хабрахабр и Гиктаймс спецпроектами: аудитория приходит к нам за яркими текстами и удивительными историями. 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19355548" class="r" style="padding-top:45px;padding-bottom:45px; " data-animationappear="off" data-record-type="36"> 
+   <!-- T021 --> 
+   <div class="t021"> 
+    <div class="t-container"> 
+     <div class="t-row"> 
+      <div class="t-col t-col_2 t-prefix_5"> 
+       <div class="t021__line"></div> 
+      </div> 
+     </div> 
+     <div class="t-row"> 
+      <div class="t-col t-col_10 t-prefix_1"> 
+       <div class="t021__text-impact t-text-impact t-text-impact_md" field="text">
+        <div style="font-size:30px;line-height:36px;font-family:'PT Serif';color:#000000;" data-customstyle="yes"> 
+         <strong>Поэтому мы поставили на пути у контентного зла <br>защитный пост. Мегапост. </strong>
+         <strong></strong> 
+        </div>
+       </div> 
+      </div> 
+     </div> 
+     <div class="t-row"> 
+      <div class="t-col t-col_2 t-prefix_5"> 
+       <div class="t021__line"></div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec21480384" class="r" style="padding-top:15px;padding-bottom:15px; " data-animationappear="off" data-record-type="3"> 
+   <!-- T107 --> 
+   <div class="t107"> 
+    <div class="t-align_center" itemscope itemtype="http://schema.org/ImageObject">
+     <meta itemprop="image" content="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild3237-3832-4337-b763-316333626639__marshall_block1.png"> 
+     <a href="https://geektimes.ru/article/268098/" target="_blank"><img src="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild3237-3832-4337-b763-316333626639__marshall_block1.png" class="t107__widthauto t-img" imgfield="img"></a> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19355706" class="r" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="106"> 
+   <!-- T004 --> 
+   <div class="t004"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div field="text" class="t-text t-text_md  ">
+       Мегапост – это не единственный, но все-таки неповторимый нативный формат на площадках TechMedia (Хабрахабр и Гиктаймс). Мегапост рассказывает интересные истории и ценен именно своим нарративом. Мегапост решает любые имиджевые задачи.
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19355718" class="r" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="106"> 
+   <!-- T004 --> 
+   <div class="t004"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div field="text" class="t-text t-text_md  ">
+       Наш мегапост уже проделал большой путь, накопил опыт и теперь готов раскрываться только с лучших своих сторон. У нас есть минимум три причины любить мегапост и рекомендовать его вам.
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19355816" class="r" style="padding-top:30px;padding-bottom:0px; " data-animationappear="off" data-record-type="128"> 
+   <!-- T120 --> 
+   <div class="t120"> 
+    <div class="t-container t-align_left"> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div class="t120__title t-heading t-heading_sm" field="title" style="">
+       <div style="font-size:20px;line-height:24px;color:#343434;" data-customstyle="yes">
+         Первая. Мегапост — естественный формат 
+        <br>
+       </div>
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19355914" class="r" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="106"> 
+   <!-- T004 --> 
+   <div class="t004"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div field="text" class="t-text t-text_md  ">
+        Мегапост — органичное продолжение всех публикаций на Хабрахабре и Гиктаймс, он 
+       <strong>является частью экосистемы</strong> наших ресурсов и продвигается при помощи естественных механик. Если формулировать проще, мегапосту, подготовленному нашими усилиями и оформленному согласно нашим канонам, нужна всего пара дней, чтобы громко заявить о себе (а заказчику — получить желаемый эффект). 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19356028" class="r" style="padding-top:30px;padding-bottom:0px; " data-animationappear="off" data-record-type="128"> 
+   <!-- T120 --> 
+   <div class="t120"> 
+    <div class="t-container t-align_left"> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div class="t120__title t-heading t-heading_sm" field="title" style="">
+       <div style="font-size:20px;line-height:24px;color:#343434;" data-customstyle="yes">
+         Вторая. Мегапост настолько прекрасен, что его хочется обнять 
+        <br>
+       </div>
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19356044" class="r" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="106"> 
+   <!-- T004 --> 
+   <div class="t004"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div field="text" class="t-text t-text_md  ">
+        Мегапост — 
+       <strong>мультимедийный формат. Фотографии, видео, графику и инфографику предлагают многие.</strong> Мы каждый раз придумываем уникальное оформление и при необходимости можем устроить съемку и с высоты птичьего полета, и из космоса (но это немного откорректирует ценник). Когда мы выпускаем новый мегапост, мы пересматриваем его по 100 раз в день (все думают, что это проявление перфекционизма, а мы просто наслаждаемся его красотой). 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19356194" class="r" style="padding-top:30px;padding-bottom:0px; " data-animationappear="off" data-record-type="128"> 
+   <!-- T120 --> 
+   <div class="t120"> 
+    <div class="t-container t-align_left"> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div class="t120__title t-heading t-heading_sm" field="title" style="">
+       <div style="font-size:20px;line-height:24px;color:#343434;" data-customstyle="yes">
+         Третья. Мегапост — размещение «с гарантией». И это весомый аргумент 
+        <br>
+       </div>
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19356280" class="r" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="106"> 
+   <!-- T004 --> 
+   <div class="t004"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div field="text" class="t-text t-text_md  ">
+       Гарантированное число просмотров мегапоста — 10 000. Этот показатель мы выполним в любом случае. Но обычно выходит больше. Намного больше.
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19356446" class="r" style="padding-top:45px;padding-bottom:15px; " data-animationappear="off" data-record-type="334"> 
+   <div class="t334"> 
+    <div class="t-container "> 
+     <div class="t334__col t-col t-col_4 t-align_center "> 
+      <a href="https://habrahabr.ru/article/322090/" target="_blank"> 
+       <div class="t334__table" style="height:30vh;"> 
+        <div class="t334__cell t-align_center t-valign_middle"> 
+         <div class="t334__bg t334__animation_fast t334__bg_animated t-bgimg" bgimgfield="img" data-original="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild6661-6630-4364-b332-356131363834__1.png" style="background-image:url('https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild6661-6630-4364-b332-356131363834__1.png');"></div> 
+         <div class="t334__overlay t334__animation_fast" style="background-image: -moz-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70)); background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70)); background-image: -o-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70)); background-image: -ms-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70));"></div> 
+         <div class="t334__textwrapper t334__animation_fast "> 
+          <div class="t334__textwrapper__content"> 
+           <img class="t334__img t-img" style="max-width:10 px;margin-bottom: 20px;" src="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild3666-3333-4035-b739-643430326435__sberbank.png" alt=""> 
+           <div class="t334__title t-name t-name_xl" field="title">
+            <div style="color:#343434;" data-customstyle="yes">
+             Рассказ о Data Science подразделении для Сбербанка
+            </div>
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> </a> 
+     </div> 
+     <div class="t334__col t-col t-col_4 t-align_center "> 
+      <a href="https://geektimes.ru/article/285344/" target="_blank"> 
+       <div class="t334__table" style="height:30vh;"> 
+        <div class="t334__cell t-align_center t-valign_middle"> 
+         <div class="t334__bg t334__animation_fast t334__bg_animated t-bgimg" bgimgfield="img2" data-original="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild6637-3637-4366-b738-343333633038__2b.png" style="background-image:url('https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild6637-3637-4366-b738-343333633038__2b.png');"></div> 
+         <div class="t334__overlay t334__animation_fast" style="background-image: -moz-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70)); background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70)); background-image: -o-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70)); background-image: -ms-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70));"></div> 
+         <div class="t334__textwrapper t334__animation_fast "> 
+          <div class="t334__textwrapper__content"> 
+           <img class="t334__img t-img" style="max-width:10 px;margin-bottom: 20px;" src="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild6631-3564-4266-b232-353437616535__megafon_logo_russia.png" alt=""> 
+           <div class="t334__title t-name t-name_xl" field="title2">
+            <div style="color:#343434;" data-customstyle="yes">
+             Гиковский обзор устройства умного дома для Мегафона
+            </div>
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> </a> 
+     </div> 
+     <div class="t334__col t-col t-col_4 t-align_center "> 
+      <a href="https://habrahabr.ru/article/324486/" target="_blank"> 
+       <div class="t334__table" style="height:30vh;"> 
+        <div class="t334__cell t-align_center t-valign_middle"> 
+         <div class="t334__bg t334__animation_fast t334__bg_animated t-bgimg" bgimgfield="img3" data-original="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild6430-6564-4566-b461-323635316461__3.png" style="background-image:url('https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild6430-6564-4566-b461-323635316461__3.png');"></div> 
+         <div class="t334__overlay t334__animation_fast" style="background-image: -moz-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70)); background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70)); background-image: -o-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70)); background-image: -ms-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70));"></div> 
+         <div class="t334__textwrapper t334__animation_fast "> 
+          <div class="t334__textwrapper__content"> 
+           <img class="t334__img t-img" style="max-width:10 px;margin-bottom: 20px;" src="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild3237-3862-4233-a135-313461616461__noroot.png" alt=""> 
+           <div class="t334__title t-name t-name_xl" field="title3">
+            <div style="color:#343434;" data-customstyle="yes">
+             Сочный фоторепортаж и рассказ о корпоративной культуре для Сбертеха
+            </div>
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> </a> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec22187470" class="r" style="padding-top:15px;padding-bottom:15px; " data-animationappear="off" data-record-type="686"> 
+   <!-- t686 --> 
+   <div class="t686" data-tile-ratio="0.714"> 
+    <div class="t686__container t-container"> 
+     <div class="t686__row"> 
+      <div class="t686__col t-col t-col_4 t-align_center "> 
+       <a href="https://habrahabr.ru/article/272217/" target="_blank"> 
+        <div class="t686__table"> 
+         <div class="t686__cell t-align_center t-valign_middle"> 
+          <div class="t686__bg t686__animation_fast t686__bg_animated t-bgimg" bgimgfield="li_img__1494497749748" data-original="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild3834-6433-4339-b462-343565396639__4a.png" style="background-image:url('https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild3834-6433-4339-b462-343565396639__4a.png');"></div> 
+          <div class="t686__overlay t686__animation_fast" style="background-image: -moz-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70)); background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70)); background-image: -o-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70)); background-image: -ms-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70));"></div> 
+          <div class="t686__textwrapper t686__animation_fast "> 
+           <div class="t686__textwrapper__content"> 
+            <img class="t686__img t-img" style="margin-bottom: 20px;" src="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild6164-3765-4839-a636-353537386666__mastercardlogo.png" alt=""> 
+            <div class="t686__title t-name t-name_xl" field="li_title__1494497749748" style="color:#343434;">
+             Основательный рассказ об NFC для Mastercard
+             <br>
+             <br>
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="t686__col t-col t-col_4 t-align_center "> 
+       <a href="https://habrahabr.ru/article/267077/" target="_blank"> 
+        <div class="t686__table"> 
+         <div class="t686__cell t-align_center t-valign_middle"> 
+          <div class="t686__bg t686__animation_fast t686__bg_animated t-bgimg" bgimgfield="li_img__1494498239096" data-original="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild3438-6636-4530-a430-613065616332__16.png" style="background-image:url('https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild3438-6636-4530-a430-613065616332__16.png');"></div> 
+          <div class="t686__overlay t686__animation_fast" style="background-image: -moz-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70)); background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70)); background-image: -o-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70)); background-image: -ms-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70));"></div> 
+          <div class="t686__textwrapper t686__animation_fast "> 
+           <div class="t686__textwrapper__content"> 
+            <img class="t686__img t-img" style="margin-bottom: 20px;" src="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild6565-6239-4162-a336-373862623731__dit2.png" alt=""> 
+            <div class="t686__title t-name t-name_xl" field="li_title__1494498239096" style="color:#343434;">
+             Рассказ для Департамента информационных технологий
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> </a> 
+      </div> 
+      <div class="t686__col t-col t-col_4 t-align_center "> 
+       <a href="https://habrahabr.ru/article/327935/" target="_blank"> 
+        <div class="t686__table"> 
+         <div class="t686__cell t-align_center t-valign_middle"> 
+          <div class="t686__bg t686__animation_fast t686__bg_animated t-bgimg" bgimgfield="li_img__1496872006761" data-original="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild6662-3664-4662-b338-353664343230__18.png" style="background-image:url('https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild6662-3664-4662-b338-353664343230__18.png');"></div> 
+          <div class="t686__overlay t686__animation_fast" style="background-image: -moz-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70)); background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70)); background-image: -o-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70)); background-image: -ms-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70));"></div> 
+          <div class="t686__textwrapper t686__animation_fast "> 
+           <div class="t686__textwrapper__content"> 
+            <img class="t686__img t-img" style="margin-bottom: 20px;" src="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild6334-3332-4761-b137-313830336138__osday.png" alt=""> 
+            <div class="t686__title t-name t-name_xl" field="li_title__1496872006761" style="color:#343434;">
+             Экспертные интервью для OS-day
+             <br>
+             <br>
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> </a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <script type="text/javascript">
+            $(document).ready(function() {
+
+                t686_init('22187470');
+            });
+            $('.t686').bind('displayChanged',function(){
+                t686_init('22187470');
+            });
+        </script> 
+  </div> 
+  <div id="rec19356556" class="r" style="padding-top:15px;padding-bottom:15px; " data-animationappear="off" data-record-type="334"> 
+   <div class="t334"> 
+    <div class="t-container "> 
+     <div class="t334__col t-col t-col_4 t-align_center "> 
+      <a href="https://habrahabr.ru/article/327324/" target="_blank"> 
+       <div class="t334__table" style="height:30vh;"> 
+        <div class="t334__cell t-align_center t-valign_middle"> 
+         <div class="t334__bg t334__animation_fast t334__bg_animated t-bgimg" bgimgfield="img" data-original="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild6335-6634-4165-a631-666632376461__16a.jpg" style="background-image:url('https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild6335-6634-4165-a631-666632376461__16a.jpg');"></div> 
+         <div class="t334__overlay t334__animation_fast" style="background-image: -moz-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70)); background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70)); background-image: -o-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70)); background-image: -ms-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70));"></div> 
+         <div class="t334__textwrapper t334__animation_fast "> 
+          <div class="t334__textwrapper__content"> 
+           <img class="t334__img t-img" style="margin-bottom: 20px;" src="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild6564-3836-4563-b938-316235353863__microsoftazurenewlogo.png" alt=""> 
+           <div class="t334__title t-name t-name_xl" field="title">
+            <div style="color:#343434;" data-customstyle="yes">
+             Технологические кейсы использования Azure для Microsoft
+            </div>
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> </a> 
+     </div> 
+     <div class="t334__col t-col t-col_4 t-align_center "> 
+      <a href="https://geektimes.ru/article/268048/" target="_blank"> 
+       <div class="t334__table" style="height:30vh;"> 
+        <div class="t334__cell t-align_center t-valign_middle"> 
+         <div class="t334__bg t334__animation_fast t334__bg_animated t-bgimg" bgimgfield="img2" data-original="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild3434-6630-4835-b431-343961656534__7a.jpg" style="background-image:url('https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild3434-6630-4835-b431-343961656534__7a.jpg');"></div> 
+         <div class="t334__overlay t334__animation_fast" style="background-image: -moz-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70)); background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70)); background-image: -o-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70)); background-image: -ms-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70));"></div> 
+         <div class="t334__textwrapper t334__animation_fast "> 
+          <div class="t334__textwrapper__content"> 
+           <img class="t334__img t-img" style="margin-bottom: 20px;" src="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild3433-6435-4561-b838-633865373936__logotele2.png" alt=""> 
+           <div class="t334__title t-name t-name_xl" field="title2">
+            <div style="color:#343434;" data-customstyle="yes">
+             Реальное тестирование оператора для запуска Tele2
+            </div>
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> </a> 
+     </div> 
+     <div class="t334__col t-col t-col_4 t-align_center "> 
+      <a href="https://habrahabr.ru/article/306752/" target="_blank"> 
+       <div class="t334__table" style="height:30vh;"> 
+        <div class="t334__cell t-align_center t-valign_middle"> 
+         <div class="t334__bg t334__animation_fast t334__bg_animated t-bgimg" bgimgfield="img3" data-original="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild6431-3133-4764-a431-393030663264__1a.jpg" style="background-image:url('https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild6431-3133-4764-a431-393030663264__1a.jpg');"></div> 
+         <div class="t334__overlay t334__animation_fast" style="background-image: -moz-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70)); background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70)); background-image: -o-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70)); background-image: -ms-linear-gradient(top, rgba(255,255,255,0.70), rgba(255,255,255,0.70));"></div> 
+         <div class="t334__textwrapper t334__animation_fast "> 
+          <div class="t334__textwrapper__content"> 
+           <img class="t334__img t-img" style="margin-bottom: 20px;" src="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild6331-3736-4262-b761-376332633661__alfabank.png" alt=""> 
+           <div class="t334__title t-name t-name_xl" field="title3">
+            <div style="color:#343434;" data-customstyle="yes">
+             Личная история клиента для Альфа-Банк
+             <br>
+             <br>
+            </div>
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> </a> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19360346" class="r" style="padding-top:30px;padding-bottom:0px; " data-animationappear="off" data-record-type="128"> 
+   <!-- T120 --> 
+   <div class="t120"> 
+    <div class="t-container t-align_left"> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div class="t120__title t-heading t-heading_sm" field="title" style="">
+       <div style="font-size:24px;line-height:28px;color:#343434;" data-customstyle="yes">
+         Физика, химия и совместимость
+       </div>
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19360408" class="r" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="106"> 
+   <!-- T004 --> 
+   <div class="t004"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div field="text" class="t-text t-text_md  ">
+        Наш рекламодатель должен быть интересен и полезен нашей аудитории. Перед тем, как начать совместную с заказчиком работу, мы предлагаем заполнить подробный бриф. 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19360432" class="r" style="padding-top:45px;padding-bottom:45px; " data-animationappear="off" data-record-type="36"> 
+   <!-- T021 --> 
+   <div class="t021"> 
+    <div class="t-container"> 
+     <div class="t-row"> 
+      <div class="t-col t-col_2 t-prefix_5"> 
+       <div class="t021__line"></div> 
+      </div> 
+     </div> 
+     <div class="t-row"> 
+      <div class="t-col t-col_10 t-prefix_1"> 
+       <div class="t021__text-impact t-text-impact t-text-impact_md" field="text">
+        <div style="font-size:30px;line-height:36px;font-family:'PT Serif';color:#000000;" data-customstyle="yes"> 
+         <strong> <strong data-redactor-tag="strong">Чем искреннее и точнее вы расскажете о своих задачах, тем лучше получится наш мегапост.</strong> </strong>
+         <strong></strong> 
+        </div>
+       </div> 
+      </div> 
+     </div> 
+     <div class="t-row"> 
+      <div class="t-col t-col_2 t-prefix_5"> 
+       <div class="t021__line"></div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19360470" class="r" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="106"> 
+   <!-- T004 --> 
+   <div class="t004"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div field="text" class="t-text t-text_md  ">
+        А пока вы заполняете бриф, мы стараемся узнать и понять вас. — И когда бриф будет заполнен, мы будем знать о вас все, от вероятных подробностей будущего брифа до реальной репутации на наших площадках. И если эта репутация окажется ниже определенной ватерлинии, нам придется вам отказать. Нельзя просто взять, заплатить и получить публикацию. 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19360488" class="r" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="106"> 
+   <!-- T004 --> 
+   <div class="t004"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div field="text" class="t-text t-text_md  ">
+       В зависимости от темы и целевой аудитории, мегапост может быть размещен на Хабрахабре или Гиктаймс. И если вы вдруг выберете обе площадки сразу, мы придумаем уникальные темы, отвечающие этим задачам. Уникальность предполагает и сохранение нашей, «хабровской» интонации. Ежедневно на Хабрахабре публикуется до пятидесяти статей.
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19360524" class="r" style="padding-top:45px;padding-bottom:45px; " data-animationappear="off" data-record-type="36"> 
+   <!-- T021 --> 
+   <div class="t021"> 
+    <div class="t-container"> 
+     <div class="t-row"> 
+      <div class="t-col t-col_2 t-prefix_5"> 
+       <div class="t021__line"></div> 
+      </div> 
+     </div> 
+     <div class="t-row"> 
+      <div class="t-col t-col_10 t-prefix_1"> 
+       <div class="t021__text-impact t-text-impact t-text-impact_md" field="text">
+        <div style="font-size:30px;line-height:42px;font-family:'PT Serif';color:#000000;" data-customstyle="yes"> 
+         <strong> <strong data-redactor-tag="strong"> <strong>Чтобы стать среди них «своим» и лучшим, надо забыть о «сохранении стилистики корпоративного пресс-релиза» и «следовании бренд-буку в оформлении».</strong> </strong> </strong>
+         <strong></strong> 
+        </div>
+       </div> 
+      </div> 
+     </div> 
+     <div class="t-row"> 
+      <div class="t-col t-col_2 t-prefix_5"> 
+       <div class="t021__line"></div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec21483716" class="r" style="padding-top:15px;padding-bottom:15px; " data-animationappear="off" data-record-type="3"> 
+   <!-- T107 --> 
+   <div class="t107"> 
+    <div class="t-align_center" itemscope itemtype="http://schema.org/ImageObject">
+     <meta itemprop="image" content="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild3938-3334-4637-b130-393366333338__sber_block_exmple1.png"> 
+     <a href="https://habrahabr.ru/article/324486/" target="_blank"><img src="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild3938-3334-4637-b130-393366333338__sber_block_exmple1.png" class="t107__widthauto t-img" imgfield="img"></a> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19360652" class="r" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="106"> 
+   <!-- T004 --> 
+   <div class="t004"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div field="text" class="t-text t-text_md  ">
+       А вот одна из наших историй об успешной публикации истории (мегапост — это всегда интересная история, да?). К нам обратился достаточно агрессивно выступавший на рынке интернет-агрегатор. Молодая компания хотела громко заявить о себе. Заказчик планировал получить известность и перенести на себя частицу репутации Хабра — за счет публикации именно на этой площадке. Изучив компанию, мы согласились сделать мегапост на Хабре, но поставили условия: в эти сроки и с такими задачами мы можем сделать только интервью. Максимально открытое и острое интервью. Представители заказчика согласились и честно ответили на все вопросы. В результате мегапост оказался очень интересным для аудитории и к тому же набрал свой KPI меньше чем за три дня. Состоялось бурное обсуждение в комментариях. Задача была выполнена.
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19360866" class="r" style="padding-top:30px;padding-bottom:0px; " data-animationappear="off" data-record-type="128"> 
+   <!-- T120 --> 
+   <div class="t120"> 
+    <div class="t-container t-align_left"> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div class="t120__title t-heading t-heading_sm" field="title" style="">
+       <div style="font-size:24px;line-height:28px;color:#343434;" data-customstyle="yes">
+         Делим площадки, умножаем аудитории 
+       </div>
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19360968" class="r" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="106"> 
+   <!-- T004 --> 
+   <div class="t004"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div field="text" class="t-text t-text_md  ">
+        В начале мы уже рассказали о том, кого мы представляем и каких принципов придерживаемся. Теперь давайте умножим всю эту «лирику» в миллионы раз. Немного статистики. 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19360990" class="r" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="106"> 
+   <!-- T004 --> 
+   <div class="t004"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div field="text" class="t-text t-text_md  "> 
+       <strong>Хабрахабр</strong> — крупнейший в Европе интернет-ресурс для общения людей, профессионально связанных с IT. Аудитория приходит на Хабр делиться опытом и прокачивать профессиональные навыки. Здесь мы пишем про софт, технологии и продукты, ориентированные на корпоративный рынок. 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19361020" class="r" style="padding-top:45px;padding-bottom:45px; " data-animationappear="off" data-record-type="36"> 
+   <!-- T021 --> 
+   <div class="t021"> 
+    <div class="t-container"> 
+     <div class="t-row"> 
+      <div class="t-col t-col_2 t-prefix_5"> 
+       <div class="t021__line"></div> 
+      </div> 
+     </div> 
+     <div class="t-row"> 
+      <div class="t-col t-col_10 t-prefix_1"> 
+       <div class="t021__text-impact t-text-impact t-text-impact_md" field="text">
+        <div style="font-size:30px;line-height:36px;font-family:'PT Serif';color:#000000;" data-customstyle="yes"> 
+         <strong> <strong data-redactor-tag="strong"> <strong> <strong data-redactor-tag="strong">Аудитория Хабрахабра — более 8 миллионов уникальных посетителей в месяц.</strong> </strong> </strong> </strong>
+         <strong></strong> 
+        </div>
+       </div> 
+      </div> 
+     </div> 
+     <div class="t-row"> 
+      <div class="t-col t-col_2 t-prefix_5"> 
+       <div class="t021__line"></div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19361126" class="r" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="106"> 
+   <!-- T004 --> 
+   <div class="t004"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div field="text" class="t-text t-text_md  ">
+       <strong></strong> 
+       <strong>Гиктаймс</strong> — часть Хабрахабра, отстыковавшаяся от него с целью объединить под своей крышей темы науки и техники. Сюда пойдут мегапосты про гаджеты, лайфстайл для гиков.
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19361152" class="r" style="padding-top:45px;padding-bottom:45px; " data-animationappear="off" data-record-type="36"> 
+   <!-- T021 --> 
+   <div class="t021"> 
+    <div class="t-container"> 
+     <div class="t-row"> 
+      <div class="t-col t-col_2 t-prefix_5"> 
+       <div class="t021__line"></div> 
+      </div> 
+     </div> 
+     <div class="t-row"> 
+      <div class="t-col t-col_10 t-prefix_1"> 
+       <div class="t021__text-impact t-text-impact t-text-impact_md" field="text">
+        <div style="font-size:30px;line-height:36px;font-family:'PT Serif';color:#000000;" data-customstyle="yes"> 
+         <strong> <strong data-redactor-tag="strong"> <strong> <strong data-redactor-tag="strong"> <strong>Аудитория Гиктаймс — более 4 миллиона уникальных <br>посетителей в месяц.</strong> </strong> </strong> </strong> </strong>
+         <strong></strong> 
+        </div>
+       </div> 
+      </div> 
+     </div> 
+     <div class="t-row"> 
+      <div class="t-col t-col_2 t-prefix_5"> 
+       <div class="t021__line"></div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19361180" class="r" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="106"> 
+   <!-- T004 --> 
+   <div class="t004"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div field="text" class="t-text t-text_md  ">
+       <strong></strong> 
+       <strong></strong> Совокупный «вес» наших контентных площадок — более 15 миллионов уников в месяц (это вместе с остальными нашими проектами). И все они так или иначе пересекаются между собой. 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19361240" class="r" style="padding-top:30px;padding-bottom:0px; " data-animationappear="off" data-record-type="128"> 
+   <!-- T120 --> 
+   <div class="t120"> 
+    <div class="t-container t-align_left"> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div class="t120__title t-heading t-heading_sm" field="title" style="">
+       <div style="font-size:24px;line-height:28px;color:#343434;" data-customstyle="yes">
+         Пришло время интересных историй 
+       </div>
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19361306" class="r" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="106"> 
+   <!-- T004 --> 
+   <div class="t004"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div field="text" class="t-text t-text_md  ">
+       <strong></strong> 
+       <strong></strong> Мегапост рассказывает интересную историю. Очень интересную историю, которую все с удовольствием читают, репостят в соцсетях, ввязываются в комментарии и таким образом максимально увеличивают охват публикации. В нем обязательно есть драматургия – сюжет, конфликт (хоть борьба хорошего с лучшим), личный пользовательский опыт или оценка происходящего. А лучше – все и сразу.
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec21506362" class="r" style="padding-top:15px;padding-bottom:15px; " data-animationappear="off" data-record-type="3"> 
+   <!-- T107 --> 
+   <div class="t107"> 
+    <div class="t-align_center" itemscope itemtype="http://schema.org/ImageObject">
+     <meta itemprop="image" content="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild3836-3764-4963-b538-353936323939__innopolis_block2.png"> 
+     <a href=" https://habrahabr.ru/article/329364/" target="_blank"><img src="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild3836-3764-4963-b538-353936323939__innopolis_block2.png" class="t107__widthauto t-img" imgfield="img"></a> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19361356" class="r" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="106"> 
+   <!-- T004 --> 
+   <div class="t004"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div field="text" class="t-text t-text_md  ">
+       <strong></strong> 
+       <strong></strong> И эта игра в истории применима к любому жанру, в котором может быть решен мегапост (и в текстовом, и в видеоформате):
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19361604" class="r" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="106"> 
+   <!-- T004 --> 
+   <div class="t004"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div field="text" class="t-text t-text_md  ">
+       <strong></strong> 
+       <strong></strong> 
+       <strong>Обзор</strong> гаджета/платформы/сервиса: рассказ о собственном опыте, сравнение с мнениями других пользователей, инициация заочного спора с теми, кто за или против (в зависимости от истории), да хоть спор с самим собой – «Раньше пребывал в ереси, потому что. Сейчас раскаялся и считаю, что...». 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19361608" class="r" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="106"> 
+   <!-- T004 --> 
+   <div class="t004"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div field="text" class="t-text t-text_md  ">
+       <strong></strong> 
+       <strong></strong> 
+       <strong>Интервью:</strong> чем больше острых вопросов по существу, чем драматичнее полемика, чем меньше вопросов про еще 101 преимущество субъекта разговора, тем интереснее история. 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19361650" class="r" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="106"> 
+   <!-- T004 --> 
+   <div class="t004"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div field="text" class="t-text t-text_md  ">
+       <strong></strong> 
+       <strong></strong> 
+       <strong>Репортаж:</strong> Если это событие, там происходит что-нибудь яркое и запоминающееся – спор, драка, явление Стива Возняка (которое символически привиделось только автору репортажа). Если это репортаж из офиса, в нем живут живые люди, дают реплики, рассказывают свои истории.
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19361752" class="r" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="106"> 
+   <!-- T004 --> 
+   <div class="t004"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div field="text" class="t-text t-text_md  ">
+       <strong></strong> 
+       <strong></strong> 
+       <strong></strong> 
+       <strong>Исследование / расследование.</strong> Самая заурядная история начинает играть новыми красками, когда обычные факты и события подаются как удивительное открытие и уникальное знание. 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19361802" class="r" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="106"> 
+   <!-- T004 --> 
+   <div class="t004"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div field="text" class="t-text t-text_md  ">
+       <strong></strong> 
+       <strong></strong> 
+       <strong></strong> 
+       <strong>Просто История или История с бэкграундом:</strong> в которой бы одна компания попадала в контекст других, по-настоящему больших корпораций. Одна история на всех, когда есть один образ – инноваций, открытий, добрых дел, чего угодно, – и он распространяется на несколько мегакомпаний. «Имиджевый зонтик». Под крышей большой, сильной, интересной истории оказываются самые разные по калибру компании. 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19361834" class="r" style="padding-top:30px;padding-bottom:0px; " data-animationappear="off" data-record-type="128"> 
+   <!-- T120 --> 
+   <div class="t120"> 
+    <div class="t-container t-align_left"> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div class="t120__title t-heading t-heading_sm" field="title" style="">
+       <div style="font-size:24px;line-height:28px;color:#343434;" data-customstyle="yes">
+         Хотите чтобы о вашей истории узнали миллионы? 
+       </div>
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19361872" class="r" style="padding-top:15px;padding-bottom:30px; " data-animationappear="off" data-record-type="106"> 
+   <!-- T004 --> 
+   <div class="t004"> 
+    <div class="t-container "> 
+     <div class="t-col t-col_8 t-prefix_2"> 
+      <div field="text" class="t-text t-text_md  ">
+       <strong></strong> 
+       <strong></strong> 
+       <strong></strong> 
+       <strong></strong> Можно просто написать письмо на megapost
+       <a href="mailto:adv@tmtm.ru">@tmtm.ru</a>. Но лучше приходите в гости – глаза в глаза, под чай / кофе / свежевыжатый апельсиновый сок все придумывается быстрее и интереснее.
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec19366496" class="r" style=" " data-animationappear="off" data-record-type="160"> 
+   <!-- T148 --> 
+   <!-- cover --> 
+   <div class="t-cover" id="recorddiv19366496" bgimgfield="img" style="height:675px; background-image:-webkit-linear-gradient(top, #ccc, #777); background-image:-moz-linear-gradient(top, #ccc, #777); background-image:-o-linear-gradient(top, #ccc, #777); background-image:-ms-linear-gradient(top, #ccc, #777); background-image:linear-gradient(top, #ccc, #777); "> 
+    <div class="t-cover__carrier" id="coverCarry19366496" data-content-cover-id="19366496" data-content-cover-bg="https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild6362-6365-4835-a431-626334373237__dsc07886.jpg" data-content-cover-height="675px" data-content-cover-parallax="fixed" style="background-image:url('https://habrastorage.org/getpro/tmtm/articles/tld/images/868022/tild6362-6365-4835-a431-626334373237__dsc07886.jpg');height:675px; "></div> 
+    <div class="t-cover__filter" style="height:675px;background-image: -moz-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: -o-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: -ms-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fe000000', endColorstr='#fe000000');"></div> 
+    <div class="t148"> 
+     <div class="t-container_100"> 
+      <div class="t-cover__wrapper t-valign_bottom" style="height:675px;"> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+ <!--/allrecords-->  
+</body>

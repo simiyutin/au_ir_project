@@ -1,0 +1,1224 @@
+<body class="t-body" style="margin:0;"> 
+ <!--allrecords--> 
+ <div id="allrecords" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="146370" data-tilda-page-id="535072" data-tilda-formskey="9e16464ba185493ab9949308634fba72"> 
+  <!--header--> 
+  <div id="t-header" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="146370" data-tilda-page-id="579523" data-tilda-formskey="9e16464ba185493ab9949308634fba72"> 
+   <div id="rec14069711" class="r t-rec" style=" " data-animationappear="off" data-record-type="257"> 
+    <!-- T228 --> 
+    <div id="nav14069711marker"></div> 
+    <div class="t228__mobile"> 
+     <div class="t228__mobile_container"> 
+      <div class="t228__mobile_text t-name t-name_md" field="text">
+       &nbsp;
+      </div> 
+      <div class="t228__burger"> 
+       <span></span> 
+       <span></span> 
+       <span></span> 
+       <span></span> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="nav14069711" class="t228 t228__hidden t228__positionfixed " style="background-color: rgba(0,0,0,0.50);  " data-bgcolor-hex="#000000" data-bgcolor-rgba="rgba(0,0,0,0.50)" data-navmarker="nav14069711marker" data-appearoffset="" data-bgopacity-two="" data-menushadow="" data-bgopacity="0.50" data-menu-items-align="center" data-menu="yes"> 
+     <div class="t228__maincontainer " style=""> 
+      <div class="t228__padding40px"></div> 
+      <div class="t228__leftside"> 
+       <div class="t228__leftcontainer"> 
+        <a href="http://ai-community.com" style="color:#ffffff;"><img src="https://static.tildacdn.com/tild6637-6662-4438-b663-636532306266/_aitoday_logo_sq006copy.jpeg" class="t228__imglogo t228__imglogomobile" imgfield="img" style="max-width: 60px;width: 60px; height: auto; display: block;" alt="Company"></a> 
+       </div> 
+      </div> 
+      <div class="t228__centerside "> 
+       <div class="t228__centercontainer"> 
+        <ul class="t228__list t228__list_hidden"> 
+         <li class="t228__list_item"><a class="t-menu__link-item" href="/teams" style="color:#ffffff;font-weight:600;" data-menu-item-number="1">Командам и стартапам</a></li> 
+         <li class="t228__list_item"><a class="t-menu__link-item" href="/alone" style="color:#ffffff;font-weight:600;" data-menu-item-number="2">Попади в AI команду</a></li> 
+         <li class="t228__list_item"><a class="t-menu__link-item" href="/partner" style="color:#ffffff;font-weight:600;" data-menu-item-number="3"> Нужны эксперты или команды?</a></li> 
+         <li class="t228__list_item"><a class="t-menu__link-item" href="/invest" style="color:#ffffff;font-weight:600;" data-menu-item-number="4">Инвесторам</a></li> 
+         <li class="t228__list_item"><a class="t-menu__link-item" href="/events" style="color:#ffffff;font-weight:600;" data-menu-item-number="5">Афиша</a></li> 
+         <li class="t228__list_item"><a class="t-menu__link-item" href="/join" style="color:#ffffff;font-weight:600;" data-menu-item-number="6"></a></li> 
+        </ul> 
+       </div> 
+      </div> 
+      <div class="t228__rightside"> 
+       <div class="t228__rightcontainer"> 
+        <div class="t228__right_buttons"> 
+         <div class="t228__right_buttons_wrap"> 
+          <div class="t228__right_buttons_but">
+           <a href="http://www.ai-community.com/join" target="_blank" class="t-btn " style="color:#fcf9f9;background-color:#199c68;border-radius:20px; -moz-border-radius:20px; -webkit-border-radius:20px;">
+            <table style="width:100%; height:100%;">
+             <tbody>
+              <tr>
+               <td>Присоединиться</td>
+              </tr>
+             </tbody>
+            </table></a>
+          </div> 
+          <div class="t228__right_buttons_but">
+           <a href="http://www.ai-community.com/partner" target="_blank" class="t-btn " style="color:#000000;background-color:#fcf9f9;border-radius:20px; -moz-border-radius:20px; -webkit-border-radius:20px;">
+            <table style="width:100%; height:100%;">
+             <tbody>
+              <tr>
+               <td>Нужна AI команда?</td>
+              </tr>
+             </tbody>
+            </table></a>
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="t228__padding40px"></div> 
+     </div> 
+    </div> 
+    <style>
+@media screen and (max-width: 980px) {
+  #rec14069711 .t228__leftcontainer{
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 980px) {
+  #rec14069711 .t228__imglogo{
+    padding: 20px 0;
+  }
+}
+</style> 
+    <script type="text/javascript">
+    
+      $(document).ready(function() {
+        t228_highlight();
+        
+                t228_checkAnchorLinks('14069711');
+                        
+      }); 
+    
+
+    
+    $(window).resize(function() {
+      t228_setWidth('14069711');
+    });
+    $(window).load(function() {
+      t228_setWidth('14069711');
+    });
+    $(document).ready(function() {
+      t228_setWidth('14069711');
+    });        
+    
+ 
+
+
+$(window).resize(function() {
+    t228_setBg('14069711');
+});
+$(document).ready(function() {
+    t228_setBg('14069711');
+});     
+
+
+
+
+</script> 
+    <script type="text/javascript">
+      
+        $(document).ready(function() {
+            t228_createMobileMenu('14069711');
+        }); 
+    
+</script> 
+    <!--[if IE 8]>
+<style>
+#rec14069711 .t228 {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D9000000', endColorstr='#D9000000');
+}
+</style>
+<![endif]--> 
+   </div> 
+  </div> 
+  <!--/header--> 
+  <div id="rec13410854" class="r t-rec" style=" " data-animationappear="off" data-record-type="205"> 
+   <!-- cover --> 
+   <div class="t-cover" id="recorddiv13410854" bgimgfield="img" style="height:100vh; background-image:-webkit-linear-gradient(top, #ccc, #777); background-image:-moz-linear-gradient(top, #ccc, #777); background-image:-o-linear-gradient(top, #ccc, #777); background-image:-ms-linear-gradient(top, #ccc, #777); background-image:linear-gradient(top, #ccc, #777); "> 
+    <div class="t-cover__carrier" id="coverCarry13410854" data-content-cover-id="13410854" data-content-cover-bg="https://static.tildacdn.com/tild6238-3264-4164-b165-343137366330/13502998_1723559287884702_8475319325670670635_o.jpg" data-content-cover-height="100vh" data-content-cover-parallax="fixed" style="background-image:url('https://static.tildacdn.com/tild6238-3264-4164-b165-343137366330/13502998_1723559287884702_8475319325670670635_o.jpg');height:100vh; "></div> 
+    <div class="t-cover__filter" style="height:100vh;background-image: -moz-linear-gradient(top, rgba(133,96,96,0.20), rgba(166,153,136,0.90));background-image: -webkit-linear-gradient(top, rgba(133,96,96,0.20), rgba(166,153,136,0.90));background-image: -o-linear-gradient(top, rgba(133,96,96,0.20), rgba(166,153,136,0.90));background-image: -ms-linear-gradient(top, rgba(133,96,96,0.20), rgba(166,153,136,0.90));background-image: linear-gradient(top, rgba(133,96,96,0.20), rgba(166,153,136,0.90));filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#cc856060', endColorstr='#19a69988');"></div> 
+    <div class="t-container"> 
+     <div class="t-width t-width_10" style="margin:0 auto;"> 
+      <div class="t-cover__wrapper t-valign_middle" style="height:100vh; position: relative;z-index:1;"> 
+       <div class="t182"> 
+        <div data-hook-content="covercontent"> 
+         <div class="t182__wrapper"> 
+          <h1 class="t182__title t-title t-title_xl" style="" field="title">
+           <div style="font-size:52px;" data-customstyle="yes">
+            Более 5000 инженеров, экспертов и предпринимателей
+            <br>уже в AI Community
+           </div></h1> 
+          <div class="t182__descr t-descr t-descr_lg" style="opacity:0.70;" field="descr">
+           <div style="font-size:30px;" data-customstyle="yes">
+            Будь в курсе последних новостей рынка.
+            <br>Получай советы от экспертов в чате.
+            <br>Общайся с экспертами на митапах и конференциях.
+            <br>Узнавай об интересных задачах и хакатонах.
+            <br>Найди себе ментора и инвестора.
+            <br>Действуй!
+           </div>
+          </div> 
+          <div class="t182__buttons"> 
+           <a href="/join" target="_blank" class="t-btn  " style="color:#ffffff;background-color:#199c68;">
+            <table style="width:100%; height:100%;">
+             <tbody>
+              <tr>
+               <td>Присоединиться сейчас</td>
+              </tr>
+             </tbody>
+            </table></a> 
+           <a href="http://www.ai-community.com/teams" target="_blank" class="t-btn  " style="color:#000000;background-color:#e0e0e0;">
+            <table style="width:100%; height:100%;">
+             <tbody>
+              <tr>
+               <td>Есть AI команда или стартап?</td>
+              </tr>
+             </tbody>
+            </table></a> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec14049415" class="r t-rec t-rec_pt_150 t-rec_pb_45" style="padding-top:150px;padding-bottom:45px; " data-record-type="490"> 
+   <!-- t490 --> 
+   <div class="t490"> 
+    <div class="t-container"> 
+     <div class="t490__col t-col t-col_4 t-align_center t-item"> 
+      <div class="t490__wrappercenter "> 
+       <div class="t-heading t-heading_md" style="" field="li_title__1476968690512">
+        Data Science
+       </div> 
+      </div> 
+     </div> 
+     <div class="t490__col t-col t-col_4 t-align_center t-item"> 
+      <div class="t490__wrappercenter "> 
+       <div class="t-heading t-heading_md" style="" field="li_title__1476968700508">
+        Machine Learning
+       </div> 
+      </div> 
+     </div> 
+     <div class="t490__col t-col t-col_4 t-align_center t-item"> 
+      <div class="t490__wrappercenter "> 
+       <div class="t-heading t-heading_md" style="" field="li_title__1476968722790">
+        Neural Networks
+       </div> 
+      </div> 
+     </div> 
+     <div class="t-clear t490__separator" style=""></div> 
+     <div class="t490__col t-col t-col_4 t-align_center t-item"> 
+      <div class="t490__wrappercenter "> 
+       <div class="t-heading t-heading_md" style="" field="li_title__1486191143879">
+        Computer Vision
+       </div> 
+      </div> 
+     </div> 
+     <div class="t490__col t-col t-col_4 t-align_center t-item"> 
+      <div class="t490__wrappercenter "> 
+       <div class="t-heading t-heading_md" style="" field="li_title__1486191166816">
+        Big Data
+       </div> 
+      </div> 
+     </div> 
+     <div class="t490__col t-col t-col_4 t-align_center t-item"> 
+      <div class="t490__wrappercenter "> 
+       <div class="t-heading t-heading_md" style="" field="li_title__1486191155702">
+        Chatbots
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="t-section__container t-container"> 
+     <div class="t-col t-col_12"> 
+      <div class="t-section__bottomwrapper t-clear t-align_center "> 
+       <a href="/join" target="_blank" class="t-btn" style="color:#ffffff;background-color:#199c68;border-radius:30px; -moz-border-radius:30px; -webkit-border-radius:30px;">
+        <table style="width:100%; height:100%;">
+         <tbody>
+          <tr>
+           <td>Присоединиться к нам сейчас</td>
+          </tr>
+         </tbody>
+        </table></a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec15418400" class="r t-rec t-rec_pt_60 t-rec_pb_60" style="padding-top:60px;padding-bottom:60px; " data-record-type="30"> 
+   <!-- T015 --> 
+   <div class="t015"> 
+    <div class="t-container t-align_center"> 
+     <div class="t-col t-col_10 t-prefix_1"> 
+      <div class="t015__title t-title t-title_lg" field="title" style="">
+       <div style="font-size:40px;" data-customstyle="yes">
+        <strong>За последний год мы провели 7 хакатонов, 15 митапов и конференций, 3 экспертных сессии</strong>
+       </div>
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec14049447" class="r t-rec t-rec_pt_0 t-rec_pb_0" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="552"> 
+   <!-- t552--> 
+   <div class="t552"> 
+    <div class="t552__container t-container_100 "> 
+     <div class="t552__tile t552__tile_25" itemscope itemtype="http://schema.org/ImageObject"> 
+      <div class="t552__blockimg t552__blockimg_animated t-bgimg" bgimgfield="gi_img__0" data-zoom-target="0" data-zoomable="yes" data-img-zoom-url="https://static.tildacdn.com/tild3339-3766-4837-a439-666130616664/13559169_1723558437884787_7526494916173239949_o.jpg" data-original="https://static.tildacdn.com/tild3339-3766-4837-a439-666130616664/13559169_1723558437884787_7526494916173239949_o.jpg" style="background: url('https://static.tildacdn.com/tild3339-3766-4837-a439-666130616664/13559169_1723558437884787_7526494916173239949_o.jpg') center center no-repeat; background-size:cover; height:18.75vw;">
+       <meta itemprop="image" content="https://static.tildacdn.com/tild3339-3766-4837-a439-666130616664/13559169_1723558437884787_7526494916173239949_o.jpg">
+      </div> 
+     </div> 
+     <div class="t552__tile t552__tile_25" itemscope itemtype="http://schema.org/ImageObject"> 
+      <div class="t552__blockimg t552__blockimg_animated t-bgimg" bgimgfield="gi_img__1" data-zoom-target="1" data-zoomable="yes" data-img-zoom-url="https://static.tildacdn.com/tild3262-3133-4164-b932-313036306136/0030.jpg" data-original="https://static.tildacdn.com/tild3262-3133-4164-b932-313036306136/0030.jpg" style="background: url('https://static.tildacdn.com/tild3262-3133-4164-b932-313036306136/0030.jpg') center center no-repeat; background-size:cover; height:18.75vw;">
+       <meta itemprop="image" content="https://static.tildacdn.com/tild3262-3133-4164-b932-313036306136/0030.jpg">
+      </div> 
+     </div> 
+     <div class="t552__tile t552__tile_25" itemscope itemtype="http://schema.org/ImageObject"> 
+      <div class="t552__blockimg t552__blockimg_animated t-bgimg" bgimgfield="gi_img__2" data-zoom-target="2" data-zoomable="yes" data-img-zoom-url="https://static.tildacdn.com/tild3663-3765-4235-b633-353532643061/0099.jpg" data-original="https://static.tildacdn.com/tild3663-3765-4235-b633-353532643061/0099.jpg" style="background: url('https://static.tildacdn.com/tild3663-3765-4235-b633-353532643061/0099.jpg') center center no-repeat; background-size:cover; height:18.75vw;">
+       <meta itemprop="image" content="https://static.tildacdn.com/tild3663-3765-4235-b633-353532643061/0099.jpg">
+      </div> 
+     </div> 
+     <div class="t552__tile t552__tile_25" itemscope itemtype="http://schema.org/ImageObject"> 
+      <div class="t552__blockimg t552__blockimg_animated t-bgimg" bgimgfield="gi_img__3" data-zoom-target="3" data-zoomable="yes" data-img-zoom-url="https://static.tildacdn.com/tild6666-3036-4765-b230-613666333938/IMG_3553.JPG" data-original="https://static.tildacdn.com/tild6666-3036-4765-b230-613666333938/IMG_3553.JPG" style="background: url('https://static.tildacdn.com/tild6666-3036-4765-b230-613666333938/IMG_3553.JPG') center center no-repeat; background-size:cover; height:18.75vw;">
+       <meta itemprop="image" content="https://static.tildacdn.com/tild6666-3036-4765-b230-613666333938/IMG_3553.JPG">
+      </div> 
+     </div> 
+     <div class="t552__tile t552__tile_25" itemscope itemtype="http://schema.org/ImageObject"> 
+      <div class="t552__blockimg t552__blockimg_animated t-bgimg" bgimgfield="gi_img__4" data-zoom-target="4" data-zoomable="yes" data-img-zoom-url="https://static.tildacdn.com/tild3637-6336-4665-a431-333066643236/20160625160745.jpg" data-original="https://static.tildacdn.com/tild3637-6336-4665-a431-333066643236/20160625160745.jpg" style="background: url('https://static.tildacdn.com/tild3637-6336-4665-a431-333066643236/20160625160745.jpg') center center no-repeat; background-size:cover; height:18.75vw;">
+       <meta itemprop="image" content="https://static.tildacdn.com/tild3637-6336-4665-a431-333066643236/20160625160745.jpg">
+      </div> 
+     </div> 
+     <div class="t552__tile t552__tile_25" itemscope itemtype="http://schema.org/ImageObject"> 
+      <div class="t552__blockimg t552__blockimg_animated t-bgimg" bgimgfield="gi_img__5" data-zoom-target="5" data-zoomable="yes" data-img-zoom-url="https://static.tildacdn.com/tild3163-3131-4831-a161-353735346262/13495513_1002068139901646_3316285263772910960_o.jpg" data-original="https://static.tildacdn.com/tild3163-3131-4831-a161-353735346262/13495513_1002068139901646_3316285263772910960_o.jpg" style="background: url('https://static.tildacdn.com/tild3163-3131-4831-a161-353735346262/13495513_1002068139901646_3316285263772910960_o.jpg') center center no-repeat; background-size:cover; height:18.75vw;">
+       <meta itemprop="image" content="https://static.tildacdn.com/tild3163-3131-4831-a161-353735346262/13495513_1002068139901646_3316285263772910960_o.jpg">
+      </div> 
+     </div> 
+     <div class="t552__tile t552__tile_25" itemscope itemtype="http://schema.org/ImageObject"> 
+      <div class="t552__blockimg t552__blockimg_animated t-bgimg" bgimgfield="gi_img__6" data-zoom-target="6" data-zoomable="yes" data-img-zoom-url="https://static.tildacdn.com/tild6262-3463-4132-a264-346333643530/13482880_1002060589902401_4015177510023047656_o.jpg" data-original="https://static.tildacdn.com/tild6262-3463-4132-a264-346333643530/13482880_1002060589902401_4015177510023047656_o.jpg" style="background: url('https://static.tildacdn.com/tild6262-3463-4132-a264-346333643530/13482880_1002060589902401_4015177510023047656_o.jpg') center center no-repeat; background-size:cover; height:18.75vw;">
+       <meta itemprop="image" content="https://static.tildacdn.com/tild6262-3463-4132-a264-346333643530/13482880_1002060589902401_4015177510023047656_o.jpg">
+      </div> 
+     </div> 
+     <div class="t552__tile t552__tile_25" itemscope itemtype="http://schema.org/ImageObject"> 
+      <div class="t552__blockimg t552__blockimg_animated t-bgimg" bgimgfield="gi_img__7" data-zoom-target="7" data-zoomable="yes" data-img-zoom-url="https://static.tildacdn.com/tild6538-3263-4061-a464-326134383062/20160918145831.jpg" data-original="https://static.tildacdn.com/tild6538-3263-4061-a464-326134383062/20160918145831.jpg" style="background: url('https://static.tildacdn.com/tild6538-3263-4061-a464-326134383062/20160918145831.jpg') center center no-repeat; background-size:cover; height:18.75vw;">
+       <meta itemprop="image" content="https://static.tildacdn.com/tild6538-3263-4061-a464-326134383062/20160918145831.jpg">
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <script type="text/javascript">
+
+    $(document).ready(function() {
+      setTimeout(function() {
+        t552_init('14049447','0.75');     
+      }, 500);
+    });
+    $('.t552').bind('displayChanged',function(){
+      t552_init('14049447','0.75');
+    });
+
+</script> 
+  </div> 
+  <div id="rec14675012" class="r t-rec t-rec_pt_0 t-rec_pb_0" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="552"> 
+   <!-- t552--> 
+   <div class="t552"> 
+    <div class="t552__container t-container_100 "> 
+     <div class="t552__tile t552__tile_25" itemscope itemtype="http://schema.org/ImageObject"> 
+      <div class="t552__blockimg t552__blockimg_animated t-bgimg" bgimgfield="gi_img__0" data-zoom-target="0" data-zoomable="yes" data-img-zoom-url="https://static.tildacdn.com/tild6239-3865-4564-a338-626337616533/IMG_20160531180248.jpg" data-original="https://static.tildacdn.com/tild6239-3865-4564-a338-626337616533/IMG_20160531180248.jpg" style="background: url('https://static.tildacdn.com/tild6239-3865-4564-a338-626337616533/IMG_20160531180248.jpg') center center no-repeat; background-size:cover; height:18.75vw;">
+       <meta itemprop="image" content="https://static.tildacdn.com/tild6239-3865-4564-a338-626337616533/IMG_20160531180248.jpg">
+      </div> 
+     </div> 
+     <div class="t552__tile t552__tile_25" itemscope itemtype="http://schema.org/ImageObject"> 
+      <div class="t552__blockimg t552__blockimg_animated t-bgimg" bgimgfield="gi_img__1" data-zoom-target="1" data-zoomable="yes" data-img-zoom-url="https://static.tildacdn.com/tild3730-3438-4462-b639-376234343434/IMG_20160521175402.jpg" data-original="https://static.tildacdn.com/tild3730-3438-4462-b639-376234343434/IMG_20160521175402.jpg" style="background: url('https://static.tildacdn.com/tild3730-3438-4462-b639-376234343434/IMG_20160521175402.jpg') center center no-repeat; background-size:cover; height:18.75vw;">
+       <meta itemprop="image" content="https://static.tildacdn.com/tild3730-3438-4462-b639-376234343434/IMG_20160521175402.jpg">
+      </div> 
+     </div> 
+     <div class="t552__tile t552__tile_25" itemscope itemtype="http://schema.org/ImageObject"> 
+      <div class="t552__blockimg t552__blockimg_animated t-bgimg" bgimgfield="gi_img__2" data-zoom-target="2" data-zoomable="yes" data-img-zoom-url="https://static.tildacdn.com/tild3639-6664-4637-b766-653733356633/1_126A4731.JPG" data-original="https://static.tildacdn.com/tild3639-6664-4637-b766-653733356633/1_126A4731.JPG" style="background: url('https://static.tildacdn.com/tild3639-6664-4637-b766-653733356633/1_126A4731.JPG') center center no-repeat; background-size:cover; height:18.75vw;">
+       <meta itemprop="image" content="https://static.tildacdn.com/tild3639-6664-4637-b766-653733356633/1_126A4731.JPG">
+      </div> 
+     </div> 
+     <div class="t552__tile t552__tile_25" itemscope itemtype="http://schema.org/ImageObject"> 
+      <div class="t552__blockimg t552__blockimg_animated t-bgimg" bgimgfield="gi_img__3" data-zoom-target="3" data-zoomable="yes" data-img-zoom-url="https://static.tildacdn.com/tild3939-3965-4033-b434-366131653336/20161013154554.jpg" data-original="https://static.tildacdn.com/tild3939-3965-4033-b434-366131653336/20161013154554.jpg" style="background: url('https://static.tildacdn.com/tild3939-3965-4033-b434-366131653336/20161013154554.jpg') center center no-repeat; background-size:cover; height:18.75vw;">
+       <meta itemprop="image" content="https://static.tildacdn.com/tild3939-3965-4033-b434-366131653336/20161013154554.jpg">
+      </div> 
+     </div> 
+     <div class="t552__tile t552__tile_25" itemscope itemtype="http://schema.org/ImageObject"> 
+      <div class="t552__blockimg t552__blockimg_animated t-bgimg" bgimgfield="gi_img__4" data-zoom-target="4" data-zoomable="yes" data-img-zoom-url="https://static.tildacdn.com/tild6465-3835-4638-a430-633038656366/4_126A5711.JPG" data-original="https://static.tildacdn.com/tild6465-3835-4638-a430-633038656366/4_126A5711.JPG" style="background: url('https://static.tildacdn.com/tild6465-3835-4638-a430-633038656366/4_126A5711.JPG') center center no-repeat; background-size:cover; height:18.75vw;">
+       <meta itemprop="image" content="https://static.tildacdn.com/tild6465-3835-4638-a430-633038656366/4_126A5711.JPG">
+      </div> 
+     </div> 
+     <div class="t552__tile t552__tile_25" itemscope itemtype="http://schema.org/ImageObject"> 
+      <div class="t552__blockimg t552__blockimg_animated t-bgimg" bgimgfield="gi_img__5" data-zoom-target="5" data-zoomable="yes" data-img-zoom-url="https://static.tildacdn.com/tild6462-3436-4636-b664-656563363866/IMG_4789.jpg" data-original="https://static.tildacdn.com/tild6462-3436-4636-b664-656563363866/IMG_4789.jpg" style="background: url('https://static.tildacdn.com/tild6462-3436-4636-b664-656563363866/IMG_4789.jpg') center center no-repeat; background-size:cover; height:18.75vw;">
+       <meta itemprop="image" content="https://static.tildacdn.com/tild6462-3436-4636-b664-656563363866/IMG_4789.jpg">
+      </div> 
+     </div> 
+     <div class="t552__tile t552__tile_25" itemscope itemtype="http://schema.org/ImageObject"> 
+      <div class="t552__blockimg t552__blockimg_animated t-bgimg" bgimgfield="gi_img__6" data-zoom-target="6" data-zoomable="yes" data-img-zoom-url="https://static.tildacdn.com/tild3236-3564-4162-b235-333731313839/20170204134142copy.jpg" data-original="https://static.tildacdn.com/tild3236-3564-4162-b235-333731313839/20170204134142copy.jpg" style="background: url('https://static.tildacdn.com/tild3236-3564-4162-b235-333731313839/20170204134142copy.jpg') center center no-repeat; background-size:cover; height:18.75vw;">
+       <meta itemprop="image" content="https://static.tildacdn.com/tild3236-3564-4162-b235-333731313839/20170204134142copy.jpg">
+      </div> 
+     </div> 
+     <div class="t552__tile t552__tile_25" itemscope itemtype="http://schema.org/ImageObject"> 
+      <div class="t552__blockimg t552__blockimg_animated t-bgimg" bgimgfield="gi_img__7" data-zoom-target="7" data-zoomable="yes" data-img-zoom-url="https://static.tildacdn.com/tild3062-3636-4433-b132-663835643135/IMG_4834.jpg" data-original="https://static.tildacdn.com/tild3062-3636-4433-b132-663835643135/IMG_4834.jpg" style="background: url('https://static.tildacdn.com/tild3062-3636-4433-b132-663835643135/IMG_4834.jpg') center center no-repeat; background-size:cover; height:18.75vw;">
+       <meta itemprop="image" content="https://static.tildacdn.com/tild3062-3636-4433-b132-663835643135/IMG_4834.jpg">
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <script type="text/javascript">
+
+    $(document).ready(function() {
+      setTimeout(function() {
+        t552_init('14675012','0.75');     
+      }, 500);
+    });
+    $('.t552').bind('displayChanged',function(){
+      t552_init('14675012','0.75');
+    });
+
+</script> 
+  </div> 
+  <div id="rec14483037" class="r t-rec" style=" " data-record-type="215"> 
+   <a name="philosophy" style="font-size:0;"></a> 
+  </div> 
+  <div id="rec14058090" class="r t-rec t-rec_pt_105 t-rec_pb_135" style="padding-top:105px;padding-bottom:135px; " data-record-type="176"> 
+   <div class="item active" style=""> 
+    <!-- T161--> 
+    <div class="t161"> 
+     <div class="t-container_10"> 
+      <div class="t-row"> 
+       <div class="t-col t-col_2 t161__blockimgthumb"> 
+        <img class="t161__img t-img" src="https://static.tildacdn.com/tild3133-3963-4631-a664-656433333665/__new_2_.jpg" imgfield="img" alt=""> 
+       </div> 
+       <div class="t-col t-col_8 t161__wrapper"> 
+        <div class="t161__textwrapper"> 
+         <div class="t161__text t-text t-text_md" field="text">
+          Привет!
+          <br>
+          <br>У нас лучшие разработчики и инженеры, занимающиеся технологиями искусственного интеллекта.
+          <br>
+          <br>На наших глазах происходят 
+          <strong>радикальные изменения</strong> ИТ-индустрии, когда в один момент мы получили доступ к сверх-мощностям, эффективным алгоритмам и достаточному кол-ву накопленных данных для реального машинного обучения.
+          <br>
+          <br>Мы стали на шаг ближе к проникновению 
+          <strong>искусственного интеллекта</strong> в нашу жизнь.
+          <br>
+          <br>Именно поэтому появилось 
+          <strong>сообщество по искусственному интеллекту</strong>, которое дает каждому из нас доступ к знаниям, экспертизе и нетворкингу.
+          <br>
+          <br>Есть идеи или предложения? Буду рад 
+          <a href="http://m.me/pavdoronin" target="_blank" style="">пообщаться</a> с тобой!
+         </div> 
+         <div class="t161__title t-name t-name_sm" field="title">
+          Павел Доронин
+         </div> 
+         <div class="t161__descr t-descr t-descr_xxs" field="descr">
+          Основатель сообщества 
+          <a href="http://www.ai-community.com/">AI Community</a>, входящего в экосистему 
+          <a href="http://www.aitoday.ru/">AI Today</a>
+          <br>
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec14049530" class="r t-rec" style=" " data-animationappear="off" data-record-type="205"> 
+   <!-- cover --> 
+   <div class="t-cover" id="recorddiv14049530" bgimgfield="img" style="height:100vh; background-image:-webkit-linear-gradient(top, #ccc, #777); background-image:-moz-linear-gradient(top, #ccc, #777); background-image:-o-linear-gradient(top, #ccc, #777); background-image:-ms-linear-gradient(top, #ccc, #777); background-image:linear-gradient(top, #ccc, #777); "> 
+    <div class="t-cover__carrier" id="coverCarry14049530" data-content-cover-id="14049530" data-content-cover-bg="https://static.tildacdn.com/tild3965-6136-4638-b338-333064306665/1200801.jpeg" data-content-cover-height="100vh" data-content-cover-parallax="fixed" style="background-image:url('https://static.tildacdn.com/tild3965-6136-4638-b338-333064306665/1200801.jpeg');height:100vh; "></div> 
+    <div class="t-cover__filter" style="height:100vh;background-image: -moz-linear-gradient(top, rgba(133,96,96,0.20), rgba(166,153,136,0.90));background-image: -webkit-linear-gradient(top, rgba(133,96,96,0.20), rgba(166,153,136,0.90));background-image: -o-linear-gradient(top, rgba(133,96,96,0.20), rgba(166,153,136,0.90));background-image: -ms-linear-gradient(top, rgba(133,96,96,0.20), rgba(166,153,136,0.90));background-image: linear-gradient(top, rgba(133,96,96,0.20), rgba(166,153,136,0.90));filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#cc856060', endColorstr='#19a69988');"></div> 
+    <div class="t-container"> 
+     <div class="t-width t-width_10" style="margin:0 auto;"> 
+      <div class="t-cover__wrapper t-valign_middle" style="height:100vh; position: relative;z-index:1;"> 
+       <div class="t182"> 
+        <div data-hook-content="covercontent"> 
+         <div class="t182__wrapper"> 
+          <div class="t182__title t-title t-title_xl" style="" field="title">
+           У тебя AI команда или стартап?
+          </div> 
+          <div class="t182__descr t-descr t-descr_lg" style="opacity:0.70;" field="descr">
+           Подпади в закрытую рассылку и узнавай раньше других про: интересные Data Science задачи от больших компаний, заказы на разработку, митапы и хакатоны, предложения об инвестициях, помощь экспертов и менторов, и многое другое!
+          </div> 
+          <div class="t182__buttons"> 
+           <a href="http://www.ai-community.com/teams" target="_blank" class="t-btn  " style="color:#ffffff;background-color:#199c68;">
+            <table style="width:100%; height:100%;">
+             <tbody>
+              <tr>
+               <td>Зарегистрировать команду или стартап</td>
+              </tr>
+             </tbody>
+            </table></a> 
+           <a href="http://www.ai-community.com/alone" target="_blank" class="t-btn  " style="color:#000000;background-color:#e0e0e0;">
+            <table style="width:100%; height:100%;">
+             <tbody>
+              <tr>
+               <td>Я один, хочу в команду</td>
+              </tr>
+             </tbody>
+            </table></a> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec14484259" class="r t-rec t-rec_pt_75 t-rec_pb_30" style="padding-top:75px;padding-bottom:30px; " data-record-type="504"> 
+   <!-- t504 --> 
+   <style type="text/css">
+  
+    @media screen and (max-width: 960px) {
+      #rec14484259 .t504__line {
+      	height:;
+      }
+    }
+  
+</style> 
+   <div class="t504"> 
+    <div class="t-section__container t-container"> 
+     <div class="t-col t-col_12"> 
+      <div class="t-section__topwrapper t-align_center"> 
+       <div class="t-section__title t-title t-title_xs" field="btitle">
+        ТРИ причины прийти на наш ежемесячный Global AI Meetup
+       </div> 
+       <div class="t-section__descr t-descr t-descr_xl t-margin_auto" field="bdescr">
+        Помимо того, что все наши встречи проходят в веселой и неформальной обстановке;)
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="t-container"> 
+     <div class="t504__col t-col t-col_4 t-align_center t-item"> 
+      <div class="t504__col-wrapper_fisrt t504__col-wrapper"> 
+       <img src="https://static.tildacdn.com/tild3037-3864-4437-a237-666631316162/574839200.png" class="t504__img  t-img" imgfield="img"> 
+       <div class="t504__title t-name t-name_xl" style="" field="title">
+        Живое общение с экспертами, получи нужные ответы
+       </div> 
+       <div class="t504__descr t-descr t-descr_sm" style="" field="descr">
+        Все наши встречи проходят в открытом формате. Ты можешь задавать любые вопросы. 
+        <a href="https://t.me/joinchat/AAAAAD374_yH2OwkbKpm4w" target="_blank" style="" rel="">Посмотри, какие вопросы задают прямо сейчас в чате &gt;&gt;</a>
+       </div> 
+      </div> 
+     </div> 
+     <div class="t504__col t-col t-col_4 t-align_center t-item"> 
+      <div class="t504__line" style="width: ; background: #d1d1d1;"></div> 
+      <div class=" t504__col-wrapper"> 
+       <img src="https://static.tildacdn.com/tild6232-3037-4365-b863-666538373737/728392200.png" class="t504__img  t-img" imgfield="img2"> 
+       <div class="t504__title t-name t-name_xl" style="" field="title2">
+        Контент из первых рук, только от экспертов-практиков
+       </div> 
+       <div class="t504__descr t-descr t-descr_sm" style="" field="descr2">
+        Фокус митапов всегда на реальные бизнес-кейсы, чтобы можно было вынести для себя конкретную и практическую пользу для своего проекта или бизнеса. 
+        <a href="https://telegram.me/joinchat/ABI4pz7v7KfJhb12XIkIUA">Посмотри, какие кейсы обсуждаются прямо сейчас</a>
+        <br>
+       </div> 
+      </div> 
+     </div> 
+     <div class="t504__col t-col t-col_4 t-align_center t-item"> 
+      <div class="t504__line" style="width: ; background: #d1d1d1;"></div> 
+      <div class=" t504__col-wrapper"> 
+       <img src="https://static.tildacdn.com/tild3331-3735-4934-b664-623630343338/690980200.png" class="t504__img  t-img" imgfield="img3"> 
+       <div class="t504__title t-name t-name_xl" style="" field="title3">
+        Нетворкинг на 50+ новых партнеров, продолжай общение с ними в наших чатах 
+        <br>
+       </div> 
+       <div class="t504__descr t-descr t-descr_sm" style="" field="descr3">
+        У нас несколько тематических чатов и каналов. В некоторых уже более 1000 участников! 
+        <a href="/join" target="_blank" style="" rel="">Зарегистрируйся и получи доступ ко всем чатам AI Community, прямо сейчас &gt;&gt;</a>
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="t-section__container t-container"> 
+     <div class="t-col t-col_12"> 
+      <div class="t-section__bottomwrapper t-clear t-align_center "> 
+       <a href="/3-global-ai-meetup-nlp-technologies" target="_blank" class="t-btn" style="color:#ffffff;background-color:#199c68;border-radius:30px; -moz-border-radius:30px; -webkit-border-radius:30px;">
+        <table style="width:100%; height:100%;">
+         <tbody>
+          <tr>
+           <td>Посмотреть, как проходят наши митапы</td>
+          </tr>
+         </tbody>
+        </table></a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <script type="text/javascript">
+
+  $(document).ready(function() {
+    
+    t504_unifyHeights('14484259');
+  });
+
+  var t504__doResize;
+  $(window).resize(function(){
+    clearTimeout(t504__doResize);
+    t504__doResize = setTimeout(function() {
+    t504_unifyHeights('14484259');
+    }, 200);
+  });
+
+  $(window).load(function() {
+    t504_unifyHeights('14484259');
+  });
+
+  $('.t504').bind('displayChanged',function(){
+    t504_unifyHeights('14484259');
+  });
+
+</script> 
+  </div> 
+  <div id="rec15418403" class="r t-rec t-rec_pt_60 t-rec_pb_60" style="padding-top:60px;padding-bottom:60px; " data-record-type="30"> 
+   <!-- T015 --> 
+   <div class="t015"> 
+    <div class="t-container t-align_center"> 
+     <div class="t-col t-col_10 t-prefix_1"> 
+      <div class="t015__title t-title t-title_lg" field="title" style="">
+       <div style="font-size:40px;" data-customstyle="yes">
+        <strong><strong data-redactor-tag="strong">Что говорят члены AI Community о наших митапах</strong></strong>
+       </div>
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec14484299" class="r t-rec t-rec_pt_0 t-rec_pb_0" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="335"> 
+   <!-- T335 --> 
+   <div class="t335"> 
+    <div class="t-container_100"> 
+     <div class="t335__col t-cell t-cell_33 t-align_center t335__show_hover"> 
+      <a href="#popup:youtubevideo1" target=""> 
+       <div class="t335__table" style=""> 
+        <div class="t335__cell t-align_center t-valign_middle"> 
+         <div class="t335__bg t335__animation_fast t335__bg_animated t-bgimg" bgimgfield="img" data-original="https://static.tildacdn.com/tild3038-3833-4363-b537-396539383933/noroot.png" style="background-image:url('https://static.tildacdn.com/tild3038-3833-4363-b537-396539383933/noroot.png');"></div> 
+         <div class="t335__overlay t335__animation_fast" data-tu-ondrag-hide="yes" style="background-image: -moz-linear-gradient(top, rgba(0,0,0,0.60), rgba(0,0,0,0.60)); background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.60), rgba(0,0,0,0.60)); background-image: -o-linear-gradient(top, rgba(0,0,0,0.60), rgba(0,0,0,0.60)); background-image: -ms-linear-gradient(top, rgba(0,0,0,0.60), rgba(0,0,0,0.60));"></div> 
+         <div class="t335__textwrapper t335__animation_fast t335__textwrapper_animated"> 
+          <div class="t335__textwrapper__content"> 
+           <img class="t335__img t-img" style="margin-bottom: 20px;" src="https://static.tildacdn.com/tild3335-6161-4432-b263-306339376339/AI_Community_Logo_Round_White.png" alt=""> 
+           <div class="t335__title t-name t-name_xl" field="title">
+            Иван, разработчик, Москва
+           </div> 
+           <div class="t335__text t-descr t-descr_xs" field="text">
+            "Надо приходить еще и еще. Возможность реально уникальная, когда люди могут поделиться опытом друг с другом."
+           </div> 
+           <div class="t335__button-container"> 
+            <div class="t335__button-wrapper"> 
+             <div class="t335__submit t-btn t335__submit_middle" style="color:#000000;background-color:#ffffff;border-radius:30px; -moz-border-radius:30px; -webkit-border-radius:30px;">
+              Посмотреть отзыв
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> </a> 
+     </div> 
+     <div class="t335__col t-cell t-cell_33 t-align_center t335__show_hover"> 
+      <a href="#popup:youtubevideo2" target=""> 
+       <div class="t335__table" style=""> 
+        <div class="t335__cell t-align_center t-valign_middle"> 
+         <div class="t335__bg t335__animation_fast t335__bg_animated t-bgimg" bgimgfield="img2" data-original="https://static.tildacdn.com/tild3032-3835-4363-a235-373432646234/noroot.png" style="background-image:url('https://static.tildacdn.com/tild3032-3835-4363-a235-373432646234/noroot.png');"></div> 
+         <div class="t335__overlay t335__animation_fast" data-tu-ondrag-hide="yes" style="background-image: -moz-linear-gradient(top, rgba(0,0,0,0.60), rgba(0,0,0,0.60)); background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.60), rgba(0,0,0,0.60)); background-image: -o-linear-gradient(top, rgba(0,0,0,0.60), rgba(0,0,0,0.60)); background-image: -ms-linear-gradient(top, rgba(0,0,0,0.60), rgba(0,0,0,0.60));"></div> 
+         <div class="t335__textwrapper t335__animation_fast t335__textwrapper_animated"> 
+          <div class="t335__textwrapper__content"> 
+           <img class="t335__img t-img" style="margin-bottom: 20px;" src="https://static.tildacdn.com/tild3734-3762-4562-b132-623564333033/AI_Community_Logo_Round_White.png" alt=""> 
+           <div class="t335__title t-name t-name_xl" field="title2">
+            Мария, социолог, Москва
+           </div> 
+           <div class="t335__text t-descr t-descr_xs" field="text2">
+            "Я воодушевлена возможностью расширить линейку применяемых методов. Это очень полезно."
+           </div> 
+           <div class="t335__button-container"> 
+            <div class="t335__button-wrapper"> 
+             <div class="t335__submit t-btn t335__submit_middle" style="color:#000000;background-color:#ffffff;border-radius:30px; -moz-border-radius:30px; -webkit-border-radius:30px;">
+              Посмотреть отзыв
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> </a> 
+     </div> 
+     <div class="t335__col t-cell t-cell_33 t-align_center t335__show_hover"> 
+      <a href="#popup:youtubevideo3" target=""> 
+       <div class="t335__table" style=""> 
+        <div class="t335__cell t-align_center t-valign_middle"> 
+         <div class="t335__bg t335__animation_fast t335__bg_animated t-bgimg" bgimgfield="img3" data-original="https://static.tildacdn.com/tild3561-6162-4930-b634-633733623732/noroot.png" style="background-image:url('https://static.tildacdn.com/tild3561-6162-4930-b634-633733623732/noroot.png');"></div> 
+         <div class="t335__overlay t335__animation_fast" data-tu-ondrag-hide="yes" style="background-image: -moz-linear-gradient(top, rgba(0,0,0,0.60), rgba(0,0,0,0.60)); background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.60), rgba(0,0,0,0.60)); background-image: -o-linear-gradient(top, rgba(0,0,0,0.60), rgba(0,0,0,0.60)); background-image: -ms-linear-gradient(top, rgba(0,0,0,0.60), rgba(0,0,0,0.60));"></div> 
+         <div class="t335__textwrapper t335__animation_fast t335__textwrapper_animated"> 
+          <div class="t335__textwrapper__content"> 
+           <img class="t335__img t-img" style="margin-bottom: 20px;" src="https://static.tildacdn.com/tild6166-6365-4931-a434-366365313230/AI_Community_Logo_Round_White.png" alt=""> 
+           <div class="t335__title t-name t-name_xl" field="title3">
+            Иван, технолог, Москва
+           </div> 
+           <div class="t335__text t-descr t-descr_xs" field="text3">
+            "Меня интересует тема NLP. Я ей занимаюсь для себя, может, в будущем какой-то проект сделаю."
+           </div> 
+           <div class="t335__button-container"> 
+            <div class="t335__button-wrapper"> 
+             <div class="t335__submit t-btn t335__submit_middle" style="color:#000000;background-color:#ffffff;border-radius:30px; -moz-border-radius:30px; -webkit-border-radius:30px;">
+              Посмотреть отзыв
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> </a> 
+     </div> 
+    </div> 
+   </div> 
+   <script type="text/javascript">
+    $(document).ready(function() {
+        t335.initeffect('14484299');
+    }); 
+  
+</script> 
+  </div> 
+  <div id="rec17925012" class="r t-rec" style=" " data-animationappear="off" data-record-type="331"> 
+   <div class="t331 "> 
+    <div class="t-popup" data-tooltip-hook="#popup:youtubevideo1"> 
+     <div class="t-popup__close"> 
+      <div class="t-popup__close-wrapper"> 
+       <svg class="t-popup__close-icon" width="23px" height="23px" viewbox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+        <g stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd"> 
+         <rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect> 
+         <rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect> 
+        </g> 
+       </svg> 
+      </div> 
+     </div> 
+     <div class="t-popup__container t-width t-width_10"> 
+      <div class="t331__youtube" data-content-popup-video-url-youtube="XDNoceK-hQ8"> 
+       <div class="t331__video-carier t-width t-width_10" data-video-width="960" data-video-height="540" style="height:500px;"></div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <script type="text/javascript">
+$(document).ready(function(){
+  setTimeout(function(){
+    t331_initPopup('17925012');
+  }, 500);
+});
+</script> 
+  </div> 
+  <div id="rec17925017" class="r t-rec" style=" " data-animationappear="off" data-record-type="331"> 
+   <div class="t331 "> 
+    <div class="t-popup" data-tooltip-hook="#popup:youtubevideo2"> 
+     <div class="t-popup__close"> 
+      <div class="t-popup__close-wrapper"> 
+       <svg class="t-popup__close-icon" width="23px" height="23px" viewbox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+        <g stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd"> 
+         <rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect> 
+         <rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect> 
+        </g> 
+       </svg> 
+      </div> 
+     </div> 
+     <div class="t-popup__container t-width t-width_10"> 
+      <div class="t331__youtube" data-content-popup-video-url-youtube="2veHyjs7i1M"> 
+       <div class="t331__video-carier t-width t-width_10" data-video-width="960" data-video-height="540" style="height:500px;"></div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <script type="text/javascript">
+$(document).ready(function(){
+  setTimeout(function(){
+    t331_initPopup('17925017');
+  }, 500);
+});
+</script> 
+  </div> 
+  <div id="rec17925023" class="r t-rec" style=" " data-animationappear="off" data-record-type="331"> 
+   <div class="t331 "> 
+    <div class="t-popup" data-tooltip-hook="#popup:youtubevideo3"> 
+     <div class="t-popup__close"> 
+      <div class="t-popup__close-wrapper"> 
+       <svg class="t-popup__close-icon" width="23px" height="23px" viewbox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+        <g stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd"> 
+         <rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect> 
+         <rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect> 
+        </g> 
+       </svg> 
+      </div> 
+     </div> 
+     <div class="t-popup__container t-width t-width_10"> 
+      <div class="t331__youtube" data-content-popup-video-url-youtube="2A_uTn7Klrw"> 
+       <div class="t331__video-carier t-width t-width_10" data-video-width="960" data-video-height="540" style="height:500px;"></div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <script type="text/javascript">
+$(document).ready(function(){
+  setTimeout(function(){
+    t331_initPopup('17925023');
+  }, 500);
+});
+</script> 
+  </div> 
+  <div id="rec15496527" class="r t-rec" style=" " data-animationappear="off" data-record-type="205"> 
+   <!-- cover --> 
+   <div class="t-cover" id="recorddiv15496527" bgimgfield="img" style="height:100vh; background-image:-webkit-linear-gradient(top, #ccc, #777); background-image:-moz-linear-gradient(top, #ccc, #777); background-image:-o-linear-gradient(top, #ccc, #777); background-image:-ms-linear-gradient(top, #ccc, #777); background-image:linear-gradient(top, #ccc, #777); "> 
+    <div class="t-cover__carrier" id="coverCarry15496527" data-content-cover-id="15496527" data-content-cover-bg="https://static.tildacdn.com/tild3232-6362-4563-b838-333262626265/13559169_1723558437884787_7526494916173239949_o.jpg" data-content-cover-height="100vh" data-content-cover-parallax="fixed" style="background-image:url('https://static.tildacdn.com/tild3232-6362-4563-b838-333262626265/13559169_1723558437884787_7526494916173239949_o.jpg');height:100vh; "></div> 
+    <div class="t-cover__filter" style="height:100vh;background-image: -moz-linear-gradient(top, rgba(133,96,96,0.20), rgba(166,153,136,0.90));background-image: -webkit-linear-gradient(top, rgba(133,96,96,0.20), rgba(166,153,136,0.90));background-image: -o-linear-gradient(top, rgba(133,96,96,0.20), rgba(166,153,136,0.90));background-image: -ms-linear-gradient(top, rgba(133,96,96,0.20), rgba(166,153,136,0.90));background-image: linear-gradient(top, rgba(133,96,96,0.20), rgba(166,153,136,0.90));filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#cc856060', endColorstr='#19a69988');"></div> 
+    <div class="t-container"> 
+     <div class="t-width t-width_10" style="margin:0 auto;"> 
+      <div class="t-cover__wrapper t-valign_middle" style="height:100vh; position: relative;z-index:1;"> 
+       <div class="t182"> 
+        <div data-hook-content="covercontent"> 
+         <div class="t182__wrapper"> 
+          <h1 class="t182__title t-title t-title_xl" style="" field="title">Все мероприятия AI Community</h1> 
+          <div class="t182__descr t-descr t-descr_lg" style="opacity:0.70;" field="descr">
+           Мероприятия на тему искусственного интеллекта: митапы, хакатоны, конференции, тренинги и т.д.
+          </div> 
+          <div class="t182__buttons"> 
+           <a href="/events" target="_blank" class="t-btn  " style="color:#ffffff;background-color:#199c68;">
+            <table style="width:100%; height:100%;">
+             <tbody>
+              <tr>
+               <td>Посмотреть на афишу</td>
+              </tr>
+             </tbody>
+            </table></a> 
+           <a href="/join" target="_blank" class="t-btn  " style="color:#000000;background-color:#e0e0e0;">
+            <table style="width:100%; height:100%;">
+             <tbody>
+              <tr>
+               <td>Подписаться на анонсы</td>
+              </tr>
+             </tbody>
+            </table></a> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec15496535" class="r t-rec" style=" " data-animationappear="off" data-record-type="205"> 
+   <!-- cover --> 
+   <div class="t-cover" id="recorddiv15496535" bgimgfield="img" style="height:100vh; background-image:-webkit-linear-gradient(top, #ccc, #777); background-image:-moz-linear-gradient(top, #ccc, #777); background-image:-o-linear-gradient(top, #ccc, #777); background-image:-ms-linear-gradient(top, #ccc, #777); background-image:linear-gradient(top, #ccc, #777); "> 
+    <div class="t-cover__carrier" id="coverCarry15496535" data-content-cover-id="15496535" data-content-cover-bg="https://static.tildacdn.com/tild3836-3861-4134-a635-396438393331/testimonials1.jpg" data-content-cover-height="100vh" data-content-cover-parallax="fixed" style="background-image:url('https://static.tildacdn.com/tild3836-3861-4134-a635-396438393331/testimonials1.jpg');height:100vh; "></div> 
+    <div class="t-cover__filter" style="height:100vh;background-image: -moz-linear-gradient(top, rgba(0,0,0,0.20), rgba(0,0,0,0.70));background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.20), rgba(0,0,0,0.70));background-image: -o-linear-gradient(top, rgba(0,0,0,0.20), rgba(0,0,0,0.70));background-image: -ms-linear-gradient(top, rgba(0,0,0,0.20), rgba(0,0,0,0.70));background-image: linear-gradient(top, rgba(0,0,0,0.20), rgba(0,0,0,0.70));filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#cc000000', endColorstr='#4c000000');"></div> 
+    <div class="t-container"> 
+     <div class="t-width t-width_12" style="margin:0 auto;"> 
+      <div class="t-cover__wrapper t-valign_middle" style="height:100vh; position: relative;z-index:1;"> 
+       <div class="t182"> 
+        <div data-hook-content="covercontent"> 
+         <div class="t182__wrapper"> 
+          <div class="t182__title t-title t-title_xl" style="" field="title">
+           <div style="font-size:40px;" data-customstyle="yes">
+            Наши AI-эксперты могут быть полезны?
+            <br>Есть интересная задача для команд AI Community?
+           </div>
+          </div> 
+          <div class="t182__descr t-descr t-descr_lg" style="opacity:0.70;" field="descr">
+           У нас есть закрытая рассылка по командам AI Community.
+           <br>А также мы можем организовать хакатон, онлайн-конкурс, экспертную сессию, форсайт-сессию, ворк-шоп, тренинг, образовательный курс, аналитическое исследование и многое другое, где могут быть полезны эксперты AI Community
+          </div> 
+          <div class="t182__buttons"> 
+           <a href="/partner" target="_blank" class="t-btn  " style="color:#ffffff;background-color:#199c68;">
+            <table style="width:100%; height:100%;">
+             <tbody>
+              <tr>
+               <td>Подробнее</td>
+              </tr>
+             </tbody>
+            </table></a> 
+           <a href="/alone" target="_blank" class="t-btn  " style="color:#000000;background-color:#e0e0e0;">
+            <table style="width:100%; height:100%;">
+             <tbody>
+              <tr>
+               <td>Я эксперт, ищу проект</td>
+              </tr>
+             </tbody>
+            </table></a> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="rec14512302" class="r t-rec" style=" " data-animationappear="off" data-record-type="205"> 
+   <!-- cover --> 
+   <div class="t-cover" id="recorddiv14512302" bgimgfield="img" style="height:100vh; background-image:-webkit-linear-gradient(top, #ccc, #777); background-image:-moz-linear-gradient(top, #ccc, #777); background-image:-o-linear-gradient(top, #ccc, #777); background-image:-ms-linear-gradient(top, #ccc, #777); background-image:linear-gradient(top, #ccc, #777); "> 
+    <div class="t-cover__carrier" id="coverCarry14512302" data-content-cover-id="14512302" data-content-cover-bg="https://static.tildacdn.com/tild6235-3831-4936-b936-653436396136/img.jpeg" data-content-cover-height="100vh" data-content-cover-parallax="fixed" style="background-image:url('https://static.tildacdn.com/tild6235-3831-4936-b936-653436396136/img.jpeg');height:100vh; "></div> 
+    <div class="t-cover__filter" style="height:100vh;background-image: -moz-linear-gradient(top, rgba(133,96,96,0.20), rgba(166,153,136,0.90));background-image: -webkit-linear-gradient(top, rgba(133,96,96,0.20), rgba(166,153,136,0.90));background-image: -o-linear-gradient(top, rgba(133,96,96,0.20), rgba(166,153,136,0.90));background-image: -ms-linear-gradient(top, rgba(133,96,96,0.20), rgba(166,153,136,0.90));background-image: linear-gradient(top, rgba(133,96,96,0.20), rgba(166,153,136,0.90));filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#cc856060', endColorstr='#19a69988');"></div> 
+    <div class="t-container"> 
+     <div class="t-width t-width_10" style="margin:0 auto;"> 
+      <div class="t-cover__wrapper t-valign_middle" style="height:100vh; position: relative;z-index:1;"> 
+       <div class="t182"> 
+        <div data-hook-content="covercontent"> 
+         <div class="t182__wrapper"> 
+          <div class="t182__title t-title t-title_xl" style="" field="title">
+           Вакансии AI Community
+          </div> 
+          <div class="t182__descr t-descr t-descr_lg" style="opacity:0.70;" field="descr">
+           Интересные вакансии AI Community из мира искусственного интеллекта.
+          </div> 
+          <div class="t182__buttons"> 
+           <a href="/jobs" target="_blank" class="t-btn  " style="color:#ffffff;background-color:#199c68;">
+            <table style="width:100%; height:100%;">
+             <tbody>
+              <tr>
+               <td>Посмотреть вакансии</td>
+              </tr>
+             </tbody>
+            </table></a> 
+           <a href="https://t.me/joinchat/AAAAAD-Ox6JbUph6mOEQ6w" target="_blank" class="t-btn  " style="color:#000000;background-color:#e0e0e0;">
+            <table style="width:100%; height:100%;">
+             <tbody>
+              <tr>
+               <td>Подписаться на новые вакансии</td>
+              </tr>
+             </tbody>
+            </table></a> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!--footer--> 
+  <div id="t-footer" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="146370" data-tilda-page-id="579526" data-tilda-formskey="9e16464ba185493ab9949308634fba72"> 
+   <div id="rec14078861" class="r t-rec t-rec_pt_75 t-rec_pb_150" style="padding-top:75px;padding-bottom:150px; " data-record-type="594"> 
+    <!-- t594 --> 
+    <div class="t594"> 
+     <div class="t-section__container t-container"> 
+      <div class="t-col t-col_12"> 
+       <div class="t-section__topwrapper t-align_center"> 
+        <div class="t-section__title t-title t-title_xs" field="btitle">
+         Партнеры AI Community
+        </div> 
+        <div class="t-section__descr t-descr t-descr_xl t-margin_auto" field="bdescr">
+         Если мы можем чем-то вам помочь, или у вас есть классная задача для команд 
+         <strong>AI Community</strong> - 
+         <a href="http://ai-community.com/partners" target="_blank" style="">напишите</a> нам.
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="t594__container t-container"> 
+      <div class="t-col t594__item t594__item_5-in-row"> 
+       <img src="https://static.tildacdn.com/tild3865-6364-4033-a233-393436306638/Sberbankzapustitservisdistantsionnogootkrytiyaschetovyurlitsam.jpg" class="t594__img t-img " imgfield="li_img__1481203544538" style="max-width:160px;"> 
+      </div> 
+      <div class="t-col t594__item t594__item_5-in-row"> 
+       <img src="https://static.tildacdn.com/tild6130-3336-4263-b038-363739626563/tarifyrostelekom.jpg" class="t594__img t-img " imgfield="li_img__1481205129244" style="max-width:160px;"> 
+      </div> 
+      <div class="t-col t594__item t594__item_5-in-row"> 
+       <img src="https://static.tildacdn.com/tild3532-3736-4233-b661-646139306361/beeline.jpg" class="t594__img t-img " imgfield="li_img__1481205877302" style="max-width:160px;"> 
+      </div> 
+      <div class="t-col t594__item t594__item_5-in-row"> 
+       <img src="https://static.tildacdn.com/tild3631-6638-4664-b862-373839343033/Viberlogo.png" class="t594__img t-img " imgfield="li_img__1481205879887" style="max-width:160px;"> 
+      </div> 
+      <div class="t-col t594__item t594__item_5-in-row"> 
+       <img src="https://static.tildacdn.com/tild3265-3332-4633-a366-336565643735/mosru.png" class="t594__img t-img " imgfield="li_img__1481205139575" style="max-width:160px;"> 
+      </div> 
+      <div class="t-col t594__item t594__item_5-in-row"> 
+       <img src="https://static.tildacdn.com/tild3036-3931-4333-b730-613134643737/RFLogo1024x1541.png" class="t594__img t-img " imgfield="li_img__1481205160378" style="max-width:160px;"> 
+      </div> 
+      <div class="t-col t594__item t594__item_5-in-row"> 
+       <img src="https://static.tildacdn.com/tild3738-6362-4166-a164-343031623035/noroot.png" class="t594__img t-img " imgfield="li_img__1481205874086" style="max-width:160px;"> 
+      </div> 
+      <div class="t-col t594__item t594__item_5-in-row"> 
+       <img src="https://static.tildacdn.com/tild3862-3834-4434-b235-303265346234/windowsbluemisesajourannuellesmicrosoft.jpg" class="t594__img t-img " imgfield="li_img__1481205138080" style="max-width:160px;"> 
+      </div> 
+      <div class="t-col t594__item t594__item_5-in-row"> 
+       <img src="https://static.tildacdn.com/tild6261-3436-4364-b431-633137393761/201702051024bm2ww.png" class="t594__img t-img " imgfield="li_img__1481205740884" style="max-width:160px;"> 
+      </div> 
+      <div class="t-col t594__item t594__item_5-in-row"> 
+       <img src="https://static.tildacdn.com/tild3934-3765-4362-b861-643635623938/minobnauki.gif" class="t594__img t-img " imgfield="li_img__1481270480066" style="max-width:160px;"> 
+      </div> 
+     </div> 
+     <div class="t-section__container t-container"> 
+      <div class="t-col t-col_12"> 
+       <div class="t-section__bottomwrapper t-clear t-align_center "> 
+        <a href="/partner" target="_blank" class="t-btn" style="color:#ffffff;background-color:#1f5bff;border-radius:30px; -moz-border-radius:30px; -webkit-border-radius:30px;">
+         <table style="width:100%; height:100%;">
+          <tbody>
+           <tr>
+            <td>Стать партнером AI Community</td>
+           </tr>
+          </tbody>
+         </table></a> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="rec14484613" class="r t-rec t-rec_pt_15 t-rec_pb_15" style="padding-top:15px;padding-bottom:15px;background-color:#001eff; " data-record-type="67" data-bg-color="#001eff"> 
+    <!-- T059 --> 
+    <div class="t059"> 
+     <div class="t-container t-align_center"> 
+      <div class="t-col t-col_12"> 
+       <div class="t059__text-impact t-text-impact t-text-impact_xs" style="color: #ffffff;" field="text">
+        <div style="font-size:16px;" data-customstyle="yes">
+         <a href="http://m.me/pavdor" target="_blank" style="" rel="">Присоединяйся</a> к команде AI Community!
+         <br>
+         <a href="http://m.me/pavdor" target="_blank" style="" rel="">Получи новый опыт</a> в социальном проекте. Сделай личный вклад в развитие IT-индустрии.
+         <br>Тебя ждут интересные задачи по организации мероприятий, генерации контента, онлайн-продвижению и запуску новых проектов!
+         <br>Или 
+         <a href="http://m.me/pavdor" target="_blank" style="" rel="">стань</a> нашим представителем и 
+         <a href="http://m.me/pavdor" target="_blank" style="" rel="">запусти</a> AI Community в своем городе!
+        </div>
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="rec14069761" class="r t-rec t-rec_pt_75 t-rec_pb_75" style="padding-top:75px;padding-bottom:75px;background-color:#111111; " data-animationappear="off" data-record-type="447" data-bg-color="#111111"> 
+    <!-- T447 --> 
+    <div class="t447"> 
+     <div class="t-container t-align_left"> 
+      <div class="t447__col t-col t-col_3"> 
+       <div class="t447__title t-name t-name_xs t447__title_uppercase" field="title" style="color: #525252;">
+        Об AI Community
+       </div> 
+       <div class="t447__descr t-descr t-descr_xxs" field="descr" style="color: #ffffff;">
+        <ul>
+         <li><a href="/#philosophy" target="_blank" style="" rel="">Наша философия</a></li>
+         <li><a href="/events" target="_blank" rel="" style="background-color: rgba(0, 0, 0, 0.05);">Митапы</a></li>
+         <li><a href="/events" target="_blank" style="" rel="">Хакатоны</a></li>
+         <li><a href="/events" target="_blank" style="" rel="">Конференции</a></li>
+         <li><a href="/events" target="_blank" style="" rel="">Тренинги и курсы</a></li>
+         <li><a href="/jobs" target="_blank" style="" rel="">Рекрутинг</a></li>
+         <li><a href="https://medium.com/ai-community-ru/chatbots-and-ai-day-in-sberbank-%D0%BF%D0%BE%D1%81%D0%B5%D1%82%D0%B8%D0%BB%D0%BE-%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5-80-%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA-%D0%BE-%D1%87%D0%B5%D0%BC-%D1%8D%D1%82%D0%BE-%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82-b7f7086938b7#.mqd4i54tl" target="_blank" style="" rel="">Воркшопы</a> </li>
+         <li><a href="https://medium.com/chat-bots-news/%D0%BA%D0%B0%D0%BA-%D0%BC%D1%8B-%D0%B7%D0%B0-%D0%B4%D0%B2%D0%B0-%D0%B4%D0%BD%D1%8F-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B8%D0%BB%D0%B8-%D0%B1%D1%83%D0%B4%D1%83%D1%89%D0%B5%D0%B5-%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D1%8B-2ec94ef45744" target="_blank" style="" rel="">Экспертные сессии</a></li>
+         <li><a href="https://medium.com/chat-bots-news/%D0%BA%D0%B0%D0%BA-%D0%BC%D1%8B-%D0%B7%D0%B0-%D0%B4%D0%B2%D0%B0-%D0%B4%D0%BD%D1%8F-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B8%D0%BB%D0%B8-%D0%B1%D1%83%D0%B4%D1%83%D1%89%D0%B5%D0%B5-%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D1%8B-2ec94ef45744" target="_blank" style="" rel="">Форсайт-сессии</a></li>
+         <li><a href="http://m.me/pavdor" target="_blank" style="" rel="">Контакты</a></li>
+        </ul>
+        <ul> 
+        </ul>
+       </div> 
+      </div> 
+      <div class="t447__col t-col t-col_3"> 
+       <div class="t447__title t-name t-name_xs t447__title_uppercase" field="title2" style="color: #525252;">
+        Для кого?
+       </div> 
+       <div class="t447__descr t-descr t-descr_xxs" field="descr2" style="color: #ffffff;">
+        <ul>
+         <li><a href="https://telegram.me/joinchat/ABI4pz3M7FCxoDZcdcfVUA" target="_blank" style="" rel="">Разработчикам чат-ботов</a></li>
+         <li><a href="https://telegram.me/joinchat/ABI4p0BMRAByXDgJqo5uhQ" target="_blank">Разработчикам NLP</a></li>
+         <li><a href="https://telegram.me/joinchat/ABI4pz6rz2iVzWUzaVqpmA" target="_blank" style="">Разработчикам (нейронные сети)</a></li>
+         <li><a href="https://t.me/data_science_cases" target="_blank">Обмен кейсами Data Science</a> </li>
+         <li><a href="/teams" target="_blank" style="" rel="">Командам и стартапам</a></li>
+         <li><a href="http://m.me/pavdor" target="_blank" style="" rel="">Экспертам</a></li>
+         <li><a href="http://m.me/pavdor" target="_blank" style="" rel="">Трекерам</a></li>
+         <li><a href="http://m.me/pavdor" target="_blank" style="" rel="">Менторам</a></li>
+         <li><a href="http://ai-community.com/invest" target="_blank" style="" rel="">Инвесторам</a></li>
+         <li><a href="http://ai-community.com/partner" target="_blank" style="" rel="">Брендам, компаниям</a></li>
+         <li><a href="/jobs">Вакансии</a></li>
+        </ul>
+       </div> 
+      </div> 
+      <div class="t447__floatbeaker_lr3"></div> 
+      <div> 
+       <div class="t447__col t-col t-col_3"> 
+        <div class="t447__title t-name t-name_xs t447__title_uppercase" field="title3" style="color: #525252;">
+         Где пообщаться?
+        </div> 
+        <div class="t447__descr t-descr t-descr_xxs" field="descr3" style="color: #ffffff;">
+         <ul> 
+          <li><a href="/join" target="_blank" style="" rel="">Facebook</a></li>
+          <li><a href="/join" target="_blank" style="" rel="">Telegram (чаты и каналы)</a></li>
+          <li><a href="https://www.youtube.com/channel/UCv9uq004VYU_NHUJoW2I0mQ" target="_blank" rel="">Live-трансляции</a></li>
+          <li><a href="https://www.youtube.com/channel/UCv9uq004VYU_NHUJoW2I0mQ" target="_blank" style="" rel="">Youtube</a></li>
+         </ul>
+        </div> 
+       </div> 
+       <div class="t447__col t-col t-col_3"> 
+        <div class="t447__title t-name t-name_xs t447__title_uppercase" field="title4" style="color: #525252;">
+         Хочешь раньше остальных узнавать о наших новостях?
+         <br>Без спама.
+        </div> 
+        <form id="form14069761" name="form14069761" role="form" action="https://forms.tildacdn.com/procces/" method="POST" data-formactiontype="2" data-inputbox=".t447__blockinput" class="js-form-proccess " data-tilda-captchakey=""> 
+         <input type="hidden" name="formservices[]" value="6f427e818909ab0d35e4820f5bf006db" class="js-formaction-services"> 
+         <div class="t447__input-wrapper t-width t-width_12"> 
+          <div class="t447__wrapper"> 
+           <div class="t447__blockinput"> 
+            <input type="text" name="email" class="t447__input t-input js-tilda-rule" value="" placeholder="Твой E-mail" data-tilda-req="1" data-tilda-rule="email" style="color:#000000; border:0px solid #000000; background-color:#ffffff; "> 
+           </div> 
+           <div class="t447__blockbutton"> 
+            <button type="submit" class="t447__submit t-submit" style="color:#ffffff; border:0px solid #000000; background-color:#0044ff; "> 
+             <div class="t447__btniconwrapper"> 
+              <svg class="t447__btnicon" fill="#ffffff" width="20px" height="20px" viewbox="0 0 25 21.4" xmlns="http://www.w3.org/2000/svg">
+               <desc>
+                Subscribe
+               </desc>
+               <path d="M0 21.4l25-10.7L0 0v8.3l17.9 2.4L0 13.1v8.3z" />
+              </svg> 
+             </div> </button> 
+           </div> 
+          </div> 
+          <div class="t447__allert-wrapper"> 
+           <div class="js-errorbox-all t447__blockinput-errorbox" style="display:none;"> 
+            <div class="t447__blockinput-errors-text t-descr t-descr_xxs"> 
+             <p class="t447__blockinput-errors-item js-rule-error js-rule-error-all"></p> 
+             <p class="t447__blockinput-errors-item js-rule-error js-rule-error-req">Required field</p> 
+             <p class="t447__blockinput-errors-item js-rule-error js-rule-error-email">Please correct e-mail address</p> 
+             <p class="t447__blockinput-errors-item js-rule-error js-rule-error-name">Name Wrong. Correct please</p> 
+             <p class="t447__blockinput-errors-item js-rule-error js-rule-error-phone">Please correct phone number</p> 
+             <p class="t447__blockinput-errors-item js-rule-error js-rule-error-string">Please enter letter, number or punctuation symbols.</p> 
+            </div> 
+           </div> 
+           <div class="js-successbox t447__blockinput-success t-text t-text_md" style="display:none;"> 
+            <div class="t447__success-icon"> 
+             <svg class="t447__success-icon-svg" width="40px" height="40px" viewbox="0 0 50 50"> 
+              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> 
+               <g fill="#FFFFFF"> 
+                <path d="M25.0982353,49.2829412 C11.5294118,49.2829412 0.490588235,38.2435294 0.490588235,24.6752941 C0.490588235,11.1064706 11.53,0.0670588235 25.0982353,0.0670588235 C38.6664706,0.0670588235 49.7058824,11.1064706 49.7058824,24.6752941 C49.7058824,38.2441176 38.6664706,49.2829412 25.0982353,49.2829412 L25.0982353,49.2829412 Z M25.0982353,1.83176471 C12.5023529,1.83176471 2.25529412,12.0794118 2.25529412,24.6752941 C2.25529412,37.2705882 12.5023529,47.5182353 25.0982353,47.5182353 C37.6941176,47.5182353 47.9411765,37.2705882 47.9411765,24.6752941 C47.9411765,12.0794118 37.6941176,1.83176471 25.0982353,1.83176471 L25.0982353,1.83176471 Z"></path> 
+                <path d="M22.8435294,30.5305882 L18.3958824,26.0829412 C18.0511765,25.7382353 18.0511765,25.18 18.3958824,24.8352941 C18.7405882,24.4905882 19.2988235,24.4905882 19.6435294,24.8352941 L22.8429412,28.0347059 L31.7282353,19.1488235 C32.0729412,18.8041176 32.6311765,18.8041176 32.9758824,19.1488235 C33.3205882,19.4935294 33.3205882,20.0517647 32.9758824,20.3964706 L22.8435294,30.5305882 L22.8435294,30.5305882 Z"></path> 
+               </g> 
+              </g> 
+             </svg> 
+            </div> 
+            <div class="t447__success-message t-descr t-descr_xs">
+             Спасибо!
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </form> 
+        <div class="t-sociallinks"> 
+         <div class="t-sociallinks__wrapper"> 
+          <div class="t-sociallinks__item"> 
+           <a href="https://www.facebook.com/aicommunityru/" target="_blank"> 
+            <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="25px" height="25px" viewbox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+             <desc>
+              Facebook
+             </desc>
+             <path style="fill:#525252;" d="M21.1 7.8C22.5 6.5 24.5 6 26.4 6h6v6.3h-3.9c-.8-.1-1.6.6-1.8 1.4v4.2h5.7c-.1 2-.4 4.1-.7 6.1h-5v18h-7.4V24h-3.6v-6h3.6v-5.9c.1-1.7.7-3.3 1.8-4.3z" />
+            </svg> </a> 
+          </div> 
+          <div class="t-sociallinks__item"> 
+           <a href="https://vk.com/chatbotscommunity" target="_blank"> 
+            <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="25px" height="25px" viewbox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+             <desc>
+              VK
+             </desc>
+             <path style="fill:#525252;" d="M41.2 22.2c.6-.8 1.1-1.5 1.5-2 2.7-3.5 3.8-5.8 3.5-6.8l-.2-.2c-.1-.1-.3-.3-.7-.4-.4-.1-.9-.1-1.5-.1h-7.2c-.2 0-.3 0-.3.1 0 0-.1 0-.1.1v.1c-.1 0-.2.1-.3.2-.1.1-.2.2-.2.4-.7 1.9-1.5 3.6-2.5 5.2-.6 1-1.1 1.8-1.6 2.5s-.9 1.2-1.2 1.5c-.3.3-.6.6-.9.8-.2.3-.4.4-.5.4-.1 0-.3-.1-.4-.1-.2-.1-.4-.3-.5-.6-.1-.2-.2-.5-.3-.9 0-.4-.1-.7-.1-.9v-1.1-1-1.9c0-.7 0-1.2.1-1.6v-1.3c0-.4 0-.8-.1-1.1-.1-.3-.1-.5-.2-.7-.1-.2-.3-.4-.5-.6-.2-.1-.5-.2-.8-.3-.8-.2-1.9-.3-3.1-.3-2.9 0-4.7.2-5.5.6-.3.2-.6.4-.9.7-.3.3-.3.5-.1.6.9.1 1.6.5 2 1l.1.3c.1.2.2.6.3 1.1.1.5.2 1.1.2 1.7.1 1.1.1 2.1 0 2.9-.1.8-.1 1.4-.2 1.9-.1.4-.2.8-.3 1.1-.1.3-.2.4-.3.5 0 .1-.1.1-.1.1-.1-.1-.4-.1-.6-.1-.2 0-.5-.1-.8-.3-.3-.2-.6-.5-1-.9-.3-.4-.7-.9-1.1-1.6-.4-.7-.8-1.5-1.3-2.4l-.4-.7c-.2-.4-.5-1.1-.9-1.9-.4-.8-.8-1.6-1.1-2.4-.1-.3-.3-.6-.6-.7l-.1-.1c-.1-.1-.2-.1-.4-.2s-.3-.1-.5-.2H3.2c-.6 0-1.1.1-1.3.4l-.1.1c0 .1-.1.2-.1.4s0 .4.1.6c.9 2.2 1.9 4.3 3 6.3s2 3.6 2.8 4.9c.8 1.2 1.6 2.4 2.4 3.5.8 1.1 1.4 1.8 1.7 2.1.3.3.5.5.6.7l.6.6c.4.4.9.8 1.6 1.3.7.5 1.5 1 2.4 1.5.9.5 1.9.9 3 1.2 1.2.3 2.3.4 3.4.4H26c.5 0 .9-.2 1.2-.5l.1-.1c.1-.1.1-.2.2-.4s.1-.4.1-.6c0-.7 0-1.3.1-1.8s.2-.9.4-1.2c.1-.3.3-.5.5-.7.2-.2.3-.3.4-.3.1 0 .1-.1.2-.1.4-.1.8 0 1.3.4s1 .8 1.4 1.3c.4.5 1 1.1 1.6 1.8.6.7 1.2 1.2 1.6 1.5l.5.3c.3.2.7.4 1.2.5.5.2.9.2 1.3.1l5.9-.1c.6 0 1-.1 1.4-.3.3-.2.5-.4.6-.6.1-.2.1-.5 0-.8-.1-.3-.1-.5-.2-.6-.1-.1-.1-.2-.2-.3-.8-1.4-2.2-3.1-4.4-5.1-1-.9-1.6-1.6-1.9-1.9-.5-.6-.6-1.2-.3-1.9.3-.5 1-1.5 2.2-3z" />
+            </svg> </a> 
+          </div> 
+          <div class="t-sociallinks__item"> 
+           <a href="https://www.youtube.com/channel/UCv9uq004VYU_NHUJoW2I0mQ" target="_blank"> 
+            <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="25px" height="25px" viewbox="0 0 48 48" enable-background="new -455 257 48 48" xml:space="preserve">
+             <desc>
+              Youtube
+             </desc>
+             <path style="fill:#525252;" d="M43.9 15.3c-.4-3.1-2.2-5-5.3-5.3-3.6-.3-11.4-.5-15-.5-7.3 0-10.6.2-14.1.5-3.3.3-4.8 1.8-5.4 4.9-.4 2.1-.6 4.1-.6 8.9 0 4.3.2 6.9.5 9.2.4 3.1 2.5 4.8 5.7 5.1 3.6.3 10.9.5 14.4.5s11.2-.2 14.7-.6c3.1-.4 4.6-2 5.1-5.1 0 0 .5-3.3.5-9.1 0-3.3-.2-6.4-.5-8.5zM19.7 29.8V18l11.2 5.8-11.2 6z" />
+            </svg> </a> 
+          </div> 
+          <div class="t-sociallinks__item"> 
+           <a href="https://telegram.me/community_news" target="_blank"> 
+            <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25px" height="25px" viewbox="0 0 60 60" xml:space="preserve">
+             <desc>
+              Telegram
+             </desc>
+             <path style="fill:#525252;" d="M52.5,9L6.1,26.9c-0.9,0.4-0.9,1.8,0,2.3l11.9,4.9l4.4,14.1c0.3,0.8,1.2,1,1.8,0.5l6.8-6.4l12.9,8.7c0.7,0.4,1.6,0,1.7-0.7L54,10.3C54.2,9.5,53.3,8.7,52.5,9z M24.5,36.7L23.8,44l-3.6-11.2l25.3-16.8L24.5,36.7z" />
+            </svg> </a> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="t-row t-clear"> 
+       <div class="t447__col t-col t-col_3"> 
+        <div class="t447__text t-descr t-descr_xxs" field="text">
+         © 2017, AI Community, все права защищены
+        </div> 
+       </div> 
+       <div class="t447__col t-col t-col_3 t-prefix_6"> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="rec14483760" class="r t-rec" style="background-color:#111111; " data-animationappear="off" data-record-type="345" data-bg-color="#111111"> 
+    <!-- T345 --> 
+    <div class="t345" id="footer_14483760"> 
+     <div class="t345-wrapper" style="border-top: 1px solid; border-top-color: #292929;"> 
+      <div class="t345-container t-container" style="height:60px;"> 
+       <div class="t345-col t-col t-col_12"> 
+        <div class="t345-content"> 
+         <div class="t345-text__wrapper">
+          <div class="t345-text t-descr t-descr_xxs" field="text" style="color:#ffffff;">
+           <span style="font-weight: 600;">Сделано в <a href="http://aitoday.ru" target="_blank" style="" rel="">AI TODAY</a> с любовью к AI (интегрируем технологии искусственного интеллекта в ваш бизнес).</span>
+          </div>
+         </div> 
+         <div class="t345-socials"> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <script type="text/javascript">
+  function checkSize_14483760(){
+    var content = $("#footer_14483760 .t345-text").width() + $("#footer_14483760 .t345-socials").width();
+    var container = $("#footer_14483760 .t345-container").width() - 30;
+
+    if (content > container ) {
+      $("#footer_14483760 .t345-container").addClass('t345-socials_block');
+    }
+    else {
+      $("#footer_14483760 .t345-container").removeClass('t345-socials_block');
+    }
+  }
+
+  $(document).ready(function() {
+    checkSize_14483760();
+    $(window).resize(checkSize_14483760);
+  });
+
+</script> 
+   </div> 
+  </div> 
+  <!--/footer--> 
+ </div> 
+ <!--/allrecords--> 
+ <!-- Yandex.Metrika counter 42785674 -->
+ <script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter42785674 = new Ya.Metrika({id:42785674, webvisor:true, clickmap:true, trackLinks:true,accurateTrackBounce:true}); w.mainMetrika = 'yaCounter42785674'; } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://d31j93rd8oukbv.cloudfront.net/metrika/watch_ua.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script>
+ <noscript>
+  <div>
+   <img src="https://mc.yandex.ru/watch/42785674" style="position:absolute; left:-9999px;" alt="">
+  </div>
+ </noscript>
+ <!-- /Yandex.Metrika counter --> 
+ <script type="text/javascript">
+      
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-7921107-19', 'auto');
+	  ga('send', 'pageview');
+	  window.mainTracker = 'user';
+	  
+
+      (function(d,w,k){w.setTimeout(function(){var n=d.getElementsByTagName("script")[0],s=d.createElement("script"),f=function(){n.parentNode.insertBefore(s,n)};s.type="text/javascript";s.id='tildastatscript';s.key=k;s.async=!0;s.src=(d.location.protocol=="https:"?"https:":"http:")+"//stat.tildacdn.com/js/tildastat.min.js";if(w.opera=="[object Opera]"){d.addEventListener("DOMContentLoaded",f,!1)}else{f()}},2000)})(document,window,'0550ebecb975a08fb8a12da629515484');
+
+	  if (! window.mainTracker) { window.mainTracker = 'tilda'; }
+	</script>  
+</body>

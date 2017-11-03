@@ -1,0 +1,433 @@
+https://www.youtube.com/yt/press/ru/
+<body class="press-page js-clear-header"> 
+ <header class="page-header js-page-header"> 
+  <div class="page-header__left"> 
+   <button class="page-header__menu-btn js-menu-btn" aria-role="button" aria-expanded="false"> <span class="page-header__button-label js-menu-open-label" aria-hidden="false">Открыть меню</span> <span class="page-header__button-label js-menu-close-label" aria-hidden="true">Закрыть меню</span> <span aria-hidden="true"> 
+     <svg class="page-header__menu-button-svg" aria-hidden="true" focusable="false" tabindex="-1" pointer-events="none" width="22" height="16" viewbox="0 0 22 16" xmlns="http://www.w3.org/2000/svg">
+      <path class="page-header__menu-icon js-menu-open-icon" style="opacity: 1;" d="M2 14h18v-2H2v2zm0-5h18V7H2v2zm0-7v2h18V2H2z" fill="#221F1F" fill-rule="evenodd"></path>
+      <g class="page-header__menu-icon js-menu-close-icon" fill="none" stroke="#221F1F" stroke-width="2" stroke-miterlimit="10" fill-rule="evenodd" stroke-linecap="square">
+       <path d="M16.6 13.6L5.3 2.3m0 11.3L16.6 2.3"></path>
+      </g>
+     </svg> </span> </button> 
+   <div class="site-menu js-site-menu"> 
+    <div class="site-menu__inner-wrapper"> 
+     <div class="site-menu__scroll-wrapper js-menu-scroll-wrapper"> 
+      <div class="site-menu__wrapper js-menu-wrapper"> 
+       <nav class="site-menu__nav site-menu__nav--primary"> 
+        <ul class="site-menu__list"> 
+         <li><a class="site-menu__link site-menu__link--home-page" href="../">О YouTube</a></li> 
+         <li><a class="site-menu__link site-menu__link--experiences-page" href="../experiences/">Ресурсы YouTube</a></li> 
+         <li><a class="site-menu__link site-menu__link--policies-page" href="../policies/">Правила и безопасность</a></li> 
+         <li><a class="site-menu__link site-menu__link--copyright-page" href="../copyright/">Правообладателям</a></li> 
+         <li><a class="site-menu__link site-menu__link--brand-resources-page" href="../brand-resources/">О бренде YouTube</a></li> 
+         <li><a class="site-menu__link site-menu__link--press-page" href="./">Прессе</a></li> 
+        </ul> 
+       </nav> 
+       <nav class="site-menu__nav site-menu__nav--secondary"> 
+        <ul class="site-menu__list"> 
+         <li> <a class="site-menu__link site-menu__link--external" target="_blank" href="https://support.google.com/youtube/?hl=ru#topic=4355266"> Справочный центр <span class="site-menu__link--svg" aria-hidden="true"> 
+            <svg aria-hidden="true" focusable="false" tabindex="-1" pointer-events="none" width="9px" height="9px" viewbox="0 0 9 9">
+             <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g transform="translate(-118.000000, -375.000000)" fill-rule="nonzero" fill="currentColor">
+               <polygon transform="translate(122.339466, 379.339466) rotate(-45.000000) translate(-122.339466, -379.339466) " points="122.339466 374.14968 121.424766 375.06438 125.044642 378.690743 117.14968 378.690743 117.14968 379.988189 125.044642 379.988189 121.424766 383.614553 122.339466 384.529252 127.529252 379.339466"></polygon>
+              </g>
+             </g>
+            </svg> </span> </a> </li> 
+         <li> <a class="site-menu__link site-menu__link--external" target="_blank" href="https://www.youtube.com/yt/creators/ru"> Центр для авторов <span class="site-menu__link--svg" aria-hidden="true"> 
+            <svg aria-hidden="true" focusable="false" tabindex="-1" pointer-events="none" width="9px" height="9px" viewbox="0 0 9 9">
+             <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g transform="translate(-118.000000, -375.000000)" fill-rule="nonzero" fill="currentColor">
+               <polygon transform="translate(122.339466, 379.339466) rotate(-45.000000) translate(-122.339466, -379.339466) " points="122.339466 374.14968 121.424766 375.06438 125.044642 378.690743 117.14968 378.690743 117.14968 379.988189 125.044642 379.988189 121.424766 383.614553 122.339466 384.529252 127.529252 379.339466"></polygon>
+              </g>
+             </g>
+            </svg> </span> </a> </li> 
+         <li> <a class="site-menu__link site-menu__link--external" target="_blank" href="https://developers.google.com/youtube/"> Разработчикам <span class="site-menu__link--svg" aria-hidden="true"> 
+            <svg aria-hidden="true" focusable="false" tabindex="-1" pointer-events="none" width="9px" height="9px" viewbox="0 0 9 9">
+             <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g transform="translate(-118.000000, -375.000000)" fill-rule="nonzero" fill="currentColor">
+               <polygon transform="translate(122.339466, 379.339466) rotate(-45.000000) translate(-122.339466, -379.339466) " points="122.339466 374.14968 121.424766 375.06438 125.044642 378.690743 117.14968 378.690743 117.14968 379.988189 125.044642 379.988189 121.424766 383.614553 122.339466 384.529252 127.529252 379.339466"></polygon>
+              </g>
+             </g>
+            </svg> </span> </a> </li> 
+         <li> <a class="site-menu__link site-menu__link--external" target="_blank" href="https://www.youtube.com/user/advertise"> Рекламодателям <span class="site-menu__link--svg" aria-hidden="true"> 
+            <svg aria-hidden="true" focusable="false" tabindex="-1" pointer-events="none" width="9px" height="9px" viewbox="0 0 9 9">
+             <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g transform="translate(-118.000000, -375.000000)" fill-rule="nonzero" fill="currentColor">
+               <polygon transform="translate(122.339466, 379.339466) rotate(-45.000000) translate(-122.339466, -379.339466) " points="122.339466 374.14968 121.424766 375.06438 125.044642 378.690743 117.14968 378.690743 117.14968 379.988189 125.044642 379.988189 121.424766 383.614553 122.339466 384.529252 127.529252 379.339466"></polygon>
+              </g>
+             </g>
+            </svg> </span> </a> </li> 
+        </ul> 
+       </nav> 
+      </div> 
+      <div class="site-menu__nav site-menu__nav--accessibility"> 
+       <button class="site-menu__alt-close-btn js-menu-close -btn"> <span>Закрыть меню</span> </button> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <a href="https://www.youtube.com/" class="page-header__logo js-header-logo"> <span class="page-header__logo-label">Главная страница YouTube</span> 
+   <svg version="1" class="page-header__header-logo" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 580 130">
+    <path fill="#fff" d="M181.7 20.7c-2.1-7.9-8.4-14.2-16.3-16.3C151.1.5 93.6.5 93.6.5s-57.6.1-71.9 4C13.8 6.6 7.5 12.9 5.4 20.8 1.6 35.1 1.6 65 1.6 65s0 29.9 3.9 44.3c2.1 7.9 8.4 14.2 16.3 16.3 14.3 3.9 71.8 3.9 71.8 3.9s57.5 0 71.8-3.9c7.9-2.1 14.2-8.4 16.3-16.3 3.9-14.3 3.9-44.3 3.9-44.3s0-29.9-3.9-44.3zM75.2 92.6V37.4L123 65 75.2 92.6z" class="page-header__logo-bg js-header-logo-background" />
+    <g fill="#282828">
+     <path d="M268.6 117.8c-3.7-2.5-6.3-6.3-7.8-11.5s-2.2-12-2.2-20.7V74c0-8.6.8-15.7 2.6-20.9 1.8-5.3 4.5-9.1 8.3-11.5 3.8-2.4 8.6-3.7 14.6-3.7 5.9 0 10.8 1.2 14.3 3.7s6.3 6.3 7.9 11.5 2.5 12.2 2.5 20.8v11.7c0 8.6-.8 15.5-2.5 20.7-1.7 5.2-4.3 9-7.9 11.5-3.7 2.4-8.6 3.7-14.8 3.7-6.4 0-11.3-1.3-15-3.7zm20.5-12.6c1.1-2.6 1.5-7 1.5-12.9V67.1c0-5.8-.5-10-1.5-12.6-1.1-2.7-2.8-4-5.3-4s-4.1 1.3-5.2 4c-1.1 2.7-1.5 6.9-1.5 12.6v25.2c0 5.9.5 10.3 1.4 12.9.9 2.6 2.7 3.9 5.3 3.9 2.4 0 4.2-1.3 5.3-3.9zM548 85.9V90c0 5.2.1 9.1.5 11.7.4 2.6.9 4.5 1.9 5.7.9 1.2 2.5 1.8 4.5 1.8 2.7 0 4.6-1.1 5.6-3.2 1.1-2.1 1.5-5.7 1.7-10.5l15.7.9c.1.7.1 1.7.1 2.8 0 7.4-2 13-6.1 16.7-4.1 3.7-9.8 5.6-17.2 5.6-9 0-15.2-2.8-18.8-8.4-3.5-5.6-5.4-14.3-5.4-26V72.8c0-12 1.9-20.9 5.6-26.5 3.8-5.6 10.2-8.4 19.1-8.4 6.3 0 11 1.2 14.3 3.4 3.3 2.2 5.7 5.8 7.1 10.6s2 11.5 2 20v13.8H548v.2zm2.4-34c-.9 1.2-1.5 3-1.9 5.6-.4 2.6-.5 6.5-.5 11.8V75h13.2v-5.8c0-5.2-.1-9.1-.5-11.8s-.9-4.6-1.9-5.7c-.9-1.1-2.4-1.7-4.3-1.7-1.9.2-3.3.8-4.1 1.9zM224.4 84.4L203.8 9.7h18.1l7.2 33.8c1.9 8.4 3.2 15.5 4.1 21.3h.5c.6-4.3 2-11.2 4.1-21.1l7.4-33.9h18.1l-20.9 74.5V120h-17.8V84.4h-.2zM367.4 39.5v80.7h-14.2l-1.5-9.9h-.4c-3.9 7.4-9.7 11.2-17.4 11.2-5.3 0-9.3-1.8-11.8-5.3-2.6-3.5-3.8-9-3.8-16.4V39.5h18.2v59.2c0 3.5.4 6.1 1.2 7.7.8 1.5 2.1 2.2 3.9 2.2 1.5 0 3.1-.5 4.5-1.4 1.4-.9 2.5-2.2 3.2-3.7v-64h18.1zM460.6 39.5v80.7h-14.2l-1.5-9.9h-.4c-3.9 7.4-9.7 11.2-17.4 11.2-5.3 0-9.3-1.8-11.8-5.3-2.6-3.5-3.8-9-3.8-16.4V39.5h18.2v59.2c0 3.5.4 6.1 1.2 7.7.8 1.5 2.1 2.2 3.9 2.2 1.5 0 3.1-.5 4.5-1.4s2.5-2.2 3.2-3.7v-64h18.1z" class="js-header-logo-text" />
+     <path d="M416.8 24.4h-18.1v95.8H381V24.4h-18.1V9.7h53.8v14.6h.1zM520.6 52.4c-1.1-5.1-2.8-8.7-5.3-11.1-2.5-2.2-5.8-3.4-10.2-3.4-3.3 0-6.5.9-9.3 2.8-3 1.9-5.1 4.4-6.7 7.4h-.1V5.6h-17.5V120h15l1.9-7.7h.4c1.4 2.7 3.5 4.8 6.3 6.5 2.8 1.5 5.9 2.4 9.3 2.4 6.1 0 10.6-2.8 13.6-8.5 2.8-5.7 4.4-14.5 4.4-26.5V73.5c-.2-9-.7-16.1-1.8-21.1zm-16.7 32.9c0 5.9-.2 10.5-.7 13.8-.5 3.3-1.3 5.7-2.5 7.1-1.2 1.4-2.7 2.1-4.6 2.1-1.5 0-2.8-.4-4.1-1.1-1.3-.7-2.2-1.8-3.1-3.2V58.3c.6-2.2 1.7-4 3.2-5.4 1.5-1.4 3.1-2.1 4.8-2.1 1.9 0 3.3.7 4.3 2.1 1.1 1.4 1.7 3.9 2.1 7.3.4 3.4.6 8.3.6 14.6v10.5z" class="js-header-logo-text" />
+    </g>
+   </svg> </a> 
+ </header> 
+ <div class="js-intro-animation animation-wrapper"> 
+  <section class="page-angle-hero"> 
+   <svg class="page-angle-hero__angle" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 862" aria-hidden="true" focusable="false" tabindex="-1" pointer-events="none">
+    <path d="M0 862V64l1440 722v76z" fill="#F5F5F5" />
+    <path d="M.1 798L0 64l734 368.3z" fill="#FFF" />
+   </svg> 
+   <svg class="page-angle-hero__angle-mobile" tabindex="-1" pointer-events="none" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 767 678">
+    <path fill="#F5F5F5" d="M1505.9 535.7v-798l1440 722v76" />
+    <path fill="#FFF" d="M1506 471.7l-.1-734 734 368.3" />
+    <path fill="#F5F5F5" d="M767 448.3L0 63.7V678h767" />
+    <path fill="#FFF" d="M.1 614.3L0 63.7 550.6 340" />
+   </svg> 
+   <div class="page-angle-hero__left"> 
+    <div class="page-angle-hero__copy"> 
+     <h1 class="page-angle-hero__headline">YouTube для прессы</h1> 
+     <p class="page-angle-hero__intro">В этом разделе мы собрали статистику по сайту, видеосюжеты и правила использования контента, добавленного на YouTube.</p> 
+    </div> 
+   </div> 
+   <div class="page-angle-hero__image-wrapper"> 
+    <div class="page-angle-hero__image" style="background-image: url(/yt/about/media/images/press/press-header.jpg);"></div> 
+   </div> 
+  </section>
+  <section class="stats-carousel"> 
+   <div class="stats-carousel__inner"> 
+    <h2 class="stats-carousel__title">Немного статистики</h2> 
+    <div class="stats-carousel__container js-carousel"> 
+     <div class="stats-carousel__slide js-carousel-slide"> 
+      <h3 class="stats-carousel__slide-title js-carousel-text-fade"> <span class="stats-carousel__slide-title-desktop"> <span class="stats-carousel__line js-carousel-line-left">Больше <span class="stats-carousel__ribbon js-carousel-left-ribbon">одного</span></span><span class="stats-carousel__line js-carousel-line-right"><span class="stats-carousel__ribbon js-carousel-right-ribbon">миллиарда</span> пользователей</span> </span> <span class="stats-carousel__slide-title-mobile"> Больше <span class="stats-carousel__ribbon">одного</span> <span class="stats-carousel__ribbon">миллиарда</span> пользователей </span> </h3> 
+      <button class="stats-carousel__pager-button stats-carousel__pager-button--back js-carousel-back"> <span class="stats-carousel__pager-button-text">Назад</span> 
+       <svg class="stats-carousel__pager-svg" aria-hidden="true" focusable="false" tabindex="-1" pointer-events="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 0h24v24H0z" fill="none" />
+        <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z" />
+       </svg> </button> 
+      <p class="stats-carousel__description js-carousel-text-fade">Такова аудитория YouTube&nbsp;– это почти треть всех пользователей Интернета.</p> 
+      <button class="stats-carousel__pager-button stats-carousel__pager-button--forward js-carousel-forward"> <span class="stats-carousel__pager-button-text">Вперед</span> 
+       <svg class="stats-carousel__pager-svg" aria-hidden="true" focusable="false" tabindex="-1" pointer-events="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 0h24v24H0z" fill="none" />
+        <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" />
+       </svg> </button> 
+     </div> 
+     <div class="stats-carousel__slide js-carousel-slide"> 
+      <h3 class="stats-carousel__slide-title js-carousel-text-fade"> <span class="stats-carousel__slide-title-desktop"> <span class="stats-carousel__line js-carousel-line-left"><span class="stats-carousel__ribbon js-carousel-left-ribbon" aria-hidden="true">18–34 year olds</span></span><span class="stats-carousel__line js-carousel-line-right" aria-hidden="true">are watching</span> </span> <span class="stats-carousel__slide-title-mobile"> <span class="stats-carousel__ribbon" aria-label="18 to 34">Основная</span> <span class="stats-carousel__ribbon">аудитория</span> <span class="stats-carousel__ribbon">YouTube&nbsp;–</span> люди в возрасте от 18&nbsp;до&nbsp;34&nbsp;лет </span> </h3> 
+      <button class="stats-carousel__pager-button stats-carousel__pager-button--back js-carousel-back"> <span class="stats-carousel__pager-button-text">Назад</span> 
+       <svg class="stats-carousel__pager-svg" aria-hidden="true" focusable="false" tabindex="-1" pointer-events="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 0h24v24H0z" fill="none" />
+        <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z" />
+       </svg> </button> 
+      <p class="stats-carousel__description js-carousel-text-fade">Среди жителей США аудитория YouTube, в том числе нашего мобильного приложения, больше, чем аудитория любой американской телевизионной сети.</p> 
+      <button class="stats-carousel__pager-button stats-carousel__pager-button--forward js-carousel-forward"> <span class="stats-carousel__pager-button-text">Вперед</span> 
+       <svg class="stats-carousel__pager-svg" aria-hidden="true" focusable="false" tabindex="-1" pointer-events="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 0h24v24H0z" fill="none" />
+        <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" />
+       </svg> </button> 
+     </div> 
+     <div class="stats-carousel__slide js-carousel-slide"> 
+      <h3 class="stats-carousel__slide-title js-carousel-text-fade"> <span class="stats-carousel__slide-title-desktop"> <span class="stats-carousel__line js-carousel-line-left"><span class="stats-carousel__ribbon js-carousel-left-ribbon">88&nbsp;стран </span></span><span class="stats-carousel__line js-carousel-line-right">и <span class="stats-carousel__ribbon js-carousel-right-ribbon">76&nbsp;языков</span></span> </span> <span class="stats-carousel__slide-title-mobile"> <span class="stats-carousel__ribbon">88</span>&nbsp;<span class="stats-carousel__ribbon">стран</span> и <span class="stats-carousel__ribbon">76</span>&nbsp;<span class="stats-carousel__ribbon">языков</span> </span> </h3> 
+      <button class="stats-carousel__pager-button stats-carousel__pager-button--back js-carousel-back"> <span class="stats-carousel__pager-button-text">Назад</span> 
+       <svg class="stats-carousel__pager-svg" aria-hidden="true" focusable="false" tabindex="-1" pointer-events="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 0h24v24H0z" fill="none" />
+        <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z" />
+       </svg> </button> 
+      <p class="stats-carousel__description js-carousel-text-fade">Сайт YouTube локализован более чем в 88&nbsp;странах, а его интерфейс переведен на 76&nbsp;языков мира.</p> 
+      <button class="stats-carousel__pager-button stats-carousel__pager-button--forward js-carousel-forward"> <span class="stats-carousel__pager-button-text">Вперед</span> 
+       <svg class="stats-carousel__pager-svg" aria-hidden="true" focusable="false" tabindex="-1" pointer-events="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 0h24v24H0z" fill="none" />
+        <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" />
+       </svg> </button> 
+     </div> 
+     <div class="stats-carousel__slide js-carousel-slide"> 
+      <h3 class="stats-carousel__slide-title js-carousel-text-fade"> <span class="stats-carousel__slide-title-desktop"> <span class="stats-carousel__line js-carousel-line-left"><span class="stats-carousel__ribbon js-carousel-left-ribbon">Миллиард </span></span><span class="stats-carousel__line js-carousel-line-right"><span class="stats-carousel__ribbon js-carousel-right-ribbon">часов</span> просмотра каждый день</span> </span> <span class="stats-carousel__slide-title-mobile"> <span class="stats-carousel__ribbon">Миллиард </span> <span class="stats-carousel__ribbon">часов</span> просмотра каждый день </span> </h3> 
+      <button class="stats-carousel__pager-button stats-carousel__pager-button--back js-carousel-back"> <span class="stats-carousel__pager-button-text">Назад</span> 
+       <svg class="stats-carousel__pager-svg" aria-hidden="true" focusable="false" tabindex="-1" pointer-events="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 0h24v24H0z" fill="none" />
+        <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z" />
+       </svg> </button> 
+      <p class="stats-carousel__description js-carousel-text-fade">Это количество часов воспроизведения роликов на YouTube, полученное в результате миллиардов просмотров.</p> 
+      <button class="stats-carousel__pager-button stats-carousel__pager-button--forward js-carousel-forward"> <span class="stats-carousel__pager-button-text">Вперед</span> 
+       <svg class="stats-carousel__pager-svg" aria-hidden="true" focusable="false" tabindex="-1" pointer-events="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 0h24v24H0z" fill="none" />
+        <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" />
+       </svg> </button> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <section class="statistics"> 
+   <div class="statistics__inner"> 
+    <div class="accordion js-accordion"> 
+     <div class="accordion__trigger-wrapper" aria-role="heading"> 
+      <button class="accordion__trigger js-accordion-trigger" aria-pressed="false" aria-role="button" aria-expanded="false"> <span class="accordion__trigger-open-text js-accordion-trigger-open-text" aria-hidden="false">Просмотреть всю статистику YouTube</span> <span class="accordion__trigger-close-text js-accordion-trigger-close-text" aria-hidden="true">Закрыть</span> </button> 
+     </div> 
+     <div class="accordion__content js-accordion-content" aria-hidden="true"> 
+      <div class="statistics__content js-accordion-height"> 
+       <div class="statistics__group"> 
+        <div class="statistics__group-inner"> 
+         <h3 class="statistics__group-title">Общие факты</h3> 
+         <ul class="statistics__list"> 
+          <li class="statistics__item">Аудитория YouTube&nbsp;– больше миллиарда человек. Это почти треть всех пользователей Интернета. Миллиарды просмотров и сотни миллионов часов воспроизведения&nbsp;– такова ежедневная статистика сайта.</li> 
+          <li class="statistics__item">Среди жителей США в возрасте от 18&nbsp;до 49&nbsp;лет наше мобильное приложение и сайт более популярны, чем любая американская сеть кабельного телевидения.</li> 
+          <li class="statistics__item">На мобильные устройства приходится больше половины просмотров.</li> 
+          <li class="statistics__item">Сайт YouTube локализован более чем в 88&nbsp;странах.</li> 
+          <li class="statistics__item">Интерфейс YouTube переведен на 76&nbsp;языков мира. 95%&nbsp;пользователей Интернета могут пользоваться им на языке, который является для них родным.</li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div class="statistics__group"> 
+        <div class="statistics__group-inner"> 
+         <h3 class="statistics__group-title">Ресурсы для авторов</h3> 
+         <ul class="statistics__list"> 
+          <li class="statistics__item">Количество авторов, чей годовой доход на YouTube измеряется шестизначными цифрами, за год выросло в полтора раза.</li> 
+          <li class="statistics__item">В YouTube&nbsp;Студиях в Лос-Анджелесе, Нью-Йорке, Лондоне, Токио, Сан-Паулу и Берлине мы проводим образовательные программы и устраиваем семинары для авторов.</li> 
+          <li class="statistics__item">По состоянию на март 2015&nbsp;года авторы сняли в YouTube&nbsp;Студиях более 10&nbsp;000 роликов, которые собрали более миллиарда просмотров. Общая продолжительность просмотра всего отснятого контента составляет уже больше 70&nbsp;миллионов часов.</li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div class="statistics__group"> 
+        <div class="statistics__group-inner"> 
+         <h3 class="statistics__group-title">Правообладателям</h3> 
+         <ul class="statistics__list"> 
+          <li class="statistics__item">Система Content&nbsp;ID принесла доход уже многим авторам. С 2007&nbsp;года мы выплатили партнерам, заявившим права на свои ролики, около двух миллиардов долларов (по состоянию на июль 2016&nbsp;года).</li> 
+          <li class="statistics__item">По состоянию на июль 2015&nbsp;года системой Content&nbsp;ID пользуются более 8000 партнеров. В их числе крупные сетевые вещательные компании, звукозаписывающие студии и киностудии. Все они заявили права более чем на 400&nbsp;миллионов роликов. Партнеры могут задавать правила использования и монетизации контента и получать доход от всех видео, которые содержат материалы, защищенные их авторским правом.</li> 
+          <li class="statistics__item">В системе Content&nbsp;ID хранится более 50&nbsp;миллионов активных цифровых отпечатков. Это самая большая база данных такого рода в мире. Она даже получила премию "Эмми"!</li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <section class="cards"> 
+   <h2 class="cards__section-title">Основные сведения о YouTube</h2> 
+   <div class="cards__container js-slideshow"> 
+    <div class="cards__inner cards__inner--image-full js-cards-height"> 
+     <a href="https://www.youtube.com/watch?v=jNQXAC9IVRw" target="_blank" class="card card--image-full js-card js-slideshow-slide js-slideshow-focus"> 
+      <div class="card__inner js-card-inner"> 
+       <span class="card__image-wrapper" aria-hidden="true"> <img class="card__image" src="/yt/about/media/images/press/me-at-the-zoo.jpg" alt="Значок для видео Me at the zoo (Я в зоопарке)"> </span> 
+       <div class="card__text"> 
+        <div class="card__title-wrapper"> 
+         <h3 class="card__title js-underline"> <span class="card__title-text js-underline-width">Me at the Zoo (Я в зоопарке)</span> <span class="card__underline underline js-underline-line"> <span class="underline__inner"></span> </span> </h3> 
+        </div> 
+        <p class="card__copy">Самое первое видео, загруженное на YouTube 23&nbsp;апреля 2005&nbsp;г.</p> 
+        <p class="card__cta">Видео об авторском праве</p> 
+       </div> 
+      </div> </a> 
+     <a href="https://www.youtube.com/watch?v=QCVxQ_3Ejkg" target="_blank" class="card card--image-full js-card js-slideshow-slide js-slideshow-focus"> 
+      <div class="card__inner js-card-inner"> 
+       <span class="card__image-wrapper" aria-hidden="true"> <img class="card__image" src="/yt/about/media/images/press/chad-and-steve.jpg" alt="Значок для видео от Чада и Стива, основателей YouTube"> </span> 
+       <div class="card__text"> 
+        <div class="card__title-wrapper"> 
+         <h3 class="card__title js-underline"> <span class="card__title-text js-underline-width">Сообщение от Чада и Стива</span> <span class="card__underline underline js-underline-line"> <span class="underline__inner"></span> </span> </h3> 
+        </div> 
+        <p class="card__copy">Основатели YouTube рассказывают о том, как их сайт купила компания Google.</p> 
+        <p class="card__cta">Видео об авторском праве</p> 
+       </div> 
+      </div> </a> 
+     <a href="https://www.youtube.com/user/YouTube" target="_blank" class="card card--image-full js-card js-slideshow-slide js-slideshow-focus"> 
+      <div class="card__inner js-card-inner"> 
+       <span class="card__image-wrapper" aria-hidden="true"> <img class="card__image" src="/yt/about/media/images/press/youtube-rewind.jpg" alt="Значок для видео YouTube&nbsp;Rewind&nbsp;2016"> </span> 
+       <div class="card__text"> 
+        <div class="card__title-wrapper"> 
+         <h3 class="card__title js-underline"> <span class="card__title-text js-underline-width">Раздел "В фокусе"</span> <span class="card__underline underline js-underline-line"> <span class="underline__inner"></span> </span> </h3> 
+        </div> 
+        <p class="card__copy">Официальный канал, на котором публикуются все новости о YouTube.</p> 
+        <p class="card__cta">Видео об авторском праве</p> 
+       </div> 
+      </div> </a> 
+    </div> 
+   </div> 
+   <div class="cards__angle js-parallaxed" data-speed="0.03"></div> 
+  </section> 
+  <section class="photo-module"> 
+   <div class="photo-module__inner"> 
+    <div class="photo-module__image-container"> 
+     <div class="photo-module__image-inner"> 
+      <div class="photo-module__image js-parallaxed" data-speed="0.05" style="background-image: url(/yt/about/media/images/press/press-photo.jpg);"></div> 
+     </div> 
+    </div> 
+    <div class="photo-module__content"> 
+     <h2 class="photo-module__title">Некоммерческое использование контента с YouTube в СМИ</h2> 
+     <h3 class="photo-module__headline">Помните об авторском праве и указывайте авторов контента</h3> 
+     <p class="photo-module__text">Все права на видео, размещаемые на YouTube, принадлежат их авторам. Если вы хотите использовать чужой контент в своих материалах, свяжитесь с его владельцем и запросите разрешение. Демонстрируя чей-либо ролик в ходе прямого эфира, необходимо сослаться на автора&nbsp;– показать его настоящее имя или имя пользователя на экране и произнести его вслух.</p> 
+     <h3 class="photo-module__headline">Как связаться с владельцем канала YouTube</h3> 
+     <p class="photo-module__text">Войдите в свой аккаунт Google на сайте YouTube и нажмите на имя пользователя: откроется главная страница его канала. Далее откройте вкладку "О канале" и справа на странице нажмите "Отправить сообщение".</p> 
+    </div> 
+   </div> 
+  </section> 
+  <section class="connect js-blogs"> 
+   <div class="connect__inner"> 
+    <div class="connect__title-wrapper"> 
+     <h2 class="connect__title">События YouTube</h2> 
+    </div> 
+    <div class="connect__item"> 
+     <p class="connect__item-copy js-youtube-blog-headline"></p> 
+     <a class="connect__item-link" href="https://youtube.googleblog.com/" target="_blank">Visit the YouTube Blog</a> 
+    </div> 
+    <div class="connect__item"> 
+     <p class="connect__item-copy js-trends-blog-headline"></p> 
+     <a class="connect__item-link" href="http://youtube-trends.blogspot.com/" target="_blank">Visit the YouTube Trends Blog</a> 
+    </div> 
+    <div class="connect__item"> 
+     <p class="connect__item-copy js-developers-blog-headline"></p> 
+     <a class="connect__item-link" href="https://youtube-eng.googleblog.com/" target="_blank">Visit the YouTube Developers Blog</a> 
+    </div> 
+    <div class="connect__press"> 
+     <p>Представители прессы могут связаться с нами по адресу <a class="connect__press-link" href="mailto:press@google.com">press@google.com</a></p> 
+    </div> 
+   </div> 
+  </section> 
+  <div class="social-links"> 
+   <div class="social-links__inner"> 
+    <a class="social-links__link" target="_blank" href="https://twitter.com/YouTube"> 
+     <svg class="social-links__icon-circle-svg" aria-hidden="true" focusable="false" tabindex="-1" pointer-events="none" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 40 40" width="40" height="40">
+      <circle class="fill" cx="20" cy="20" r="20" fill="#292929" shape-rendering="geometricPrecision" stroke-linejoin="round" />
+     </svg> <span class="social-links__text">Twitter</span> <span class="social-links__icon">
+      <svg class="social-links__icon-svg" aria-hidden="true" focusable="false" tabindex="-1" pointer-events="none" width="16" height="14" viewbox="0 0 16 14" xmlns="http://www.w3.org/2000/svg">
+       <path d="M4.892 13.345c5.87 0 9.08-5.13 9.08-9.576 0-.147-.002-.292-.01-.437.625-.475 1.166-1.067 1.594-1.742-.572.27-1.188.45-1.833.53.66-.416 1.165-1.076 1.403-1.86-.617.384-1.3.665-2.026.816C12.517.42 11.688.012 10.77.012c-1.763 0-3.192 1.508-3.192 3.366 0 .264.028.52.083.767-2.65-.14-5.003-1.48-6.577-3.516C.808 1.125.65 1.703.65 2.32c0 1.168.564 2.2 1.42 2.802-.523-.017-1.015-.17-1.445-.42v.042c0 1.63 1.1 2.99 2.56 3.3-.268.077-.55.118-.84.118-.207 0-.407-.02-.6-.06.405 1.337 1.583 2.31 2.98 2.337-1.092.902-2.468 1.44-3.964 1.44-.256 0-.51-.015-.76-.047 1.412.955 3.09 1.512 4.892 1.512" fill="#FFF" fill-rule="evenodd" />
+      </svg></span> </a> 
+    <a class="social-links__link" target="_blank" href="https://www.instagram.com/youtube/"> 
+     <svg class="social-links__icon-circle-svg" aria-hidden="true" focusable="false" tabindex="-1" pointer-events="none" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 40 40" width="40" height="40">
+      <circle class="fill" cx="20" cy="20" r="20" fill="#292929" shape-rendering="geometricPrecision" stroke-linejoin="round" />
+     </svg> <span class="social-links__text">Instagram</span> <span class="social-links__icon">
+      <svg class="social-links__icon-svg" aria-hidden="true" focusable="false" tabindex="-1" pointer-events="none" width="16" height="16" viewbox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+       <g fill="#FFF" fill-rule="evenodd">
+        <path d="M8 1.66c2.057 0 2.3.007 3.113.044.75.035 1.16.16 1.43.266.36.14.617.306.886.576.27.27.436.526.575.886.106.27.23.68.266 1.43.038.812.046 1.056.046 3.113s-.008 2.3-.045 3.113c-.034.75-.16 1.16-.265 1.43-.14.36-.306.617-.576.886-.27.27-.527.437-.887.577-.27.106-.68.232-1.43.266-.812.037-1.056.045-3.113.045s-2.3-.007-3.113-.044c-.75-.034-1.16-.16-1.43-.265-.36-.14-.617-.306-.886-.576-.27-.27-.436-.526-.575-.886-.106-.27-.23-.68-.266-1.43-.038-.812-.046-1.056-.046-3.113s.008-2.3.045-3.113c.034-.75.16-1.16.265-1.43.14-.36.306-.617.576-.886.27-.27.527-.437.887-.576.27-.106.68-.23 1.43-.266C5.7 1.667 5.943 1.66 8 1.66M8 .27C5.908.27 5.645.28 4.824.32c-.82.037-1.38.167-1.87.358-.507.197-.936.46-1.365.888-.43.43-.692.858-.89 1.365C.51 3.42.38 3.98.344 4.8.305 5.62.296 5.882.296 7.974c0 2.092.01 2.355.047 3.176.037.82.167 1.38.358 1.87.198.508.46.937.89 1.366.428.428.857.69 1.364.888.49.19 1.05.32 1.87.358.82.038 1.084.047 3.176.047s2.355-.01 3.176-.048c.82-.037 1.38-.167 1.87-.358.507-.197.936-.46 1.365-.888.43-.43.692-.858.89-1.365.19-.49.32-1.05.357-1.87.038-.82.047-1.083.047-3.175 0-2.092-.01-2.355-.047-3.176-.037-.82-.167-1.38-.358-1.87-.198-.508-.46-.937-.89-1.366-.428-.428-.857-.69-1.364-.888-.49-.19-1.05-.32-1.87-.358C10.356.28 10.092.27 8 .27" />
+        <path d="M8 4.123c-2.127 0-3.852 1.725-3.852 3.852S5.873 11.827 8 11.827s3.852-1.725 3.852-3.852S10.127 4.123 8 4.123zm0 6.352c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5zM12.708 3.695c0 .473-.383.856-.856.856s-.856-.382-.856-.855.383-.856.856-.856.856.382.856.855" />
+       </g>
+      </svg></span> </a> 
+    <a class="social-links__link" target="_blank" href="https://www.facebook.com/youtube/?ref=br_rs"> 
+     <svg class="social-links__icon-circle-svg" aria-hidden="true" focusable="false" tabindex="-1" pointer-events="none" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 40 40" width="40" height="40">
+      <circle class="fill" cx="20" cy="20" r="20" fill="#292929" shape-rendering="geometricPrecision" stroke-linejoin="round" />
+     </svg> <span class="social-links__text">Facebook</span> <span class="social-links__icon">
+      <svg class="social-links__icon-svg" aria-hidden="true" focusable="false" tabindex="-1" pointer-events="none" width="8" height="15" viewbox="0 0 8 15" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+       <defs>
+        <path id="a" d="M4 15h4V0H0v15h4z" />
+       </defs>
+       <g fill="none" fill-rule="evenodd">
+        <mask id="b" fill="#fff">
+         <use xlink:href="#a" />
+        </mask>
+        <path d="M5.193 15V8.158H7.55l.354-2.667h-2.71v-1.7c0-.773.22-1.3 1.356-1.3H8V.105C7.75.073 6.888 0 5.887 0c-2.09 0-3.522 1.243-3.522 3.525V5.49H0V8.16h2.365V15h2.828z" fill="#FEFEFE" mask="url(#b)" />
+       </g>
+      </svg></span> </a> 
+    <a class="social-links__link" target="_blank" href="https://plus.google.com/+youtube"> 
+     <svg class="social-links__icon-circle-svg" aria-hidden="true" focusable="false" tabindex="-1" pointer-events="none" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 40 40" width="40" height="40">
+      <circle class="fill" cx="20" cy="20" r="20" fill="#292929" shape-rendering="geometricPrecision" stroke-linejoin="round" />
+     </svg> <span class="social-links__text">Google+</span> <span class="social-links__icon">
+      <svg class="social-links__icon-svg" style="margin-left:2px;" aria-hidden="true" focusable="false" tabindex="-1" pointer-events="none" width="22" height="14" viewbox="0 0 22 14" xmlns="http://www.w3.org/2000/svg">
+       <path d="M7.143 6v2.4h4.05c-.162 1.03-1.224 3.02-4.05 3.02-2.44 0-4.43-1.98-4.43-4.42s1.99-4.42 4.43-4.42c1.388 0 2.316.58 2.847 1.08l1.94-1.83C10.683.69 9.07 0 7.142 0 3.193 0 0 3.13 0 7s3.194 7 7.143 7C11.265 14 14 11.16 14 7.16c0-.46-.05-.81-.112-1.16H7.143zM22 6h-2V4h-2v2h-2v2h2v2h2V8h2V6z" fill="#FFF" fill-rule="evenodd" />
+      </svg></span> </a> 
+    <a class="social-links__link" target="_blank" href="http://youtube.tumblr.com/"> 
+     <svg class="social-links__icon-circle-svg" aria-hidden="true" focusable="false" tabindex="-1" pointer-events="none" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 40 40" width="40" height="40">
+      <circle class="fill" cx="20" cy="20" r="20" fill="#292929" shape-rendering="geometricPrecision" stroke-linejoin="round" />
+     </svg> <span class="social-links__text">Tumblr</span> <span class="social-links__icon">
+      <svg class="social-links__icon-svg" aria-hidden="true" focusable="false" tabindex="-1" pointer-events="none" width="8" height="14" viewbox="0 0 8 14" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+       <defs>
+        <path id="a" d="M8 0H0v13.702h8V0z" />
+       </defs>
+       <g fill="none" fill-rule="evenodd">
+        <mask id="b" fill="#fff">
+         <use xlink:href="#a" />
+        </mask>
+        <path d="M7.33 10.944c-.258.122-.753.228-1.122.237-1.115.03-1.33-.77-1.34-1.35V5.566h2.795V3.49H4.877V0H2.84c-.035 0-.093.03-.1.102C2.62 1.172 2.11 3.045 0 3.795v1.77h1.41v4.476c0 1.535 1.147 3.712 4.18 3.66 1.023-.017 2.16-.438 2.41-.802l-.67-1.954" fill="#FEFEFE" mask="url(#b)" />
+       </g>
+      </svg></span> </a> 
+   </div> 
+  </div> 
+  <footer class="yt-footer"> 
+   <div class="yt-footer__content"> 
+    <div class="yt-footer__top"> 
+     <div class="yt-footer__logo-link-wrapper"> 
+      <a href="https://www.youtube.com" class="yt-footer__logo-link" aria-label="Ссылка на youtube.com"> 
+       <svg class="yt-footer__logo" version="1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 580 130">
+        <path d="M181.7 20.7c-2.1-7.9-8.4-14.2-16.3-16.3C151.1.5 93.6.5 93.6.5s-57.6.1-71.9 4C13.8 6.6 7.5 12.9 5.4 20.8 1.6 35.1 1.6 65 1.6 65s0 29.9 3.9 44.3c2.1 7.9 8.4 14.2 16.3 16.3 14.3 3.9 71.8 3.9 71.8 3.9s57.5 0 71.8-3.9c7.9-2.1 14.2-8.4 16.3-16.3 3.9-14.3 3.9-44.3 3.9-44.3s0-29.9-3.9-44.3zM75.2 92.6V37.4L123 65 75.2 92.6z" />
+        <g>
+         <path d="M268.6 117.8c-3.7-2.5-6.3-6.3-7.8-11.5s-2.2-12-2.2-20.7V74c0-8.6.8-15.7 2.6-20.9 1.8-5.3 4.5-9.1 8.3-11.5 3.8-2.4 8.6-3.7 14.6-3.7 5.9 0 10.8 1.2 14.3 3.7s6.3 6.3 7.9 11.5 2.5 12.2 2.5 20.8v11.7c0 8.6-.8 15.5-2.5 20.7-1.7 5.2-4.3 9-7.9 11.5-3.7 2.4-8.6 3.7-14.8 3.7-6.4 0-11.3-1.3-15-3.7zm20.5-12.6c1.1-2.6 1.5-7 1.5-12.9V67.1c0-5.8-.5-10-1.5-12.6-1.1-2.7-2.8-4-5.3-4s-4.1 1.3-5.2 4c-1.1 2.7-1.5 6.9-1.5 12.6v25.2c0 5.9.5 10.3 1.4 12.9.9 2.6 2.7 3.9 5.3 3.9 2.4 0 4.2-1.3 5.3-3.9zM548 85.9V90c0 5.2.1 9.1.5 11.7.4 2.6.9 4.5 1.9 5.7.9 1.2 2.5 1.8 4.5 1.8 2.7 0 4.6-1.1 5.6-3.2 1.1-2.1 1.5-5.7 1.7-10.5l15.7.9c.1.7.1 1.7.1 2.8 0 7.4-2 13-6.1 16.7-4.1 3.7-9.8 5.6-17.2 5.6-9 0-15.2-2.8-18.8-8.4-3.5-5.6-5.4-14.3-5.4-26V72.8c0-12 1.9-20.9 5.6-26.5 3.8-5.6 10.2-8.4 19.1-8.4 6.3 0 11 1.2 14.3 3.4 3.3 2.2 5.7 5.8 7.1 10.6s2 11.5 2 20v13.8H548v.2zm2.4-34c-.9 1.2-1.5 3-1.9 5.6-.4 2.6-.5 6.5-.5 11.8V75h13.2v-5.8c0-5.2-.1-9.1-.5-11.8s-.9-4.6-1.9-5.7c-.9-1.1-2.4-1.7-4.3-1.7-1.9.2-3.3.8-4.1 1.9zM224.4 84.4L203.8 9.7h18.1l7.2 33.8c1.9 8.4 3.2 15.5 4.1 21.3h.5c.6-4.3 2-11.2 4.1-21.1l7.4-33.9h18.1l-20.9 74.5V120h-17.8V84.4h-.2zM367.4 39.5v80.7h-14.2l-1.5-9.9h-.4c-3.9 7.4-9.7 11.2-17.4 11.2-5.3 0-9.3-1.8-11.8-5.3-2.6-3.5-3.8-9-3.8-16.4V39.5h18.2v59.2c0 3.5.4 6.1 1.2 7.7.8 1.5 2.1 2.2 3.9 2.2 1.5 0 3.1-.5 4.5-1.4 1.4-.9 2.5-2.2 3.2-3.7v-64h18.1zM460.6 39.5v80.7h-14.2l-1.5-9.9h-.4c-3.9 7.4-9.7 11.2-17.4 11.2-5.3 0-9.3-1.8-11.8-5.3-2.6-3.5-3.8-9-3.8-16.4V39.5h18.2v59.2c0 3.5.4 6.1 1.2 7.7.8 1.5 2.1 2.2 3.9 2.2 1.5 0 3.1-.5 4.5-1.4s2.5-2.2 3.2-3.7v-64h18.1z" />
+         <path d="M416.8 24.4h-18.1v95.8H381V24.4h-18.1V9.7h53.8v14.6h.1zM520.6 52.4c-1.1-5.1-2.8-8.7-5.3-11.1-2.5-2.2-5.8-3.4-10.2-3.4-3.3 0-6.5.9-9.3 2.8-3 1.9-5.1 4.4-6.7 7.4h-.1V5.6h-17.5V120h15l1.9-7.7h.4c1.4 2.7 3.5 4.8 6.3 6.5 2.8 1.5 5.9 2.4 9.3 2.4 6.1 0 10.6-2.8 13.6-8.5 2.8-5.7 4.4-14.5 4.4-26.5V73.5c-.2-9-.7-16.1-1.8-21.1zm-16.7 32.9c0 5.9-.2 10.5-.7 13.8-.5 3.3-1.3 5.7-2.5 7.1-1.2 1.4-2.7 2.1-4.6 2.1-1.5 0-2.8-.4-4.1-1.1-1.3-.7-2.2-1.8-3.1-3.2V58.3c.6-2.2 1.7-4 3.2-5.4 1.5-1.4 3.1-2.1 4.8-2.1 1.9 0 3.3.7 4.3 2.1 1.1 1.4 1.7 3.9 2.1 7.3.4 3.4.6 8.3.6 14.6v10.5z" />
+        </g>
+       </svg> </a> 
+     </div> 
+     <div class="yt-footer__menus"> 
+      <div class="yt-footer__menu" role="menubar" aria-label="YouTube"> 
+       <h4 class="yt-footer__headline"> YouTube </h4> 
+       <a role="tab" class="yt-footer__link" href="https://www.youtube.com/intl/ru/yt/about/"> О сервисе </a> 
+       <a role="tab" class="yt-footer__link" href="https://youtube.googleblog.com/"> Блоги </a> 
+       <a role="tab" class="yt-footer__link" href="https://shop.googlemerchandisestore.com/Google+Redesign/Shop+by+Brand/YouTube"> Фирменные товары </a> 
+       <a role="tab" class="yt-footer__link" href="https://www.youtube.com/yt/jobs/"> Вакансии </a> 
+       <a role="tab" class="yt-footer__link" href="https://www.youtube.com/red/"> YouTube&nbsp;Red </a> 
+      </div> 
+      <div class="yt-footer__menu" role="menubar" aria-label="Партнерам"> 
+       <h4 class="yt-footer__headline"> Партнерам </h4> 
+       <a role="tab" class="yt-footer__link" href="https://www.youtube.com/yt/advertise/ru/"> Рекламодателям </a> 
+       <a role="tab" class="yt-footer__link" href="https://www.youtube.com/yt/creators/ru/"> Авторам </a> 
+       <a role="tab" class="yt-footer__link" href="https://www.youtube.com/yt/dev/ru/"> Разработчикам </a> 
+       <a role="tab" class="yt-footer__link" href="https://www.youtube.com/intl/ru/yt/about/press/"> Прессе </a> 
+       <a role="tab" class="yt-footer__link" href="https://www.youtube.com/yt/lineups/ru/"> Подборки Google&nbsp;Preferred </a> 
+      </div> 
+      <div class="yt-footer__menu" role="menubar" aria-label="Ресурсы"> 
+       <h4 class="yt-footer__headline"> Ресурсы </h4> 
+       <a role="tab" class="yt-footer__link" href="https://www.youtube.com/intl/ru/yt/about/policies/"> Правила и безопасность </a> 
+       <a role="tab" class="yt-footer__link" href="https://www.youtube.com/intl/ru/yt/about/copyright/"> Правообладателям </a> 
+       <a role="tab" class="yt-footer__link" href="https://www.youtube.com/intl/ru/yt/about/brand-resources/"> Правила использования бренда </a> 
+       <a role="tab" class="yt-footer__link" href="https://support.google.com/youtube?hl=ru#topic=4355266"> Справочный центр </a> 
+       <a role="tab" class="yt-footer__link" href="https://www.google.com/intl/ru/policies/privacy/"> Конфиденциальность </a> 
+      </div> 
+      <div class="yt-footer__menu" role="menubar" aria-label="Общение"> 
+       <h4 class="yt-footer__headline"> Общение </h4> 
+       <a role="tab" class="yt-footer__link" href="https://twitter.com/YouTube"> 
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 300.00006 244.18703">
+         <path d="M94.72 243.18c112.46 0 173.96-93.168 173.96-173.96 0-2.646-.054-5.28-.173-7.903a124.338 124.338 0 0 0 30.498-31.66c-10.955 4.87-22.744 8.147-35.11 9.625 12.622-7.569 22.313-19.543 26.885-33.817a122.62 122.62 0 0 1-38.824 14.841C240.8 8.422 224.916.99 207.327.99c-33.764 0-61.144 27.381-61.144 61.132 0 4.798.537 9.465 1.586 13.941-50.815-2.556-95.874-26.886-126.03-63.88a60.977 60.977 0 0 0-8.279 30.73c0 21.212 10.794 39.938 27.208 50.893a60.685 60.685 0 0 1-27.69-7.646c-.009.256-.009.506-.009.78 0 29.61 21.075 54.332 49.051 59.934a61.218 61.218 0 0 1-16.122 2.152c-3.933 0-7.766-.387-11.49-1.103 7.783 24.293 30.354 41.971 57.114 42.465-20.926 16.402-47.287 26.171-75.937 26.171-4.929 0-9.798-.28-14.584-.846 27.06 17.344 59.19 27.464 93.722 27.464" />
+        </svg> Twitter </a> 
+       <a role="tab" class="yt-footer__link" href="https://www.instagram.com/youtube/"> 
+        <svg viewbox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+         <g fill-rule="evenodd">
+          <path d="M5.73 1.032c1.53 0 1.71.006 2.315.034.56.025.863.12 1.064.197.267.104.458.228.658.43.2.2.325.39.43.658.077.203.17.506.196 1.065.028.604.034.785.034 2.315 0 1.53-.006 1.71-.034 2.315-.025.56-.12.863-.197 1.064a1.758 1.758 0 0 1-.43.658c-.2.2-.39.325-.658.43-.202.077-.506.17-1.065.196-.604.028-.785.034-2.315.034-1.53 0-1.71-.006-2.315-.034-.56-.025-.862-.12-1.064-.197a1.758 1.758 0 0 1-.658-.43c-.2-.2-.325-.39-.43-.658-.077-.202-.17-.506-.196-1.065-.028-.604-.034-.785-.034-2.315 0-1.53.006-1.71.034-2.315.025-.56.12-.862.197-1.064.104-.267.228-.458.43-.658.2-.2.39-.325.658-.43.203-.077.506-.17 1.065-.196.604-.028.785-.034 2.315-.034M5.73 0C4.174 0 3.98.007 3.368.034 2.758.062 2.34.16 1.978.3A2.843 2.843 0 0 0 .96.963c-.32.318-.515.638-.66 1.015-.143.364-.24.78-.268 1.39C.007 3.98 0 4.175 0 5.73s.007 1.75.034 2.363c.028.61.125 1.026.267 1.39.147.377.343.697.662 1.015.318.32.638.515 1.015.66.364.143.78.24 1.39.268.612.027.807.034 2.363.034s1.75-.007 2.362-.034c.61-.028 1.027-.125 1.39-.267a2.803 2.803 0 0 0 1.016-.662c.32-.318.515-.638.66-1.015.143-.364.24-.78.268-1.39.027-.612.034-.807.034-2.363s-.007-1.75-.034-2.362c-.028-.61-.125-1.027-.267-1.39a2.803 2.803 0 0 0-.662-1.016 2.763 2.763 0 0 0-1.015-.66c-.364-.143-.78-.24-1.39-.268C7.48.007 7.285 0 5.73 0" />
+          <path d="M5.73 2.865a2.865 2.865 0 1 0 0 5.73 2.865 2.865 0 0 0 0-5.73zm0 4.725a1.86 1.86 0 1 1 0-3.72 1.86 1.86 0 0 1 0 3.72zM9.232 2.547a.637.637 0 1 1-1.274-.002.637.637 0 0 1 1.274.002" />
+         </g>
+        </svg> Instagram </a> 
+       <a role="tab" class="yt-footer__link" href="https://www.facebook.com/youtube/?ref=br_r"> 
+        <svg viewbox="0 0 6 12" xmlns="http://www.w3.org/2000/svg">
+         <path d="M3.72 11.46V6.233h1.69l.252-2.038H3.72v-1.3c0-.59.157-.992.97-.992h1.04V.08C5.55.055 4.934 0 4.216 0 2.72 0 1.694.95 1.694 2.693v1.502H0v2.038h1.694v5.227H3.72z" fill-rule="evenodd" />
+        </svg> Facebook </a> 
+       <a role="tab" class="yt-footer__link" href="https://plus.google.com/+youtube"> 
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+         <path d="M7 11v2.4h3.97c-.16 1.029-1.2 3.02-3.97 3.02-2.39 0-4.34-1.979-4.34-4.42 0-2.44 1.95-4.42 4.34-4.42 1.36 0 2.27.58 2.79 1.08l1.9-1.83C10.47 5.69 8.89 5 7 5c-3.87 0-7 3.13-7 7s3.13 7 7 7c4.04 0 6.721-2.84 6.721-6.84 0-.46-.051-.81-.111-1.16H7zm0 0l17 2h-3v3h-2v-3h-3v-2h3V8h2v3h3v2z" fill-rule="evenodd" clip-rule="evenodd" />
+        </svg> Google+ </a> 
+       <a role="tab" class="yt-footer__link" href="http://youtube.tumblr.com/"> 
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1024 1024">
+         <path d="M702.77 799.58C680.56 823.3 629.09 839.4 583 840.16h-5.06c-154.84 0-188.47-113.84-188.47-180.29V475.26h-61a12.79 12.79 0 0 1-12.79-12.79v-87.18a21.72 21.72 0 0 1 14.47-20.46c79.49-28 104.42-97.37 108.11-150.1 1-14.09 8.37-20.92 20.6-20.92h90.92a12.79 12.79 0 0 1 12.79 12.79v147.65H669A12.79 12.79 0 0 1 681.8 357v104.77a12.79 12.79 0 0 1-12.8 12.78H562.08v170.73c0 42.87 28.25 54.7 45.7 54.7 16.74-.4 33.22-5.5 41.48-8.82 6.13-2.46 11.52-4.09 16.34-2.88 4.49 1.12 7.44 4.3 9.43 10.1l28.21 82.4c2.29 6.6 4.26 13.75-.47 18.8z" />
+        </svg> Tumblr </a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="yt-footer__bottom yt-footer__bottom--with-language-select"> 
+     <div class="yt-footer__languages"> 
+      <select class="yt-footer__select" onchange="window.location.href = this.value"> <option value="/intl/ar/yt/about/press/"> العربية </option> <option value="/intl/bg/yt/about/press/"> български </option> <option value="/intl/bn/yt/about/press/"> বাংলা </option> <option value="/intl/ca/yt/about/press/"> català </option> <option value="/intl/cs/yt/about/press/"> čeština </option> <option value="/intl/da/yt/about/press/"> dansk </option> <option value="/intl/de/yt/about/press/"> Deutsch </option> <option value="/intl/el/yt/about/press/"> Ελληνικά </option> <option value="/yt/about/press/"> English </option> <option value="/intl/en-GB/yt/about/press/"> English (United Kingdom) </option> <option value="/intl/es/yt/about/press/"> español </option> <option value="/intl/es-419/yt/about/press/"> español (Latinoamérica) </option> <option value="/intl/et/yt/about/press/"> eesti </option> <option value="/intl/eu/yt/about/press/"> euskara </option> <option value="/intl/fa/yt/about/press/"> فارسی </option> <option value="/intl/fi/yt/about/press/"> suomi </option> <option value="/intl/fil/yt/about/press/"> Filipino </option> <option value="/intl/fr/yt/about/press/"> français </option> <option value="/intl/fr-CA/yt/about/press/"> français (Canada) </option> <option value="/intl/gl/yt/about/press/"> galego </option> <option value="/intl/gu/yt/about/press/"> ગુજરાતી </option> <option value="/intl/iw/yt/about/press/"> עברית (ישראל) </option> <option value="/intl/hi/yt/about/press/"> हिन्दी </option> <option value="/intl/hr/yt/about/press/"> hrvatski </option> <option value="/intl/hu/yt/about/press/"> magyar </option> <option value="/intl/id/yt/about/press/"> Indonesia </option> <option value="/intl/is/yt/about/press/"> íslenska </option> <option value="/intl/it/yt/about/press/"> italiano </option> <option value="/intl/ja/yt/about/press/"> 日本語 </option> <option value="/intl/ko/yt/about/press/"> 한국어 </option> <option value="/intl/lt/yt/about/press/"> lietuvių </option> <option value="/intl/lv/yt/about/press/"> latviešu </option> <option value="/intl/ml/yt/about/press/"> മലയാളം </option> <option value="/intl/mr/yt/about/press/"> मराठी </option> <option value="/intl/ms/yt/about/press/"> Bahasa Melayu </option> <option value="/intl/no/yt/about/press/"> norsk bokmål (Norge) </option> <option value="/intl/nl/yt/about/press/"> Nederlands </option> <option value="/intl/pl/yt/about/press/"> polski </option> <option value="/intl/pt-BR/yt/about/press/"> português (Brasil) </option> <option value="/intl/pt-PT/yt/about/press/"> português (Portugal) </option> <option value="/intl/ro/yt/about/press/"> română </option> <option selected value="/intl/ru/yt/about/press/"> русский </option> <option value="/intl/sk/yt/about/press/"> slovenčina </option> <option value="/intl/sl/yt/about/press/"> slovenščina </option> <option value="/intl/sr/yt/about/press/"> српски </option> <option value="/intl/sv/yt/about/press/"> svenska </option> <option value="/intl/ta/yt/about/press/"> தமிழ் </option> <option value="/intl/te/yt/about/press/"> తెలుగు </option> <option value="/intl/th/yt/about/press/"> ไทย </option> <option value="/intl/tr/yt/about/press/"> Türkçe </option> <option value="/intl/uk/yt/about/press/"> українська </option> <option value="/intl/vi/yt/about/press/"> Tiếng Việt </option> <option value="/intl/zh-CN/yt/about/press/"> 中文 (简体, 中国) </option> <option value="/intl/zh-HK/yt/about/press/"> 中文 (繁體字, 中華人民共和國香港特別行政區) </option> <option value="/intl/zh-TW/yt/about/press/"> 中文 (繁體, 台灣) </option> </select> 
+     </div> 
+     <div class="yt-footer__terms"> 
+      <span class="yt-footer__copyright"> © YouTube, 2017&nbsp;г. </span> 
+      <div class="yt-footer__terms-links"> 
+       <a class="yt-footer__terms-link" href="https://www.youtube.com/t/terms"> Условия использования </a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </footer> 
+ </div> 
+ <script src="https://www.gstatic.com/feedback/api.js"></script> 
+ <script src="https://www.gstatic.com/external_hosted/gsap/v1_18_0/TweenMax.min.js"></script> 
+ <script src="https://www.gstatic.com/external_hosted/gsap/v1_18_0/utils/Draggable.min.js"></script> 
+ <script src="https://www.gstatic.com/external_hosted/gsap/v1_18_0/plugins/ScrollToPlugin.min.js"></script> 
+ <script src="https://www.gstatic.com/external_hosted/greensock/plugins/ThrowPropsPlugin.js"></script> 
+ <script src="https://www.gstatic.com/external_hosted/clipboardjs/clipboard.min.js"></script> 
+ <script src="/yt/about/js/site.min.js"></script>  
+</body>

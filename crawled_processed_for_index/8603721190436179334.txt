@@ -1,0 +1,230 @@
+<body class="index_page">
+ ﻿   
+ <meta charset="UTF-8"> 
+ <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+ <meta name="viewport" content="width=device-width,initial-scale=1"> 
+ <meta name="theme-color" content="#006eb8"> 
+ <title>ЦКИТ</title> 
+ <link rel="stylesheet" href="/js/jquery.slick/slick.css"> 
+ <link rel="stylesheet" href="/js/jquery.arcticmodal/jquery.arcticmodal-0.3.css"> 
+ <link rel="stylesheet" href="/fonts/stylesheet.css"> 
+ <link rel="stylesheet" href="/css/style.css"> 
+ <link rel="stylesheet" href="/css/media.css"> 
+ <script src="/js/jquery-1.11.0.min.js"></script> 
+ <script src="/js/modernizr.js"></script> 
+ <script src="/js/jquery.arcticmodal/jquery.arcticmodal-0.3.min.js"></script> 
+ <script src="/js/jquery.slick/slick.min.js"></script> 
+ <script src="/js/jquery.matchHeight.js"></script> 
+ <script src="/js/inputmask.js"></script> 
+ <script src="/js/script.js"></script> 
+ <!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->   
+ <noscript class="no_script_message">
+   У вас отключен JavaScript. Сайт может отображаться некорректно. Рекомендуем включить JavaScript. 
+ </noscript> 
+ <div class="main"> 
+  <div class="header"> 
+   <div class="slider"> 
+    <div class="main_slider_box"> 
+     <div class="main_slider"> 
+      <div class="one_slid"> 
+       <img src="/img/001s-min.jpg" alt="" class="sl_desktop"> 
+       <img src="/img/001_2.jpg" alt="" class="sl_mobile"> 
+       <div class="one_slid_box"> 
+        <div class="box"> 
+         <div class="slide_quote"> 
+          <p class="text_quote">«Россия должна «по определению», вне зависимости от политической конъюнктуры, внедрять свои программные продукты и «железо» – это необходимо для собственного развития, и дело тут не в ограничениях и санкциях»</p> 
+          <p class="author_quote">Владимир Путин</p> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="one_slid"> 
+       <img src="/img/002s-min.jpg" alt="" class="sl_desktop"> 
+       <img src="/img/002_2.jpg" alt="" class="sl_mobile"> 
+       <div class="one_slid_box"> 
+        <div class="box"> 
+         <div class="slide_quote"> 
+          <p class="text_quote">«Разумное импортозамещение – наш долгосрочный приоритет, независимо от обстоятельств»</p> 
+          <p class="author_quote">Владимир Путин</p> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="one_slid"> 
+       <img src="/img/003s-min.jpg" alt="" class="sl_desktop"> 
+       <img src="/img/003_2.jpg" alt="" class="sl_mobile"> 
+       <div class="one_slid_box"> 
+        <div class="box"> 
+         <div class="slide_quote"> 
+          <p class="text_quote">«Д.А.Медведеву. Обеспечьте необходимую государственную поддержку по созданию и функционированию центра компетенций по импортозамещению в сфере информационно-коммуникационных технологий, определив его правовой статус, полномочия и порядок учёта государственными органами выпускаемых им решений»</p> 
+          <p class="author_quote">Владимир Путин</p> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="slider_arr"> 
+      <div class="box"> 
+       <p class="main_slider_arr main_slider_prev"></p> 
+       <p class="main_slider_arr main_slider_next"></p> 
+      </div> 
+     </div> 
+     <div class="slider_dots_box"> 
+      <div class="slider_dots"></div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="head"> 
+    <div class="box"> 
+     <div class="logo">
+      <a href="/"><img width="229" src="/img/logo_top.svg" onerror="this.onerror=null; this.src='img/logo.png'" alt=""></a>
+     </div> 
+     <div class="main_menu"> 
+      <ul> 
+       <li><a href="/examination/">Заявка на<br>экспертизу</a></li> 
+       <li><a href="/violation/">Сообщить о нарушении<br>в закупке</a></li> 
+       <li><a href="/about/">О ЦКИТ</a></li> 
+       <li><a href="#partners" class="scroll_to">Партнеры</a></li> 
+       <li><a href="#" class="contacts">Контакты</a></li> 
+      </ul> 
+      <div class="close_nav"></div> 
+     </div> 
+     <div class="mobile_menu"> 
+      <span></span> 
+      <span></span> 
+      <span></span> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="content"> 
+   <div class="import"> 
+    <div class="box"> 
+     <div class="import_blue"> 
+      <div class="import_blue_box"> 
+       <p class="import_title">Импортозамещение программного обеспечения</p> 
+       <ul class="import_list"> 
+        <li class="import_item"> <a href="http://reestr.minsvyaz.ru" target="_blank"> <span class="import_img"><img src="/img/reestr.svg" alt=""></span> <span class="import_name">Единый реестр ПО</span> </a> </li> 
+        <li class="import_item"> <a href="/acts/"> <span class="import_img"><img src="/img/akty.svg" alt=""></span> <span class="import_name">Нормативные акты</span> </a> </li> 
+        <li class="import_item"> <a href="#" onclick="return false;"> <span class="import_img"><img src="/img/praktiki.svg" alt=""></span> <span class="import_name">Практики</span> </a> </li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="import_gray"> 
+      <div class="import_gray_box"> 
+       <p class="import_title">Импортозамещение СВТ и телеком-оборудования</p> 
+       <ul class="import_list"> 
+        <li class="import_item"> <span> <span class="import_name">в разработке</span> </span> </li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="partners" id="partners"> 
+    <div class="box"> 
+     <p class="title_c">Партнеры</p> 
+     <div class="partners_list_box"> 
+      <div class="partners_list"> 
+       <div class="partners_item"> 
+        <a href="http://www.f-id.ru" target="_black"><img src="/img/p001.png" alt=""></a> 
+       </div> 
+       <div class="partners_item"> 
+        <a href="http://www.arppsoft.ru" target="_black"><img src="/img/1.svg" alt=""></a> 
+       </div> 
+       <div class="partners_item"> 
+        <a href="http://ири.рф" target="_black"><img src="/img/p003.png" alt=""></a> 
+       </div> 
+       <div class="partners_item"> 
+        <a href="http://d-russia.ru" target="_black"><img src="/img/p004.png" alt=""></a> 
+       </div> 
+      </div> 
+      <div class="partners_dots_box"> 
+       <div class="partners_dots"></div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+ <div class="footer"> 
+  <div class="box"> 
+   <div class="footer_box"> 
+    <div class="f_logo">
+     <a href="/"><img width="229" src="/img/logo.svg" alt=""></a>
+    </div> 
+    <div class="f_one f_one_address"> 
+     <p class="f_one_title">Адрес:</p> 
+     <p class="f_one_text">119048, ул. Усачёва, д.33, стр.2</p> 
+    </div> 
+    <div class="f_one f_one_phone"> 
+     <p class="f_one_title">Телефон:</p> 
+     <p class="f_one_text">+7 (499) 653-61-62</p> 
+    </div> 
+    <div class="f_button">
+     <a href="#" class="b_btn">Написать нам</a>
+    </div> 
+   </div> 
+   <p class="copy">© Центр компетенций по импортозамещению в сфере ИКТ, 2016</p> 
+  </div> 
+ </div> 
+ <div style="display: none;"> 
+  <div class="modal" id="contacts"> 
+   <div class="modal_close arcticmodal-close">
+    закрыть
+   </div> 
+   <div class="modal_content"> 
+    <p class="title_c">Наши контакты</p> 
+    <div class="f_one f_one_address"> 
+     <p class="f_one_title">Адрес:</p> 
+     <p class="f_one_text">119048, ул. Усачёва, д.33, стр.2</p> 
+    </div> 
+    <br> 
+    <div class="f_one f_one_phone"> 
+     <p class="f_one_title">Телефон:</p> 
+     <p class="f_one_text">+7 (499) 653-61-62</p> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+ <div style="display: none;"> 
+  <div class="modal" id="feedback"> 
+   <div class="modal_close arcticmodal-close">
+    закрыть
+   </div> 
+   <div class="modal_content"> 
+    <p class="title_c">Написать нам</p> 
+    <div class="form_box"> 
+     <form class="order_form" action="/sendform.php" method="post" name="feedback" id="feedback_f"> 
+      <div class="error_box"></div> 
+      <input type="hidden" value="Y" name="submitform"> 
+      <input type="hidden" value="Y" name="ajax"> 
+      <input type="hidden" value="feedback" name="type"> 
+      <input type="hidden" value="Обратная свзяь" name="them"> 
+      <div class="one_f"> 
+       <input name="VISITOR_NAME" type="text" class="input blured" value="" placeholder="ФИО"> 
+      </div> 
+      <div class="one_f"> 
+       <input name="VISITOR_PHONE" type="text" class="input blured" value="" placeholder="Телефон" data-tel="true"> 
+      </div> 
+      <div class="one_f"> 
+       <input name="VISITOR_EMAIL" type="email" class="input blured" value="" placeholder="E-mail"> 
+      </div> 
+      <div class="one_f"> 
+       <textarea name="VISITOR_MESSAGE" placeholder="Ваше сообщение" class="textarea blured"></textarea> 
+      </div> 
+      <div class="one_f"> 
+       <input id="csecond2" type="checkbox" name="csecond" hidden> 
+       <label for="csecond2" class="custom_check"> <span class="check_t">Согласен на обработку персональных данных</span> </label> 
+      </div> 
+      <div class="one_button"> 
+       <input type="submit" value="Отправить"> 
+      </div> 
+     </form> 
+    </div> 
+   </div> 
+  </div> 
+ </div>  
+</body>

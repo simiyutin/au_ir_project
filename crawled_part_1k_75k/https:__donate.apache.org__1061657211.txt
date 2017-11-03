@@ -1,0 +1,199 @@
+https://donate.apache.org/
+<body> 
+ <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-31616361-5', 'auto');
+    ga('send', 'pageview');
+</script> 
+ <header id="site-header" class="site-header" data-sticky-container> 
+  <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium"> 
+   <button class="menu-icon" type="button" data-toggle="responsive-menu"></button> 
+   <div class="title-bar-title">
+    Menu
+   </div> 
+  </div> 
+  <div class="top-bar" data-sticky data-options="marginTop:0;"> 
+   <div class="top-bar-title"> 
+    <a href="http://apache.org" class="logo"> <img src="https://s3.amazonaws.com/hopsie-admin-pro/assets/1010/original/asf_logo_1474042841.png?1474042841"> </a> 
+   </div> 
+   <div class="top-bar-right"> 
+    <div id="responsive-menu"> 
+     <ul class="menu vertical medium-horizontal"> 
+      <li><a rel="nofollow" data-method="new" href="/login">Login</a></li> 
+     </ul> 
+    </div> 
+   </div> 
+  </div>
+  <!-- end top-bar --> 
+ </header> 
+ <style>
+/*=Home
+-----------------------------------------------------------*/
+.hero h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3.63rem;
+}
+
+.hero.section {
+    color: rgb(249, 249, 249);
+    font-size: 1.50rem;
+}
+
+.donation-stats i {
+    color: rgb(255,255,255);
+}
+
+.donation-stats .stat-number {
+    color: rgb(255,255,255);
+}
+
+.donation-stats .stat-label {
+    color: rgb(255,255,255);
+}
+
+.section-4 {
+    background-position: center center;
+}
+
+</style> 
+ <section id="section-1" class="section section-1 hero large overlay  "> 
+  <div class="row "> 
+   <div class="column medium-10 medium-centered"> 
+    <div class="html-widget text-center"> 
+     <h1>SUPPORT APACHE</h1> 
+    </div> 
+    <div class="text-widget text-center"> 
+     <p>Your donation helps The Apache Software Foundation ensure its community-driven software remains available to billions of users at absolutely no cost.</p> 
+    </div> 
+    <div class="button-widget text-center"> 
+     <a href="#section-2" class="button round large" style="color: rgb(255, 255, 255); background-color: rgb(4, 196, 103);">DONATE NOW</a> 
+    </div> 
+   </div> 
+  </div> 
+  <style>
+#section-1 { background-image: url('https://s3.amazonaws.com/hopsie-admin-pro/assets/1010/original/asf-code-low-board_1490735264.jpg?1490735246'); }
+#section-1.overlay { background-image: linear-gradient(to bottom, rgba(0,0,0,0.45), rgba(0,0,0,0.15)), url('https://s3.amazonaws.com/hopsie-admin-pro/assets/1010/original/asf-code-low-board_1490735264.jpg?1490735246'); }
+#section-1 { background-color: rgb(87, 47, 87); }
+</style> 
+ </section> 
+ <section id="section-2" class="section section-2   "> 
+  <div class="row "> 
+   <div class="column medium-10 medium-centered"> 
+    <div class="html-widget text-center"> 
+     <h2>Our Mission</h2> 
+    </div> 
+    <div class="text-widget text-center"> 
+     <p>The Apache Software Foundation (ASF) is a US 501(c)(3) nonprofit charitable organization that depends on a variety of funding sources to sustain its day-to-day activities.</p> 
+     <p>Your support enables the ASF ensure its 300+ community-driven software products remain available to billions of users around the world at no cost, and to incubate the next generation of Open Source innovations.</p> 
+     <p>If your employer has a matching gift program, your contribution to the ASF can be generously increased and will help even more to support its mission. For more information, please contact us at fundraising(at)apache(dot)org.</p> 
+    </div> 
+   </div> 
+  </div> 
+  <style>
+#section-2 { background-color: rgb(249, 249, 249); }
+#section-2 { font-size: 20px; }
+</style> 
+ </section> 
+ <section id="section-3" class="section section-3  no-padding "> 
+  <div class="row full-width"> 
+   <div class="column medium-6 "> 
+    <figure class="image-widget"> 
+     <img src="https://s3.amazonaws.com/hopsie-admin-pro/assets/1010/original/supportapache-whspc-main_1490600386.png?1490600383" alt=""> 
+    </figure> 
+    <div class="button-widget text-center"> 
+     <a href="https://donate.apache.org/59ef" class="button  large" style="color: rgb(255, 255, 255); background-color: rgb(48, 50, 132);">Individual Donation (any amount)</a> 
+    </div> 
+   </div> 
+   <div class="column medium-6 "> 
+    <figure class="image-widget"> 
+     <img src="https://s3.amazonaws.com/hopsie-admin-pro/assets/1010/original/sponsorapache-whspc-main_1490600408.png?1490600400" alt=""> 
+    </figure> 
+    <div class="button-widget text-center"> 
+     <a href="https://donate.apache.org/4a79" class="button secondary large" style="color: rgb(255, 255, 255); background-color: rgb(43, 130, 57);">ASF Sponsorship ($5,000+)</a> 
+    </div> 
+   </div> 
+  </div> 
+  <style>
+</style> 
+ </section> 
+ <section id="section-4" class="section section-4 overlay  "> 
+  <div class="row donation-stats"> 
+   <div class="column medium-4 "> 
+    <div class="html-widget text-center stat"> 
+     <i class="material-icons"></i>
+     <span class="stat-number">212</span>
+     <span class="stat-label">Donors</span> 
+    </div> 
+   </div> 
+   <div class="column medium-4 "> 
+    <div class="html-widget text-center stat"> 
+     <i class="material-icons"></i>
+     <span class="stat-number">$13,216.56</span>
+     <span class="stat-label">Total Donated</span> 
+    </div> 
+   </div> 
+   <div class="column medium-4 "> 
+    <div class="html-widget text-center stat"> 
+     <i class="material-icons"></i>
+     <span class="stat-number">$62</span>
+     <span class="stat-label">Average Donation</span> 
+    </div> 
+   </div> 
+  </div> 
+  <style>
+#section-4 { background-image: url('https://s3.amazonaws.com/hopsie-admin-pro/assets/1010/original/coding3_1474049701.jpg?1474049699'); }
+#section-4.overlay { background-image: linear-gradient(to bottom, rgba(0,0,0,0.45), rgba(0,0,0,0.15)), url('https://s3.amazonaws.com/hopsie-admin-pro/assets/1010/original/coding3_1474049701.jpg?1474049699'); }
+#section-4 { background-color: rgb(65, 191, 216); }
+</style> 
+ </section> 
+ <section id="section-5" class="section section-5   hide"> 
+  <style>
+#section-5 { background-color: rgb(249, 249, 249); }
+#section-5 { font-size: 20px; }
+</style> 
+ </section> 
+ <section id="section-6" class="section section-6   hide"> 
+  <style>
+#section-6 { background-color: rgb(249, 249, 249); }
+#section-6 { font-size: 20px; }
+</style> 
+ </section> 
+ <div id="site-footer" class="site-footer dark"> 
+  <div class="section-overlay active"> 
+   <div class="container row"> 
+    <div class="column medium-2 footer-address"> 
+     <div class="footer-address">
+       The Apache Software Foundation
+      <br> 401 Edgewater Place Suite 600
+      <br> Wakefield, MA 01880
+      <br> 
+      <br> 
+      <a href="http://apache.org"> apache.org </a> 
+     </div> 
+    </div> 
+    <div class="column medium-7 footer-body"> 
+     <p>The Apache Software Foundation (ASF) is a US 501(c)(3) nonprofit charitable organization that depends on a variety of funding sources to sustain its day-to-day activities.</p> 
+     <p>Your support enables the all-volunteer ASF ensure its 300+ community-driven software products remain available to billions of users around the world at no cost, and to incubate the next generation of Open Source innovations.</p> 
+    </div> 
+    <div class="column medium-3"> 
+     <div class="social-icons light"> 
+      <a href="https://twitter.com/theasf" class="icon-twitter"></a> 
+      <a href="https://www.youtube.com/user/TheApacheFoundation" class="icon-youtube"></a> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+ <div class="hopsie-footer site-footer dark "> 
+  <div class="container row"> 
+   <div class="column"> 
+    <p class="secured"><i class="fa fa-lock"></i> Secured by <a href="https://hopsie.com/">hopsie</a></p> 
+   </div> 
+  </div> 
+ </div> 
+ <script src="/assets/new_application-724532724db749862c4451a1fdce0a9cd0241f31c393baf8fa670c0c0984a524.js"></script> 
+</body>

@@ -1,0 +1,295 @@
+<body> 
+ <div class="wrapper"> 
+  <div class="google-header-bar  centered"> 
+   <div class="header content clearfix"> 
+    <div class="logo logo-w" aria-label="Google"></div> 
+   </div> 
+  </div> 
+  <div class="main content clearfix"> 
+   <div class="banner"> 
+    <h1> Один аккаунт. Весь мир Google! </h1> 
+    <h2 class="hidden-small"> Чтобы запустить YouTube, войдите в свой аккаунт </h2> 
+   </div> 
+   <div class="main-content 
+  
+  
+    no-name
+  
+  
+  
+"> 
+    <div class="card signin-card
+  
+    pre-shift
+  
+  
+  
+   no-name"> 
+     <img class="circle-mask" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png"> 
+     <form novalidate method="post" action="https://accounts.google.com/signin/v1/lookup" id="gaia_loginform"> 
+      <input name="Page" type="hidden" value="PasswordSeparationSignIn"> 
+      <input type="hidden" name="" value=""> 
+      <input type="hidden" name="gxf" value="AFoagUVS2_9PR_47NwPQ3F3n9l6qsF981A:1508527936951"> 
+      <input type="hidden" name="continue" value="https://www.youtube.com/signin?app=desktop&amp;action_handle_signin=true&amp;hl=ru&amp;next=%2Fupload&amp;feature=redirect_login"> 
+      <input type="hidden" name="service" value="youtube"> 
+      <input type="hidden" name="hl" value="ru"> 
+      <input id="profile-information" name="ProfileInformation" type="hidden" value=""> 
+      <input id="session-state" name="SessionState" type="hidden" value=""> 
+      <input type="hidden" id="_utf8" name="_utf8" value="☃"> 
+      <input type="hidden" name="bgresponse" id="bgresponse" value="js_disabled"> 
+      <div class="form-panel first valid" id="gaia_firstform"> 
+       <div class="slide-out "> 
+        <div class="input-wrapper focused"> 
+         <div id="identifier-shown"> 
+          <div> 
+           <label class="hidden-label" for="Email"> Введите адрес электронной почты</label> 
+           <input id="Email" type="email" value="" spellcheck="false" name="Email" placeholder="Телефон или адрес эл. почты" autofocus> 
+           <input id="Passwd-hidden" type="password" spellcheck="false" class="hidden"> 
+          </div> 
+         </div> 
+         <span role="alert" class="error-msg" id="errormsg_0_Email"></span> 
+        </div> 
+        <input id="next" name="signIn" class="rc-button rc-button-submit" type="submit" value="Далее"> 
+        <a class="need-help" href="https://accounts.google.com/signin/usernamerecovery?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26action_handle_signin%3Dtrue%26hl%3Dru%26next%3D%252Fupload%26feature%3Dredirect_login&amp;service=youtube&amp;hl=ru"> Найти аккаунт </a> 
+       </div> 
+      </div> 
+     </form> 
+    </div> 
+    <div class="card-mask-wrap
+    
+        
+     no-name"> 
+     <div class="card-mask"> 
+      <div class="one-google"> 
+       <p class="create-account"> <span id="link-signin-different"> <a href="https://accounts.google.com/AccountChooser?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26action_handle_signin%3Dtrue%26hl%3Dru%26next%3D%252Fupload%26feature%3Dredirect_login&amp;service=youtube&amp;hl=ru"> Войти в другой аккаунт </a> </span> <span id="link-signup"> <a href="https://accounts.google.com/SignUpWithoutGmail?service=youtube&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26action_handle_signin%3Dtrue%26hl%3Dru%26next%3D%252Fupload%26feature%3Dredirect_login&amp;hl=ru"> Создать аккаунт </a> </span> </p> 
+       <p class="tagline"> Один аккаунт для всех сервисов Google </p> 
+       <div class="logo-strip"></div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="google-footer-bar"> 
+   <div class="footer content clearfix"> 
+    <ul id="footer-list"> 
+     <li> <a href="https://www.google.com/intl/ru/about" target="_blank"> Всё о Google </a> </li> 
+     <li> <a href="https://accounts.google.com/TOS?loc=RU&amp;hl=ru&amp;privacy=true" target="_blank"> Политика конфиденциальности </a> </li> 
+     <li> <a href="https://accounts.google.com/TOS?loc=RU&amp;hl=ru" target="_blank"> Условия </a> </li> 
+     <li> <a href="http://www.google.com/support/accounts?hl=ru" target="_blank"> Справка </a> </li> 
+    </ul> 
+    <div id="lang-vis-control" style="display: none"> 
+     <span id="lang-chooser-wrap" class="lang-chooser-wrap"> <label for="lang-chooser"><img src="//ssl.gstatic.com/images/icons/ui/common/universal_language_settings-21.png" alt="Изменить язык"></label> <select id="lang-chooser" class="lang-chooser" name="lang-chooser"> <option value="bg"> ‪български‬ </option> <option value="mn"> ‪монгол‬ </option> <option value="ru" selected> ‪Русский‬ </option> <option value="sr"> ‪српски‬ </option> <option value="uk"> ‪Українська‬ </option> <option value="af"> ‪Afrikaans‬ </option> <option value="az"> ‪azərbaycan‬ </option> <option value="ms"> ‪Bahasa Melayu‬ </option> <option value="ca"> ‪català‬ </option> <option value="cs"> ‪Čeština‬ </option> <option value="da"> ‪Dansk‬ </option> <option value="de"> ‪Deutsch‬ </option> <option value="et"> ‪eesti‬ </option> <option value="en-GB"> ‪English (United Kingdom)‬ </option> <option value="en"> ‪English (United States)‬ </option> <option value="es"> ‪Español (España)‬ </option> <option value="es-419"> ‪Español (Latinoamérica)‬ </option> <option value="eu"> ‪euskara‬ </option> <option value="fil"> ‪Filipino‬ </option> <option value="fr-CA"> ‪Français (Canada)‬ </option> <option value="fr"> ‪Français (France)‬ </option> <option value="gl"> ‪galego‬ </option> <option value="hr"> ‪Hrvatski‬ </option> <option value="in"> ‪Indonesia‬ </option> <option value="zu"> ‪isiZulu‬ </option> <option value="is"> ‪íslenska‬ </option> <option value="it"> ‪Italiano‬ </option> <option value="sw"> ‪Kiswahili‬ </option> <option value="lv"> ‪latviešu‬ </option> <option value="lt"> ‪lietuvių‬ </option> <option value="hu"> ‪magyar‬ </option> <option value="nl"> ‪Nederlands‬ </option> <option value="no"> ‪norsk‬ </option> <option value="pl"> ‪polski‬ </option> <option value="pt"> ‪Português (Brasil)‬ </option> <option value="pt-PT"> ‪Português (Portugal)‬ </option> <option value="ro"> ‪română‬ </option> <option value="sk"> ‪Slovenčina‬ </option> <option value="sl"> ‪slovenščina‬ </option> <option value="fi"> ‪Suomi‬ </option> <option value="sv"> ‪Svenska‬ </option> <option value="vi"> ‪Tiếng Việt‬ </option> <option value="tr"> ‪Türkçe‬ </option> <option value="el"> ‪Ελληνικά‬ </option> <option value="ka"> ‪ქართული‬ </option> <option value="hy"> ‪հայերեն‬ </option> <option value="iw"> ‫עברית‬‎ </option> <option value="ur"> ‫اردو‬‎ </option> <option value="ar"> ‫العربية‬‎ </option> <option value="fa"> ‫فارسی‬‎ </option> <option value="am"> ‪አማርኛ‬ </option> <option value="ne"> ‪नेपाली‬ </option> <option value="mr"> ‪मराठी‬ </option> <option value="hi"> ‪हिन्दी‬ </option> <option value="bn"> ‪বাংলা‬ </option> <option value="gu"> ‪ગુજરાતી‬ </option> <option value="ta"> ‪தமிழ்‬ </option> <option value="te"> ‪తెలుగు‬ </option> <option value="kn"> ‪ಕನ್ನಡ‬ </option> <option value="ml"> ‪മലയാളം‬ </option> <option value="si"> ‪සිංහල‬ </option> <option value="th"> ‪ไทย‬ </option> <option value="lo"> ‪ລາວ‬ </option> <option value="my"> ‪မြန်မာ‬ </option> <option value="km"> ‪ខ្មែរ‬ </option> <option value="ko"> ‪한국어‬ </option> <option value="zh-HK"> ‪中文（香港）‬ </option> <option value="ja"> ‪日本語‬ </option> <option value="zh-CN"> ‪简体中文‬ </option> <option value="zh-TW"> ‪繁體中文‬ </option> </select> </span> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+ <script>
+  (function(){
+  var splitByFirstChar = function(toBeSplit, splitChar) {
+  var index = toBeSplit.indexOf(splitChar);
+  if (index >= 0) {
+  return [toBeSplit.substring(0, index),
+  toBeSplit.substring(index + 1)];
+  }
+  return [toBeSplit];
+  }
+  var langChooser_parseParams = function(paramsSection) {
+  if (paramsSection) {
+  var query = {};
+  var params = paramsSection.split('&');
+  for (var i = 0; i < params.length; i++) {
+              var param = splitByFirstChar(params[i], '=');
+              if (param.length == 2) {
+                query[param[0]] = param[1];
+              }
+            }
+            return query;
+          }
+          return {};
+        }
+        var appendHiddenParams = function(query) {
+          var loginForm = document.getElementById('gaia_loginform');
+          if (loginForm) {
+            var loginInputs = loginForm.getElementsByTagName('input');
+            for (var i = 0, input; input = loginInputs[i]; i++) {
+              if (input.type == 'hidden' && input.value && !query[input.name]) {
+                query[input.name] = input.value;
+              }
+            }
+          }
+        }
+        var post = function(path, params) {
+          var form = document.createElement('form');
+          form.setAttribute('method', 'post');
+          form.setAttribute('action', path);
+
+          for (var key in params) {
+            if (params.hasOwnProperty(key)) {
+              var hiddenField = document.createElement('input');
+              hiddenField.setAttribute('type', 'hidden');
+              hiddenField.setAttribute('name', key);
+              hiddenField.setAttribute('value', params[key]);
+
+              form.appendChild(hiddenField);
+            }
+          }
+
+          document.body.appendChild(form);
+          form.submit();
+        }
+        var langChooser_getParamStr = function(params) {
+          var paramsStr = [];
+          for (var a in params) {
+            paramsStr.push(a + "=" + params[a]);
+          }
+          return paramsStr.join('&');
+        }
+        var langChooser_currentUrl = window.location.href;
+        var match = langChooser_currentUrl.match("^(.*?)(\\?(.*?))?(#(.*))?$");
+        var langChooser_currentPath = match[1];
+        var langChooser_params = langChooser_parseParams(match[3]);
+        var langChooser_fragment = match[5];
+
+        var langChooser = document.getElementById('lang-chooser');
+        var langChooserWrap = document.getElementById('lang-chooser-wrap');
+        var langVisControl = document.getElementById('lang-vis-control');
+        if (langVisControl && langChooser) {
+          langVisControl.style.display = 'inline';
+          langChooser.onchange = function() {
+            langChooser_params['lp'] = 1;
+            langChooser_params['hl'] = encodeURIComponent(this.value);
+            var hiddenEmailInput = document.getElementById('Email-hidden');
+            if (hiddenEmailInput) {
+              // If we are in password separation on password page, post to
+              // /AccountLoginInfo.
+              appendHiddenParams(langChooser_params);
+              langChooser_params['Email'] = hiddenEmailInput.value;
+              post('/AccountLoginInfo', langChooser_params);
+            } else {
+              var paramsStr = langChooser_getParamStr(langChooser_params);
+              var newHref = langChooser_currentPath + "?" + paramsStr;
+              if (langChooser_fragment) {
+                newHref = newHref + "#" + langChooser_fragment;
+              }
+              window.location.href = newHref;
+            }
+          };
+        }
+      })();
+    </script> 
+ <script type="text/javascript">
+  var gaia_attachEvent = function(element, event, callback) {
+  if (element && element.addEventListener) {
+  element.addEventListener(event, callback, false);
+  } else if (element && element.attachEvent) {
+  element.attachEvent('on' + event, callback);
+  }
+  };
+</script> 
+ <script type="text/javascript">/* Anti-spam. Want to say hello? Contact (base64) Ym90Z3VhcmQtY29udGFjdEBnb29nbGUuY29t */Function('var W={},HV=function(H,p,O,e,V){for(e=O=(p=[],0);e<H.length;e++)V=H.charCodeAt(e),128>V?p[O++]=V:(2048>V?p[O++]=V>>6|192:(55296==(V&64512)&&e+1<H.length&&56320==(H.charCodeAt(e+1)&64512)?(V=65536+((V&1023)<<10)+(H.charCodeAt(++e)&1023),p[O++]=V>>18|240,p[O++]=V>>12&63|128):p[O++]=V>>12|224,p[O++]=V>>6&63|128),p[O++]=V&63|128);return p},v=function(H,p,O){if("object"==(p=typeof H,p))if(H){if(H instanceof Array)return"array";if(H instanceof Object)return p;if((O=Object.prototype.toString.call(H),"[object Window]")==O)return"object";if("[object Array]"==O||"number"==typeof H.length&&"undefined"!=typeof H.splice&&"undefined"!=typeof H.propertyIsEnumerable&&!H.propertyIsEnumerable("splice"))return"array";if("[object Function]"==O||"undefined"!=typeof H.call&&"undefined"!=typeof H.propertyIsEnumerable&&!H.propertyIsEnumerable("call"))return"function"}else return"null";else if("function"==p&&"undefined"==typeof H.call)return"object";return p},pu=function(H){for(H=0;64>H;++H)W[H]="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_".charAt(H),b["ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_".charAt(H)]=H;b[b[W[64]="","+"]=62,"/"]=63,b["="]=64},b={},a=function(H,p){return(p=typeof H,"object")==p&&null!=H||"function"==p},Oq=function(){},R,U=function(H,p){return H<p?-1:H>p?1:0},K=this;a:{var eF=K.navigator;if(eF){var VN=eF.userAgent;if(VN){R=VN;break a}}R=""}var WV=function(H,p,O){return O=m9,Object.prototype.hasOwnProperty.call(O,H)?O[H]:O[H]=p(H)},vV=function(H){return(H=K.document)?H.documentMode:void 0},l="",TA=function(H,p,O){for(O in H)if(p.call(void 0,H[O],O,H))return true;return false},P=/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(R),G=(P&&(l=P?P[1]:""),vV()),xe=null!=G&&G>parseFloat(l)?String(G):l,L=function(H){return WV(H,function(p,O,e,V,m,T,x){for(O=(p=0,String(xe)).replace(/^[\\s\\xa0]+|[\\s\\xa0]+$/g,"").split("."),e=String(H).replace(/^[\\s\\xa0]+|[\\s\\xa0]+$/g,"").split("."),V=Math.max(O.length,e.length),m=0;0==p&&m<V;m++){x=e[m]||"",T=O[m]||"";do{if(0==(x=(T=/(\\d*)(\\D*)(.*)/.exec(T)||["","","",""],/(\\d*)(\\D*)(.*)/.exec(x))||["","","",""],T[0]).length&&0==x[0].length)break;T=T[x=(p=U(0==T[1].length?0:parseInt(T[1],10),0==x[1].length?0:parseInt(x[1],10))||U(0==T[2].length,0==x[2].length)||U(T[2],x[2]),x)[3],3]}while(0==p)}return 0<=p})},ke,m9={},b6=K.document;L((ke=b6?vV()||("CSS1Compat"==b6.compatMode?parseInt(xe,10):5):void 0,"9"));var Z,u6=!(Z=9<=Number(ke),L)("9"),aD=((L("8"),L)("9"),function(H,p){if(!K.addEventListener||!Object.defineProperty)return false;return(p=(H=false,Object.defineProperty({},"passive",{get:function(){H=true}})),K.addEventListener("test",Oq,p),K).removeEventListener("test",Oq,p),H})(),c=function(H,p){this.defaultPrevented=false,this.currentTarget=this.target=p,this.type=H},d=function(H,p,O,e){((((((c.call(this,H?H.type:""),this).relatedTarget=this.currentTarget=this.target=null,this.button=this.screenY=this.screenX=this.clientY=this.clientX=this.offsetY=this.offsetX=0,this.key="",this).charCode=this.keyCode=0,this).metaKey=this.shiftKey=this.altKey=this.ctrlKey=false,this.pointerType="",this).M=null,this).pointerId=0,this.state=null,H)&&(O=this.type=H.type,this.currentTarget=p,this.target=H.target||H.srcElement,p=H.relatedTarget,e=H.changedTouches?H.changedTouches[0]:null,p||("mouseover"==O?p=H.fromElement:"mouseout"==O&&(p=H.toElement)),this.relatedTarget=p,null===e?(this.clientX=void 0!==H.clientX?H.clientX:H.pageX,this.screenY=H.screenY||0,this.clientY=void 0!==H.clientY?H.clientY:H.pageY,this.offsetY=void 0!==H.offsetY?H.offsetY:H.layerY,this.screenX=H.screenX||0,this.offsetX=void 0!==H.offsetX?H.offsetX:H.layerX):(this.screenY=e.screenY||0,this.clientY=void 0!==e.clientY?e.clientY:e.pageY,this.screenX=e.screenX||0,this.clientX=void 0!==e.clientX?e.clientX:e.pageX),this.shiftKey=H.shiftKey,this.pointerId=H.pointerId||0,this.M=H,this.altKey=H.altKey,this.key=H.key||"",this.keyCode=H.keyCode||0,this.pointerType="string"==typeof H.pointerType?H.pointerType:RD[H.pointerType]||"",this.metaKey=H.metaKey,this.ctrlKey=H.ctrlKey,this.charCode=H.charCode||("keypress"==O?H.keyCode:0),this.state=H.state,this.button=H.button,H.defaultPrevented&&this.preventDefault())},RD={2:"touch",3:"pen",4:((((c.prototype.preventDefault=function(){this.defaultPrevented=true},c.prototype).stopPropagation=function(){},function(){function H(){}(d.a=(H.prototype=c.prototype,c).prototype,d.prototype=new H,d.mo=function(H,O,e){for(var p=Array(arguments.length-2),m=2;m<arguments.length;m++)p[m-2]=arguments[m];return c.prototype[O].apply(H,p)},d.prototype).constructor=d}(),d.prototype).stopPropagation=function(){d.a.stopPropagation.call(this),this.M.stopPropagation?this.M.stopPropagation():this.M.cancelBubble=true},d).prototype.preventDefault=function(H){if((H=(d.a.preventDefault.call(this),this.M),H).preventDefault)H.preventDefault();else if(H.returnValue=false,u6)try{if(H.ctrlKey||112<=H.keyCode&&123>=H.keyCode)H.keyCode=-1}catch(p){}},"mouse")},h="closure_listenable_"+(1E6*Math.random()|0),M=function(H){(this.w=0,this.l={},this).src=H},E=(M.prototype.hasListener=function(H,p,O,e,V){return TA(this.l,(e=(V=void 0!==p,(O=void 0!==H)?H.toString():""),function(H,T){for(T=0;T<H.length;++T)if(!(O&&H[T].type!=e||V&&H[T].capture!=p))return true;return false}))},function(H){H.h=((H.Z=null,H).src=null,H.listener=null,null),H.J=true}),yN=(M.prototype.add=function(H,p,O,e,V,m,T){return((H=(m=H.toString(),this.l[m]),H)||(H=this.l[m]=[],this.w++),T=t(H,p,e,V),-1)<T?(p=H[T],O||(p.C=false)):(p=new yN(p,this.src,m,!!e,V),p.C=O,H.push(p)),p},function(H,p,O,e,V){(this.capture=(this.Z=null,(this.listener=H,(this.src=p,this).type=O,this).h=V,!!(this.key=++Uq,e)),this).J=this.C=false}),t=(M.prototype.remove=function(H,p,O,e,V){if(!(H=H.toString(),H in this.l))return false;return(p=t((V=this.l[H],V),p,O,e),-1)<p?(E(V[p]),Array.prototype.splice.call(V,p,1),0==V.length&&(delete this.l[H],this.w--),true):false},function(H,p,O,e,V,m){for(V=0;V<H.length;++V)if(m=H[V],!m.J&&m.listener==p&&m.capture==!!O&&m.h==e)return V;return-1}),Uq=0,Y="closure_lm_"+(1E6*Math.random()|0),NF=function(H,p,O,e,V,m){if("array"==v(p))for(m=0;m<p.length;m++)NF(H,p[m],O,e,V);else(e=a(e)?!!e.capture:!!e,O=Q(O),H&&H[h])?H.kM(p,O,e,V):H&&(H=I(H))&&(p=H.l[p.toString()],H=-1,p&&(H=t(p,O,e,V)),(O=-1<H?p[H]:null)&&Ku(O))},I=function(H){return H=H[Y],H instanceof M?H:null},f=function(H,p,O,e,V,m){if(e&&e.once)l6(H,p,O,e,V);else if("array"==v(p))for(m=0;m<p.length;m++)f(H,p[m],O,e,V);else O=Q(O),H&&H[h]?H.vO(p,O,a(e)?!!e.capture:!!e,V):PV(H,p,O,false,e,V)},Lu=function(H,p){return p=(H=GA,Z?function(O){return H.call(p.src,p.listener,O)}:function(O){if(O=H.call(p.src,p.listener,O),!O)return O})},PV=function(H,p,O,e,V,m,T,x){if(!p)throw Error("Invalid event type");if(T=a(V)?!!V.capture:!!V,!T||Z)if((x=I(H))||(H[Y]=x=new M(H)),O=x.add(p,O,e,T,m),!O.Z){if((((e=Lu(),e.listener=O,e).src=H,O).Z=e,H).addEventListener)aD||(V=T),void 0===V&&(V=false),H.addEventListener(p.toString(),e,V);else if(H.attachEvent)H.attachEvent(jF(p.toString()),e);else throw Error("addEventListener and attachEvent are unavailable.");Zl++}},cV=function(H,p,O,e){return e=(O=H.listener,H).h||H.src,H.C&&Ku(H),O.call(e,p)},Zl=0,GA=function(H,p,O,e){if(H.J)return true;if(!Z){if(!p)a:{for(p=[(O=(e=0,K),"window"),"event"];e<p.length;e++)if(O=O[p[e]],null==O){p=null;break a}p=O}return p=new d(p,this),cV(H,p)}return cV(H,new d(p,this))},jF=function(H){return H in $e?$e[H]:$e[H]="on"+H},Ku=function(H,p,O,e,V,m,T){if("number"!=typeof H&&H&&!H.J)if((p=H.src)&&p[h])p.Zn(H);else if(e=H.Z,O=H.type,p.removeEventListener?p.removeEventListener(O,e,H.capture):p.detachEvent&&p.detachEvent(jF(O),e),Zl--,O=I(p)){if(V=(e=H.type,e in O.l)){V=O.l[e];b:if("string"==typeof V)m="string"==typeof H&&1==H.length?V.indexOf(H,0):-1;else{for(m=0;m<V.length;m++)if(m in V&&V[m]===H)break b;m=-1}V=((T=0<=m)&&Array.prototype.splice.call(V,m,1),T)}V&&(E(H),0==O.l[e].length&&(delete O.l[e],O.w--)),0==O.w&&(O.src=null,p[Y]=null)}else E(H)},l6=function(H,p,O,e,V,m){if("array"==v(p))for(m=0;m<p.length;m++)l6(H,p[m],O,e,V);else O=Q(O),H&&H[h]?H.$M(p,O,a(e)?!!e.capture:!!e,V):PV(H,p,O,true,e,V)},$e={},dT="__closure_events_fn_"+(1E9*Math.random()>>>0),hm=function(H,p,O,e,V,m){for(V=(O=(p={},A)(H),p.G=A(H),p.F=[],e=A(H)-1,A)(H),m=0;m<e;m++)p.F.push(A(H));for(p.L=H.U(O),p.s=H.U(V);e--;)p.F[e]=H.U(p.F[e]);return p},n=function(H,p){H.P.splice(0,0,p)},F=function(H,p,O,e,V,m){if(0==H.P.length)return m;if(V=0==H.i)H.W=H.$();return m=MF(H,O,e),V&&(O=H.$()-H.W,O<(p?10:0)||0>=H.R--||H.H.push(254>=O?O:254)),m},X=function(H,p){try{Eq(this,H,p)}catch(O){S(this,O)}},tm=(X.prototype.io=function(H,p,O,e,V){for(V=e=0;V<H.length;V++)e+=H.charCodeAt(V),e+=e<<10,e^=e>>6;return e=new Number((H=(e+=e<<3,e^=e>>11,e+(e<<15))>>>0,H)&(1<<p)-1),e[0]=(H>>>p)%O,e},function(H,p,O,e,V,m,T){H.i++;try{for(e=(V=void 0,m=0,5001),O=H.S.length;(--e||H.K)&&(m=H.U(52))<O;)try{J(H,33,m),T=A(H),(V=H.U(T))&&V.call?V(H):w(H,21,0,T),H.o=true,r(H,0,2)}catch(x){x!=H.A&&(H.U(25)?w(H,22,x):J(H,25,x))}e||w(H,33)}catch(x){try{w(H,22,x)}catch(y){S(H,y)}}return O=H.U(61),p&&J(H,52,p),H.i--,O}),g=function(H,p,O,e,V,m){for(H=(e=((V=H.U(p),195==p)?(p=function(H,p,O,e){if((O=(p=V.length,p-4)>>3,V).Dn!=O){O=(V.Dn=O,e=[0,0,0,m],O<<3)-4;try{V.UM=Ye(QN(V,O),QN(V,O+4),e)}catch(k){throw k;}}V.push(V.UM[p&7]^H)},m=H.U(110)):p=function(H){V.push(H)},e&&p(e&255),0),O.length);e<H;e++)p(O[e])},sq=function(H,p,O,e){for(e=(O=A(H),0);0<p;p--)e=e<<8|A(H);J(H,O,e)},S=(((X.prototype.Fk=K.requestIdleCallback?function(H){requestIdleCallback(H,{timeout:4})}:K.setImmediate?function(H){setImmediate(H)}:function(H){setTimeout(H,0)},X.prototype).QB=function(H,p,O){return(p^=p<<13,p^=p>>17,p=(p^p<<5)&O)||(p=1),H^p},X.prototype).j=35,X.prototype.$=(window.performance||{}).now?function(){return this.SZ+(window.performance.now()|0)}:function(){return+new Date},function(H,p){H.v=("E:"+p.message+":"+p.stack).slice(0,2048)}),w=function(H,p,O,e,V){(3<(O=(0==(p=[(V=H.U(33),p),V>>8&255,V&255],void 0!=e&&p.push(e),H).U(125).length&&(H.D[125]=void 0,J(H,125,p)),e="",O&&(O.message&&(e+=O.message),O.stack&&(e+=":"+O.stack)),H).U(48),O)&&(e=e.slice(0,O-3),O-=e.length+3,e=HV(e.replace(/\\r\\n/g,"\\n")),g(H,195,C(e.length,2).concat(e),12)),J)(H,48,O)},MF=(X.prototype.PO=function(H,p,O){if(3==H.length){for(O=0;3>O;O++)p[O]+=H[O];for(H=[13,8,13,12,16,5,(O=0,3),10,15];9>O;O++)p[3](p,O%3,H[O])}},function(H,p,O,e,V){for(;H.P.length;){if(O&&p&&ID(H)){V=H,H.Fk(function(){F(V,false,p,false)});break}e=(O=true,e=H.P.pop(),fu)(H,e)}return e}),ID=function(H){if(H.V){if(!H.b)return false;H.b=false}else if(10>H.$()-H.W)return false;return 0!=document.hidden?false:true},C=function(H,p,O,e){for(O=(e=p-1,[]);0<=e;e--)O[p-1-e]=H>>8*e&255;return O},Am=(X.prototype.K=false,function(H,p){for(p=[];H--;)p.push(255*Math.random()|0);return p}),A=function(H,p,O){if(p=H.U(52),!(p in H.S))throw w(H,31),H.A;return((void 0==H.O&&(H.O=QN(H.S,p-4),H.f=void 0),H.f)!=p>>3&&(H.f=p>>3,O=[0,0,0,H.U(162)],H.lo=Ye(H.O,H.f,O)),J)(H,52,p+1),H.S[p]^H.lo[p%8]},oD=function(H,p,O,e,V,m){return function(){var T=e&1,x=[6,p,O,void 0,V,m,arguments];if(e&2)var y=(n(H,x),F(H,true,false,false));else T&&H.P.length?n(H,x):T?(n(H,x),F(H,true,false,false)):y=fu(H,x);return y}},nu=((X.prototype.A={},X.prototype).Md=function(H,p,O,e){try{e=H[(p+2)%3],H[p]=H[p]-H[(p+1)%3]-e^(1==p?e<<O:e>>>O)}catch(V){throw V;}},function(H,p){return p=A(H),p&128&&(p=p&127|A(H)<<7),p}),SF=function(H,p,O){return(O=H.U(52),H.S)&&O<H.S.length?(J(H,52,H.S.length),FU(H,p)):J(H,52,p),tm(H,O)},z=((X.prototype.Y="toString",X.prototype).N=function(H,p,O,e){(O=(e=(O=(p=H&4,H&=3,A(this)),A)(this),this).U(O),p&&(O=HV((""+O).replace(/\\r\\n/g,"\\n"))),H&&g(this,e,C(O.length,2)),g)(this,e,O)},["botguard"]),fu=function(H,p,O,e,V){if((O=p[0],H).o=false,1==O)H.R=25,H.X(p);else if(2==O){e=(O=p[1],p)[3];try{H.m=false,V=H.X(p)}catch(m){S(H,m),V=H.v}(O&&O(V),e).push(V)}else if(3==O)H.X(p);else if(4==O)H.X(p);else if(5==O)H.m=false,p=p[1],p();else if(6==O)return O=p[6],V=p[2],J(H,76,p[4]?[O[0].M]:O),J(H,61,V),H.X(p)},Ye=(X.prototype.B=36,function(H,p,O,e){try{for(e=0;79669387488!=e;)H+=(p<<4^p>>>5)+p^e+O[e&3],e+=2489668359,p+=(H<<4^H>>>5)+H^e+O[e>>>11&3];return[H>>>24,H>>16&255,H>>8&255,H&255,p>>>24,p>>16&255,p>>8&255,p&255]}catch(V){throw V;}}),r=((X.prototype.g=function(H,p,O,e,V,m){if(this.v)return this.v;try{m=[],V=[],e=!!H,n(this,[1,e,V,p]),n(this,[2,H,V,m]),F(this,false,e,true),O=m[0]}catch(T){S(this,T),O=this.v,H&&H(O)}return O},X.prototype).qd=function(H,p,O,e){for(;O--;)52!=O&&33!=O&&p.D[O]&&(p.D[O]=p[e](p[H](O),this));p[H]=this},function(H,p,O){if(0>=H.V||1<H.i||!H.o&&0<p||0!=document.hidden||H.$()-H.W<H.V-O)return false;return!((H.b=true,XU)(H,p),0)}),XU=function(H,p){(p=H.U(52)-p,J(H,52,H.S.length),H).P.push([3,p])},FU=function(H,p){(H.I.push(H.D.slice()),H).D[52]=void 0,J(H,52,p)},D=(X.prototype.c="caller",K),Jm=((X.prototype.YM=function(H,p,O,e,V,m){for(O=[],m=e=0;m<H.length;m++)for(V=V<<p|H[m],e+=p;7<e;)e-=8,O.push(V>>e&255);return O},X).prototype.X=function(H,p,O,e,V,m,T,x,y,N){if(p=H[0],4==p){H=H[1];try{for(O=0,p=[];O<H.length;){if((m=(e=b[H.charAt(O++)],V=O<H.length?b[H.charAt(O)]:0,++O,O)<H.length?b[H.charAt(O)]:64,++O,T=O<H.length?b[H.charAt(O)]:64,++O,null==e)||null==V||null==m||null==T)throw Error();(p.push(e<<2|V>>4),64!=m)&&(p.push(V<<4&240|m>>2),64!=T&&p.push(m<<6&192|T))}this.S=p}catch(k){w(this,17,k)}tm(this)}else if(1==p)e=H[2],V=H[1],e.push(this.U(216).length,this.U(195).length,this.U(138).length,this.U(48)),this.m=V,J(this,61,H[3]),this.D[16]&&SF(this,this.U(16));else{if(2==p){for(m=((((V=(((4<(T=(V=(0<(m=C((e=H[2],this.U(216)).length+2,2),V=this.U(125),V.length)&&g(this,216,C(V.length,2).concat(V),15),this.U(246))&511,V-=this.U(216).length+5,this).U(195),T).length&&(V-=T.length+3),0)<V&&g(this,216,C(V,2).concat(Am(V)),10),4<T.length)&&g(this,216,C(T.length,2).concat(T),153),Am)(2).concat(this.U(216)),V)[1]=V[0]^3,V)[3]=V[1]^m[0],V)[4]=V[1]^m[1],T=0,[]);T<V.length;T+=3)x=V[T],y=(H=T+1<V.length)?V[T+1]:0,N=(p=T+2<V.length)?V[T+2]:0,O=x>>2,x=(x&3)<<4|y>>4,y=(y&15)<<2|N>>6,N&=63,p||(N=64,H||(y=64)),m.push(W[O],W[x],W[y],W[N]);if(m=m.join(""))m="!"+m;else for(T=0,m="";T<V.length;T++)H=V[T][this.Y](16),1==H.length&&(H="0"+H),m+=H;return(V=((this.U(216).length=e[0],this.U(195).length=e[1],this.U(138)).length=e[2],m),J)(this,48,e[3]),V}if(3==p)SF(this,H[1]);else if(6==p)return SF(this,H[1])}},function(H,p,O,e){(O=A(H),e=A(H),g)(H,e,C(H.U(O),p))}),QN=function(H,p){return H[p]<<24|H[p+1]<<16|H[p+2]<<8|H[p+3]},Eq=function(H,p,O,e,V){for((((V=(e=[],0),H.V=0,H.nL=function(H,p,O){return(O=function(){return H},p=function(){return O()},p)[this.Y]=function(p){H=p},p},H.i=0,H).R=25,H.o=false,H.pL=function(H,p,O,e,V,k){return H=(O=(V=(e=function(){return e[O.j+(V[O.c]===p)-!k[O.c]]},function(){return e()}),this),k=O.X,V[O.Y]=function(H){e[O.B]=H},V[O.Y](H),V)},H).b=false,H).H=[];128>V;V++)e[V]=String.fromCharCode(V);(((((((((((((((((((((H.D=[],J(H,52,0),J)(H,33,0),J)(H,66,function(H,p,O,e,V,k){if(!r(H,1,255)){if("object"==(V=(O=(p=A(H),A)(H),e=A(H),A(H)),p=H.U(p),O=H.U(O),e=H.U(e),H=H.U(V),v(p))){for(k in V=[],p)V.push(k);p=V}for(k=(V=0,p.length);V<k;V+=e)O(p.slice(V,V+e),H)}}),H.I=[],J)(H,31,function(H){sq(H,2)}),J(H,195,Am(4)),J)(H,115,function(H,p,O,e){p=A(H),O=A(H),e=A(H),p=H.U(p)==H.U(O),J(H,e,+p)}),J)(H,125,[]),J)(H,72,function(H,p,O){(p=(p=A(H),O=A(H),H).U(p),J)(H,O,v(p))}),J(H,167,function(H){H.m&&XU(H,0)}),J(H,29,function(H){sq(H,1)}),J(H,246,0),H.Xk=function(H,p){p.push(H[0]<<24|H[1]<<16|H[2]<<8|H[3]),p.push(H[4]<<24|H[5]<<16|H[6]<<8|H[7]),p.push(H[8]<<24|H[9]<<16|H[10]<<8|H[11])},J(H,220,K),J(H,235,function(H,p,O,e){e=(p=A(H),O=A(H),A)(H),H.U(p)[H.U(O)]=H.U(e)}),H.P=[],J(H,30,function(H,p){r(H,1,5)||(p=hm(H),J(H,p.G,p.L.apply(p.s,p.F)))}),J)(H,157,function(H,p,O,V,N,k,u){if((O=(p=A(H),nu(H)),V="",H.D)[105])for(N=H.U(105),u=N.length,k=0;O--;)k=(k+nu(H))%u,V+=e[N[k]];else for(;O--;)V+=e[A(H)];J(H,p,V)}),V=O.T||function(){},J)(H,224,H),J)(H,160,function(H,p,O,e,V){(e=(V=(e=(O=(p=A(H),A)(H),A(H)),p=H.U(p),H).U(A(H)),O=H.U(O),H.U(e)),0)!==p&&(e=oD(H,e,V,1,p,O),f(p,O,e),J(H,131,[p,O,e]))}),J(H,122,function(H,p,O,e){O=(p=A(H),A)(H),e=A(H),J(H,e,H.U(p)||H.U(O))}),J(H,130,function(H,p,O,e,V,k,u){r(H,1,5)||(p=hm(H),e=p.s,V=p.L,O=p.F,u=O.length,0==u?k=new e[V]:1==u?k=new e[V](O[0]):2==u?k=new e[V](O[0],O[1]):3==u?k=new e[V](O[0],O[1],O[2]):4==u?k=new e[V](O[0],O[1],O[2],O[3]):w(H,22),J(H,p.G,k))}),J(H,3,function(H,p,O){(p=(O=(p=A(H),A)(H),H.D)[p]&&H.U(p),J)(H,O,p)}),J)(H,144,function(H){sq(H,4)}),J(H,48,2048),J(H,24,function(H,p,O,e){(O=(e=(O=(p=A(H),A)(H),A(H)),H).U(O),p=H.U(p),J)(H,e,p[O])}),J)(H,202,function(){}),J)(H,177,function(H){Jm(H,1)}),J(H,63,function(H,p,O){0!=(O=(p=A(H),A(H)),H).U(p)&&J(H,52,H.U(O))}),J(H,143,function(H,p,O,e,V){for(e=(V=(O=(p=A(H),nu)(H),0),[]);V<O;V++)e.push(A(H));J(H,p,e)}),J(H,19,function(H){Jm(H,4)}),J(H,95,function(H,p,O){p=A(H),O=A(H),J(H,O,""+H.U(p))}),J)(H,98,function(H,p,O,e,V){(V=(e=(O=(p=A(H),A(H)),H).U(A(H)),H).U(A(H)),O=H.U(O),J)(H,p,oD(H,O,e,V))}),J(H,180,function(H,p,O){(p=A(H),O=A(H),J)(H,O,H.U(O)+H.U(p))}),J)(H,207,function(H,p){p=H.U(A(H)),FU(H,p)}),pu(),H.SZ=((window.performance||{}).timing||{}).navigationStart||0,J(H,188,function(H,p,O,e){p=A(H),O=A(H),e=A(H),J(H,e,H.U(p)>>O)}),J)(H,216,[165,0,0]),J)(H,138,[]),H).m=false,J(H,131,0),J(H,162,0),J(H,203,function(H,p){(p=A(H),H=H.U(p),NF)(H[0],H[1],H[2])}),J(H,150,function(H,p,O,e){(e=(O=(p=A(H),A(H)),A)(H),J)(H,e,(H.U(p)in H.U(O))+0)}),J(H,25,77),J)(H,149,function(H,p,O,e,V){for(e=(O=(p=[],A)(H),0);e<O;e++)V=A(H),p.push(H.U(V));O=A(H),J(H,O,function(H,O){H.i++;try{for(O=0;O<p.length;O++)(0,p[O])(H)}finally{H.i--}})}),J)(H,61,{}),J(H,110,0),J)(H,37,function(H,p,O,e){if(p=H.I.pop()){for(O=A(H);0<O;O--)e=A(H),p[e]=H.D[e];H.D=(p[125]=H.D[125],p[48]=H.D[48],p)}else J(H,52,H.S.length)}),J(H,64,function(H){H.N(4)}),J(H,71,function(H,p,O){r(H,1,5)||(p=A(H),O=A(H),J(H,O,function(H){return eval(H)}(H.U(p))))}),J(H,148,function(H,p,O,e,V,k,u){r(H,1,5)||(p=hm(H),V=p.L,e=p.s,O=p.F,u=O.length,0==u?k=e[V]():1==u?k=e[V](O[0]):2==u?k=e[V](O[0],O[1]):3==u?k=e[V](O[0],O[1],O[2]):w(H,22),J(H,p.G,k))}),p&&"!"==p.charAt(0))?(H.v=p,V()):(O=!!O.T,H.m=O,H.S=[],n(H,[4,p]),n(H,[5,V]),F(H,false,O,true))},J=(X.prototype.U=function(H,p){if(p=this.D[H],void 0===p)throw w(this,30,0,H),this.A;return p()},function(H,p,O){if(52==p||33==p)if(H.D[p])H.D[p][H.Y](O);else H.D[p]=H.nL(O);else if(216!=p&&195!=p&&138!=p&&125!=p||!H.D[p])H.D[p]=H.pL(O,H.U);162==p&&(H.O=void 0,J(H,52,H.U(52)+4))}),Q=function(H){if("function"==v(H))return H;return(H[dT]||(H[dT]=function(p){return H.handleEvent(p)}),H)[dT]};z[0]in D||!D.execScript||D.execScript("var "+z[0]);for(var B;z.length&&(B=z.shift());)D=D[B]&&D[B]!==Object.prototype[B]?D[B]:D[B]={};var q=K.botguard;q.VKH=function(H,p,O){O=new X(H,{T:p}),this.invoke=function(H,p,m){return(m=O.g(p&&H,m),H)&&!p&&H(m),m}},q.bg=function(H,p,O){return H&&H.substring&&(O=q[H.substring(0,3)])?new O(H.substring(3),p):new q.VKH(H,p)};try{q.u||(f(window,"unload",function(){}),q.u=1)}catch(H){};')();</script> 
+ <script type="text/javascript">
+  document.bg = new botguard.bg('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');
+  </script> 
+ <script>
+  gaia = window.gaia || {};
+  gaia.ps = gaia.ps || {};
+  gaia.ps.hasPrefilledIdentifier = false;
+  function gaia_parseFragment() {
+  var hash = location.hash;
+  var params = {};
+  if (!hash) {
+  return params;
+  }
+  var paramStrs = decodeURIComponent(hash.substring(1)).split('&');
+  for (var i = 0; i < paramStrs.length; i++) {
+      var param = paramStrs[i].split('=');
+      params[param[0]] = param[1];
+    }
+    return params;
+  }
+
+  function gaia_prefillEmail() {
+    var email = null;
+    var form = null;
+    if (document.getElementById) {
+      email = document.getElementById('Email');
+      form = document.getElementById('gaia_loginform');
+    }
+    if (form && email && (email.value == null || email.value == '')
+        && (email.type != 'hidden')) {
+      hashParams = gaia_parseFragment();
+      if (hashParams['Email'] && hashParams['Email'] != '') {
+        email.value = hashParams['Email'];
+      }
+    }
+  }
+
+  
+  try {
+    gaia_prefillEmail();
+  } catch (e) {
+  }
+  
+</script> 
+ <script>
+  var gaia_scrollToElement = function(element) {
+  var calculateOffsetHeight = function(element) {
+  var curtop = 0;
+  if (element.offsetParent) {
+  while (element) {
+  curtop += element.offsetTop;
+  element = element.offsetParent;
+  }
+  }
+  return curtop;
+  }
+  var siginOffsetHeight = calculateOffsetHeight(element);
+  var scrollHeight = siginOffsetHeight - window.innerHeight +
+  element.clientHeight + 0.02 * window.innerHeight;
+  window.scroll(0, scrollHeight);
+  }
+</script> 
+ <script>
+  if (gaia.ps.hasPrefilledIdentifier) {
+  var form = document.getElementById('gaia_loginform');
+  if (form) {
+  form.submit();
+  }
+  }
+  </script> 
+ <script>
+  (function(){
+  gaia_onLoginSubmit = function() {
+  try {
+  gaia.loginAutoRedirect.stop();
+  } catch (err) {
+  // do not prevent form from being submitted
+  }
+  try {
+  document.bg.invoke(function(response) {
+  document.getElementById('bgresponse').value = response;
+  });
+  } catch (err) {
+  document.getElementById('bgresponse').value = '';
+  }
+  return true;
+  }
+  document.getElementById('gaia_loginform').onsubmit = gaia_onLoginSubmit;
+  var signinButton;
+  signinButton = document.getElementById('next');
+  gaia_attachEvent(window, 'load', function(){
+  gaia_scrollToElement(signinButton);
+  });
+  })();
+</script> 
+ <script>var e=this,g=function(a,c){a=a.split(".");var b=e;a[0]in b||!b.execScript||b.execScript("var "+a[0]);for(var d;a.length&&(d=a.shift());)a.length||void 0===c?b[d]?b=b[d]:b=b[d]={}:b[d]=c};var h=function(){try{return new XMLHttpRequest}catch(b){for(var a=["MSXML2.XMLHTTP.6.0","MSXML2.XMLHTTP.3.0","MSXML2.XMLHTTP","Microsoft.XMLHTTP"],c=0;c<a.length;c++)try{return new ActiveXObject(a[c])}catch(d){}}return null};g("gaia.ajax.newXmlHttpRequest",h);var k=function(){this.a=h();this.parameters={}};g("gaia.ajax.XmlHttpFormRequest",k);
+k.prototype.send=function(a,c){var b=[],d;for(d in this.parameters)b.push(d+"="+encodeURIComponent(this.parameters[d]));b=b.join("&");var f=this.a;f.open("POST",a,!0);f.setRequestHeader("Content-type","application/x-www-form-urlencoded");f.onreadystatechange=function(){4==f.readyState&&c({status:f.status,text:f.responseText})};f.send(b)};k.prototype.send=k.prototype.send;
+k.prototype.h=function(a,c,b){var d=this.a;d.open("POST",a,!0);d.setRequestHeader("Content-type","application/json");d.onreadystatechange=function(){4==d.readyState&&b({status:d.status,text:d.responseText})};d.send(c)};k.prototype.sendJson=k.prototype.h;k.prototype.get=function(a,c){var b=this.a;b.open("GET",a,!0);b.onreadystatechange=function(){4==b.readyState&&c({status:b.status,text:b.responseText})};b.send()};k.prototype.get=k.prototype.get;var l=/\s*;\s*/,m=function(){if(!document.cookie)return"";for(var a=document.cookie.split(l),c=0;c<a.length;c++){var b=a[c];b=b.replace(/^\s+/,"");b=b.replace(/\s+$/,"");if(0==b.indexOf("APISID="))return b.substr(7)}return""};var n=null,p=function(a,c){this.g=a;this.f=c;this.c=m();this.b=!1},q=function(){var a=n,c=m();c==a.c||a.b||(a.c=c,(new k).get(a.f,function(b){var a=n;b&&b.status&&200==b.status&&"OK"==b.text&&(a.a&&clearInterval(a.a),a.b||(window.location=a.g))}))};p.prototype.start=function(a){if(this.a)return!1;this.a=setInterval(function(){q()},a);return!0};g("gaia.loginAutoRedirect.start",function(a,c,b){if(n||!b||!c||0>=a)return!1;n=new p(c,b);return n.start(a)});
+g("gaia.loginAutoRedirect.stop",function(){var a=n;a.b=!0;a.a&&(clearInterval(a.a),a.a=null)});
+</script> 
+ <script type="text/javascript">
+  gaia.loginAutoRedirect.start(5000,
+  'https:\x2F\x2Faccounts.google.com\x2FServiceLogin?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26action_handle_signin%3Dtrue%26hl%3Dru%26next%3D%252Fupload%26feature%3Dredirect_login\x26hl=ru\x26service=youtube\x26passive=true\x26noautologin=true',
+  'https:\x2F\x2Faccounts.google.com\x2FPassiveLoginProber?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26action_handle_signin%3Dtrue%26hl%3Dru%26next%3D%252Fupload%26feature%3Dredirect_login\x26hl=ru\x26service=youtube\x26passive=true');
+  </script>  
+</body>

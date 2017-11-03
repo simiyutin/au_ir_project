@@ -1,0 +1,75 @@
+<body> 
+ <div class="tgme_page_wrap"> 
+  <div class="tgme_head_wrap"> 
+   <div class="tgme_head"> 
+    <a href="//telegram.org/" class="tgme_head_brand"> <i class="tgme_logo"></i> </a> 
+   </div> 
+  </div> 
+  <a class="tgme_head_dl_button" href="//telegram.org/dl?tme=4cf354e9c723f2773f_9814030557112009455"> Don't have <strong>Telegram</strong> yet? Try it now!<i class="tgme_icon_arrow"></i> </a> 
+  <div class="tgme_page"> 
+   <div class="tgme_page_photo"> 
+    <a href="tg://resolve?domain=freelansim_ru_bot"><img class="tgme_page_photo_image" src="https://cdn4.telesco.pe/file/u_XthqjAW6YSuo31vwCxhnN5udukSTt7br60zJIrSgQefG5MbE1o1-nm4yTIsxsB76xXAqIgukmtH251Beim_Hh61H8_BiAEKFzhfYGY5KbwJ4tYEi_xUuYGZeDvh5uW4cKURlKqGbyHl0XLJGqQQEdfcM9fHNDdTIGBhDUUBzJUwdcYz8BFm8WgYHOs2WaLGUzl1HAb_6yERBwE43ctfFxUT-QsVP8xeyR-22Ibdez6FSmzc-Dr8yWnTTP_NemkY-cVbMua8PXZipf8Da2zHiHcUkmwq_OXq24kBcu7IXTLrtF_a_vEbLJGyMqln3mjFJ8xUUWmKh5Zqw1I2L_Gfg"></a> 
+   </div> 
+   <div class="tgme_page_title">
+    Фрилансим (бот)
+   </div> 
+   <div class="tgme_page_extra">
+     @freelansim_ru_bot 
+   </div> 
+   <div class="tgme_page_description">
+    Бот freelansim.ru. Получайте уведомления о заказах в выбранных категориях. Или подпишитесь на наш канал 
+    <a href="https://t.me/freelansim_ru">@freelansim_ru</a>
+   </div> 
+   <div class="tgme_page_action"> 
+    <a class="tgme_action_button_new" href="tg://resolve?domain=freelansim_ru_bot">Send Message</a> 
+   </div> 
+   <!-- WEBOGRAM_BTN --> 
+   <div class="tgme_page_additional">
+     If you have 
+    <strong>Telegram</strong>, you can contact 
+    <br>
+    <strong>Фрилансим (бот)</strong> right away. 
+   </div> 
+  </div> 
+ </div> 
+ <div id="tgme_frame_cont"></div> 
+ <script type="text/javascript">
+
+var protoUrl = "tg:\/\/resolve?domain=freelansim_ru_bot";
+if (false) {
+  var iframeContEl = document.getElementById('tgme_frame_cont') || document.body;
+  var iframeEl = document.createElement('iframe');
+  iframeContEl.appendChild(iframeEl);
+  var pageHidden = false;
+  window.addEventListener('pagehide', function () {
+    pageHidden = true;
+  }, false);
+  window.addEventListener('blur', function () {
+    pageHidden = true;
+  }, false);
+  if (iframeEl !== null) {
+    iframeEl.src = protoUrl;
+  }
+  setTimeout(function() {
+    if (!pageHidden) {
+      window.location = protoUrl;
+    }
+  }, 2000);
+}
+else if (protoUrl) {
+  setTimeout(function() {
+    window.location = protoUrl;
+  }, 100);
+}
+
+
+    </script> 
+ <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-45099287-3', 'auto', {'sampleRate': 5});
+ga('send', 'pageview');</script>   
+ <!-- page generated in 17.15ms -->
+</body>

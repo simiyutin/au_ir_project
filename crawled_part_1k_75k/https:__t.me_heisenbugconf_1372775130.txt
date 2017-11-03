@@ -1,0 +1,81 @@
+https://t.me/heisenbugconf
+<body> 
+ <div class="tgme_page_wrap"> 
+  <div class="tgme_head_wrap"> 
+   <div class="tgme_head"> 
+    <a href="//telegram.org/" class="tgme_head_brand"> <i class="tgme_logo"></i> </a> 
+   </div> 
+  </div> 
+  <a class="tgme_head_dl_button" href="//telegram.org/dl?tme=47effa4b83dd5035d5_3885796885421715705"> Don't have <strong>Telegram</strong> yet? Try it now!<i class="tgme_icon_arrow"></i> </a> 
+  <div class="tgme_page"> 
+   <div class="tgme_page_photo"> 
+    <a href="tg://resolve?domain=heisenbugconf"><img class="tgme_page_photo_image" src="https://cdn4.telesco.pe/file/tZxLqLJ-GkuzTbordHoY7hQ6wYs8bdEzDMu1_hef1yFNt0wl6bREJCu26DCVOdyZ3lBh2WagZR-cNxDbPWQZLU-B3UBBLC099Z18enjqA9cwHj2RVKV3d_K7ubKX8pCppnBOl0oWr06Z4osQ16tslrN9E2sdc4dJReI9j0CvwyqpJCc1CUAicGgSwTdtw2TRbSvQq78x2oex7fIqY-3X6EL-t-NbNCCHZzgnucuFpL-0fUDUwjjRW2EvpLJxAiLhs57ckVJ4KAkiEofSU_KCrOr3Bh-n5vJTxBP03D-jgzPSMUs2yGW5SqZg2SwpWZ52-swMImGECWeSaT6eyMKm4w"></a> 
+   </div> 
+   <div class="tgme_page_title">
+     Heisenbug, конференция по тестированию 
+   </div> 
+   <div class="tgme_page_extra">
+    204 members
+   </div> 
+   <div class="tgme_page_description">
+    Конференция по тестированию от 
+    <a href="https://t.me/jugrugroup">@jugrugroup</a>. В ближайший раз пройдёт в Петербурге 4 июня
+    <br>
+    <br>https://heisenbug.ru
+    <br>
+    <br>Это чат конференции 
+    <br>У нас есть несколько простых правил, которые мы просим вас соблюдать. По хэштегу #правила
+   </div> 
+   <div class="tgme_page_action"> 
+    <a class="tgme_action_button_new" href="tg://resolve?domain=heisenbugconf">View Group</a> 
+   </div> 
+   <!-- WEBOGRAM_BTN --> 
+   <div class="tgme_page_additional">
+     If you have 
+    <strong>Telegram</strong>, you can view and join 
+    <br>
+    <strong>Heisenbug, конференция по тестированию</strong> right away. 
+   </div> 
+  </div> 
+ </div> 
+ <div id="tgme_frame_cont"></div> 
+ <script type="text/javascript">
+
+var protoUrl = "tg:\/\/resolve?domain=heisenbugconf";
+if (false) {
+  var iframeContEl = document.getElementById('tgme_frame_cont') || document.body;
+  var iframeEl = document.createElement('iframe');
+  iframeContEl.appendChild(iframeEl);
+  var pageHidden = false;
+  window.addEventListener('pagehide', function () {
+    pageHidden = true;
+  }, false);
+  window.addEventListener('blur', function () {
+    pageHidden = true;
+  }, false);
+  if (iframeEl !== null) {
+    iframeEl.src = protoUrl;
+  }
+  setTimeout(function() {
+    if (!pageHidden) {
+      window.location = protoUrl;
+    }
+  }, 2000);
+}
+else if (protoUrl) {
+  setTimeout(function() {
+    window.location = protoUrl;
+  }, 100);
+}
+
+
+    </script> 
+ <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-45099287-3', 'auto', {'sampleRate': 5});
+ga('send', 'pageview');</script>   
+ <!-- page generated in 16.44ms -->
+</body>

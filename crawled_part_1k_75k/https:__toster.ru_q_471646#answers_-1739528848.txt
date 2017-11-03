@@ -1,0 +1,1640 @@
+https://toster.ru/q/471646#answers
+<body> 
+ <div class="tmservices-panel" role="tm_panel"> 
+  <ul class="tmenu-mservices"> 
+   <li class="tmenu-mservices__item"> <a class="tmenu-mservices__item-link" href="http://tmfeed.ru?utm_source=tm_tmfeed&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo">TM Feed</a> </li> 
+   <li class="tmenu-mservices__item"> <a class="tmenu-mservices__item-link" href="http://habrahabr.ru?utm_source=tm_toster&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo">Хабрахабр</a> </li> 
+   <li class="tmenu-mservices__item"> <a class="tmenu-mservices__item-link" href="http://geektimes.ru?utm_source=tm_toster&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo">Geektimes</a> </li> 
+   <li class="tmenu-mservices__item"> <a class="tmenu-mservices__item-link tmenu-mservices__item-link_current" href="http://toster.ru?utm_source=tm_toster&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo">Тостер</a> </li> 
+   <li class="tmenu-mservices__item"> <a class="tmenu-mservices__item-link" href="http://moikrug.ru?utm_source=tm_toster&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo">Мой круг</a> </li> 
+   <li class="tmenu-mservices__item last-item"> <a class="tmenu-mservices__item-link" href="http://freelansim.ru/?utm_source=tm_toster&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo">Фрилансим</a> </li> 
+   <li class="tmenu-mservices__item tmspecials"> <span id="adriver_banner_465568687"></span> </li> 
+  </ul> 
+ </div> 
+ <div class="layout"> 
+  <div class="layout__canvas" id="js-canvas"> 
+   <aside class="layout__navbar" role="navbar"> 
+    <a class="logo logo_sidebar" href="https://toster.ru/"> 
+     <svg class="icon_svg icon_logo"> 
+      <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_logo"></use> 
+     </svg> </a> 
+    <section class="user-panel" role="user_expand_menu"> 
+     <div class="user-panel_head"> 
+      <svg class="icon_svg icon_menu_lock" viewbox="0 0 32 32"> 
+       <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_menu_lock"></use> 
+      </svg> 
+      <a class="user-panel__login-link" href="auth/ac?ret=@referer">Войти на сайт</a> 
+     </div> 
+    </section> 
+    <ul class="main-menu"> 
+     <li class="main-menu__item"> <a class="main-menu__link " id="item_questions" href="questions"> 
+       <svg class="icon_svg icon_menu_questions" viewbox="0 0 32 32"> 
+        <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_menu_question"></use> 
+       </svg> Все вопросы </a> </li> 
+     <li class="main-menu__item"> <a class="main-menu__link " href="tags"> 
+       <svg class="icon_svg icon_menu_tags" viewbox="0 0 32 32"> 
+        <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_menu_tags"></use> 
+       </svg> Все теги </a> </li> 
+     <li class="main-menu__item"> <a class="main-menu__link " href="users"> 
+       <svg class="icon_svg icon_menu_users" viewbox="0 0 34 32"> 
+        <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_menu_users"></use> 
+       </svg> Пользователи </a> </li> 
+    </ul> 
+    <section class="promo-block promo-block_sticky-bottom"> 
+     <h3 class="promo-block__title">Тостер&nbsp;— вопросы и&nbsp;ответы для IT-специалистов</h3> 
+     <p class="promo-block__desc">Получайте ответы на&nbsp;вопросы по&nbsp;любой теме из&nbsp;области&nbsp;IT от&nbsp;специалистов в&nbsp;этой теме.</p> 
+     <a class="btn btn_green" href="/info/about">Узнать больше</a> 
+    </section> 
+   </aside> 
+   <div class="layout__body"> 
+    <header class="layout__topbar"> 
+     <div class="layout__topbar_suggest"> 
+      <div class="layout__topbar_wrap"> 
+       <form class="suggest" action="search" method="get" id="header_search_form"> 
+        <div class="suggest__field_wrap"> 
+         <div class="suggest__wrap_fluid"> 
+          <input class="suggest__field" type="search" autocomplete="off" name="q" placeholder="Найти вопрос, ответ, тег или пользователя"> 
+         </div> 
+         <button class="btn btn_link" type="button" role="btn_suggest_close"> <span>Закрыть</span> </button> 
+        </div> 
+        <button class="btn btn_suggest" type="button" role="btn_suggest"> 
+         <svg class="icon_svg icon_search" viewbox="0 0 32 32"> 
+          <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_search"></use> 
+         </svg> </button> 
+       </form> 
+       <div class="layout__topbar_add-question"> 
+        <a class="btn btn_green btn_add-question" href="question/new" role="auth_popup_trigger" data-value="Чтобы задать вопрос и&nbsp;получить на&nbsp;него квалифицированный ответ." data-title="" data-auth-ret="question/new" data-no-button=""> 
+         <svg class="icon_svg icon_plus" viewbox="0 0 32 32"> 
+          <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_plus"></use> 
+         </svg> <span>Задать вопрос</span> </a> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="layout__topbar_canvas-toggler"> 
+      <button class="btn btn_navbar_toggle" role="toggle_navbar" type="button"> 
+       <svg class="icon_svg icon_burger" viewbox="0 0 32 32"> 
+        <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_burger"></use> 
+       </svg> </button> 
+      <a class="logo logo_topbar" href="https://toster.ru/"> 
+       <svg class="icon_svg icon_logo"> 
+        <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_logo"></use> 
+       </svg> </a> 
+     </div> 
+    </header> 
+    <section class="column column_wrap" role="wrap_section"> 
+     <div class="column_main"> 
+      <main class="page"> 
+       <div class="flash-notices" role="notices_container_flash"></div> 
+       <div class="notices-container" role="notice_container"> 
+       </div> 
+       <div class="page__body" id="question_show" itemscope itemtype="http://schema.org/Question"> 
+        <div class="question question_full"> 
+         <header class="question-head"> 
+          <div class="user-summary user-summary_question" itemprop="creator" itemscope itemtype="http://schema.org/Person"> 
+           <a class="user-summary__avatar" href="https://toster.ru/user/PHPjedi"> 
+            <meta itemprop="image" content="https://toster.ru/images/no_avatar.png"> 
+            <svg class="icon_userpic" viewbox="0 0 32 32"> 
+             <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_userpic"></use> 
+            </svg> </a> 
+           <div class="user-summary__desc"> 
+            <a class="user-summary__name" href="https://toster.ru/user/PHPjedi" itemprop="url">
+             <meta itemprop="name" content="PHPjedi">PHPjedi</a> 
+            <span class="user-summary__nickname"> 
+             <meta itemprop="alternateName" content="PHPjedi"> @PHPjedi </span> 
+           </div> 
+          </div> 
+          <div class="question-head_subscribers"> 
+           <ul class="subscribers-list subscribers-list_short"> 
+            <li class="subscribers-list__item" title="Dit81 подписан"> <a class="subscribers-list__user-avatar" href="https://toster.ru/user/Dit81"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/73d/9c8/aa8/73d9c8aa883a40279ab71a1103ab48a7.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=60" alt="Dit81"> </a> </li> 
+            <li class="subscribers-list__item" title="Ammie подписан"> <a class="subscribers-list__user-avatar" href="https://toster.ru/user/Ammie"> 
+              <svg class="icon_userpic" viewbox="0 0 32 32"> 
+               <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_userpic"></use> 
+              </svg> </a> </li> 
+            <li class="subscribers-list__item" title="dmitry87 подписан"> <a class="subscribers-list__user-avatar" href="https://toster.ru/user/dmitry87"> 
+              <svg class="icon_userpic" viewbox="0 0 32 32"> 
+               <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_userpic"></use> 
+              </svg> </a> </li> 
+            <li class="subscribers-list__item" title="Ostin1 подписан"> <a class="subscribers-list__user-avatar" href="https://toster.ru/user/Ostin1"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/webt/59/e4/44/59e44440dec28434487455.gif&amp;container=focus&amp;refresh=2592000&amp;resize_w=60" alt="Ostin1"> </a> </li> 
+            <li class="subscribers-list__item subscribers-list__item_more" title="Все подписчики на вопрос"> <a role="link_subscribers" href="question/subscribers?question_id=471646#question_subscribers"> 
+              <svg class="icon_svg icon_dots" viewbox="0 0 131 32"> 
+               <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_dots"></use> 
+              </svg> </a> </li> 
+           </ul> 
+          </div> 
+         </header> 
+         <nav class="question__tags"> 
+          <a class="question__tags-image" href="https://toster.ru/tag/дизайн"> <img class="tag__image tag__image_bg" src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/d78/98e/58b/d7898e58b362458694db4d9589dc343c.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=32" alt="дизайн" itemprop="image"> </a> 
+          <ul class="tags-list"> 
+           <li class="tags-list__item  tag_152855" data-tagname="дизайн"> <a href="https://toster.ru/tag/дизайн"> Дизайн </a> </li> 
+           <li class="tags-list__item  tag_254409" data-tagname="веб-разработка"> <a href="https://toster.ru/tag/веб-разработка"> Веб-разработка </a> </li> 
+          </ul> 
+         </nav> 
+         <h1 class="question__title" itemprop="name "> Что вы думаете о Adobe Muse? Насколько он хорош?</h1> 
+         <div class="question__body"> 
+          <div class="question__text" itemprop="text description">
+            Здравствуйте, я раньше видел людей рисующих дизайн сайта на Adobe Muse, но не углублялся в эту тему... Теперь я начал задумываться, а почему бы и не попробовать!? Я давно уже на фрилансе и давно уже хорошо подружился с themeforst и иногда с templatemonster... Но это что то не то...
+           <br>
+           <br> Мои вопросы -- 
+           <br>
+           <br> Как выглядит код после экспорта нарисованного сайта на Adobe Muse ?
+           <br> Как вы сами считаете, хорош ли под конец 17 года Muse ?
+           <br> Удобно ли после экспорта внедрять свои библиотеки и фреймворки(React js, Vue, Angular) на этот "макет" ?
+           <br>
+           <br> Да и в целом, что вы думаете об этом продукте от Adobe ?
+           <br>
+           <br> Спасибо! 
+          </div> 
+          <ul class="question__attrs inline-list"> 
+           <li class="inline-list__item inline-list__item_bullet"> <span class="question__pub-date"> Вопрос задан <time pubdate="" itemprop="dateCreated" datetime="2017-10-20 01:47:46" title="Дата публикации: 20 окт. 2017, в 01:47"> 20 часов назад </time> </span> </li> 
+           <li class="inline-list__item inline-list__item_bullet"> <span class="question__views-count question__views-count_full"> 
+             <meta itemprop="interactionCount" content="776 views"> 776 просмотров </span> </li> 
+          </ul> 
+         </div> 
+         <div style="margin-bottom: 12px"> 
+          <span class="btn btn_outline_grey btn_disabled" title="Проголосовало 1"> Сложность: Intern </span> 
+         </div> 
+         <div class="question__comments-link"> 
+          <a class="btn btn_link btn_comments-toggle" href="javascript:void(0)" id="clarify_link_471646" title="Написать комментарий" role="toggle_question_comments"> <span> 
+            <meta itemprop="interactionCount" content="8 UserComments"> <strong> 8 </strong> комментариев </span> </a> 
+         </div> 
+         <footer class="buttons-group buttons-group_question"> 
+          <a class="btn btn_subscribe" href="#" role="auth_popup_trigger" title="Подписаться на вопрос" data-value="Чтобы получать уведомления о&nbsp;новых ответах на&nbsp;вопрос."> Подписаться <span class="btn__counter" role="subscribers_count"> 
+            <meta itemprop="interactionCount" content="5 UserSubscriptions"> 5 </span> </a> 
+          <a class="btn btn_link btn_comments-toggle" href="javascript:void(0)" id="clarify_link_471646" title="Написать комментарий" role="toggle_question_comments"> <span> 
+            <meta itemprop="interactionCount" content="8 UserComments"> <strong> 8 </strong> комментариев </span> </a> 
+          <div class="dropdown dropdown_share" role="dropdown"> 
+           <button class="btn btn_share" role="dropdown_trigger" data-toggle="dropdown" type="button" title=" Поделиться вопросом"> 
+            <svg class="icon_svg icon_sharing" viewbox="0 0 32 32"> 
+             <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_sharing"></use> 
+            </svg> </button> 
+           <div class="dropdown__menu"> 
+            <ul class="menu menu_dropdown"> 
+             <li class="menu__item"> <a class="menu__item-link link_fb" href="https://www.facebook.com/sharer/sharer.php?u=https://toster.ru/q/471646" title="Опубликовать ссылку в Facebook" onclick="window.open(this.href, 'Опубликовать ссылку в Facebook', 'width=640,height=436,toolbar=0,status=0'); ga('send', 'social', 'facebook', 'share', 'https://toster.ru/q/471646'); return false" target="_blank"> Facebook </a> </li> 
+             <li class="menu__item menu__item"> <a class="menu__item-link link_vk" href="http://vk.com/share.php?url=https://toster.ru/q/471646" title="Опубликовать ссылку во ВКонтакте" onclick="window.open(this.href, 'Опубликовать ссылку во Вконтакте', 'width=800,height=300'); pages.clearCache(this.href); ga('send', 'social' 'vkontakte', 'share', 'https://toster.ru/q/471646'); return false" target="_blank"> Вконтакте </a> </li> 
+             <li class="menu__item"> <a class="menu__item-link link_tw" href="http://twitter.com/intent/tweet?text=PHPjedi спрашивает «%D0%A7%D1%82%D0%BE+%D0%B2%D1%8B+%D0%B4%D1%83%D0%BC%D0%B0%D0%B5%D1%82%D0%B5+%D0%BE+Adobe+Muse%3F+%D0%9D%D0%B0%D1%81%D0%BA%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE+%D0%BE%D0%BD+%D1%85%D0%BE%D1%80%D0%BE%D1%88%3F» https://toster.ru/q/471646+via+@toster_ru+%23toster" onclick="ga('send', 'social', 'twitter', 'tweet', 'https://toster.ru/q/471646');" title="Опубликовать ссылку в Twitter" target="_blank"> Twitter </a> </li> 
+             <li class="menu__item"> <a class="menu__item-link link_gp" href="https://plus.google.com/share?url=https://toster.ru/q/471646" onclick="window.open(this.href, 'Опубликовать ссылку в Google Plus', 'width=800,height=300'); ga('send', 'social', 'gplus', 'share', 'https://toster.ru/q/471646'); return false" target="_blank"> Google </a> </li> 
+            </ul> 
+           </div> 
+          </div> 
+         </footer> 
+         <div class="question__comments hidden" role="question_comments"> 
+          <ul class="content-list content-list_comments " role="question_comments_list"> 
+           <li class="content-list__item" role="comments_item"> 
+            <div class="comment " id="clarification_498541" role="toggle_delete_comment" itemprop="comment" itemscope itemtype="http://schema.org/UserComments"> 
+             <div class="comment__header"> 
+              <div class="user-summary user-summary_comment" itemprop="creator" itemscope itemtype="http://schema.org/Person"> 
+               <a class="user-summary__avatar" href="https://toster.ru/user/dpr"> 
+                <meta itemprop="image" content="//habrastorage.org/files/a74/623/17d/a7462317d6c046069e867292f78ed922.jpg"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/a74/623/17d/a7462317d6c046069e867292f78ed922.jpg&amp;container=focus&amp;refresh=2592000&amp;resize_w=60" alt="dpr"> </a> 
+               <div class="user-summary__desc"> 
+                <a class="user-summary__name" href="https://toster.ru/user/dpr" itemprop="url">
+                 <meta itemprop="name" content="Сергей">Сергей</a> 
+                <span class="user-summary__nickname"> 
+                 <meta itemprop="alternateName" content="dpr"> @dpr </span> 
+               </div> 
+              </div> 
+             </div> 
+             <div class="comment__body"> 
+              <div class="comment__body_inner"> 
+               <div class="comment__text" itemprop="commentText"> 
+                <blockquote>
+                 Как выглядит код после экспорта нарисованного сайта на Adobe Muse ?
+                </blockquote>
+                <br> Разумеется какашкой. 
+               </div> 
+               <div class="comment__date">
+                 Написано 
+                <a class="date date_comment" href="https://toster.ru/q/471646#clarification_498541"> <time title="Дата публикации: 20 окт. 2017, в 01:56" itemprop="commentTime" datetime="2017-10-20 01:56:43"> 20 часов назад </time> </a> 
+               </div> 
+              </div> 
+             </div> 
+            </div> </li> 
+           <li class="content-list__item" role="comments_item"> 
+            <div class="comment " id="clarification_498544" role="toggle_delete_comment" itemprop="comment" itemscope itemtype="http://schema.org/UserComments"> 
+             <div class="comment__header"> 
+              <div class="user-summary user-summary_comment" itemprop="creator" itemscope itemtype="http://schema.org/Person"> 
+               <a class="user-summary__avatar" href="https://toster.ru/user/PHPjedi"> 
+                <meta itemprop="image" content="https://toster.ru/images/no_avatar.png"> 
+                <svg class="icon_userpic" viewbox="0 0 32 32"> 
+                 <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_userpic"></use> 
+                </svg> </a> 
+               <div class="user-summary__desc"> 
+                <a class="user-summary__name" href="https://toster.ru/user/PHPjedi" itemprop="url">
+                 <meta itemprop="name" content="PHPjedi">PHPjedi</a> 
+                <span class="user-summary__nickname"> 
+                 <meta itemprop="alternateName" content="PHPjedi"> @PHPjedi </span> 
+               </div> 
+              </div> 
+             </div> 
+             <div class="comment__body"> 
+              <div class="comment__body_inner"> 
+               <div class="comment__text" itemprop="commentText"> 
+                <a href="http://toster.ru/user/dpr">Сергей</a>, =D 
+               </div> 
+               <div class="comment__date">
+                 Написано 
+                <a class="date date_comment" href="https://toster.ru/q/471646#clarification_498544"> <time title="Дата публикации: 20 окт. 2017, в 02:26" itemprop="commentTime" datetime="2017-10-20 02:26:35"> 19 часов назад </time> </a> 
+               </div> 
+              </div> 
+             </div> 
+            </div> </li> 
+           <li class="content-list__item" role="comments_item"> 
+            <div class="comment " id="clarification_498546" role="toggle_delete_comment" itemprop="comment" itemscope itemtype="http://schema.org/UserComments"> 
+             <div class="comment__header"> 
+              <div class="user-summary user-summary_comment" itemprop="creator" itemscope itemtype="http://schema.org/Person"> 
+               <a class="user-summary__avatar" href="https://toster.ru/user/LenovoId"> 
+                <meta itemprop="image" content="https://habrastorage.org/web/fb8/e5c/4c6/fb8e5c4c6e304ed3b5ccae1ecc6b2b8e.png"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/web/fb8/e5c/4c6/fb8e5c4c6e304ed3b5ccae1ecc6b2b8e.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=60" alt="LenovoId"> </a> 
+               <div class="user-summary__desc"> 
+                <a class="user-summary__name" href="https://toster.ru/user/LenovoId" itemprop="url">
+                 <meta itemprop="name" content="Максим Ленский">Максим Ленский</a> 
+                <span class="user-summary__nickname"> 
+                 <meta itemprop="alternateName" content="LenovoId"> @LenovoId </span> 
+               </div> 
+              </div> 
+             </div> 
+             <div class="comment__body"> 
+              <div class="comment__body_inner"> 
+               <div class="comment__text" itemprop="commentText">
+                 Музе это шляпа ... 
+               </div> 
+               <div class="comment__date">
+                 Написано 
+                <a class="date date_comment" href="https://toster.ru/q/471646#clarification_498546"> <time title="Дата публикации: 20 окт. 2017, в 02:36" itemprop="commentTime" datetime="2017-10-20 02:36:45"> 19 часов назад </time> </a> 
+               </div> 
+              </div> 
+             </div> 
+            </div> </li> 
+           <li class="content-list__item" role="comments_item"> 
+            <div class="comment " id="clarification_498553" role="toggle_delete_comment" itemprop="comment" itemscope itemtype="http://schema.org/UserComments"> 
+             <div class="comment__header"> 
+              <div class="user-summary user-summary_comment" itemprop="creator" itemscope itemtype="http://schema.org/Person"> 
+               <a class="user-summary__avatar" href="https://toster.ru/user/PHPjedi"> 
+                <meta itemprop="image" content="https://toster.ru/images/no_avatar.png"> 
+                <svg class="icon_userpic" viewbox="0 0 32 32"> 
+                 <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_userpic"></use> 
+                </svg> </a> 
+               <div class="user-summary__desc"> 
+                <a class="user-summary__name" href="https://toster.ru/user/PHPjedi" itemprop="url">
+                 <meta itemprop="name" content="PHPjedi">PHPjedi</a> 
+                <span class="user-summary__nickname"> 
+                 <meta itemprop="alternateName" content="PHPjedi"> @PHPjedi </span> 
+               </div> 
+              </div> 
+             </div> 
+             <div class="comment__body"> 
+              <div class="comment__body_inner"> 
+               <div class="comment__text" itemprop="commentText"> 
+                <a href="http://toster.ru/user/LenovoId">Максим Ленский</a>, эммм.... что ? 
+               </div> 
+               <div class="comment__date">
+                 Написано 
+                <a class="date date_comment" href="https://toster.ru/q/471646#clarification_498553"> <time title="Дата публикации: 20 окт. 2017, в 03:57" itemprop="commentTime" datetime="2017-10-20 03:57:38"> 18 часов назад </time> </a> 
+               </div> 
+              </div> 
+             </div> 
+            </div> </li> 
+           <li class="content-list__item" role="comments_item"> 
+            <div class="comment " id="clarification_498683" role="toggle_delete_comment" itemprop="comment" itemscope itemtype="http://schema.org/UserComments"> 
+             <div class="comment__header"> 
+              <div class="user-summary user-summary_comment" itemprop="creator" itemscope itemtype="http://schema.org/Person"> 
+               <a class="user-summary__avatar" href="https://toster.ru/user/zorca"> 
+                <meta itemprop="image" content="https://habrastorage.org/files/b41/572/b15/b41572b1575b4c12bcdbc2d3a1d6a465.jpg"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/b41/572/b15/b41572b1575b4c12bcdbc2d3a1d6a465.jpg&amp;container=focus&amp;refresh=2592000&amp;resize_w=60" alt="zorca"> </a> 
+               <div class="user-summary__desc"> 
+                <a class="user-summary__name" href="https://toster.ru/user/zorca" itemprop="url">
+                 <meta itemprop="name" content="zorca">zorca</a> 
+                <span class="user-summary__nickname"> 
+                 <meta itemprop="alternateName" content="zorca"> @zorca </span> 
+               </div> 
+              </div> 
+             </div> 
+             <div class="comment__body"> 
+              <div class="comment__body_inner"> 
+               <div class="comment__text" itemprop="commentText">
+                 Посмотрите на Pinegrow или Grapes.js 
+               </div> 
+               <div class="comment__date">
+                 Написано 
+                <a class="date date_comment" href="https://toster.ru/q/471646#clarification_498683"> <time title="Дата публикации: 20 окт. 2017, в 13:43" itemprop="commentTime" datetime="2017-10-20 13:43:04"> 8 часов назад </time> </a> 
+               </div> 
+              </div> 
+             </div> 
+            </div> </li> 
+           <li class="content-list__item" role="comments_item"> 
+            <div class="comment " id="clarification_498704" role="toggle_delete_comment" itemprop="comment" itemscope itemtype="http://schema.org/UserComments"> 
+             <div class="comment__header"> 
+              <div class="user-summary user-summary_comment" itemprop="creator" itemscope itemtype="http://schema.org/Person"> 
+               <a class="user-summary__avatar" href="https://toster.ru/user/Ostin1"> 
+                <meta itemprop="image" content="https://habrastorage.org/webt/59/e4/44/59e44440dec28434487455.gif"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/webt/59/e4/44/59e44440dec28434487455.gif&amp;container=focus&amp;refresh=2592000&amp;resize_w=60" alt="Ostin1"> </a> 
+               <div class="user-summary__desc"> 
+                <a class="user-summary__name" href="https://toster.ru/user/Ostin1" itemprop="url">
+                 <meta itemprop="name" content="Ostin1">Ostin1</a> 
+                <span class="user-summary__nickname"> 
+                 <meta itemprop="alternateName" content="Ostin1"> @Ostin1 </span> 
+               </div> 
+              </div> 
+             </div> 
+             <div class="comment__body"> 
+              <div class="comment__body_inner"> 
+               <div class="comment__text" itemprop="commentText"> 
+                <a href="http://toster.ru/user/dpr">Сергей</a>, какахи не какахи а клиенты в код никогда не смотрят, туда заходят только хакеры, так что вы для них стараетесь 
+               </div> 
+               <div class="comment__date">
+                 Написано 
+                <a class="date date_comment" href="https://toster.ru/q/471646#clarification_498704"> <time title="Дата публикации: 20 окт. 2017, в 14:22" itemprop="commentTime" datetime="2017-10-20 14:22:19"> 8 часов назад </time> </a> 
+               </div> 
+              </div> 
+             </div> 
+            </div> </li> 
+           <li class="content-list__item" role="comments_item"> 
+            <div class="comment " id="clarification_498811" role="toggle_delete_comment" itemprop="comment" itemscope itemtype="http://schema.org/UserComments"> 
+             <div class="comment__header"> 
+              <div class="user-summary user-summary_comment" itemprop="creator" itemscope itemtype="http://schema.org/Person"> 
+               <a class="user-summary__avatar" href="https://toster.ru/user/dpr"> 
+                <meta itemprop="image" content="//habrastorage.org/files/a74/623/17d/a7462317d6c046069e867292f78ed922.jpg"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/a74/623/17d/a7462317d6c046069e867292f78ed922.jpg&amp;container=focus&amp;refresh=2592000&amp;resize_w=60" alt="dpr"> </a> 
+               <div class="user-summary__desc"> 
+                <a class="user-summary__name" href="https://toster.ru/user/dpr" itemprop="url">
+                 <meta itemprop="name" content="Сергей">Сергей</a> 
+                <span class="user-summary__nickname"> 
+                 <meta itemprop="alternateName" content="dpr"> @dpr </span> 
+               </div> 
+              </div> 
+             </div> 
+             <div class="comment__body"> 
+              <div class="comment__body_inner"> 
+               <div class="comment__text" itemprop="commentText"> 
+                <a href="http://toster.ru/user/Ostin1">Ostin1</a>, ты щас в лужу пёрнул. Код должен быть понятным и структурированным. Чтобы его можно было поддерживать и расширять. 
+               </div> 
+               <div class="comment__date">
+                 Написано 
+                <a class="date date_comment" href="https://toster.ru/q/471646#clarification_498811"> <time title="Дата публикации: 20 окт. 2017, в 17:44" itemprop="commentTime" datetime="2017-10-20 17:44:54"> 4 часа назад </time> </a> 
+               </div> 
+              </div> 
+             </div> 
+            </div> </li> 
+           <li class="content-list__item" role="comments_item"> 
+            <div class="comment " id="clarification_498816" role="toggle_delete_comment" itemprop="comment" itemscope itemtype="http://schema.org/UserComments"> 
+             <div class="comment__header"> 
+              <div class="user-summary user-summary_comment" itemprop="creator" itemscope itemtype="http://schema.org/Person"> 
+               <a class="user-summary__avatar" href="https://toster.ru/user/LenovoId"> 
+                <meta itemprop="image" content="https://habrastorage.org/web/fb8/e5c/4c6/fb8e5c4c6e304ed3b5ccae1ecc6b2b8e.png"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/web/fb8/e5c/4c6/fb8e5c4c6e304ed3b5ccae1ecc6b2b8e.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=60" alt="LenovoId"> </a> 
+               <div class="user-summary__desc"> 
+                <a class="user-summary__name" href="https://toster.ru/user/LenovoId" itemprop="url">
+                 <meta itemprop="name" content="Максим Ленский">Максим Ленский</a> 
+                <span class="user-summary__nickname"> 
+                 <meta itemprop="alternateName" content="LenovoId"> @LenovoId </span> 
+               </div> 
+              </div> 
+             </div> 
+             <div class="comment__body"> 
+              <div class="comment__body_inner"> 
+               <div class="comment__text" itemprop="commentText"> 
+                <a href="http://toster.ru/user/PHPjedi">PHPjedi</a>, я написал что адоб муз шляпа ....т.е полные фекалии 
+               </div> 
+               <div class="comment__date">
+                 Написано 
+                <a class="date date_comment" href="https://toster.ru/q/471646#clarification_498816"> <time title="Дата публикации: 20 окт. 2017, в 17:52" itemprop="commentTime" datetime="2017-10-20 17:52:55"> 4 часа назад </time> </a> 
+               </div> 
+              </div> 
+             </div> 
+            </div> </li> 
+          </ul> 
+         </div> 
+        </div> 
+        <div class="adsbygoogle_wrap adsbygoogle_desktop"> 
+         <!-- Yandex.RTB R-A-149488-8 --> 
+         <div id="yandex_rtb_R-A-149488-8"></div> 
+         <script type="text/javascript">
+    (function(w, d, n, s, t) {
+      w[n] = w[n] || [];
+      w[n].push(function() {
+        Ya.Context.AdvManager.render({
+          blockId: "R-A-149488-8",
+          renderTo: "yandex_rtb_R-A-149488-8",
+          async: true
+        });
+      });
+      t = d.getElementsByTagName("script")[0];
+      s = d.createElement("script");
+      s.type = "text/javascript";
+      s.src = "//an.yandex.ru/system/context.js";
+      s.async = true;
+      t.parentNode.insertBefore(s, t);
+    })(this, this.document, "yandexContextAsyncCallbacks");
+  </script> 
+        </div> 
+        <div class="adsbygoogle_wrap adsbygoogle_mobile"> 
+         <!-- Yandex.RTB R-A-149488-12 --> 
+         <div id="yandex_rtb_R-A-149488-12"></div> 
+         <script type="text/javascript">
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Context.AdvManager.render({
+                blockId: "R-A-149488-12",
+                renderTo: "yandex_rtb_R-A-149488-12",
+                async: true
+            });
+        });
+        t = d.getElementsByTagName("script")[0];
+        s = d.createElement("script");
+        s.type = "text/javascript";
+        s.src = "//an.yandex.ru/system/context.js";
+        s.async = true;
+        t.parentNode.insertBefore(s, t);
+    })(this, this.document, "yandexContextAsyncCallbacks");
+  </script> 
+        </div> 
+        <div class="question__additionals"> 
+         <div class="section section_solutions  " id="solutions" role="solutions_section"> 
+          <header class="section-header"> 
+           <strong class="section-header__title"> Решения вопроса <span class="section-header__counter" role="answers_counter">1</span> </strong> 
+          </header> 
+          <ul class="content-list content-list_answers" id="solutions_list"> 
+           <li class="content-list__item" role="answer_item " id="answer_item_1108186"> 
+            <div class="answer_wrapper " id="answer_1108186" role="toggle_delete_answer" itemprop="suggestedAnswer acceptedAnswer" itemscope itemtype="http://schema.org/Answer"> 
+             <article class="answer answer_solution" data-created_at="1508473435"> 
+              <header class="answer__header"> 
+               <div class="user-summary " itemprop="creator" itemscope itemtype="http://schema.org/Person"> 
+                <a class="user-summary__avatar" href="https://toster.ru/user/ruslanredo"> 
+                 <meta itemprop="image" content="https://habrastorage.org/files/c90/7b4/80e/c907b480e6ca4e869ebe2b02d28c002f.png"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/c90/7b4/80e/c907b480e6ca4e869ebe2b02d28c002f.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=60" alt="ruslanredo"> </a> 
+                <div class="user-summary__desc"> 
+                 <a class="user-summary__name" href="https://toster.ru/user/ruslanredo" itemprop="url">
+                  <meta itemprop="name" content="Руслан Галиев">Руслан Галиев</a> 
+                 <span class="user-summary__nickname"> 
+                  <meta itemprop="alternateName" content="ruslanredo"> @ruslanredo </span> 
+                 <div class="user-summary__about" itemprop="description">
+                   Интерфейсы и маркетинг 
+                 </div> 
+                </div> 
+               </div> 
+              </header> 
+              <div class="answer__body"> 
+               <div class="answer__body_inner"> 
+                <div class="answer__text" itemprop="text">
+                  Muse можно использовать для лендинга, прототипа, сайта-визитки - сделать и забыть. Во всех остальных случаях использовать Muse не стоит. Основная проблема - это поддержка и расширяемость, особенно когда сайт адаптивный: медленно, не эффективно, с матюками. 
+                </div> 
+                <div class="answer__date">
+                  Ответ написан 
+                 <a class="date" href="https://toster.ru/answer?answer_id=1108186#answers_list_answer"> <time itemprop="dateCreated" datetime="2017-10-20 07:23:55" title="Дата публикации: 20 окт. 2017, в 07:23"> 15 часов назад </time> </a> 
+                </div> 
+                <div class="answer__comments-link" role="mobile_answers_link"> 
+                 <a class="btn btn_link btn_comments-toggle" href="https://toster.ru/answer?answer_id=1108186#comments_list_1108186" id="reply_answer_comment_link_1108186" title="Написать комментарий" role="toggle_answer_comments"> <span> 
+                   <meta itemprop="interactionCount" content="4 UserComments"> <strong> 4 </strong> комментария </span> </a> 
+                </div> 
+               </div> 
+               <svg class="icon_svg icon_check_answer" viewbox="0 0 45 32"> 
+                <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_check"></use> 
+               </svg> 
+              </div> 
+             </article> 
+             <footer class="buttons-group buttons-group_answer" role="desktop_answers_link"> 
+              <a class="btn btn_like" href="javascript:void(0);" role="auth_popup_trigger" title="Необходимо авторизоваться на сайте" data-value="Чтобы поблагодарить автора ответа."> Нравится 
+               <meta itemprop="interactionCount" content="5 UserLikes"> <span class="btn__counter" role="likes_count">5</span> </a> 
+              <a class="btn btn_link btn_comments-toggle" href="https://toster.ru/answer?answer_id=1108186#comments_list_1108186" id="reply_answer_comment_link_1108186" title="Написать комментарий" role="toggle_answer_comments"> <span> 
+                <meta itemprop="interactionCount" content="4 UserComments"> <strong> 4 </strong> комментария </span> </a> 
+              <div class="dropdown dropdown_share" role="dropdown"> 
+               <button class="btn btn_share" role="dropdown_trigger" data-toggle="dropdown" type="button" title=" Поделиться ответом"> 
+                <svg class="icon_svg icon_sharing" viewbox="0 0 32 32"> 
+                 <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_sharing"></use> 
+                </svg> </button> 
+               <div class="dropdown__menu"> 
+                <ul class="menu menu_dropdown"> 
+                 <li class="menu__item"> <a class="menu__item-link link_fb" href="https://www.facebook.com/sharer/sharer.php?u=https://toster.ru/answer?answer_id=1108186" title="Опубликовать ссылку в Facebook" onclick="window.open(this.href, 'Опубликовать ссылку в Facebook', 'width=640,height=436,toolbar=0,status=0'); ga('send', 'social', 'facebook', 'share', 'https://toster.ru/answer?answer_id=1108186'); return false" target="_blank"> Facebook </a> </li> 
+                 <li class="menu__item menu__item"> <a class="menu__item-link link_vk" href="http://vk.com/share.php?url=https://toster.ru/answer?answer_id=1108186" title="Опубликовать ссылку во ВКонтакте" onclick="window.open(this.href, 'Опубликовать ссылку во Вконтакте', 'width=800,height=300'); pages.clearCache(this.href); ga('send', 'social' 'vkontakte', 'share', 'https://toster.ru/answer?answer_id=1108186'); return false" target="_blank"> Вконтакте </a> </li> 
+                 <li class="menu__item"> <a class="menu__item-link link_tw" href="http://twitter.com/intent/tweet?text=Руслан Галиев ответил на вопрос «%D0%A7%D1%82%D0%BE+%D0%B2%D1%8B+%D0%B4%D1%83%D0%BC%D0%B0%D0%B5%D1%82%D0%B5+%D0%BE+Adobe+Muse%3F+%D0%9D%D0%B0%D1%81%D0%BA%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE+%D0%BE%D0%BD+%D1%85%D0%BE%D1%80%D0%BE%D1%88%3F» https://toster.ru/answer?answer_id=1108186+via+@toster_ru+%23toster" onclick="ga('send', 'social', 'twitter', 'tweet', 'https://toster.ru/answer?answer_id=1108186');" title="Опубликовать ссылку в Twitter" target="_blank"> Twitter </a> </li> 
+                 <li class="menu__item"> <a class="menu__item-link link_gp" href="https://plus.google.com/share?url=https://toster.ru/answer?answer_id=1108186" onclick="window.open(this.href, 'Опубликовать ссылку в Google Plus', 'width=800,height=300'); ga('send', 'social', 'gplus', 'share', 'https://toster.ru/answer?answer_id=1108186'); return false" target="_blank"> Google </a> </li> 
+                </ul> 
+               </div> 
+              </div> 
+             </footer> 
+             <div class="answer__comments hidden" id="answer_comments_1108186" role="answer_comments"> 
+              <ul class="content-list content-list_comments " role="answer_comments_list" id="comments_list_1108186" itemscope itemtype="http://schema.org/UserComments"> 
+               <li class="content-list__item" role="comments_item"> 
+                <div class="comment " id="comment_1516421" role="comment toggle_delete_comment" itemscope itemtype="http://schema.org/Comment"> 
+                 <div class="comment__header"> 
+                  <div class="user-summary user-summary_comment" itemprop="creator" itemscope itemtype="http://schema.org/Person"> 
+                   <a class="user-summary__avatar" href="https://toster.ru/user/Ostin1"> 
+                    <meta itemprop="image" content="https://habrastorage.org/webt/59/e4/44/59e44440dec28434487455.gif"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/webt/59/e4/44/59e44440dec28434487455.gif&amp;container=focus&amp;refresh=2592000&amp;resize_w=60" alt="Ostin1"> </a> 
+                   <div class="user-summary__desc"> 
+                    <a class="user-summary__name" href="https://toster.ru/user/Ostin1" itemprop="url">
+                     <meta itemprop="name" content="Ostin1">Ostin1</a> 
+                    <span class="user-summary__nickname"> 
+                     <meta itemprop="alternateName" content="Ostin1"> @Ostin1 </span> 
+                   </div> 
+                  </div> 
+                 </div> 
+                 <div class="comment__body"> 
+                  <div class="comment__body_inner"> 
+                   <div class="comment__text" itemprop="about text">
+                     в 99,99% процентах случаев когда человек говорит что ему нужен сайт: ему нужен лендинг 
+                   </div> 
+                   <div class="comment__date">
+                     Написано 
+                    <a class="date date_comment" href="https://toster.ru/q/471646#comment_1516421"> <time title="Дата публикации: 20 окт. 2017, в 07:25" itemprop="dateCreated" datetime="2017-10-20 07:25:30"> 14 часов назад </time> </a> 
+                   </div> 
+                  </div> 
+                 </div> 
+                </div> </li> 
+               <li class="content-list__item" role="comments_item"> 
+                <div class="comment " id="comment_1516422" role="comment toggle_delete_comment" itemscope itemtype="http://schema.org/Comment"> 
+                 <div class="comment__header"> 
+                  <div class="user-summary user-summary_comment" itemprop="creator" itemscope itemtype="http://schema.org/Person"> 
+                   <a class="user-summary__avatar" href="https://toster.ru/user/ruslanredo"> 
+                    <meta itemprop="image" content="https://habrastorage.org/files/c90/7b4/80e/c907b480e6ca4e869ebe2b02d28c002f.png"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/c90/7b4/80e/c907b480e6ca4e869ebe2b02d28c002f.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=60" alt="ruslanredo"> </a> 
+                   <div class="user-summary__desc"> 
+                    <a class="user-summary__name" href="https://toster.ru/user/ruslanredo" itemprop="url">
+                     <meta itemprop="name" content="Руслан Галиев">Руслан Галиев</a> 
+                    <span class="user-summary__nickname"> 
+                     <meta itemprop="alternateName" content="ruslanredo"> @ruslanredo </span> 
+                   </div> 
+                  </div> 
+                 </div> 
+                 <div class="comment__body"> 
+                  <div class="comment__body_inner"> 
+                   <div class="comment__text" itemprop="about text"> 
+                    <a href="http://toster.ru/user/Ostin1">Ostin1</a>, это в "вашем мире", так скажем) В моей практике лендинги занимают не больше 40%. 
+                   </div> 
+                   <div class="comment__date">
+                     Написано 
+                    <a class="date date_comment" href="https://toster.ru/q/471646#comment_1516422"> <time title="Дата публикации: 20 окт. 2017, в 07:28" itemprop="dateCreated" datetime="2017-10-20 07:28:41"> 14 часов назад </time> </a> 
+                   </div> 
+                  </div> 
+                 </div> 
+                </div> </li> 
+               <li class="content-list__item" role="comments_item"> 
+                <div class="comment " id="comment_1516424" role="comment toggle_delete_comment" itemscope itemtype="http://schema.org/Comment"> 
+                 <div class="comment__header"> 
+                  <div class="user-summary user-summary_comment" itemprop="creator" itemscope itemtype="http://schema.org/Person"> 
+                   <a class="user-summary__avatar" href="https://toster.ru/user/Ostin1"> 
+                    <meta itemprop="image" content="https://habrastorage.org/webt/59/e4/44/59e44440dec28434487455.gif"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/webt/59/e4/44/59e44440dec28434487455.gif&amp;container=focus&amp;refresh=2592000&amp;resize_w=60" alt="Ostin1"> </a> 
+                   <div class="user-summary__desc"> 
+                    <a class="user-summary__name" href="https://toster.ru/user/Ostin1" itemprop="url">
+                     <meta itemprop="name" content="Ostin1">Ostin1</a> 
+                    <span class="user-summary__nickname"> 
+                     <meta itemprop="alternateName" content="Ostin1"> @Ostin1 </span> 
+                   </div> 
+                  </div> 
+                 </div> 
+                 <div class="comment__body"> 
+                  <div class="comment__body_inner"> 
+                   <div class="comment__text" itemprop="about text"> 
+                    <a href="http://toster.ru/user/ruslanredo">Руслан Галиев</a>,
+                    <br>
+                    <br>
+                    <blockquote>
+                     не больше 40%.
+                    </blockquote>
+                    <br>
+                    <br>
+                    <img src="https://habrastorage.org/webt/59/e9/7c/59e97c752b34b020072030.png" alt="59e97c752b34b020072030.png">
+                    <br> -40%? 
+                   </div> 
+                   <div class="comment__date">
+                     Написано 
+                    <a class="date date_comment" href="https://toster.ru/q/471646#comment_1516424"> <time title="Дата публикации: 20 окт. 2017, в 07:33" itemprop="dateCreated" datetime="2017-10-20 07:33:17"> 14 часов назад </time> </a> 
+                   </div> 
+                  </div> 
+                 </div> 
+                </div> </li> 
+               <li class="content-list__item" role="comments_item"> 
+                <div class="comment " id="comment_1516426" role="comment toggle_delete_comment" itemscope itemtype="http://schema.org/Comment"> 
+                 <div class="comment__header"> 
+                  <div class="user-summary user-summary_comment" itemprop="creator" itemscope itemtype="http://schema.org/Person"> 
+                   <a class="user-summary__avatar" href="https://toster.ru/user/ruslanredo"> 
+                    <meta itemprop="image" content="https://habrastorage.org/files/c90/7b4/80e/c907b480e6ca4e869ebe2b02d28c002f.png"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/c90/7b4/80e/c907b480e6ca4e869ebe2b02d28c002f.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=60" alt="ruslanredo"> </a> 
+                   <div class="user-summary__desc"> 
+                    <a class="user-summary__name" href="https://toster.ru/user/ruslanredo" itemprop="url">
+                     <meta itemprop="name" content="Руслан Галиев">Руслан Галиев</a> 
+                    <span class="user-summary__nickname"> 
+                     <meta itemprop="alternateName" content="ruslanredo"> @ruslanredo </span> 
+                   </div> 
+                  </div> 
+                 </div> 
+                 <div class="comment__body"> 
+                  <div class="comment__body_inner"> 
+                   <div class="comment__text" itemprop="about text"> 
+                    <a href="http://toster.ru/user/Ostin1">Ostin1</a>, в чем вопрос? На этой странице лендингов не больше 40%. 
+                   </div> 
+                   <div class="comment__date">
+                     Написано 
+                    <a class="date date_comment" href="https://toster.ru/q/471646#comment_1516426"> <time title="Дата публикации: 20 окт. 2017, в 07:39" itemprop="dateCreated" datetime="2017-10-20 07:39:43"> 14 часов назад </time> </a> 
+                   </div> 
+                  </div> 
+                 </div> 
+                </div> </li> 
+              </ul> 
+             </div> 
+            </div> </li> 
+          </ul> 
+         </div> 
+         <a class="question__invate-expert" href="#" role="auth_popup_trigger" data-value="Чтобы пригласить эксперта, который сможет ответить на вопрос" data-question="471646"> Пригласить эксперта </a> 
+         <div class="section section_answers " id="answers" role="answers_section "> 
+          <meta itemprop="answerCount" content="2"> 
+          <header class="section-header"> 
+           <strong class="section-header__title"> Ответы на вопрос <span class="section-header__counter" role="answers_counter">1</span> </strong> 
+          </header> 
+          <ul class="content-list content-list_answers" id="answers_list"> 
+           <li class="content-list__item" role="answer_item " id="answer_item_1108171"> 
+            <div class="answer_wrapper " id="answer_1108171" role="toggle_delete_answer" itemprop="suggestedAnswer " itemscope itemtype="http://schema.org/Answer"> 
+             <article class="answer " data-created_at="1508461756"> 
+              <header class="answer__header"> 
+               <div class="user-summary " itemprop="creator" itemscope itemtype="http://schema.org/Person"> 
+                <a class="user-summary__avatar" href="https://toster.ru/user/Sanes"> 
+                 <meta itemprop="image" content="https://habrastorage.org/files/ae2/03f/ff5/ae203fff5962449f9effab3a07ee56d2.png"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/ae2/03f/ff5/ae203fff5962449f9effab3a07ee56d2.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=60" alt="Sanes"> </a> 
+                <div class="user-summary__desc"> 
+                 <a class="user-summary__name" href="https://toster.ru/user/Sanes" itemprop="url">
+                  <meta itemprop="name" content="Sanes">Sanes</a> 
+                 <span class="user-summary__nickname"> 
+                  <meta itemprop="alternateName" content="Sanes"> @Sanes </span> 
+                </div> 
+               </div> 
+              </header> 
+              <div class="answer__body"> 
+               <div class="answer__body_inner"> 
+                <div class="answer__text" itemprop="text">
+                  Выучите 10 тегов и работайте с каким нибудь CSS фреймворком. В большинстве случаев этого достаточно, если рисовать умеете. 
+                </div> 
+                <div class="answer__date">
+                  Ответ написан 
+                 <a class="date" href="https://toster.ru/answer?answer_id=1108171#answers_list_answer"> <time itemprop="dateCreated" datetime="2017-10-20 04:09:16" title="Дата публикации: 20 окт. 2017, в 04:09"> 18 часов назад </time> </a> 
+                </div> 
+                <div class="answer__comments-link" role="mobile_answers_link"> 
+                 <a class="btn btn_link btn_comments-toggle" href="https://toster.ru/answer?answer_id=1108171#comments_list_1108171" id="reply_answer_comment_link_1108171" title="Написать комментарий" role="toggle_answer_comments"> <span> 
+                   <meta itemprop="interactionCount" content="9 UserComments"> <strong> 9 </strong> комментариев </span> </a> 
+                </div> 
+               </div> 
+               <svg class="icon_svg icon_check_answer" viewbox="0 0 45 32"> 
+                <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_check"></use> 
+               </svg> 
+              </div> 
+             </article> 
+             <footer class="buttons-group buttons-group_answer" role="desktop_answers_link"> 
+              <a class="btn btn_like" href="javascript:void(0);" role="auth_popup_trigger" title="Необходимо авторизоваться на сайте" data-value="Чтобы поблагодарить автора ответа."> Нравится 
+               <meta itemprop="interactionCount" content="1 UserLikes"> <span class="btn__counter" role="likes_count">1</span> </a> 
+              <a class="btn btn_link btn_comments-toggle" href="https://toster.ru/answer?answer_id=1108171#comments_list_1108171" id="reply_answer_comment_link_1108171" title="Написать комментарий" role="toggle_answer_comments"> <span> 
+                <meta itemprop="interactionCount" content="9 UserComments"> <strong> 9 </strong> комментариев </span> </a> 
+              <div class="dropdown dropdown_share" role="dropdown"> 
+               <button class="btn btn_share" role="dropdown_trigger" data-toggle="dropdown" type="button" title=" Поделиться ответом"> 
+                <svg class="icon_svg icon_sharing" viewbox="0 0 32 32"> 
+                 <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_sharing"></use> 
+                </svg> </button> 
+               <div class="dropdown__menu"> 
+                <ul class="menu menu_dropdown"> 
+                 <li class="menu__item"> <a class="menu__item-link link_fb" href="https://www.facebook.com/sharer/sharer.php?u=https://toster.ru/answer?answer_id=1108171" title="Опубликовать ссылку в Facebook" onclick="window.open(this.href, 'Опубликовать ссылку в Facebook', 'width=640,height=436,toolbar=0,status=0'); ga('send', 'social', 'facebook', 'share', 'https://toster.ru/answer?answer_id=1108171'); return false" target="_blank"> Facebook </a> </li> 
+                 <li class="menu__item menu__item"> <a class="menu__item-link link_vk" href="http://vk.com/share.php?url=https://toster.ru/answer?answer_id=1108171" title="Опубликовать ссылку во ВКонтакте" onclick="window.open(this.href, 'Опубликовать ссылку во Вконтакте', 'width=800,height=300'); pages.clearCache(this.href); ga('send', 'social' 'vkontakte', 'share', 'https://toster.ru/answer?answer_id=1108171'); return false" target="_blank"> Вконтакте </a> </li> 
+                 <li class="menu__item"> <a class="menu__item-link link_tw" href="http://twitter.com/intent/tweet?text=Sanes ответил на вопрос «%D0%A7%D1%82%D0%BE+%D0%B2%D1%8B+%D0%B4%D1%83%D0%BC%D0%B0%D0%B5%D1%82%D0%B5+%D0%BE+Adobe+Muse%3F+%D0%9D%D0%B0%D1%81%D0%BA%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE+%D0%BE%D0%BD+%D1%85%D0%BE%D1%80%D0%BE%D1%88%3F» https://toster.ru/answer?answer_id=1108171+via+@toster_ru+%23toster" onclick="ga('send', 'social', 'twitter', 'tweet', 'https://toster.ru/answer?answer_id=1108171');" title="Опубликовать ссылку в Twitter" target="_blank"> Twitter </a> </li> 
+                 <li class="menu__item"> <a class="menu__item-link link_gp" href="https://plus.google.com/share?url=https://toster.ru/answer?answer_id=1108171" onclick="window.open(this.href, 'Опубликовать ссылку в Google Plus', 'width=800,height=300'); ga('send', 'social', 'gplus', 'share', 'https://toster.ru/answer?answer_id=1108171'); return false" target="_blank"> Google </a> </li> 
+                </ul> 
+               </div> 
+              </div> 
+             </footer> 
+             <div class="answer__comments hidden" id="answer_comments_1108171" role="answer_comments"> 
+              <ul class="content-list content-list_comments " role="answer_comments_list" id="comments_list_1108171" itemscope itemtype="http://schema.org/UserComments"> 
+               <li class="content-list__item" role="comments_item"> 
+                <div class="comment " id="comment_1516394" role="comment toggle_delete_comment" itemscope itemtype="http://schema.org/Comment"> 
+                 <div class="comment__header"> 
+                  <div class="user-summary user-summary_comment" itemprop="creator" itemscope itemtype="http://schema.org/Person"> 
+                   <a class="user-summary__avatar" href="https://toster.ru/user/PHPjedi"> 
+                    <meta itemprop="image" content="https://toster.ru/images/no_avatar.png"> 
+                    <svg class="icon_userpic" viewbox="0 0 32 32"> 
+                     <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_userpic"></use> 
+                    </svg> </a> 
+                   <div class="user-summary__desc"> 
+                    <a class="user-summary__name" href="https://toster.ru/user/PHPjedi" itemprop="url">
+                     <meta itemprop="name" content="PHPjedi">PHPjedi</a> 
+                    <span class="user-summary__nickname"> 
+                     <meta itemprop="alternateName" content="PHPjedi"> @PHPjedi </span> 
+                   </div> 
+                  </div> 
+                 </div> 
+                 <div class="comment__body"> 
+                  <div class="comment__body_inner"> 
+                   <div class="comment__text" itemprop="about text">
+                     Спасибо, вы мне настроение подняли)) Я FULLSTACK-DEVELOPER... Я давно уже отлично знаю HTML , CSS(практики не хватает мне, не знаю где и когда использовать. А так, для обычных задач я хорош), JS и PHP отлично 
+                   </div> 
+                   <div class="comment__date">
+                     Написано 
+                    <a class="date date_comment" href="https://toster.ru/q/471646#comment_1516394"> <time title="Дата публикации: 20 окт. 2017, в 04:15" itemprop="dateCreated" datetime="2017-10-20 04:15:20"> 18 часов назад </time> </a> 
+                   </div> 
+                  </div> 
+                 </div> 
+                </div> </li> 
+               <li class="content-list__item" role="comments_item"> 
+                <div class="comment " id="comment_1516395" role="comment toggle_delete_comment" itemscope itemtype="http://schema.org/Comment"> 
+                 <div class="comment__header"> 
+                  <div class="user-summary user-summary_comment" itemprop="creator" itemscope itemtype="http://schema.org/Person"> 
+                   <a class="user-summary__avatar" href="https://toster.ru/user/Sanes"> 
+                    <meta itemprop="image" content="https://habrastorage.org/files/ae2/03f/ff5/ae203fff5962449f9effab3a07ee56d2.png"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/ae2/03f/ff5/ae203fff5962449f9effab3a07ee56d2.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=60" alt="Sanes"> </a> 
+                   <div class="user-summary__desc"> 
+                    <a class="user-summary__name" href="https://toster.ru/user/Sanes" itemprop="url">
+                     <meta itemprop="name" content="Sanes">Sanes</a> 
+                    <span class="user-summary__nickname"> 
+                     <meta itemprop="alternateName" content="Sanes"> @Sanes </span> 
+                   </div> 
+                  </div> 
+                 </div> 
+                 <div class="comment__body"> 
+                  <div class="comment__body_inner"> 
+                   <div class="comment__text" itemprop="about text"> 
+                    <blockquote>
+                     Спасибо, вы мне настроение подняли)) Я FULLSTACK-DEVELOPER...
+                    </blockquote>
+                    <br> И к чему тогда такой вопрос? 
+                   </div> 
+                   <div class="comment__date">
+                     Написано 
+                    <a class="date date_comment" href="https://toster.ru/q/471646#comment_1516395"> <time title="Дата публикации: 20 окт. 2017, в 04:19" itemprop="dateCreated" datetime="2017-10-20 04:19:09"> 18 часов назад </time> </a> 
+                   </div> 
+                  </div> 
+                 </div> 
+                </div> </li> 
+               <li class="content-list__item" role="comments_item"> 
+                <div class="comment " id="comment_1516399" role="comment toggle_delete_comment" itemscope itemtype="http://schema.org/Comment"> 
+                 <div class="comment__header"> 
+                  <div class="user-summary user-summary_comment" itemprop="creator" itemscope itemtype="http://schema.org/Person"> 
+                   <a class="user-summary__avatar" href="https://toster.ru/user/PHPjedi"> 
+                    <meta itemprop="image" content="https://toster.ru/images/no_avatar.png"> 
+                    <svg class="icon_userpic" viewbox="0 0 32 32"> 
+                     <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_userpic"></use> 
+                    </svg> </a> 
+                   <div class="user-summary__desc"> 
+                    <a class="user-summary__name" href="https://toster.ru/user/PHPjedi" itemprop="url">
+                     <meta itemprop="name" content="PHPjedi">PHPjedi</a> 
+                    <span class="user-summary__nickname"> 
+                     <meta itemprop="alternateName" content="PHPjedi"> @PHPjedi </span> 
+                   </div> 
+                  </div> 
+                 </div> 
+                 <div class="comment__body"> 
+                  <div class="comment__body_inner"> 
+                   <div class="comment__text" itemprop="about text"> 
+                    <a href="http://toster.ru/user/Sanes">Sanes</a>, если Muse хорош, то думаю можно перейти на него. Нарисовать основной макет, показать заказчику, если ОК то дальше писать на css html js и тд 
+                   </div> 
+                   <div class="comment__date">
+                     Написано 
+                    <a class="date date_comment" href="https://toster.ru/q/471646#comment_1516399"> <time title="Дата публикации: 20 окт. 2017, в 05:10" itemprop="dateCreated" datetime="2017-10-20 05:10:10"> 17 часов назад </time> </a> 
+                   </div> 
+                  </div> 
+                 </div> 
+                </div> </li> 
+               <li class="content-list__item" role="comments_item"> 
+                <div class="comment " id="comment_1516402" role="comment toggle_delete_comment" itemscope itemtype="http://schema.org/Comment"> 
+                 <div class="comment__header"> 
+                  <div class="user-summary user-summary_comment" itemprop="creator" itemscope itemtype="http://schema.org/Person"> 
+                   <a class="user-summary__avatar" href="https://toster.ru/user/Ostin1"> 
+                    <meta itemprop="image" content="https://habrastorage.org/webt/59/e4/44/59e44440dec28434487455.gif"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/webt/59/e4/44/59e44440dec28434487455.gif&amp;container=focus&amp;refresh=2592000&amp;resize_w=60" alt="Ostin1"> </a> 
+                   <div class="user-summary__desc"> 
+                    <a class="user-summary__name" href="https://toster.ru/user/Ostin1" itemprop="url">
+                     <meta itemprop="name" content="Ostin1">Ostin1</a> 
+                    <span class="user-summary__nickname"> 
+                     <meta itemprop="alternateName" content="Ostin1"> @Ostin1 </span> 
+                   </div> 
+                  </div> 
+                 </div> 
+                 <div class="comment__body"> 
+                  <div class="comment__body_inner"> 
+                   <div class="comment__text" itemprop="about text"> 
+                    <blockquote>
+                     Я FULLSTACK-DEVELOPER... Я давно уже отлично знаю HTML 
+                    </blockquote>
+                    <br> лол 
+                   </div> 
+                   <div class="comment__date">
+                     Написано 
+                    <a class="date date_comment" href="https://toster.ru/q/471646#comment_1516402"> <time title="Дата публикации: 20 окт. 2017, в 05:34" itemprop="dateCreated" datetime="2017-10-20 05:34:19"> 16 часов назад </time> </a> 
+                   </div> 
+                  </div> 
+                 </div> 
+                </div> </li> 
+               <li class="content-list__item" role="comments_item"> 
+                <div class="comment " id="comment_1516444" role="comment toggle_delete_comment" itemscope itemtype="http://schema.org/Comment"> 
+                 <div class="comment__header"> 
+                  <div class="user-summary user-summary_comment" itemprop="creator" itemscope itemtype="http://schema.org/Person"> 
+                   <a class="user-summary__avatar" href="https://toster.ru/user/PHPjedi"> 
+                    <meta itemprop="image" content="https://toster.ru/images/no_avatar.png"> 
+                    <svg class="icon_userpic" viewbox="0 0 32 32"> 
+                     <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_userpic"></use> 
+                    </svg> </a> 
+                   <div class="user-summary__desc"> 
+                    <a class="user-summary__name" href="https://toster.ru/user/PHPjedi" itemprop="url">
+                     <meta itemprop="name" content="PHPjedi">PHPjedi</a> 
+                    <span class="user-summary__nickname"> 
+                     <meta itemprop="alternateName" content="PHPjedi"> @PHPjedi </span> 
+                   </div> 
+                  </div> 
+                 </div> 
+                 <div class="comment__body"> 
+                  <div class="comment__body_inner"> 
+                   <div class="comment__text" itemprop="about text"> 
+                    <a href="http://toster.ru/user/Ostin1">Ostin1</a>, взаимный ЛОЛ) 
+                   </div> 
+                   <div class="comment__date">
+                     Написано 
+                    <a class="date date_comment" href="https://toster.ru/q/471646#comment_1516444"> <time title="Дата публикации: 20 окт. 2017, в 08:44" itemprop="dateCreated" datetime="2017-10-20 08:44:00"> 13 часов назад </time> </a> 
+                   </div> 
+                  </div> 
+                 </div> 
+                </div> </li> 
+               <li class="content-list__item" role="comments_item"> 
+                <div class="comment " id="comment_1516469" role="comment toggle_delete_comment" itemscope itemtype="http://schema.org/Comment"> 
+                 <div class="comment__header"> 
+                  <div class="user-summary user-summary_comment" itemprop="creator" itemscope itemtype="http://schema.org/Person"> 
+                   <a class="user-summary__avatar" href="https://toster.ru/user/zoozag"> 
+                    <meta itemprop="image" content="https://habrastorage.org/web/943/f84/6ee/943f846ee1b543b5a5d5cd0e5bf9eddf.jpg"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/web/943/f84/6ee/943f846ee1b543b5a5d5cd0e5bf9eddf.jpg&amp;container=focus&amp;refresh=2592000&amp;resize_w=60" alt="zoozag"> </a> 
+                   <div class="user-summary__desc"> 
+                    <a class="user-summary__name" href="https://toster.ru/user/zoozag" itemprop="url">
+                     <meta itemprop="name" content="zoozag">zoozag</a> 
+                    <span class="user-summary__nickname"> 
+                     <meta itemprop="alternateName" content="zoozag"> @zoozag </span> 
+                   </div> 
+                  </div> 
+                 </div> 
+                 <div class="comment__body"> 
+                  <div class="comment__body_inner"> 
+                   <div class="comment__text" itemprop="about text"> 
+                    <a href="http://toster.ru/user/PHPjedi">PHPjedi</a>, 
+                    <blockquote>
+                     Нарисовать основной макет, показать заказчику
+                    </blockquote>
+                    <br> Для этих целей наверно ок. 
+                    <br> Но использовать его код не выйдет, придется все писать с нуля. 
+                   </div> 
+                   <div class="comment__date">
+                     Написано 
+                    <a class="date date_comment" href="https://toster.ru/q/471646#comment_1516469"> <time title="Дата публикации: 20 окт. 2017, в 09:29" itemprop="dateCreated" datetime="2017-10-20 09:29:41"> 12 часов назад </time> </a> 
+                   </div> 
+                  </div> 
+                 </div> 
+                </div> </li> 
+               <li class="content-list__item" role="comments_item"> 
+                <div class="comment " id="comment_1516522" role="comment toggle_delete_comment" itemscope itemtype="http://schema.org/Comment"> 
+                 <div class="comment__header"> 
+                  <div class="user-summary user-summary_comment" itemprop="creator" itemscope itemtype="http://schema.org/Person"> 
+                   <a class="user-summary__avatar" href="https://toster.ru/user/Ostin1"> 
+                    <meta itemprop="image" content="https://habrastorage.org/webt/59/e4/44/59e44440dec28434487455.gif"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/webt/59/e4/44/59e44440dec28434487455.gif&amp;container=focus&amp;refresh=2592000&amp;resize_w=60" alt="Ostin1"> </a> 
+                   <div class="user-summary__desc"> 
+                    <a class="user-summary__name" href="https://toster.ru/user/Ostin1" itemprop="url">
+                     <meta itemprop="name" content="Ostin1">Ostin1</a> 
+                    <span class="user-summary__nickname"> 
+                     <meta itemprop="alternateName" content="Ostin1"> @Ostin1 </span> 
+                   </div> 
+                  </div> 
+                 </div> 
+                 <div class="comment__body"> 
+                  <div class="comment__body_inner"> 
+                   <div class="comment__text" itemprop="about text"> 
+                    <a href="http://toster.ru/user/Sanes">Sanes</a> каких 10 тегов? 
+                   </div> 
+                   <div class="comment__date">
+                     Написано 
+                    <a class="date date_comment" href="https://toster.ru/q/471646#comment_1516522"> <time title="Дата публикации: 20 окт. 2017, в 10:43" itemprop="dateCreated" datetime="2017-10-20 10:43:19"> 11 часов назад </time> </a> 
+                   </div> 
+                  </div> 
+                 </div> 
+                </div> </li> 
+               <li class="content-list__item" role="comments_item"> 
+                <div class="comment " id="comment_1516579" role="comment toggle_delete_comment" itemscope itemtype="http://schema.org/Comment"> 
+                 <div class="comment__header"> 
+                  <div class="user-summary user-summary_comment" itemprop="creator" itemscope itemtype="http://schema.org/Person"> 
+                   <a class="user-summary__avatar" href="https://toster.ru/user/Eridani"> 
+                    <meta itemprop="image" content="https://habrastorage.org/web/2ce/d36/423/2ced364232cb48408dd307b71ec21485.jpg"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/web/2ce/d36/423/2ced364232cb48408dd307b71ec21485.jpg&amp;container=focus&amp;refresh=2592000&amp;resize_w=60" alt="Eridani"> </a> 
+                   <div class="user-summary__desc"> 
+                    <a class="user-summary__name" href="https://toster.ru/user/Eridani" itemprop="url">
+                     <meta itemprop="name" content="Антон">Антон</a> 
+                    <span class="user-summary__nickname"> 
+                     <meta itemprop="alternateName" content="Eridani"> @Eridani </span> 
+                   </div> 
+                  </div> 
+                 </div> 
+                 <div class="comment__body"> 
+                  <div class="comment__body_inner"> 
+                   <div class="comment__text" itemprop="about text">
+                     Невольно улыбнулся...Вы серьезно?
+                    <br> Возьмите фотошопу, нарисуйте, и показывайте ЖиПег. На кой Вам этот мус? 
+                   </div> 
+                   <div class="comment__date">
+                     Написано 
+                    <a class="date date_comment" href="https://toster.ru/q/471646#comment_1516579"> <time title="Дата публикации: 20 окт. 2017, в 11:25" itemprop="dateCreated" datetime="2017-10-20 11:25:57"> 10 часов назад </time> </a> 
+                   </div> 
+                  </div> 
+                 </div> 
+                </div> </li> 
+               <li class="content-list__item" role="comments_item"> 
+                <div class="comment " id="comment_1516967" role="comment toggle_delete_comment" itemscope itemtype="http://schema.org/Comment"> 
+                 <div class="comment__header"> 
+                  <div class="user-summary user-summary_comment" itemprop="creator" itemscope itemtype="http://schema.org/Person"> 
+                   <a class="user-summary__avatar" href="https://toster.ru/user/arsenty"> 
+                    <meta itemprop="image" content="//habrastorage.org/getpro/toster/avatars/b47/c34/085/b47c3408578f4c4e5b5b51d172bf0712.jpg"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/getpro/toster/avatars/b47/c34/085/b47c3408578f4c4e5b5b51d172bf0712.jpg&amp;container=focus&amp;refresh=2592000&amp;resize_w=60" alt="arsenty"> </a> 
+                   <div class="user-summary__desc"> 
+                    <a class="user-summary__name" href="https://toster.ru/user/arsenty" itemprop="url">
+                     <meta itemprop="name" content="arsenty">arsenty</a> 
+                    <span class="user-summary__nickname"> 
+                     <meta itemprop="alternateName" content="arsenty"> @arsenty </span> 
+                   </div> 
+                  </div> 
+                 </div> 
+                 <div class="comment__body"> 
+                  <div class="comment__body_inner"> 
+                   <div class="comment__text" itemprop="about text"> 
+                    <a href="http://toster.ru/user/PHPjedi">PHPjedi</a>, если вы фронтендер, "рисуйте" сразу в любимом редакторе кода и не тратье время на лишние промежуточные звенья. 
+                   </div> 
+                   <div class="comment__date">
+                     Написано 
+                    <a class="date date_comment" href="https://toster.ru/q/471646#comment_1516967"> <time title="Дата публикации: 20 окт. 2017, в 17:34" itemprop="dateCreated" datetime="2017-10-20 17:34:59"> 4 часа назад </time> </a> 
+                   </div> 
+                  </div> 
+                 </div> 
+                </div> </li> 
+              </ul> 
+             </div> 
+            </div> </li> 
+          </ul> 
+         </div> 
+         <div class="section section_form-answers"> 
+          <header class="section-header"> 
+           <strong class="section-header__title"> Ваш ответ на вопрос </strong> 
+          </header> 
+          <div class="empty-block"> 
+           <div class="empty-block__inner"> 
+            <h3 class="empty-block__title icon_unauthorized" role="title_replace"> Войдите, чтобы написать ответ </h3> 
+            <a class="empty-block__button" href="auth/ac?ret=@referer"> Войти через TM ID </a> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="adsbygoogle_wrap adsbygoogle_mobile adsbygoogle_h_250"> 
+          <!-- Yandex.RTB R-A-149488-13 --> 
+          <div id="yandex_rtb_R-A-149488-13"></div> 
+          <script type="text/javascript">
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Context.AdvManager.render({
+                blockId: "R-A-149488-13",
+                renderTo: "yandex_rtb_R-A-149488-13",
+                async: true
+            });
+        });
+        t = d.getElementsByTagName("script")[0];
+        s = d.createElement("script");
+        s.type = "text/javascript";
+        s.src = "//an.yandex.ru/system/context.js";
+        s.async = true;
+        t.parentNode.insertBefore(s, t);
+    })(this, this.document, "yandexContextAsyncCallbacks");
+  </script> 
+         </div> 
+         <header class="section-header"> 
+          <strong class="section-header__title"> Похожие вопросы </strong> 
+         </header> 
+         <ul class="content-list" id="related_questions_471646"> 
+          <li class="content-list__item" role="content-list_item"> 
+           <div class="question question_short" itemscope itemtype="http://schema.org/Question"> 
+            <div class="question__content"> 
+             <div class="question__content_fluid"> 
+              <nav class="question__tags"> 
+               <a class="question__tags-image" href="https://toster.ru/tag/дизайн"> <img class="tag__image tag__image_bg" src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/d78/98e/58b/d7898e58b362458694db4d9589dc343c.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=32" alt="дизайн" itemprop="image"> </a> 
+               <ul class="tags-list tags-list_short"> 
+                <li class="tags-list__item  tag_152855"> <a href="https://toster.ru/tag/дизайн"> Дизайн </a> </li> 
+                <li class="tags-list__item tags-list__item_more"> +1 ещё </li> 
+               </ul> 
+              </nav> 
+              <h2 class="question__title" itemprop="name"> <a class="question__title-link question__title-link_list" href="https://toster.ru/q/470081" itemprop="url"> Адаптация сайта под левшей? </a> </h2> 
+              <ul class="question__attrs inline-list"> 
+               <li class="inline-list__item inline-list__item_bullet"> <span class="question__views-count" title="Количество подписавшихся на вопрос"> 
+                 <meta itemprop="interactionCount" content="1 subscribers"> 1 подписчик </span> </li> 
+               <li class="inline-list__item inline-list__item_bullet"> <time class="question__date question__date_publish" pubdate="" title="Дата публикации: 15 окт. 2017, в 04:21" itemprop="dateCreated" datetime="2017-10-15 04:21:35"> 15 окт. </time> </li> 
+               <li class="inline-list__item inline-list__item_bullet"> <span class="question__views-count"> 
+                 <meta itemprop="interactionCount" content="295 views"> 295 просмотров </span> </li> 
+              </ul> 
+             </div> 
+            </div> 
+            <div class="question__answers-count question__answers_has-solution"> 
+             <a class="mini-counter" href="https://toster.ru/q/470081#answers" title="Количество ответов на вопрос" role="lazy_anchor"> 
+              <div class="mini-counter__count mini-counter__count_grey"> 
+               <svg class="icon_svg icon_check" viewbox="0 0 45 32"> 
+                <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_check"></use> 
+               </svg> 
+               <span itemprop="answerCount"> 4 </span> 
+              </div> 
+              <div class="mini-counter__value">
+                ответа 
+              </div> </a> 
+            </div> 
+           </div> </li> 
+          <li class="content-list__item" role="content-list_item"> 
+           <div class="question question_short" itemscope itemtype="http://schema.org/Question"> 
+            <div class="question__content"> 
+             <div class="question__content_fluid"> 
+              <nav class="question__tags"> 
+               <a class="question__tags-image" href="https://toster.ru/tag/html"> <img class="tag__image tag__image_bg" src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/6d6/d43/257/6d6d432573904ab689d61ff65e4dceeb.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=32" alt="html" itemprop="image"> </a> 
+               <ul class="tags-list tags-list_short"> 
+                <li class="tags-list__item  tag_152627"> <a href="https://toster.ru/tag/html"> HTML </a> </li> 
+                <li class="tags-list__item tags-list__item_more"> +4 ещё </li> 
+               </ul> 
+              </nav> 
+              <h2 class="question__title" itemprop="name"> <a class="question__title-link question__title-link_list" href="https://toster.ru/q/469117" itemprop="url"> Какой бесплатный фреймворк можно использовать для простого веб приложения для работы с БД? </a> </h2> 
+              <ul class="question__attrs inline-list"> 
+               <li class="inline-list__item inline-list__item_bullet"> <span class="question__views-count" title="Количество подписавшихся на вопрос"> 
+                 <meta itemprop="interactionCount" content="5 subscribers"> 5 подписчиков </span> </li> 
+               <li class="inline-list__item inline-list__item_bullet"> <time class="question__date question__date_publish" pubdate="" title="Дата публикации: 11 окт. 2017, в 21:37" itemprop="dateCreated" datetime="2017-10-11 21:37:18"> 11 окт. </time> </li> 
+               <li class="inline-list__item inline-list__item_bullet"> <span class="question__views-count"> 
+                 <meta itemprop="interactionCount" content="1034 views"> 1034 просмотра </span> </li> 
+              </ul> 
+             </div> 
+            </div> 
+            <div class="question__answers-count "> 
+             <a class="mini-counter" href="https://toster.ru/q/469117#answers" title="Количество ответов на вопрос" role="lazy_anchor"> 
+              <div class="mini-counter__count mini-counter__count_grey"> 
+               <span itemprop="answerCount"> 3 </span> 
+              </div> 
+              <div class="mini-counter__value">
+                ответа 
+              </div> </a> 
+            </div> 
+           </div> </li> 
+          <li class="content-list__item" role="content-list_item"> 
+           <div class="question question_short" itemscope itemtype="http://schema.org/Question"> 
+            <div class="question__content"> 
+             <div class="question__content_fluid"> 
+              <nav class="question__tags"> 
+               <a class="question__tags-image" href="https://toster.ru/tag/css"> <img class="tag__image tag__image_bg" src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/785/a04/11b/785a0411b0904c4a8d36741fc037b0bf.jpg&amp;container=focus&amp;refresh=2592000&amp;resize_w=32" alt="css" itemprop="image"> </a> 
+               <ul class="tags-list tags-list_short"> 
+                <li class="tags-list__item  tag_307"> <a href="https://toster.ru/tag/css"> CSS </a> </li> 
+                <li class="tags-list__item tags-list__item_more"> +4 ещё </li> 
+               </ul> 
+              </nav> 
+              <h2 class="question__title" itemprop="name"> <a class="question__title-link question__title-link_list" href="https://toster.ru/q/469067" itemprop="url"> Как заменить CSS у 2 div при наведении на любую ссылку? </a> </h2> 
+              <ul class="question__attrs inline-list"> 
+               <li class="inline-list__item inline-list__item_bullet"> <span class="question__views-count" title="Количество подписавшихся на вопрос"> 
+                 <meta itemprop="interactionCount" content="1 subscribers"> 1 подписчик </span> </li> 
+               <li class="inline-list__item inline-list__item_bullet"> <time class="question__date question__date_publish" pubdate="" title="Дата публикации: 11 окт. 2017, в 18:23" itemprop="dateCreated" datetime="2017-10-11 18:23:05"> 11 окт. </time> </li> 
+               <li class="inline-list__item inline-list__item_bullet"> <span class="question__views-count"> 
+                 <meta itemprop="interactionCount" content="201 views"> 201 просмотр </span> </li> 
+              </ul> 
+             </div> 
+            </div> 
+            <div class="question__answers-count question__answers_has-solution"> 
+             <a class="mini-counter" href="https://toster.ru/q/469067#answers" title="Количество ответов на вопрос" role="lazy_anchor"> 
+              <div class="mini-counter__count mini-counter__count_grey"> 
+               <svg class="icon_svg icon_check" viewbox="0 0 45 32"> 
+                <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_check"></use> 
+               </svg> 
+               <span itemprop="answerCount"> 1 </span> 
+              </div> 
+              <div class="mini-counter__value">
+                ответ 
+              </div> </a> 
+            </div> 
+           </div> </li> 
+          <li class="content-list__item" role="content-list_item"> 
+           <div class="question question_short" itemscope itemtype="http://schema.org/Question"> 
+            <div class="question__content"> 
+             <div class="question__content_fluid"> 
+              <nav class="question__tags"> 
+               <a class="question__tags-image" href="https://toster.ru/tag/дизайн"> <img class="tag__image tag__image_bg" src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/d78/98e/58b/d7898e58b362458694db4d9589dc343c.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=32" alt="дизайн" itemprop="image"> </a> 
+               <ul class="tags-list tags-list_short"> 
+                <li class="tags-list__item  tag_152855"> <a href="https://toster.ru/tag/дизайн"> Дизайн </a> </li> 
+                <li class="tags-list__item tags-list__item_more"> +1 ещё </li> 
+               </ul> 
+              </nav> 
+              <h2 class="question__title" itemprop="name"> <a class="question__title-link question__title-link_list" href="https://toster.ru/q/468582" itemprop="url"> UI интерфейс универсальной настройки расписания? </a> </h2> 
+              <ul class="question__attrs inline-list"> 
+               <li class="inline-list__item inline-list__item_bullet"> <span class="question__views-count" title="Количество подписавшихся на вопрос"> 
+                 <meta itemprop="interactionCount" content="2 subscribers"> 2 подписчика </span> </li> 
+               <li class="inline-list__item inline-list__item_bullet"> <time class="question__date question__date_publish" pubdate="" title="Дата публикации: 10 окт. 2017, в 13:37" itemprop="dateCreated" datetime="2017-10-10 13:37:53"> 10 окт. </time> </li> 
+               <li class="inline-list__item inline-list__item_bullet"> <span class="question__views-count"> 
+                 <meta itemprop="interactionCount" content="127 views"> 127 просмотров </span> </li> 
+              </ul> 
+             </div> 
+            </div> 
+            <div class="question__answers-count "> 
+             <a class="mini-counter" href="https://toster.ru/q/468582#answers" title="Количество ответов на вопрос" role="lazy_anchor"> 
+              <div class="mini-counter__count mini-counter__count_grey"> 
+               <span itemprop="answerCount"> 1 </span> 
+              </div> 
+              <div class="mini-counter__value">
+                ответ 
+              </div> </a> 
+            </div> 
+           </div> </li> 
+          <li class="content-list__item" role="content-list_item"> 
+           <div class="question question_short" itemscope itemtype="http://schema.org/Question"> 
+            <div class="question__content"> 
+             <div class="question__content_fluid"> 
+              <nav class="question__tags"> 
+               <a class="question__tags-image" href="https://toster.ru/tag/дизайн"> <img class="tag__image tag__image_bg" src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/d78/98e/58b/d7898e58b362458694db4d9589dc343c.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=32" alt="дизайн" itemprop="image"> </a> 
+               <ul class="tags-list tags-list_short"> 
+                <li class="tags-list__item  tag_152855"> <a href="https://toster.ru/tag/дизайн"> Дизайн </a> </li> 
+                <li class="tags-list__item tags-list__item_more"> +2 ещё </li> 
+               </ul> 
+              </nav> 
+              <h2 class="question__title" itemprop="name"> <a class="question__title-link question__title-link_list" href="https://toster.ru/q/468180" itemprop="url"> Давайте соберем ресурсы, где можно вдохновляться версткой и дизайном? </a> </h2> 
+              <ul class="question__attrs inline-list"> 
+               <li class="inline-list__item inline-list__item_bullet"> <span class="question__views-count" title="Количество подписавшихся на вопрос"> 
+                 <meta itemprop="interactionCount" content="32 subscribers"> 32 подписчика </span> </li> 
+               <li class="inline-list__item inline-list__item_bullet"> <time class="question__date question__date_publish" pubdate="" title="Дата публикации: 09 окт. 2017, в 09:43" itemprop="dateCreated" datetime="2017-10-09 09:43:11"> 09 окт. </time> </li> 
+               <li class="inline-list__item inline-list__item_bullet"> <span class="question__views-count"> 
+                 <meta itemprop="interactionCount" content="1549 views"> 1549 просмотров </span> </li> 
+              </ul> 
+             </div> 
+            </div> 
+            <div class="question__answers-count question__answers_has-solution"> 
+             <a class="mini-counter" href="https://toster.ru/q/468180#answers" title="Количество ответов на вопрос" role="lazy_anchor"> 
+              <div class="mini-counter__count mini-counter__count_grey"> 
+               <svg class="icon_svg icon_check" viewbox="0 0 45 32"> 
+                <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_check"></use> 
+               </svg> 
+               <span itemprop="answerCount"> 3 </span> 
+              </div> 
+              <div class="mini-counter__value">
+                ответа 
+              </div> </a> 
+            </div> 
+           </div> </li> 
+          <li class="content-list__item" role="content-list_item"> 
+           <div class="question question_short" itemscope itemtype="http://schema.org/Question"> 
+            <div class="question__content"> 
+             <div class="question__content_fluid"> 
+              <nav class="question__tags"> 
+               <a class="question__tags-image" href="https://toster.ru/tag/joomla"> <img class="tag__image tag__image_bg" src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/516/62f/76d/51662f76d8744e41887b388ffa754e66.jpg&amp;container=focus&amp;refresh=2592000&amp;resize_w=32" alt="joomla" itemprop="image"> </a> 
+               <ul class="tags-list tags-list_short"> 
+                <li class="tags-list__item  tag_17704"> <a href="https://toster.ru/tag/joomla"> Joomla </a> </li> 
+                <li class="tags-list__item tags-list__item_more"> +4 ещё </li> 
+               </ul> 
+              </nav> 
+              <h2 class="question__title" itemprop="name"> <a class="question__title-link question__title-link_list" href="https://toster.ru/q/465613" itemprop="url"> Какие макеты и как нарисовать? </a> </h2> 
+              <ul class="question__attrs inline-list"> 
+               <li class="inline-list__item inline-list__item_bullet"> <span class="question__views-count" title="Количество подписавшихся на вопрос"> 
+                 <meta itemprop="interactionCount" content="1 subscribers"> 1 подписчик </span> </li> 
+               <li class="inline-list__item inline-list__item_bullet"> <time class="question__date question__date_publish" pubdate="" title="Дата публикации: 30 сент. 2017, в 18:44" itemprop="dateCreated" datetime="2017-09-30 18:44:56"> 30 сент. </time> </li> 
+               <li class="inline-list__item inline-list__item_bullet"> <span class="question__views-count"> 
+                 <meta itemprop="interactionCount" content="335 views"> 335 просмотров </span> </li> 
+              </ul> 
+             </div> 
+            </div> 
+            <div class="question__answers-count question__answers_has-solution"> 
+             <a class="mini-counter" href="https://toster.ru/q/465613#answers" title="Количество ответов на вопрос" role="lazy_anchor"> 
+              <div class="mini-counter__count mini-counter__count_grey"> 
+               <svg class="icon_svg icon_check" viewbox="0 0 45 32"> 
+                <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_check"></use> 
+               </svg> 
+               <span itemprop="answerCount"> 3 </span> 
+              </div> 
+              <div class="mini-counter__value">
+                ответа 
+              </div> </a> 
+            </div> 
+           </div> </li> 
+          <li class="content-list__item" role="content-list_item"> 
+           <div class="question question_short" itemscope itemtype="http://schema.org/Question"> 
+            <div class="question__content"> 
+             <div class="question__content_fluid"> 
+              <nav class="question__tags"> 
+               <a class="question__tags-image" href="https://toster.ru/tag/дизайн"> <img class="tag__image tag__image_bg" src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/d78/98e/58b/d7898e58b362458694db4d9589dc343c.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=32" alt="дизайн" itemprop="image"> </a> 
+               <ul class="tags-list tags-list_short"> 
+                <li class="tags-list__item  tag_152855"> <a href="https://toster.ru/tag/дизайн"> Дизайн </a> </li> 
+                <li class="tags-list__item tags-list__item_more"> +4 ещё </li> 
+               </ul> 
+              </nav> 
+              <h2 class="question__title" itemprop="name"> <a class="question__title-link question__title-link_list" href="https://toster.ru/q/464426" itemprop="url"> Какой язык программирования выбрать для дизайнера? </a> </h2> 
+              <ul class="question__attrs inline-list"> 
+               <li class="inline-list__item inline-list__item_bullet"> <span class="question__views-count" title="Количество подписавшихся на вопрос"> 
+                 <meta itemprop="interactionCount" content="1 subscribers"> 1 подписчик </span> </li> 
+               <li class="inline-list__item inline-list__item_bullet"> <time class="question__date question__date_publish" pubdate="" title="Дата публикации: 26 сент. 2017, в 23:42" itemprop="dateCreated" datetime="2017-09-26 23:42:47"> 26 сент. </time> </li> 
+               <li class="inline-list__item inline-list__item_bullet"> <span class="question__views-count"> 
+                 <meta itemprop="interactionCount" content="514 views"> 514 просмотров </span> </li> 
+              </ul> 
+             </div> 
+            </div> 
+            <div class="question__answers-count question__answers_has-solution"> 
+             <a class="mini-counter" href="https://toster.ru/q/464426#answers" title="Количество ответов на вопрос" role="lazy_anchor"> 
+              <div class="mini-counter__count mini-counter__count_grey"> 
+               <svg class="icon_svg icon_check" viewbox="0 0 45 32"> 
+                <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_check"></use> 
+               </svg> 
+               <span itemprop="answerCount"> 5 </span> 
+              </div> 
+              <div class="mini-counter__value">
+                ответов 
+              </div> </a> 
+            </div> 
+           </div> </li> 
+          <li class="content-list__item" role="content-list_item"> 
+           <div class="question question_short" itemscope itemtype="http://schema.org/Question"> 
+            <div class="question__content"> 
+             <div class="question__content_fluid"> 
+              <nav class="question__tags"> 
+               <a class="question__tags-image" href="https://toster.ru/tag/cms"> <img class="tag__image tag__image_bg" src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/dc3/e22/040/dc3e22040c1644db9c19f5d000cfcf5c.gif&amp;container=focus&amp;refresh=2592000&amp;resize_w=32" alt="cms" itemprop="image"> </a> 
+               <ul class="tags-list tags-list_short"> 
+                <li class="tags-list__item  tag_21"> <a href="https://toster.ru/tag/cms"> CMS </a> </li> 
+                <li class="tags-list__item tags-list__item_more"> +4 ещё </li> 
+               </ul> 
+              </nav> 
+              <h2 class="question__title" itemprop="name"> <a class="question__title-link question__title-link_list" href="https://toster.ru/q/464046" itemprop="url"> Где и как можно проверить сайт и получить рекомендации куда двигаться дальше? </a> </h2> 
+              <ul class="question__attrs inline-list"> 
+               <li class="inline-list__item inline-list__item_bullet"> <span class="question__views-count" title="Количество подписавшихся на вопрос"> 
+                 <meta itemprop="interactionCount" content="2 subscribers"> 2 подписчика </span> </li> 
+               <li class="inline-list__item inline-list__item_bullet"> <time class="question__date question__date_publish" pubdate="" title="Дата публикации: 25 сент. 2017, в 21:19" itemprop="dateCreated" datetime="2017-09-25 21:19:44"> 25 сент. </time> </li> 
+               <li class="inline-list__item inline-list__item_bullet"> <span class="question__views-count"> 
+                 <meta itemprop="interactionCount" content="326 views"> 326 просмотров </span> </li> 
+              </ul> 
+             </div> 
+            </div> 
+            <div class="question__answers-count question__answers_has-solution"> 
+             <a class="mini-counter" href="https://toster.ru/q/464046#answers" title="Количество ответов на вопрос" role="lazy_anchor"> 
+              <div class="mini-counter__count mini-counter__count_grey"> 
+               <svg class="icon_svg icon_check" viewbox="0 0 45 32"> 
+                <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_check"></use> 
+               </svg> 
+               <span itemprop="answerCount"> 3 </span> 
+              </div> 
+              <div class="mini-counter__value">
+                ответа 
+              </div> </a> 
+            </div> 
+           </div> </li> 
+          <li class="content-list__item" role="content-list_item"> 
+           <div class="question question_short" itemscope itemtype="http://schema.org/Question"> 
+            <div class="question__content"> 
+             <div class="question__content_fluid"> 
+              <nav class="question__tags"> 
+               <a class="question__tags-image" href="https://toster.ru/tag/железо"> <img class="tag__image tag__image_bg" src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/df6/d65/f04/df6d65f04f6d48a9b0a72bcfb2b6a556.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=32" alt="железо" itemprop="image"> </a> 
+               <ul class="tags-list tags-list_short"> 
+                <li class="tags-list__item  tag_152763"> <a href="https://toster.ru/tag/железо"> Железо </a> </li> 
+                <li class="tags-list__item tags-list__item_more"> +4 ещё </li> 
+               </ul> 
+              </nav> 
+              <h2 class="question__title" itemprop="name"> <a class="question__title-link question__title-link_list" href="https://toster.ru/q/463751" itemprop="url"> Хватит ли для комфортной работы в фотошопе графического ядра процессора или нужна отдельная видеокарта? </a> </h2> 
+              <ul class="question__attrs inline-list"> 
+               <li class="inline-list__item inline-list__item_bullet"> <span class="question__views-count" title="Количество подписавшихся на вопрос"> 
+                 <meta itemprop="interactionCount" content="1 subscribers"> 1 подписчик </span> </li> 
+               <li class="inline-list__item inline-list__item_bullet"> <time class="question__date question__date_publish" pubdate="" title="Дата публикации: 25 сент. 2017, в 00:19" itemprop="dateCreated" datetime="2017-09-25 00:19:08"> 25 сент. </time> </li> 
+               <li class="inline-list__item inline-list__item_bullet"> <span class="question__views-count"> 
+                 <meta itemprop="interactionCount" content="594 views"> 594 просмотра </span> </li> 
+              </ul> 
+             </div> 
+            </div> 
+            <div class="question__answers-count "> 
+             <a class="mini-counter" href="https://toster.ru/q/463751#answers" title="Количество ответов на вопрос" role="lazy_anchor"> 
+              <div class="mini-counter__count mini-counter__count_grey"> 
+               <span itemprop="answerCount"> 7 </span> 
+              </div> 
+              <div class="mini-counter__value">
+                ответов 
+              </div> </a> 
+            </div> 
+           </div> </li> 
+          <li class="content-list__item content-list__item_more" role="related_replace"> <a class="btn btn_outline_grey" role="related_more" data-remote="" href="questions/related?question_id=471646&amp;skip=10"> <span class="more">Показать ещё</span> <span class="load">Загружается…</span> </a> </li> 
+         </ul> 
+         <dl class="side-projects" id="moikrug_block"> 
+          <dt class="section-header section-header_side-projects"> 
+           <a class="section-header__title" href="http://moikrug.ru/?utm_source=tm_toster&amp;utm_medium=tm_section&amp;utm_campaign=tm_promo" target="_blank"> Вакансии с Моего Круга </a> 
+           <a class="section-header__link_all" href="http://moikrug.ru/?utm_source=tm_toster&amp;utm_medium=tm_section&amp;utm_campaign=tm_promo" target="_blank"> Все вакансии </a> 
+          </dt> 
+          <dd class="side-projects__content"> 
+           <ul class="content-list"> 
+            <li class="content-list__item"> 
+             <div class="vacancy "> 
+              <div class="vacancy__company-name"> 
+               <a href="https://moikrug.ru/companies/ikitlab?utm_source=tm_toster&amp;utm_medium=tm_section&amp;utm_campaign=tm_promo" target="_blank"> <strong>IKIT Laboratory</strong> </a> 
+              </div> 
+              <div class="vacancy__title"> 
+               <a href="https://moikrug.ru/vacancies/1000011251?utm_source=tm_toster&amp;utm_medium=tm_section&amp;utm_campaign=tm_promo" target="_blank">Front-end разработчик</a> 
+              </div> 
+              <ul class="vacancy__attrs inline-list"> 
+               <li class="inline-list__item inline-list__item_bullet"> <span class="inline-list__value">Москва</span> </li> 
+               <li class="inline-list__item inline-list__item_bullet"> <span class="inline-list__value">Полный рабочий день</span> </li> 
+              </ul> 
+             </div> </li> 
+            <li class="content-list__item"> 
+             <div class="vacancy "> 
+              <div class="vacancy__company-name"> 
+               <a href="https://moikrug.ru/companies/8ece728a-7fd8-4d60-abe7-982d36611190?utm_source=tm_toster&amp;utm_medium=tm_section&amp;utm_campaign=tm_promo" target="_blank"> <strong>A&amp;M Studio</strong> </a> 
+              </div> 
+              <div class="vacancy__title"> 
+               <a href="https://moikrug.ru/vacancies/1000025428?utm_source=tm_toster&amp;utm_medium=tm_section&amp;utm_campaign=tm_promo" target="_blank">Разносторонний веб-программист</a> 
+              </div> 
+             </div> </li> 
+            <li class="content-list__item"> 
+             <div class="vacancy "> 
+              <div class="vacancy__company-name"> 
+               <a href="https://moikrug.ru/companies/pixonic?utm_source=tm_toster&amp;utm_medium=tm_section&amp;utm_campaign=tm_promo" target="_blank"> <strong>Pixonic</strong> </a> 
+              </div> 
+              <div class="vacancy__title"> 
+               <a href="https://moikrug.ru/vacancies/1000037321?utm_source=tm_toster&amp;utm_medium=tm_section&amp;utm_campaign=tm_promo" target="_blank">Технический‎ UI-дизайнер</a> 
+              </div> 
+              <ul class="vacancy__attrs inline-list"> 
+               <li class="inline-list__item inline-list__item_bullet"> <span class="inline-list__value">Москва</span> </li> 
+               <li class="inline-list__item inline-list__item_bullet"> <span class="inline-list__value">Полный рабочий день</span> </li> 
+              </ul> 
+             </div> </li> 
+            <li class="content-list__item"> 
+             <div class="vacancy "> 
+              <div class="vacancy__company-name"> 
+               <a href="https://moikrug.ru/companies/vong?utm_source=tm_toster&amp;utm_medium=tm_section&amp;utm_campaign=tm_promo" target="_blank"> <strong>ВОНГ</strong> </a> 
+              </div> 
+              <div class="vacancy__title"> 
+               <a href="https://moikrug.ru/vacancies/1000031634?utm_source=tm_toster&amp;utm_medium=tm_section&amp;utm_campaign=tm_promo" target="_blank">Программист Битрикс (PHP, Bitrix)</a> 
+              </div> 
+             </div> </li> 
+            <li class="content-list__item"> 
+             <div class="vacancy "> 
+              <div class="vacancy__company-name"> 
+               <a href="https://moikrug.ru/companies/itsoft?utm_source=tm_toster&amp;utm_medium=tm_section&amp;utm_campaign=tm_promo" target="_blank"> <strong>ITSOFT</strong> </a> 
+              </div> 
+              <div class="vacancy__title"> 
+               <a href="https://moikrug.ru/vacancies/1000030156?utm_source=tm_toster&amp;utm_medium=tm_section&amp;utm_campaign=tm_promo" target="_blank">HTML-верстальщик</a> 
+              </div> 
+              <ul class="vacancy__attrs inline-list"> 
+               <li class="inline-list__item inline-list__item_bullet"> <span class="inline-list__value">Москва</span> </li> 
+               <li class="inline-list__item inline-list__item_bullet"> <span class="inline-list__value">Полный рабочий день</span> </li> 
+               <li class="inline-list__item inline-list__item_bullet"> <span class="inline-list__value">от 40 000 до 70 000 руб.</span> </li> 
+              </ul> 
+             </div> </li> 
+            <li class="content-list__item content-list__item_more"> <a class="btn btn_outline_grey" href="http://moikrug.ru/?utm_source=tm_toster&amp;utm_medium=tm_section&amp;utm_campaign=tm_promo" target="_blank"> <span class="more">Ещё вакансии</span> </a> </li> 
+           </ul> 
+          </dd> 
+         </dl> 
+         <dl class="side-projects"> 
+          <dt class="section-header section-header_side-projects"> 
+           <a class="section-header__title" href="http://freelansim.ru/?utm_source=toster_tm&amp;utm_medium=tm_section&amp;utm_campaign=tm_promo" target="_blank"> Заказы с Фрилансим </a> 
+           <a class="section-header__link_all" href="http://freelansim.ru/?utm_source=toster_tm&amp;utm_medium=tm_section&amp;utm_campaign=tm_promo" target="_blank"> Все заказы </a> 
+          </dt> 
+          <dd class="side-projects__content"> 
+           <ul class="content-list"> 
+            <li class="content-list__item freelansim-task_wrap"> 
+             <div class="freelansim-task "> 
+              <div class="freelansim-task_fluid"> 
+               <div class="freelansim-task__title"> 
+                <a href="http://freelansim.ru/tasks/183195?utm_source=toster_tm&amp;utm_medium=tm_section&amp;utm_campaign=tm_promo" target="_blank">Развить маркетинговую стратегию МАРКЕТОЛОГ</a> 
+               </div> 
+               <ul class="freelansim__meta inline-list"> 
+                <li class="inline-list__item inline-list__item_bullet"> <span class="inline-list__value"> 1 отклик </span> </li> 
+                <li class="inline-list__item inline-list__item_bullet"> <span class="inline-list__value">20 окт. 2017, в 17:33</span> </li> 
+               </ul> 
+              </div> 
+             </div> 
+             <div class="freelansim-task__price">
+               Цена договорная 
+             </div> </li> 
+            <li class="content-list__item freelansim-task_wrap"> 
+             <div class="freelansim-task "> 
+              <div class="freelansim-task_fluid"> 
+               <div class="freelansim-task__title"> 
+                <a href="http://freelansim.ru/tasks/183193?utm_source=toster_tm&amp;utm_medium=tm_section&amp;utm_campaign=tm_promo" target="_blank">[Python] Сделать скрипт авторизации на сайте</a> 
+               </div> 
+               <ul class="freelansim__meta inline-list"> 
+                <li class="inline-list__item inline-list__item_bullet"> <span class="inline-list__value"> 2 отклика </span> </li> 
+                <li class="inline-list__item inline-list__item_bullet"> <span class="inline-list__value">20 окт. 2017, в 17:20</span> </li> 
+               </ul> 
+              </div> 
+             </div> 
+             <div class="freelansim-task__price">
+               Цена договорная 
+             </div> </li> 
+            <li class="content-list__item freelansim-task_wrap"> 
+             <div class="freelansim-task "> 
+              <div class="freelansim-task_fluid"> 
+               <div class="freelansim-task__title"> 
+                <a href="http://freelansim.ru/tasks/183191?utm_source=toster_tm&amp;utm_medium=tm_section&amp;utm_campaign=tm_promo" target="_blank">Нужен специалист по Shopify</a> 
+               </div> 
+               <ul class="freelansim__meta inline-list"> 
+                <li class="inline-list__item inline-list__item_bullet"> <span class="inline-list__value"> 1 отклик </span> </li> 
+                <li class="inline-list__item inline-list__item_bullet"> <span class="inline-list__value">20 окт. 2017, в 17:07</span> </li> 
+               </ul> 
+              </div> 
+             </div> 
+             <div class="freelansim-task__price">
+               Цена договорная 
+             </div> </li> 
+            <li class="content-list__item freelansim-task_wrap"> 
+             <div class="freelansim-task "> 
+              <div class="freelansim-task_fluid"> 
+               <div class="freelansim-task__title"> 
+                <a href="http://freelansim.ru/tasks/183189?utm_source=toster_tm&amp;utm_medium=tm_section&amp;utm_campaign=tm_promo" target="_blank">Виджет для воспроизведения видеоролика на каждой странице сайта</a> 
+               </div> 
+               <ul class="freelansim__meta inline-list"> 
+                <li class="inline-list__item inline-list__item_bullet"> <span class="inline-list__value"> 3 отклика </span> </li> 
+                <li class="inline-list__item inline-list__item_bullet"> <span class="inline-list__value">20 окт. 2017, в 16:51</span> </li> 
+               </ul> 
+              </div> 
+             </div> 
+             <div class="freelansim-task__price">
+               Цена договорная 
+             </div> </li> 
+            <li class="content-list__item freelansim-task_wrap"> 
+             <div class="freelansim-task "> 
+              <div class="freelansim-task_fluid"> 
+               <div class="freelansim-task__title"> 
+                <a href="http://freelansim.ru/tasks/183183?utm_source=toster_tm&amp;utm_medium=tm_section&amp;utm_campaign=tm_promo" target="_blank">Маркетинг в соц. сетях (SMM)</a> 
+               </div> 
+               <ul class="freelansim__meta inline-list"> 
+                <li class="inline-list__item inline-list__item_bullet"> <span class="inline-list__value"> 1 отклик </span> </li> 
+                <li class="inline-list__item inline-list__item_bullet"> <span class="inline-list__value">20 окт. 2017, в 15:56</span> </li> 
+               </ul> 
+              </div> 
+             </div> 
+             <div class="freelansim-task__price">
+               Цена договорная 
+             </div> </li> 
+            <li class="content-list__item content-list__item_more"> <a class="btn btn_outline_grey" href="http://freelansim.ru/?utm_source=toster_tm&amp;utm_medium=tm_section&amp;utm_campaign=tm_promo" target="_blank"> <span class="more">Ещё заказы</span> </a> </li> 
+           </ul> 
+          </dd> 
+         </dl> 
+        </div> 
+       </div> 
+      </main> 
+     </div> 
+     <aside class="column_sidebar"> 
+      <div id="adriver_banner_1676287896"></div> 
+      <script type="text/javascript">
+  //<![CDATA[
+    new adriver("adriver_banner_1676287896", {sid:195294, bt:52, bn:1});
+  //]]>
+  </script> 
+      <dl class="panel-heading panel-heading_inner" role="most_interest"> 
+       <dt class="panel-heading__title panel-heading__title_underline">
+         Самое интересное за 24 часа 
+       </dt> 
+       <dd class="panel-heading__content panel-heading__content_inner"> 
+        <ul class="content-list content-list_sidebar-block"> 
+         <li class="content-list__item"> <a class="question__title-link question__title_thin " href="https://toster.ru/q/471622"> Опыт перехода из энтерпрайза в ...? </a> 
+          <ul class="inline-list inline-list_meta-attrs"> 
+           <li class="inline-list__item inline-list__item_bullet"> <span title="Количество человек, интересующихся вопросом"> 10 подписчиков </span> </li> 
+           <li class="inline-list__item inline-list__item_bullet"> <span title="Количество ответов на вопрос"> 5 ответов </span> </li> 
+          </ul> </li> 
+         <li class="content-list__item"> <a class="question__title-link question__title_thin has_solution" href="https://toster.ru/q/471661"> Как обеспечить консистентность базы данных при переходе между ветками git? </a> 
+          <ul class="inline-list inline-list_meta-attrs"> 
+           <li class="inline-list__item inline-list__item_bullet"> <span title="Количество человек, интересующихся вопросом"> 8 подписчиков </span> </li> 
+           <li class="inline-list__item inline-list__item_bullet"> <span title="Количество ответов на вопрос"> 2 ответа </span> </li> 
+          </ul> </li> 
+         <li class="content-list__item"> <a class="question__title-link question__title_thin " href="https://toster.ru/q/471680"> Как разделить разработку backend и frontend? </a> 
+          <ul class="inline-list inline-list_meta-attrs"> 
+           <li class="inline-list__item inline-list__item_bullet"> <span title="Количество человек, интересующихся вопросом"> 12 подписчиков </span> </li> 
+           <li class="inline-list__item inline-list__item_bullet"> <span title="Количество ответов на вопрос"> 3 ответа </span> </li> 
+          </ul> </li> 
+         <li class="content-list__item"> <a class="question__title-link question__title_thin " href="https://toster.ru/q/471784"> Как вы ищете клиентов на фрилансе? </a> 
+          <ul class="inline-list inline-list_meta-attrs"> 
+           <li class="inline-list__item inline-list__item_bullet"> <span title="Количество человек, интересующихся вопросом"> 14 подписчиков </span> </li> 
+           <li class="inline-list__item inline-list__item_bullet"> <span title="Количество ответов на вопрос"> 4 ответа </span> </li> 
+          </ul> </li> 
+         <li class="content-list__item"> <a class="question__title-link question__title_thin has_solution" href="https://toster.ru/q/471808"> Как обойти ФЗ-54? </a> 
+          <ul class="inline-list inline-list_meta-attrs"> 
+           <li class="inline-list__item inline-list__item_bullet"> <span title="Количество человек, интересующихся вопросом"> 4 подписчика </span> </li> 
+           <li class="inline-list__item inline-list__item_bullet"> <span title="Количество ответов на вопрос"> 5 ответов </span> </li> 
+          </ul> </li> 
+         <li class="content-list__item"> <a class="question__title-link question__title_thin has_solution" href="https://toster.ru/q/471835"> Что лучше WebSockets или socket.io? </a> 
+          <ul class="inline-list inline-list_meta-attrs"> 
+           <li class="inline-list__item inline-list__item_bullet"> <span title="Количество человек, интересующихся вопросом"> 4 подписчика </span> </li> 
+           <li class="inline-list__item inline-list__item_bullet"> <span title="Количество ответов на вопрос"> 3 ответа </span> </li> 
+          </ul> </li> 
+         <li class="content-list__item"> <a class="question__title-link question__title_thin " href="https://toster.ru/q/471854"> Как называется этот стиль рисования? </a> 
+          <ul class="inline-list inline-list_meta-attrs"> 
+           <li class="inline-list__item inline-list__item_bullet"> <span title="Количество человек, интересующихся вопросом"> 3 подписчика </span> </li> 
+           <li class="inline-list__item inline-list__item_bullet"> <span title="Количество ответов на вопрос"> 1 ответ </span> </li> 
+          </ul> </li> 
+         <li class="content-list__item"> <a class="question__title-link question__title_thin " href="https://toster.ru/q/471896"> Почему вы выбрали бэкенд? </a> 
+          <ul class="inline-list inline-list_meta-attrs"> 
+           <li class="inline-list__item inline-list__item_bullet"> <span title="Количество человек, интересующихся вопросом"> 3 подписчика </span> </li> 
+           <li class="inline-list__item inline-list__item_bullet"> <span title="Количество ответов на вопрос"> 6 ответов </span> </li> 
+          </ul> </li> 
+         <li class="content-list__item"> <a class="question__title-link question__title_thin " href="https://toster.ru/q/471899"> У меня ощущение что я самозванец. Что посоветуете? </a> 
+          <ul class="inline-list inline-list_meta-attrs"> 
+           <li class="inline-list__item inline-list__item_bullet"> <span title="Количество человек, интересующихся вопросом"> 3 подписчика </span> </li> 
+           <li class="inline-list__item inline-list__item_bullet"> <span title="Количество ответов на вопрос"> 2 ответа </span> </li> 
+          </ul> </li> 
+         <li class="content-list__item"> <a class="question__title-link question__title_thin " href="https://toster.ru/q/471901"> Что делать с 'Access-Control-Allow-Origin' header contains multiple values? </a> 
+          <ul class="inline-list inline-list_meta-attrs"> 
+           <li class="inline-list__item inline-list__item_bullet"> <span title="Количество человек, интересующихся вопросом"> 2 подписчика </span> </li> 
+           <li class="inline-list__item inline-list__item_bullet"> <span title="Количество ответов на вопрос"> 1 ответ </span> </li> 
+          </ul> </li> 
+        </ul> 
+       </dd> 
+      </dl> 
+      <div class="sidebar-block_center" role="sticky_banner"> 
+       <!-- R-149488-3 Яндекс.RTB-блок  --> 
+       <div id="yandex_ad_R-149488-3"></div> 
+       <script type="text/javascript">
+      (function(w, d, n, s, t) {
+          w[n] = w[n] || [];
+          w[n].push(function() {
+              Ya.Context.AdvManager.render({
+                  blockId: "R-149488-3",
+                  renderTo: "yandex_ad_R-149488-3",
+                  async: true
+              });
+          });
+          t = d.getElementsByTagName("script")[0];
+          s = d.createElement("script");
+          s.type = "text/javascript";
+          s.src = "//an.yandex.ru/system/context.js";
+          s.async = true;
+          t.parentNode.insertBefore(s, t);
+      })(this, this.document, "yandexContextAsyncCallbacks");
+    </script> 
+      </div> 
+     </aside> 
+    </section> 
+   </div> 
+   <footer class="layout__footer"> 
+    <div class="layout__footer_inner"> 
+     <nav class="menu_services"> 
+      <ul class="menu menu_inline"> 
+       <li class="menu__item"> <a class="menu__item-link" href="http://tmtm.ru"> <span class="copyright_short">© TM</span> </a> </li> 
+       <li class="menu__item"> <a class="menu__item-link" href="info/about">О сайте</a> </li> 
+       <li class="menu__item"> <a class="menu__item-link" href="info/agreement">Соглашение</a> </li> 
+       <li class="menu__item"> <a class="menu__item-link" href="feedback">Обратная связь</a> </li> 
+       <li class="menu__item"> <a class="menu__item-link" href="https://habrahabr.ru/company/toster/">Блог</a> </li> 
+      </ul> 
+     </nav> 
+     <nav class="menu_socials"> 
+      <ul class="menu menu_inline"> 
+       <li class="menu__item"> <a class="menu__item-link tw" href="https://twitter.com/toster_ru" title="Наш аккаунт в Twitter"> 
+         <svg class="icon_svg icon_social_twitter" viewbox="0 0 39 32"> 
+          <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_social_twitter"></use> 
+         </svg> </a> </li> 
+       <li class="menu__item"> <a class="menu__item-link fb" href="https://www.facebook.com/toster.ru" title="Наша группа в Facebook"> 
+         <svg class="icon_svg icon_social_facebook" viewbox="0 0 17 32"> 
+          <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_social_facebook"></use> 
+         </svg> </a> </li> 
+       <li class="menu__item"> <a class="menu__item-link vk" href="http://vk.com/toster_ru" title="Наша группа на Вконтакте"> 
+         <svg class="icon_svg icon_social_vk" viewbox="0 0 56 32"> 
+          <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_social_vk"></use> 
+         </svg> </a> </li> 
+      </ul> 
+     </nav> 
+    </div> 
+    <!-- Facebook Pixel Code --> 
+    <script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '322477921209238');
+fbq('track', 'PageView');
+</script> 
+    <noscript>
+     <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=322477921209238&amp;ev=PageView&amp;noscript=1">
+    </noscript> 
+    <!-- End Facebook Pixel Code --> 
+    <img class="footer__pix" src="https://ad.adriver.ru/cgi-bin/rle.cgi?sid=1&amp;ad=505035&amp;bt=21&amp;pid=1844621&amp;bid=3690124&amp;bn=3690124&amp;rnd=538787923"> 
+   </footer> 
+   <div class="popup__overlay hidden" role="popup auth_popup" data-default-title="Войдите на сайт"> 
+    <div class="popup popup_auth"> 
+     <div class="popup__body"> 
+      <div class="empty-block"> 
+       <div class="empty-block__inner"> 
+        <h3 class="empty-block__title icon_unauthorized" role="title_replace"> Войдите на сайт </h3> 
+        <div class="empty-block__description" role="desc_replace">
+          Чтобы задать вопрос и получить на него квалифицированный ответ. 
+        </div> 
+        <a class="empty-block__button" href="auth/ac"> Войти через TM ID </a> 
+       </div> 
+      </div> 
+     </div> 
+     <button class="btn btn_link popup__close-btn" type="reset" role="btn_popup_close"> <span>Закрыть</span> </button> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+ <script src="https://habracdn.net/toster/frontend.fb257f19-78c0-4b7e-960d-225739187b40.js"></script> 
+ <script type="text/javascript">
+    //<![CDATA[
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', 'UA-726094-14', 'toster.ru');
+      ga('require', 'displayfeatures');
+      ga('set', 'dimension1', 'guest'); // user type - guest/authorized
+      ga('send', 'pageview');
+      
+    //]]>
+    </script> 
+ <script type="text/javascript">
+  //<![CDATA[
+    (function (d, w, c) {(w[c] = w[c] || []).push(function() {try {w.yaCounter24049246 = new Ya.Metrika({id:24049246, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } });
+    var n = d.getElementsByTagName("script")[0],
+    s = d.createElement("script"),
+    f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+    if (w.opera == "[object Opera]") {
+    d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+    
+  //]]>
+  </script> 
+ <noscript> 
+  <div> 
+   <img src="//mc.yandex.ru/watch/24049246" style="position:absolute; left:-9999px;" alt=""> 
+  </div> 
+ </noscript> 
+ <script type="text/javascript">window.apmInfo={appID:"56",appTime:1,agentUrl:"https://apm.24mon.com/js/apm_agent.js"},function(){var n=0,a=function(){if(!n++){var a=document.createElement("script")
+a.type="application/javascript",a.src=window.apmInfo.agentUrl,document.body.appendChild(a)}}
+"function"==typeof window.document.addEventListener?window.addEventListener("load",a,!1):window.attachEvent("onload",a)}();</script> 
+</body>

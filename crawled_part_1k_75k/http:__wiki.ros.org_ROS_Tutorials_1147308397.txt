@@ -1,0 +1,338 @@
+http://wiki.ros.org/ROS/Tutorials
+<body lang="en" dir="ltr"> 
+ <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script> 
+ <script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-5950817-2");
+pageTracker._trackPageview();
+} catch(err) {}</script> 
+ <script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+if(f) f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+if(e) {
+  searchChange(e);
+  searchBlur(e);
+}
+
+function handleSubmit() {
+  var f = document.getElementById('searchform');
+  var t = document.getElementById('searchinput');
+  var r = document.getElementById('real_searchinput');
+
+  //alert("handleSubmit "+ t.value);
+  if(t.value.match(/review/)) {
+    r.value = t.value;
+  } else {
+    //r.value = t.value + " -PackageReviewCategory -StackReviewCategory -M3Review -DocReview -ApiReview -HelpOn -BadContent -LocalSpellingWords";
+    r.value = t.value + " -PackageReviewCategory -StackReviewCategory -DocReview -ApiReview";
+  }
+  //return validate(f);
+}
+//-->
+</script> 
+ <div id="dpage"> 
+  <div id="dpage-inner"> 
+   <div id="header">
+    <div id="topnav"> 
+     <!-- Alert box --> 
+     <!-- To enable/disable the alert box, uncomment/comment the block below and update the content below the button. --> 
+     <!--
+    <div class="alert alert-info alert-dismissable" style="text-align: center;">
+<script>
+jQuery(function( $ ){
+    alert_box_name = 'roswiki_10year_montage'
+    state = localStorage.getItem(alert_box_name);
+    if (!state) {
+      localStorage.setItem(alert_box_name, 'open');
+    }
+    state = localStorage.getItem(alert_box_name);
+    if (state == 'closed') {
+        $( '#topnav .alert' ).hide();
+    }
+    $( '.close' ).click(function () {
+	console.log('in .close.click');
+        localStorage.setItem(alert_box_name, 'closed');
+        $( '#topnav .alert' ).hide();
+  });
+});
+</script>
+      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+      <a href="https://events.osrfoundation.org/civicrm/?page=CiviCRM&q=civicrm/petition/sign&sid=9&reset=1">Submit your video clips to be included in the ROS 10 Year Montage!<br>
+      The deadline for submission is October 15th.</a>.
+    </div>
+--> 
+     <!-- End Alert box --> 
+     <table id="topnav-table"> 
+      <tbody>
+       <tr> 
+        <td width="300" valign="top"><a href="/"><img border="0" src="/custom/images/ros_org.png" alt="ros.org" width="238" height="51"></a></td> 
+        <td width="500" valign="middle"> <a href="http://www.ros.org/about-ros">About</a> | <a href="/Support">Support</a> | <a href="http://discourse.ros.org/">Discussion Forum</a> | <a href="http://status.ros.org/">Service Status</a> | <a href="http://answers.ros.org/">Q&amp;A answers.ros.org</a> 
+         <!--<a href="http://roscon.ros.org/2016/"><img align="middle" style="padding-left: 15px;" src="http://ros.org/images/roscon_wiki_header.jpg" width="133" height="65" alt="ROSCon 2016" /></a>
+--> 
+         <!-- <a href="https://events.osrfoundation.org/ros-kong-2014/"><img align="middle" style="padding-left: 15px;" src="http://ros.org/images/ros_kong_2014_badge.png" width="133" height="38" alt="roskong" /></a>
+--> 
+         <!--a href="https://events.osrfoundation.org/ros-kong-2014/"><img align="middle" style="padding-left: 15px;" src="http://imgur.com/eMzUJVe.png" width="133" height="38" alt="roskong" /></a--> </td> 
+        <td valign="middle" align="right"> <script language="Javascript">
+
+function Searchy(theButton){
+
+theForm = theButton.form;
+newID = theForm.input.value;
+theForm.q.value = newID;
+theForm.input.value=theForm.input.value
+
+}
+</script> 
+         <form action="http://www.ros.org/search/index.html" id="cse"> 
+          <div> 
+           <label>Search:</label> 
+           <input type="hidden" name="cx" value="018259903093183594226:txvzw9fat6w"> 
+           <input type="hidden" name="cof" value="FORID:11;NB:1"> 
+           <input type="hidden" name="filter" value="0"> 
+           <input type="hidden" name="num" value="10"> 
+           <input type="hidden" name="ie" value="UTF-8"> 
+           <input type="text" name="input" id="input" autocomplete="on" style="width: 35%"> 
+           <input type="hidden" name="q" value=""> 
+           <input type="submit" name="sa" value="Submit" onClick="Searchy(this)"> 
+          </div> 
+         </form> </td> 
+       </tr> 
+       <tr> 
+        <td colspan="3" height="53" width="1024">
+         <nobr>
+          <img src="/custom/images/menu_left.png" width="17" height="53" alt="">
+          <a href="/"><img border="0" src="/custom/images/menu_documentation.png" width="237" height="53" alt="Documentation"></a>
+          <img src="/custom/images/menu_spacer.png" width="69" height="53">
+          <a href="http://www.ros.org/browse/"><img border="0" src="/custom/images/menu_browse_software.png" width="268" height="53" alt="Browse Software"></a>
+          <img src="/custom/images/menu_spacer.png" width="69" height="53">
+          <a href="http://www.ros.org/news"><img border="0" src="/custom/images/menu_news.png" width="84" height="53" alt="News"></a>
+          <img src="/custom/images/menu_spacer.png" width="69" height="53">
+          <a href="/ROS/Installation"><img border="0" src="/custom/images/menu_download.png" width="151" height="53" alt="Download"></a>
+          <img src="/custom/images/menu_right.png" width="60" height="53">
+         </nobr></td> 
+       </tr> 
+      </tbody>
+     </table> 
+     <!-- topnav-table --> 
+    </div> 
+    <!-- /#topav --> 
+   </div> 
+   <!-- /#header --> 
+   <div id="header2"> 
+    <ul id="pagelocation"> 
+     <li><a href="/ROS">ROS</a></li>
+     <li><a class="backlink" href="/action/fullsearch/ROS/Tutorials?action=fullsearch&amp;context=180&amp;value=linkto%3A%22ROS%2FTutorials%22" rel="nofollow" title="Click to do a full-text search for this title">Tutorials</a></li> 
+    </ul> 
+    <div id="locationline"> 
+    </div> 
+   </div> 
+   <div id="sidebar"> 
+    <div class="sidepanel"> 
+     <h1>Wiki</h1> 
+     <ul id="navibar"> 
+      <li class="wikilink"><a href="/Distributions">Distributions</a></li>
+      <li class="wikilink"><a href="/ROS/Installation">ROS/Installation</a></li>
+      <li class="wikilink current"><a href="/ROS/Tutorials">ROS/Tutorials</a></li>
+      <li class="wikilink"><a href="/RecentChanges">RecentChanges</a></li> 
+     </ul> 
+    </div> 
+    <div class="sidepanel"> 
+     <h1>Page</h1> 
+     <ul class="editbar">
+      <li><span class="disabled">Immutable Page</span></li>
+      <li class="toggleCommentsButton" style="display:none;"><a href="#" class="nbcomment" onclick="toggleComments();return false;">Comments</a></li>
+      <li><a class="nbinfo" href="/action/info/ROS/Tutorials?action=info" rel="nofollow">Info</a></li>
+      <li><a class="nbattachments" href="/action/AttachFile/ROS/Tutorials?action=AttachFile" rel="nofollow">Attachments</a></li>
+      <li> 
+       <form class="actionsmenu" method="GET" action="/ROS/Tutorials"> 
+        <div> 
+         <label>More Actions:</label> 
+         <select name="action" onchange="if ((this.selectedIndex != 0) &amp;&amp;
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;"> <option value="raw">Raw Text</option> <option value="print">Print View</option> <option value="RenderAsDocbook">Render as Docbook</option> <option value="show" disabled class="disabled">Delete Cache</option> <option value="show" disabled class="disabled">------------------------</option> <option value="SpellCheck">Check Spelling</option> <option value="LikePages">Like Pages</option> <option value="LocalSiteMap">Local Site Map</option> <option value="show" disabled class="disabled">------------------------</option> <option value="RenamePage" disabled class="disabled">Rename Page</option> <option value="CopyPage">Copy Page</option> <option value="DeletePage" disabled class="disabled">Delete Page</option> <option value="show" disabled class="disabled">------------------------</option> <option value="MyPages">My Pages</option> <option value="show" disabled class="disabled">Subscribe User</option> <option value="show" disabled class="disabled">------------------------</option> <option value="show" disabled class="disabled">Remove Spam</option> <option value="show" disabled class="disabled">Revert to this revision</option> <option value="PackagePages">Package Pages</option> <option value="SyncPages">Sync Pages</option> <option value="show" disabled class="disabled">------------------------</option> <option value="CreatePdfDocument">CreatePdfDocument</option> <option value="Load">Load</option> <option value="RawFile">RawFile</option> <option value="Save">Save</option> <option value="SlideShow">SlideShow</option> </select> 
+         <input type="submit" value="Do"> 
+        </div> 
+        <script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script> 
+       </form> </li>
+     </ul> 
+    </div> 
+    <div class="sidepanel"> 
+     <h1>User</h1> 
+     <ul id="username">
+      <li><a href="/action/login/ROS/Tutorials?action=login" id="login" rel="nofollow">Login</a></li>
+     </ul> 
+    </div> 
+   </div> 
+   <div id="page" lang="en" dir="ltr"> 
+    <div dir="ltr" id="content" lang="en">
+     <span class="anchor" id="top"></span> 
+     <span class="anchor" id="line-1"></span>
+     <p class="line867"> </p>
+     <h1 id="ROS_Tutorials">ROS Tutorials</h1> 
+     <span class="anchor" id="line-2"></span>
+     <p class="line867"><strong>Non-Beginners</strong>: If you're already familiar enough with <tt class="backtick">ROS</tt> <a href="/fuerte">fuerte</a> or earlier versions and only want to explore the new build system introduced in <a href="/groovy">groovy</a> and used in <a href="/hydro">hydro</a> and later, called <a href="/catkin">catkin</a>, you can go through more in-depth <a href="/catkin/Tutorials">catkin tutorial here</a>. However, going over all basic <a href="/ROS/Tutorials#Beginner_Level">Beginner Level</a> tutorials is still recommended for all users to get exposed to new features. <span class="anchor" id="line-3"></span><span class="anchor" id="line-4"></span></p>
+     <p class="line867"><strong>If you are new to Linux</strong>: You may find it helpful to first do a quick tutorial on common command line tools for linux. A good one is <a class="http" href="http://www.ee.surrey.ac.uk/Teaching/Unix/">here</a>. <span class="anchor" id="line-5"></span><span class="anchor" id="line-6"></span></p>
+     <p class="line867"></p>
+     <div class="table-of-contents">
+      <p class="table-of-contents-heading">Contents</p>
+      <ol>
+       <li> <a href="#ROS_Tutorials">ROS Tutorials</a>
+        <ol>
+         <li> <a href="#Core_ROS_Tutorials">Core ROS Tutorials</a>
+          <ol>
+           <li> <a href="#Beginner_Level">Beginner Level</a></li>
+           <li> <a href="#Intermediate_Level">Intermediate Level</a></li>
+          </ol></li>
+         <li> <a href="#ROS_Standards">ROS Standards</a></li>
+         <li> <a href="#Tutorials_for_Other_ROS_Libraries">Tutorials for Other ROS Libraries</a></li>
+         <li> <a href="#Tutorials_for_Libraries_with_ROS_Interfaces">Tutorials for Libraries with ROS Interfaces</a></li>
+         <li> <a href="#External_ROS_Resources">External ROS Resources</a>
+          <ol>
+           <li> <a href="#External_Tutorials">External Tutorials</a></li>
+           <li> <a href="#External_Seminar.2BAC8-Lecture">External Seminar/Lecture</a></li>
+          </ol></li>
+         <li> <a href="#Using_ROS_on_your_custom_Robot">Using ROS on your custom Robot</a></li>
+        </ol></li>
+      </ol>
+     </div>
+     <p class="line874"> <span class="anchor" id="line-7"></span><span class="anchor" id="line-8"></span></p>
+     <p class="line867"> </p>
+     <h2 id="Core_ROS_Tutorials">Core ROS Tutorials</h2> 
+     <span class="anchor" id="line-9"></span>
+     <p class="line867"> </p>
+     <h3 id="Beginner_Level">Beginner Level</h3> 
+     <span class="anchor" id="line-10"></span>
+     <p class="line867"></p>
+     <ol>
+      <li><a href="/ROS/Tutorials/InstallingandConfiguringROSEnvironment">Installing and Configuring Your ROS Environment</a><p><span class="anchor" id="line-1-1"></span>This tutorial walks you through installing ROS and setting up the ROS environment on your computer. </p></li>
+      <li><a href="/ROS/Tutorials/NavigatingTheFilesystem">Navigating the ROS Filesystem</a><p><span class="anchor" id="line-1-2"></span>This tutorial introduces ROS filesystem concepts, and covers using the roscd, rosls, and <a href="/rospack">rospack</a> commandline tools. </p></li>
+      <li><a href="/ROS/Tutorials/CreatingPackage">Creating a ROS Package</a><p><span class="anchor" id="line-1-3"></span>This tutorial covers using <a href="/roscreate">roscreate-pkg</a> or <a href="/catkin">catkin</a> to create a new package, and <a href="/rospack">rospack</a> to list package dependencies. </p></li>
+      <li><a href="/ROS/Tutorials/BuildingPackages">Building a ROS Package</a><p><span class="anchor" id="line-1-4"></span>This tutorial covers the toolchain to build a package. </p></li>
+      <li><a href="/ROS/Tutorials/UnderstandingNodes">Understanding ROS Nodes</a><p><span class="anchor" id="line-1-5"></span>This tutorial introduces ROS graph concepts and discusses the use of <a href="/roscore">roscore</a>, <a href="/rosnode">rosnode</a>, and <a href="/rosrun">rosrun</a> commandline tools. </p></li>
+      <li><a href="/ROS/Tutorials/UnderstandingTopics">Understanding ROS Topics</a><p><span class="anchor" id="line-1-6"></span>This tutorial introduces ROS topics as well as using the <a href="/rostopic">rostopic</a> and <a href="/rqt_plot">rqt_plot</a> commandline tools. </p></li>
+      <li><a href="/ROS/Tutorials/UnderstandingServicesParams">Understanding ROS Services and Parameters</a><p><span class="anchor" id="line-1-7"></span>This tutorial introduces ROS services, and parameters as well as using the <a href="/rosservice">rosservice</a> and <a href="/rosparam">rosparam</a> commandline tools. </p></li>
+      <li><a href="/ROS/Tutorials/UsingRqtconsoleRoslaunch">Using rqt_console and roslaunch</a><p><span class="anchor" id="line-1-8"></span>This tutorial introduces ROS using <a href="/rqt_console">rqt_console</a> and <a href="/rqt_logger_level">rqt_logger_level</a> for debugging and <a href="/roslaunch">roslaunch</a> for starting many nodes at once. If you use <tt class="backtick">ROS&nbsp;fuerte</tt> or ealier distros where <a href="/rqt">rqt</a> isn't fully available, please see this page with <a href="/ROS/Tutorials/UsingRxconsoleRoslaunch">this page</a> that uses old <tt class="backtick">rx</tt> based tools. </p></li>
+      <li><a href="/ROS/Tutorials/UsingRosEd">Using rosed to edit files in ROS</a><p><span class="anchor" id="line-1-9"></span>This tutorial shows how to use <a href="/rosbash">rosed</a> to make editing easier. </p></li>
+      <li><a href="/ROS/Tutorials/CreatingMsgAndSrv">Creating a ROS msg and srv</a><p><span class="anchor" id="line-1-10"></span>This tutorial covers how to create and build msg and srv files as well as the <a href="/rosmsg">rosmsg</a>, rossrv and roscp commandline tools. </p></li>
+      <li><a href="/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29">Writing a Simple Publisher and Subscriber (C++)</a><p><span class="anchor" id="line-1-11"></span>This tutorial covers how to write a publisher and subscriber node in C++. </p></li>
+      <li><a href="/ROS/Tutorials/WritingPublisherSubscriber%28python%29">Writing a Simple Publisher and Subscriber (Python)</a><p><span class="anchor" id="line-1-12"></span>This tutorial covers how to write a publisher and subscriber node in python. </p></li>
+      <li><a href="/ROS/Tutorials/ExaminingPublisherSubscriber">Examining the Simple Publisher and Subscriber</a><p><span class="anchor" id="line-1-13"></span>This tutorial examines running the simple publisher and subscriber. </p></li>
+      <li><a href="/ROS/Tutorials/WritingServiceClient%28c%2B%2B%29">Writing a Simple Service and Client (C++)</a><p><span class="anchor" id="line-1-14"></span>This tutorial covers how to write a service and client node in C++. </p></li>
+      <li><a href="/ROS/Tutorials/WritingServiceClient%28python%29">Writing a Simple Service and Client (Python)</a><p><span class="anchor" id="line-1-15"></span>This tutorial covers how to write a service and client node in python. </p></li>
+      <li><a href="/ROS/Tutorials/ExaminingServiceClient">Examining the Simple Service and Client</a><p><span class="anchor" id="line-1-16"></span>This tutorial examines running the simple service and client. </p></li>
+      <li><a href="/ROS/Tutorials/Recording%20and%20playing%20back%20data">Recording and playing back data</a><p><span class="anchor" id="line-1-17"></span>This tutorial will teach you how to record data from a running ROS system into a .bag file, and then to play back the data to produce similar behavior in a running system. </p></li>
+      <li><a href="/ROS/Tutorials/Getting%20started%20with%20roswtf">Getting started with roswtf</a><p><span class="anchor" id="line-1-18"></span>Basic introduction to the <a href="/roswtf">roswtf</a> tool. </p></li>
+      <li><a href="/ROS/Tutorials/NavigatingTheWiki">Navigating the ROS wiki</a><p><span class="anchor" id="line-1-19"></span>This tutorial discusses the layout of the ROS wiki (<a href="/Documentation">ros.org</a>) and talks about how to find what you want to know. </p></li>
+      <li><a href="/ROS/Tutorials/WhereNext">Where Next?</a><p><span class="anchor" id="line-1-20"></span>This tutorial discusses options for getting to know more about using ROS on real or simulated robots. </p></li>
+     </ol>
+     <p class="line874"> <span class="anchor" id="line-11"></span><span class="anchor" id="line-12"></span></p>
+     <p class="line867"><strong>Now that you have completed the beginner level tutorials please answer this short <a class="http" href="http://spreadsheets.google.com/viewform?formkey=dGJVOVhyXzd0b0YxRHAxWDdIZmo4cGc6MA">questionnaire</a>.</strong> <span class="anchor" id="line-13"></span><span class="anchor" id="line-14"></span></p>
+     <p class="line867"> </p>
+     <h3 id="Intermediate_Level">Intermediate Level</h3> 
+     <span class="anchor" id="line-15"></span>
+     <p class="line862">More client API tutorials can be found in the relevant package (<a href="/roscpp/Tutorials">roscpp</a>, <a href="/rospy/Tutorials">rospy</a>, <a href="/roslisp/Tutorials">roslisp</a>) <span class="anchor" id="line-16"></span><span class="anchor" id="line-17"></span></p>
+     <p class="line867"></p>
+     <ol>
+      <li><a href="/ROS/Tutorials/Creating%20a%20Package%20by%20Hand">Creating a ROS package by hand.</a><p><span class="anchor" id="line-1-21"></span>This tutorial explains how to manually create a ROS package. </p></li>
+      <li><a href="/ROS/Tutorials/rosdep">Managing System dependencies</a><p><span class="anchor" id="line-1-22"></span>This explains how to use <a href="/rosdep">rosdep</a> to install system dependencies. </p></li>
+      <li><a href="/ROS/Tutorials/Roslaunch%20tips%20for%20larger%20projects">Roslaunch tips for large projects</a><p><span class="anchor" id="line-1-23"></span>This tutorial describes some tips for writing roslaunch files for large projects. The focus is on how to structure launch files so they may be reused as much as possible in different situations. We'll use the 2dnav_pr2 package as a case study. </p></li>
+      <li><a href="/ROS/Tutorials/MultipleMachines">Running ROS across multiple machines</a><p><span class="anchor" id="line-1-24"></span>This tutorial explains how to start a ROS system using two machines. It explains the use of <tt class="backtick">ROS_MASTER_URI</tt> to configure multiple machines to use a single master. </p></li>
+      <li><a href="/ROS/Tutorials/DefiningCustomMessages">Defining Custom Messages</a><p><span class="anchor" id="line-1-25"></span>This tutorial will show you how to define your own custom message data types using the ROS <a href="/ROS/Message_Description_Language">Message Description Language</a>. </p></li>
+      <li><a href="/ROS/Tutorials/Using%20a%20C%2B%2B%20class%20in%20Python">Using a C++ class in Python</a><p><span class="anchor" id="line-1-26"></span>This tutorial illustrates a way to use a C++ class with ROS messages in Python. </p></li>
+      <li><a href="/ROS/Tutorials/Packaging%20your%20ROS%20project%20as%20a%20snap">Packaging your ROS project as a snap</a><p><span class="anchor" id="line-1-27"></span>This tutorial covers how to package and deploy your ROS project as a snap. </p></li>
+      <li><a href="/WritingTutorials">How to Write a Tutorial</a><p><span class="anchor" id="line-1-28"></span>This tutorial covers useful template and macros for writing tutorials, along with example tutorials that are available for guidance on <a href="/Documentation">ros.org</a> </p></li>
+     </ol>
+     <p class="line874"> <span class="anchor" id="line-18"></span><span class="anchor" id="line-19"></span></p>
+     <p class="line867"> </p>
+     <h2 id="ROS_Standards">ROS Standards</h2> 
+     <span class="anchor" id="line-20"></span>
+     <ul>
+      <li><p class="line891"><a href="/DevelopersGuide">ROS Developers Guide</a> Guidelines for coding style, package layout and much more <span class="anchor" id="line-21"></span></p></li>
+      <li><p class="line891"><a class="http" href="http://www.ros.org/reps/rep-0103.html">Standard Units of Measure and Coordinate Conventions</a> <span class="anchor" id="line-22"></span><span class="anchor" id="line-23"></span></p></li>
+     </ul>
+     <p class="line867"> </p>
+     <h2 id="Tutorials_for_Other_ROS_Libraries">Tutorials for Other ROS Libraries</h2> 
+     <span class="anchor" id="line-24"></span>
+     <ul>
+      <li><p class="line891"><a href="/robot_model_tutorials">Robot Model</a> <span class="anchor" id="line-25"></span></p></li>
+      <li><p class="line891"><a href="/visualization/Tutorials">Visualization</a> <span class="anchor" id="line-26"></span></p></li>
+      <li><p class="line891"><a href="/actionlib_tutorials/Tutorials">actionlib</a> <span class="anchor" id="line-27"></span></p></li>
+      <li><p class="line891"><a href="/pluginlib/Tutorials">Pluginlib</a> <span class="anchor" id="line-28"></span></p></li>
+      <li><p class="line891"><a href="/nodelet/Tutorials">Nodelets</a> <span class="anchor" id="line-29"></span></p></li>
+      <li><p class="line891"><a href="/navigation/Tutorials">Navigation</a> <span class="anchor" id="line-30"></span></p></li>
+      <li><p class="line891"><a href="/Industrial/Tutorials">ROS-Industrial Tutorials</a> <span class="anchor" id="line-31"></span></p></li>
+      <li><p class="line891"><a href="/Tutorials/Quaternions">Quaternions</a> <span class="anchor" id="line-32"></span><span class="anchor" id="line-33"></span></p></li>
+     </ul>
+     <p class="line867"> </p>
+     <h2 id="Tutorials_for_Libraries_with_ROS_Interfaces">Tutorials for Libraries with ROS Interfaces</h2> 
+     <span class="anchor" id="line-34"></span>
+     <ul>
+      <li><p class="line891"><a href="/stage/Tutorials">Stage</a> <span class="anchor" id="line-35"></span></p></li>
+      <li><p class="line891"><a href="/tf/Tutorials">TF</a> <span class="anchor" id="line-36"></span></p></li>
+      <li><p class="line891"><a href="/pcl/Tutorials">PCL with ROS</a> <span class="anchor" id="line-37"></span><span class="anchor" id="line-38"></span></p></li>
+     </ul>
+     <p class="line867"> </p>
+     <h2 id="External_ROS_Resources">External ROS Resources</h2> 
+     <span class="anchor" id="line-39"></span>
+     <p class="line867"> </p>
+     <h3 id="External_Tutorials">External Tutorials</h3> 
+     <span class="anchor" id="line-40"></span>
+     <ul>
+      <li><p class="line891"><a class="http" href="http://www.theconstructsim.com/construct-learn-develop-robots-using-ros/robotigniteacademy_learnros/">Online ROS Tutorials:Learn ROS by programming online simulated robots</a> <span class="anchor" id="line-41"></span></p></li>
+      <li><p class="line891"><a class="http" href="http://www.youtube.com/playlist?list=PLDC89965A56E6A8D6">ROS Tutorial Video Demos at ANU</a> <span class="anchor" id="line-42"></span></p></li>
+      <li><p class="line891"><a class="http" href="http://nootrix.com/category/robotics/robots-software/">NooTriX Step-by-Step ROS Tutorials</a> <span class="anchor" id="line-43"></span></p></li>
+      <li><p class="line891"><a class="http" href="http://support.clearpathrobotics.com">Clearpath Robotics' knowledge base</a> <span class="anchor" id="line-44"></span></p></li>
+      <li><p class="line891"><a class="https" href="https://www.youtube.com/watch?v=d5YAJh6Z2B0&amp;list=PL39WpgKDjDfVfiNVG47DBi93wsh2XHKVO">Erle Robotics - Learning ROS</a> <span class="anchor" id="line-45"></span></p></li>
+      <li><p class="line891"><a class="http" href="http://aeswiki.datasys.swri.edu/rositraining">ROS-Industrial Training Class Curriculum</a> <span class="anchor" id="line-46"></span></p></li>
+      <li><p class="line891"><a class="http" href="http://jbohren.com/tutorials/">Jonathan Bohren's ROS Tutorials</a> <span class="anchor" id="line-47"></span></p></li>
+      <li><p class="line891"><a class="https" href="https://www.allaboutcircuits.com/technical-articles/an-introduction-to-robot-operating-system-ros/">An Introduction to Robot Operating System (ROS)</a> <span class="anchor" id="line-48"></span><span class="anchor" id="line-49"></span></p></li>
+     </ul>
+     <p class="line867"> </p>
+     <h3 id="External_Seminar.2BAC8-Lecture">External Seminar/Lecture</h3> 
+     <span class="anchor" id="line-50"></span>
+     <ul>
+      <li><p class="line891"><a class="https" href="https://www.meetup.com/meetup-group-GLGBcAgn/">ROS Meetup</a> by <a class="http" href="http://www.theconstructsim.com/">The Construct</a> <span class="anchor" id="line-51"></span></p></li>
+      <li><p class="line891"><a class="http" href="http://opensource-robotics.tokyo.jp/?p=355&amp;lang=en">Free introductory seminar for enterprises</a> by <a class="http" href="http://opensource-robotics.tokyo.jp">TORK</a> in Tokyo <span class="anchor" id="line-52"></span><span class="anchor" id="line-53"></span></p></li>
+     </ul>
+     <p class="line867"> </p>
+     <h2 id="Using_ROS_on_your_custom_Robot">Using ROS on your custom Robot</h2> 
+     <span class="anchor" id="line-54"></span>
+     <ul>
+      <li><p class="line891"><a class="http" href="http://www.theconstructsim.com/barista-the-first-robot-serving-coffee-in-the-world/">Bringing ROS to real life: Barista</a> The first robot serving coffee to the tables in the world <span class="anchor" id="line-55"></span></p></li>
+      <li><p class="line891"><a href="/urdf/Tutorials">Create your own URDF file</a> Creating a custom Universal Robot Description Format file <span class="anchor" id="line-56"></span></p></li>
+      <li><p class="line891"><a href="/ros_control">ros_control</a> Use ROS's standard controller framework for interfacing with hardware. <span class="anchor" id="line-57"></span></p></li>
+      <li><p class="line891"><a class="http" href="http://gazebosim.org/tutorials?tut=ros_urdf&amp;cat=connect_ros">Using a URDF in Gazebo</a> Add the necessary tags to get your robot in the Gazebo robotic simulator <span class="anchor" id="line-58"></span></p></li>
+      <li><p class="line891"><a class="http" href="http://docs.ros.org/kinetic/api/moveit_tutorials/html/doc/setup_assistant/setup_assistant_tutorial.html">Setting up MoveIt!</a> Creating the configuration package to use the <a href="/moveit">MoveIt!</a> Motion Planning Framework <span class="anchor" id="line-59"></span></p></li>
+     </ul>
+     <span class="anchor" id="bottom"></span>
+    </div>
+   </div> 
+   <div id="pagebottom"></div> 
+  </div> 
+  <p id="pageinfo" class="info" lang="en" dir="ltr">Wiki: ROS/Tutorials (last edited 2017-10-02 13:01:46 by <span title="bberrevoets @ 92.110.15.56[92.110.15.56]"><a class="nonexistent" href="/B.N.Berrevoets" title="bberrevoets @ 92.110.15.56[92.110.15.56]">B.N.Berrevoets</a></span>)</p> 
+  <div style="margin-top: 9px;" class="footer">
+    Except where otherwise noted, the ROS wiki is licensed under the 
+   <br>
+   <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0</a> | 
+   <a href="https://plus.google.com/113789706402978299308" rel="publisher">Find us on Google+</a> 
+   <hr style="margin-top: 10px;"> 
+   <div class="row"> 
+    <div class="col-md-4 col-md-offset-4"> 
+     <a href="http://www.osrfoundation.org"><img style="margin-top: -1px;" src="/custom/images/brought_by_horiz.png"><p></p></a> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+ <!-- /#dpage-inner, /#dpage -->   
+</body>

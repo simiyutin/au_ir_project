@@ -1,0 +1,397 @@
+https://arstechnica.com/gaming/2017/10/denuvos-drm-ins-now-being-cracked-within-hours-of-release/
+<body class="post-template-default single single-post postid-1190059 single-format-standard grid-view light blog-us"> 
+ <aside class="ad ad_crown" id="ad_crown_top"></aside> 
+ <div class="site-wrapper"> 
+  <header class="site-header"> 
+   <div class="header-left"> 
+    <a href="https://arstechnica.com" id="header-logo" title="Ars Technica Homepage"> <span class="icon icon-logo-ars-us"></span> </a> 
+    <div class="dropdown" id="header-search"> 
+     <a href="/search/" class="dropdown-toggle"> <span class="icon icon-search-mag-glass"></span> </a> 
+     <div class="dropdown-content"> 
+      <form action="/search/" method="GET" id="search_form"> 
+       <input type="hidden" name="ie" value="UTF-8"> 
+       <input type="text" name="q" id="hdr_search_input" value="" placeholder="Search..." tabindex="10"> 
+      </form> 
+      <a class="nav-search-close">Close</a> 
+     </div> 
+    </div> 
+    <nav id="header-nav-primary"> 
+     <ul> 
+      <li><a class="" href="/information-technology/">Biz &amp; IT</a></li> 
+      <li><a class="" href="/gadgets/">Tech</a></li> 
+      <li><a class="" href="/science/">Science</a></li> 
+      <li><a class="" href="/tech-policy/">Policy</a></li> 
+      <li><a class="" href="/cars/">Cars</a></li> 
+      <li><a class="active" href="/gaming/">Gaming &amp; Culture</a></li> 
+      <li><a href="/civis/">Forums</a></li> 
+     </ul> 
+    </nav> 
+    <div class="dropdown dropdown-mega" id="header-burger"> 
+     <a href="#site-footer" class="dropdown-toggle"> <span></span> </a> 
+     <div class="dropdown-content"> 
+      <section class="burger-navigate"> 
+       <h3> <span class="icon icon-half-target"></span> Navigate </h3> 
+       <ul> 
+        <li><a href="http://video.arstechnica.com/">Videos</a></li> 
+        <li><a href="/features/">Features</a></li> 
+        <li><a href="/reviews/">Reviews</a></li> 
+        <li><a href="/tag/ars-approved/">Ars Approved</a></li> 
+       </ul> 
+       <ul> 
+        <li><a href="/rss-feeds/">RSS Feeds</a></li> 
+        <li><a href="/?view=mobile">Mobile Site</a></li> 
+       </ul> 
+       <ul> 
+        <li><a href="/about-us/">About Ars</a></li> 
+        <li><a href="/staff-directory/">Staff Directory</a></li> 
+        <li><a href="/contact-us/">Contact Us</a></li> 
+       </ul> 
+       <ul> 
+        <li><a href="/advertise-with-us/">Advertise with Ars</a></li> 
+        <li><a href="/reprints/">Reprints</a></li> 
+       </ul> 
+      </section> 
+      <section class="burger-filter"> 
+       <h3> <span class="icon icon-half-mag"></span> Filter by topic </h3> 
+       <ul id="burger-nav-primary"> 
+        <li><a class="" href="/information-technology/">Biz &amp; IT</a></li> 
+        <li><a class="" href="/gadgets/">Tech</a></li> 
+        <li><a class="" href="/science/">Science</a></li> 
+        <li><a class="" href="/tech-policy/">Policy</a></li> 
+        <li><a class="" href="/cars/">Cars</a></li> 
+        <li><a class="active" href="/gaming/">Gaming &amp; Culture</a></li> 
+        <li><a href="/civis/">Forums</a></li> 
+       </ul> 
+      </section> 
+      <section class="burger-settings"> 
+       <h3> <span class="icon icon-half-gear"></span> Settings </h3> 
+       <div> 
+        <div class="burger-layout"> 
+         <p>Front page layout</p> 
+         <div class="burger-layout-grid"> 
+          <a rel="nofollow" href="http://arstechnica.com/gaming/2017/10/denuvos-drm-ins-now-being-cracked-within-hours-of-release/?view=grid" class=""> <span class="icon icon-grid"></span><br> Grid 
+           <div class="faux-radio active"></div> </a> 
+         </div> 
+         <div class="burger-layout-list"> 
+          <a rel="nofollow" href="http://arstechnica.com/gaming/2017/10/denuvos-drm-ins-now-being-cracked-within-hours-of-release/?view=archive" class=""> <span class="icon icon-list"></span><br> List 
+           <div class="faux-radio "></div> </a> 
+         </div> 
+         <div class="burger-layout-unified"> 
+          <a rel="nofollow" href="http://arstechnica.com/gaming/2017/10/denuvos-drm-ins-now-being-cracked-within-hours-of-release/?view=unified" class=""> <span class="icon icon-hybrid-view"></span><br> Unified 
+           <div class="faux-radio "></div> </a> 
+         </div> 
+         <div class="burger-layout-wide" style="display: none;"> 
+          <a rel="nofollow" href="http://arstechnica.com/gaming/2017/10/denuvos-drm-ins-now-being-cracked-within-hours-of-release/?view=full" class=""> <span class="icon icon-wide"></span><br> Wide 
+           <div class="faux-radio "></div> </a> 
+         </div> 
+        </div> 
+        <div class="burger-theme"> 
+         <p>Site theme</p> 
+         <div class="burger-theme-light"> 
+          <a rel="nofollow" href="http://arstechnica.com/gaming/2017/10/denuvos-drm-ins-now-being-cracked-within-hours-of-release/?theme=light" class=""> <span><span>Black on white</span></span> 
+           <div class="faux-radio active"></div> </a> 
+         </div> 
+         <div class="burger-theme-dark"> 
+          <a rel="nofollow" href="http://arstechnica.com/gaming/2017/10/denuvos-drm-ins-now-being-cracked-within-hours-of-release/?theme=dark" class=""> <span><span>White on black</span></span> 
+           <div class="faux-radio "></div> </a> 
+         </div> 
+        </div> 
+       </div> 
+      </section> 
+     </div> 
+    </div> 
+    <div class="dropdown dropdown-mega" id="header-account"> 
+     <a href="https://arstechnica.com/civis/ucp.php?mode=login&amp;return_to=%2Fgaming%2F2017%2F10%2Fdenuvos-drm-ins-now-being-cracked-within-hours-of-release%2F" class="dropdown-toggle"> Sign in <span class="icon dropdown-indicator icon-drop-indicator"></span> </a> 
+     <div class="dropdown-content"> 
+      <section class="profile-activity"> 
+       <h3> <span class="icon icon-half-bubble-up"></span> Comment activity </h3> 
+       <p>Sign up or login to join the discussions!</p> 
+      </section> 
+      <section class="profile-settings"> 
+       <form id="login-form" action="https://arstechnica.com/civis/ucp.php?mode=login" method="post"> 
+        <input type="text" name="username" id="username" placeholder="Username or Email"> 
+        <input type="password" name="password" id="password" placeholder="Password"> 
+        <input type="submit" value="Submit" class="button button-orange button-wide" name="login"> 
+        <label id="remember-label"> <input type="checkbox" name="autologin" id="autologin"> Stay logged in</label> 
+        <span>|</span> 
+        <a href="/civis/ucp.php?mode=sendpassword">Having trouble?</a> 
+        <input type="hidden" name="redirect" value="./ucp.php?mode=login&amp;return_to=%2Fservices%2Fx%2Fa.php%3Fpath%3D%2Fgaming%2F2017%2F10%2Fdenuvos-drm-ins-now-being-cracked-within-hours-of-release%2F%26s%3D1"> 
+        <input type="hidden" name="return_to" value="/services/x/a.php?path=%2Fgaming%2F2017%2F10%2Fdenuvos-drm-ins-now-being-cracked-within-hours-of-release%2F&amp;s=1"> 
+       </form> 
+       <div class="register-account"> 
+        <span>Sign up to comment and more</span> 
+        <a href="https://arstechnica.com/civis/ucp.php?mode=register" class="signup-btn button button-wide">Sign up</a> 
+       </div> 
+      </section> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="header-right"> 
+    <!-- cache hit 124:header/site-toggle:517d9f47cde01ccfd255765092ec6a7f --> 
+    <div class="dropdown dropdown-right" id="header-sites"> 
+     <a href="https://arstechnica.com/?return" class="dropdown-toggle"> <span class="icon header-flag icon-flag-us"></span> <span class="icon dropdown-indicator icon-drop-indicator"></span> </a> 
+     <div class="dropdown-content"> 
+      <a href="https://arstechnica.co.uk"> <span class="icon header-flag icon-flag-uk"></span> Ars Technica UK </a> 
+     </div> 
+    </div> 
+   </div> 
+  </header> 
+  <div class="content-wrapper"> 
+   <script type="text/javascript">
+  ars.ARTICLE = {"url":"https:\/\/arstechnica.com\/gaming\/2017\/10\/denuvos-drm-ins-now-being-cracked-within-hours-of-release\/","short_url":"https:\/\/arstechnica.com\/?p=1190059","title":"Denuvo\u2019s DRM now being cracked within hours of release","author":328283,"id":1190059,"topic":1405527,"pages":1,"current_page":1,"superscroll":false,"promoted":[34182303],"single_page":false,"comments":185,"fullwidth":false,"slug":"denuvos-drm-ins-now-being-cracked-within-hours-of-release","arsStaff":{"104481":{"name":"Aaron Zimmerman","title":"Copyeditor","staff":true},"520255":{"name":"Annalee Newitz","title":"Senior Tech Culture Editor","staff":true},"509873":{"name":"Beth Mole","title":"Health Reporter","staff":true},"335607":{"name":"Cyrus Farivar","title":"Senior Business Editor","staff":true},"329388":{"name":"Dan Goodin","title":"Security Editor","staff":true},"427993":{"name":"David Kravets","title":"Senior Editor","staff":true},"512413":{"name":"Eric Berger","title":"Senior Space Editor","staff":true},"55943":{"name":"Jacqui Cheng","title":"Editor at Large","staff":false},"439519":{"name":"Jennifer Hahn","title":"","staff":false},"334677":{"name":"Joe Mullin","title":"Tech Policy Editor","staff":true},"52979":{"name":"John Timmer","title":"Senior Science Editor","staff":true},"312082":{"name":"Jon Brodkin","title":"Senior IT Reporter","staff":true},"14317":{"name":"Jonathan M. Gitlin","title":"Automotive Editor","staff":true},"338374":{"name":"Kathleen DeVries","title":"","staff":false},"440179":{"name":"Kerry Staurseth","title":"Associate Copyeditor","staff":true},"328283":{"name":"Kyle Orland","title":"Senior Gaming Editor","staff":true},"483933":{"name":"Mark Walton","title":"Consumer Editor","staff":true},"331051":{"name":"Megan Geuss","title":"Staff editor","staff":true},"1169":{"name":"Peter Bright","title":"Technology Editor","staff":true},"391727":{"name":"Ron Amadeo","title":"Reviews Editor","staff":true},"348927":{"name":"Sam Machkovech","title":"Tech Culture Editor","staff":true},"588289":{"name":"Samuel Axon","title":"Senior Reviews Editor","staff":true},"314884":{"name":"Sean Gallagher","title":"IT Editor","staff":true},"495539":{"name":"S.I. Newhouse","title":"","staff":false},"173910":{"name":"Timothy B. Lee","title":"Senior tech policy reporter","staff":true},"505571":{"name":"Valentina Palladino","title":"Associate Reviewer","staff":true},"369205":{"name":"Akshat Rathi","title":"Associate Writer","staff":false},"325040":{"name":"Allie Wilkinson","title":"","staff":false},"332715":{"name":"Andrew Cunningham","title":"Reviews Editor Emeritus","staff":false},"505703":{"name":"Cassandra Khaw","title":"Contributing Reporter ","staff":false},"453791":{"name":"Cathleen O'Grady","title":"Contributing science reporter","staff":true},"102179":{"name":"Chris Lee","title":"Associate writer","staff":true},"332078":{"name":"Curt Hopkins","title":"Associate Writer","staff":false},"6978":{"name":"Dave Girard","title":"Associate Writer","staff":false},"332434":{"name":"Dave Klingler","title":"Associate Writer","staff":false},"129513":{"name":"David Kanter","title":"","staff":false},"254631":{"name":"Diana Gitig","title":"Associate Writer","staff":false},"52335":{"name":"edgar","title":"","staff":false},"172426":{"name":"egosumliber","title":"","staff":false},"480857":{"name":"Glyn Moody","title":"Contributing Policy Editor","staff":false},"46707":{"name":"Iljitsch van Beijnum","title":"Associate Writer","staff":false},"332336":{"name":"James Holloway","title":"Associate Writer","staff":false},"217531":{"name":"Jeremy Jacquot","title":"","staff":false},"15365":{"name":"Jeremy Reimer","title":"Senior Niche Technology Historian","staff":false},"4086":{"name":"Jim Salter","title":"Contributor","staff":false},"8996":{"name":"John Siracusa","title":"Associate writer","staff":false},"375641":{"name":"Kate Prengaman","title":"","staff":false},"251816":{"name":"Kate Shaw Yoshida","title":"Associate Writer","staff":false},"133411":{"name":"Knadles","title":"","staff":false},"37509":{"name":"Matt Ford","title":"Associate writer","staff":false},"300066":{"name":"Matthew Braga","title":"Associate writer","staff":true},"323078":{"name":"Matthew Francis","title":"Associate Writer","staff":false},"173191":{"name":"Matthew Lasar","title":"Associate writer","staff":true},"336278":{"name":"Melissae Fellet","title":"Associate Writer","staff":false},"1991":{"name":"Ohrmazd","title":"","staff":false},"445261":{"name":"Robert Lemos","title":"","staff":false},"66380":{"name":"Ryan Paul","title":"Ars Editor Emeritus ","staff":false},"17480":{"name":"SBD","title":"","staff":false},"294205":{"name":"Scott K. Johnson","title":"Associate Writer","staff":true},"451673":{"name":"Shalini Saxena","title":"Science Writer","staff":false},"163185":{"name":"Tim De Chant","title":"","staff":false},"181333":{"name":"vansau","title":"","staff":false},"445789":{"name":"Xaq Rzetelny","title":"","staff":false},"6021":{"name":"Yaz","title":"","staff":false},"417641":{"name":"Yogi Patel","title":"","staff":false},"513703":{"name":"Forrest Marvez","title":"Developer","staff":false},"316010":{"name":"Jason Marlin","title":"Technical Director","staff":true},"998":{"name":"Ken Fisher","title":"Editor in Chief","staff":true},"671621":{"name":"Steven Klein","title":"Developer","staff":false},"1002":{"name":"Aurich Lawson","title":"Creative Director","staff":true},"25862":{"name":"Eric Bangeman","title":"Managing Editor","staff":true},"10243":{"name":"Lee Hutchinson","title":"Senior Technology Editor","staff":true},"182268":{"name":"Nate Anderson","title":"Deputy Editor","staff":true},"330533":{"name":"Nathan Mattise","title":"Features Editor","staff":true},"547195":{"name":"Tom Mendelsohn","title":"Contributing Sub Editor","staff":true},"513593":{"name":"Andrii Degeler","title":"Contributing reporter","staff":true},"549735":{"name":"Jennifer Baker","title":"Contributing Europe Correspondent","staff":true},"566299":{"name":"J.M. Porup","title":"Contributing Security Reporter","staff":true},"100955":{"name":"Lee Aylward","title":"Lead Developer","staff":false}}};
+</script> 
+   <article itemscope itemtype="http://schema.org/NewsArticle" class="article-single standalone intro-standard "> 
+    <div class="column-wrapper"> 
+     <div class="left-column"> 
+      <header class="article-header"> 
+       <h4 class="post-upperdek"> Insta-crack — </h4> 
+       <h1 itemprop="headline">Denuvo’s DRM now being cracked within hours of release</h1> 
+       <h2 itemprop="description">Best-in-class service can't even provide a full day of protection these days.</h2> 
+       <section class="post-meta"> 
+        <p class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person"> <a itemprop="url" href="https://arstechnica.com/author/kyle-orland/" rel="author"><span itemprop="name">Kyle Orland</span></a> - <time class="date" data-time="1508428736" datetime="2017-10-19T15:58:56+00:00">Oct 19, 2017 3:58 pm UTC</time> </p> 
+       </section> 
+      </header> 
+      <section class="article-guts"> 
+       <div itemprop="articleBody" class="article-content post-page"> 
+        <figure class="intro-image intro-left"> 
+         <img src="https://cdn.arstechnica.net/wp-content/uploads/2016/08/denuvo-640x400.jpg"> 
+        </figure> 
+        <aside id="social-left">
+         <a title="112 posters participating" class="comment-count icon-comment-bubble-down" href="https://arstechnica.com/gaming/2017/10/denuvos-drm-ins-now-being-cracked-within-hours-of-release/?comments=1"> <span class="comment-count-before">reader comments</span> <span class="comment-count-number">185</span> </a> 
+         <div class="share-links"> 
+          <span>Share this story</span> 
+          <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Farstechnica.com%2F%3Fpost_type%3Dpost%26p%3D1190059" target="_blank" class="social-icon share-facebook" title="Share on Facebook"></a> 
+          <a href="https://twitter.com/share?text=Denuvo%E2%80%99s+DRM+now+being+cracked+within+hours+of+release&amp;url=https%3A%2F%2Farstechnica.com%2F%3Fpost_type%3Dpost%26p%3D1190059" target="_blank" class="social-icon share-twitter" title="Share on Twitter"></a> 
+          <a href="https://www.reddit.com/submit?url=https%3A%2F%2Farstechnica.com%2F%3Fpost_type%3Dpost%26p%3D1190059&amp;title=Denuvo%E2%80%99s+DRM+now+being+cracked+within+hours+of+release" target="_blank" class="social-icon share-reddit" title="Share on Reddit"></a> 
+          <a href="https://plus.google.com/share?url=https%3A%2F%2Farstechnica.com%2F%3Fpost_type%3Dpost%26p%3D1190059" target="_blank" class="social-icon share-gplus" title="Share on Google+"></a> 
+         </div> 
+        </aside> 
+        <!-- cache miss 124:single/related:a63680cfbec15a6a0f4db34da1df0a40 -->
+        <!-- empty --> 
+        <p></p>
+        <aside class="pullbox sidebar story-sidebar right">
+         <div class="story-sidebar-part">
+          <a href="https://arstechnica.com/gaming/2017/04/latest-version-of-denuvos-drm-cracked-yet-again/" class="story-sidebar-part-img" style="background-image:url('https://cdn.arstechnica.net/wp-content/uploads/2017/04/2dark-360x200.jpg');"></a>
+          <div class="story-sidebar-part-content">
+           <h3>Further Reading</h3>
+           <a href="https://arstechnica.com/gaming/2017/04/latest-version-of-denuvos-drm-cracked-yet-again/">Latest version of Denuvo’s DRM cracked yet again</a>
+          </div>
+         </div>
+        </aside>When we last checked in on the state of Denuvo copy protection in PC games, the latest version of the best-in-class DRM provider had 
+        <a href="https://arstechnica.com/gaming/2017/04/latest-version-of-denuvos-drm-cracked-yet-again/">provided about a month's worth of usable piracy prevention</a> for survival-horror title 
+        <em>2Dark</em>. Fast forward to the current holiday season, and major Denuvo releases are being publicly cracked within a day of their launch. We're certainly a long way away from the days when major cracking groups were 
+        <a href="https://arstechnica.com/gaming/2016/01/major-piracy-groups-warns-games-may-be-crack-proof-in-two-years/">publicly musing that Denuvo-style DRM might soon become unbeatable</a>.
+        <p></p> 
+        <p>This week's release of&nbsp;<em>South Park: The Fractured but Whole</em> is the latest to see its protections broken less than 24 hours after its release, but it's not alone. <em>Middle Earth: Shadow of War</em> was broken within a day last week, and last month saw cracks for <em>Total War: Warhammer 2</em> and <em>FIFA 18</em> the very same day as their public release. Then there's <em>The Evil Within 2</em>, which <a href="http://www.dsogaming.com/news/middle-earth-shadow-war-now-available-uses-denuvo-anti-tamper-tech/">reportedly used Denuvo in prerelease review copies</a>&nbsp;but then <a href="https://predb.pw/y.php?type=nfo&amp;id=b1BHQ0UxaEVQeDlTZU9TOUc4dFJrbmZ2WDJybmRnczdYSWN6SkdJaHpMRT0">launched</a> without <a href="http://www.neogaf.com/forum/showthread.php?t=1446878">that protection</a> last week, effectively ceding the game to immediate potential piracy.</p> 
+        <p>Those nearly instant Denuvo cracks follow summer releases like <em>Sonic Mania</em>, <em>Tekken 7</em>, and <em>Prey</em>, all of which saw&nbsp;DRM protection cracked within four to nine days of release. But even that small difference in the "uncracked" protection window can be important for game publishers, who usually see a large proportion of their legitimate sales in those first few days of availability. The presence of an easy-to-find cracked version in that launch window (or lack thereof) could have a significant effect on the initial sales momentum for a big release.</p> 
+        <p></p>
+        <aside class="pullbox sidebar story-sidebar right">
+         <div class="story-sidebar-part">
+          <a href="https://arstechnica.com/gaming/2017/02/denuvo-our-cracked-re7-protection-is-still-better-than-nothing/" class="story-sidebar-part-img" style="background-image:url('https://cdn.arstechnica.net/wp-content/uploads/2017/01/RESIDENT-EVIL-7-biohazard_20170119225120-360x200.jpg');"></a>
+          <div class="story-sidebar-part-content">
+           <h3>Further Reading</h3>
+           <a href="https://arstechnica.com/gaming/2017/02/denuvo-our-cracked-re7-protection-is-still-better-than-nothing/">Denuvo: Our cracked <i>RE7</i> protection is still better than nothing [Updated]</a>
+          </div>
+         </div>
+        </aside>That's pretty much the argument Denuvo itself made after 
+        <a href="https://arstechnica.com/gaming/2017/01/resident-evil-7s-denuvo-protections-cracked-in-under-a-week/"><em>Resident Evil 7</em> was cracked in less than a week</a> back in January. "Given the fact that every unprotected title is cracked on the day of release—as well as every update of games—our solution made a difference for this title," Denuvo Marketing Director Thomas Goebl 
+        <a href="https://arstechnica.com/gaming/2017/02/denuvo-our-cracked-re7-protection-is-still-better-than-nothing/">told Eurogamer</a> in the wake of that crack.
+        <p></p> 
+        <p>"Our goal is to keep each title safe from piracy during the crucial initial sales window when most of the sales are made," Denuvo VP of Sales Robert Hernandez added in a statement to Ars.</p> 
+        <p>If Denuvo can no longer provide even a single full day of protection from cracks, though, that protection is going to look a lot less valuable to publishers. But that doesn't mean Denuvo will stay effectively useless forever. The company has updated its DRM protection methods with a number of "variants" since its rollout in 2014, and chatter in the cracking community indicates a revamped "version 5"&nbsp;will&nbsp;launch any day now. That might give publishers a little more breathing room where their games can exist uncracked and force the crackers back to the drawing board for another round of the never-ending DRM battle.</p> 
+       </div> 
+       <section id="promoted-comments"> 
+        <h2>Promoted Comments</h2> 
+        <ul> 
+         <li class="comment" data-post-score="17" data-post-negative="0" data-post-positive="17" data-post-id="34182303" data-poster-id="331979"> 
+          <header class="byline"> 
+           <div class="author-rank"> 
+            <span class="author" data-post-author="whiteknave"><a href="/civis/memberlist.php?mode=viewprofile&amp;u=331979">whiteknave</a> <span class="rank">Wise, Aged Ars Veteran</span> </span> 
+           </div> 
+           <aside class="icons"> 
+            <a href="https://arstechnica.com/gaming/2017/10/denuvos-drm-ins-now-being-cracked-within-hours-of-release/?comments=1&amp;post=34182303#comment-34182303" class="timeago datetime">jump to post</a> 
+           </aside> 
+          </header> 
+          <div class="body">
+            So, can we now call it Denuvo: Fractured But Whole? 
+          </div> 
+          <footer> 
+           <div class="tools-info"> 
+            <aside class="tools"> 
+             <span class="hidden-icon-start"></span> 
+            </aside> 
+            <span class="userinfo">199 posts | registered <time class="reg-date">3/7/2012</time></span> 
+           </div> 
+          </footer> </li> 
+        </ul> 
+       </section> 
+      </section> 
+     </div> 
+     <div class="xrail"> 
+      <div class="xrail-content"> 
+       <aside class="ad ad_xrail ad_xrail_top" id="ad_xrail_top"></aside> 
+       <aside class="ad_native" id="ad_xrail_native"></aside> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="column-wrapper"> 
+     <div class="left-column"> 
+      <!-- cache hit 124:single/author:0083ed18be477ddf1a3b7ff6d421934c -->
+      <section class="article-author"> 
+       <a style="background-image:url('https://cdn.arstechnica.net/wp-content/uploads/2016/05/k.orland-13.jpg');" class="author-photo" href="/author/kyle-orland"></a> 
+       <div class="author-bio"> 
+        <section class="author-bio-top"> 
+         <a href="/author/kyle-orland" class="author-name">Kyle Orland</a> Kyle is the Senior Gaming Editor at Ars Technica, specializing in video game hardware and software. He has journalism and computer science degrees from University of Maryland. He is based in the Washington, DC area. 
+        </section> 
+        <section class="author-social"> 
+         <strong>Email</strong> 
+         <a href="mailto:kyle.orland@arstechnica.com">kyle.orland@arstechnica.com</a> 
+         <span class="slashes">//</span> 
+         <strong>Twitter</strong> 
+         <a href="https://www.twitter.com/KyleOrl" target="_blank">@KyleOrl</a> 
+        </section> 
+       </div> 
+      </section> 
+      <aside id="social-footer"> 
+       <a title="112 posters participating" class="comment-count icon-comment-bubble-down" href="https://arstechnica.com/gaming/2017/10/denuvos-drm-ins-now-being-cracked-within-hours-of-release/?comments=1"> <span class="comment-count-before">reader comments</span> <span class="comment-count-number">185</span> </a> 
+       <div class="share-links"> 
+        <span>Share this story</span> 
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Farstechnica.com%2F%3Fpost_type%3Dpost%26p%3D1190059" target="_blank" class="social-icon share-facebook" title="Share on Facebook"></a> 
+        <a href="https://twitter.com/share?text=Denuvo%E2%80%99s+DRM+now+being+cracked+within+hours+of+release&amp;url=https%3A%2F%2Farstechnica.com%2F%3Fpost_type%3Dpost%26p%3D1190059" target="_blank" class="social-icon share-twitter" title="Share on Twitter"></a> 
+        <a href="https://www.reddit.com/submit?url=https%3A%2F%2Farstechnica.com%2F%3Fpost_type%3Dpost%26p%3D1190059&amp;title=Denuvo%E2%80%99s+DRM+now+being+cracked+within+hours+of+release" target="_blank" class="social-icon share-reddit" title="Share on Reddit"></a> 
+        <a href="https://plus.google.com/share?url=https%3A%2F%2Farstechnica.com%2F%3Fpost_type%3Dpost%26p%3D1190059" target="_blank" class="social-icon share-gplus" title="Share on Google+"></a> 
+       </div> 
+      </aside> 
+     </div> 
+     <div class="xrail"> 
+     </div> 
+    </div> 
+    <div id="article-footer-wrap"> 
+     <div class="row comments-row"> 
+      <section id="comments-area"> 
+       <a name="comments-bar"></a> 
+       <div id="comments-container"></div> 
+       <div id="comments-posting-container" class="thick-divide-bottom"> 
+        <p id="reply">You must <a href="https://arstechnica.com/civis/ucp.php?mode=login&amp;return_to/gaming/2017/10/denuvos-drm-ins-now-being-cracked-within-hours-of-release/" class="vote_login">login or create an account</a> to comment.</p> 
+       </div> 
+       <section> 
+       </section>
+      </section>
+     </div> 
+     <div class="prev-next-links"> 
+      <a href="https://arstechnica.com/tech-policy/2017/10/one-of-the-original-coding-schools-must-pay-375k-over-employment-claims/" rel="prev"><span class="arrow">←</span> Previous story</a> 
+      <a href="https://arstechnica.com/gadgets/2017/10/sonos-one-review-a-better-sounding-echo-with-some-holes-left-to-fill/" rel="next">Next story <span class="arrow">→</span></a>
+     </div> 
+     <footer id="article-footer"> 
+      <div id="recommendations-footer"> 
+       <aside id="story-recommendations"> 
+        <div class="heading-column"> 
+         <h3>Related Stories</h3> 
+        </div> 
+        <div id="story-recs" class="rec-wrap"></div> 
+       </aside> 
+       <aside id="sponsored-recommendations"> 
+        <div class="heading-column"> 
+         <h3>Sponsored Stories</h3> 
+         <a href="http://www.outbrain.com/what-is/default/en" target="_blank">Powered by <span class="icon outbrain-logo icon-logo-outbrain"></span></a> 
+        </div> 
+        <div id="outbrain-recs"> 
+        </div> 
+       </aside> 
+       <aside id="latest-stories"> 
+        <div class="heading-column"> 
+         <h3>Today on Ars</h3> 
+        </div> 
+        <div id="latest-recs" class="rec-wrap"></div> 
+       </aside> 
+      </div> 
+     </footer> 
+    </div> 
+   </article> 
+  </div> 
+  <footer class="site-footer"> 
+   <nav class="nav-footer"> 
+    <section> 
+     <ul> 
+      <li><a href="/rss-feeds/">RSS Feeds</a></li> 
+      <li><a rel="nofollow" href="http://arstechnica.com/gaming/2017/10/denuvos-drm-ins-now-being-cracked-within-hours-of-release/?view=mobile">View Mobile Site</a></li> 
+      <li><a href="http://arstechnica.co.uk/">Visit Ars Technica UK</a></li> 
+      <li><a href="/about-us/">About Us</a></li> 
+     </ul> 
+    </section> 
+    <section> 
+     <ul> 
+      <li><a href="/contact-us/">Contact Us</a></li> 
+      <li><a href="/staff-directory/">Staff</a></li> 
+      <li><a href="/advertise-with-us/">Advertise with us</a></li> 
+      <li><a href="/reprints/">Reprints</a></li> 
+     </ul> 
+    </section> 
+   </nav> 
+   <section class="footer-terms-logo"> 
+    <div class="cn-logo"> 
+     <a href="http://condenast.com/" class="icon icon-logo-cn-us" title="Visit Condé Nast"></a> 
+    </div> 
+    <div id="copyright-terms">
+      CNMN Collection
+     <br> WIRED Media Group
+     <br> Use of this Site constitutes acceptance of our 
+     <a href="http://www.condenast.com/privacy-policy" target="_blank">User Agreement</a> (effective 1/2/14) and 
+     <a href="http://www.condenast.com/privacy-policy#privacypolicy">Privacy Policy</a> (effective 1/2/14), and 
+     <a href="/amendment-to-conde-nast-user-agreement-privacy-policy/">Ars Technica Addendum (effective 5/17/2012)</a>. 
+     <a href="http://www.condenast.com/privacy-policy#privacypolicy-california">Your California Privacy Rights</a>. The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written 
+     <a href="https://www.condenast.com/reprints-permissions">permission of Condé Nast</a>. 
+    </div> 
+   </section> 
+  </footer> 
+ </div> 
+ <script type="text/javascript" src="https://cdn.arstechnica.net/wp-content/themes/ars/assets/js/main-525e3b6b95.js"></script> 
+ <!-- cache miss 124:single/javascript-footer:a63680cfbec15a6a0f4db34da1df0a40 --> 
+ <script type="text/javascript" src="https://cdn.arstechnica.net/wp-content/themes/ars/assets/js/ars-7309851ac7.ads.us.js"></script> 
+ <!-- Google Analytics start --> 
+ <script type="text/javascript">
+	var _gaq = _gaq || [];
+  _gaq.push(
+    ['_setAccount', 'UA-31997-1'],
+    ['_setCustomVar', 1, 'view', "grid"],
+    ['_setCustomVar', 2, 'theme', "light"],
+    ['_setCustomVar', 3, 'logged_in', "false"],
+    ['_setCustomVar', 4, 'show_comments', "false"],
+    ['_setCustomVar', 5, 'is_premier', "false"],
+    ['_trackPageview']
+  );
+	(function() {
+	  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	</script> 
+ <!-- Google Analytics end --> 
+ <!-- Parse.ly start --> 
+ <script type="text/javascript">
+  (function(d) {
+    var site = "arstechnica.com",
+    b = d.body,
+    e = d.createElement("div");
+    e.innerHTML = '<span id="parsely-cfg" data-parsely-site="'+site+'"></span>';
+    e.id = "parsely-root";
+    e.style.display = "none";
+    b.appendChild(e);
+  })(document);
+
+  (function(s, p, d) {
+    var h=d.location.protocol, i=p+"-"+s,
+    e=d.getElementById(i), r=d.getElementById(p+"-root"),
+    u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+      :"static."+p+".com";
+    if (e) return;
+    e = d.createElement(s); e.id = i; e.async = true;
+    e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+  })("script", "parsely", document);
+	</script> 
+ <!-- Parse.ly end --> 
+ <!-- Adobe Tag Mgr. --> 
+ <script src="//assets.adobedtm.com/6372cf21ef88ee60bc2977a4898dcb5c7945a212/satelliteLib-56a425e07376b6977c987d46ef46ba636a6e2036.js"></script> 
+ <script type="text/javascript">_satellite.pageBottom();</script> 
+ <script type="text/javascript" src="//s.skimresources.com/js/100098X1555750.skimlinks.js"></script>  
+</body>

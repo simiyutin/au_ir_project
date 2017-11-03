@@ -1,0 +1,1425 @@
+<body class="logo-type-preset1 header-headroom-enabled-1 showcase-bg-transition-left-to-right showcase-type-none feature-type-none mainbody-overlay-light extension-type-none footer-overlay-light copyright-overlay-dark font-family-open-sans font-size-is-default menu-type-dropdownmenu layout-mode-responsive col12 option-com-content menu-vacancy " id="scrollheader"> 
+ <!-- Yandex.Metrika counter --> 
+ <script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter23808841 = new Ya.Metrika({id:23808841,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script> 
+ <noscript>
+  <div>
+   <img src="//mc.yandex.ru/watch/23808841" style="position:absolute; left:-9999px;" alt="">
+  </div>
+ </noscript> 
+ <!-- /Yandex.Metrika counter --> 
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-38240582-1', 'auto');
+  ga('send', 'pageview');
+
+</script> 
+ <div id="rt-page-surround"> 
+  <header id="rt-header-surround" class="scrollheader"> 
+   <div id="rt-header" class="rt-overlay-light"> 
+    <div class="rt-container"> 
+     <div class="rt-grid-3 rt-alpha"> 
+      <div class="rt-logo-block"> 
+       <a href="/" id="rt-logo" class="new-year"></a> 
+      </div> 
+     </div> 
+     <div class="rt-grid-9 rt-omega"> 
+      <form name="rokajaxsearch" id="rokajaxsearch" class="light" action="https://firstlinesoftware.ru/" method="get"> 
+       <div class="rokajaxsearch search-field-container icon-search"> 
+        <div class="roksearch-wrapper"> 
+         <input id="roksearch_search_str" name="searchword" type="text" class="inputbox roksearch_search_str" placeholder="Поиск..."> 
+        </div> 
+        <input type="hidden" name="searchphrase" value="any"> 
+        <input type="hidden" name="limit" value="20"> 
+        <input type="hidden" name="ordering" value="newest"> 
+        <input type="hidden" name="view" value="search"> 
+        <input type="hidden" name="option" value="com_search"> 
+        <div id="roksearch_results"></div> 
+       </div> 
+       <div id="rokajaxsearch_tmp" style="visibility:hidden;display:none;"></div> 
+      </form> 
+      <div class="rt-block language-change-box"> 
+       <div class="module-surround"> 
+        <div class="module-content"> 
+         <!--/usr/local/www/www_flsru/httpdocs/templates--> 
+         <div class="country-select"> 
+          <span>Русский</span> 
+          <a href="http://firstlinesoftware.com" class="counry-link" title="English"> </a> 
+          <span>/</span> 
+          <span class="selected-counrty" title="English"></span> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="rt-block menu-block nomarginleft nomarginright largemargintop largemarginbottom"> 
+       <div class="module-surround"> 
+        <div class="module-content"> 
+         <div class="gf-menu-device-container responsive-type-panel"></div> 
+         <ul class="gf-menu l1 " id=""> 
+          <li class="item115 parent"> <a class="item" href="/i-need-to"> Услуги </a> <span class="dropdown-spacer"></span> 
+           <div class="dropdown columns-1 " style="width:235px;"> 
+            <div class="column col1" style="width:235px;"> 
+             <ul class="l2"> 
+              <li class="item158"> <a class="item" href="/i-need-to/develop-a-software-product"> Разработка программных продуктов и приложений </a> </li> 
+              <li class="item159"> <a class="item" href="/i-need-to/find-a-development-team"> Создание выделенных центров разработки </a> </li> 
+              <li class="item157"> <a class="item" href="/i-need-to/build-a-software-application"> Внедрение и кастомизация информационных систем </a> </li> 
+             </ul> 
+            </div> 
+           </div> </li> 
+          <li class="item112 parent"> <a class="item" href="/expertise"> Экспертиза </a> <span class="dropdown-spacer"></span> 
+           <div class="dropdown columns-1 " style="width:350px;"> 
+            <div class="column col1" style="width:350px;"> 
+             <ul class="l2"> 
+              <li class="item154"> <a class="item" href="/expertise/loyalty-programs"> Системы лояльности / бонусные системы </a> </li> 
+              <li class="item156"> <a class="item" href="/expertise/multichannel-marketing"> Мультиканальный маркетинг </a> </li> 
+              <li class="item234"> <a class="item" href="/expertise/portal"> Корпоративные порталы </a> </li> 
+              <li class="item153"> <a class="item" href="/expertise/financial-systems"> Финансовые системы </a> </li> 
+              <li class="item155"> <a class="item" href="/expertise/media-solutions"> Решения для медиа-отрасли </a> </li> 
+              <li class="item230"> <a class="item" href="/expertise/city"> Решения для управления городской средой </a> </li> 
+              <li class="item152"> <a class="item" href="/expertise/enterprise-mobility"> Разработка мобильных приложений </a> </li> 
+              <li class="item174"> <a class="item" href="/expertise/wearable-technology"> Проектирование носимых устройств </a> </li> 
+              <li class="item232"> <a class="item" href="/expertise/viastore"> Автоматизация склада - решения на базе WMS viad@t </a> </li> 
+              <li class="item233"> <a class="item" href="/expertise/ecm"> Автоматизация документооборота / ECM-системы </a> </li> 
+              <li class="item235"> <a class="item" href="/expertise/analiz-potrebitelej"> Анализ поведения потребителей </a> </li> 
+              <li class="item236"> <a class="item" href="/expertise/video"> Обработка и управление видеоконтентом </a> </li> 
+              <li class="item295"> <a class="item" href="/expertise/internet-veshchej"> Интернет вещей </a> </li> 
+             </ul> 
+            </div> 
+           </div> </li> 
+          <li class="item194 parent"> <a class="item" href="/technologies"> Технологии </a> <span class="dropdown-spacer"></span> 
+           <div class="dropdown columns-1 " style="width:180px;"> 
+            <div class="column col1" style="width:180px;"> 
+             <ul class="l2"> 
+              <li class="item195"> <a class="item" href="/technologies/java"> Java </a> </li> 
+              <li class="item220"> <a class="item" href="/technologies/net"> .NET </a> </li> 
+              <li class="item199"> <a class="item" href="/technologies/mongodb"> MongoDB </a> </li> 
+              <li class="item200"> <a class="item" href="/technologies/apache-hadoop"> Hadoop </a> </li> 
+              <li class="item198"> <a class="item" href="/technologies/ruby"> Ruby </a> </li> 
+              <li class="item217"> <a class="item" href="/technologies/php"> PHP </a> </li> 
+              <li class="item197"> <a class="item" href="/technologies/episerver"> EPiServer </a> </li> 
+              <li class="item196"> <a class="item" href="/technologies/sharepoint"> SharePoint </a> </li> 
+              <li class="item215"> <a class="item" href="/technologies/opentext"> OpenText </a> </li> 
+              <li class="item218"> <a class="item" href="/technologies/alfresco"> Alfresco </a> </li> 
+             </ul> 
+            </div> 
+           </div> </li> 
+          <li class="item117"> <a class="item" href="/case-studies"> Проекты </a> </li> 
+          <li class="item221 parent active"> <a class="item" href="/team"> Компания </a> <span class="dropdown-spacer"></span> 
+           <div class="dropdown columns-1 " style="width:180px;"> 
+            <div class="column col1" style="width:180px;"> 
+             <ul class="l2"> 
+              <li class="item113 parent"> <a class="item" href="/team/leadership"> Руководство </a> </li> 
+              <li class="item114 parent"> <a class="item" href="/team/people-culture"> Люди и культура </a> </li> 
+              <li class="item276"> <a class="item" href="/team/flipbook"> Презентация </a> </li> 
+              <li class="item277"> <a class="item" href="/team/video"> Видео презентация </a> </li> 
+              <li class="item223 active last"> <a class="item" href="/team/vacancy"> Вакансии </a> </li> 
+             </ul> 
+            </div> 
+           </div> </li> 
+          <li class="item229 parent"> <a class="item" href="/news"> Новости </a> <span class="dropdown-spacer"></span> 
+           <div class="dropdown columns-1 " style="width:180px;"> 
+            <div class="column col1" style="width:180px;"> 
+             <ul class="l2"> 
+              <li class="item120"> <a class="item" href="/news/blog"> Блог </a> </li> 
+              <li class="item227"> <a class="item" href="/news/pressa"> Пресса о нас </a> </li> 
+              <li class="item225"> <a class="item" href="/news/news-company"> Новости компании </a> </li> 
+             </ul> 
+            </div> 
+           </div> </li> 
+          <li class="item122"> <a class="item" href="/contact-us"> Контакты </a> </li> 
+          <li class="item298"> <a class="item" href="/career"> Карьера </a> </li> 
+         </ul> 
+         <script>
+	jQuery('.gf-menu .parent > a').bind('touchstart', function (e) {
+            var $this = jQuery(this),
+				$parent = $this.closest('.parent');
+            jQuery('.gf-menu .parent').each(function (index) {
+                if (!jQuery(this).is($parent)) {
+                    jQuery(this).removeClass('touchstart');
+                }
+            });			
+			if(!$parent.hasClass('touchstart')){
+				$parent.addClass('touchstart');
+				return false;
+			}	
+	});
+</script> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="clear"></div> 
+    </div> 
+   </div> 
+  </header> 
+  <div id="rt-drawer"> 
+   <div class="rt-container"> 
+    <div class="clear"></div> 
+   </div> 
+  </div> 
+  <section id="rt-showcase-surround"> 
+   <div id="rt-showcase" class="rt-overlay-light"> 
+    <div class="rt-container"> 
+     <div class="rt-grid-12 rt-alpha rt-omega"> 
+      <div class="rt-block rt-big-title rt-center"> 
+       <div class="module-surround"> 
+        <div class="module-title"> 
+         <h2 class="title"><span>Вакансии</span></h2> 
+        </div> 
+        <div class="module-content"> 
+         <div class="customrt-big-title rt-center"> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="clear"></div> 
+    </div> 
+   </div> 
+  </section> 
+  <section id="rt-main-surround"> 
+   <div id="rt-transition"> 
+    <div id="rt-mainbody-surround"> 
+     <div id="rt-expandedtop" class="rt-overlay-light"> 
+      <div class="rt-container"> 
+       <div class="rt-grid-12 rt-alpha rt-omega"> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+     </div> 
+     <div class="rt-container"> 
+      <div id="rt-main" class="mb8-sa4"> 
+       <div class="rt-container"> 
+        <div class="rt-grid-8 "> 
+         <div class="rt-block"> 
+          <div id="rt-mainbody"> 
+           <div class="component-content"> 
+            <div class="item-page"> 
+             <h2>Санкт-Петербург</h2> 
+             <p> </p>
+             <div id="accordion-8-59ea2c29bf86f" class="wk-accordion wk-accordion-default clearfix" data-widgetkit="accordion" data-options="{&quot;style&quot;:&quot;default&quot;,&quot;collapseall&quot;:0,&quot;matchheight&quot;:0,&quot;index&quot;:-1,&quot;duration&quot;:500,&quot;width&quot;:&quot;auto&quot;,&quot;order&quot;:&quot;default&quot;}"> 
+              <h3 class="toggler">Big Data Software Engineer</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                First Line Software в партнерстве с американской компанией Odysseus Data Services, разрабатывающей ПО и оказывающей услуги для фармацевтических и медицинских компаний мирового уровня, приглашает соискателей на вакансию Big Data Software Engineer.
+                <br>
+                <br>У кандидатов есть возможность стать частью команды, занимающейся созданием программного решения для анализа данных реального мира и предоставления организациям, работающим в области наук о живой природе, новых медицинских данных и идей для их коммерциализации, что, в конечном итоге, имеет своей целью развитие исследований в области медицинских услуг и повышение качества конечного результата для пациентов.
+                <br>
+                <br>
+                <strong>Мы ищем опытных и увлеченных специалистов для решения следующих задач:</strong>
+                <br> 
+                <ul> 
+                 <li>Анализ реальных данных реальных заказчиков и разработка алгоритмов для представления этих данных в соответствии с мировым стандартом</li> 
+                 <li>Создание и постоянное развитие BigData-инфраструктуры для обработки огромных объемов данных с целью их преобразования в стандартную форму для последующего анализа</li> 
+                 <li>Создание ETL-скриптов и автоматизация их выполнения;</li> 
+                 <li>Работа в соответствии с Agile-практиками</li> 
+                </ul> 
+                <strong>Требования к опыту:</strong>
+                <br> 
+                <ul> 
+                 <li>Технологии Big Data, complex SQL;</li> 
+                 <li>RDBMS (любое из следующего: PostgreS, MySQL, SQL Server, Oracle);</li> 
+                 <li>Способность читать и писать по-английски обязательна. Способность говорить по-английски будет большим плюсом</li> 
+                </ul> 
+                <strong>Владение одной или несколькими из следующих технологий будет для вас большим преимуществом:</strong>
+                <br> 
+                <ul> 
+                 <li>Знание Java-технологий и/или языка Python;</li> 
+                 <li>Опыт работы со стеком&nbsp;Hadoop,&nbsp;например, Scala, Spark, Hive QL, Hadoop Machine learning;</li> 
+                 <li>Опыт работы с&nbsp;Amazon WebServices (AWS) EMR, EC2&nbsp;и/или платформой&nbsp;Cloudera</li> 
+                 <li>Опыт решения задач DevOps;</li> 
+                </ul> Этот проект предоставит вам возможность выучить вышеперечисленные технологии, а также многие другие. Разнообразие задач позволит вам раскрыть свои сильные стороны, а компания поддержит вас в освоении новых технических областей.
+               </div>
+              </div> 
+              <h3 class="toggler">Разработч‎ик Oracle</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                Проект по разработке высоконагруженной информационной системы для маркировки изделий (до 50000 операций в секунду), которая обеспечивает мониторинг движения продукции в режиме реального времени (с момента производства до момента продажи конечному покупателю).
+                <br>
+                <br>
+                <strong>Обязанности:</strong>
+                <br> 
+                <ul> 
+                 <li>Разработка, доработка и сопровождение программного обеспечения на&nbsp;Oracle;</li> 
+                 <li>Анализ и оптимизация программного обеспечения;</li> 
+                 <li>Составление документации, согласование технических заданий.</li> 
+                </ul> 
+                <strong>Требования:</strong>
+                <br> 
+                <ul> 
+                 <li>Знание&nbsp;Oracle&nbsp;9i&nbsp;и выше;</li> 
+                 <li>Знание SQL;</li> 
+                 <li>Опыт разработки на&nbsp;PL/SQL&nbsp;от 3-х лет;</li> 
+                 <li>Опыт проектирования баз данных;</li> 
+                 <li>Навыки оптимизации сложных&nbsp;SQL-запросов;</li> 
+                 <li>Опыт проектирования сложных систем,</li> 
+                 <li>Умение анализировать и дорабатывать существующий код по техническим заданиям;</li> 
+                 <li>Опыт работы с системой контроля версий;</li> 
+                 <li>Желателен опыт администрирования сервера&nbsp;Oracle.</li> 
+                </ul>
+               </div>
+              </div> 
+              <h3 class="toggler">DevOps engineer</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                Мы работаем над проектом, который занимается решением задач для лидирующей логистической компании России. Ключевое преимущество проектов в том, что мы работаем с использованием открытых технологий, позволяющих нам не только быть на острие актуальных IT-решений, но и опережать их.
+                <br>
+                <br>Мы используем: Java 8, Scala 10/11, SQL, Big Data stack based on Hortonworks (Hadoop, hive, spark, sqoop, oozie) для задач ETL, Kafka как шина данных, PostgreSQL для простых, Cassandra как быстрое key-value хранилище, Spark Streaming для потоковой обработки данных, Clickview и Pentaho для анализа данных.
+                <br>
+                <br>Сейчас в нашу команду мы ищем devops engineer, который будет управлять конфигурациями, деплоями, сборкой проектов, gitlab, реализацией мониторинга.
+                <br>
+                <br>
+                <strong>Технические скиллы:</strong>
+                <br> 
+                <ul> 
+                 <li>Уверенное знание Linux</li> 
+                 <li>Знание инструментов контроля версий Git</li> 
+                 <li>Знание скриптовых языков: bash, python</li> 
+                 <li>Знание инструмента управления развертыванием приложений Puppet</li> 
+                 <li>Опыт работы с системами Мониторинга (Zabbix)</li> 
+                </ul> 
+                <strong>Желательно:</strong>
+                <br> 
+                <ul> 
+                 <li>Опыт работы с tomcat, jetty</li> 
+                 <li>Опыт работы с Облачными Технологиями (Docker и т.п.)</li> 
+                 <li>Знание пакетных менеджеров (RPM, Deb)</li> 
+                 <li>Опыт управления системой сбора логов: Kibana+ElasticSearch</li> 
+                 <li>Знание инструментов сборки Java-продуктов (Maven, Gradle, Ant)</li> 
+                 <li>Опыт работы Cassandra</li> 
+                 <li>Знакомство c etl инструментарием для работы с данными экосистемы</li> 
+                 <li>Hadoop</li> 
+                 <li>Базовые знания&nbsp;java.</li> 
+                </ul>
+               </div>
+              </div> 
+              <h3 class="toggler">Разработчик C#/.NET</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                В настоящее время мы работаем над несколькими крупными проектами по разработке порталов на основе CMS EPiServer. Находящиеся в работе сайты имеют разные тематические направления – медицина, СМИ и т.д.
+                <br>
+                <br>В частности, один из веб-проектов мы делаем для французского заказчика (бэкенд на .net, но довольно-таки много задач и по фронтенду). История такова: крупная международная медицинская корпорация заботится, чтобы их лекарства применялись исключительно по назначению и максимально эффективно. Наша задача - сделать под каждый препарат свой сайт, чтобы врачи могли им пользоваться: там описываются фармакологические данные, примеры использования, видео уроки, картинки, расширенные интерактивные инструкции, предостережения от побочных явлений и т.п.
+                <br>
+                <br>Мы работаем в тесном сотрудничестве с заказчиком и успешно применяем принципы гибких методологий. Общаемся на английском языке.
+                <br>
+                <br>
+                <strong>Инструментарий:</strong> .NET, C#, ASP.Net / ASP.Net MVC, JavaScript, MS SQL Server
+                <br>
+                <br>
+                <strong>Требования:</strong>
+                <br> 
+                <ul> 
+                 <li>Опыт коммерческой разработки с использованием .NET</li> 
+                 <li>Знание&nbsp;<a style="color: #1155cc;" href="http://asp.net/" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://ASP.NET&amp;source=gmail&amp;ust=1501079525328000&amp;usg=AFQjCNHDkEstKf-FvJLSlY_03wfpiBLpWw">ASP.NET</a>,&nbsp;<a style="color: #1155cc;" href="http://asp.net/" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://ASP.NET&amp;source=gmail&amp;ust=1501079525328000&amp;usg=AFQjCNHDkEstKf-FvJLSlY_03wfpiBLpWw">ASP.NET</a>&nbsp;MVC или желание изучить данные технологии</li> 
+                 <li>Письменный английский язык</li> 
+                </ul> 
+                <strong>Желательно:</strong>
+                <br> 
+                <ul> 
+                 <li>Опыт работы с любыми CMS</li> 
+                 <li>Навыки кроссбраузерной верстки (HTML, CSS, SASS)</li> 
+                 <li>Javascript, опыт работы с Knockout или Angular</li> 
+                 <li>Разговорный английский язык будет большим плюсом</li> 
+                </ul>
+               </div>
+              </div> 
+              <h3 class="toggler">С++ developer</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                Проект по разработке ПО для автоматизации складской логистики (Warehouse Management Systems,&nbsp;WMS) для крупных компаний в России и за рубежом с использованием решения мирового класса от немецкого партнера. Использование современных технологий и работа в дружном коллективе профессионалов высокого класса.
+                <br>
+                <br>
+                <strong>Обязанности:</strong>
+                <br> 
+                <ul> 
+                 <li>Анализ процессов складской логистики заказчика;</li> 
+                 <li>Участие в написании спецификации на внедрение системы;</li> 
+                 <li>Доработка базовых и специальных модулей системы;</li> 
+                 <li>Оптимизация модулей системы под требования заказчика;</li> 
+                 <li>Работа на сайте совместно с группой внедрения;</li> 
+                 <li>Техническая поддержка 2-го уровня (консультирование заказчика, исправление проблемных ситуаций);</li> 
+                </ul> 
+                <strong>Требования:</strong>
+                <br> 
+                <ul> 
+                 <li>Уверенное знание&nbsp;C++11;</li> 
+                 <li>Большим плюсом будет знание&nbsp;SQL,&nbsp;boost,&nbsp;QT&nbsp;и умение использовать на практике С++14;</li> 
+                 <li>Умение работать с большим объемом унаследованного кода;</li> 
+                 <li>Владение концепциями ООП на уровне архитектуры и на уровне кода;</li> 
+                 <li>Знание паттернов проектирования;</li> 
+                 <li>Операционные системы:&nbsp;Windows, знание&nbsp;Unix&nbsp;и&nbsp;Linux&nbsp;будет плюсом;</li> 
+                 <li>Коммуникабельность и способность к самостоятельной и командной работе;</li> 
+                 <li>Знание процессов внутренней логистики или участие в аналогичных проектах будет плюсом;</li> 
+                 <li>Знание немецкого языка на разговорном уровне (владение английским языком будет плюсом);</li> 
+                 <li>Готовность при необходимости выезжать в командировки на объекты заказчиков (Россия, Европа, США);</li> 
+                </ul>
+               </div>
+              </div> 
+              <h3 class="toggler">C# разработчик</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                Высоконагруженное решение для российского гос. заказчика, автоматизирующее бизнес-процессы работы с финансовыми операциями. Система проводит расчеты, проверяет валидность данных, анализирует их и предоставляет средства для управления выявленными расхождениями в расчетах.
+                <br>
+                <br>
+                <strong>Обязанности :</strong>
+                <br> 
+                <ul> 
+                 <li>Разработка серверных компонентов приложений, включая:</li> 
+                 <li>Сбор данных системы BigData в области агрегированных показателей;</li> 
+                 <li>Создание отчетов на основе собранных данных (Oracle 11g);</li> 
+                 <li>Разработка компонентов пользовательского интерфейса (WinForms, WPF).</li> 
+                 <li>Командная работа по методологии Agile.</li> 
+                </ul> 
+                <strong>Требования:</strong>
+                <br> 
+                <ul> 
+                 <li>Опыт коммерческой разработки на С#;</li> 
+                 <li>Знание&nbsp;WCF, WPF, WinForms, Oracle db</li> 
+                </ul>
+               </div>
+              </div> 
+              <h3 class="toggler">C#/.net developer</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                We are building a reporting system for our customer, a leading provider of Enterprise Energy Management Services in USA. The monitoring system collects terabytes of data from sensors and climate control devices all over the country to be analyzed by specialists to create recommendations on lower energy consumption. The reporting system will speed up analytics' daily work and allow building detailed charts improving their recommendations.
+                <br>
+                <br>We are looking for an experienced .NET developer who loves building nice APIs, doesn't afraid of huge databases and remains on own feet when asked to build front-end code.
+                <br>
+                <br>
+                <strong>Responsibilities:</strong>
+                <br> 
+                <ul> 
+                 <li>Develop new web applications;</li> 
+                 <li>Work as part of distributed Agile development team;</li> 
+                 <li>Work closely with colleagues from other departments - UI/UX, QA, Support;</li> 
+                 <li>Work with and create SQL database scripts as needed for database changes;</li> 
+                 <li>Actively participate in go forward solution architecture, framework development and support</li> 
+                </ul> 
+                <strong>Required skills:</strong>
+                <br> 
+                <ul> 
+                 <li>Minimum 3-4 years of professional experience in C#/.Net;</li> 
+                 <li>Web development skills;</li> 
+                 <li>Exceptional programming and design skills (OOP, interfaces, patterns);</li> 
+                 <li>Solid experience with APIs, design RESTful services and integration with other data providers;</li> 
+                 <li>Experience working in Agile environment;</li> 
+                 <li>Experience developing in cloud environments (Azure or AWS) is a plus;</li> 
+                 <li>Experience working with business intelligence and analytics products (Tableau, PowerBI) is a plus.</li> 
+                </ul>
+               </div>
+              </div> 
+              <h3 class="toggler">ASP.NET разработчик</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                Проект по разработке высоконагруженной информационной системы для маркировки изделий (до 50000 операций в секунду), которая обеспечивает мониторинг движения продукции в режиме реального времени (с момента производства до момента продажи конечному покупателю).
+                <br>
+                <br>
+                <strong>Стек:</strong> С#,&nbsp;
+                <a href="http://asp.net/" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://ASP.NET&amp;source=gmail&amp;ust=1508595507216000&amp;usg=AFQjCNGkE3nq78uBavAeohYeTV89xIR6TQ">ASP.NET</a>, MVC 5.0, Kendo UI, Castle (Windsor, core), HTML5, CSS3, jQuery, WCF, SOAP; опыт работы с Redis; опыт работы с Oracle или другими РСУБД
+               </div>
+              </div> 
+              <h3 class="toggler">Программист‎ ASP.NET MVC</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                Мы работаем над созданием&nbsp;IoT&nbsp;платформы для получения, хранения и обработки больших объемов данных, получаемых от датчиков и сенсоров, а также связанных с этими устройствами документов и изображений. Платформа настраивается под конкретные варианты использования (use-cases), возможность интеграции с&nbsp;IoT,&nbsp;EAM&nbsp;и&nbsp;ERPсистемами. Полностью настраиваемый&nbsp;Dashboard&nbsp;для оперативного управления устройствами и данными; индивидуальные&nbsp;Widget-ы, отображающие необходимые параметры или графики.
+                <br>
+                <br>Уверенное владение английским языком&nbsp;is a must&nbsp;(как письменно, так и устно).
+                <br>
+                <br>
+                <strong>Стек технологий:</strong>&nbsp;
+                <a href="http://asp.net/" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://ASP.NET&amp;source=gmail&amp;ust=1508595507216000&amp;usg=AFQjCNGkE3nq78uBavAeohYeTV89xIR6TQ">ASP.NET</a>&nbsp;MVC (server-side), Xamarin (mobile app).
+               </div>
+              </div> 
+              <h3 class="toggler">Front-end developer</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                Мы работаем с одной из крупнейших интернет-компаний России по продаже непродовольственных товаров и цифрового контента. И сейчас наша задача в рамках данного проекта - это развитие интернет-сайта заказчика. Каждая модернизация сайта заказчика - это, по сути, маленький проект.
+                <br>
+                <br>
+                <strong>Технологический стек:&nbsp;</strong>
+                <br> 
+                <ul> 
+                 <li>JavaScript,&nbsp;JQuery,&nbsp;Bootstrap;</li> 
+                 <li>шаблонизатор FreeMarker;</li> 
+                 <li>CSS;</li> 
+                 <li>препроцессор Stylus.</li> 
+                </ul>
+               </div>
+              </div> 
+              <h3 class="toggler">Разработчик JavaScript</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                Для участия в разработке системы мониторинга активности пользователей интернет-ресурсов и анализа производительности веб-серверов мы ищем опытных&nbsp;JSразработчиков. Задача состоит в том, чтобы разрабатывать&nbsp;front-end&nbsp;часть данной системы, содержащую всевозможные варианты графического отображения аналитической информации, как архивной, так и в реальном времени. Мы плотно взаимодействуем с заказчиком и общаемся на английском языке. Будет круто, если вы знакомы с платформой отображения аналитических данных&nbsp;grafana.org(или готовы ее освоить), а так же слышали про систему хранения и отображения графиков&nbsp;graphiteapp.org&nbsp;
+                <span style="font-family: Wingdings;">J</span>
+                <br> 
+                <p style="padding: 0; margin: 0; margin-top: 21px;">&nbsp;</p> 
+                <strong>Технологический стек:</strong>&nbsp;
+                <br> 
+                <ul> 
+                 <li>JavaScript;</li> 
+                 <li>Angular&nbsp;2;</li> 
+                 <li>HTML5,&nbsp;CSS3.</li> 
+                </ul>
+               </div>
+              </div> 
+              <h3 class="toggler">Front-end разработчик</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                В команду проекта реализации информационно-аналической системы управления производственными активами требуется&nbsp;front-end разработчик. Проект предполагает разработку системы, осуществляющую мониторинг, анализ, управление производственными активами, которые расположены на территории Российской Федерации. Система должна обеспечивать высокую скорость реакции на различные события, обеспечивать анализ и обработку большого потока данных.
+                <br>
+                <br>
+                <strong>Технологический стек:<br></strong> 
+                <ul> 
+                 <li>JavaScript;</li> 
+                 <li>HTML5,&nbsp;CSS3;</li> 
+                 <li>Angular&nbsp;2,&nbsp;React.js,&nbsp;Backbone.js;</li> 
+                 <li>Webpack.js;</li> 
+                 <li>Gulp.js;</li> 
+                 <li>SASS/LESS.</li> 
+                </ul>
+               </div>
+              </div> 
+              <h3 class="toggler">Front-end engineer</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                Мы выполняем проект по созданию нового софтверного продукта, который будет работать в области наук о живой природе и медицине. Данный продукт будет служить инструментом и площадкой для взаимодействия между учеными и исследователями с одной стороны, и учреждениями практической медицины - с другой. Конечной целью проекта является вывод на новый уровень качества медицинского обслуживания, благодаря использованию инновационных технологий анализа данных в области здравоохранения.
+                <br>
+                <br>
+                <strong>Технологический стек:<br></strong> 
+                <ul> 
+                 <li>JavaScript,</li> 
+                 <li>React,</li> 
+                 <li>Redux,</li> 
+                 <li>HTML5, CSS (опыт работы с препроцессорами, методологией BEM),</li> 
+                 <li>REST/JSON/Web Services.</li> 
+                </ul> Плюсами будут знания: D3.js, Webpack.
+               </div>
+              </div> 
+              <h3 class="toggler">Project manager</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                Для проекта по разработке и развитию комплексного интеграционного решения разыскивается активный руководитель проекта, понимающий чем планы отличаются от реальности.
+                <br>
+                <br>
+                <strong>Требования:</strong>
+                <br> 
+                <ul> 
+                 <li>опыт работы аналитиком, разработчиком в проектах по разработке ПО не менее 3 лет;</li> 
+                 <li>опыт успешного вывода в продуктив как минимум одного программного продукта;</li> 
+                 <li>способность к адекватному планированию;</li> 
+                 <li>понимание принципов делегирования задач и контроля их выполнения;</li> 
+                 <li>отсутствие страха задавать вопросы и умение их формулировать;</li> 
+                 <li>многозадачность и способность быстро переключаться;</li> 
+                 <li>ответственность и самостоятельность в принятии решений;</li> 
+                 <li>умение выстраивать отношения и умение договариваться;</li> 
+                 <li>готовность поступательно идти к результату.</li> 
+                </ul> 
+                <strong>Обязанности:</strong>
+                <br> 
+                <ul> 
+                 <li>планирование релизов с учетом roadmap, полученного от бизнеса;</li> 
+                 <li>постановка задач, координация процесса и контроль исполнения;</li> 
+                 <li>демонстрация результатов представителям от бизнеса;</li> 
+                 <li>работа с распределенной командой разработки.</li> 
+                </ul>
+               </div>
+              </div> 
+              <h3 class="toggler">Инженер по тестированию</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                Приглашаем к сотрудничеству опытного инженера по тестированию для работы над заказом нашего российского партнера, который ведет проект в области финансового контроля. В рамках проекта необходимо выполнить функциональное тестирование высоконагруженной системы со сложной бизнес логикой. Система проводит расчеты, проверяет валидность данных, анализирует их и предоставляет средства для управления выявленными расхождениями в расчетах.
+                <br>
+                <br>
+                <strong>Требования:<br></strong> 
+                <ul> 
+                 <li>Опыт ручного тестирования back-end приложений от 2 лет;</li> 
+                 <li>Владение технологиями: системы управления версионностью кода SVN/git; continous integration - TeamCity, Jenkins; знание SQL (Oracle PL/ SQL);</li> 
+                 <li>Опыт и теоретические знания в области тестирования ПО;</li> 
+                 <li>Знание процесса разработки ПО, опыт работы по методологии scrum будет преимуществом;</li> 
+                 <li>Хорошие коммуникативные навыки;</li> 
+                 <li>Аналитические качества и системный подход.</li> 
+                </ul> 
+                <strong>Обязанности:</strong>
+                <br> 
+                <ul> 
+                 <li>Участие в оценке сложности и трудоемкости задач по тестированию, а также в распределении задач;</li> 
+                 <li>Участие в разработке test кейсов на основе анализа требований, приоритетов и решений от системного аналитика;</li> 
+                 <li>Ведение реестра test кейсов, планирование и исполнение test плана;</li> 
+                 <li>Выполнение тестирования - смоук, функциональное, интеграционное;</li> 
+                 <li>Активная коммуникация с коллегами из команды и с представителями заказчика.</li> 
+                </ul>
+               </div>
+              </div> 
+              <h3 class="toggler">Младший инженер по тестированию (в команду)</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                Приглашаем к сотрудничеству инженера по тестированию для работы над проектом со сложной бизнес логикой. Мы разрабатываем высоконагруженную (до 50000 операций в секунду) информационную систему, которая обеспечивает мониторинг движения продукции в режиме реального времени (с момента производства до момента продажи конечному покупателю).
+                <br>
+                <br>
+                <strong>Требования:</strong>
+                <br> 
+                <ul> 
+                 <li>Опыт ручного тестирования back-end приложений.</li> 
+                 <li>Владение технологиями: системы управления версионностью кода SVN/git; continous integration - TeamCity, Jenkins; знание SQL (Oracle PL/ SQL).</li> 
+                 <li>Опыт и теоретические знания в области тестирования ПО.</li> 
+                 <li>Знание процесса разработки ПО, опыт работы по методологии scrum будет преимуществом.</li> 
+                 <li>Хорошие коммуникативные навыки.</li> 
+                 <li>Аналитические качества и системный подход.</li> 
+                </ul> 
+                <strong>Обязанности:</strong>
+                <br> 
+                <ul> 
+                 <li>Участие в оценке сложности и трудоемкости задач по тестированию.</li> 
+                 <li>Участие в разработке test кейсов на основе анализа требований, приоритетов и решений от системного аналитика.</li> 
+                 <li>Ведение реестра test кейсов, планирование и исполнение test плана.</li> 
+                 <li>Выполнение тестирования - смоук, функциональное, интеграционное.</li> 
+                 <li>Активная коммуникация с коллегами из команды и с представителями заказчика.</li> 
+                </ul>
+               </div>
+              </div> 
+              <h3 class="toggler">Python developer</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                Совместно с командой инженеров нашей компании мы будем развивать продвижение тестов для мониторинга здоровья. В данные проект мы ищем ведущих и middle разработчиков на Python, а так же умеющих общаться на английском языке.
+                <br>
+                <br>
+                <strong>Технологический стек:</strong>
+                <br> 
+                <ul> 
+                 <li>Python (Python Web; Tornado и/или Django)</li> 
+                 <li>JavaScript, CSS3, HTML5</li> 
+                 <li>Jquery, Bootstrap</li> 
+                 <li>XML, JSON</li> 
+                 <li>MySQL, SQL</li> 
+                 <li>ООП</li> 
+                </ul>
+               </div>
+              </div> 
+              <h3 class="toggler">Java Engineer (Hadoop)</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                Для разработки высоконагруженной системы (до 50 000 операций в секунду) в нашу команду мы ищем Java инженера. Проект предполагает разработку информационной системы, которая обеспечивает мониторинг движения продукции в режиме реального времени (с момента производства до момента продажи конечному покупателю).
+                <br>
+                <br>
+                <strong>Технологический стек:</strong>
+                <br> 
+                <ul> 
+                 <li>Java (Java SE 8)</li> 
+                 <li>Spring Framework 4</li> 
+                 <li>SQL (PostgreSQL)</li> 
+                 <li>Hadoop/Spark</li> 
+                 <li>Jetty; Junit</li> 
+                 <li>Maven.</li> 
+                </ul> 
+                <br>
+                <br>
+                <strong>Будет плюсом:</strong>
+                <br> 
+                <ul> 
+                 <li>GRPC / Thrift</li> 
+                 <li>Apache Kafka</li> 
+                 <li>Docker</li> 
+                </ul>
+               </div>
+              </div> 
+              <h3 class="toggler">Software developer (Java EE)</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                Проект по разработке высоконагруженной системы, которая реализует функционал для исполнения законодательства страны ближнего зарубежья. Потребителями информационных услуг данной системы являются как граждане страны, так и чиновники. Общий профиль нагрузки системы 2000000 человек в день. Проект ориентирован на использование Java EE технологий, имеет распределенную архитектуру, построенную по принципу SOA.
+                <br>
+                <br>
+                <strong>Технологический стек:</strong>
+                <br> 
+                <ul> 
+                 <li>Java SE 7; Java 2 EE</li> 
+                 <li>SQL; SOAP Web Services</li> 
+                 <li>Hibernate ORM</li> 
+                 <li>JDBC; Maven 2</li> 
+                 <li>Applications Server (IBM WebSphere Application Server (8 / JBOSS EAP / WebLogic).</li> 
+                </ul>
+               </div>
+              </div> 
+              <h3 class="toggler">Руководитель группы проектов по разработке программного обеспечения</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                Мы ищем руководителя группы проектов по разработке программного обеспечения для управления складами и складской логистики (WMS - Warehouse Management System). Наша команда занимается разработкой ядра продукта и его внедрением в компаниях по всему миру (Россия, Западная Европа, Канада, США, Центральная Америка и др).
+                <br>
+                <br>Разработка проектов ведется на языке С++, платформы Windows и Unix. Внедрение системы включает интеграцию с широким спектром современного автоматизированного оборудования.
+                <br>
+                <br> 
+                <strong>Обязанности:</strong>
+                <br> 
+                <ul> 
+                 <li>Управление разработкой программного обеспечения.</li> 
+                 <li>Коммуникация с иностранными партнерами в ходе разработки системы и внедрения.</li> 
+                 <li>Анализ логистических процессов заказчиков продукта и подготовка спецификаций для внедрения системы</li> 
+                 <li>Оценка проектов по внедрению и участие в подготовке коммерческих предложений</li> 
+                 <li>Руководство командой (15 человек, возможен рост)</li> 
+                 <li>Развитие аккаунта</li> 
+                </ul> 
+                <br>
+                <br> 
+                <strong>Требования:</strong>
+                <br> 
+                <ul> 
+                 <li>Опыт управления проектами по разработке программного обеспечения</li> 
+                 <li>Опыт анализа требований и составления спецификаций</li> 
+                 <li>Опыт выполнения оценки трудоемкости проекта по разработке ПО, формирования проектных команд</li> 
+                 <li>Владение методологиями Agile (SCRUM)</li> 
+                 <li>Разговорный уровень английского языка</li> 
+                 <li>Опыт программирования, желательно с использованием С++</li> 
+                </ul>
+               </div>
+              </div> 
+              <h3 class="toggler">Технический писатель</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                Приглашаем для работы на различных проектах компании.
+                <br>
+                <br> 
+                <strong>Обязанности:</strong>
+                <br> 
+                <ul> 
+                 <li>Взаимодействие с группой проекта и сбор необходимой для написания документа информации</li> 
+                 <li>Разработка и оформление проектной документации, в том числе по ГОСТ 34.</li> 
+                </ul> 
+                <br>
+                <br> 
+                <strong>Требования:</strong>
+                <br> 
+                <ul> 
+                 <li>Способность в сжатые сроки разобраться в предмете;</li> 
+                 <li>Опыт написания инструкций, регламентов, описания интерфейсов;</li> 
+                 <li>Опыт разработки проектной документации для сферы IT;</li> 
+                 <li>Профессиональное владение русским языком, умение структурировать большое количество информации;</li> 
+                 <li>Знание MS Office, владение MS Word на высоком уровне, умение работать со стилями;</li> 
+                 <li>Владение графическими редакторами, желательно MS Visio;</li> 
+                 <li>Желателен опыт написания документов в соответствии с ГОСТ 34, РД 50-34 и понимание назначения этих стандартов;</li> 
+                 <li>Ответственность и способность укладываться в срок.</li> 
+                </ul>
+               </div>
+              </div> 
+              <h3 class="toggler">Инженер службы технической ⁢поддержки/ Support engineer</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                Ищем инженера технической поддержки/ Системного инженера для работы с веб ресурсами группы российских компаний.
+                <br>
+                <br> 
+                <strong>Обязанности:</strong>
+                <br> 
+                <ul> 
+                 <li>Решение технических и других вопросов на уровне 2-линии поддержки</li> 
+                 <li>Трансляция полученных запросов в команду разработки</li> 
+                 <li>Контроль сроков исполнения запросов пользователей;</li> 
+                 <li>Подготовка отчетов о проделанной работе.</li> 
+                </ul> 
+                <br>
+                <br> 
+                <strong>Требования:</strong>
+                <br> 
+                <ul> 
+                 <li>Опыт работы в службе тех.поддержки (2-я линия) от 2 лет;</li> 
+                 <li>Опыт работы с Unix-системами;</li> 
+                 <li>Желательно знание CMS 1C Bitrix;</li> 
+                 <li>Общие знание архитектуры веб-ресурсов;</li> 
+                 <li>Способность формулировать мысли в четкие предложения и доносить до слушателя информацию;</li> 
+                 <li>Способность транслировать запросы в команду разработки сервиса;</li> 
+                 <li>Умение искать информацию в документах;</li> 
+                 <li>Желание помогать людям решать возникшие проблемы и участвовать в развитии продукта;</li> 
+                 <li>Ответственность и желание работать на результат;</li> 
+                </ul>
+               </div>
+              </div> 
+             </div>
+             <p></p> 
+             <p>&nbsp;</p> 
+             <h2>Нижний Новгород</h2> 
+             <p> </p>
+             <div id="accordion-9-59ea2c29c6d9f" class="wk-accordion wk-accordion-default clearfix" data-widgetkit="accordion" data-options="{&quot;style&quot;:&quot;default&quot;,&quot;collapseall&quot;:1,&quot;matchheight&quot;:1,&quot;index&quot;:-1,&quot;duration&quot;:500,&quot;width&quot;:&quot;auto&quot;,&quot;order&quot;:&quot;default&quot;}"> 
+              <h3 class="toggler">PHP-Developer</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                В настоящее время мы работаем над проектом для нашего немецкого партнера по разработке автоматизированной системы для онлайн издательств и СМИ. Данная система, основанная на&nbsp;CMSDrupal8, помогает публиковать и распространять мультимедийный контент уже нескольким десяткам иностранных новостных порталов.
+                <br>
+                <br>
+                <strong>Требования:</strong>
+                <br> 
+                <ul> 
+                 <li>Опыт&nbsp;php-разработки от 2-х лет</li> 
+                 <li>Опыт работы с&nbsp;CMSDrupal&nbsp;8 (либо 7 – как вариант)</li> 
+                 <li>Понимание методологии проектной работа по&nbsp;Agile/SCRUM</li> 
+                </ul> 
+                <strong>Желательно:</strong>
+                <br> 
+                <ul> 
+                 <li>Опыт работы с Symfony 2</li> 
+                 <li>Английский язык: чтение, понимание на слух</li> 
+                </ul> 
+                <strong>Мы предлагаем:</strong>
+                <br> 
+                <ul> 
+                 <li>Работу в перспективной компании (4 Центра разработки ПО: Нижний Новгород, Санкт-Петербург, Прага, Москва)</li> 
+                 <li>100 % соблюдение ТК РФ</li> 
+                 <li>Интересные и разнообразные проекты, современные технологии, профессиональное развитие.</li> 
+                 <li>Премии и бонусы по результатам работы.</li> 
+                 <li>Полис ДМС, в том числе стоматология.</li> 
+                 <li>Курсы английского языка.</li> 
+                 <li>Современный, оборудованный офис</li> 
+                 <li>Чай/кофе/печеньки</li> 
+                 <li>Дружный коллектив</li> 
+                 <li>Веселые корпоративы, развитая организационная культура.</li> 
+                </ul>
+               </div>
+              </div> 
+              <h3 class="toggler">C++ Developer</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                <div>
+                 Проект по разработке ПО для автоматизации складской логистики (WarehouseManagementSystems,&nbsp;WMS) для крупных компаний в России и за рубежом с использованием решения мирового класса от немецкого партнера. Использование современных технологий и работа в дружном коллективе профессионалов высокого класса.
+                 <br>
+                 <br>
+                 <strong>Обязанности:</strong>
+                 <br> 
+                 <ul> 
+                  <li>Анализ процессов складской логистики заказчика;</li> 
+                  <li>Участие в написании спецификации на внедрение системы;</li> 
+                  <li>Доработка базовых и специальных модулей системы;</li> 
+                  <li>Оптимизация модулей системы под требования заказчика;</li> 
+                  <li>Работа на сайте совместно с группой внедрения;</li> 
+                  <li>Техническая поддержка 2-го уровня (консультирование заказчика, исправление проблемных ситуаций);</li> 
+                 </ul> 
+                 <strong>Требования:</strong>
+                 <br> 
+                 <ul> 
+                  <li>Уверенное знание C++11;</li> 
+                  <li>Большим плюсом будет знание&nbsp;SQL,&nbsp;boost,&nbsp;QT&nbsp;и умение использовать на практике С++14;</li> 
+                  <li>Умение работать с большим объемом унаследованного кода;</li> 
+                  <li>Владение концепциями ООП на уровне архитектуры и на уровне кода;</li> 
+                  <li>Знание паттернов проектирования;</li> 
+                  <li>Операционные системы:&nbsp;Windows, знание&nbsp;Unix&nbsp;и&nbsp;Linux&nbsp;будет плюсом;</li> 
+                  <li>Коммуникабельность и способность к самостоятельной и командной работе;</li> 
+                  <li>Знание процессов внутренней логистики или участие в аналогичных проектах будет плюсом;</li> 
+                  <li>Английский язык: свободное техническое чтение/письмо (крайне желателен разговорный уровень);</li> 
+                  <li>Готовность при необходимости выезжать в командировки на объекты заказчиков (Россия, Европа, США);</li> 
+                 </ul> 
+                 <strong>Мы предлагаем:</strong>
+                 <br> 
+                 <ul> 
+                  <li>Интересные проекты;</li> 
+                  <li>Гибкий график работы;</li> 
+                  <li>Курсы английского языка;</li> 
+                  <li>Трудоустройство по ТК РФ;</li> 
+                  <li>Официальная заработная плата (премии и бонусы);</li> 
+                  <li>ДМС со стоматологией;</li> 
+                  <li>Дружная команда единомышленников;</li> 
+                  <li>Незабываемые корпоративные мероприятия;</li> 
+                  <li>Комфортабельный офис в центре города.</li> 
+                 </ul> 
+                </div>
+               </div>
+              </div> 
+              <h3 class="toggler">C#/.NET разработчик</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                Приглашаем к сотрудничеству C#/.NET разработчика в проект по разработке решений для работы с новостной аналитикой (мониторинг СМИ), внутренней отчётностью компаний (документы, поручения, метрики), организации электронного офиса (приёмная, расписание, оповещения) для руководства крупных компаний.
+                <br>
+                <br> Основной технологический стек: ASP.NET/MVC, Web API, WCF, MS SQL, JS
+                <br>
+                <br> От кандидата ожидается:
+                <br>- Опыт коммерческой разработки с использованием С#, ASP.NET от 2-х лет
+                <br>- Опыт разработки WCF сервисов
+                <br>- Опыт работы с реляционными и NoSQL СУБД (Mongo, Redis)
+               </div>
+              </div> 
+              <h3 class="toggler">.NET developer</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                First Line Software is looking for a .Net Developer for our significant customer - a global marketing execution company. The project is a multilingual, multicurrency technology platform which empowers the world’s largest brands such as Coca Cola, Adidas, Energizer and others to distribute and share the most compelling marketing materials across departments and borders.
+                <br>We invite you to join the international multicultural team distributed in USA (Chicago), Czech Republic (Prague) and Russia (Nizhny Novgorod, Saint Petersburg).
+                <br>The project is managed by streamlined business-process including automation testing and continuous delivery under development.
+                <br>
+                <br>
+                <strong>Responsibilities:</strong>
+                <br> 
+                <ul> 
+                 <li>Analyze and troubleshoot any software problems,</li> 
+                 <li>Code refactoring using ReSharper and Visual Studio,</li> 
+                 <li>Perform customizations, system enhancements, and report writing,</li> 
+                 <li>Demonstrate the ability to learn new skills, adapt quickly and work independently.</li> 
+                </ul> 
+                <strong>Technologies/experience:</strong>
+                <br> 
+                <ul> 
+                 <li>progressive business/IT/development experience</li> 
+                 <li>experience with .NET (C# or any other object-oriented discipline) development (Visual Studio 2012/2015, TFS,<a href="http://asp.net/" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=ru&amp;q=http://ASP.NET&amp;source=gmail&amp;ust=1487685458089000&amp;usg=AFQjCNFSOnH9eLAXZ94k62hme5g_hpBFJg">ASP.NET</a>&nbsp;MVC, WCF and&nbsp;<a href="http://ado.net/" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=ru&amp;q=http://ADO.NET&amp;source=gmail&amp;ust=1487685458089000&amp;usg=AFQjCNGEgqN-p0wl-NoeRDuI17yspED7Ag">ADO.NET</a>) with understanding of object-oriented programming and computer science foundations</li> 
+                 <li>experience with SQL Server 2008/2012</li> 
+                 <li>experience with JQuery, AngularJS, KnockoutJS or similar technologies</li> 
+                 <li>basic understanding of MSMQ, ActiveMQ and other message queue implementations</li> 
+                 <li>familiarity with Agile/SCRUM/XP methodology</li> 
+                 <li>possess a high energy and a sense of urgency</li> 
+                 <li>intermediate level of English</li> 
+                </ul> 
+                <strong>We offer:</strong>
+                <br> 
+                <ul> 
+                 <li>one of the best international FLS projects</li> 
+                 <li>highly professional friendly team</li> 
+                 <li>the English language courses</li> 
+                 <li>unforgettable corporate events</li> 
+                 <li>official employment and corporate bonuses</li> 
+                 <li>comfortable office in the city center</li> 
+                 <li>a brilliant opportunity to be on the same page with all up-to-date IT technologies, to daily improve your professional skills!</li> 
+                </ul>
+               </div>
+              </div> 
+              <h3 class="toggler">Инженер по тестированию</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                Мы занимаемся разработкой высоконагруженного решения для российского гос. заказчика, автоматизирующее бизнес-процессы работы с финансовыми операциями. Система проводит расчеты, проверяет валидность данных, анализирует их и предоставляет средства для управления выявленными расхождениями в расчетах. В рамках проекта необходимо выполнить функциональное и нагрузочное тестирование высоконагруженной системы со сложной бизнес логикой. Работа ведется распределенной командой тестировщиков.
+                <br>
+                <br>
+                <strong>Требования:</strong>
+                <br> 
+                <ul> 
+                 <li>&nbsp;Опыт ручного тестирования&nbsp;web&nbsp;и/или&nbsp;back-end&nbsp;приложений от 2 лет.</li> 
+                 <li>Владение технологиями: 
+                  <ul> 
+                   <li>системы управления версионностью кода&nbsp;SVN,&nbsp;mercurial,&nbsp;git</li> 
+                   <li>continous integration - TeamCity , Jenkins</li> 
+                   <li>знание SQL ( Oracle SQL)</li> 
+                  </ul> </li> 
+                 <li>Опыт и теоретические знания в области тестирования ПО.</li> 
+                 <li>Знание процесса разработки ПО, опыт работы по методологии&nbsp;scrum&nbsp;будет преимуществом.</li> 
+                 <li>Приветствуется опыт автоматизации тестирования.</li> 
+                </ul> 
+                <strong>Обязанности:</strong>
+                <br> 
+                <ul> 
+                 <li>&nbsp;Участие в оценке сложности и трудоемкости работ по тестированию.</li> 
+                 <li>Участие в разработке&nbsp;test&nbsp;кейсов на основе анализа требований и решений от системного аналитика.</li> 
+                 <li>Ведение реестра&nbsp;test&nbsp;кейсов, планирование и исполнение&nbsp;test&nbsp;плана.</li> 
+                 <li>Исполнение работ по тестированию.</li> 
+                 <li>Активная коммуникация с коллегами из команды и представителем заказчика.</li> 
+                 <li>Возможны непродолжительные (1 неделя) командировки в Москву.</li> 
+                </ul>
+               </div>
+              </div> 
+             </div>
+             <p></p> 
+             <p>&nbsp;</p> 
+             <h2>Москва</h2> 
+             <p> </p>
+             <div id="accordion-20-59ea2c29ce2f0" class="wk-accordion wk-accordion-default clearfix" data-widgetkit="accordion" data-options="{&quot;style&quot;:&quot;default&quot;,&quot;collapseall&quot;:1,&quot;matchheight&quot;:1,&quot;index&quot;:-1,&quot;duration&quot;:500,&quot;width&quot;:&quot;auto&quot;,&quot;order&quot;:&quot;default&quot;}"> 
+              <h3 class="toggler">Аналитик</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                <strong>О проекте:</strong>
+                <br>
+                <br>Мы занимаемся разработкой высоконагруженной системы со сложной бизнес логикой на основе BigData стека технолгий (Hadoop, HBase, Hive, Spark). Система проводит расчеты, проверяет валидность данных, анализирует их и предоставляет средства для управления выявленными расхождениями в расчетах. Работа ведется распределенной командой. Участие в проекте открывает перспективы развития в области аналитики больших данных, анализа финансовой деятельности компаний.
+                <br>
+                <br>Стек:&nbsp;MS Excel, SQL.
+                <br>
+                <br>
+                <strong>Требования:</strong>
+                <br> 
+                <ul> 
+                 <li>Опыт работы бизнес-аналитиком или системным аналитиком в информационных проектах от 2-х лет (опыт по внедрению информационных систем);</li> 
+                 <li>Опыт разработки и оформления документации&nbsp;на всех фазах жизненного цикла ИС (ЧТЗ, ПЗ, ПМИ и пр.) и желательно&nbsp;по ГОСТам;</li> 
+                 <li>Знание SQL- запросов будет преимуществом (сновные конструкции, понимание join всех видов, группировки и сортировки. sql запросы понадобятся Вам при анализе исходных таблиц с данными и при тестировании отчетов);</li> 
+                 <li>Хорошее знание Excel (в т.ч. сводные таблицы);</li> 
+                 <li>Дополнительным плюсом будет опыт в тестировании;</li> 
+                 <li>Личные качества, которые понадобятся Вам в работе: стрессоустойчивость и быстрая обучаемость;</li> 
+                 <li>Высшее техническое образование (желательно).</li> 
+                </ul> 
+                <strong>Обязанности:</strong>
+                <br> 
+                <ul> 
+                 <li>Проведение обследований, формирование постановки задачи, согласование с Заказчиком, разработка проектной документации (ЧТЗ, ПМИ, ПЗ), тестирование результатов разработки, участие в проведении испытаний у Заказчика, участие в ОПЭ (ответы на вопросы Заказчика, формирование задач для разработчиков по устранению ошибок, постановки на доработки).</li> 
+                </ul> 
+                <strong>Мы предлагаем:</strong>
+                <br> 
+                <ul> 
+                 <li>Трудоустройство по ТК РФ;</li> 
+                 <li>Официальная заработная плата (премии и бонусы);</li> 
+                 <li>ДМС.</li> 
+                </ul>
+               </div>
+              </div> 
+             </div>
+             <p></p> 
+             <p>&nbsp;</p> 
+             <h2>Чехия</h2> 
+             <p><a href="https://cz.firstlinesoftware.com/">Смотреть открытые вакансии</a></p> 
+             <p class="toggle-view">&nbsp;</p> 
+             <h2>Нидерланды</h2> 
+             <p><span style="color: #dd1144; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; line-height: 18px; white-space: nowrap; background-color: #eaeaea;"> </span></p>
+             <div id="accordion-16-59ea2c29d30e2" class="wk-accordion wk-accordion-default clearfix" data-widgetkit="accordion" data-options="{&quot;style&quot;:&quot;default&quot;,&quot;collapseall&quot;:0,&quot;matchheight&quot;:0,&quot;index&quot;:-1,&quot;duration&quot;:500,&quot;width&quot;:&quot;auto&quot;,&quot;order&quot;:&quot;default&quot;}"> 
+              <h3 class="toggler">Senior Java Developer</h3> 
+              <div>
+               <div class="content wk-content clearfix">
+                Для нашего крупного заказчика из Голландии мы ищем&nbsp;Java&nbsp;разработчиков в высокотехнологичный проект.
+                <br>
+                <br>Компания заказчика предоставляет сервис для работы с фрилансерами: найма, оплаты труда, трекинга. Свободное владение английским языком является необходимым, так как работа в офисе в Голландии.
+                <br>
+                <br>
+                <strong>Технологический стек:</strong>
+                <br> 
+                <ul> 
+                 <li>Java SE 8;</li> 
+                 <li>Spring Boot / Spring Web-MVC / Spring Security / Hibernate;</li> 
+                 <li>JPA;</li> 
+                 <li>Maven;</li> 
+                 <li>MySQL;</li> 
+                 <li>GIT / SVN;</li> 
+                 <li>Scrum.</li> 
+                </ul>
+               </div>
+              </div> 
+             </div>
+             <p></p> 
+             <p>&nbsp;</p> 
+             <h2>США&nbsp;</h2> 
+             <p class="toggle-view">На данный момент нет открытых вакансий.</p> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="rt-grid-4 "> 
+         <div id="rt-sidebar-a"> 
+          <div class="rt-block box3"> 
+           <div class="module-surround"> 
+            <div class="module-title"> 
+             <h2 class="title"><span>Отправьте ваше резюме</span></h2> 
+            </div> 
+            <div class="module-content"> 
+             <!-- PWebContact --> 
+             <div id="pwebcontact452" class="pwebcontact  pweb-static pweb-labels-inline pweb-form-blue pweb-icomoon box3" dir="ltr"> 
+              <div id="pwebcontact452_box" class="pwebcontact-box pweb-static pweb-labels-inline pweb-form-blue pweb-icomoon box3 " dir="ltr"> 
+               <div id="pwebcontact452_container" class="pwebcontact-container"> 
+                <form name="pwebcontact452_form" id="pwebcontact452_form" class="pwebcontact-form" action="https://firstlinesoftware.ru/team/vacancy" method="post" accept-charset="utf-8"> 
+                 <div class="pweb-fields"> 
+                  <div class="pweb-field-container pweb-field-text pweb-field-name"> 
+                   <div class="pweb-label"> 
+                    <label id="pwebcontact452_field-name-lbl" for="pwebcontact452_field-name"> Ваше имя </label> 
+                   </div> 
+                   <div class="pweb-field"> 
+                    <input type="text" name="fields[name]" id="pwebcontact452_field-name" class="pweb-input" value="" data-role="none"> 
+                   </div> 
+                  </div> 
+                  <div class="pweb-field-container pweb-field-email pweb-field-email_4"> 
+                   <div class="pweb-label"> 
+                    <label id="pwebcontact452_field-email_4-lbl" for="pwebcontact452_field-email_4"> Электронный адрес </label> 
+                   </div> 
+                   <div class="pweb-field"> 
+                    <input type="email" name="fields[email_4]" id="pwebcontact452_field-email_4" class="pweb-input" value="" data-role="none"> 
+                   </div> 
+                  </div> 
+                  <div class="pweb-field-container pweb-field-textarea pweb-field-message"> 
+                   <div class="pweb-label"> 
+                    <label id="pwebcontact452_field-message-lbl" for="pwebcontact452_field-message"> Сообщение </label> 
+                   </div> 
+                   <div class="pweb-field"> 
+                    <textarea name="fields[message]" id="pwebcontact452_field-message" cols="50" rows="0" data-role="none"></textarea> 
+                   </div> 
+                  </div> 
+                  <div class="pweb-field-container pweb-field-checkbox pweb-field-field_4"> 
+                   <div class="pweb-field"> 
+                    <input type="checkbox" name="fields[field_4]" id="pwebcontact452_field-field_4" class="pweb-checkbox pweb-single-checkbox required" value="Даю согласие на обработку своих персональных данных" data-role="none"> 
+                    <label for="pwebcontact452_field-field_4" id="pwebcontact452_field-field_4-lbl"> <a href="https://firstlinesoftware.ru/%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0_%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8.pdf" target="_blank">Даю согласие на обработку своих персональных данных <span class="icon-out"></span></a> <span class="pweb-asterisk">*</span> </label> 
+                   </div> 
+                  </div> 
+                  <div class="pweb-field-container pweb-field-uploader"> 
+                   <div class="pweb-label"> 
+                    <label for="pwebcontact452_uploader" id="pwebcontact452_uploader-lbl"> Вложение </label> 
+                   </div> 
+                   <div class="pweb-field pweb-uploader" id="pwebcontact452_uploader_container"> 
+                    <div class="fileupload-buttonbar"> 
+                     <span class="fileinput-button btn pweb-tooltip" title="Выберите файл или перетащите мышкой. Максимальный размер файла: 5MB; максимальное количество файлов: 1; допустимые расширения файлов: pdf, xls, xlsx, doc, docx, zip. "> <i class="icon-plus-sign icon-white"></i> <span>Прикрепить</span> <input type="file" name="files[]" multiple id="pwebcontact452_uploader" data-role="none"> </span> 
+                    </div> 
+                    <div class="files"></div> 
+                    <div class="templates" style="display:none" aria-hidden="true"> 
+                     <div class="template-upload fade"> 
+                      <span class="ready"><i class="icon-upload"></i></span> 
+                      <span class="warning"><i class="icon-warning-sign"></i></span> 
+                      <span class="name"></span> 
+                      <span class="size"></span> 
+                      <span class="error invalid"></span> 
+                      <a href="#" class="cancel"><i class="icon-remove"></i>Отмена</a> 
+                      <div class="progress progress-striped active">
+                       <div class="bar progress-bar" style="width:0%"></div>
+                      </div> 
+                     </div> 
+                     <div class="template-download fade"> 
+                      <span class="success"><i class="icon-ok"></i></span> 
+                      <span class="warning"><i class="icon-warning-sign"></i></span> 
+                      <span class="name"></span> 
+                      <span class="size"></span> 
+                      <span class="error invalid"></span> 
+                      <a href="#" class="delete"><i class="icon-trash"></i>Удалить</a> 
+                     </div> 
+                    </div> 
+                   </div> 
+                  </div> 
+                  <div class="pweb-field-container pweb-field-buttons"> 
+                   <div class="pweb-field"> 
+                    <button id="pwebcontact452_send" type="button" class="btn" data-role="none">Отправить</button> 
+                   </div> 
+                  </div> 
+                 </div> 
+                 <div class="pweb-msg pweb-msg-after">
+                  <div id="pwebcontact452_msg" class="pweb-progress">
+                   <script type="text/javascript">document.getElementById("pwebcontact452_msg").innerHTML="Initializing form..."</script>
+                  </div>
+                 </div> 
+                 <input type="hidden" name="6dfcd6fa197396517e74854064c16803" value="1" id="pwebcontact452_token"> 
+                </form> 
+                <div class="pweb-dropzone" aria-hidden="true">
+                 <div>
+                  Оставьте файлы здесь для загрузки
+                 </div>
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+             <script type="text/javascript">
+jQuery(document).ready(function($){pwebContact452=new pwebContact({id:452,layout:"static",position:"static",offsetPosition:"top",basePath:"",ajaxUrl:"index.php?option=com_ajax&module=pwebcontact&Itemid=223&method=",msgCloseDelay:0,uploadAcceptFileTypes:/(\.|\/)(pdf|xls|xlsx|doc|docx|zip)$/i,uploadMaxSize:5242880,uploadFilesLimit:1})});</script> 
+             <!-- PWebContact end --> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <footer id="rt-footer-surround"> 
+   <div class="rt-footer-surround-pattern"> 
+    <div id="rt-footer" class="rt-overlay-light"> 
+     <div class="rt-container"> 
+      <div class="rt-grid-4 rt-alpha"> 
+       <div class="rt-block fp-footer-a rt-center"> 
+        <div class="module-surround"> 
+         <div class="module-content"> 
+          <div class="customfp-footer-a rt-center"> 
+           <p><a href="/contact-us"><span class="rt-icon"><span class="icon-exclamation-sign"></span></span></a></p>
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="rt-block fp-latest-news rt-title-center"> 
+        <div class="module-surround"> 
+         <div class="module-title"> 
+          <h2 class="title"><span>Есть вопросы?</span></h2> 
+         </div> 
+         <div class="module-content"> 
+          <div class="customfp-latest-news rt-title-center"> 
+           <p style="text-align: center;"><a class="readon rt-big-button btn-action" href="/contact-us">Свяжитесь с нами</a></p>
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="rt-grid-4"> 
+       <div class="rt-block fp-footer-b rt-center"> 
+        <div class="module-surround"> 
+         <div class="module-content"> 
+          <div class="customfp-footer-b rt-center"> 
+           <p><a href="/news/blog"><span class="rt-icon"><span class="icon-file-text-alt"></span></span></a></p>
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="rt-block fp-latest-news rt-title-center"> 
+        <div class="module-surround"> 
+         <div class="module-title"> 
+          <h2 class="title"><span>Наш блог</span></h2> 
+         </div> 
+         <div class="module-content"> 
+          <ul class="latestnewsfp-latest-news rt-title-center"> 
+           <li itemscope itemtype="http://schema.org/Article"> <a href="/news/blog/355-kakimi-budut-tsifrovye-oteli-budushchego" itemprop="url"> <span itemprop="name"> Какими будут цифровые отели будущего? </span> </a> </li> 
+           <li itemscope itemtype="http://schema.org/Article"> <a href="/news/blog/352-umnye-chasy-zadacha-pridat-smysl" itemprop="url"> <span itemprop="name"> Умные часы: оптимальная комплектация </span> </a> </li> 
+           <li itemscope itemtype="http://schema.org/Article"> <a href="/news/blog/345-tsifrovoj-turizm-kakie-segmenty-rynka-organizovannykh-puteshestvij-otsifrovyvayutsya-prezhde-vsego" itemprop="url"> <span itemprop="name"> Цифровой туризм: какие сегменты рынка организованных путешествий оцифровываются прежде всего? </span> </a> </li> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="rt-grid-4 rt-omega"> 
+       <div class="rt-block fp-footer-b rt-center"> 
+        <div class="module-surround"> 
+         <div class="module-content"> 
+          <div class="customfp-footer-b rt-center"> 
+           <p><a href="/news/pressa"><span class="rt-icon"><span class="icon-columns"></span></span></a></p>
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="rt-block fp-latest-news rt-title-center"> 
+        <div class="module-surround"> 
+         <div class="module-title"> 
+          <h2 class="title"><span>Пресса о нас</span></h2> 
+         </div> 
+         <div class="module-content"> 
+          <ul class="latestnewsfp-latest-news rt-title-center"> 
+           <li itemscope itemtype="http://schema.org/Article"> <a href="/news/pressa/362-gde-vzyat-million-programmistov" itemprop="url"> <span itemprop="name"> Где взять миллион программистов </span> </a> </li> 
+           <li itemscope itemtype="http://schema.org/Article"> <a href="/news/pressa/361-novyj-defitsit-gonit-rossijskie-it-kompanii-na-zapadnyj-rynok-m-a" itemprop="url"> <span itemprop="name"> Новый дефицит гонит российские IT-компании на западный рынок M&amp;A </span> </a> </li> 
+           <li itemscope itemtype="http://schema.org/Article"> <a href="/news/pressa/360-peterburgskie-biznesmeny-rasskazali-chego-zhdut-ot-novogo-delovogo-sezona" itemprop="url"> <span itemprop="name"> Петербургские бизнесмены рассказали, чего ждут от нового делового сезона </span> </a> </li> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="clear"></div> 
+     </div> 
+    </div> 
+   </div> 
+  </footer> 
+ </div> 
+ <div id="rt-copyright" class="rt-overlay-dark"> 
+  <div class="rt-container"> 
+   <div class="rt-grid-4 rt-alpha"> 
+    <div class="rt-copyright-content rt-block">
+      First Line Software 
+    </div> 
+   </div> 
+   <div class="rt-grid-4"> 
+    <div class="clear"></div> 
+    <div class="rt-block"> 
+     <a href="#" id="gantry-totop" rel="nofollow"><span class="icon-angle-up rt-totop-icon"></span></a> 
+    </div> 
+   </div> 
+   <div class="rt-grid-4 rt-omega"> 
+    <div class="rt-social-buttons rt-block"> 
+     <a class="social-button rt-social-button-1" href="https://www.facebook.com/firstlinesoftware" target="_blank"> <span class="icon-facebook"></span> </a> 
+     <a class="social-button rt-social-button-2" href="https://twitter.com/firstlinesoft" target="_blank"> <span class="icon-twitter"></span> </a> 
+     <a class="social-button rt-social-button-3" href="https://plus.google.com/u/0/s/First%20Line%20Software" target="_blank"> <span class="icon-google-plus"></span> </a> 
+     <a class="social-button rt-social-button-5" href="http://www.linkedin.com/company/875103?trk=tyah&amp;trkInfo=tas%3Afirst%20line%20soft%2Cidx%3A1-1-1" target="_blank"> <span class="icon-linkedin"></span> </a> 
+     <div class="clear"></div> 
+    </div> 
+   </div> 
+   <div class="clear"></div> 
+  </div> 
+ </div> 
+ <script type="text/javascript">
+	
+ 
+  jQuery("#owl-demo").owlCarousel({
+ 		autoPlay : 3000,
+ 		paginationSpeed : 1000,
+    stopOnHover : true,
+      navigation : false, // Show next and prev buttons
+      slideSpeed : 1000,
+      singleItem:true
+ 
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+ 
+  });
+ 
+
+</script> 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.min.js"></script> 
+ <script>
+   var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: 2000
+    });
+    </script> 
+ <script>
+ jQuery('.multiple-items').slick({
+  infinite: false,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  prevArrow: '<button type="button" class="hr-slick-prev"><img src="/images/slick.png"></button>',
+  nextArrow: '<button type="button" class="hr-slick-next"><img src="/images/slick.png"></button>',
+   responsive: [
+    {
+      breakpoint: 1050,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 3,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 700,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 500,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 380,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+    </script> 
+ <script>
+ jQuery('.multiple-itemss').slick({
+  infinite: false,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  prevArrow: '<button type="button" class="hr-slick-prev"><img src="/images/slick.png"></button>',
+  nextArrow: '<button type="button" class="hr-slick-next"><img src="/images/slick.png"></button>',
+   responsive: [
+    {
+      breakpoint: 999,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 680,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+    </script> 
+ <script>
+jQuery('.slaider_center').slick({
+  centerMode: true,
+  centerPadding: '310px',
+prevArrow: '<button type="button" class="pz-slick-prev"><img src="/images/slick.png"></button>',
+  nextArrow: '<button type="button" class="pz-slick-next"><img src="/images/slick.png"></button>',
+  slidesToShow: 1
+});
+   </script> 
+ <script>
+jQuery('.slaider_center_2').slick({
+  centerMode: true,
+  centerPadding: '310px',
+prevArrow: '<button type="button" class="pz-slick-prev"><img src="/images/slick.png"></button>',
+  nextArrow: '<button type="button" class="pz-slick-next"><img src="/images/slick.png"></button>',
+  slidesToShow: 1
+});
+   </script> 
+ <script>
+ jQuery('.multiple-item').slick({
+  infinite: true,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  prevArrow: '<button type="button" class="hr-slick-prev"><img src="/images/slick.png"></button>',
+  nextArrow: '<button type="button" class="hr-slick-next"><img src="/images/slick.png"></button>',
+  responsive: [
+    {
+      breakpoint: 1050,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 3,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 700,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 500,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 380,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+    </script> 
+ <script type="text/javascript">
+   
+    $('.slb').simplebox({
+      fadeSpeed: 350,
+    });
+  </script> 
+ <script type="text/javascript">
+    	//var hr_podlogka_top = document.getElementById('hr_podlogka_top');
+    	//var hr_podlogka_top_scrole = hr_podlogka_top.getBoundingClientRect().bottom + window.pageYOffset;
+
+    	/*window.onscroll = function() {
+
+    	}*/
+    	jQuery(document).ready(function() {
+		jQuery('a[href^="#"]').click(function(){
+		var el = jQuery(this).attr('href');
+		jQuery('body').animate({
+		scrollTop: jQuery(el).offset().top}, 2000);
+		return false;
+		});
+		});
+    </script>  
+</body>

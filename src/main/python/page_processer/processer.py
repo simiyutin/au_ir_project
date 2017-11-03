@@ -1,3 +1,5 @@
+#! /usr/bin/python3
+
 import os
 
 from bs4 import BeautifulSoup
@@ -94,8 +96,12 @@ if __name__ == '__main__':
     dictionary = enchant.Dict("en_US")
 
     # crawled_dir = '../../../../crawled/'
-    crawled_dir = '../../../../small_crawled/'  # todo: change crawled directory
-    # output_dir = '../../../../preprocessed/'
+    crawled_dir = '../../../../crawled_processed_for_index/'  # renamed
+    # crawled_dir = '../../../../small_crawled/'  # todo: change crawled directory
+    # crawled_dir = '/media/boris/Data/shared/au_3/ir/project/crawled_1'
+
+    print('total files: {}'.format(len(os.listdir(crawled_dir))))
+
     index_file = '../../../../index.txt'
 
     spark = SparkSession.builder.appName("").master("local").getOrCreate()
@@ -118,7 +124,5 @@ if __name__ == '__main__':
         .collect()
 
     res = dict(res)
-    # print(res)
-
     with open(index_file, 'w') as fp:
         json.dump(res, fp)

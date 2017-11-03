@@ -1,0 +1,80 @@
+<body> 
+ <div class="tgme_page_wrap"> 
+  <div class="tgme_head_wrap"> 
+   <div class="tgme_head"> 
+    <a href="//telegram.org/" class="tgme_head_brand"> <i class="tgme_logo"></i> </a> 
+   </div> 
+  </div> 
+  <a class="tgme_head_dl_button" href="//telegram.org/dl?tme=d696f242710bbe359c_16857712382259518370"> Don't have <strong>Telegram</strong> yet? Try it now!<i class="tgme_icon_arrow"></i> </a> 
+  <div class="tgme_page"> 
+   <div class="tgme_page_photo"> 
+    <a href="tg://resolve?domain=holyjsconf"><img class="tgme_page_photo_image" src="https://cdn4.telesco.pe/file/KL3qhe-ozFu3oHY_pKAF7_yl3WP1qtk2EX6UT3AaOuKp7Vdg4pGkgBW9NnJyedwco1yqFRyB7K6Xo1aFKvHAoinurUZ9lFrD5iVC6AKc_LNfYRAi14_KtYXnq9Rty6bB5kR6kWtHfSnyiNuzZrprK44UlPN3WISw8SW9_1WkX7OlQxi3v73MwWYY-QkvY5_c7D7OnHMfCRxfdTpGHSfZc4Keoc3NAw2MSmYiV_FQENQxP25L9LQwIf-EAHL4UuZ9JyIeHzUKAEwgSwCJpsDzf9W2_N8WJLTBisjQT5PaE0MoqmPb76tNdezawF5F4kMqBnoNpnM3iOKpENlgitDeOA"></a> 
+   </div> 
+   <div class="tgme_page_title">
+     HolyJS, JavaScript-конференция 
+   </div> 
+   <div class="tgme_page_extra">
+    194 members
+   </div> 
+   <div class="tgme_page_description">
+    JS-конференция от 
+    <a href="https://t.me/jugrugroup">@jugrugroup</a>. Блишайшая HolyJS: Санкт-Петербург, 2-3 июня. 
+    <br>
+    <br>https://holyjs-piter.ru
+    <br>
+    <br>Это чат конференции 
+    <br>У нас есть несколько простых правил, которые мы просим вас соблюдать. По хэштегу #правила
+   </div> 
+   <div class="tgme_page_action"> 
+    <a class="tgme_action_button_new" href="tg://resolve?domain=holyjsconf">View Group</a> 
+   </div> 
+   <!-- WEBOGRAM_BTN --> 
+   <div class="tgme_page_additional">
+     If you have 
+    <strong>Telegram</strong>, you can view and join 
+    <br>
+    <strong>HolyJS, JavaScript-конференция</strong> right away. 
+   </div> 
+  </div> 
+ </div> 
+ <div id="tgme_frame_cont"></div> 
+ <script type="text/javascript">
+
+var protoUrl = "tg:\/\/resolve?domain=holyjsconf";
+if (false) {
+  var iframeContEl = document.getElementById('tgme_frame_cont') || document.body;
+  var iframeEl = document.createElement('iframe');
+  iframeContEl.appendChild(iframeEl);
+  var pageHidden = false;
+  window.addEventListener('pagehide', function () {
+    pageHidden = true;
+  }, false);
+  window.addEventListener('blur', function () {
+    pageHidden = true;
+  }, false);
+  if (iframeEl !== null) {
+    iframeEl.src = protoUrl;
+  }
+  setTimeout(function() {
+    if (!pageHidden) {
+      window.location = protoUrl;
+    }
+  }, 2000);
+}
+else if (protoUrl) {
+  setTimeout(function() {
+    window.location = protoUrl;
+  }, 100);
+}
+
+
+    </script> 
+ <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-45099287-3', 'auto', {'sampleRate': 5});
+ga('send', 'pageview');</script>   
+ <!-- page generated in 36.96ms -->
+</body>

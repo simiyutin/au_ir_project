@@ -1,0 +1,255 @@
+https://issues.apache.org/jira/browse/IGNITE
+<body id="jira" class="aui-layout aui-theme-default " data-version="6.4.14"> 
+ <div id="page"> 
+  <header id="header" role="banner"> 
+   <script>
+    AJS.$(function () {
+        var licenseBanner = require("jira/license-banner");
+        licenseBanner.showLicenseBanner("");
+        licenseBanner.showLicenseFlag("");
+    });
+</script> 
+   <nav class="aui-header aui-dropdown2-trigger-group" role="navigation">
+    <div class="aui-header-inner">
+     <div class="aui-header-before">
+      <a class=" aui-dropdown2-trigger app-switcher-trigger" aria-owns="app-switcher" aria-controls="app-switcher" aria-haspopup="true" data-aui-trigger href="#app-switcher"><span class="aui-icon aui-icon-small aui-iconfont-appswitcher">Linked Applications</span></a>
+      <div id="app-switcher" class="aui-dropdown2 aui-style-default">
+       <div class="app-switcher-loading">
+        Loading…
+       </div>
+      </div>
+      <script>
+            (function (NL) {
+                var initialise = function () {
+                    // For some milestones of AUI, the atlassian soy namespace was renamed to aui. Handle that here by ensuring that window.atlassian is defined.
+                    window.atlassian = window.atlassian || window.aui;
+                    new NL.AppSwitcher({
+                        dropdownContents: '#app-switcher'
+                    });
+                };
+                if (NL.AppSwitcher) {
+                    initialise();
+                } else {
+                    NL.onInit = initialise;
+                }
+            }(window.NL = (window.NL || {})));
+            window.NL.environment = {isUserAdmin: false, isAppSuggestionAvailable: false};</script>
+     </div>
+     <div class="aui-header-primary">
+      <h1 id="logo" class="aui-header-logo aui-header-logo-custom"><a href="https://issues.apache.org/jira/secure/MyJiraHome.jspa"><img src="/jira/s/en_UK-98jkah/64029/261/_/jira-logo-scaled.png" alt="ASF JIRA"></a></h1>
+      <ul class="aui-nav"> 
+       <li><a class="aui-nav-link aui-dropdown2-ajax jira-ajax-menu aui-dropdown2-trigger " href="/jira/secure/Dashboard.jspa" id="home_link" accesskey="d" title="View and manage your dashboards" aria-haspopup="true" aria-owns="home_link-content">Dashboards</a>
+        <div id="home_link-content" class="aui-dropdown2 aui-style-default" data-aui-dropdown2-ajax-key="home_link"></div></li>
+       <li><a class="aui-nav-link aui-dropdown2-ajax jira-ajax-menu aui-dropdown2-trigger " href="/jira/browse/IGNITE" id="browse_link" accesskey="p" title="View recent projects and browse a list of projects" aria-haspopup="true" aria-owns="browse_link-content">Projects</a>
+        <div id="browse_link-content" class="aui-dropdown2 aui-style-default" data-aui-dropdown2-ajax-key="browse_link"></div></li>
+       <li><a class="aui-nav-link aui-dropdown2-ajax jira-ajax-menu aui-dropdown2-trigger " href="/jira/issues/" id="find_link" accesskey="i" title="Search for issues and view recent issues" aria-haspopup="true" aria-owns="find_link-content">Issues</a>
+        <div id="find_link-content" class="aui-dropdown2 aui-style-default" data-aui-dropdown2-ajax-key="find_link"></div></li>
+       <li><a class="aui-nav-link aui-dropdown2-ajax jira-ajax-menu aui-dropdown2-trigger " href="/jira/secure/GreenHopper.jspa" id="greenhopper_menu" title="Manage your project with JIRA Agile" aria-haspopup="true" aria-owns="greenhopper_menu-content">Agile</a>
+        <div id="greenhopper_menu-content" class="aui-dropdown2 aui-style-default" data-aui-dropdown2-ajax-key="greenhopper_menu"></div></li> 
+      </ul>
+     </div>
+     <div class="aui-header-secondary">
+      <ul class="aui-nav">
+       <li> 
+        <form action="/jira/secure/QuickSearch.jspa" method="get" id="quicksearch" class="aui-quicksearch dont-default-focus ajs-dirty-warning-exempt"> 
+         <input id="quickSearchInput" class="search" type="text" title="Search" placeholder="Search" name="searchString" accessKey="q"> 
+         <input type="submit" class="hidden" value="Search"> 
+        </form> </li> 
+       <li id="system-help-menu"> <a class="aui-nav-link aui-dropdown2-trigger" id="help_menu" aria-haspopup="true" aria-owns="system-help-menu-content" href="https://docs.atlassian.com/jira/docs-064/JIRA+Documentation" target="$textUtils.htmlEncode($rootHelpMenuItem.params.target)" title="Help"><span class="aui-icon aui-icon-small aui-iconfont-help">Help</span></a> 
+        <div id="system-help-menu-content" class="aui-dropdown2 aui-style-default"> 
+         <div class="aui-dropdown2-section"> 
+          <ul id="jira-help" class="aui-list-truncate"> 
+           <li> <a id="view_help" class="" title="Goto the online documentation for JIRA" href="https://docs.atlassian.com/jira/docs-064/JIRA+Documentation" target="_blank">Online Help</a> </li> 
+           <li> <a id="gh_view_help" class="" title="Get help online for JIRA Agile" href="http://docs.atlassian.com/agile/docs-067/JIRA+Agile+Documentation" target="_blank">JIRA Agile Help</a> </li> 
+           <li> <a id="service-desk-view-help" class="" title="Get help online for JIRA Service Desk" href="http://docs.atlassian.com/servicedesk/docs-025/" target="_blank">JIRA Service Desk Help</a> </li> 
+           <li> <a id="keyshortscuthelp" class="" title="Get more information about JIRA's Keyboard Shortcuts" href="/jira/secure/ViewKeyboardShortcuts!default.jspa" target="_blank">Keyboard Shortcuts</a> </li> 
+           <li> <a id="view_about" class="" title="Get more information about JIRA" href="/jira/secure/AboutPage.jspa">About JIRA</a> </li> 
+           <li> <a id="view_credits" class="" title="See who did what" href="/jira/secure/JiraCreditsPage!default.jspa" target="_blank">JIRA Credits</a> </li> 
+          </ul> 
+         </div> 
+        </div> </li> 
+       <li id="user-options"> <a class="aui-nav-link login-link" href="/jira/login.jsp?os_destination=%2Fprojects%2FIGNITE">Log In</a> 
+        <div id="user-options-content" class="aui-dropdown2 aui-style-default"> 
+         <div class="aui-dropdown2-section"> 
+         </div> 
+        </div> </li> 
+      </ul>
+     </div>
+    </div>
+    <!-- .aui-header-inner-->
+   </nav>
+   <!-- .aui-header --> 
+  </header> 
+  <section id="content" role="main"> 
+   <div class="aui-sidebar ">
+    <div class="aui-sidebar-wrapper">
+     <div class="aui-sidebar-body">
+      <header class="aui-page-header selected">
+       <div class="aui-page-header-inner">
+        <div class="aui-page-header-image">
+         <a href="/jira/projects/IGNITE/summary" title="Ignite"><span class="aui-avatar aui-avatar-large aui-avatar-project"><span class="aui-avatar-inner"><img src="/jira/secure/projectavatar?pid=12315922&amp;avatarId=22313" alt="Ignite"></span></span></a>
+        </div>
+        <!-- .aui-page-header-image -->
+        <div class="aui-page-header-main">
+         <h1><a href="/jira/projects/IGNITE/summary" title="Ignite">Ignite</a></h1>
+        </div>
+        <!-- .aui-page-header-main -->
+       </div>
+       <!-- .aui-page-header-inner -->
+      </header>
+      <!-- .aui-page-header -->
+      <nav class="aui-navgroup aui-navgroup-vertical">
+       <div class="aui-navgroup-inner sidebar-content-container">
+        <div class="aui-sidebar-group aui-sidebar-group-tier-one" data-id="sidebar-navigation-panel">
+         <ul class="aui-nav">
+          <li><a class="aui-nav-item " href="/jira/projects/IGNITE?selectedItem=com.atlassian.jira.jira-projects-plugin:release-page" data-link-id="com.atlassian.jira.jira-projects-plugin:release-page"><span class="aui-icon aui-icon-large icon-sidebar-release"></span><span class="aui-nav-item-label" title="Releases">Releases</span></a></li>
+          <li><a class="aui-nav-item " href="/jira/projects/IGNITE?selectedItem=com.atlassian.jira.jira-projects-plugin:report-page" data-link-id="com.atlassian.jira.jira-projects-plugin:report-page"><span class="aui-icon aui-icon-large agile-icon-report"></span><span class="aui-nav-item-label" title="Reports">Reports</span></a></li>
+          <li><a class="aui-nav-item " href="/jira/projects/IGNITE?selectedItem=com.atlassian.jira.jira-projects-plugin:components-page" data-link-id="com.atlassian.jira.jira-projects-plugin:components-page"><span class="aui-icon aui-icon-large icon-sidebar-components"></span><span class="aui-nav-item-label" title="Components">Components</span></a></li>
+          <li><a class="aui-nav-item " href="/jira/projects/IGNITE/issues" data-link-id="com.atlassian.jira.jira-projects-issue-navigator:sidebar-issue-navigator"><span class="aui-icon aui-icon-large icon-sidebar-issues"></span><span class="aui-nav-item-label" title="Issues">Issues</span></a></li>
+         </ul>
+        </div>
+       </div>
+      </nav>
+     </div>
+     <div class="aui-sidebar-footer">
+      <a class="aui-button aui-button-subtle aui-sidebar-toggle aui-sidebar-footer-tipsy" data-tooltip="Expand sidebar ( [ )" href="#"><span class="aui-icon aui-icon-small"></span></a>
+     </div>
+    </div>
+   </div>
+   <div class="aui-page-panel">
+    <div class="aui-page-panel-inner">
+     <section class="aui-page-panel-content">
+      <header class="aui-page-header">
+       <div class="aui-page-header-inner">
+        <h1><span class="summary-page-header">Summary:</span><span class="summary-subnav-container"><span id="summary-subnav-trigger"></span></span></h1>
+        <span id="summary-subnav-opts"></span>
+       </div>
+       <!-- .aui-page-header-inner -->
+      </header>
+      <!-- .aui-page-header -->
+      <div id="summary-body">
+       <div class="aui-group">
+        <div class="aui-item">
+         <div class="project-summary-section project-description">
+          Apache Ignite
+         </div>
+         <div class="project-summary-section activity-stream">
+          <h2>Activity Stream</h2>
+          <iframe id="gadget-1" name="gadget-1" class="gadget" src="https://issues.apache.org/jira/plugins/servlet/gadgets/ifr?container=atlassian&amp;mid=1&amp;country=UK&amp;lang=en&amp;view=default&amp;view-params=%7B%22writable%22%3A%22false%22%7D&amp;st=atlassian%3Arrye%2FnVjHe%2B30PeMHv%2B3OijGsFr43gYNPT6e719JVMphT%2BEgBy776b0AmRfU666fTKvJAkeOxU%2Bf1Rd57tEl6RpxMFu70fNUfP%2BLffSWMQURt1DK8IADchN8ltdr%2FJTG3aZ5ri6kOr%2FzbbEvDt39NqawAvq8zEn%2BbIFetKby8b9rbvhY9z%2BG8K6raugobvrCdlKTzJA9nLNVBI%2BCs8JE3JUvPgDL154ihKbqKQ98GHFCCn3AfX6K1kR79Le%2FIAoVrONmv6fEsM868kvSQDDcUut0J2Q%3D&amp;up_isConfigured=true&amp;up_isReallyConfigured=false&amp;up_title=Activity+Stream&amp;up_titleRequired=false&amp;up_numofentries=10&amp;up_refresh=false&amp;up_maxProviderLabelCharacters=50&amp;up_rules=%7B%22providers%22%3A%5B%7B%22provider%22%3A%22streams%22%2C%22rules%22%3A%5B%7B%22rule%22%3A%22key%22%2C%22type%22%3A%22select%22%2C%22value%22%3A%5B%22IGNITE%22%5D%2C%22operator%22%3A%22is%22%7D%5D%7D%2C%7B%22rules%22%3A%5B%5D%2C%22disabled%22%3Atrue%2C%22provider%22%3A%22dud%22%7D%2C%7B%22provider%22%3A%22thirdparty%22%2C%22rules%22%3A%5B%5D%7D%2C%7B%22provider%22%3A%22dvcs-streams-provider%22%2C%22rules%22%3A%5B%5D%7D%2C%7B%22provider%22%3A%22issues%22%2C%22rules%22%3A%5B%5D%7D%5D%7D&amp;up_renderingContext=&amp;up_keys=&amp;up_itemKeys=&amp;up_username=&amp;url=https%3A%2F%2Fissues.apache.org%2Fjira%2Frest%2Fgadgets%2F1.0%2Fg%2Fcom.atlassian.streams.streams-jira-plugin%2Fgadgets%2Factivitystream-gadget.xml&amp;libs=auth-refresh#rpctoken=1031368939" frameborder="0" scrolling="no" height="100">&lt;a href="https://issues.apache.org/jira/plugins/servlet/gadgets/ifr?container=atlassian&amp;amp;mid=1&amp;amp;country=UK&amp;amp;lang=en&amp;amp;view=default&amp;amp;view-params=%7B%22writable%22%3A%22false%22%7D&amp;amp;st=atlassian%3Arrye%2FnVjHe%2B30PeMHv%2B3OijGsFr43gYNPT6e719JVMphT%2BEgBy776b0AmRfU666fTKvJAkeOxU%2Bf1Rd57tEl6RpxMFu70fNUfP%2BLffSWMQURt1DK8IADchN8ltdr%2FJTG3aZ5ri6kOr%2FzbbEvDt39NqawAvq8zEn%2BbIFetKby8b9rbvhY9z%2BG8K6raugobvrCdlKTzJA9nLNVBI%2BCs8JE3JUvPgDL154ihKbqKQ98GHFCCn3AfX6K1kR79Le%2FIAoVrONmv6fEsM868kvSQDDcUut0J2Q%3D&amp;amp;up_isConfigured=true&amp;amp;up_isReallyConfigured=false&amp;amp;up_title=Activity+Stream&amp;amp;up_titleRequired=false&amp;amp;up_numofentries=10&amp;amp;up_refresh=false&amp;amp;up_maxProviderLabelCharacters=50&amp;amp;up_rules=%7B%22providers%22%3A%5B%7B%22provider%22%3A%22streams%22%2C%22rules%22%3A%5B%7B%22rule%22%3A%22key%22%2C%22type%22%3A%22select%22%2C%22value%22%3A%5B%22IGNITE%22%5D%2C%22operator%22%3A%22is%22%7D%5D%7D%2C%7B%22rules%22%3A%5B%5D%2C%22disabled%22%3Atrue%2C%22provider%22%3A%22dud%22%7D%2C%7B%22provider%22%3A%22thirdparty%22%2C%22rules%22%3A%5B%5D%7D%2C%7B%22provider%22%3A%22dvcs-streams-provider%22%2C%22rules%22%3A%5B%5D%7D%2C%7B%22provider%22%3A%22issues%22%2C%22rules%22%3A%5B%5D%7D%5D%7D&amp;amp;up_renderingContext=&amp;amp;up_keys=&amp;amp;up_itemKeys=&amp;amp;up_username=&amp;amp;url=https%3A%2F%2Fissues.apache.org%2Fjira%2Frest%2Fgadgets%2F1.0%2Fg%2Fcom.atlassian.streams.streams-jira-plugin%2Fgadgets%2Factivitystream-gadget.xml&amp;amp;libs=auth-refresh#rpctoken=1031368939"&gt;Activity Stream&lt;/a&gt;</iframe>
+         </div>
+        </div>
+        <div class="aui-item project-meta-column">
+         <dl class="project-meta">
+          <dt class="project-meta-label">
+           Project Lead
+          </dt>
+          <dd class="project-meta-value"> 
+           <a class="jira-user-name user-hover jira-user-avatar jira-user-avatar-small" rel="cos" id="project-vignette_cos" href="/jira/secure/ViewProfile.jspa?name=cos"> <span class="aui-avatar aui-avatar-small"><span class="aui-avatar-inner"><img src="https://issues.apache.org/jira/secure/useravatar?size=small&amp;ownerId=cos&amp;avatarId=16741" alt="cos"></span></span> Konstantin Boudnik </a> 
+          </dd>
+          <dt class="project-meta-label project-meta-most-active">
+           Last week most active
+           <span class="aui-icon aui-icon-small aui-iconfont-help most-active-help" title="People who are assigned to issues modified in the last week."></span>
+          </dt>
+          <dd class="project-meta-value project-meta-most-active"> 
+           <a class="user-hover" id="mostactive_dmagda" rel="dmagda" href="/jira/secure/ViewProfile.jspa?name=dmagda"> <span class="aui-avatar aui-avatar-small"><span class="aui-avatar-inner"><img src="https://issues.apache.org/jira/secure/useravatar?size=small&amp;ownerId=dmagda&amp;avatarId=24701" alt="dmagda"></span></span> </a> 
+           <a class="user-hover" id="mostactive_pgarg" rel="pgarg" href="/jira/secure/ViewProfile.jspa?name=pgarg"> <span class="aui-avatar aui-avatar-small"><span class="aui-avatar-inner"><img src="https://issues.apache.org/jira/secure/useravatar?size=small&amp;avatarId=10447" alt="pgarg"></span></span> </a> 
+           <a class="user-hover" id="mostactive_ptupitsyn" rel="ptupitsyn" href="/jira/secure/ViewProfile.jspa?name=ptupitsyn"> <span class="aui-avatar aui-avatar-small"><span class="aui-avatar-inner"><img src="https://issues.apache.org/jira/secure/useravatar?size=small&amp;ownerId=ptupitsyn&amp;avatarId=24787" alt="ptupitsyn"></span></span> </a> 
+           <a class="user-hover" id="mostactive_vozerov" rel="vozerov" href="/jira/secure/ViewProfile.jspa?name=vozerov"> <span class="aui-avatar aui-avatar-small"><span class="aui-avatar-inner"><img src="https://issues.apache.org/jira/secure/useravatar?size=small&amp;ownerId=vozerov&amp;avatarId=32433" alt="vozerov"></span></span> </a> 
+           <a class="user-hover" id="mostactive_amashenkov" rel="amashenkov" href="/jira/secure/ViewProfile.jspa?name=amashenkov"> <span class="aui-avatar aui-avatar-small"><span class="aui-avatar-inner"><img src="https://issues.apache.org/jira/secure/useravatar?size=small&amp;ownerId=amashenkov&amp;avatarId=29303" alt="amashenkov"></span></span> </a> 
+          </dd>
+          <dt class="project-meta-label">
+           Key
+          </dt>
+          <dd class="project-meta-value">
+           IGNITE
+          </dd>
+          <dt class="project-meta-label">
+           Category
+          </dt>
+          <dd class="project-meta-value">
+           <a href="/jira/secure/BrowseProjects.jspa#13563">Ignite</a>
+          </dd>
+          <dt class="project-meta-label project-meta-url">
+           URL
+          </dt>
+          <dd class="project-meta-value project-meta-url">
+           <a href="http://ignite.apache.org">http://ignite.apache.org</a>
+          </dd>
+         </dl>
+        </div>
+       </div>
+      </div>
+     </section>
+     <!-- .aui-page-panel-content -->
+    </div>
+    <!-- .aui-page-panel-inner -->
+   </div>
+   <!-- .aui-page-panel --> 
+  </section> 
+  <footer id="footer" role="contentinfo"> 
+   <section class="footer-body"> 
+    <ul class="atlassian-footer"> 
+     <li> Atlassian JIRA <a class="seo-link" href="https://www.atlassian.com/software/jira">Project Management Software</a> <span id="footer-build-information">(v6.4.14#64029-<span title="ae256fe0fbb912241490ff1cecfb323ea0905ca5" data-commit-id="ae256fe0fbb912241490ff1cecfb323ea0905ca5}">sha1:ae256fe</span>)</span> </li> 
+     <li> <a id="about-link" href="/jira/secure/AboutPage.jspa">About JIRA</a> </li> 
+     <li> <a id="footer-report-problem-link" href="/jira/secure/CreateIssue!default.jspa">Report a problem</a> </li> 
+    </ul> 
+    <ul class="atlassian-footer"> 
+     <li class="licensemessage"> Powered by a free Atlassian <a href="http://www.atlassian.com/software/jira">JIRA</a> open source license for Apache Software Foundation. Try JIRA - <a href="http://www.atlassian.com/software/jira">bug tracking software</a> for <i>your</i> team. </li> 
+    </ul> 
+    <form id="jira_request_timing_info" class="dont-default-focus"> 
+     <fieldset class="parameters hidden"> 
+      <input type="hidden" title="jira.request.start.millis" value="1508521232427"> 
+      <input type="hidden" title="jira.request.server.time" value="896"> 
+      <input type="hidden" title="jira.request.id" value="1060x4412392x5"> 
+      <input type="hidden" title="jira.session.expiry.time" value="-"> 
+      <input type="hidden" title="jira.session.expiry.in.mins" value="-"> 
+      <input id="jiraConcurrentRequests" type="hidden" name="jira.request.concurrent.requests" value="3"> 
+     </fieldset> 
+    </form> 
+    <!--
+	                 REQUEST ID : 1060x4412392x5
+	          REQUEST TIMESTAMP : [20/Oct/2017:17:40:32 +0000]
+	               REQUEST TIME : 0.8960
+	                 ASESSIONID : -
+	        CONCURRENT REQUESTS : 3
+
+	             issue.index.reads : name=issue.index.reads; inv=1; ms=109; cpu=0; rss=0;
+	                      db.reads : name=db.reads; inv=4; ms=108; cpu=0; rss=0;
+	                      db.conns : name=db.conns; inv=10; ms=137; cpu=0; rss=0;
+--> 
+    <div id="footer-logo">
+     <a href="http://www.atlassian.com/">Atlassian</a>
+    </div> 
+   </section> 
+   <fieldset class="hidden parameters"> 
+    <input type="hidden" title="loggedInUser" value=""> 
+    <input type="hidden" title="ajaxTimeout" value="The call to the JIRA server did not complete within the timeout period.  We are unsure of the result of this operation."> 
+    <input type="hidden" title="JiraVersion" value="6.4.14"> 
+    <input type="hidden" title="ajaxUnauthorised" value="You are not authorised to perform this operation. Please log in."> 
+    <input type="hidden" title="baseURL" value="https://issues.apache.org:443/jira"> 
+    <input type="hidden" title="ajaxCommsError" value="The JIRA server could not be contacted. This may be a temporary glitch or the server may be down."> 
+    <input type="hidden" title="ajaxServerError" value="The JIRA server was contacted but has returned an error response. We are unsure of the result of this operation."> 
+    <input type="hidden" title="ajaxErrorCloseDialog" value="Close this dialog and press refresh in your browser"> 
+    <input type="hidden" title="ajaxErrorDialogHeading" value="Communications Breakdown"> 
+    <input type="hidden" title="dirtyMessage" value="You have entered new data on this page. If you navigate away from this page without first saving your data, the changes will be lost."> 
+    <input type="hidden" title="dirtyDialogMessage" value="You have entered new data in this dialog. If you navigate away from this dialog without first saving your data, the changes will be lost. Click cancel to return to the dialog."> 
+    <input type="hidden" title="keyType" value="Type"> 
+    <input type="hidden" title="keyThen" value="then"> 
+    <input type="hidden" title="dblClickToExpand" value="Double click to expand"> 
+    <input type="hidden" title="actions" value="Actions"> 
+    <input type="hidden" title="removeItem" value="Remove"> 
+    <input type="hidden" title="workflow" value="Workflow"> 
+    <input type="hidden" title="labelNew" value="New Label"> 
+    <input type="hidden" title="issueActionsHint" value="Begin typing for available operations or press down to see all"> 
+    <input type="hidden" title="closelink" value="Close"> 
+    <input type="hidden" title="dotOperations" value="Operations"> 
+    <input type="hidden" title="dotLoading" value="Loading..."> 
+    <input type="hidden" title="frotherSuggestions" value="Suggestions"> 
+    <input type="hidden" title="frotherNomatches" value="No Matches"> 
+    <input type="hidden" title="multiselectVersionsError" value="{0} is not a valid version."> 
+    <input type="hidden" title="multiselectComponentsError" value="{0} is not a valid component."> 
+    <input type="hidden" title="multiselectGenericError" value="The value {0} is invalid."> 
+   </fieldset> 
+  </footer> 
+ </div>  
+</body>

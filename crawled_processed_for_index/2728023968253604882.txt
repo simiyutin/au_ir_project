@@ -1,0 +1,1019 @@
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-246 node-type-seminar i18n-ru"> 
+ <!-- Google Tag Manager --> 
+ <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-PKKN48');</script> 
+ <!-- End Google Tag Manager --> 
+ <!-- Google Tag Manager (noscript) --> 
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-PKKN48" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+ </noscript> 
+ <!-- End Google Tag Manager (noscript) --> 
+ <div id="skip-link"> 
+  <a href="#main-content" class="element-invisible element-focusable">Перейти к основному содержанию</a> 
+ </div> 
+ <div class="row-offcanvas row-offcanvas-right"> 
+  <!--<div class="col-xs-12 col-sm-12">--> 
+  <header role="banner" class="navbar navbar-default main-header"> 
+   <div class="container-fluid"> 
+    <div class="navbar-header"> 
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> 
+     <div id="logo"> 
+      <a class="logo pull-left" href="/" title="Университеты DataLine"> <img src="http://uni.dtln.ru/sites/all/themes/univer/images/uni_logo.svg" alt="Университеты DataLine"> </a> 
+     </div> 
+     <div class="hidden-xs hidden-md hidden-lg navbar-secondary">
+      <ul class="menu nav navbar-nav secondary">
+       <li class="first leaf active-trail active"><a href="/courses" title="" class="active-trail">Курсы и семинары</a></li> 
+       <li class="leaf"><a href="/about" title="">О нас</a></li> 
+       <li class="last leaf"><a href="/contacts" title="">Контакты</a></li> 
+      </ul>
+     </div> 
+     <div class="hidden-xs hidden-sm lead">
+      <a href="http://www.dtln.ru">На сайт DataLine</a>
+     </div> 
+    </div> 
+    <div id="navbar" class="navbar-collapse collapse show-footer"> 
+     <nav role="navigation"> 
+      <div class="region region-navigation"> 
+       <section id="block-menu-block-1" class="block block-menu-block clearfix"> 
+        <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1"> 
+         <ul class="menu nav">
+          <li class="first leaf has-children active-trail menu-mlid-758 active"><a href="/courses" title="" class="active-trail">Семинары</a></li> 
+          <li class="leaf menu-mlid-716"><a href="/digest" title="">Библиотека</a></li> 
+          <li class="leaf menu-mlid-759"><a href="/about">О нас</a></li> 
+          <li class="leaf menu-mlid-761"><a href="/experts" title="">Эксперты</a></li> 
+          <li class="last leaf menu-mlid-760"><a href="/contacts" title="">Контакты</a></li> 
+         </ul>
+        </div> 
+       </section> 
+      </div> 
+     </nav> 
+    </div> 
+   </div> 
+  </header> 
+  <div id="header" role="banner" class="header"> 
+   <div class="container"> 
+    <div class="region region-header"> 
+     <section id="block-views-seminar-promo-block" class="block block-views clearfix"> 
+      <div class="view view-seminar-promo view-id-seminar_promo view-display-id-block seminar-page view-dom-id-fc4d14ffab0ba9ae9cdae1c7019e66de"> 
+       <div class="view-content"> 
+        <div class="views-field views-field-views-conditional-1"> 
+         <span class="field-content">
+          <div class="svg_555_320">
+           <img class="img-responsive" src="http://uni.dtln.ru/files/seminar/svg/critical_systems_1.svg" alt="Облака для критичных систем">
+          </div></span> 
+        </div> 
+        <div class="views-field views-field-view"> 
+         <span class="field-content">
+          <div class="view view-seminar-dates view-id-seminar_dates view-display-id-entity_view_2 view-dom-id-67e81e7865b67d1a5179955112ccf70d"> 
+           <div class="view-content"> 
+            <div class="views-row views-row-1 views-row-odd views-row-first views-row-last"> 
+             <div class="views-field views-field-php-1"> 
+              <span class="field-content">26 октября, 11:00</span> 
+             </div> 
+            </div> 
+           </div> 
+          </div> </span> 
+        </div> 
+        <div class="views-field views-field-title"> 
+         <span class="field-content">Облака для критичных систем</span> 
+        </div> 
+        <div class="views-field views-field-views-conditional-4"> 
+         <span class="field-content">Семинар курса «Управление виртуальной инфраструктурой»</span> 
+        </div> 
+        <div class="views-field views-field-views-conditional-2"> 
+         <span class="field-content"></span> 
+        </div> 
+        <div class="views-field views-field-views-conditional"> 
+         <span class="field-content"></span> 
+        </div> 
+        <div class="views-field views-field-views-conditional-3"> 
+         <span class="field-content"><a href="#block-webform-client-block-219" class="btn btn-primary page-scroll">Отправить заявку</a> 
+          <div class="expected-more">
+           Мы обязательно вам ответим.
+          </div></span> 
+        </div> 
+       </div> 
+      </div> 
+     </section> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="main" class="main-container container"> 
+   <div class="row"> 
+    <section class="col-xs-12 col-sm-12"> 
+     <script type="application/ld+json">
+{
+"@context": "http://schema.org",
+"@type": "BreadcrumbList",
+"itemListElement": [ {
+	"@type": "ListItem",
+	"position": 1,
+	"item": {
+		"@id": "http://uni.dtln.ru/courses",
+		"name": "Семинары"
+	}
+}, {
+	"@type": "ListItem",
+	"position": 2,
+	"item": {
+		"@id": "http://uni.dtln.ru/courses/virtualnaya-infrastruktura",
+		"name": "Управление виртуальной инфраструктурой"
+	}
+}, {
+	"@type": "ListItem",
+	"position": 3,
+	"item": {
+		"@id": "http://uni.dtln.ru/courses/upravlenie-virtualnoy-infrastrukturoy/oblaka-dlya-kritichnyh-sistem",
+		"name": "Облака для критичных систем"
+	}
+}]
+}
+</script> 
+     <a id="main-content"></a> 
+     <div class="region region-content"> 
+      <section id="block-system-main" class="block block-system clearfix"> 
+       <div about="/courses/upravlenie-virtualnoy-infrastrukturoy/oblaka-dlya-kritichnyh-sistem" typeof="sioc:Item foaf:Document" class="node node-seminar view-mode-full"> 
+        <div class="row first"> 
+         <div class="col-md-offset-1 col-md-6 col-sm-7 col-xs-12 "> 
+          <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+           <div class="field-items">
+            <div class="field-item even" property="content:encoded">
+             <p class="h3">Облака для критичных систем:</p> 
+             <ul class="striped">
+              <li>Каким должно быть правильное облако, и каким оно быть не должно</li> 
+              <li>Аренда ресурсов: что делать, чтобы всё работало для ваших задач</li> 
+             </ul>
+            </div>
+           </div>
+          </div> 
+         </div> 
+         <div class="col-md-offset-1 col-md-3 col-sm-offset-1 col-sm-4 col-xs-12 "> 
+          <div class="view view-seminar-dates view-id-seminar_dates view-display-id-entity_view_1 view-dom-id-1641b77a7ce755347eadcf50171a7d33"> 
+           <div class="view-content"> 
+            <div class="views-row views-row-1 views-row-odd views-row-first views-row-last"> 
+             <div class="views-field views-field-field-seminar-author"> 
+              <div class="field-content">
+               <div about="/author/mihail-solovev" typeof="sioc:Item foaf:Document" class="ds-1col node node-author node-promoted node-teaser view-mode-teaser clearfix"> 
+                <div class="field field-name-expert-label field-type-ds field-label-hidden">
+                 <div class="field-items">
+                  <div class="field-item even">
+                   <h5> <span class="small upper">Спикер</span> </h5>
+                  </div>
+                 </div>
+                </div>
+                <div class="field field-name-field-author-photo field-type-image field-label-hidden img-circle">
+                 <div class="field-items">
+                  <div class="field-item even">
+                   <img typeof="foaf:Image" class="img-responsive" src="http://uni.dtln.ru/files/styles/author_150_150/public/author/solovyev.jpg?itok=c2NHIU09" width="150" height="150" alt="">
+                  </div>
+                 </div>
+                </div>
+                <div class="field field-name-title field-type-ds field-label-hidden">
+                 <div class="field-items">
+                  <div class="field-item even" property="dc:title">
+                   <h2><a href="/author/mihail-solovev">Михаил Соловьев</a></h2>
+                  </div>
+                 </div>
+                </div>
+                <div class="field field-name-field-author-position field-type-text field-label-hidden">
+                 <div class="field-items">
+                  <div class="field-item even">
+                   Руководитель облачной практики
+                  </div>
+                 </div>
+                </div>
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="row second with-map"> 
+         <div class="map col-md-3 col-sm-12 col-xs-12 "> 
+          <div class="field field-name-field-seminar-place field-type-node-reference field-label-hidden">
+           <div class="field-items">
+            <div class="field-item even">
+             <div about="/place/loft-denisovsky-deluxe" typeof="sioc:Item foaf:Document" class="ds-1col node node-place view-mode-full clearfix"> 
+              <div class="field field-name-place-label field-type-ds field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <h5><span class="small upper">Место семинара</span></h5>
+                </div>
+               </div>
+              </div>
+              <div class="field field-name-title field-type-ds field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even" property="dc:title">
+                 <h5>LOFT Denisovsky Deluxe</h5>
+                </div>
+               </div>
+              </div>
+              <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even" property="content:encoded">
+                 <p>Москва,<br> Денисовский переулок,&nbsp; 26</p> 
+                </div>
+               </div>
+              </div>
+              <div class="view view-place view-id-place view-display-id-entity_view_1 view-dom-id-8924d29e14942e7c64f78fc0384164b3"> 
+               <div class="view-content"> 
+                <div class="views-row views-row-1 views-row-odd views-row-first views-row-last"> 
+                 <div class="views-field views-field-field-place-map"> 
+                  <div class="field-content">
+                   <div id="ymap-node-323-field-place-map-0" style="width:100%; height:600px;" class="yamaps-map-container "></div> 
+                  </div> 
+                 </div> 
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div>
+           </div>
+          </div> 
+         </div> 
+         <div class="gallery col-md-9 col-sm-12 col-xs-12 "> 
+          <div class="field field-name-field-seminar-gallery field-type-node-reference field-label-hidden">
+           <div class="field-items">
+            <div class="field-item even">
+             <div about="/gallery/seminar-holodosnabzhenie-cod-kak-ne-peregretsya-letom-08062016" typeof="sioc:Item foaf:Document" class="ds-1col node node-gallery view-mode-full clearfix"> 
+              <div class="view view-gallery view-id-gallery view-display-id-entity_view_1 view-dom-id-45904a79f6d5694f8a0e9bc2a48a6d88"> 
+               <div class="view-content fotorama" data-nav="thumbs" data-allowfullscreen="native"> 
+                <img src="http://uni.dtln.ru/files/styles/gallery_893_545/public/galleries/sem1_09.jpg" data-full="http://uni.dtln.ru/files/galleries/sem1_09.jpg"> 
+                <img src="http://uni.dtln.ru/files/styles/gallery_893_545/public/galleries/sem1_02.jpg" data-full="http://uni.dtln.ru/files/galleries/sem1_02.jpg"> 
+                <img src="http://uni.dtln.ru/files/styles/gallery_893_545/public/galleries/sem1_03.jpg" data-full="http://uni.dtln.ru/files/galleries/sem1_03.jpg"> 
+                <img src="http://uni.dtln.ru/files/styles/gallery_893_545/public/galleries/sem1_04.jpg" data-full="http://uni.dtln.ru/files/galleries/sem1_04.jpg"> 
+                <img src="http://uni.dtln.ru/files/styles/gallery_893_545/public/galleries/sem1_05.jpg" data-full="http://uni.dtln.ru/files/galleries/sem1_05.jpg"> 
+                <img src="http://uni.dtln.ru/files/styles/gallery_893_545/public/galleries/sem1_06.jpg" data-full="http://uni.dtln.ru/files/galleries/sem1_06.jpg"> 
+                <img src="http://uni.dtln.ru/files/styles/gallery_893_545/public/galleries/sem1_07.jpg" data-full="http://uni.dtln.ru/files/galleries/sem1_07.jpg"> 
+                <img src="http://uni.dtln.ru/files/styles/gallery_893_545/public/galleries/sem1_08.jpg" data-full="http://uni.dtln.ru/files/galleries/sem1_08.jpg"> 
+                <img src="http://uni.dtln.ru/files/styles/gallery_893_545/public/galleries/sem1_10.jpg" data-full="http://uni.dtln.ru/files/galleries/sem1_10.jpg"> 
+                <img src="http://uni.dtln.ru/files/styles/gallery_893_545/public/galleries/sem1_11.jpg" data-full="http://uni.dtln.ru/files/galleries/sem1_11.jpg"> 
+                <img src="http://uni.dtln.ru/files/styles/gallery_893_545/public/galleries/sem1_12.jpg" data-full="http://uni.dtln.ru/files/galleries/sem1_12.jpg"> 
+                <img src="http://uni.dtln.ru/files/styles/gallery_893_545/public/galleries/sem1_13.jpg" data-full="http://uni.dtln.ru/files/galleries/sem1_13.jpg"> 
+                <img src="http://uni.dtln.ru/files/styles/gallery_893_545/public/galleries/sem1_14.jpg" data-full="http://uni.dtln.ru/files/galleries/sem1_14.jpg"> 
+                <img src="http://uni.dtln.ru/files/styles/gallery_893_545/public/galleries/sem1_15.jpg" data-full="http://uni.dtln.ru/files/galleries/sem1_15.jpg"> 
+               </div> 
+              </div> 
+             </div> 
+            </div>
+           </div>
+          </div> 
+         </div> 
+        </div> 
+        <div class="row third"> 
+         <section class="program col-md-8 col-sm-8 col-xs-12 ">
+          <div class="field field-name-field-seminar-program">
+           <div class="label-above">
+            Программа
+           </div> 
+           <div about="/field-collection/field-seminar-program/154" typeof="" class="entity entity-field-collection-item field-collection-item-field-seminar-program view-mode-full"> 
+            <div class="row first"> 
+             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-time field-type-timefield field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <div class="time-default">
+                   10:00 - 10:15
+                 </div> 
+                </div>
+               </div>
+              </div> 
+             </div> 
+             <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-desc field-type-text-long field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <p>Трансфер от метро «Электрозаводская»</p>
+                </div>
+               </div>
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <!-- Needed to activate display suite support on forms --> 
+           <div about="/field-collection/field-seminar-program/155" typeof="" class="entity entity-field-collection-item field-collection-item-field-seminar-program view-mode-full"> 
+            <div class="row first"> 
+             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-time field-type-timefield field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <div class="time-default">
+                   10:30 - 11:15
+                 </div> 
+                </div>
+               </div>
+              </div> 
+             </div> 
+             <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-desc field-type-text-long field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <p>Регистрация гостей и welcome coffee</p>
+                </div>
+               </div>
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <!-- Needed to activate display suite support on forms --> 
+           <div about="/field-collection/field-seminar-program/156" typeof="" class="entity entity-field-collection-item field-collection-item-field-seminar-program view-mode-full"> 
+            <div class="row first"> 
+             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-time field-type-timefield field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <div class="time-default">
+                   11:15 - 11:20
+                 </div> 
+                </div>
+               </div>
+              </div> 
+             </div> 
+             <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-desc field-type-text-long field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <p><b>Вводная часть:</b> кратко о курсе «Облачные университеты»</p>
+                </div>
+               </div>
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <!-- Needed to activate display suite support on forms --> 
+           <div about="/field-collection/field-seminar-program/157" typeof="" class="entity entity-field-collection-item field-collection-item-field-seminar-program view-mode-full"> 
+            <div class="row first"> 
+             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-time field-type-timefield field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <div class="time-default">
+                   11:20 - 11:30
+                 </div> 
+                </div>
+               </div>
+              </div> 
+             </div> 
+             <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-desc field-type-text-long field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <p><b>Облако, виртуальный дата-центр, VPS\VDS:</b></p> 
+                 <ul>
+                  <li>Что предлагается на рынке</li> 
+                  <li>В чем отличия продуктов</li> 
+                  <li>Что подходит для продуктивных систем среднего и крупного бизнеса</li> 
+                 </ul>
+                </div>
+               </div>
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <!-- Needed to activate display suite support on forms --> 
+           <div about="/field-collection/field-seminar-program/158" typeof="" class="entity entity-field-collection-item field-collection-item-field-seminar-program view-mode-full"> 
+            <div class="row first"> 
+             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-time field-type-timefield field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <div class="time-default">
+                   11:30 - 11:40
+                 </div> 
+                </div>
+               </div>
+              </div> 
+             </div> 
+             <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-desc field-type-text-long field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <p><b>Типовые приложения в облаке - особенности размещения и облачные сервисы</b></p>
+                </div>
+               </div>
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <!-- Needed to activate display suite support on forms --> 
+           <div about="/field-collection/field-seminar-program/159" typeof="" class="entity entity-field-collection-item field-collection-item-field-seminar-program view-mode-full"> 
+            <div class="row first"> 
+             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-time field-type-timefield field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <div class="time-default">
+                   11:40 - 11:50
+                 </div> 
+                </div>
+               </div>
+              </div> 
+             </div> 
+             <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-desc field-type-text-long field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <p><b>Компоненты виртуальной инфраструктуры:</b></p> 
+                 <ul>
+                  <li>Гипервизор – почему это важно. VMware, Microsoft или open source - возможности, плюсы и минусы</li> 
+                  <li>Выбираем СХД: на что обратить внимание</li> 
+                  <li>Почему стоит насторожиться, если провайдер не раскрывает, как устроено его хранилище</li> 
+                 </ul>
+                </div>
+               </div>
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <!-- Needed to activate display suite support on forms --> 
+           <div about="/field-collection/field-seminar-program/160" typeof="" class="entity entity-field-collection-item field-collection-item-field-seminar-program view-mode-full"> 
+            <div class="row first"> 
+             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-time field-type-timefield field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <div class="time-default">
+                   11:50 - 12:00
+                 </div> 
+                </div>
+               </div>
+              </div> 
+             </div> 
+             <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-desc field-type-text-long field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <p>Кофе-брейк</p>
+                </div>
+               </div>
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <!-- Needed to activate display suite support on forms --> 
+           <div about="/field-collection/field-seminar-program/161" typeof="" class="entity entity-field-collection-item field-collection-item-field-seminar-program view-mode-full"> 
+            <div class="row first"> 
+             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-time field-type-timefield field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <div class="time-default">
+                   12:00 - 12:20
+                 </div> 
+                </div>
+               </div>
+              </div> 
+             </div> 
+             <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-desc field-type-text-long field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <p><b>Облако и сеть:</b></p> 
+                 <ul>
+                  <li>Сетевая связанность внутри облака</li> 
+                  <li>«Кроссировка в облако»</li> 
+                  <li>Гибридные облака - объединяем ваш офис, склады, магазины и облачные ресурсы</li> 
+                 </ul>
+                </div>
+               </div>
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <!-- Needed to activate display suite support on forms --> 
+           <div about="/field-collection/field-seminar-program/162" typeof="" class="entity entity-field-collection-item field-collection-item-field-seminar-program view-mode-full"> 
+            <div class="row first"> 
+             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-time field-type-timefield field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <div class="time-default">
+                   12:20 - 12:30
+                 </div> 
+                </div>
+               </div>
+              </div> 
+             </div> 
+             <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-desc field-type-text-long field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <p><b>«Мне только спросить…»: тестирование облака</b></p> 
+                 <ul>
+                  <li>Как правильно выполнить тестирование облака. Инструменты и методы</li> 
+                  <li>Функциональность и производительность: на что обратить внимание</li> 
+                 </ul>
+                </div>
+               </div>
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <!-- Needed to activate display suite support on forms --> 
+           <div about="/field-collection/field-seminar-program/163" typeof="" class="entity entity-field-collection-item field-collection-item-field-seminar-program view-mode-full"> 
+            <div class="row first"> 
+             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-time field-type-timefield field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <div class="time-default">
+                   12:30 - 12:50
+                 </div> 
+                </div>
+               </div>
+              </div> 
+             </div> 
+             <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-desc field-type-text-long field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <p><b>SLA и сервисы провайдера:</b></p> 
+                 <ul>
+                  <li>Сайзинг - требования бизнес-приложений к инфраструктуре</li> 
+                  <li>Дополнительные сервисы провайдера - почему важно их использовать</li> 
+                  <li>SLA и Tier III: почему «девятки» - это еще не всё</li> 
+                  <li>Техподдержка. Зачем нужен 24/7</li> 
+                  <li>Миграция: наш опыт</li> 
+                 </ul>
+                </div>
+               </div>
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <!-- Needed to activate display suite support on forms --> 
+           <div about="/field-collection/field-seminar-program/164" typeof="" class="entity entity-field-collection-item field-collection-item-field-seminar-program view-mode-full"> 
+            <div class="row first"> 
+             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-time field-type-timefield field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <div class="time-default">
+                   12:50 - 13:00
+                 </div> 
+                </div>
+               </div>
+              </div> 
+             </div> 
+             <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-desc field-type-text-long field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <p><b>Ответы на вопросы</b></p>
+                </div>
+               </div>
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <!-- Needed to activate display suite support on forms --> 
+           <div about="/field-collection/field-seminar-program/165" typeof="" class="entity entity-field-collection-item field-collection-item-field-seminar-program view-mode-full"> 
+            <div class="row first"> 
+             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-time field-type-timefield field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <div class="time-default">
+                   13:00 - 13:30
+                 </div> 
+                </div>
+               </div>
+              </div> 
+             </div> 
+             <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-desc field-type-text-long field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <p>Ланч</p>
+                 <p></p>
+                </div>
+               </div>
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <!-- Needed to activate display suite support on forms --> 
+           <div about="/field-collection/field-seminar-program/166" typeof="" class="entity entity-field-collection-item field-collection-item-field-seminar-program view-mode-full"> 
+            <div class="row first"> 
+             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-time field-type-timefield field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <div class="time-default">
+                   13:30 - 13:50
+                 </div> 
+                </div>
+               </div>
+              </div> 
+             </div> 
+             <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-desc field-type-text-long field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <p><b>Трансфер к дата-центру OST.</b> Боровая 7 стр. 10</p>
+                </div>
+               </div>
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <!-- Needed to activate display suite support on forms --> 
+           <div about="/field-collection/field-seminar-program/167" typeof="" class="entity entity-field-collection-item field-collection-item-field-seminar-program view-mode-full"> 
+            <div class="row first"> 
+             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-time field-type-timefield field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <div class="time-default">
+                   13:50 - 14:40
+                 </div> 
+                </div>
+               </div>
+              </div> 
+             </div> 
+             <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-desc field-type-text-long field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <p><b>Экскурсия по дата-центру DataLine</b></p>
+                </div>
+               </div>
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <!-- Needed to activate display suite support on forms --> 
+           <div about="/field-collection/field-seminar-program/168" typeof="" class="entity entity-field-collection-item field-collection-item-field-seminar-program view-mode-full"> 
+            <div class="row first"> 
+             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-time field-type-timefield field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <div class="time-default">
+                   14:40 - 15:00
+                 </div> 
+                </div>
+               </div>
+              </div> 
+             </div> 
+             <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 "> 
+              <div class="field field-name-field-seminar-program-desc field-type-text-long field-label-hidden">
+               <div class="field-items">
+                <div class="field-item even">
+                 <p>Трансфер до метро «Электрозаводская»</p>
+                </div>
+               </div>
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <!-- Needed to activate display suite support on forms --> 
+          </div>
+         </section> 
+         <div class="more-informations col-md-offset-1 col-md-3 col-sm-4 col-xs-12 ">
+          <div class="view view-seminar-fields view-id-seminar_fields view-display-id-entity_view_1 view-dom-id-b8073344f99e415242826319112f5b65"> 
+           <div class="view-content"> 
+            <h3>Регистрация обязательна</h3> 
+            <p class="small">Участие в семинаре возможно только при подтверждении вашей регистрации с нашей стороны. Дождитесь, пожалуйста, нашего ответа.</p> 
+           </div> 
+          </div> 
+          <div class="field field-name-field-seminar-total field-type-text-long field-label-hidden">
+           <div class="field-items">
+            <div class="field-item even">
+             <p><strong>5 часов</strong></p> 
+             <p>семинар, кофе-брейки и экскурсия</p>
+            </div>
+           </div>
+          </div>
+          <div class="field field-name-field-seminar-participants field-type-number-integer field-label-hidden">
+           <div class="field-items">
+            <div class="field-item even">
+             <span>до 60</span> участников
+            </div>
+           </div>
+          </div>
+         </div> 
+        </div> 
+       </div> 
+       <!-- Needed to activate display suite support on forms --> 
+      </section> 
+      <section id="block-webform-client-block-219" class="block block-webform clearfix"> 
+       <div id="webform-ajax-wrapper-219">
+        <form class="webform-client-form webform-client-form-219" action="/courses/upravlenie-virtualnoy-infrastrukturoy/oblaka-dlya-kritichnyh-sistem" method="post" id="webform-client-form-219" accept-charset="UTF-8">
+         <div>
+          <div class="form-item webform-component webform-component-markup webform-component--type-1 form-group form-item form-type-markup form-group">
+           <h3>Заявка на текущий семинар</h3> 
+          </div>
+          <div class="form-item webform-component webform-component-markup webform-component--type-2 form-group form-item form-type-markup form-group">
+           <h3>Позовите меня на следующий семинар</h3> 
+          </div>
+          <div class="form-item webform-component webform-component-markup webform-component--type-3 form-group form-item form-type-markup form-group">
+           <h3>Заявка на просмотр видеотрансляции семинара</h3> 
+          </div>
+          <div class="form-item webform-component webform-component-textfield webform-component--name webform-container-inline form-group form-inline form-item form-item-submitted-name form-type-textfield form-group"> 
+           <label class="control-label" for="edit-submitted-name">Имя и фамилия <span class="form-required" title="Это поле обязательно для заполнения.">*</span></label> 
+           <input required class="form-control form-text required" type="text" id="edit-submitted-name" name="submitted[name]" value="" size="60" maxlength="128">
+          </div>
+          <div class="form-item webform-component webform-component-textfield webform-component--company webform-container-inline form-group form-inline form-item form-item-submitted-company form-type-textfield form-group"> 
+           <label class="control-label" for="edit-submitted-company">Компания <span class="form-required" title="Это поле обязательно для заполнения.">*</span></label> 
+           <input required class="form-control form-text required" type="text" id="edit-submitted-company" name="submitted[company]" value="" size="60" maxlength="128">
+          </div>
+          <div class="form-item webform-component webform-component-textfield webform-component--position webform-container-inline form-group form-inline form-item form-item-submitted-position form-type-textfield form-group"> 
+           <label class="control-label" for="edit-submitted-position">Должность <span class="form-required" title="Это поле обязательно для заполнения.">*</span></label> 
+           <input required class="form-control form-text required" type="text" id="edit-submitted-position" name="submitted[position]" value="" size="60" maxlength="128">
+          </div>
+          <div class="form-item webform-component webform-component-textfield webform-component--phone webform-container-inline form-group form-inline form-item form-item-submitted-phone form-type-textfield form-group"> 
+           <label class="control-label" for="edit-submitted-phone">Телефон <span class="form-required" title="Это поле обязательно для заполнения.">*</span></label> 
+           <input required placeholder="+7 (___) ___-__-__" class="form-control form-text required" type="text" id="edit-submitted-phone" name="submitted[phone]" value="" size="60" maxlength="128">
+          </div>
+          <div class="form-item webform-component webform-component-email webform-component--email webform-container-inline form-group form-inline form-item form-item-submitted-email form-type-webform-email form-group"> 
+           <label class="control-label" for="edit-submitted-email">Корпоративный e-mail <span class="form-required" title="Это поле обязательно для заполнения.">*</span></label> 
+           <input required class="email form-control form-text form-email required" placeholder="example@example.com" type="email" id="edit-submitted-email" name="submitted[email]" size="60">
+          </div>
+          <div class="form-item webform-component webform-component-select webform-component--type form-group form-item form-item-submitted-type form-type-select form-group"> 
+           <label class="control-label" for="edit-submitted-type">Тип <span class="form-required" title="Это поле обязательно для заполнения.">*</span></label> 
+           <select required class="form-control form-select required" id="edit-submitted-type" name="submitted[type]"><option value="">- Выберите -</option><option value="active" selected>Текущий</option><option value="full">Места закончились</option><option value="expected">Будущий</option></select>
+          </div>
+          <input type="hidden" name="details[sid]"> 
+          <input type="hidden" name="details[page_num]" value="1"> 
+          <input type="hidden" name="details[page_count]" value="1"> 
+          <input type="hidden" name="details[finished]" value="0"> 
+          <input type="hidden" name="form_build_id" value="form-LFXovrztKT-33_j8a5pxxeuyTjYyc06cyQvVHcPlMQo"> 
+          <input type="hidden" name="form_id" value="webform_client_form_219"> 
+          <input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-219"> 
+          <div class="form-actions">
+           <button class="webform-submit button-primary btn btn-primary form-submit" type="submit" id="edit-webform-ajax-submit-219" name="op" value="Отправить заявку">Отправить заявку</button> 
+          </div>
+         </div>
+        </form>
+       </div> 
+      </section> 
+      <section id="block-block-8" class="block block-block col-xs-12 col-sm-12 col-md-12 yashare-block clearfix"> 
+       <h5>Расскажите друзьям и коллегам о семинаре</h5> 
+       <div class="yashare-wrapper"> 
+        <ul class="yashare-buttons"> 
+         <li class="fb">Поделиться</li> 
+         <li class="twitter">Твитнуть</li> 
+         <li class="google">Плюсануть</li> 
+         <li class="vk">Поделиться</li> 
+        </ul> 
+        <div id="yashare-btns">
+         <section id="block-yashare-yashare" class="block block-yashare clearfix"> 
+          <div id="yashare-block-1508511555" class="yashare yashare-auto-init counter button" data-yasharetype="button" data-yasharetheme="counter" data-yasharequickservices="facebook,twitter,gplus,vkontakte" data-yasharepopupservices="facebook,twitter,gplus,vkontakte" data-yasharetitle="" data-yasharedescription="" data-yasharelink="" data-yasharel10n="ru" data-yashareimage=""></div> 
+         </section> 
+        </div> 
+       </div> 
+      </section> 
+     </div> 
+    </section> 
+   </div> 
+  </div> 
+  <div id="bottom-wide" class="container-fluid region-wide"> 
+   <div class="region region-bottom-wide"> 
+    <section id="block-views-seminars-block-1" class="block block-views clearfix"> 
+     <h2 class="block-title">Будущие семинары курса «Управление виртуальной инфраструктурой»</h2> 
+     <div class="view view-seminars view-id-seminars view-display-id-block_1 view-dom-id-6384ec1bec939fc56ffb6b30d726502a"> 
+      <div class="view-content"> 
+       <div class="views-responsive-grid views-responsive-grid-horizontal views-columns-2 col-md-18 col-sm-24 col-xs-24"> 
+        <div class="seminars views-row-1"> 
+         <div class="col-md-12 col-sm-12 col-xs-24 views-column-1"> 
+          <div class="views-field views-field-views-conditional"> 
+           <span class="field-content">
+            <div class="svg_260_150">
+             <a href="/courses/upravlenie-virtualnoy-infrastrukturoy/oblaka-dlya-kritichnyh-sistem"><img class="img-responsive" src="http://uni.dtln.ru/files/seminar/svg/critical_systems_1.svg" alt="Облака для критичных систем"></a>
+            </div></span> 
+          </div> 
+          <div class="views-field views-field-view"> 
+           <span class="field-content">
+            <div class="view view-seminar-dates view-id-seminar_dates view-display-id-entity_view_2 view-dom-id-13c405ccecc19a5e75bf026190a5ec3b"> 
+             <div class="view-content"> 
+              <div class="views-row views-row-1 views-row-odd views-row-first views-row-last"> 
+               <div class="views-field views-field-php-1"> 
+                <span class="field-content">26 октября, 11:00</span> 
+               </div> 
+              </div> 
+             </div> 
+            </div> </span> 
+          </div> 
+          <div class="views-field views-field-title"> 
+           <span class="field-content"><a href="/courses/upravlenie-virtualnoy-infrastrukturoy/oblaka-dlya-kritichnyh-sistem" class="active">Облака для критичных систем</a></span> 
+          </div> 
+          <div class="views-field views-field-views-conditional-1"> 
+           <span class="field-content">Семинар курса «Управление виртуальной инфраструктурой»</span> 
+          </div> 
+          <div class="views-field views-field-view-1"> 
+           <span class="field-content">
+            <div class="view view-seminar-dates view-id-seminar_dates view-display-id-entity_view_5 view-dom-id-b6898f1c5f30e27d41d805b9bbdb29e7"> 
+             <div class="view-content"> 
+              <div class="views-row views-row-1 views-row-odd views-row-first views-row-last"> 
+               <div class="views-field views-field-field-seminar-author"> 
+                <div class="field-content">
+                 <a href="/author/mihail-solovev">Михаил Соловьев</a>
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> </span> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="block-seminars-finished"> 
+         <div class="content"> 
+          <!--
+	<div class="svg_555_320">
+		<a href="/courses">
+			<img class="img-responsive" src="/sites/all/themes/univer/images/turtle.svg" alt="Новый сезон курса «Управление инженерной инфраструктурой ЦОД» начнется в октябре" />
+		</a>
+	</div>
+	<h1>
+		<a href="/courses">Новый сезон курса «Управление инженерной инфраструктурой ЦОД» начнется в октябре</a>
+	</h1>
+-->
+          <br> Подписывайтесь на рассылку, чтобы не пропустить семинары 
+          <section id="block-multiblock-1" class="block block-multiblock block-webform block-webform-client-block-220-instance clearfix"> 
+           <h2 class="block-title">Анонсы семинаров</h2> 
+           <div id="webform-ajax-wrapper-220">
+            <form class="webform-client-form webform-client-form-220" action="/courses/upravlenie-virtualnoy-infrastrukturoy/oblaka-dlya-kritichnyh-sistem" method="post" id="webform-client-form-220" accept-charset="UTF-8">
+             <div>
+              <div class="form-item webform-component webform-component-markup webform-component--header form-group form-item form-type-markup form-group">
+               <h3>Подписка</h3> 
+               <h2>Анонсы семинаров</h2> 
+              </div>
+              <div class="form-item webform-component webform-component-email webform-component--email form-group form-item form-item-submitted-email form-type-webform-email form-group">
+               <input required class="email form-control form-text form-email required" placeholder="Электронная почта" type="email" id="edit-submitted-email--2" name="submitted[email]" size="60"> 
+               <label class="control-label element-invisible" for="edit-submitted-email--2">Электронная почта <span class="form-required" title="Это поле обязательно для заполнения.">*</span></label> 
+              </div>
+              <div class="form-item webform-component webform-component-markup webform-component--footer form-group form-item form-type-markup form-group">
+               <p>Скоро еще <span>5</span> семинаров</p> 
+              </div>
+              <input type="hidden" name="details[sid]"> 
+              <input type="hidden" name="details[page_num]" value="1"> 
+              <input type="hidden" name="details[page_count]" value="1"> 
+              <input type="hidden" name="details[finished]" value="0"> 
+              <input type="hidden" name="form_build_id" value="form-13pvW1O7k55DTYsOHMtKGDmcL8puLwoPvhgva3V3fDs"> 
+              <input type="hidden" name="form_id" value="webform_client_form_220"> 
+              <input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-220"> 
+              <div class="form-actions">
+               <button class="webform-submit button-primary btn btn-default form-submit" type="submit" id="edit-webform-ajax-submit-220" name="op" value="Подписаться">Подписаться</button> 
+              </div>
+             </div>
+            </form>
+           </div> 
+          </section> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="attachment attachment-after"> 
+       <div class="view view-seminars view-id-seminars view-display-id-attachment_1 col-md-6 col-sm-24 col-xs-24"> 
+        <div class="view-header"> 
+         <h3 class="text-uppercase"><a href="/courses">Все семинары</a></h3> 
+         <script type="text/javascript">
+(function ($) {
+	Drupal.behaviors.loadColumns = {
+		attach : function(context, settings) {
+			function loadJS(src, callback) {
+					var s = document.createElement('script');
+					s.src = src;
+					s.async = true;
+					s.onreadystatechange = s.onload = function() {
+							var state = s.readyState;
+							if (!callback.done && (!state || /loaded|complete/.test(state))) {
+									callback.done = true;
+									callback();
+							}
+					};
+					document.getElementsByTagName('head')[0].appendChild(s);
+			}
+			loadJS('/sites/all/themes/univer/js/jquery.columnizer.js', function() { 
+				$('#block-views-seminars-block-1 .view-display-id-attachment_1 > .view-content').columnize({columns:3});
+			}); 
+		}
+	}
+})(jQuery);
+</script> 
+        </div> 
+        <div class="view-content"> 
+         <h3><span class="future">Будущие</span></h3> 
+         <div class="views-responsive-grid views-responsive-grid-horizontal views-columns-1"> 
+          <div class="views-row-1"> 
+           <div class="views-column-1"> 
+            <div class="views-field views-field-title"> 
+             <div class="field-content future">
+              <a href="/courses/upravlenie-virtualnoy-infrastrukturoy/oblaka-dlya-kritichnyh-sistem" class="active">Облака для критичных систем</a>
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </section> 
+   </div> 
+  </div> 
+  <!-- /#bottom-wide --> 
+  <footer class="footer">
+   <div class="container"> 
+    <div class="row"> 
+     <div class="region region-footer"> 
+      <section id="block-menu-menu-footer" class="block block-menu col-md-2 col-sm-3 col-xs-12 clearfix"> 
+       <ul class="menu nav">
+        <li class="first leaf"><a href="http://www.dtln.ru" title="">Сайт дата-центра</a></li> 
+        <li class="last leaf"><a href="/help" title="">База знаний</a></li> 
+       </ul> 
+      </section> 
+      <section id="block-block-1" class="block block-block col-md-7 col-sm-6 col-xs-12 clearfix"> 
+       <div class="email">
+        <a href="mailto:uni@dtln.ru">uni@dtln.ru</a> — запись на семинары и на экскурсии
+       </div> 
+       <script type="application/ld+json">
+{
+	"@context" : "http://schema.org",
+	"@type" : "Organization",
+	"url" : "http://uni.dtln.ru",
+	"email" : "uni@dtln.ru",
+	"brand" : "Университеты DataLine",
+	"address" : [{
+		"@type" : "PostalAddress",
+		"addressCountry" : "Россия",
+		"addressLocality" : "Москва",
+		"streetAddress" : "Коровинское шоссе, 41"
+	}],
+	"description" : "Семинары и статьи про дата-центры, облачные вычисления и телеком от компании DataLine",
+	"logo" : "http://uni.dtln.ru/sites/all/themes/univer/logo.png"
+}
+</script> 
+      </section> 
+      <section id="block-block-2" class="block block-block col-md-3 col-sm-3 col-xs-12 clearfix"> 
+       <div class="design">
+        Дизайн сделан 
+        <a href="http://brele.ru" target="_blank">в Бреле</a>
+        <span class="copyright">2016</span>
+       </div> 
+      </section> 
+     </div> 
+    </div> 
+   </div>
+  </footer> 
+  <!--</div>--> 
+ </div> 
+ <script src="http://uni.dtln.ru/files/js/js_Z7JVzDtgSlziDVfEicf3PlzltPhvklxVM4sdN18TPyI.js"></script> 
+ <script src="http://uni.dtln.ru/files/js/js_Z7V5r3e07DLgphu5J22FpwStC8vz_wqG2sMMRFsufbI.js"></script> 
+ <script src="http://uni.dtln.ru/files/js/js_OTdL_00eEtQq3wzsUAHLDYwgtcHpzbgUFYeJRcQf8f8.js"></script> 
+ <!-- Google Analytics --> 
+ <script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function()
+	{ (i[r].q=i[r].q||[]).push(arguments)}
+	,i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-40440945-8', 'uni.dtln.ru');
+    ga('require', 'displayfeatures');	
+	ga('send', 'pageview');
+</script> 
+ <!-- /Google Analytics --> 
+ <!-- Yandex.Metrika counter --> 
+ <script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter40119690 = new Ya.Metrika({
+                    id:40119690,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script> 
+ <noscript>
+  <div>
+   <img src="https://mc.yandex.ru/watch/40119690" style="position:absolute; left:-9999px;" alt="">
+  </div>
+ </noscript> 
+ <!-- /Yandex.Metrika counter --> 
+ <!--
+Разработка и поддержка: xTech
+Development & Support: xTech
+-->  
+</body>

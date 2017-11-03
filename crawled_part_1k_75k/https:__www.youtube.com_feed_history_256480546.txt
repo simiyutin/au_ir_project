@@ -1,0 +1,611 @@
+https://www.youtube.com/feed/history
+<body dir="ltr" id="body" class="  ltr    exp-invert-logo exp-mouseover-img exp-responsive exp-scrollable-guide exp-search-big-thumbs   site-center-aligned site-as-giant-card guide-pinning-enabled appbar-hidden    visibility-logging-enabled   not-nirvana-dogfood    flex-width-enabled      flex-width-enabled-snap    delayed-frame-styles-not-in  " data-spf-name="other"> 
+ <div id="early-body"></div> 
+ <div id="body-container">
+  <div id="a11y-announcements-container" role="alert">
+   <div id="a11y-announcements-message"></div>
+  </div>
+  <form name="logoutForm" method="POST" action="/logout">
+   <input type="hidden" name="action_logout" value="1">
+  </form>
+  <div id="masthead-positioner"> 
+   <div id="ticker-content"> 
+   </div> 
+   <div id="yt-masthead-container" class="clearfix yt-base-gutter"> 
+    <button id="a11y-skip-nav" class="skip-nav" data-target-id="main" tabindex="3"> Пропустить </button> 
+    <div id="yt-masthead">
+     <div class="yt-masthead-logo-container "> 
+      <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-text yt-uix-button-empty yt-uix-button-has-icon appbar-guide-toggle appbar-guide-clickable-ancestor" type="button" onclick=";return false;" id="appbar-guide-button" aria-label="Гид" aria-controls="appbar-guide-menu"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-appbar-guide yt-sprite"></span></span></button> 
+      <div id="appbar-main-guide-notification-container"></div> 
+      <span id="yt-masthead-logo-fragment"><a href="/" class="masthead-logo-renderer yt-uix-sessionlink      spf-link " data-sessionlink="itct=CAUQsV4iEwj5svzF-P_WAhVrGbIKHTEPBHQo6R4" id="logo-container" title="Главная страница YouTube"> <span class="logo masthead-logo-renderer-logo yt-sprite" title="Главная страница YouTube"></span> <span class="content-region">RU</span></a></span>
+     </div>
+     <div id="yt-masthead-signin">
+      <a href="//www.youtube.com/upload" class="yt-uix-button   yt-uix-sessionlink yt-uix-button-opacity yt-uix-button-size-default yt-uix-button-has-icon yt-uix-tooltip yt-uix-button-empty" data-sessionlink="ei=UE_qWfnKIuuyyAWxnpCgBw&amp;feature=mhsb" id="upload-btn" title="Добавить видео"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-material-upload yt-sprite"></span></span></a>
+      <div class="signin-container ">
+       <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-primary" type="button" onclick=";window.location.href=this.getAttribute('href');return false;" role="link" href="https://accounts.google.com/ServiceLogin?service=youtube&amp;uilel=3&amp;hl=ru&amp;passive=true&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26hl%3Dru%26feature%3Dsign_in_button%26action_handle_signin%3Dtrue%26next%3D%252Ffeed%252Fhistory"><span class="yt-uix-button-content">Войти</span></button>
+      </div>
+     </div>
+     <div id="yt-masthead-content">
+      <form id="masthead-search" class="  search-form consolidated-form  vve-check" action="/results" onsubmit="if (document.getElementById('masthead-search-term').value == '') return false;" data-clicktracking="CAIQ7VAiEwj5svzF-P_WAhVrGbIKHTEPBHQo6R4" data-visibility-tracking="CAIQ7VAiEwj5svzF-P_WAhVrGbIKHTEPBHQo6R4">
+       <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default search-btn-component search-button" type="submit" onclick="if (document.getElementById('masthead-search-term').value == '') return false; document.getElementById('masthead-search').submit(); return false;;return true;" dir="ltr" id="search-btn" tabindex="2"><span class="yt-uix-button-content">Поиск</span></button>
+       <div id="masthead-search-terms" class="masthead-search-terms-border" dir="ltr">
+        <input id="masthead-search-term" autocomplete="off" onkeydown="if (!this.value &amp;&amp; (event.keyCode == 40 || event.keyCode == 32 || event.keyCode == 34)) {this.onkeydown = null; this.blur();}" class="search-term masthead-search-renderer-input yt-uix-form-input-bidi" name="search_query" value="" type="text" tabindex="1" placeholder="Введите запрос" title="Поиск" aria-label="Поиск">
+       </div>
+      </form>
+     </div>
+    </div>
+   </div> 
+   <div id="masthead-appbar-container" class="clearfix">
+    <div id="masthead-appbar">
+     <div id="appbar-content" class=""></div>
+    </div>
+   </div> 
+  </div>
+  <div id="masthead-positioner-height-offset"></div>
+  <div id="page-container">
+   <div id="page" class="  feed    not-fixed-width-tab-widescreen clearfix">
+    <div id="guide" class="yt-scrollbar"> 
+     <div id="appbar-guide-menu" class="appbar-menu appbar-guide-menu-layout appbar-guide-clickable-ancestor yt-uix-scroller yt-uix-tdl" role="navigation"> 
+      <div id="guide-container"> 
+       <div class="guide-module-content yt-scrollbar"> 
+        <ul class="guide-toplevel"> 
+         <li class="guide-section vve-check" data-visibility-tracking=""> 
+          <div class="guide-item-container personal-item"> 
+           <ul class="guide-user-links yt-uix-tdl yt-box" role="menu"> 
+            <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="what_to_watch-guide-item" data-visibility-tracking="" role="menuitem"> <a class="guide-item yt-uix-sessionlink yt-valign spf-link    " href="/" title="Главная" data-external-id="what_to_watch" data-serialized-endpoint="0qDduQEREg9GRXdoYXRfdG9fd2F0Y2g%3D" data-visibility-tracking="" data-sessionlink="ei=UE_qWfnKIuuyyAWxnpCgBw&amp;feature=g-system&amp;ved=CA0QtSwYACITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg"> <span class="yt-valign-container"> <span class="thumb guide-what-to-watch-icon yt-sprite"></span> <span class="display-name  no-count"> <span> Главная </span> </span> </span> </a> </li> 
+            <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="trending-guide-item" data-visibility-tracking="" role="menuitem"> <a class="guide-item yt-uix-sessionlink yt-valign spf-link    " href="/feed/trending" title="В тренде" data-external-id="trending" data-serialized-endpoint="0qDduQEMEgpGRXRyZW5kaW5n" data-visibility-tracking="" data-sessionlink="ei=UE_qWfnKIuuyyAWxnpCgBw&amp;feature=g-trending&amp;ved=CA4QtSwYASITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg"> <span class="yt-valign-container"> <span class="thumb guide-trending-icon yt-sprite"></span> <span class="display-name  no-count"> <span> В тренде </span> </span> </span> </a> </li> 
+            <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="history-guide-item" data-visibility-tracking="" role="menuitem"> <a class="guide-item yt-uix-sessionlink yt-valign spf-link  guide-item-selected   " href="/feed/history" title="История" data-external-id="history" data-serialized-endpoint="0qDduQELEglGRWhpc3Rvcnk%3D" data-visibility-tracking="" data-sessionlink="ei=UE_qWfnKIuuyyAWxnpCgBw&amp;feature=g-personal&amp;ved=CA8QtSwYAiITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg"> <span class="yt-valign-container"> <span class="thumb guide-history-icon yt-sprite"></span> <span class="display-name  no-count"> <span> История </span> </span> </span> </a> </li> 
+           </ul> 
+          </div> 
+          <hr class="guide-section-separator"> </li> 
+         <li class="guide-section vve-check" data-visibility-tracking=""> 
+          <div class="guide-item-container personal-item"> 
+           <h3> Лучшее на YouTube </h3> 
+           <ul class="guide-user-links yt-uix-tdl yt-box" role="menu"> 
+            <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="UC-9-kyTW8ZkZNDHQJ6FgpwQ-guide-item" data-visibility-tracking="" role="menuitem"> <a class="guide-item yt-uix-sessionlink yt-valign spf-link    " href="/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ" title="Музыка" data-external-id="UC-9-kyTW8ZkZNDHQJ6FgpwQ" data-serialized-endpoint="0qDduQEaEhhVQy05LWt5VFc4WmtaTkRIUUo2Rmdwd1E%3D" data-visibility-tracking="" data-sessionlink="ei=UE_qWfnKIuuyyAWxnpCgBw&amp;feature=g-channel&amp;ved=CBEQtSwYACITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg"> <span class="yt-valign-container"> <span class="thumb"> <span class="video-thumb  yt-thumb yt-thumb-20"> <span class="yt-thumb-square"> <span class="yt-thumb-clip"> <img src="/yts/img/pixel-vfl3z5WfW.gif" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" height="20" width="20" data-ytimg="1" data-thumb="//i.ytimg.com/i/-9-kyTW8ZkZNDHQJ6FgpwQ/1.jpg" alt="" aria-hidden="true"> <span class="vertical-align"></span> </span> </span> </span> </span> <span class="display-name  no-count"> <span> Музыка </span> </span> </span> </a> </li> 
+            <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="UCEgdi0XIXXZ-qJOFPf4JSKw-guide-item" data-visibility-tracking="" role="menuitem"> <a class="guide-item yt-uix-sessionlink yt-valign spf-link    " href="/channel/UCEgdi0XIXXZ-qJOFPf4JSKw" title="Спорт" data-external-id="UCEgdi0XIXXZ-qJOFPf4JSKw" data-serialized-endpoint="0qDduQEaEhhVQ0VnZGkwWElYWFotcUpPRlBmNEpTS3c%3D" data-visibility-tracking="" data-sessionlink="ei=UE_qWfnKIuuyyAWxnpCgBw&amp;feature=g-channel&amp;ved=CBIQtSwYASITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg"> <span class="yt-valign-container"> <span class="thumb"> <span class="video-thumb  yt-thumb yt-thumb-20"> <span class="yt-thumb-square"> <span class="yt-thumb-clip"> <img src="/yts/img/pixel-vfl3z5WfW.gif" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" height="20" width="20" data-ytimg="1" data-thumb="//i.ytimg.com/i/Egdi0XIXXZ-qJOFPf4JSKw/1.jpg" alt="" aria-hidden="true"> <span class="vertical-align"></span> </span> </span> </span> </span> <span class="display-name  no-count"> <span> Спорт </span> </span> </span> </a> </li> 
+            <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="UCOpNcN46UbXVtpKMrmU4Abg-guide-item" data-visibility-tracking="" role="menuitem"> <a class="guide-item yt-uix-sessionlink yt-valign spf-link    " href="/channel/UCOpNcN46UbXVtpKMrmU4Abg" title="Компьютерные игры" data-external-id="UCOpNcN46UbXVtpKMrmU4Abg" data-serialized-endpoint="0qDduQEaEhhVQ09wTmNONDZVYlhWdHBLTXJtVTRBYmc%3D" data-visibility-tracking="" data-sessionlink="ei=UE_qWfnKIuuyyAWxnpCgBw&amp;feature=g-channel&amp;ved=CBMQtSwYAiITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg"> <span class="yt-valign-container"> <span class="thumb"> <span class="video-thumb  yt-thumb yt-thumb-20"> <span class="yt-thumb-square"> <span class="yt-thumb-clip"> <img src="/yts/img/pixel-vfl3z5WfW.gif" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" height="20" width="20" data-ytimg="1" data-thumb="//i.ytimg.com/i/OpNcN46UbXVtpKMrmU4Abg/1.jpg" alt="" aria-hidden="true"> <span class="vertical-align"></span> </span> </span> </span> </span> <span class="display-name  no-count"> <span> Компьютерные игры </span> </span> </span> </a> </li> 
+            <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="UClgRkhTL3_hImCAmdLfDE4g-guide-item" data-visibility-tracking="" role="menuitem"> <a class="guide-item yt-uix-sessionlink yt-valign spf-link    " href="/channel/UClgRkhTL3_hImCAmdLfDE4g" title="Кинозал" data-external-id="UClgRkhTL3_hImCAmdLfDE4g" data-serialized-endpoint="0qDduQEaEhhVQ2xnUmtoVEwzX2hJbUNBbWRMZkRFNGc%3D" data-visibility-tracking="" data-sessionlink="ei=UE_qWfnKIuuyyAWxnpCgBw&amp;feature=g-channel&amp;ved=CBQQtSwYAyITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg"> <span class="yt-valign-container"> <span class="thumb"> <span class="video-thumb  yt-thumb yt-thumb-20"> <span class="yt-thumb-square"> <span class="yt-thumb-clip"> <img src="/yts/img/pixel-vfl3z5WfW.gif" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" height="20" width="20" data-ytimg="1" data-thumb="//i.ytimg.com/i/lgRkhTL3_hImCAmdLfDE4g/1.jpg" alt="" aria-hidden="true"> <span class="vertical-align"></span> </span> </span> </span> </span> <span class="display-name  no-count"> <span> Кинозал </span> </span> </span> </a> </li> 
+            <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="UC7DWJmY_p7qLzIy2-V77U5Q-guide-item" data-visibility-tracking="" role="menuitem"> <a class="guide-item yt-uix-sessionlink yt-valign spf-link    " href="/channel/UC7DWJmY_p7qLzIy2-V77U5Q" title="Телешоу" data-external-id="UC7DWJmY_p7qLzIy2-V77U5Q" data-serialized-endpoint="0qDduQEaEhhVQzdEV0ptWV9wN3FMekl5Mi1WNzdVNVE%3D" data-visibility-tracking="" data-sessionlink="ei=UE_qWfnKIuuyyAWxnpCgBw&amp;feature=g-channel&amp;ved=CBUQtSwYBCITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg"> <span class="yt-valign-container"> <span class="thumb"> <span class="video-thumb  yt-thumb yt-thumb-20"> <span class="yt-thumb-square"> <span class="yt-thumb-clip"> <img src="/yts/img/pixel-vfl3z5WfW.gif" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" height="20" width="20" data-ytimg="1" data-thumb="https://yt3.ggpht.com/-2LGMmIVe3rQ/AAAAAAAAAAI/AAAAAAAAAAA/sh5uPD6t6xU/s88-c-k-no-mo-rj-c0xffffff/photo.jpg" alt="" aria-hidden="true"> <span class="vertical-align"></span> </span> </span> </span> </span> <span class="display-name  no-count"> <span> Телешоу </span> </span> </span> </a> </li> 
+            <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="UCYfdidRxbB8Qhf0Nx7ioOYw-guide-item" data-visibility-tracking="" role="menuitem"> <a class="guide-item yt-uix-sessionlink yt-valign spf-link    " href="/channel/UCYfdidRxbB8Qhf0Nx7ioOYw" title="Новости" data-external-id="UCYfdidRxbB8Qhf0Nx7ioOYw" data-serialized-endpoint="0qDduQEaEhhVQ1lmZGlkUnhiQjhRaGYwTng3aW9PWXc%3D" data-visibility-tracking="" data-sessionlink="ei=UE_qWfnKIuuyyAWxnpCgBw&amp;feature=g-channel&amp;ved=CBYQtSwYBSITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg"> <span class="yt-valign-container"> <span class="thumb"> <span class="video-thumb  yt-thumb yt-thumb-20"> <span class="yt-thumb-square"> <span class="yt-thumb-clip"> <img src="/yts/img/pixel-vfl3z5WfW.gif" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" height="20" width="20" data-ytimg="1" data-thumb="//i.ytimg.com/i/YfdidRxbB8Qhf0Nx7ioOYw/1.jpg" alt="" aria-hidden="true"> <span class="vertical-align"></span> </span> </span> </span> </span> <span class="display-name  no-count"> <span> Новости </span> </span> </span> </a> </li> 
+            <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="UC4R8DWoMoI7CAwX8_LjQHig-guide-item" data-visibility-tracking="" role="menuitem"> <a class="guide-item yt-uix-sessionlink yt-valign spf-link    " href="/channel/UC4R8DWoMoI7CAwX8_LjQHig" title="Прямые трансляции" data-external-id="UC4R8DWoMoI7CAwX8_LjQHig" data-serialized-endpoint="0qDduQEaEhhVQzRSOERXb01vSTdDQXdYOF9MalFIaWc%3D" data-visibility-tracking="" data-sessionlink="ei=UE_qWfnKIuuyyAWxnpCgBw&amp;feature=g-channel&amp;ved=CBcQtSwYBiITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg"> <span class="yt-valign-container"> <span class="thumb"> <span class="video-thumb  yt-thumb yt-thumb-20"> <span class="yt-thumb-square"> <span class="yt-thumb-clip"> <img src="/yts/img/pixel-vfl3z5WfW.gif" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" height="20" width="20" data-ytimg="1" data-thumb="//i.ytimg.com/i/4R8DWoMoI7CAwX8_LjQHig/1.jpg" alt="" aria-hidden="true"> <span class="vertical-align"></span> </span> </span> </span> </span> <span class="display-name  no-count"> <span> Прямые трансляции </span> </span> </span> </a> </li> 
+            <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="UC8iNz9uwDGfomRnnKKbOhOQ-guide-item" data-visibility-tracking="" role="menuitem"> <a class="guide-item yt-uix-sessionlink yt-valign spf-link    " href="/channel/UC8iNz9uwDGfomRnnKKbOhOQ" title="В центре внимания" data-external-id="UC8iNz9uwDGfomRnnKKbOhOQ" data-serialized-endpoint="0qDduQEaEhhVQzhpTno5dXdER2ZvbVJubktLYk9oT1E%3D" data-visibility-tracking="" data-sessionlink="ei=UE_qWfnKIuuyyAWxnpCgBw&amp;feature=g-channel&amp;ved=CBgQtSwYByITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg"> <span class="yt-valign-container"> <span class="thumb"> <span class="video-thumb  yt-thumb yt-thumb-20"> <span class="yt-thumb-square"> <span class="yt-thumb-clip"> <img src="/yts/img/pixel-vfl3z5WfW.gif" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" height="20" width="20" data-ytimg="1" data-thumb="https://yt3.ggpht.com/-9xAInlRE8jo/AAAAAAAAAAI/AAAAAAAAAAA/yYK0h3RFSJ8/s88-c-k-no-mo-rj-c0xffffff/photo.jpg" alt="" aria-hidden="true"> <span class="vertical-align"></span> </span> </span> </span> </span> <span class="display-name  no-count"> <span> В центре внимания </span> </span> </span> </a> </li> 
+            <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="UCzuqhhs6NWbgTzMuM09WKDQ-guide-item" data-visibility-tracking="" role="menuitem"> <a class="guide-item yt-uix-sessionlink yt-valign spf-link    " href="/channel/UCzuqhhs6NWbgTzMuM09WKDQ" title="Панорамные видео" data-external-id="UCzuqhhs6NWbgTzMuM09WKDQ" data-serialized-endpoint="0qDduQEaEhhVQ3p1cWhoczZOV2JnVHpNdU0wOVdLRFE%3D" data-visibility-tracking="" data-sessionlink="ei=UE_qWfnKIuuyyAWxnpCgBw&amp;feature=g-channel&amp;ved=CBkQtSwYCCITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg"> <span class="yt-valign-container"> <span class="thumb"> <span class="video-thumb  yt-thumb yt-thumb-20"> <span class="yt-thumb-square"> <span class="yt-thumb-clip"> <img src="/yts/img/pixel-vfl3z5WfW.gif" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" height="20" width="20" data-ytimg="1" data-thumb="//i.ytimg.com/i/zuqhhs6NWbgTzMuM09WKDQ/1.jpg" alt="" aria-hidden="true"> <span class="vertical-align"></span> </span> </span> </span> </span> <span class="display-name  no-count"> <span> Панорамные видео </span> </span> </span> </a> </li> 
+           </ul> 
+          </div> 
+          <hr class="guide-section-separator"> </li> 
+         <li class="guide-section vve-check" data-visibility-tracking=""> 
+          <div class="guide-item-container personal-item"> 
+           <ul class="guide-user-links yt-uix-tdl yt-box" role="menu"> 
+            <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="guide_builder-guide-item" data-visibility-tracking="" role="menuitem"> <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink    " href="/channels" title="Каталог каналов" data-external-id="guide_builder" data-serialized-endpoint="0qPduQECCAE%3D" data-visibility-tracking="" data-sessionlink="ei=UE_qWfnKIuuyyAWxnpCgBw&amp;feature=g-manage&amp;ved=CBsQtSwYACITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg"> <span class="yt-valign-container"> <span class="thumb guide-builder-icon yt-sprite"></span> <span class="display-name  no-count"> <span> Каталог каналов </span> </span> </span> </a> </li> 
+           </ul> 
+          </div> 
+          <hr class="guide-section-separator"> </li> 
+         <li class="guide-section guide-header signup-promo"> <p> Войдите сейчас, чтобы увидеть свои каналы и рекомендации! </p> 
+          <div id="guide-builder-promo-buttons" class="signed-out clearfix"> 
+           <a href="https://accounts.google.com/ServiceLogin?service=youtube&amp;uilel=3&amp;hl=ru&amp;passive=true&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26hl%3Dru%26feature%3Dsign_in_promo%26action_handle_signin%3Dtrue%26next%3D%252Ffeed%252Fhistory" class="yt-uix-button   yt-uix-sessionlink yt-uix-button-primary yt-uix-button-size-default" data-sessionlink="ei=UE_qWfnKIuuyyAWxnpCgBw"><span class="yt-uix-button-content">Вход</span></a> 
+          </div> </li> 
+        </ul> 
+       </div> 
+      </div> 
+     </div> 
+     <div id="appbar-guide-notifications" class="hid"> 
+      <div id="appbar-guide-notification-watch-later-video-added"> 
+       <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Добавлено</span></span></div>
+    --> 
+      </div> 
+      <div id="appbar-guide-notification-watch-later-video-removed"> 
+       <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Удалено.</span></span></div>
+    --> 
+      </div> 
+      <div id="appbar-guide-notification-subscription"> 
+       <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Подписка оформлена</span></span></div>
+    --> 
+      </div> 
+      <div id="appbar-guide-notification-unsubscription"> 
+       <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Подписка отменена.</span></span></div>
+    --> 
+      </div> 
+      <div id="appbar-guide-notification-playlist-like"> 
+       <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Сохранено в плейлисты</span></span></div>
+    --> 
+      </div> 
+      <div id="appbar-guide-notification-playlist-unlike"> 
+       <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Удалено из плейлистов</span></span></div>
+    --> 
+      </div> 
+      <div id="appbar-guide-notification-playlist-video-added"> 
+       <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Добавлено в плейлист</span></span></div>
+    --> 
+      </div> 
+      <div id="appbar-guide-notification-playlist-video-removed"> 
+       <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Удалено из плейлиста</span></span></div>
+    --> 
+      </div> 
+      <div id="appbar-guide-notification-video-like"> 
+       <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Добавлено в понравившиеся видео</span></span></div>
+    --> 
+      </div> 
+      <div id="appbar-guide-notification-video-unlike"> 
+       <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Удалено из понравившихся видео</span></span></div>
+    --> 
+      </div> 
+      <div id="appbar-guide-notification-event-reminder-set"> 
+       <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Вы получите напоминание об этом событии</span></span></div>
+    --> 
+      </div> 
+      <div id="appbar-guide-notification-event-reminder-removed"> 
+       <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Напоминание о событии удалено</span></span></div>
+    --> 
+      </div> 
+     </div> 
+     <div id="appbar-guide-item-templates" class="hid"> 
+      <div id="appbar-guide-item-template-playlist"> 
+       <!--
+        
+  <li class="vve-check guide-channel guide-notification-item overflowable-list-item show-insertion-notification " id="__ID__-guide-item" 
+ data-visibility-tracking="" role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink    "
+    href="__URL__"
+    title="__TITLE__"
+    data-external-id="__ID__" data-serialized-endpoint="" data-visibility-tracking="" data-sessionlink="ei=UE_qWfnKIuuyyAWxnpCgBw&amp;feature=g-playlists"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb guide-playlists-icon yt-sprite"></span>
+        <span class="display-name  no-count">
+          <span>
+            __TITLE__
+          </span>
+        </span>
+    </span>
+  </a>
+
+      <div class="appbar-guide-notification guide-item-insertion-notification" role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" aria-label="Сохранено в плейлисты">__NOTIFICATION_OVERLAY_MESSAGE__</span></span></div>
+  </li>
+
+      --> 
+      </div> 
+      <div id="appbar-guide-item-template-mix"> 
+       <!--
+        
+  <li class="vve-check guide-channel guide-notification-item overflowable-list-item show-insertion-notification " id="__ID__-guide-item" 
+ data-visibility-tracking="" role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink    "
+    href="__URL__"
+    title="__TITLE__"
+    data-external-id="__ID__" data-serialized-endpoint="" data-visibility-tracking="" data-sessionlink="ei=UE_qWfnKIuuyyAWxnpCgBw&amp;feature=g-playlists"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb guide-mix-icon yt-sprite"></span>
+        <span class="display-name  no-count">
+          <span>
+            __TITLE__
+          </span>
+        </span>
+    </span>
+  </a>
+
+      <div class="appbar-guide-notification guide-item-insertion-notification" role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" aria-label="Сохранено в плейлисты">__NOTIFICATION_OVERLAY_MESSAGE__</span></span></div>
+  </li>
+
+      --> 
+      </div> 
+      <div id="appbar-guide-item-template-channel"> 
+       <!--
+        
+  <li class="vve-check guide-channel guide-notification-item overflowable-list-item show-insertion-notification " id="__ID__-guide-item" 
+ data-visibility-tracking="" role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink    "
+    href="__URL__"
+    title="__TITLE__"
+    data-external-id="__ID__" data-serialized-endpoint="" data-visibility-tracking="" data-sessionlink="ei=UE_qWfnKIuuyyAWxnpCgBw&amp;feature=g-channel"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">  <span class="video-thumb  yt-thumb yt-thumb-20"
+    >
+    <span class="yt-thumb-square">
+      <span class="yt-thumb-clip">
+        
+  <img src="__THUMBNAIL_URL__" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" height="20" width="20" data-ytimg="1" alt="" aria-hidden="true" >
+
+        <span class="vertical-align"></span>
+      </span>
+    </span>
+  </span>
+</span>
+        <span class="display-name  no-count">
+          <span>
+            __TITLE__
+          </span>
+        </span>
+    </span>
+  </a>
+
+      <div class="appbar-guide-notification guide-item-insertion-notification" role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" aria-label="Подписка оформлена">__NOTIFICATION_OVERLAY_MESSAGE__</span></span></div>
+  </li>
+
+      --> 
+      </div> 
+     </div> 
+    </div>
+    <div class="alerts-wrapper">
+     <div id="alerts" class="content-alignment"> 
+      <div class="yt-alert yt-alert-default yt-alert-info  " id="yt-lang-alert-container"> 
+       <div class="yt-alert-icon"> 
+        <span class="icon master-sprite yt-sprite"></span> 
+       </div> 
+       <div class="yt-alert-content" role="alert"> 
+        <div class="yt-alert-message" tabindex="0">
+          Выберите язык. 
+        </div> 
+       </div>
+       <div class="yt-alert-buttons">
+        <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-close close yt-uix-close" type="button" onclick=";return false;" aria-label="Закрыть" data-close-parent-class="yt-alert"><span class="yt-uix-button-content">Закрыть</span></button>
+       </div>
+       <div class="yt-alert-panel "> 
+        <div id="yt-lang-alert-content" class="clearfix"> 
+         <div id="default-language-message"> 
+          <div class="yt-lang-alert-controls"> 
+           <a href="//support.google.com/youtube/answer/1738660?hl=ru">Подробнее…</a>
+           <br> 
+           <a href="javascript:void(0)" onclick="yt.style.toggle('default-language-message', 'default-language-message-english'); return false;">View this message in English</a> 
+          </div> Текущий язык просмотра YouTube: 
+          <strong>Русский</strong>. Выбрать другой язык 
+          <a href="javascript:void(0)" onclick="yt.www.picker.displayLang();">можно в списке ниже</a>. 
+         </div> 
+         <div id="default-language-message-english" class="hid"> 
+          <div class="yt-lang-alert-controls"> 
+           <a href="//support.google.com/youtube/answer/1738660?hl=en">Learn more</a>
+           <br> 
+          </div> You're viewing YouTube in 
+          <strong>Russian</strong>. You can 
+          <a href="javascript:void(0)" onclick="yt.www.picker.displayLang();">change this preference below</a>. 
+         </div> 
+        </div> 
+       </div>
+      </div> 
+     </div>
+    </div>
+    <div id="header"></div>
+    <div id="player" class="  off-screen  " role="complementary">
+     <div id="theater-background" class="player-height"></div> 
+     <div id="player-mole-container"> 
+      <div id="player-unavailable" class="  hid  "> 
+      </div> 
+      <div id="player-api" class="player-width player-height off-screen-target player-api" tabindex="-1"></div> 
+      <div id="watch-queue-mole" class="video-mole mole-collapsed hid">
+       <div id="watch-queue" class="watch-playlist player-height">
+        <div class="main-content">
+         <div class="watch-queue-header">
+          <div class="watch-queue-info">
+           <div class="watch-queue-info-icon">
+            <span class="tv-queue-list-icon yt-sprite"></span>
+           </div>
+           <h3 class="watch-queue-title">Очередь просмотра</h3>
+           <h3 class="tv-queue-title">Очередь</h3>
+           <span class="tv-queue-details"></span>
+          </div>
+          <div class="watch-queue-control-bar control-bar-button">
+           <div class="watch-queue-mole-info">
+            <div class="watch-queue-control-bar-icon">
+             <span class="watch-queue-icon yt-sprite"></span>
+            </div>
+            <div class="watch-queue-title-container">
+             <span class="watch-queue-count"></span>
+             <span class="watch-queue-title">Очередь просмотра</span>
+             <span class="tv-queue-title">Очередь</span>
+            </div>
+           </div> 
+           <span class="dark-overflow-action-menu"> <button onclick=";return false;" type="button" class="flip control-bar-button yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon no-icon-markup yt-uix-button-empty" aria-expanded="false" aria-haspopup="true" aria-label="Меню действий для очереди"><span class="yt-uix-button-arrow yt-sprite"></span>
+             <ul class="watch-queue-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu hid" role="menu" aria-haspopup="true">
+              <li role="menuitem"><span class="watch-queue-menu-choice overflow-menu-choice yt-uix-button-menu-item" onclick=";return false;" data-action="remove-all">Удалить все</span></li>
+              <li role="menuitem"><span class="watch-queue-menu-choice overflow-menu-choice yt-uix-button-menu-item" onclick=";return false;" data-action="disconnect">Отключить</span></li>
+             </ul></button> </span> 
+           <div class="watch-queue-controls"> 
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button prev-watch-queue-button yt-uix-button-opacity yt-uix-tooltip yt-uix-tooltip" type="button" onclick=";return false;" title="Предыдущее видео"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-prev yt-sprite"></span></span></button> 
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button play-watch-queue-button yt-uix-button-opacity yt-uix-tooltip yt-uix-tooltip" type="button" onclick=";return false;" title="Воспроизвести"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-play yt-sprite"></span></span></button> 
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button pause-watch-queue-button yt-uix-button-opacity yt-uix-tooltip hid yt-uix-tooltip" type="button" onclick=";return false;" title="Пауза"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-pause yt-sprite"></span></span></button> 
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button next-watch-queue-button yt-uix-button-opacity yt-uix-tooltip yt-uix-tooltip" type="button" onclick=";return false;" title="Следующее видео"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-next yt-sprite"></span></span></button> 
+           </div> 
+          </div>
+          <div class="autoplay-dismiss-bar fade-out">
+           <span class="autoplay-dismiss-title-label">Сейчас начнется следующее видео</span>
+           <span><button class="yt-uix-button yt-uix-button-size-default autoplay-dismiss-button yt-uix-tooltip" type="button" onclick=";return false;" title="отмена"><span class="yt-uix-button-content">отмена</span></button></span>
+          </div>
+         </div>
+         <div class="watch-queue-items-container yt-scrollbar-dark yt-scrollbar">
+          <div class="yt-uix-scroller playlist-videos-list">
+           <ol class="watch-queue-items-list" data-scroll-action="yt.www.watchqueue.loadThumbnails"> 
+            <p class="yt-spinner "> <span class="yt-spinner-img  yt-sprite" title="Загрузка значка..."></span> <span class="yt-spinner-message"> Загрузка... </span> </p> 
+           </ol>
+           <div class="autoplay-control-container yt-uix-scroller-scroll-unit hid"> 
+            <div class="autoplay-control-bar"> 
+             <label class="autoplay-label" for="autoplay-toggle-id"></label> 
+             <label class="yt-uix-form-input-checkbox-container yt-uix-form-input-container yt-uix-form-input-paper-toggle-container "><input class="yt-uix-form-input-checkbox" type="checkbox" id="autoplay-toggle-id">
+              <div class="yt-uix-form-input-paper-toggle-bg yt-uix-form-input-paper-toggle-bar"></div>
+              <div class="yt-uix-form-input-paper-toggle-bg yt-uix-form-input-paper-toggle-button"></div></label> 
+            </div> 
+           </div>
+           <div class="up-next-item-container hid"></div>
+          </div>
+         </div>
+        </div> 
+        <div class="hid"> 
+         <div id="watch-queue-title-msg">
+           Очередь просмотра 
+         </div> 
+         <div id="tv-queue-title-msg">
+          Очередь
+         </div> 
+         <div id="watch-queue-count-msg">
+           __count__/__total__ 
+         </div> 
+         <div id="watch-queue-loading-template"> 
+          <!--
+          <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Загрузка значка..."></span>
+
+    <span class="yt-spinner-message">
+Загрузка...
+    </span>
+  </p>
+
+      --> 
+         </div> 
+        </div> 
+       </div>
+      </div> 
+      <div id="player-playlist" class="  hid  "> 
+      </div> 
+     </div> 
+     <div class="clear"></div> 
+    </div>
+    <div id="content" class="  content-alignment" role="main"> 
+     <div class="branded-page-v2-container branded-page-base-bold-titles branded-page-v2-container-flex-width branded-page-v2-has-top-row branded-page-v2-secondary-column-hidden"> 
+      <div class="branded-page-v2-top-row"> 
+      </div> 
+      <div class="branded-page-v2-col-container"> 
+       <div class="branded-page-v2-col-container-inner"> 
+        <div class="branded-page-v2-primary-col"> 
+         <div class="   yt-card  clearfix"> 
+          <div class="branded-page-v2-body branded-page-v2-primary-column-content" id=""> 
+           <div class="feed-header clearfix">
+            <div class="feed-header-feed-filter">
+             <ul id="channel-navigation-menu" class="clearfix">
+              <li><h2 class="epic-nav-item-heading first-focus" aria-selected="true">История просмотра</h2></li>
+              <li><a href="/feed/history/search_history" class="yt-uix-button   spf-link  yt-uix-sessionlink yt-uix-sessionlink yt-uix-button-epic-nav-item yt-uix-button-size-default" data-sessionlink="itct=CAMQhGciEwj5svzF-P_WAhVrGbIKHTEPBHQo6R4"><span class="yt-uix-button-content">История поиска</span></a></li>
+              <li><a href="/feed/history/comment_history" class="yt-uix-button   spf-link  yt-uix-sessionlink yt-uix-sessionlink yt-uix-button-epic-nav-item yt-uix-button-size-default" data-sessionlink="itct=CAMQhGciEwj5svzF-P_WAhVrGbIKHTEPBHQo6R4"><span class="yt-uix-button-content">Комментарии</span></a></li>
+             </ul>
+            </div>
+           </div> 
+           <div id="browse-items-primary"> 
+            <ol id="section-list-656955" class="section-list"> 
+             <li> 
+              <ol id="item-section-769073" class="item-section">
+               <li class="item-section-header">
+                <ul class="branded-page-v2-subnav-container branded-page-gutter-padding history-controls-container">
+                 <li> <span class="yt-uix-overlay " data-overlay-hidden="yt.www.feed.history.onHideClearWatchHistoryDialog"> <span class="  yt-uix-overlay-target"><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default" type="button" onclick=";return false;" id="watch-history-clear-button"><span class="yt-uix-button-content">Очистить историю просмотра</span></button></span> 
+                   <div class="yt-dialog hid "> 
+                    <div class="yt-dialog-base"> 
+                     <span class="yt-dialog-align"></span> 
+                     <div class="yt-dialog-fg" role="dialog"> 
+                      <div class="yt-dialog-fg-content"> 
+                       <div class="yt-dialog-header"> 
+                        <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default   yt-dialog-dismiss yt-dialog-close" type="button" onclick=";return false;" data-action="close"><span class="yt-uix-button-content">Закрыть</span></button> 
+                        <h2 class="yt-dialog-title" role="alert"> Очистить историю просмотра </h2> 
+                       </div> 
+                       <div class="yt-dialog-loading"> 
+                        <div class="yt-dialog-waiting-content"> 
+                         <p class="yt-spinner "> <span class="yt-spinner-img  yt-sprite" title="Загрузка значка..."></span> <span class="yt-spinner-message"> Загрузка... </span> </p> 
+                        </div> 
+                       </div> 
+                       <div class="yt-dialog-content"> 
+                        <p> Удалить всю историю просмотра? Это действие нельзя отменить. </p> 
+                        <div class="yt-uix-overlay-actions"> 
+                         <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-overlay-close" type="button" onclick=";return false;" id="watch-history-clear-confirm-button"><span class="yt-uix-button-content">Очистить историю просмотра</span></button> 
+                         <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-primary yt-uix-overlay-close" type="button" onclick=";return false;"><span class="yt-uix-button-content">Отмена</span></button> 
+                        </div> 
+                       </div> 
+                       <div class="yt-dialog-working"> 
+                        <div class="yt-dialog-working-overlay"></div> 
+                        <div class="yt-dialog-working-bubble"> 
+                         <div class="yt-dialog-waiting-content"> 
+                          <p class="yt-spinner "> <span class="yt-spinner-img  yt-sprite" title="Загрузка значка..."></span> <span class="yt-spinner-message"> Обработка... </span> </p> 
+                         </div> 
+                        </div> 
+                       </div> 
+                      </div> 
+                      <div class="yt-dialog-focus-trap" tabindex="0"></div> 
+                     </div> 
+                    </div> 
+                   </div> </span> </li> 
+                 <li> <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default " type="button" onclick=";return false;" id="watch-history-pause-button"><span class="yt-uix-button-content">Приостановить запись истории просмотра</span></button> </li> 
+                 <li> <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default hid" type="button" onclick=";return false;" id="watch-history-resume-button"><span class="yt-uix-button-content">Сохранять историю просмотра</span></button> </li> 
+                </ul></li> 
+               <li>
+                <div class="display-message">
+                 История просмотра недоступна после выхода из аккаунта. 
+                 <a href="//support.google.com/youtube/answer/95725?hl=ru" class=" yt-uix-sessionlink " data-sessionlink="ei=UE_qWfnKIuuyyAWxnpCgBw" data-url="//support.google.com/youtube/answer/95725?hl=ru">Подробнее...</a>
+                </div></li> 
+              </ol> </li> 
+            </ol> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div>
+   </div>
+  </div>
+ </div> 
+ <div id="footer-container" class="yt-base-gutter force-layer">
+  <div id="footer">
+   <div id="footer-main">
+    <div id="footer-logo">
+     <a href="/" id="footer-logo-link" title="Главная страница YouTube" data-sessionlink="ei=UE_qWfnKIuuyyAWxnpCgBw&amp;ved=CAEQpmEiEwj5svzF-P_WAhVrGbIKHTEPBHQo6R4" class="yt-uix-sessionlink"><span class="footer-logo-icon yt-sprite"></span></a>
+    </div> 
+    <ul class="pickers yt-uix-button-group" data-button-toggle-group="optional"> 
+     <li> <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-has-icon" type="button" onclick=";return false;" id="yt-picker-language-button" data-button-menu-id="arrow-display" data-button-action="yt.www.picker.load" data-picker-key="language" data-picker-position="footer" data-button-toggle="true"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-footer-language yt-sprite"></span></span><span class="yt-uix-button-content"> <span class="yt-picker-button-label"> Язык: </span> Русский </span><span class="yt-uix-button-arrow yt-sprite"></span></button> </li> 
+     <li> <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default" type="button" onclick=";return false;" id="yt-picker-country-button" data-button-menu-id="arrow-display" data-button-action="yt.www.picker.load" data-picker-key="country" data-picker-position="footer" data-button-toggle="true"><span class="yt-uix-button-content"> <span class="yt-picker-button-label"> Страна: </span> Россия </span><span class="yt-uix-button-arrow yt-sprite"></span></button> </li> 
+     <li> <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default" type="button" onclick=";return false;" id="yt-picker-safetymode-button" data-button-menu-id="arrow-display" data-button-action="yt.www.picker.load" data-picker-key="safetymode" data-picker-position="footer" data-button-toggle="true"><span class="yt-uix-button-content"> <span class="yt-picker-button-label"> Безопасный режим: </span> выкл. </span><span class="yt-uix-button-arrow yt-sprite"></span></button> </li> 
+    </ul> 
+    <a href="/feed/history" class="yt-uix-button  footer-history yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default yt-uix-button-has-icon" data-sessionlink="ei=UE_qWfnKIuuyyAWxnpCgBw"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-footer-history yt-sprite"></span></span><span class="yt-uix-button-content">История</span></a> 
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-has-icon yt-uix-button-reverse yt-google-help-link inq-no-click " type="button" onclick=";return false;" id="google-help" data-ghelp-tracking-param="" data-ghelp-anchor="google-help" data-load-chat-support="true" data-feedback-product-id="59"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-questionmark yt-sprite"></span></span><span class="yt-uix-button-content">Справка </span></button> 
+    <div id="yt-picker-language-footer" class="yt-picker" style="display: none"> 
+     <p class="yt-spinner "> <span class="yt-spinner-img  yt-sprite" title="Загрузка значка..."></span> <span class="yt-spinner-message"> Загрузка... </span> </p> 
+    </div> 
+    <div id="yt-picker-country-footer" class="yt-picker" style="display: none"> 
+     <p class="yt-spinner "> <span class="yt-spinner-img  yt-sprite" title="Загрузка значка..."></span> <span class="yt-spinner-message"> Загрузка... </span> </p> 
+    </div> 
+    <div id="yt-picker-safetymode-footer" class="yt-picker" style="display: none"> 
+     <p class="yt-spinner "> <span class="yt-spinner-img  yt-sprite" title="Загрузка значка..."></span> <span class="yt-spinner-message"> Загрузка... </span> </p> 
+    </div> 
+   </div>
+   <div id="footer-links">
+    <ul id="footer-links-primary"> 
+     <li><a href="//www.youtube.com/yt/about/ru/">О сервисе</a></li> 
+     <li><a href="//www.youtube.com/yt/press/ru/">Прессе</a></li> 
+     <li><a href="//www.youtube.com/yt/copyright/ru/">Правообладателям</a></li> 
+     <li><a href="//www.youtube.com/yt/creators/ru/">Авторам</a></li> 
+     <li><a href="//www.youtube.com/yt/advertise/ru/">Рекламодателям</a></li> 
+     <li><a href="//www.youtube.com/yt/dev/ru/">Разработчикам</a></li> 
+     <li><a href="https://plus.google.com/+youtube" dir="ltr">+YouTube</a></li> 
+    </ul>
+    <ul id="footer-links-secondary"> 
+     <li><a href="/t/terms">Условия использования</a></li> 
+     <li><a href="https://www.google.ru/intl/ru/policies/privacy/">Конфиденциальность</a></li> 
+     <li><a href="//www.youtube.com/yt/policyandsafety/ru/"> Правила и безопасность </a></li> 
+     <li><a href="//support.google.com/youtube/?hl=ru" onclick="return yt.www.feedback.start(59);" class="reportbug">Отправить отзыв</a></li> 
+     <li> <a href="/testtube">Новые функции</a> </li> 
+     <li></li> 
+    </ul>
+   </div>
+  </div>
+ </div> 
+ <div class="yt-dialog hid " id="feed-privacy-lb"> 
+  <div class="yt-dialog-base"> 
+   <span class="yt-dialog-align"></span> 
+   <div class="yt-dialog-fg" role="dialog"> 
+    <div class="yt-dialog-fg-content"> 
+     <div class="yt-dialog-loading"> 
+      <div class="yt-dialog-waiting-content"> 
+       <p class="yt-spinner "> <span class="yt-spinner-img  yt-sprite" title="Загрузка значка..."></span> <span class="yt-spinner-message"> Загрузка... </span> </p> 
+      </div> 
+     </div> 
+     <div class="yt-dialog-content"> 
+      <div id="feed-privacy-dialog"> 
+      </div> 
+     </div> 
+     <div class="yt-dialog-working"> 
+      <div class="yt-dialog-working-overlay"></div> 
+      <div class="yt-dialog-working-bubble"> 
+       <div class="yt-dialog-waiting-content"> 
+        <p class="yt-spinner "> <span class="yt-spinner-img  yt-sprite" title="Загрузка значка..."></span> <span class="yt-spinner-message"> Обработка... </span> </p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="yt-dialog-focus-trap" tabindex="0"></div> 
+   </div> 
+  </div> 
+ </div> 
+ <div id="hidden-component-template-wrapper" class="hid"> 
+  <div id="shared-addto-watch-later-login" class="hid">
+    Сначала 
+   <a class="sign-in-link" href="https://accounts.google.com/ServiceLogin?service=youtube&amp;uilel=3&amp;hl=ru&amp;passive=true&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26hl%3Dru%26feature%3Dplaylist%26action_handle_signin%3Dtrue%26next%3D%252Ffeed%252Fhistory">войдите в аккаунт</a> 
+  </div> 
+  <div id="yt-uix-videoactionmenu-menu" class="yt-ui-menu-content"> 
+   <div class="hide-on-create-pl-panel"> 
+    <h3> Добавить в </h3> 
+   </div> 
+   <div class="add-to-widget"> 
+    <p class="yt-spinner "> <span class="yt-spinner-img  yt-sprite" title="Загрузка значка..."></span> <span class="yt-spinner-message"> Загрузка плейлистов... </span> </p> 
+   </div> 
+  </div>
+ </div> 
+ <script>var ytspf = ytspf || {};ytspf.enabled = true;ytspf.config = {'reload-identifier': 'spfreload'};ytspf.config['request-headers'] = {'X-YouTube-Identity-Token': null};ytspf.config['experimental-request-headers'] = ytspf.config['request-headers'];ytspf.config['cache-max'] = 50;ytspf.config['navigate-limit'] = 50;ytspf.config['navigate-lifetime'] = 64800000;</script> 
+ <script src="/yts/jsbin/spf-vfl8FeEav/spf.js" type="text/javascript" name="spf/spf"></script> 
+ <script src="/yts/jsbin/www-en_US-vfliJm6pm/base.js" name="www/base"></script> 
+ <script>spf.script.path({'www/': '/yts/jsbin/www-en_US-vfliJm6pm/'});var ytdepmap = {"www/base": null, "www/common": "www/base", "www/angular_base": "www/common", "www/channels_accountupload": "www/common", "www/channels": "www/common", "www/dashboard": "www/common", "www/downloadreports": "www/common", "www/experiments": "www/common", "www/feed": "www/common", "www/instant": "www/common", "www/legomap": "www/common", "www/promo_join_network": "www/common", "www/results_harlemshake": "www/common", "www/results": "www/common", "www/results_starwars": "www/common", "www/subscriptionmanager": "www/common", "www/unlimited": "www/common", "www/watch": "www/common", "www/ypc_bootstrap": "www/common", "www/ypc_core": "www/common", "www/channels_edit": "www/channels", "www/live_dashboard": "www/angular_base", "www/videomanager": "www/angular_base", "www/watch_autoplayrenderer": "www/watch", "www/watch_edit": "www/watch", "www/watch_editor": "www/watch", "www/watch_live": "www/watch", "www/watch_promos": "www/watch", "www/watch_speedyg": "www/watch", "www/watch_transcript": "www/watch", "www/watch_videoshelf": "www/watch", "www/ct_advancedsearch": "www/videomanager", "www/my_videos": "www/videomanager"};spf.script.declare(ytdepmap);</script>
+ <script>if (window.ytcsi) {window.ytcsi.tick("je", null, '');}</script> 
+ <script>
+      yt.setConfig('ANGULAR_JS', "\/yts\/jslib\/angular.min-vfl8oYsy-.js");
+  yt.setConfig('TRANSLATIONEDITOR_JS', "\/yts\/jsbin\/www-translationeditor-vflKVS_hg\/www-translationeditor.js");
+  yt.setMsg('UNSAVED_CHANGES_WARNING', "Некоторые изменения, внесенные в настройки канала, не были сохранены и будут потеряны, если вы уйдете с этой страницы.");
+
+    yt.setConfig(
+      'JS_PAGE_MODULES', [
+          'www/feed',
+        'www/ypc_bootstrap'
+      ]);
+
+
+
+
+  yt.setConfig('DISMISS_THROUGH_IT', true);
+
+
+      yt.setConfig({
+        'GUIDE_SELECTED_ITEM': "0qDduQELEglGRWhpc3Rvcnk%3D"
+      });
+
+      yt.setConfig({
+    'GUIDED_HELP_LOCALE': "ru_RU",
+    'GUIDED_HELP_ENVIRONMENT': "prod"
+  });
+
+  </script> 
+ <script>yt.setConfig({GAPI_HINT_PARAMS: "m;\/_\/scs\/abc-static\/_\/js\/k=gapi.gapi.en.CMK08v540qY.O\/m=__features__\/am=AAg\/rt=j\/d=1\/rs=AHpOoo-zuYXPOIuiHXsKOXE2DwZ06yC48g",XHR_APIARY_HOST: "youtubei.youtube.com",APIARY_HOST_FIRSTPARTY: "",INNERTUBE_API_KEY: "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8",INNERTUBE_CONTEXT_CLIENT_VERSION: "1.20171018",INNERTUBE_CONTEXT_CLIENT_NAME: 1,INNERTUBE_API_VERSION: "v1",APIARY_HOST: "",'VISITOR_DATA': "CgtWNV92cnkyOU5sTQ%3D%3D",'GAPI_HOST': "https:\/\/apis.google.com",'GAPI_LOCALE': "ru_RU",'INNERTUBE_CONTEXT_HL': "ru",'INNERTUBE_CONTEXT_GL': "RU",'XHR_APIARY_HOST': "youtubei.youtube.com"});yt.setConfig({'ROOT_VE_CHILDREN': ["CAEQpmEiEwj5svzF-P_WAhVrGbIKHTEPBHQo6R4","CAIQ7VAiEwj5svzF-P_WAhVrGbIKHTEPBHQo6R4","CAsQ_h4iEwj5svzF-P_WAhVrGbIKHTEPBHQo6R4","CAwQ5isYACITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg","CA0QtSwYACITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg","CA4QtSwYASITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg","CA8QtSwYAiITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg","CBAQ5isYASITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg","CBEQtSwYACITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg","CBIQtSwYASITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg","CBMQtSwYAiITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg","CBQQtSwYAyITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg","CBUQtSwYBCITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg","CBYQtSwYBSITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg","CBcQtSwYBiITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg","CBgQtSwYByITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg","CBkQtSwYCCITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg","CBoQ5isYAiITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg","CBsQtSwYACITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg","CBwQ2C4YAyITCPmy_MX4_9YCFWsZsgodMQ8EdCjpHg"],});yt.setConfig({'PAGE_NAME': "feed",'LOGGED_IN': false,'SESSION_INDEX': null,'VALID_SESSION_TEMPDATA_DOMAINS': ["www.youtube.com","gaming.youtube.com"],'PARENT_TRACKING_PARAMS': "",'FORMATS_FILE_SIZE_JS': ["%s Б","%s КБ","%s МБ","%s ГБ","%s ТБ"],'DELEGATED_SESSION_ID': null,'ONE_PICK_URL': "",'UNIVERSAL_HOVERCARDS': false,'GOOGLEPLUS_HOST': "https:\/\/plus.google.com",'PAGEFRAME_JS': "\/yts\/jsbin\/www-pageframe-vfl1k78kv\/www-pageframe.js",'GAPI_LOADER_URL': "\/yts\/jsbin\/www-gapi-loader-vflRib08t\/www-gapi-loader.js",'JS_COMMON_MODULE': "\/yts\/jsbin\/www-en_US-vfliJm6pm\/common.js",'PAGE_FRAME_DELAYLOADED_CSS': "\/yts\/cssbin\/www-pageframedelayloaded-vflk6PLEv.css",'EXPERIMENT_FLAGS': {"comment_deep_link":true,"log_foreground_heartbeat":true,"custom_emoji_creator":true,"cold_load_nav_start_web":true,"player_swfcfg_cleanup":true,"app_settings_snapshot_is_logging_enabled":true,"autoplay_pause_by_lact_sec":0,"clear_web_implicit_clicktracking":true,"same_domain_static_resources_desktop":true,"service_worker_enabled":true,"custom_emoji_legacy":true,"consent_url_override":"","desktop_polymer":true,"service_worker_push_prompt_cap":-1,"autoplay_pause_sampling_fraction":0.0,"service_worker_push_logged_out_prompt_watches":-1,"enable_firefox_push_notifications":true,"live_chat_busyness_sampling_ceil":10.0,"enable_logging_directives_desktop":true,"live_chat_top_chat_window_length_sec":3,"desktop_notification_high_priority_ignore_push":true,"gfeedback_for_signed_out_users_enabled":true,"desktop_pyv_on_watch_via_valor":true,"autoplay_pause_by_lact_sampling_fraction":0.0,"youtubei_for_web":true,"web_gel_lact":true,"remove_web_visibility_batching":true,"botguard_periodic_refresh":true,"app_settings_snapshot_min_time_between_snapshots_hours":24,"web_logging_max_batch":100,"optimistically_create_transport_client":true,"service_worker_push_prompt_delay_ms":3888000000,"log_window_onerror_fraction":0.1,"web_always_load_chat_support":true,"live_chat_inline_moderation":true,"use_push_for_desktop_live_chat":true,"enable_afv_div_reset_in_kevlar":true,"live_chat_busyness_sampling_floor":2.0,"web_system_health_fraction":0.01,"autoescape_tempdata_url":true,"watch_next_pause_autoplay_lact_sec":0,"sponsors_whitelist_creator":true,"live_chat_flagging_reasons":true,"service_worker_push_enabled":true,"desktop_notification_set_title_bar":true,"desktop_pyv_on_watch_override_lact":true,"block_spf_search_ads_impressions":true,"live_chat_message_sampling_rate":1.0,"live_chat_busyness_enabled":true,"interaction_logging_on_gel_web":true,"live_chat_message_sampling_method":"","cancel_pending_navs":true,"enable_youtubei_innertube":true,"chat_smoothing_animations":84,"enable_playlist_visibility":true,"live_chat_top_chat_split":0.5,"live_chat_busyness_sampling_center":20.0,"debug_forced_promo_id":"","enable_server_side_search_pyv":true,"enable_gaming_new_logo":true,"live_chat_replay_milliqps_threshold":5000,"service_worker_scope":"\/","log_web_meta_interval_ms":0,"service_worker_push_home_page_prompt":true,"enable_more_related_ve_logging":true,"service_worker_push_force_notification_prompt_tag":"1","desktop_pyv_on_watch_missing_params":true,"live_chat_busyness_sampling_steepness":1.0,"dark_launch_live_chat_replay":true,"service_worker_push_home_only":true,"custom_emoji_super_chat":true,"use_watch_fragments2":true,"custom_emoji_desktop":true,"log_web_screen_end":true,"custom_emoji_main_app":true,"warm_load_nav_start_web":true,"live_chat_top_chat_entry_threshold":2.0},'GUIDED_HELP_PARAMS': {"context":"yt_web_history","logged_in":"0"},'HIGH_CONTRAST_MODE_CSS': "\/yts\/cssbin\/www-highcontrastmode-vflHWedJm.css",'PREFETCH_LINKS': false,'PREFETCH_LINKS_MAX': 1,'PREFETCH_AUTOPLAY': false,'PREFETCH_AUTOPLAY_TIME': 0,'PREFETCH_AUTONAV': false,'PREBUFFER_MAX': 1,'PREBUFFER_LINKS': false,'PREBUFFER_AUTOPLAY': false,'PREBUFFER_AUTONAV': false,'WATCH_LATER_BUTTON': "\n\n  \u003cbutton class=\"yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip\" type=\"button\" onclick=\";return false;\" role=\"button\" title=\"Посмотреть позже\" data-button-menu-id=\"shared-addto-watch-later-login\" data-video-ids=\"__VIDEO_ID__\"\u003e\u003cspan class=\"yt-uix-button-arrow yt-sprite\"\u003e\u003c\/span\u003e\u003c\/button\u003e\n",'WATCH_QUEUE_BUTTON': "  \u003cbutton class=\"yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button addto-queue-button video-actions spf-nolink hide-until-delayloaded addto-tv-queue-button yt-uix-tooltip\" type=\"button\" onclick=\";return false;\" title=\"Очередь\" data-style=\"tv-queue\" data-video-ids=\"__VIDEO_ID__\"\u003e\u003c\/button\u003e\n",'WATCH_QUEUE_MENU': "  \u003cspan class=\"thumb-menu dark-overflow-action-menu video-actions\"\u003e\n    \u003cbutton type=\"button\" aria-expanded=\"false\" class=\"yt-uix-button-reverse flip addto-watch-queue-menu spf-nolink hide-until-delayloaded yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon no-icon-markup yt-uix-button-empty\" onclick=\";return false;\" aria-haspopup=\"true\" \u003e\u003cspan class=\"yt-uix-button-arrow yt-sprite\"\u003e\u003c\/span\u003e\u003cul class=\"watch-queue-thumb-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu hid\"\u003e\u003cli role=\"menuitem\" class=\"overflow-menu-choice addto-watch-queue-menu-choice addto-watch-queue-play-next yt-uix-button-menu-item\" data-action=\"play-next\" onclick=\";return false;\"  data-video-ids=\"__VIDEO_ID__\"\u003e\u003cspan class=\"addto-watch-queue-menu-text\"\u003eСледующее\u003c\/span\u003e\u003c\/li\u003e\u003cli role=\"menuitem\" class=\"overflow-menu-choice addto-watch-queue-menu-choice addto-watch-queue-play-now yt-uix-button-menu-item\" data-action=\"play-now\" onclick=\";return false;\"  data-video-ids=\"__VIDEO_ID__\"\u003e\u003cspan class=\"addto-watch-queue-menu-text\"\u003eВоспроизвести\u003c\/span\u003e\u003c\/li\u003e\u003c\/ul\u003e\u003c\/button\u003e\n  \u003c\/span\u003e\n",'SAFETY_MODE_PENDING': false,'I18N_PLURAL_RULES': function(n) { var n10 = n % 10; var n100 = n % 100; return ((n10 == 1) && (n100 != 11)) ? 'one' : ((n == parseInt(n, 10) && 2 <= n10 && n10 <= 4) && (n == parseInt(n, 10) && 12 <= n100 && n100 <= 14)) ? 'few' : ((n10 == 0) || (n == parseInt(n, 10) && 5 <= n10 && n10 <= 9) || (n == parseInt(n, 10) && 11 <= n100 && n100 <= 14)) ? 'many' : 'other'; },'ZWIEBACK_PING_URLS': ["https:\/\/www.google.ru\/pagead\/lvz?pg=feed\u0026evtid=AHTCIYdZ6O2tyiMOe_lST70be1sjBw2IT_A703XJGbOX47msThQJRlgJ7qhFrptVsO5xqtTmTgAIGn81cgGkyHEKfuvIn_uRJg\u0026req_ts=1508527952\u0026sigh=AK-2CR63zsTEph0dtdiiYX4o1hAHsXG9qA"],'LOCAL_DATE_TIME_CONFIG': {"shortWeekdays":["вс","пн","вт","ср","чт","пт","сб"],"amPms":null,"formatLongDate":"d MMMM yyyy 'г., 'H:mm","shortMonths":["янв.","февр.","мар.","апр.","мая","июн.","июл.","авг.","сент.","окт.","нояб.","дек."],"firstWeekCutoffDay":3,"months":["января","февраля","марта","апреля","мая","июня","июля","августа","сентября","октября","ноября","декабря"],"firstDayOfWeek":0,"dateFormats":["d MMMM yyyy 'г., 'H:mm","d MMMM yyyy 'г.'","d MMM yyyy 'г.'","d MMM yyyy 'г.'"],"formatShortDate":"d MMM yyyy 'г.'","formatWeekdayShortTime":"EE H:mm","formatLongDateOnly":"d MMMM yyyy 'г.'","weekendRange":[6,5],"formatShortTime":"H:mm","weekdays":["воскресенье","понедельник","вторник","среда","четверг","пятница","суббота"]},'PAGE_CL': 172568519,'PAGE_BUILD_LABEL': "youtube.ytfe.desktop_20171018_0_RC0",'VARIANTS_CHECKSUM': "68f49065394d302b0e55d8c91e56b29e",'CLIENT_PROTOCOL': "HTTP\/1.1",'CLIENT_TRANSPORT': "tcp",'MDX_ENABLE_CASTV2': true,'MDX_ENABLE_QUEUE': true,'FEEDBACK_BUCKET_ID': "Other",'FEEDBACK_LOCALE_LANGUAGE': "ru",'FEEDBACK_LOCALE_EXTRAS': {"experiments":"23700014,23700266,23700361,23700497,23700503,23700611,23700732,23700784,23701221,23701297,23701476,23701664,23701698,23701882,23702018,23702077,23702138,23702322,23702388,23702459,23702507,23702513,23702700,23702945,23703024,23703213,23703266,23703645,23703820,23703915,23703975,23704081,23704248,23704303,23704316,23704466,23704539,23704578,23704792,23705057,23705141,23705192,23705240,23705485,23705632,23705716,23705739,23705778,23705866,23705956,23706001,23706129,23706217,23706386,23706594,23706596,23706782,23706844,23706846,23706864,23706875,23706932,23707097,23707100,23707149,23707251,23707258,23707585,23707783,23707788,23707877,23707888,23708199,23708200,23708203,23708291,23708772,23708948,23709442,23709547,9415398,9419979,9420289,9422596,9431754,9432939,9438309,9440054,9441194,9442387,9442746,9448302,9449243,9451814,9453167,9453409,9456191,9456445,9456628,9457114,9457169,9458110,9459793,9459795,9460350,9460554,9460829,9460959,9463460,9463594,9463936,9463963,9464887,9465513,9466606,9466835,9467471,9467503,9467508,9467510,9467512,9467659,9467795,9467806,9467820,9467822,9467848,9468195,9469934,9470040,9470791,9471103,9471239,9471263,9471536,9471553,9471955,9472157,9472191,9473375,9473383,9473407,9473977,9474396,9475218,9475460,9475683,9476026,9476077,9476327,9476739,9476747,9477113,9477401,9477419,9477905,9478787,9479200,9479354,9479456,9479749,9479958,9480013,9480071,9480312,9480317,9480337,9480371,9480475,9480550,9480711,9481213,9481220,9481499,9482003,9482972,9482998,9483190,9483245,9483308,9483512,9483583,9483589,9483858,9484088,9484996,9485000,9486160,9486390,9486443,9487037,9487329,9487434,9487458,9487532,9487622,9487777,9487955,9488038,9488215,9488257,9488272,9488552,9488615,9488991,9488995,9489074,9489224,9489266,9489277,9489315,9489331,9489336,9489700,9489758","logged_in":false,"accept_language":null}});   yt.setConfig({
+    'GUIDED_HELP_LOCALE': "ru_RU",
+    'GUIDED_HELP_ENVIRONMENT': "prod"
+  });
+yt.setConfig('SPF_SEARCH_BOX', true);yt.setMsg({'ADDTO_CREATE_NEW_PLAYLIST': "Создать новый плейлист\n",'ADDTO_CREATE_PLAYLIST_DYNAMIC_TITLE': "  Создать новый плейлист \u0026quot;$dynamic_title_placeholder\u0026quot;\n",'ADDTO_WATCH_LATER': "Watch later",'ADDTO_WATCH_LATER_ADDED': "Добавлено",'ADDTO_WATCH_LATER_ERROR': "Ошибка",'ADDTO_WATCH_QUEUE': "Watch Queue",'ADDTO_WATCH_QUEUE_ADDED': "Добавлено",'ADDTO_WATCH_QUEUE_ERROR': "Ошибка",'ADDTO_TV_QUEUE': "Queue",'ADS_INSTREAM_FIRST_PLAY': "Воспроизводится видеореклама.",'ADS_INSTREAM_SKIPPABLE': "Видеорекламу можно пропустить.",'ADS_OVERLAY_IMPRESSION': "Отображается объявление.",'MASTHEAD_NOTIFICATIONS_LABEL': {"other": "# \u043d\u0435\u043f\u0440\u043e\u0447\u0438\u0442\u0430\u043d\u043d\u043e\u0433\u043e \u043e\u043f\u043e\u0432\u0435\u0449\u0435\u043d\u0438\u044f", "one": "#\u00a0\u043d\u0435\u043f\u0440\u043e\u0447\u0438\u0442\u0430\u043d\u043d\u043e\u0435 \u043e\u043f\u043e\u0432\u0435\u0449\u0435\u043d\u0438\u0435", "few": "#\u00a0\u043d\u0435\u043f\u0440\u043e\u0447\u0438\u0442\u0430\u043d\u043d\u044b\u0445 \u043e\u043f\u043e\u0432\u0435\u0449\u0435\u043d\u0438\u044f", "many": "#\u00a0\u043d\u0435\u043f\u0440\u043e\u0447\u0438\u0442\u0430\u043d\u043d\u044b\u0445 \u043e\u043f\u043e\u0432\u0435\u0449\u0435\u043d\u0438\u0439", "case1": "1\u00a0\u043d\u0435\u043f\u0440\u043e\u0447\u0438\u0442\u0430\u043d\u043d\u043e\u0435 \u043e\u043f\u043e\u0432\u0435\u0449\u0435\u043d\u0438\u0435", "case0": "0\u00a0\u043d\u0435\u043f\u0440\u043e\u0447\u0438\u0442\u0430\u043d\u043d\u044b\u0445 \u043e\u043f\u043e\u0432\u0435\u0449\u0435\u043d\u0438\u0439"},'MASTHEAD_NOTIFICATIONS_COUNT_99PLUS': "99+",'MDX_AUTOPLAY_OFF': 'Автовоспроизведение выключено','MDX_AUTOPLAY_ON': 'Автовоспроизведение включено'});  yt.setConfig('FEED_PRIVACY_CSS_URL', "\/yts\/cssbin\/www-feedprivacydialog-vflQFhNkk.css");
+  yt.setConfig('FEED_PRIVACY_LIGHTBOX_ENABLED', true);
+yt.setConfig({'SBOX_JS_URL': "\/yts\/jsbin\/www-searchbox-legacy-vflY7WsF8\/www-searchbox-legacy.js",'SBOX_SETTINGS': {"REQUEST_LANGUAGE":"ru","SESSION_INDEX":null,"SUGG_EXP_ID":"","IS_FUSION":false,"PQ":"","REQUEST_DOMAIN":"ru","PSUGGEST_TOKEN":null,"HAS_ON_SCREEN_KEYBOARD":true},'SBOX_LABELS': {"SUGGESTION_DISMISS_LABEL":"Удалить","SUGGESTION_DISMISSED_LABEL":"Рекомендация удалена"}});  yt.setConfig({
+    'YPC_LOADER_JS': "\/yts\/jsbin\/www-ypc-vflR8V8Dd\/www-ypc.js",
+    'YPC_LOADER_CSS': "\/yts\/cssbin\/www-ypc-vfl4t9kU0.css",
+    'YPC_SIGNIN_URL': "https:\/\/accounts.google.com\/ServiceLogin?service=youtube\u0026uilel=3\u0026hl=ru\u0026passive=true\u0026continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26hl%3Dru%26action_handle_signin%3Dtrue%26next%3D%252F",
+    'DBLCLK_ADVERTISER_ID': "2542116",
+    'DBLCLK_YPC_ACTIVITY_GROUP': "youtu444",
+    'SUBSCRIPTION_URL': "\/subscription_ajax",
+    'YPC_SWITCH_URL': "\/signin?feature=purchases\u0026action_handle_signin=true\u0026skip_identity_prompt=True\u0026next=%2F",
+    'YPC_GB_LANGUAGE': "ru_RU",
+    'YPC_MB_URL': "https:\/\/payments.youtube.com\/payments\/v4\/js\/integrator.js?ss=md",
+    'YPC_TRANSACTION_URL': "\/transaction_handler",
+    'YPC_SUBSCRIPTION_URL': "\/ypc_subscription_ajax",
+    'YPC_POST_PURCHASE_URL': "\/ypc_post_purchase_ajax",
+    'YTR_FAMILY_CREATION_URL': "https:\/\/families.google.com\/webcreation?usegapi=1",
+    'YTO_GTM_DATA': {'event': 'purchased', 'purchaseStatus': 'success'},
+    'YTO_GTM_1_BUTTON_CLICK_DATA': {'event': 'landingButtonClick', 'buttonPosition': '1'},
+    'YTO_GTM_2_BUTTON_CLICK_DATA': {'event': 'landingButtonClick', 'buttonPosition': '2'}
+  });
+  yt.setMsg({
+    'YPC_OFFER_OVERLAY': "  \n",
+    'YPC_UNSUBSCRIBE_OVERLAY': "  \n"
+  });
+  yt.setConfig('GOOGLE_HELP_CONTEXT', "yt_web_history");
+ytcsi.info('st', 70);ytcfg.set({"CSI_SERVICE_NAME":"youtube","TIMING_INFO":{"yt_li":"0","GetBrowse_rid":"0xf2d51fee6142ea96","cver":"1.20171018","c":"WEB","yt_fn":"history","yt_lt":"cold"}});;ytcfg.set({"TIMING_ACTION":"browse","CSI_VIEWPORT":true,"TIMING_AFT_KEYS":["cpt"]});;  yt.setConfig({
+      'XSRF_TOKEN': "QUFFLUhqa1NMbjJJOXJIQWdHeUloeFFmWDJvdjI2QUJKZ3xBQ3Jtc0trZ1RTWXBXVTZLYjVMMlpNMHRrdGJVRzdPbzRmYnFTYmd3cVQ0UlJHUDgxd2I1TnZsaTdhckllSGVLWVRVQUZYSHZJMTBNbzBuenNyWHJJVUR0Q2pNeS1BZnc3QzNaUkRnM3E1UlJuVVZ1NDhZOG9OQ1c1SDF3S2hYTmJOVV95SGNacmJlV2F3dWllaW50YUt0a281UFo5WllKMkE=",
+      'XSRF_FIELD_NAME': "session_token",
+
+      'XSRF_REDIRECT_TOKEN': "8al5iak49VceWtEE-1sz2N45zHl8MTUwODYxNDM1MkAxNTA4NTI3OTUy"  });
+yt.setConfig('ID_TOKEN', null);window.ytcfg.set('SERVICE_WORKER_KILLSWITCH', false);  yt.setConfig('THUMB_DELAY_LOAD_BUFFER', 0);
+if (window.ytcsi) {window.ytcsi.tick("jl", null, '');}</script>  
+</body>

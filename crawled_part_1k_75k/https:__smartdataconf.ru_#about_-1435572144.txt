@@ -1,0 +1,1465 @@
+https://smartdataconf.ru/#about
+<body data-function=""> 
+ <noscript>
+  <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1067365970024945&amp;ev=PageView&amp;noscript=1">
+ </noscript> 
+ <header class="header"> 
+  <div class="header-container"> 
+   <div class="header-logo-container"> 
+    <a href="/" class="logo_link"> <img src="/assets/images/logo-white-horizontal.png" srcset="/assets/images/logo-white-horizontal@2x.png 2x" width="150" alt="SmartData"> </a> 
+    <ul class="social-links"> 
+     <li class="social-item"> <a class="social_link" href="https://fb.me/smartdataconf" target="_blank"> <i class="icon-facebook"></i><span class="hidden-sm-down"></span> </a> </li> 
+     <li class="social-item"> <a class="social_link" href="https://vk.com/smartdata " target="_blank"> <i class="icon-vkontakte"></i><span class="hidden-sm-down"></span> </a> </li> 
+     <li class="social-item"> <a class="social_link" href="https://twitter.com/smartdatacon" target="_blank"> <i class="icon-twitter"></i><span class="hidden-sm-down"></span> </a> </li> 
+     <li class="social-item"> <a class="social_link" href="https://t.me/smartdataconf" target="_blank"> <i class="icon-telegram"></i><span class="hidden-sm-down"></span> </a> </li> 
+    </ul> 
+   </div> 
+   <div class="header-nav-container"> 
+    <nav class="navbar navbar-toggleable-md bg-inverse py-2 bg-faded hidden-md-down"> 
+     <ul class="navbar navbar-header"> 
+      <li class="nav-item"> <a class="nav-link nav-link-inverse " href="/#about"> О конференции </a> </li> 
+      <li class="nav-item"> <a class="nav-link nav-link-inverse " href="/#schedule"> Программа </a> </li> 
+      <li class="nav-item"> <a class="nav-link nav-link-inverse " href="/tickets/"> Купить билет </a> </li> 
+      <li class="nav-item"> <a class="nav-link nav-link-inverse " href="/#faq"> F.A.Q. </a> </li> 
+      <li class="nav-item"> <a class="nav-link nav-link-inverse " href="/#sponsors"> Спонсоры </a> </li> 
+      <li class="nav-item"> <a class="nav-link nav-link-inverse " href="/organizers/"> Организаторы </a> </li> 
+      <li class="nav-item"> <a class="nav-link nav-link-inverse " href="#contacts"> Контакты </a> </li> 
+      <li class="nav-item"> <a href="/en/" class="nav-link nav-link-inverse">EN</a> </li> 
+     </ul> 
+    </nav> 
+   </div> 
+  </div> 
+ </header> 
+ <div class="hero "> 
+  <div class="logo-hero"> 
+   <picture class="logo-main"> 
+    <source srcset="/assets/images/logo-white-horizontal.png" media="(max-width: 800px)"> 
+    <source srcset="/assets/images/logo-white-horizontal@2x.png 2x"> 
+    <img src="/assets/images/logo-white-horizontal.png" alt="SmartData 2017 Санкт-Петербург"> 
+   </picture> 
+   <h2 class="slogan"> Конференция по большим и умным данным </h2> 
+  </div> 
+  <div class="hero-info"> 
+   <ul class="hero-info_items"> 
+    <li class="hero-info_item"> <i class="fa fa-calendar"></i> 
+     <nobr>
+      21 октября 2017
+     </nobr></li> 
+    <li class="hero-info_item"> <i class="fa fa-map-marker"></i> Crowne Plaza St.Petersburg Airport <a class="hero__place-adress" href="/#venue">Стартовая, д. 6 литер А, Санкт-Петербург</a> </li> 
+   </ul> 
+  </div> 
+  <div class="hero-action"> 
+   <a href="/tickets/" class="btn">Купить билет</a> 
+   <br>
+   <br> 
+   <!-- Begin MailChimp Signup Form --> 
+   <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css"> 
+   <div id="mc_embed_signup"> 
+    <form action="//jugru.us14.list-manage.com/subscribe/post?u=f48529a826cf95fa04d4a4634&amp;id=2f9625969b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"> 
+     <div> 
+      <label for="mce-EMAIL">Подписаться на новости конференции</label> 
+      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="E-mail" required> 
+      <label for="agrre"><input type="checkbox" required id="agrre"> Согласен на <a href="https://jugru.org/privacy_policy.html" target="_blank" style="color: #fff">обработку персональных данных</a></label> 
+      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--> 
+      <div style="position: absolute; left: -5000px;" aria-hidden="true">
+       <input type="text" name="b_f48529a826cf95fa04d4a4634_2528085e2e" tabindex="-1" value="">
+      </div> 
+      <div class="clear">
+       <input type="submit" value="Подписаться!" name="subscribe" id="mc-embedded-subscribe" class="button">
+      </div> 
+     </div> 
+    </form> 
+   </div> 
+   <!--End mc_embed_signup--> 
+  </div> 
+ </div> 
+ <section class="about" id="about"> 
+  <div class="about-container"> 
+   <h1 class="about_title">О конференции</h1> 
+  </div> 
+  <article class="about-container"> 
+   <div class="about_note"> 
+    <div class="entry-content"> 
+     <p>SmartData 2017 – конференция, посвященная техническим вопросам из мира Big Data и обработки данных. Здесь не будет разговоров о том, насколько те или иные технологии/подходы перспективны или полезны. У нас уже есть стек: выбирай инструмент, бери и делай. Доклады будут посвящены применению Big Data подходов в приложении к реальным задачам:</p> 
+     <ul> 
+      <li>Data Science с точки зрения научного подхода и его результатов для индустрии;</li> 
+      <li>Решение практических задач при помощи Big Data и умных данных;</li> 
+      <li>Тулинг и решения, позволяющие решать задачи правильно и быстро.</li> 
+     </ul> 
+     <p>Сейчас в Big Data громадных технологических изменений не происходит, главное уже известно и доступно, и теперь вопрос в том, насколько индустрия в состоянии всё это обработать и принять на вооружение. И конференция отлично помогает в этом.</p> 
+    </div> 
+    <h5><a href="#participant">Памятка участнику: как получить максимум от конференции JUG.ru Group</a></h5> 
+   </div> 
+  </article> 
+ </section> 
+ <div class="main-wrap"> 
+  <div class="container mt-3"> 
+   <div class="row"> 
+    <h2 class="mb-3">Спикеры</h2> 
+   </div> 
+   <div class="row"> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="5KhqVcjnFKSOC4GOqWuIKC"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/4QkUdERtD22kmIIMOWQaQ2/315245ea197b487796a1bb948d836299/_______________________.jpg?w=320" alt="Иван Ямщиков"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Иван Ямщиков</span> 
+       <br> 
+       <span class="speaker__company">Институт Макса Планка, Лейпциг, Германия / Creaited Labs</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="5KhqVcjnFKSOC4GOqWuIKC" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Иван Ямщиков<br><small>Институт Макса Планка, Лейпциг, Германия / Creaited Labs</small></h3> 
+     <div class="speaker-modal-info"> 
+      <p>Аналитик Яндекса с 2011 года. Получил PhD по прикладной математике в Бранденбургском Технологическом университете (Котбус, Германия). В данный момент — научный сотрудник Института Макса Планка (Лейпциг, Германия) и консультант Яндекса. Иван исследует новые принципы работы искусственного интеллекта, которые могли бы помочь понять, как работает наш мозг.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="5m513GFbSowY4uAEQWmo8S"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/GbWKsVdNo4s2Oc6qeK2CS/d3b0edaa840099775517bc385f9e6d55/pd7ekrkWmdc.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/GbWKsVdNo4s2Oc6qeK2CS/d3b0edaa840099775517bc385f9e6d55/pd7ekrkWmdc.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/GbWKsVdNo4s2Oc6qeK2CS/d3b0edaa840099775517bc385f9e6d55/pd7ekrkWmdc.jpg?w=640 2x" alt="Виталий Худобахшов "> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Виталий Худобахшов </span> 
+       <br> 
+       <span class="speaker__company">Одноклассники</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="5m513GFbSowY4uAEQWmo8S" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Виталий Худобахшов <br><small>Одноклассники</small></h3> 
+     <a href="https://twitter.com/khudobakhshov " target="_blank"><i class="icon-twitter"></i> khudobakhshov </a> 
+     <div class="speaker-modal-info"> 
+      <p>Закончил СПбГУ, физический факультет. Работает с Java начиная c версии 1.1. На протяжении многих лет работал в СПбГУ, преподавал информатику и математику. С 2015 года – ведущий аналитик в Одноклассниках, где занимается различными аспектами анализа данных. Давно увлекается функциональным программированием и вне основной работы и Java-стека программирует на Haskell. В области анализа данных использует Spark/Scala и R.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="2JiC2BCcEwYMc024QuKIy6"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/1M39lPnS8QE6a8O6meagw8/056edf59fb1f24fca10414ad3d02c16e/Dorogush.JPG?w=320" srcset="//images.contentful.com/oxjq45e8ilak/1M39lPnS8QE6a8O6meagw8/056edf59fb1f24fca10414ad3d02c16e/Dorogush.JPG?w=320 1x, //images.contentful.com/oxjq45e8ilak/1M39lPnS8QE6a8O6meagw8/056edf59fb1f24fca10414ad3d02c16e/Dorogush.JPG?w=640 2x" alt="Анна Вероника Дорогуш"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Анна Вероника Дорогуш</span> 
+       <br> 
+       <span class="speaker__company">Яндекс</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="2JiC2BCcEwYMc024QuKIy6" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Анна Вероника Дорогуш<br><small>Яндекс</small></h3> 
+     <div class="speaker-modal-info"> 
+      <p>Окончила факультет ВМК Московского государственного университета и Школу анализа данных (ШАД). Работала в компаниях ABBYY, Microsoft, Bing, Google. В Яндексе с 2015 года. Занимается задачами, связанными с развитием алгоритмов машинного обучения.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="5Tetfd0IXCkA220MoGu0OQ"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/2O4Qx8ipx6OoAQo68eCoqI/f4f1073c3e1c7961606894aa970c8162/lkbjDcC0Cac.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/2O4Qx8ipx6OoAQo68eCoqI/f4f1073c3e1c7961606894aa970c8162/lkbjDcC0Cac.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/2O4Qx8ipx6OoAQo68eCoqI/f4f1073c3e1c7961606894aa970c8162/lkbjDcC0Cac.jpg?w=640 2x" alt="Владимир Красильщик "> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Владимир Красильщик </span> 
+       <br> 
+       <span class="speaker__company">Яндекс</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="5Tetfd0IXCkA220MoGu0OQ" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Владимир Красильщик <br><small>Яндекс</small></h3> 
+     <a href="https://twitter.com/dyer_the " target="_blank"><i class="icon-twitter"></i> dyer_the </a> 
+     <div class="speaker-modal-info"> 
+      <p>Владимир с отличием окончил кафедру Математического Обеспечения СПбГЭТУ «ЛЭТИ» и уже более 14 лет разрабатывает программное обеспечение для государственных, образовательных и финансовых учреждений, а также автомобильных и телекоммуникационных концернов. Работает в Санкт-Петербургском филиале компании Яндекс разработчиком Яндекс.Маркет. Владимир является резидентом российского сообщества Java-разработчиков JUG.ru и выступает на таких отраслевых конференциях, как JPoint, Joker, JBreak и PGDay.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="7wwry2Ay6QqYKYEKqmsWEY"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/6imR26ZkxqY2kq0USW8Cs6/65e1be5795390c4ac0d8c4605e59e942/potapov_a__1_.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/6imR26ZkxqY2kq0USW8Cs6/65e1be5795390c4ac0d8c4605e59e942/potapov_a__1_.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/6imR26ZkxqY2kq0USW8Cs6/65e1be5795390c4ac0d8c4605e59e942/potapov_a__1_.jpg?w=640 2x" alt="Алексей Потапов"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Алексей Потапов</span> 
+       <br> 
+       <span class="speaker__company">ИТМО</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="7wwry2Ay6QqYKYEKqmsWEY" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Алексей Потапов<br><small>ИТМО</small></h3> 
+     <div class="speaker-modal-info"> 
+      <p>Профессор кафедры компьютерной фотоники и видеоинформатики ИТМО. Победитель конкурса грантов для молодых научно-педагогических работников вузов Санкт-Петербурга (2009 год). Победитель конкурса грантов Президента Российской Федерации для государственной поддержки молодых российских ученых– докторов наук в области знаний «Информационно-телекоммуникационные системы и технологии» (2010 год). Подготовил одного кандидата технических наук. Медалист Российской академии наук (2011 год). Дипломант международной конференции «Automatic Target Recognition» (2010 год). Прошел стажировку в университете Тюкё (Япония) по курсу «Повышение квалификации, включая стажировки работников вуза в ведущих мировых научных и университетских центрах» (2011 год). Принимал участие в 7 научно-исследовательских проектах. За период 2009—2011 годов: опубликовал два пособия и 27 научных работ, включая 12 работ в реферируемых журналах и одну монографию; получил 5 свидетельств о регистрации программ для ЭВМ; принимал участие в 5 международных конференциях.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="14rsuXgmKqc8k2cAQAWaKg"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/2ZRF2U1IVyEoGsGQCgymOQ/59cc04b2aeef4dfcdaef25931d4cdd26/maxresdefault.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/2ZRF2U1IVyEoGsGQCgymOQ/59cc04b2aeef4dfcdaef25931d4cdd26/maxresdefault.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/2ZRF2U1IVyEoGsGQCgymOQ/59cc04b2aeef4dfcdaef25931d4cdd26/maxresdefault.jpg?w=640 2x" alt="Дмитрий Бугайченко "> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Дмитрий Бугайченко </span> 
+       <br> 
+       <span class="speaker__company">Одноклассники</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="14rsuXgmKqc8k2cAQAWaKg" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Дмитрий Бугайченко <br><small>Одноклассники</small></h3> 
+     <div class="speaker-modal-info"> 
+      <p>Закончил Санкт-Петербургский Государственный Университет в 2004 году, там же защитил кандидатскую по формально-логическим методам в 2007. Почти 9 лет проработал в аутсорсинге, не теряя контакта с университетом и научной средой. Анализ больших данных в Одноклассниках стал для Дмитрия уникальным шансом совместить теоретическую подготовку и научный фундамент с разработкой реальных, востребованных продуктов. И этим шансом он с радостью воспользовался, придя туда пять лет назад.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="5Vn2EgaZxuWeQIQscUKy6C"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/258zKejGAAk82EoiM6Io0Y/b3994d4b5ef447ac0ceaef04c3375df9/amarinov__1_.png?w=320" srcset="//images.contentful.com/oxjq45e8ilak/258zKejGAAk82EoiM6Io0Y/b3994d4b5ef447ac0ceaef04c3375df9/amarinov__1_.png?w=320 1x, //images.contentful.com/oxjq45e8ilak/258zKejGAAk82EoiM6Io0Y/b3994d4b5ef447ac0ceaef04c3375df9/amarinov__1_.png?w=640 2x" alt="Артем Маринов"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Артем Маринов</span> 
+       <br> 
+       <span class="speaker__company">Directual</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="5Vn2EgaZxuWeQIQscUKy6C" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Артем Маринов<br><small>Directual</small></h3> 
+     <a href="https://twitter.com/onexdrk" target="_blank"><i class="icon-twitter"></i> onexdrk</a> 
+     <div class="speaker-modal-info"> 
+      <p>Занимается рекламными технологиями с 2013 года, последние два года работал в компании Data-Centric Alliance в качестве лидера разработки DMP Facetz, сейчас работает в компании Directual. До этого несколько лет вёл разработку ряда рекламных проектов в компании Creara. Специализируется в области BigData и работе с высокими нагрузками. Основные языки — Java / Scala, в профессии уже около 8 лет.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="7eR7K4PkrY0sYAAq6MCIAe"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/3V0rjI6qxqC8aaQQcQ8KAu/20e4cf630d2af71fcd321afed1a453fa/______________1_.jpg?w=320" alt="Андрей Бояров"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Андрей Бояров</span> 
+       <br> 
+       <span class="speaker__company">Mail.Ru Group</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="7eR7K4PkrY0sYAAq6MCIAe" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Андрей Бояров<br><small>Mail.Ru Group</small></h3> 
+     <a href="https://twitter.com/andrew_bo_29" target="_blank"><i class="icon-twitter"></i> andrew_bo_29</a> 
+     <div class="speaker-modal-info"> 
+      <p>Программист-исследователь в Mail.Ru Group с 2016 года. Окончил математико-механический факультет Санкт-Петербургского Государственного Университета. Сейчас учится там же в аспирантуре. Занимается вопросами, связанными с применением методов глубокого обучения для решения задач машинного зрения.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="Rf2KxYErySW0WEyGY2C2K"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/GgaijcWrw2K0ymGmkWmSm/421f5af0e722745fbbd6c9d29ab7bc0e/Nikolenko_Sergey.JPG?w=320" srcset="//images.contentful.com/oxjq45e8ilak/GgaijcWrw2K0ymGmkWmSm/421f5af0e722745fbbd6c9d29ab7bc0e/Nikolenko_Sergey.JPG?w=320 1x, //images.contentful.com/oxjq45e8ilak/GgaijcWrw2K0ymGmkWmSm/421f5af0e722745fbbd6c9d29ab7bc0e/Nikolenko_Sergey.JPG?w=640 2x" alt="Сергей Николенко"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Сергей Николенко</span> 
+       <br> 
+       <span class="speaker__company">ПОМИ РАН</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="Rf2KxYErySW0WEyGY2C2K" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Сергей Николенко<br><small>ПОМИ РАН</small></h3> 
+     <div class="speaker-modal-info"> 
+      <p>Специалист по машинному обучению (глубокое обучение, байесовские методы, обработка текстов и многое другое) и анализу алгоритмов (сетевые алгоритмы, конкурентный анализ). Автор более 100 научных публикаций, нескольких книг, авторских курсов «Машинное обучение», «Обучение глубоких сетей» и др. Большой опыт сотрудничества с индустрией в области машинного обучения (Neuromation, SolidOpinion, Surfingbird, Deloitte Analytics Institute).</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="42HXQo59K8meqqAEgWccwS"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/5ZD760WrioEOI2A6U0Ucqs/7fbd7991132ab27637302ed7c152dc4d/________________1_.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/5ZD760WrioEOI2A6U0Ucqs/7fbd7991132ab27637302ed7c152dc4d/________________1_.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/5ZD760WrioEOI2A6U0Ucqs/7fbd7991132ab27637302ed7c152dc4d/________________1_.jpg?w=640 2x" alt="Алексей Натёкин"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Алексей Натёкин</span> 
+       <br> 
+       <span class="speaker__company">DM Labs, Arktur, Open Data Science</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="42HXQo59K8meqqAEgWccwS" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Алексей Натёкин<br><small>DM Labs, Arktur, Open Data Science</small></h3> 
+     <div class="speaker-modal-info"> 
+      <p>Основатель ряда проектов с машинным обучением и анализом данных. Диктатор и координатор Open Data Science — крупнейшего в Восточной Европе онлайн-сообщества Data Scientist-ов.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="6pt3X5YARqsiA8ugOio6YK"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/61thT59JwQEymcIGCyYEeo/9239092758c99b4d8c1bfa6ee7e0d104/009_DSCF2683__1_.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/61thT59JwQEymcIGCyYEeo/9239092758c99b4d8c1bfa6ee7e0d104/009_DSCF2683__1_.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/61thT59JwQEymcIGCyYEeo/9239092758c99b4d8c1bfa6ee7e0d104/009_DSCF2683__1_.jpg?w=640 2x" alt="Артём Григорьев"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Артём Григорьев</span> 
+       <br> 
+       <span class="speaker__company">Яндекс</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="6pt3X5YARqsiA8ugOio6YK" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Артём Григорьев<br><small>Яндекс</small></h3> 
+     <a href="https://twitter.com/ortemij" target="_blank"><i class="icon-twitter"></i> ortemij</a> 
+     <div class="speaker-modal-info"> 
+      <p>Работает в Яндексе с 2010 года, руководитель группы, отвечает за разработку инфраструктуры сбора экспертных оценок, развитие сервисов для асессоров и краудсорсинговой платформы Яндекс.Толока. Аспирант математико-механического факультета СПбГУ.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="2UKocYRbZeEcSKG04aSQce"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/2LRJVTpuSkeK8MsuusgkoU/d38f540625e7df931e6121b96b1c509d/serbul_a.jpg?w=320" alt="Александр Сербул"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Александр Сербул</span> 
+       <br> 
+       <span class="speaker__company">1С-Битрикс</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="2UKocYRbZeEcSKG04aSQce" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Александр Сербул<br><small>1С-Битрикс</small></h3> 
+     <a href="https://twitter.com/AlexSerbul" target="_blank"><i class="icon-twitter"></i> AlexSerbul</a> 
+     <div class="speaker-modal-info"> 
+      <p>C 2011 года Александр курирует направление контроля качества интеграции и внедрений ООО 1С-Битрикс, а также направления AI, deep learning и big data, активно участвует как архитектор и разработчик в проектах компании, связанных с высокой нагрузкой и отказоустойчивостью (Битрикс24), консультирует партнеров и клиентов по вопросам архитектуры высоконагруженных решений, эффективному использованию технологий кластеризации продуктов 1С-Битрикс в контексте современных облачных сервисов (Amazon Web Services и др.). Александр увлекается программированием на Java более 15 лет, а также философией unix, гибкими методологиями разработки программного обеспечения, системным анализом и проектированием. Любимые книги по программированию, зачитанные до дыр и многократно опробованные в боевых проектах: «Effective Java», «Java Concurrency in Practice». Книги для души: «Архитектура компьютера (Э.Таненбаум)», «Advanced Programming in the UNIX Environment (Richard Stevens)». Окончил Донской Государственный Технический Университет в 1998 году. Работал советником в Администрации Президента России по Южному федеральному округу, в Юго-Западном банке Сбербанка России, ведущим разработчиком веб-студии QSoft и главой отдела разработки компании Софтлайн Интернет Трейд.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="1zAVPiaYtCkGCsEy8q4qiC"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/2It6FThbXiAu208W2uKWq8/53f7956ad8a397beca5cca2669f7a477/sibiryakov_a__1_.jpg?w=320" alt="Александр Сибиряков"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Александр Сибиряков</span> 
+       <br> 
+       <span class="speaker__company">Scrapinghub</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="1zAVPiaYtCkGCsEy8q4qiC" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Александр Сибиряков<br><small>Scrapinghub</small></h3> 
+     <div class="speaker-modal-info"> 
+      <p>Пять лет работал в Яндексе в отделе качества поиска. Занимался разработкой социального и вопросно-ответного поиска, а также улучшением сниппетов. Затем два года работал над антивирусом Avast!, где построил автоматическое разрешение ложных срабатываний. Интересуется проблемами обработки данных в больших объемах и информационного поиска.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="5TZixc9FDOUO8Q24cw26g6"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/22yTt9sCjiEcQ6wMCKYUYU/846c8bba0c16c80c1aac6daa80bb370b/drokin2__1_.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/22yTt9sCjiEcQ6wMCKYUYU/846c8bba0c16c80c1aac6daa80bb370b/drokin2__1_.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/22yTt9sCjiEcQ6wMCKYUYU/846c8bba0c16c80c1aac6daa80bb370b/drokin2__1_.jpg?w=640 2x" alt="Иван Дрокин"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Иван Дрокин</span> 
+       <br> 
+       <span class="speaker__company">BrainGarden</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="5TZixc9FDOUO8Q24cw26g6" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Иван Дрокин<br><small>BrainGarden</small></h3> 
+     <div class="speaker-modal-info"> 
+      <p>Закончил Факультет Прикладной математики и процессов управления Санкт-Петербургского Государственного Университета по специальности Прикладная математика и информатика, аспирантуру по направлению Системный анализ, управление и обработка информации. В профессиональные интересы входят приложение глубокого обучения к анализу и обработке естественных языков, изображений, видеопотока, а также обучение с подкреплением и вопрос-ответные системы. Имеет глубокую экспертизу в облатях финансовых рынков, хедж-фондов, биоинформатике, вычислительной биологии. В настоящее время является сооснователем и chief science officer компании Brain Garden, специализирующейся на разработке и внедрении интеллектуальных решений полного цикла.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="J4edrgnw4uq0mSo2qwWsQ"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/5NQWurVxIsKwwiQWG0e4cq/4cb919b124944d364c0a4ebd9c07df3c/__________________________.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/5NQWurVxIsKwwiQWG0e4cq/4cb919b124944d364c0a4ebd9c07df3c/__________________________.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/5NQWurVxIsKwwiQWG0e4cq/4cb919b124944d364c0a4ebd9c07df3c/__________________________.jpg?w=640 2x" alt="Александр Крашенинников"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Александр Крашенинников</span> 
+       <br> 
+       <span class="speaker__company">Badoo</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="J4edrgnw4uq0mSo2qwWsQ" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Александр Крашенинников<br><small>Badoo</small></h3> 
+     <div class="speaker-modal-info"> 
+      <p>Руководитель DataTeam в компании Badoo. Занимается разработкой инструментов для обработки данных в рамках ETL и процессинга различного рода статистики, инфраструктурой Hadoop. Опыт web-dev более 10 лет. Для достижения наилучших результатов не гнушается использовать гремучие смеси из языков программирования (Java, PHP, Go), баз данных (MySQL, Exasol) и технологий распределённых вычислений (Hadoop, Spark, Hive, Presto).</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="5vzPNB1yTKmAUAWME4kUY2"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/476woqfTFSi264060mICAa/e6814d1b300badce883f253096044aee/Mikhail_Kamalov__1_.JPG?w=320" srcset="//images.contentful.com/oxjq45e8ilak/476woqfTFSi264060mICAa/e6814d1b300badce883f253096044aee/Mikhail_Kamalov__1_.JPG?w=320 1x, //images.contentful.com/oxjq45e8ilak/476woqfTFSi264060mICAa/e6814d1b300badce883f253096044aee/Mikhail_Kamalov__1_.JPG?w=640 2x" alt="Михаил Камалов"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Михаил Камалов</span> 
+       <br> 
+       <span class="speaker__company">Epam Systems</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="5vzPNB1yTKmAUAWME4kUY2" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Михаил Камалов<br><small>Epam Systems</small></h3> 
+     <a href="https://twitter.com/MikhailKamalov" target="_blank"><i class="icon-twitter"></i> MikhailKamalov</a> 
+     <div class="speaker-modal-info"> 
+      <p>Аналитик в EPAM Systems с 2016, является экспертом в области задач, связанных с NLP и информационным поиском. Окончил факультет Прикладной математики — процессов управления СПбГУ. Проходил стажировку в исследовательнском институте Inria (Франция). Аспирант факультета Прикладной математики – процессов управления СПбГУ.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="3j8RlsVoxa0swkwIWggQsc"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/62gHK5sJFuyM8UUUuEwaye/46049bb6b69c38b1009ec571b2368b93/Shminke_B__1_.png?w=320" srcset="//images.contentful.com/oxjq45e8ilak/62gHK5sJFuyM8UUUuEwaye/46049bb6b69c38b1009ec571b2368b93/Shminke_B__1_.png?w=320 1x, //images.contentful.com/oxjq45e8ilak/62gHK5sJFuyM8UUUuEwaye/46049bb6b69c38b1009ec571b2368b93/Shminke_B__1_.png?w=640 2x" alt="Борис Шминке"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Борис Шминке</span> 
+       <br> 
+       <span class="speaker__company">ivi</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="3j8RlsVoxa0swkwIWggQsc" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Борис Шминке<br><small>ivi</small></h3> 
+     <div class="speaker-modal-info"> 
+      <p>Окончил факультет прикладной математики и физики МАИ. Более пяти лет работал в области корпоративных хранилищ данных, BI и управления финансовыми рисками. В 2015 году начал заниматься большими данным в ivi, где уже около года возглавляет группу разработки рекомендательной системы.</p> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="show-all-talks"> 
+    <a href="/talks/" class="btn">Посмотреть доклады</a> 
+   </div> 
+  </div> 
+ </div> 
+ <section class="schedule" id="schedule"> 
+  <div class="main-wrap"> 
+   <h2 class="title title__cards"> Программа </h2> 
+   <div class="col">
+    <div class="text-md-right complexity-nav"> 
+     <span class="complexity_legend">Легенда:</span> 
+     <span class="complexity-level-choice complexity-level_2" data-complexity="2"><img src="/assets/images/complexity/Intermediate_128_128.png" width="25" alt="Введение в технологию" title="Введение в технологию"> Введение в технологию</span> 
+     <span class="complexity-level-choice complexity-level_3" data-complexity="3"><img src="/assets/images/complexity/Advanced_128_128.png" width="25" alt="Для практикующих инженеров" title="Для практикующих инженеров"> Для практикующих инженеров</span> 
+     <span class="complexity-level-choice complexity-level_4" data-complexity="4"> <img src="/assets/images/complexity/Hardcore_128_128.png" width="25" alt="Хардкор. Сложный низкоуровневый доклад, требующий от слушателя знаний технологии." title="Хардкор. Сложный низкоуровневый доклад, требующий от слушателя знаний технологии."> Хардкор</span> 
+    </div> 
+   </div> 
+   <div class="row"> 
+    <div class="program-table cols-2"> 
+     <div class="program-table-header pt-row-bg"> 
+      <div class="pt-cell"> 
+       <span class="pt_legend">Время</span> 
+      </div> 
+      <div class="pt-cell"> 
+       <span class="pt_legend">Зал 1</span> 
+      </div> 
+      <div class="pt-cell"> 
+       <span class="pt_legend">Зал 2</span> 
+      </div> 
+      <div class="pt-cell"> 
+       <span class="pt_legend">Зал 3</span> 
+      </div> 
+     </div> 
+     <div class="program-table-body"> 
+      <div class="pt-row"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">9:00</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk">
+           Регистрация 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row pt-row-bg"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">10:00</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk">
+           Открытие конференции 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">10:30</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Зал 1
+          </div> 
+          <div class="pt-talk complexity-2"> 
+           <a class="event_talk_link" href="/2017/spb/talks/5srlizuqtce00kic0mya2o/"> <strong>Имя — это фича</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/5srlizuqtce00kic0mya2o/"> Виталий Худобахшов <br> <i class="text-muted">Одноклассники</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Intermediate_128_128.png" width="25" alt="Введение в технологию" title="Введение в технологию"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row pt-row-bg"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">11:20</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk">
+           Перерыв 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">11:40</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Зал 1
+          </div> 
+          <div class="pt-talk complexity-3"> 
+           <a class="event_talk_link" href="/2017/spb/talks/ywt5alcng0wow8iw4uaem/"> <strong>Рекомендательные системы: от матричных разложений к глубинному обучению в поточном режиме</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/ywt5alcng0wow8iw4uaem/"> Михаил Камалов<br> <i class="text-muted">Epam Systems</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Advanced_128_128.png" width="25" alt="Для практикующих инженеров" title="Для практикующих инженеров"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Зал 2
+          </div> 
+          <div class="pt-talk complexity-4"> 
+           <a class="event_talk_link" href="/2017/spb/talks/5ykyd6xouwuqysksuicowo/"> <strong>Глубокое обучение, вероятностное программирование и метавычисления: точка пересечения</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/5ykyd6xouwuqysksuicowo/"> Алексей Потапов<br> <i class="text-muted">ИТМО</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Hardcore_128_128.png" width="25" alt="Хардкор. Сложный низкоуровневый доклад, требующий от слушателя знаний технологии." title="Хардкор. Сложный низкоуровневый доклад, требующий от слушателя знаний технологии."> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Зал 3
+          </div> 
+          <div class="pt-talk complexity-2"> 
+           <a class="event_talk_link" href="/2017/spb/talks/3ww4hownog4uyyeo4yg0qg/"> <strong>Краудсорсинг: как приручить толпу?</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/3ww4hownog4uyyeo4yg0qg/"> Артём Григорьев<br> <i class="text-muted">Яндекс</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Intermediate_128_128.png" width="25" alt="Введение в технологию" title="Введение в технологию"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row pt-row-bg"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">12:30</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk">
+           Перерыв 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">12:50</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Зал 1
+          </div> 
+          <div class="pt-talk complexity-3"> 
+           <a class="event_talk_link" href="/2017/spb/talks/3niwvfzujkukcce0kgqooi/"> <strong>Глубокие свёрточные сети для обнаружения объектов и сегментации изображений</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/3niwvfzujkukcce0kgqooi/"> Сергей Николенко<br> <i class="text-muted">ПОМИ РАН</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Advanced_128_128.png" width="25" alt="Для практикующих инженеров" title="Для практикующих инженеров"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Зал 2
+          </div> 
+          <div class="pt-talk complexity-2"> 
+           <a class="event_talk_link" href="/2017/spb/talks/hwncxtclswq6g68ksa8kw/"> <strong>Прикладное машинное обучение в электронной коммерции: сценарии и архитектуры пилотов и боевых проектов</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/hwncxtclswq6g68ksa8kw/"> Александр Сербул<br> <i class="text-muted">1С-Битрикс</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Intermediate_128_128.png" width="25" alt="Введение в технологию" title="Введение в технологию"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Зал 3
+          </div> 
+          <div class="pt-talk complexity-3"> 
+           <a class="event_talk_link" href="/2017/spb/talks/6vyipohraegsmiqm2i2sok/"> <strong>Распределённое ML на больших данных: опыт построения рекомендательной системы в ivi</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/6vyipohraegsmiqm2i2sok/"> Борис Шминке<br> <i class="text-muted">ivi</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Advanced_128_128.png" width="25" alt="Для практикующих инженеров" title="Для практикующих инженеров"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row pt-row-bg"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">13:40</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk">
+           Обед 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">14:25</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Зал 1
+          </div> 
+          <div class="pt-talk complexity-3"> 
+           <a class="event_talk_link" href="/2017/spb/talks/2slkmculqmyci8ysgaygsm/"> <strong>От клика к прогнозу и обратно: Data Science-пайплайны в Одноклассниках</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/2slkmculqmyci8ysgaygsm/"> Дмитрий Бугайченко <br> <i class="text-muted">Одноклассники</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Advanced_128_128.png" width="25" alt="Для практикующих инженеров" title="Для практикующих инженеров"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Зал 2
+          </div> 
+          <div class="pt-talk complexity-2"> 
+           <a class="event_talk_link" href="/2017/spb/talks/22mgoionxomowsccsosi6m/"> <strong>Назад в будущее современной банковской системы</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/22mgoionxomowsccsosi6m/"> Владимир Красильщик <br> <i class="text-muted">Яндекс</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Intermediate_128_128.png" width="25" alt="Введение в технологию" title="Введение в технологию"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Зал 3
+          </div> 
+          <div class="pt-talk complexity-3"> 
+           <a class="event_talk_link" href="/2017/spb/talks/h7fa9frvsekcyawoaasec/"> <strong>Deep Learning: Распознавание сцен и достопримечательностей на изображениях</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/h7fa9frvsekcyawoaasec/"> Андрей Бояров<br> <i class="text-muted">Mail.Ru Group</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Advanced_128_128.png" width="25" alt="Для практикующих инженеров" title="Для практикующих инженеров"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row pt-row-bg"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">15:15</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk">
+           Перерыв 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">15:35</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Зал 1
+          </div> 
+          <div class="pt-talk complexity-3"> 
+           <a class="event_talk_link" href="/2017/spb/talks/1aa3k7twzoukaci8e060ag/"> <strong>Сегментируем 600 миллионов пользователей в режиме реального времени каждый день</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/1aa3k7twzoukaci8e060ag/"> Артем Маринов<br> <i class="text-muted">Directual</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Advanced_128_128.png" width="25" alt="Для практикующих инженеров" title="Для практикующих инженеров"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Зал 2
+          </div> 
+          <div class="pt-talk complexity-2"> 
+           <a class="event_talk_link" href="/2017/spb/talks/7jjemhkene6ayeic8yqsqu/"> <strong>Нет данных? Нет проблем! Deep Learning на CGI</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/7jjemhkene6ayeic8yqsqu/"> Иван Дрокин<br> <i class="text-muted">BrainGarden</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Intermediate_128_128.png" width="25" alt="Введение в технологию" title="Введение в технологию"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Зал 3
+          </div> 
+          <div class="pt-talk complexity-3"> 
+           <a class="event_talk_link" href="/2017/spb/talks/5fe6kggg7sowicic6mgemk/"> <strong>CatBoost — следующее поколение градиентного бустинга</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/5fe6kggg7sowicic6mgemk/"> Анна Вероника Дорогуш<br> <i class="text-muted">Яндекс</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Advanced_128_128.png" width="25" alt="Для практикующих инженеров" title="Для практикующих инженеров"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row pt-row-bg"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">16:25</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk">
+           Перерыв 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">16:45</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Зал 1
+          </div> 
+          <div class="pt-talk complexity-3"> 
+           <a class="event_talk_link" href="/2017/spb/talks/h934vx14buocak6ga6ms2/"> <strong>Hadoop high availability: опыт Badoo</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/h934vx14buocak6ga6ms2/"> Александр Крашенинников<br> <i class="text-muted">Badoo</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Advanced_128_128.png" width="25" alt="Для практикующих инженеров" title="Для практикующих инженеров"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Зал 2
+          </div> 
+          <div class="pt-talk complexity-3"> 
+           <a class="event_talk_link" href="/2017/spb/talks/4nmhnhvppquc2gwei6moaa/"> <strong>Карты, бустинг, 2 стула</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/4nmhnhvppquc2gwei6moaa/"> Алексей Натёкин<br> <i class="text-muted">DM Labs, Arktur, Open Data Science</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Advanced_128_128.png" width="25" alt="Для практикующих инженеров" title="Для практикующих инженеров"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Зал 3
+          </div> 
+          <div class="pt-talk complexity-2"> 
+           <a class="event_talk_link" href="/2017/spb/talks/4zpqewdanwuuogkssqyqsw/"> <strong>Автоматический поиск контактной информации в интернете</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/4zpqewdanwuuogkssqyqsw/"> Александр Сибиряков<br> <i class="text-muted">Scrapinghub</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Intermediate_128_128.png" width="25" alt="Введение в технологию" title="Введение в технологию"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row pt-row-bg"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">17:35</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk">
+           Перерыв 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">17:50</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Зал 1
+          </div> 
+          <div class="pt-talk complexity-2"> 
+           <a class="event_talk_link" href="/2017/spb/talks/1pgqaarotaqgokakgay2cm/"> <strong>Neurona: зачем мы научили нейросеть писать стихи в стиле Курта Кобейна?</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/1pgqaarotaqgokakgay2cm/"> Иван Ямщиков<br> <i class="text-muted">Институт Макса Планка, Лейпциг, Германия / Creaited Labs</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Intermediate_128_128.png" width="25" alt="Введение в технологию" title="Введение в технологию"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row pt-row-bg"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">18:40</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk">
+           Закрытие конференции 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="text-center"> 
+   <a href="/tickets/" class="btn">Купить билет</a> 
+  </div> 
+ </section> 
+ <section class="faq-section" id="faq"> 
+  <h2>F.A.Q.</h2> 
+  <ul class="faq-list"> 
+   <li class="faq-item"> <input type="checkbox" checked class="faq-check"> <i></i> <h4 class="faq-question">Хочу на вашу конференцию, но руководитель не выделит бюджет/выходной. Что делать?</h4> 
+    <div class="faq-answer "> 
+     <p>Такое часто случается. Руководители иногда не до конца понимают, что конференция поможет вам решать задачи эффективнее и результативнее.</p> 
+     <p>Однако наша задача — обеспечить возможность принять участие в наших конференциях максимальному количеству людей. Поэтому мы подготовили для вас <a href="#justification">инструкцию</a>, как убедить несговорчивого начальника.</p> 
+     <p>Если это не сработает — свяжитесь с нашим <a href="mailto:ruslan@jugru.org">маркетологом</a> , он уж точно убедит вашего босса принять положительное решение.</p> 
+    </div> </li> 
+   <li class="faq-item"> <input type="checkbox" checked class="faq-check"> <i></i> <h4 class="faq-question">Какой смысл вообще ездить на конференции? За эти деньги я куплю 10 книг, а узкие вопросы можно и в гуглогруппе /гиттере/StackOverflow обсудить.</h4> 
+    <div class="faq-answer "> 
+     <p>Конечно, доклады — это то, ради чего идут на конференцию в первую очередь. Возможно, далеко не все они окажутся вам полезными (поэтому у нас на конференциях всегда 3 и более параллельных треков). Однако следует помнить, что конференция — это не только доклады.</p> 
+     <p>В гуглогруппах и SO вы не поймаете гуру за руку и не «допросите» его с пристрастием, в кулуарах не обсудите лайфхаки и свои проекты. В книгах вы не найдете сотен единомышленников, готовых обсуждать, дискутировать и спорить с вами о подходах и инструментах разработки.</p> 
+    </div> </li> 
+   <li class="faq-item"> <input type="checkbox" checked class="faq-check"> <i></i> <h4 class="faq-question">В программе мало интересных тем, доклады не для меня.</h4> 
+    <div class="faq-answer "> 
+     <p>Мы строим программу конференции таким образом, чтобы соблюсти баланс между хардкорностью и практической полезностью. Конечно, все вопросы охватить просто не хватает времени.</p> 
+     <p>Если вы не нашли в нашей программе интересной темы — <a href="mailto:dmitriev@jugru.org">напишите нашему программному директору</a>, какие доклады вы хотите увидеть, и мы постараемся найти лучших спикеров по теме и включить их в программу.</p> 
+    </div> </li> 
+   <li class="faq-item"> <input type="checkbox" checked class="faq-check"> <i></i> <h4 class="faq-question">Конференция, конечно, хорошая, но мне очень дорого добираться — самолет, гостиница и прочее выйдет дороже, чем сама конференция. Как мне к вам попасть?</h4> 
+    <div class="faq-answer "> 
+     <p>Действительно, если до конференции вам необходимо добираться на самолете, цена может взметнуться до весьма серьезной суммы.</p> 
+     <p>Однако специально для таких случаев у нас есть два решения:</p> 
+     <ul> 
+      <li>Онлайн-трансляция всей конференции (любой доклад с любого трека). А если что-то упустите — после мероприятия мы предоставляем видеозаписи.<br>Просто заполните анкету на странице регистрации, ссылку на которую мы высылаем всем участникам после конференции.</li> 
+      <li>Также рекомендуем вам согласовать посещение нашей конференции в качестве командировки — для этого мы даже написали специальную <a href="#justification">инструкцию</a>.<br>Следуйте ей, и у вас все получится.</li> 
+     </ul> 
+    </div> </li> 
+   <li class="faq-item"> <input type="checkbox" checked class="faq-check"> <i></i> <h4 class="faq-question">У вас три/четыре трека, и я хочу попасть на доклады, выпавшие в одно время. Как быть?</h4> 
+    <div class="faq-answer "> 
+     <p>Посетите более «горячий» доклад (задайте вопросы спикеру, поучаствуйте в обсуждении), после чего встретьтесь лично с выступающим второго доклада и «помучайте» его вопросами — этот и другие доклады вы сможете посмотреть в записи после конференции уже на следующий день после конференции.</p>
+    </div> </li> 
+   <li class="faq-item"> <input type="checkbox" checked class="faq-check"> <i></i> <h4 class="faq-question">Хочу посетить/посмотреть онлайн конференцию бесплатно!</h4> 
+    <div class="faq-answer "> 
+     <p>Нам всегда нужны волонтеры (регистрация, ведение треков, контроль качества трансляции и другие оргвопросы) — напишите нашему <a href="mailto:ekaterina@jugru.org">Исполнительному директору</a>, каким образом вы готовы помочь конференции, и мы обязательно что-нибудь придумаем!</p> 
+    </div> </li> 
+  </ul> 
+ </section> 
+ <div class="remodal" data-remodal-id="justification"> 
+  <button data-remodal-action="close" class="remodal-close"></button> 
+  <article class="talk-descriptions"> 
+   <header class="modal__header"> 
+    <h3 class="modata__title">Обоснование трат</h3> 
+   </header> 
+   <div class="modal-content"> 
+    <p>Хотите, чтобы ваша компания отправила вас нас конференцию SmartData?</p> 
+    <p>Возьмите образец письма ниже, отредактируйте его под себя и отправьте его своему менеджеру.</p> 
+    <h4>Образец письма:</h4> 
+    <blockquote> 
+     <p>Добрый день, [имя Вашего менеджера].</p> 
+     <p>Я хочу посетить конференцию по BigData технологиям SmartData 2017, которая состоится 21 октября 2017 в Санкт-Петербурге.</p> 
+     <p>На конференции у меня будет возможность:</p> 
+     <ul> 
+      <li>Систематизировать имеющиеся знания о применении Big Data технологий и приобрести новые;</li> 
+      <li>Узнать о новейших инструментах разработки;</li> 
+      <li>Сверить вектор развития нашей организации с индустрией;</li> 
+      <li>Повысить свою продуктивность, получив ответы и переняв опыт коллег из других организаций.</li> 
+     </ul> 
+     <p>Вот предполагаемый список расходов:</p> 
+     <ul> 
+      <li>Оценка стоимости авиабилетов — <strong>[xxx]</strong> руб.</li> 
+      <li>Оценка стоимости отеля: (2 ночи по <strong>[xxx]</strong> руб) — <strong>[xxx]</strong> руб.</li> 
+      <li>Билет на конференцию — <strong>[xxx]</strong> руб.</li> 
+     </ul> 
+     <p>Общая сумма — <strong>[xxx]</strong> руб.</p> 
+     <p>После конференции я сделаю часовой доклад для сотрудников нашего отдела, который будет включать в себя то, что я узнал на конференции и ряд рекомендаций, чтобы повысить нашу производительность.</p> 
+     <p>Спасибо за рассмотрение моей просьбы. С нетерпением жду Вашего ответа.</p> 
+     <p>–</p> 
+     <p>С уважением,</p> 
+     <p>[Ваше имя]</p> 
+    </blockquote> 
+   </div> 
+  </article> 
+ </div> 
+ <section class="discussion-section"> 
+  <div class="discussion-photo"> 
+   <img src="/assets/images/discussions.jpg" alt="Дискуссионные зоны" class="discussion_photo"> 
+  </div> 
+  <div class="discussion-description"> 
+   <h2 class="discussion_title">Дискуссионные зоны</h2> 
+   <p>Знакомо чувство, когда вы поднимаете руку, чтобы задать вопрос, а ведущий трека объявляет: «Осталось время для одного вопроса», – и конечно, выбор падает на другого человека, а в перерыве спикер скрывается за дверьми спикерских комнат?</p> 
+   <p>Чтобы этого не происходило, мы делаем специальные дискуссионные зоны: выделенное пространство с доской для иллюстраций, сидячими местами и возможностью схватить чашку кофе. Именно там, сразу после доклада, можно лично задать вопросы спикеру не только по теме выступления, но и проконсультироваться о каких-то своих проектах или даже просто поболтать с ним о жизни.</p> 
+  </div> 
+ </section> 
+ <section class="venue" id="venue"> 
+  <div class="venue-container"> 
+   <div class="venue-photo"> 
+   </div> 
+   <div class="venue-info"> 
+    <h2 class="venue__title">Как добраться</h2> 
+    <h4>Из центра города</h4> 
+    <p>От метро «Московская» вам подойдут маршрутки К-13, К-3, К-213, которые отправляются от остановки рядом с McDonald’s. Удобнее будет выйти у Бизнес-центра «Пулково Скай».</p> 
+    <p>Так же, есть бесплатный автобус Crown Plaza. <i class="icon-file-pdf"></i> <a href="http://cpairport.ru/files/shuttle-bus-schedule-to-moskovskaya-metro-station-2016-may.pdf" target="_blank">Расписание и место остановки</a>.</p> 
+    <h4>Из Аэропорта</h4> 
+    <p>Самый удобный и простой способ добраться до отеля – воспользоваться услугами Crown Plaza автобусов, осуществляющих бесплатный трансфер от Пулково до отеля каждые 30 минут, с 6 утра до 23:20 вечера.</p> 
+   </div> 
+  </div> 
+ </section> 
+ <section class="sponsors main-wrap" id="sponsors"> 
+  <h2 class="sponsors-section_title">Спонсоры</h2> 
+  <div class="sponsors-row"> 
+  </div> 
+  <h3 class="sponsors-section_title">Золотые спонсоры</h3> 
+  <div class="sponsors-row"> 
+   <div class="sponsor sponsor-gold"> 
+    <a href="https://sber-tech.com/#vacancies" target="_blank" onclick="trackOutboundLink('https://sber-tech.com/#vacancies'); return false;"> <img class="sponsor__logo" sizes="(max-width: 1920px) 100vw, 1920px" srcset="//images.contentful.com/oxjq45e8ilak/6f07XA535mIi2CMYoMk4Uc/47dd9639338240c0c362fbd375992c80/Sber_800_800.png?w=400 2x,
+                      //images.contentful.com/oxjq45e8ilak/6f07XA535mIi2CMYoMk4Uc/47dd9639338240c0c362fbd375992c80/Sber_800_800.png?w=200" src="//images.contentful.com/oxjq45e8ilak/6f07XA535mIi2CMYoMk4Uc/47dd9639338240c0c362fbd375992c80/Sber_800_800.png?w=200" alt="[object Object]"> </a> 
+   </div> 
+  </div> 
+  <h3 class="sponsors-section_title">Серебряные спонсоры</h3> 
+  <div class="sponsors-row"> 
+   <div class="sponsor sponsor-silver"> 
+    <a href="http://www.epam-group.ru/careers" target="_blank" onclick="trackOutboundLink('http://www.epam-group.ru/careers'); return false;"> <img class="sponsor__logo" sizes="(max-width: 1920px) 100vw, 1920px" srcset="//images.contentful.com/oxjq45e8ilak/4RHeuQ7co0kS0qEmSsciSM/02c990b4422135038107ce3789618a8d/EPAM_800_800__2_.png?w=300 2x,
+                      //images.contentful.com/oxjq45e8ilak/4RHeuQ7co0kS0qEmSsciSM/02c990b4422135038107ce3789618a8d/EPAM_800_800__2_.png?w=150" src="//images.contentful.com/oxjq45e8ilak/4RHeuQ7co0kS0qEmSsciSM/02c990b4422135038107ce3789618a8d/EPAM_800_800__2_.png?w=150" alt="[object Object]"> </a> 
+   </div> 
+   <div class="sponsor sponsor-silver"> 
+    <a href="https://firstlinesoftware.ru/team/vacancy" target="_blank" onclick="trackOutboundLink('https://firstlinesoftware.ru/team/vacancy'); return false;"> <img class="sponsor__logo" sizes="(max-width: 1920px) 100vw, 1920px" srcset="//images.contentful.com/oxjq45e8ilak/1DcvwTewe4iEUkCwKIKuMW/364e0be9fd5a6ecf82de99c6c2cefb69/Firstline_800_800__1_.png?w=300 2x,
+                      //images.contentful.com/oxjq45e8ilak/1DcvwTewe4iEUkCwKIKuMW/364e0be9fd5a6ecf82de99c6c2cefb69/Firstline_800_800__1_.png?w=150" src="//images.contentful.com/oxjq45e8ilak/1DcvwTewe4iEUkCwKIKuMW/364e0be9fd5a6ecf82de99c6c2cefb69/Firstline_800_800__1_.png?w=150" alt="[object Object]"> </a> 
+   </div> 
+  </div> 
+  <div class="sponsors-row"> 
+  </div> 
+  <h3 class="sponsors-section_title">Информационный партнер</h3> 
+  <div class="sponsors-row"> 
+   <div class="sponsor sponsor-info"> 
+    <a href="http://www.iksmedia.ru/" target="_blank" onclick="trackOutboundLink('http://www.iksmedia.ru/'); return false;"> <img class="sponsor__logo" sizes="(max-width: 1920px) 100vw, 1920px" srcset="//images.contentful.com/oxjq45e8ilak/419crObtQc0cga6AAqcSeq/7222ede179be3d7c7f755986be38b177/xmedia_800_800.png?w=280 2x,
+                      //images.contentful.com/oxjq45e8ilak/419crObtQc0cga6AAqcSeq/7222ede179be3d7c7f755986be38b177/xmedia_800_800.png?w=140" src="//images.contentful.com/oxjq45e8ilak/419crObtQc0cga6AAqcSeq/7222ede179be3d7c7f755986be38b177/xmedia_800_800.png?w=140" alt="[object Object]"> </a> 
+   </div> 
+   <div class="sponsor sponsor-info"> 
+    <a href="http://ai-community.com/" target="_blank" onclick="trackOutboundLink('http://ai-community.com/'); return false;"> <img class="sponsor__logo" sizes="(max-width: 1920px) 100vw, 1920px" srcset="//images.contentful.com/oxjq45e8ilak/2IqhsytebYI2QCYYSEIc8m/44778675d41f511f35a62d0e20cd61d7/ai_comm_800_800.png?w=280 2x,
+                      //images.contentful.com/oxjq45e8ilak/2IqhsytebYI2QCYYSEIc8m/44778675d41f511f35a62d0e20cd61d7/ai_comm_800_800.png?w=140" src="//images.contentful.com/oxjq45e8ilak/2IqhsytebYI2QCYYSEIc8m/44778675d41f511f35a62d0e20cd61d7/ai_comm_800_800.png?w=140" alt="[object Object]"> </a> 
+   </div> 
+  </div> 
+  <div class="sponsors-row"> 
+  </div> 
+ </section> 
+ <section class="program-committee main-wrap"> 
+  <h3 class="section__title">Программный комитет</h3> 
+  <div class="row"> 
+   <div class="speaker-index speaker-index-modal" data-remodal-target="4K4VAAVKoUKIA6SgoQ8acA"> 
+    <div class="people-card"> 
+     <div class="people-photo"> 
+      <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/2GVm4LVISQ2K0OOKo4eCwS/a40332a17da5dfe4ee2c22a41432eec4/poborchy3__1_.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/2GVm4LVISQ2K0OOKo4eCwS/a40332a17da5dfe4ee2c22a41432eec4/poborchy3__1_.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/2GVm4LVISQ2K0OOKo4eCwS/a40332a17da5dfe4ee2c22a41432eec4/poborchy3__1_.jpg?w=640 2x" alt="Роман Поборчий"> 
+     </div> 
+     <div class="people-name-container"> 
+      <span class="speaker__name">Роман Поборчий</span> 
+      <br> 
+      <span class="speaker__company">Независимый консультант по презентациям</span> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="remodal" data-remodal-id="4K4VAAVKoUKIA6SgoQ8acA" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+    <h3>Роман Поборчий<br><small>Независимый консультант по презентациям</small></h3> 
+    <div class="speaker-modal-info"> 
+     <p>До 2004 года работал в Sun Microsystems, принимал участие в разработке JDK. Затем работал в Intel, где тоже занимался проектами, связанными с Java.</p> 
+     <p>После этого шесть лет провёл в Яндексе, где строил метрики качества поиска. С 2015 года сменил род деятельности, ушёл на вольные хлеба и теперь готовит спикеров для технических конференций и ведёт тренинги по выступлениям.</p> 
+    </div> 
+   </div> 
+   <div class="speaker-index speaker-index-modal" data-remodal-target="5m513GFbSowY4uAEQWmo8S"> 
+    <div class="people-card"> 
+     <div class="people-photo"> 
+      <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/GbWKsVdNo4s2Oc6qeK2CS/d3b0edaa840099775517bc385f9e6d55/pd7ekrkWmdc.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/GbWKsVdNo4s2Oc6qeK2CS/d3b0edaa840099775517bc385f9e6d55/pd7ekrkWmdc.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/GbWKsVdNo4s2Oc6qeK2CS/d3b0edaa840099775517bc385f9e6d55/pd7ekrkWmdc.jpg?w=640 2x" alt="Виталий Худобахшов "> 
+     </div> 
+     <div class="people-name-container"> 
+      <span class="speaker__name">Виталий Худобахшов </span> 
+      <br> 
+      <span class="speaker__company">Одноклассники</span> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="remodal" data-remodal-id="5m513GFbSowY4uAEQWmo8S" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+    <h3>Виталий Худобахшов <br><small>Одноклассники</small></h3> 
+    <a href="https://twitter.com/khudobakhshov " target="_blank"><i class="icon-twitter"></i> khudobakhshov </a> 
+    <div class="speaker-modal-info"> 
+     <p>Закончил СПбГУ, физический факультет. Работает с Java начиная c версии 1.1. На протяжении многих лет работал в СПбГУ, преподавал информатику и математику. С 2015 года – ведущий аналитик в Одноклассниках, где занимается различными аспектами анализа данных. Давно увлекается функциональным программированием и вне основной работы и Java-стека программирует на Haskell. В области анализа данных использует Spark/Scala и R.</p> 
+    </div> 
+   </div> 
+   <div class="speaker-index speaker-index-modal" data-remodal-target="d0oViR4triOCGEm8sgMOq"> 
+    <div class="people-card"> 
+     <div class="people-photo"> 
+      <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/4E20kwaLq0OioaoMaysoyq/28b5d3c1b9286d244916a9ae92ffb303/OwUzyvLsQkY.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/4E20kwaLq0OioaoMaysoyq/28b5d3c1b9286d244916a9ae92ffb303/OwUzyvLsQkY.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/4E20kwaLq0OioaoMaysoyq/28b5d3c1b9286d244916a9ae92ffb303/OwUzyvLsQkY.jpg?w=640 2x" alt="Глеб Смирнов "> 
+     </div> 
+     <div class="people-name-container"> 
+      <span class="speaker__name">Глеб Смирнов </span> 
+      <br> 
+      <span class="speaker__company">Plumbr</span> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="remodal" data-remodal-id="d0oViR4triOCGEm8sgMOq" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+    <h3>Глеб Смирнов <br><small>Plumbr</small></h3> 
+    <a href="https://twitter.com/gvsmirnov" target="_blank"><i class="icon-twitter"></i> gvsmirnov</a> 
+    <div class="speaker-modal-info"> 
+     <p>Специалист по разработке высокопроизводительных отказоустойчивых приложений, в том числе платформ для высокочастотной торговли. В свободное время любит поковыряться в исходниках OpenJDK и потворить с ними всяческое непотребство. Некоторое время проработал в петербургских подразделениях Яндекса и центра разработки Deutsche Bank. Последние два года работает в Plumbr, где он разрабатывает state-of-the-art систему мониторинга надёжности и производительности систем.</p> 
+    </div> 
+   </div> 
+   <div class="speaker-index speaker-index-modal" data-remodal-target="23z6kgZDLiiIoSM4YMeUmQ"> 
+    <div class="people-card"> 
+     <div class="people-photo"> 
+      <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/4C7bfU4gpO4qcGI8CiGucC/8159987353f454477df507b61a4c3ef9/______________________________2.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/4C7bfU4gpO4qcGI8CiGucC/8159987353f454477df507b61a4c3ef9/______________________________2.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/4C7bfU4gpO4qcGI8CiGucC/8159987353f454477df507b61a4c3ef9/______________________________2.jpg?w=640 2x" alt="Олег Анастасьев  "> 
+     </div> 
+     <div class="people-name-container"> 
+      <span class="speaker__name">Олег Анастасьев </span> 
+      <br> 
+      <span class="speaker__company">Одноклассники</span> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="remodal" data-remodal-id="23z6kgZDLiiIoSM4YMeUmQ" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+    <h3>Олег Анастасьев <br><small>Одноклассники</small></h3> 
+    <div class="speaker-modal-info"> 
+     <p>Начал карьеру программиста в далеком 1995 году. Разрабатывал ПО в банковской сфере, телекоме, транспорте. Работает ведущим разработчиком в Одноклассниках с 2007 года в команде платформы. В его обязанности входит разработка архитектур и решений для высоконагруженных систем, больших хранилищ данных, решение проблем производительности и надежности портала. Также занимается обучением разработчиков внутри компании.</p> 
+    </div> 
+   </div> 
+   <div class="speaker-index speaker-index-modal" data-remodal-target="7Fuk0541RSOQGGsGsiCSI0"> 
+    <div class="people-card"> 
+     <div class="people-photo"> 
+      <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/41kRRZO2E0EgAgESu2Is8q/0eea39ff47655441f7d9bc66330b0641/FCBF0EE3-EDF1-453A-9A40-BEA9284711DF.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/41kRRZO2E0EgAgESu2Is8q/0eea39ff47655441f7d9bc66330b0641/FCBF0EE3-EDF1-453A-9A40-BEA9284711DF.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/41kRRZO2E0EgAgESu2Is8q/0eea39ff47655441f7d9bc66330b0641/FCBF0EE3-EDF1-453A-9A40-BEA9284711DF.jpg?w=640 2x" alt="Виктор Гамов "> 
+     </div> 
+     <div class="people-name-container"> 
+      <span class="speaker__name">Виктор Гамов </span> 
+      <br> 
+      <span class="speaker__company">Confluent</span> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="remodal" data-remodal-id="7Fuk0541RSOQGGsGsiCSI0" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+    <h3>Виктор Гамов <br><small>Confluent</small></h3> 
+    <a href="https://twitter.com/gamussa " target="_blank"><i class="icon-twitter"></i> gamussa </a> 
+    <div class="speaker-modal-info"> 
+     <p>Виктор Гамов — со-основатель и лидер любимого многими программистами правильного подкаста «Разбор Полётов». По совместительству является Senior Solution Architect в компании Confluent — лидере в разработке in-memory решений с открытым исходным кодом. Накопил большой опыт, участвуя во множестве Java/JavaScript/HTML5 проектов. Помогает клиентам финансового и телекоммуникационного сектора в проектировании и разработке высоконагруженных систем. Соавтор книги «Enterprise Web Development» издательства O’Reilly.</p> 
+     <p>В свободное от работы время Виктор не забывает про качалку и бицуху, а также выступает на международных конференциях, пишет в твиттер как @gamussa и организует встречи Princeton JUG.</p> 
+    </div> 
+   </div> 
+   <div class="speaker-index speaker-index-modal" data-remodal-target="J0OX29rrywsykoM8cIyM6"> 
+    <div class="people-card"> 
+     <div class="people-photo"> 
+      <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/312XGAlWrCqcIOIMQ8U8o0/c03ab7fe0e75964c0cd707e3d20233f0/__________________________________1.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/312XGAlWrCqcIOIMQ8U8o0/c03ab7fe0e75964c0cd707e3d20233f0/__________________________________1.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/312XGAlWrCqcIOIMQ8U8o0/c03ab7fe0e75964c0cd707e3d20233f0/__________________________________1.jpg?w=640 2x" alt="Алексей Зиновьев "> 
+     </div> 
+     <div class="people-name-container"> 
+      <span class="speaker__name">Алексей Зиновьев </span> 
+      <br> 
+      <span class="speaker__company">EPAM Systems</span> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="remodal" data-remodal-id="J0OX29rrywsykoM8cIyM6" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+    <h3>Алексей Зиновьев <br><small>EPAM Systems</small></h3> 
+    <div class="speaker-modal-info"> 
+     <p>Тренер по Java/BigData в компании EPAM, с Hadoop/Spark и прочей бигдатой дружит с 2012 года, форкается и пуллреквестит с 2014, рассказывает с 2015. Особенно любит текстовые данные и большие графы.</p> 
+    </div> 
+   </div> 
+   <div class="speaker-index speaker-index-modal" data-remodal-target="3nboKUkWk8mK4wuyqwGQiY"> 
+    <div class="people-card"> 
+     <div class="people-photo"> 
+      <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/in6VFbfEe4AsoGKM8uY0Y/388706a3e701499722cf6b415796878e/Nevolin_R.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/in6VFbfEe4AsoGKM8uY0Y/388706a3e701499722cf6b415796878e/Nevolin_R.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/in6VFbfEe4AsoGKM8uY0Y/388706a3e701499722cf6b415796878e/Nevolin_R.jpg?w=640 2x" alt="Роман Неволин"> 
+     </div> 
+     <div class="people-name-container"> 
+      <span class="speaker__name">Роман Неволин</span> 
+      <br> 
+      <span class="speaker__company">EPAM Systems</span> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="remodal" data-remodal-id="3nboKUkWk8mK4wuyqwGQiY" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+    <h3>Роман Неволин<br><small>EPAM Systems</small></h3> 
+    <div class="speaker-modal-info"> 
+     <p>Разработчик компании EPAM, специализирующийся на работе с данными в наукоемких проектах. Активно занимается исследованиями в области Machine Learning и разработкой собственных инструментов машинного обучения.</p> 
+    </div> 
+   </div> 
+   <div class="speaker-index speaker-index-modal" data-remodal-target="257Ie5gZvKGke0yy8ee8Is"> 
+    <div class="people-card"> 
+     <div class="people-photo"> 
+      <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/3XFYYmEjcsCYuKMwewgGEU/e5703e1ea0a26574f8b0cc8b5a59e8bb/__________________________________1.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/3XFYYmEjcsCYuKMwewgGEU/e5703e1ea0a26574f8b0cc8b5a59e8bb/__________________________________1.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/3XFYYmEjcsCYuKMwewgGEU/e5703e1ea0a26574f8b0cc8b5a59e8bb/__________________________________1.jpg?w=640 2x" alt="Владимир Ситников"> 
+     </div> 
+     <div class="people-name-container"> 
+      <span class="speaker__name">Владимир Ситников</span> 
+      <br> 
+      <span class="speaker__company">NetCracker</span> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="remodal" data-remodal-id="257Ie5gZvKGke0yy8ee8Is" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+    <h3>Владимир Ситников<br><small>NetCracker</small></h3> 
+    <div class="speaker-modal-info"> 
+     <p>Десять лет работает над производительностью и масштабируемостью NetCracker OS — ПО, используемого операторами связи для автоматизации процессов управления сетью и сетевым оборудованием. Увлекается вопросами производительности Java и Oracle Database. Автор более десятка улучшений производительности в официальном PostgreSQL JDBC драйвере.</p> 
+    </div> 
+   </div> 
+   <div class="speaker-index speaker-index-modal" data-remodal-target="30qtUqOi6Q4kkWU4AO4SUU"> 
+    <div class="people-card"> 
+     <div class="people-photo"> 
+      <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/7DpeiuR8tiyMoAGQAoSMke/9939d85150392a6fc9c0d1ab69ed66ec/ucehpB5X3PI.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/7DpeiuR8tiyMoAGQAoSMke/9939d85150392a6fc9c0d1ab69ed66ec/ucehpB5X3PI.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/7DpeiuR8tiyMoAGQAoSMke/9939d85150392a6fc9c0d1ab69ed66ec/ucehpB5X3PI.jpg?w=640 2x" alt="Андрей Дмитриев"> 
+     </div> 
+     <div class="people-name-container"> 
+      <span class="speaker__name">Андрей Дмитриев</span> 
+      <br> 
+      <span class="speaker__company">JUG.ru</span> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="remodal" data-remodal-id="30qtUqOi6Q4kkWU4AO4SUU" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+    <h3>Андрей Дмитриев<br><small>JUG.ru</small></h3> 
+    <a href="https://twitter.com/it_improve" target="_blank"><i class="icon-twitter"></i> it_improve</a> 
+    <div class="speaker-modal-info"> 
+     <p>Закончил матмех СПбГУ. Несколько лет разрабатывал графический стек библиотек JDK (AWT/Swing/JavaFX) в Sun и Oracle. Руководил группой разработки в компании QuickOffice, отвечал за функциональность компонента QuickPoint. Работал менеджером группы нагрузочного тестирования в компании NetCracker.</p> 
+     <p>На данный момент Андрей — программный директор и организатор конференций команды JUG.ru Group, Java-конференций JPoint, Joker и JBreak, встреч JUG.ru и сообщества CodeFreeze в Петербурге и Москве.</p> 
+    </div> 
+   </div> 
+  </div> 
+ </section> 
+ <div class="remodal" data-remodal-id="participant"> 
+  <button data-remodal-action="close" class="remodal-close"></button> 
+  <header class="modal__header"> 
+   <h3 class="speaker__name--modal">Памятка участнику</h3> 
+  </header> 
+  <div class="text-left"> 
+   <div class="row"> 
+    <div class="columns"> 
+     <p>Услышав слово «конференция», большинство людей представляют себе сцену, тишину в зале и докладчика, рассказывающего о чём-то очень сложном или очень важном (или и то и другое). Всё это есть на конференциях JUG.ru Group, однако у нас есть ещё кое-что. То, о чём многие просто не задумываются, планируя поход на конференцию.</p> 
+     <p>Сотни коллег, открытых для общения и обсуждения рабочих вопросов, своих проектов и технологических новинок, возможность задать вопросы спикерам в неформальной обстановке и международные IT-компании, открытые к диалогу, — всё это есть на наших конференциях. Как не потеряться во всём этом многообразии, читайте в нашем мануале. Просто постарайтесь понять, зачем вы идёте к нам, и построить свой собственный маршрут:</p> 
+     <ul> 
+      <li>подготовка до конференции;</li> 
+      <li>посещение докладов;</li> 
+      <li>общение со спикерами;</li> 
+      <li>общение с участниками;</li> 
+      <li>общение с экспонентами;</li> 
+      <li>конкурсы и развлечения.</li> 
+     </ul> 
+     <p>Пройдёмся по каждому компоненту отдельно:</p> 
+     <h5>Подготовка в период до конференции</h5> 
+     <p>Доклады на конференциях JUG.ru Group читаются одновременно в несколько потоков. Кроме темы доклада и спикера, в описании каждого слота указан язык доклада (английский или русский), а также степень технической сложности доклада. При выборе доклада к посещению предлагаем учитывать эти параметры: если доклад очень сложен, возможно, его удобнее будет смотреть в записи — чтобы при необходимости иметь возможность поставить запись на паузу и освежить в памяти «матчасть»; если тема сложна, но вы прекрасно в ней ориентируетесь — возможно, это именно тот доклад, который обязательно нужно посетить «вживую», задать вопросы спикеру в зале, а затем продолжить обсуждение в дискуссионной зоне. Для участников конференции видеозаписи докладов со всех треков становятся доступны после заполнения формы обратной связи.</p> 
+     <p>Открывающий кейноут чаще всего характеризуется лёгкой или средней степенью технической сложности, обычно кейноут носит более общий характер и позволяет настроиться на правильный лад перед хардкорными докладами. Советуем обязательно посетить этот доклад.</p> 
+     <p>Чтобы получить максимум пользы от докладов, предлагаем перед тем, как начать их выбирать, определить для себя, что вы хотите получить от конференционной программы в целом, например:</p> 
+     <ul> 
+      <li>получить обзор новых возможностей в рамках технологии, в которой вы хорошо разбираетесь;</li> 
+      <li>получить дополнительные/более глубокие знания по узкому вопросу;</li> 
+      <li>получить представление о смежной теме, в которой вы пока не очень хорошо разобрались;</li> 
+      <li>получить базовые знания о чём-то новом, чтобы начать работу в новом направлении;</li> 
+      <li>познакомиться с кейсами интересных вам компаний и так далее.</li> 
+     </ul> 
+     <p>При выборе докладов помните о своих основных целях и составляйте план посещения в соответствии с ними. Обратите внимание, что в программе каждому докладу присваивается индекс сложности — чтобы вы могли оценить, насколько он вам подойдёт.</p> 
+     <p>Ещё раз внимательно прочитайте описания выбранных докладов — возможно, чтобы получить максимальный эффект от того или иного доклада, имеет смысл дополнительно подготовиться к его прослушиванию: почитать литературу, сформировать своё собственное видение, проработать несколько итераций тестового проекта и т.д.</p> 
+     <h5>Посещение докладов</h5> 
+     <p>При посещении докладов будьте внимательны и активны:</p> 
+     <ul> 
+      <li>во время докладов записывайте идеи, которые вас заинтересовали, иначе они могут затеряться в потоке информации;</li> 
+      <li>задавайте вопросы из зала (поднимите руку, и вам передадут микрофон, либо напишите ваш вопрос в Telegram-чат конференции);</li> 
+      <li>если вы не успели задать вопрос, хотели бы получить более развёрнутый ответ или подискутировать — переходите после доклада в дискуссионную зону, соответствующую номеру зала, где вы слушали доклад, — там вы сможете подробно обсудить интересующий вас вопрос как с самим докладчиком, так и с другими участниками;</li> 
+      <li>во время сессии не стесняйтесь перейти из одного зала в другой, если чувствуете, что ошиблись с выбором доклада.</li> 
+     </ul> 
+     <h5>Общение со спикерами</h5> 
+     <p>Каждый спикер после своего доклада перемещается в дискуссионную зону, соответствующую номеру зала, где он читал доклад. Если несколько интересных вам спикеров читают доклады и присутствуют в дискуссионных зонах одновременно, вы можете сходить на доклад к одному спикеру, а потом встретиться с другим в дискуссионной зоне — так тоже можно:)</p> 
+     <p>Кроме этого, пообщаться с докладчиками можно через Telegram-канал конференции (многие из них весьма активны в чате), в зонах кофе-брейков или на вечеринке.</p> 
+     <h5>Общение с участниками</h5> 
+     <p>80% участников конференций — инженеры уровня Senior/Middle и тимлиды. Докладчики — эксперты мирового уровня, приезжающие со всего света. Все участники, спикеры и организаторы конференции носят бейджи, на которых указаны их имя и компания.</p> 
+     <p>Не стесняйтесь начать беседу с коллегой — узнайте, над каким проектом и на каком стеке технологий он работает, как их команда решает те или иные задачи.</p> 
+     <p>Будьте активны в Telegram-чате — предложите всем заинтересованным встретиться в перерыве и обсудить интересующую вас проблему.</p> 
+     <p>Это конференция, и участники всегда готовы поддержать конструктивную беседу.</p> 
+     <p><i>Список Telegram-чатов JUG.ru Group:</i></p> 
+     <ul> 
+      <li>Java-конференция <a href="https://t.me/jpointconf" target="_blank">JPoint</a></li> 
+      <li>Java-конференция <a href="https://t.me/jokerconf" target="_blank">Joker</a></li> 
+      <li>Java-конференция <a href="https://t.me/jbreak" target="_blank">JBreak</a></li> 
+      <li>Сообщество <a href="https://t.me/jug_ru" target="_blank">JUG.ru</a></li> 
+      <li>.NET-конференция <a href="https://t.me/dotnextconf" target="_blank">DotNext</a></li> 
+      <li>Конференция по мобильной разработке <a href="https://t.me/mobiusconf" target="_blank">Mobius</a></li> 
+      <li>JavaScript-конференция <a href="https://t.me/holyjsconf" target="_blank">HolyJS</a></li> 
+      <li>Конференция по тестированию <a href="https://t.me/heisenbugconf" target="_blank">Гейзенбаг</a></li> 
+      <li><a href="https://t.me/smartdataconf">SmartData</a>: конференция по вопросам Big Data</li> 
+      <li>DevOps-конференция <a href="https://t.me/devOopsconf" target="_blank">DevOops</a></li> 
+     </ul> 
+     <h5>Общение с экспонентами</h5> 
+     <p>На каждой конференции JUG.ru Group есть выставочная зона IT-компаний. Кто-то из экспонентов ищет сотрудников, кто-то показывает новые продукты.</p> 
+     <p>Для начала стоит обойти выставочную зону и наметить те компании, с представителями которых вам было бы интересно поговорить в первую очередь — помните про них и обязательно пообщайтесь, даже если для этого придётся подойти несколько раз (некоторые стенды пользуются огромной популярностью). Помимо этого, советуем не забывать и про других экспонентов, даже если их проекты относительно далеки от того, что интересует вас, — всегда бывает познавательно узнать о ключевых новостях, идеях, задачах и технологических решениях из смежных областей.</p> 
+     <h5>Конкурсы и развлечения</h5> 
+     <p>Может, кто-то и считает, что развлекаться — это не обязательно, но, come on, мы-то знаем, что это не так :)</p> 
+     <p>Во-первых, обязательно подпишитесь на Telegram-канал конференции, чтобы ни в коем случае не пропустить объявления о конкурсах, розыгрышах и других изобретательных забавах от наших экспонентов. Там же — в Telegram-канале — вам напомнят, в какое время и у какого стенда надо забирать приз.</p> 
+     <p>Во-вторых, не пропустите вечеринку для участников по окончании первого дня конференции: купание в море коллективного разума нескольких сотен (или даже тысяч!) коллег-разработчиков может оказаться именно тем способом проведения досуга, о котором вы подсознательно тосковали все эти годы. Категорически рекомендуем! (с)</p> 
+     <p>В-третьих, внимательно осмотритесь на площадке: вы обязательно обнаружите фото/инста-будку, настольные или напольные игры и ещё что-то потрясающее, о чём мы вам пока не скажем, чтобы не портить сюрприз.</p> 
+     <p>Удачи на конференции! А если у вас будут возникать вопросы — находите любого человека с бейджем Организатора, мы всегда рады вам помочь!</p> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+ <section class="contacts" id="contacts"> 
+  <div class="container"> 
+   <div class="contacts-wrap"> 
+    <h2 class="contacts__title">Наши контакты</h2> 
+    <ul class="contacts-list"> 
+     <li class="contact__item"> <span class="contact__title">Билеты</span> <a href="mailto:tickets@smartdataconf.ru" class="contact__link">tickets@smartdataconf.ru</a> </li> 
+     <li class="contact__item"> <span class="contact__title">Программа конференции</span> <a href="mailto:program@smartdataconf.ru" class="contact__link">program@smartdataconf.ru</a> </li> 
+     <li class="contact__item"> <span class="contact__title">Спонсоры</span> <a href="mailto:sponsors@smartdataconf.ru" class="contact__link">sponsors@smartdataconf.ru</a> </li> 
+     <li class="contact__item"> <span class="contact__title">Партнеры</span> <a href="mailto:partners@smartdataconf.ru" class="contact__link">partners@smartdataconf.ru</a> </li> 
+     <li class="contact__item"> <span class="contact__title">Вопросы</span> <a href="mailto:questions@smartdataconf.ru" class="contact__link">questions@smartdataconf.ru</a> </li> 
+     <li class="contact__item"> <span class="contact__title">Сайт</span> <a href="mailto:site@smartdataconf.ru" class="contact__link">site@smartdataconf.ru</a> </li> 
+    </ul> 
+   </div> 
+   <div class="contacts-map"> 
+    <div id="map" style="width:100%; height:100%"> 
+     <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Afda1fd4cd88f69ebb0d0c862c3b21efcfc237afa38e9a946d7a7b5dcccafa0fb&amp;lang=ru_RU&amp;scroll=true"></script> 
+    </div> 
+   </div> 
+  </div> 
+ </section> 
+ <div class="container"> 
+  <footer class="footer"> 
+   <div class="footer-widgets"> 
+    <div class="footer-text"> 
+     <a href="/" class="logo_link"> SmartData </a> 
+     <div class="footer-about"> 
+      <p>Конференция, посвященная техническим вопросам из мира Big Data и обработки данных.</p> 
+     </div> 
+    </div> 
+    <div class="footer-nav"> 
+     <h5 class="footer_title"> Навигация </h5> 
+     <ul class="nav-footer"> 
+      <li class="nav-item"> <a href="/#about" class="nav_link"> О конференции </a> </li> 
+      <li class="nav-item"> <a href="/#schedule" class="nav_link"> Программа </a> </li> 
+      <li class="nav-item"> <a href="/tickets/" class="nav_link"> Купить билет </a> </li> 
+      <li class="nav-item"> <a href="/#faq" class="nav_link"> F.A.Q. </a> </li> 
+      <li class="nav-item"> <a href="/#sponsors" class="nav_link"> Спонсоры </a> </li> 
+      <li class="nav-item"> <a href="/organizers/" class="nav_link"> Организаторы </a> </li> 
+      <li class="nav-item"> <a href="#contacts" class="nav_link"> Контакты </a> </li> 
+      <li class="nav-item"> <a href="https://jugru.org/privacy_policy.html" target="_blank">Политика конфиденциальности</a> </li> 
+     </ul> 
+    </div> 
+    <div class="footer-nav"> 
+     <h5 class="footer_title"> Наши конференции </h5> 
+     <ul class="nav-footer"> 
+      <li class="nav-item"> <a href="https://dotnext.ru" class="nav_link" target="_blank"> DotNext </a> </li> 
+      <li class="nav-item"> <a href="https://holyjs.ru" class="nav_link" target="_blank"> HolyJS </a> </li> 
+      <li class="nav-item"> <a href="https://heisenbug.ru" class="nav_link" target="_blank"> Гейзенбаг </a> </li> 
+      <li class="nav-item"> <a href="https://mobiusconf.com" class="nav_link" target="_blank"> Mobius </a> </li> 
+      <li class="nav-item"> <a href="https://2017.jbreak.ru" class="nav_link" target="_blank"> JBreak </a> </li> 
+      <li class="nav-item"> <a href="https://jokerconf.com/" class="nav_link" target="_blank"> Joker </a> </li> 
+      <li class="nav-item"> <a href="https://jpoint.ru/" class="nav_link" target="_blank"> JPoint </a> </li>
+     </ul> 
+    </div> 
+    <div class="footer-contacts"> 
+     <h5 class="footer_title">Мы в социальных сетях</h5> 
+     <ul class="nav nav-footer"> 
+      <li class="nav-item"> <a class="nav-link pa-0" href="https://fb.me/smartdataconf" target="_blank"> <i class="icon-facebook"></i><span class="hidden-sm-down">SmartData</span> </a> </li> 
+      <li class="nav-item"> <a class="nav-link pa-0" href="https://vk.com/smartdata " target="_blank"> <i class="icon-vkontakte"></i><span class="hidden-sm-down">SmartData</span> </a> </li> 
+      <li class="nav-item"> <a class="nav-link pa-0" href="https://twitter.com/smartdatacon" target="_blank"> <i class="icon-twitter"></i><span class="hidden-sm-down">@SmartDataCon</span> </a> </li> 
+      <li class="nav-item"> <a class="nav-link pa-0" href="https://t.me/smartdataconf" target="_blank"> <i class="icon-telegram"></i><span class="hidden-sm-down">SmartData Telegram</span> </a> </li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="copyright"> 
+    <p>© SmartData</p> 
+   </div> 
+  </footer> 
+ </div> 
+ <script src="/assets/vendor.js"></script> 
+ <script src="/assets/app.js"></script> 
+ <script>
+    (function(win) {
+      'use strict';
+      var DRAWER_ATTR = 'right-drawer';
+      var pdp = document.getElementById('paperDrawerPanel');
+      win.flipDrawer = function() {
+        pdp.rightDrawer = !pdp.rightDrawer;
+      }
+      win.toogleDrawer = function() {
+        pdp.togglePanel();
+      };
+    }(this));
+  </script> 
+ <script>
+    window.addEventListener("load", function(){
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#000"
+          },
+          "button": {
+            "background": "#1779ba"
+          }
+        },
+        "position": "bottom-right",
+        "content": {
+          "message": "Наш сайт использует файлы cookies, чтобы улучшить работу и повысить эффективность сайта. Продолжая использование сайта, вы соглашаетесь с использованием нами cookies.",
+          "dismiss": "Принять",
+          "link": "Подробнее...",
+          "href": "https://jugru.org/privacy_policy.html#7.1.5"
+        }
+      })});
+  </script> 
+ <script src="/cookieconsent.min.js"></script>  
+</body>

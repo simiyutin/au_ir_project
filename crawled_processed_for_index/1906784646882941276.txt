@@ -1,0 +1,243 @@
+<body> 
+ <!-- Yandex.Metrika counter --> 
+ <script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter24049429 = new Ya.Metrika({id:24049429,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script> 
+ <noscript>
+  <div>
+   <img src="//mc.yandex.ru/watch/24049429" style="position:absolute; left:-9999px;" alt="">
+  </div>
+ </noscript> 
+ <!-- /Yandex.Metrika counter --> 
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  //ga('create', 'UA-726094-15', 'auto');
+  ga('create', 'UA-726094-15', {
+    'cookieDomain': 'none'
+  });
+  
+  ga('send', 'pageview');
+
+</script> 
+ <div class="global_notices" id="global_notices"></div> 
+ <div class="n_layout"> 
+  <div class="n_header"> 
+   <div class="inner"> 
+    <a href="https://id.tmtm.ru/login/?consumer=habrahabr&amp;state=77cd2cb7b3a5efeb951e73792315c4b5" class="button green">Войти</a> 
+    <a href="https://id.tmtm.ru/?consumer=habrahabr&amp;state=77cd2cb7b3a5efeb951e73792315c4b5" class="logo"></a> 
+   </div> 
+  </div> 
+  <div class="n_content"> 
+   <div class="about_column column habrahabr"> 
+    <div class="inner"> 
+     <div class="about"> 
+      <div class="title">
+       Habrahabr
+      </div> 
+      <div class="text">
+        Сообщество IT-специалистов 
+      </div> 
+      <div class="line"></div> 
+      <div class="text">
+        Для входа можно использовать аккаунт на 
+       <a href="http://toster.ru">toster.ru</a>, 
+       <a href="http://geektimes.ru">geektimes.ru</a> или ваш TM ID. 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="slide_column column"> 
+    <div class="inner"> 
+     <div class="slides"> 
+      <div class="slide"> 
+       <img src="/img/projects/habrahabr/slide_1.png" alt=""> 
+       <div class="text">
+        Гигабайты полезной
+        <br>информации
+       </div> 
+      </div> 
+      <div class="slide"> 
+       <img src="/img/projects/habrahabr/slide_2.png" alt=""> 
+       <div class="text">
+        Конструктивные диалоги
+       </div> 
+      </div> 
+      <div class="slide"> 
+       <img src="/img/projects/habrahabr/slide_3.png" alt=""> 
+       <div class="text">
+        блоги ведущих
+        <br>it−компаний
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="form_column column"> 
+    <div class="inner"> 
+     <form action="/ajax/register/" class="s-form validateble register_form" id="register_form" method="post" data-remote="true" novalidate> 
+      <input type="hidden" name="state" value="77cd2cb7b3a5efeb951e73792315c4b5"> 
+      <input type="hidden" name="consumer" value="habrahabr"> 
+      <div class="title">
+       Регистрация
+      </div> 
+      <div class="sbuttons "> 
+       <a href="https://id.tmtm.ru/ajax/social/login/facebook/?consumer=habrahabr&amp;state=77cd2cb7b3a5efeb951e73792315c4b5" data-remote="true" data-method="post" data-post-consumer="habrahabr" data-post-state="77cd2cb7b3a5efeb951e73792315c4b5" class="facebook" title="Войти с помощью Facebook"></a> 
+       <a href="https://id.tmtm.ru/ajax/social/login/vkontakte/?consumer=habrahabr&amp;state=77cd2cb7b3a5efeb951e73792315c4b5" data-remote="true" data-method="post" data-post-consumer="habrahabr" data-post-state="77cd2cb7b3a5efeb951e73792315c4b5" class="vkontakte" title="Войти с помощью Вконтакте"></a> 
+       <a href="https://id.tmtm.ru/ajax/social/login/twitter/?consumer=habrahabr&amp;state=77cd2cb7b3a5efeb951e73792315c4b5" data-remote="true" data-method="post" data-post-consumer="habrahabr" data-post-state="77cd2cb7b3a5efeb951e73792315c4b5" class="twitter" title="Войти с помощью Twitter"></a> 
+       <a href="https://id.tmtm.ru/ajax/social/login/github/?consumer=habrahabr&amp;state=77cd2cb7b3a5efeb951e73792315c4b5" data-remote="true" data-date="{ code: &quot;code&quot;, userid: &quot;userid&quot; }" data-method="post" data-post-consumer="habrahabr" data-post-state="77cd2cb7b3a5efeb951e73792315c4b5" class="github" title="Войти с помощью Github"></a> 
+       <a href="https://id.tmtm.ru/ajax/social/login/liveid/?consumer=habrahabr&amp;state=77cd2cb7b3a5efeb951e73792315c4b5" data-remote="true" data-method="post" data-post-consumer="habrahabr" data-post-state="77cd2cb7b3a5efeb951e73792315c4b5" class="liveid" title="Войти с помощью LiveID"></a> 
+       <a href="#" class="google hidden" title="Войти с помощью Google"></a> 
+      </div> 
+      <div class="s-field "> 
+       <div class="text-wrapper"> 
+        <input type="email" value="" tabindex="1" placeholder="E-mail" name="email" autofocus autocomplete="off" data-required="true" data-validate_url="/ajax/check_availability/email/"> 
+        <div class="icon_email"></div> 
+       </div> 
+      </div> 
+      <div class="s-field "> 
+       <div class="text-wrapper"> 
+        <input type="text" value="" tabindex="2" placeholder="Никнейм" name="login" autocomplete="off" data-required="true" data-validate_url="/ajax/check_availability/login/"> 
+        <div class="icon_username"></div> 
+       </div> 
+      </div> 
+      <div class="s-field"> 
+       <div class="text-wrapper"> 
+        <input type="password" value="" tabindex="3" placeholder="Пароль" name="password" autocomplete="off" data-required="true" data-validate_url="/ajax/validate/password/" data-validate_password="password2"> 
+        <div class="icon_password"></div> 
+       </div> 
+      </div> 
+      <div class="s-field"> 
+       <div class="text-wrapper"> 
+        <input type="password" value="" tabindex="4" placeholder="Пароль ещё раз" name="password2" autocomplete="off" data-required="true" data-validate_url="/ajax/validate/password/" data-validate_password="password"> 
+        <div class="icon_password"></div> 
+       </div> 
+      </div> 
+      <div class="s-field"> 
+       <input name="captcha" type="hidden"> 
+       <div class="item captcha"> 
+        <div id="captcha_widget"></div> 
+        <input type="hidden" name="captcha_type" value="recaptcha"> 
+       </div> 
+       <script type="text/javascript">
+      var widgetId1;
+      var verifyCallback = function(response) {
+        $('.item.captcha').closest('.s-with-error').removeClass('s-with-error').find('.s-error').remove();
+        $('.item.captcha input[name="captcha_type"]').trigger('change');
+      };
+      var onloadCallback = function() {
+        widgetId1 = grecaptcha.render('captcha_widget', {
+          'sitekey' : '6LftHuoSAAAAAORONRXn_6xb2f_QCtXqfbRPfY2e',
+          'callback' : verifyCallback,
+          'theme' : 'light'
+        });
+        
+      };
+  </script> 
+       <script>
+      function reloadRecaptcha(){
+        // reload captcha
+        grecaptcha.reset(widgetId1);
+      }
+  </script> 
+       <script async defer src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&amp;render=explicit"></script> 
+      </div> 
+      <!-- <div class="s-field">
+					<div class="s-simple-checkbox">
+						<input type="checkbox" name="agree" id="agree" tabindex="6" data-required="true" />
+						<label for="agree"><span class="checkbox_emulator"></span><span class="label">Я принимаю <a href="/info/agreement">пользовательское соглашение</a></span></label>
+					</div>
+				</div> --> 
+      <div class="s-buttons"> 
+       <button type="submit" name="go" id="registration_button" tabindex="7" class="button big green wide disableble" disabled>Зарегистрироваться</button> 
+      </div> 
+     </form> 
+     <div class="links"> 
+      <a href="https://id.tmtm.ru/login/resend/?consumer=habrahabr&amp;state=77cd2cb7b3a5efeb951e73792315c4b5" class="resend">Не пришло письмо?</a> 
+      <a href="https://id.tmtm.ru/login/reminder/?consumer=habrahabr&amp;state=77cd2cb7b3a5efeb951e73792315c4b5" class="remind">Восстановить пароль</a> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="clear"></div> 
+   <script>
+	function gInit() {
+		$('.google').on('click', function(){
+			gapi.auth.authorize(
+					{
+						scope:["https://www.googleapis.com/auth/plus.login", "https://www.googleapis.com/auth/userinfo.email"],
+						client_id:"721058608227.apps.googleusercontent.com",
+						redirect_uri:"postmessage",
+						immediate:false,
+						response_type:'code',
+						state:"23cce69457d844b452de3568c5ca040c",
+						access_type:"offline",
+						cookie_policy:"single_host_origin"
+					},
+					signInCallback
+			);
+			return false;
+		});
+		$('.google').removeClass('hidden');
+	}
+
+	function signInCallback(authResult) {
+		if (authResult['code']) {
+			window.location.href = '/social/callback/google/?state='+authResult['state']+'&code='+authResult['code'];
+		} else if (authResult['error']) {
+			// Произошла ошибка.
+			// Возможные коды ошибок:
+			//   "access_denied" – пользователь отказался предоставить приложению доступ к данным
+			//   "immediate_failed" – не удалось выполнить автоматический вход пользователя
+			console.log('There was an error: ' + authResult['error']);
+		}
+	}
+
+	$(document).ready(function(){
+		$('#email_field').focus();
+		$('.remind').on('click', function(){
+			var email = $('input[name="email"]').val();
+			$.cookie('email', email, {path: '/' } );
+		})
+	})
+</script> 
+   <script type="text/javascript" async src="https://plus.google.com/js/client:plusone.js?onload=gInit"></script> 
+  </div> 
+ </div> 
+ <div class="n_footer"> 
+  <div class="inner"> 
+   <div class="menu"> 
+    <a href="https://id.tmtm.ru/info/about/?consumer=habrahabr&amp;state=77cd2cb7b3a5efeb951e73792315c4b5">О сервисе</a> 
+    <a href="http://habrahabr.ru/company/tm/">Блог</a> 
+    <a href="https://id.tmtm.ru/feedback/?consumer=habrahabr&amp;state=77cd2cb7b3a5efeb951e73792315c4b5">Обратная связь</a> 
+   </div> 
+   <div class="copyright">
+    © 
+    <a href="http://tmtm.ru">TM</a>
+   </div> 
+  </div> 
+ </div>  
+</body>

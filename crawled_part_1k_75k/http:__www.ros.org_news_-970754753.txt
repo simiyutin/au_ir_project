@@ -1,0 +1,456 @@
+http://www.ros.org/news
+<body id="mt-blog" class="mt-main-index layout-wt"> 
+ <div id="container"> 
+  <div id="container-inner"> 
+   <div id="header">
+    <div id="topnav"> 
+     <table id="topnav-table"> 
+      <tbody>
+       <tr> 
+        <td width="300" valign="top"><a href="/"><img border="0" src="/images/ros_org.png" alt="ros.org" width="238" height="51"></a></td> 
+        <td valign="middle"> <a href="http://www.ros.org/about-ros">About</a> | <a href="http://wiki.ros.org/Support">Support</a> | <a href="http://status.ros.org/">Status</a> | <a href="http://answers.ros.org/">answers.ros.org</a> </td> 
+        <td valign="middle" align="right"> 
+         <form id="searchform" method="get" action="/wiki/"> 
+          <div> 
+           <input type="hidden" name="action" value="fullsearch"> 
+           <input type="hidden" name="context" value="180"> 
+           <label for="searchinput">Search:</label> 
+           <input id="searchinput" type="text" name="value" value="" size="20" onfocus="searchFocus(this)" onblur="searchBlur(this)" onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search"> 
+           <input id="fullsearch" name="fullsearch" type="submit" value="Text" alt="Search Full Text"> 
+           <input id="titlesearch" name="titlesearch" type="submit" value="Titles" alt="Search Titles"> 
+          </div> 
+         </form> <script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script> </td> 
+       </tr> 
+       <tr> 
+        <td colspan="3" height="53" width="1024">
+         <nobr>
+          <img src="/images/menu_left.png" width="17" height="53" alt="">
+          <a href="/wiki/"><img border="0" src="/images/menu_documentation.png" width="237" height="53" alt="Documentation"></a>
+          <img src="/images/menu_spacer.png" width="69" height="53">
+          <a href="http://ros.sourceforge.net/browse/"><img border="0" src="/images/menu_browse_software.png" width="268" height="53" alt="Browse Software"></a>
+          <img src="/images/menu_spacer.png" width="69" height="53">
+          <a href="http://www.ros.org/news"><img border="0" src="/images/menu_news.png" width="84" height="53" alt="News"></a>
+          <img src="/images/menu_spacer.png" width="69" height="53">
+          <a href="http://www.ros.org/wiki/ROS/Installation"><img border="0" src="/images/menu_download.png" width="151" height="53" alt="Download"></a>
+          <img src="/images/menu_right.png" width="60" height="53">
+         </nobr></td> 
+       </tr> 
+      </tbody>
+     </table> 
+     <!-- topnav-table --> 
+    </div> 
+    <!-- /#topav --> 
+   </div> 
+   <!-- /#header --> 
+   <div id="content"> 
+    <div id="content-inner"> 
+     <div id="alpha"> 
+      <div id="alpha-inner"> 
+       <div id="entry-3171" class="entry-asset asset hentry"> 
+        <div class="asset-header"> 
+         <h2 class="asset-name entry-title"><a href="http://www.ros.org/news/2017/10/world-moveit-day-2017---october-18th.html" rel="bookmark">World MoveIt! Day 2017 - October 18th!</a></h2> 
+         <div class="asset-meta"> 
+          <span class="byline"> By <span class="vcard author">Tully Foote</span> on <abbr class="published" title="2017-10-03T14:32:56-08:00">October 3, 2017 2:32 PM</abbr> </span> 
+         </div> 
+        </div> 
+        <div class="asset-content entry-content"> 
+         <div class="asset-body"> 
+          <p><em><a href="https://discourse.ros.org/t/world-moveit-day-2017-october-18th/2827?u=tfoote">From Dave Coleman</a></em></p> 
+          <p><a href="http://www.ros.org/news/2017/10/03/world_moveit_day_2017.png"><img alt="world_moveit_day_2017.png" src="http://www.ros.org/news/assets_c/2017/10/world_moveit_day_2017-thumb-640x298-1906.png" width="640" height="298" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></a></p> 
+          <p>We're excited to announce that this year's World MoveIt! Day will be Wednesday October 18th! The event is a day long international hackathon to improve the MoveIt! code base, documentation, and community. We hope to close as many pull requests and issues as possible and explore new areas of features and improvements for the now five year old framework.</p> 
+          <p>We will be having many event locations including:</p> 
+          <ul> 
+           <li>Verb Surgical, San Francisco Bay Area</li> 
+           <li>Magazino, Munich, Germany</li> 
+           <li>Southwest Research Institute, San Antonio, USA</li> 
+           <li>Xamla Robotics (PROVISIO GmbH), Münster, Germany</li> 
+           <li>ROS-Industrial Asian Pacific Consortium, Singapore (THURSDAY OCTOBER 19th)</li> 
+           <li>PickNik Robotics (Univ. Colorado), Boulder, USA</li> 
+           <li>Shadow Robot Company, London, UK</li> 
+          </ul> 
+          <p>You are encouraged to have your own event in your lab/organization/company and video conference in to all the other events. </p> 
+          <p>For more details, see <a href="http://moveit.ros.org/events/world-moveit-day-2017/">the event page</a>.</p> 
+         </div> 
+        </div> 
+        <div class="asset-footer"></div> 
+       </div> 
+       <div id="entry-3166" class="entry-asset asset hentry"> 
+        <div class="asset-header"> 
+         <h2 class="asset-name entry-title"><a href="http://www.ros.org/news/2017/10/roscon-2017-video-recordings-of-presentations-are-available.html" rel="bookmark">ROSCon 2017: Video recordings of presentations are available</a></h2> 
+         <div class="asset-meta"> 
+          <span class="byline"> By <span class="vcard author">Tully Foote</span> on <abbr class="published" title="2017-10-03T11:02:56-08:00">October 3, 2017 11:02 AM</abbr> </span> 
+         </div> 
+        </div> 
+        <div class="asset-content entry-content"> 
+         <div class="asset-body"> 
+          <p>We're happy to announce that the videos from ROSCon 2017 have been uploaded and are now linked from the <a href="https://roscon.ros.org/2017/#program">program</a>, thanks to the support of our video-archiving sponsor Ubuntu. If you were unable to attend, missed a talk, or want to listen again to get some more details now you can.</p> 
+          <p>In addition we have posted slides from almost all the speakers as well. So if you want to get a link or other information you can do so now as well. The slides are linked alongside the videos from the <a href="https://roscon.ros.org/2017/#program">program</a>.</p> 
+          <p>If you presented a Lightning Talk and want to provide more information, or if you were unable to secure a lightning talk slot I encourage you to make your announcement on Discourse in the <a href="https://discourse.ros.org/c/ros-projects">ROS Projects category</a>. If you're announcing a released ROS package send it to the <a href="https://discourse.ros.org/c/general">General category</a>. That way, more of the community will be aware of your projects and package contributions.</p> 
+          <p>Thanks to everyone for coming and for your support! We sold out ROSCon for the third year in a row, with over 475 attendees. And thank you to our <a href="https://roscon.ros.org/2017/#sponsors">record-breaking 33 sponsors</a> for the financial support that enabled the conference to grow!</p> 
+          <ul> 
+           <li>Your friendly neighborhood ROSCon 2017 Organizing Committee</li> 
+          </ul> 
+          <p>Thanks to our Platinum Sponsor: Intel. <br> Thanks to our Gold Sponsors: AIRA, Clearpath, Erle, Fetch, GaiTech, Locus, Rapyuta, ROBOTIS, and SICK.</p> 
+         </div> 
+        </div> 
+        <div class="asset-footer"></div> 
+       </div> 
+       <div id="entry-3161" class="entry-asset asset hentry"> 
+        <div class="asset-header"> 
+         <h2 class="asset-name entry-title"><a href="http://www.ros.org/news/2017/09/goodbye-roscon-2017.html" rel="bookmark">Goodbye, ROSCon 2017</a></h2> 
+         <div class="asset-meta"> 
+          <span class="byline"> By <span class="vcard author">Tully Foote</span> on <abbr class="published" title="2017-09-26T15:20:35-08:00">September 26, 2017 3:20 PM</abbr> </span> 
+         </div> 
+        </div> 
+        <div class="asset-content entry-content"> 
+         <div class="asset-body"> 
+          <p>After a gorgeous and enlightening couple of days in Vancouver, we bid farewell to ROSCon 2017. We sold out ROSCon for the third year in a row, with over 475 attendees.</p> 
+          <p>Thanks to everyone for coming and for your support! And thank you to <a href="https://roscon.ros.org/2017/#sponsors">our record-breaking 33 sponsors</a> for the financial support that enabled the conference to grow!</p> 
+          <p>We're posting the slides as they come in from the speakers and we expect to have the videos posted by October 6th. As usual, all of that material is linked in the <a href="https://roscon.ros.org/2017/#program">program</a>.</p> 
+          <p><a href="http://www.ros.org/news/assets_c/2017/09/ROSCon17_Group2-1891.html" onclick="window.open('http://www.ros.org/news/assets_c/2017/09/ROSCon17_Group2-1891.html','popup','width=5607,height=2009,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><img src="http://www.ros.org/news/assets_c/2017/09/ROSCon17_Group2-thumb-640x229-1891.jpg" width="640" height="229" alt="ROSCon17_Group2.jpg" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></a></p> 
+         </div> 
+        </div> 
+        <div class="asset-footer"></div> 
+       </div> 
+       <div id="entry-3156" class="entry-asset asset hentry"> 
+        <div class="asset-header"> 
+         <h2 class="asset-name entry-title"><a href="http://www.ros.org/news/2017/09/ian-chen-osrf-cloudy-with-a-chance-of-simulation.html" rel="bookmark">Ian Chen (OSRF) Cloudy with a Chance of Simulation</a></h2> 
+         <div class="asset-meta"> 
+          <span class="byline"> By <span class="vcard author">Tully Foote</span> on <abbr class="published" title="2017-09-13T16:04:33-08:00">September 13, 2017 4:04 PM</abbr> </span> 
+         </div> 
+        </div> 
+        <div class="asset-content entry-content"> 
+         <div class="asset-body"> 
+          <p>Looking foward to ROSCon 2017 we're highlighting presentations from last year. The ROSCon 2017 <a href="https://discourse.ros.org/t/roscon-2017-registration-open/1813/1">registration</a> is currently open.</p> 
+          <p>In this presentation Ian talks about how CloudSim was developed and used to support the DARPA Virtual Robotics Challenge.</p> 
+          <h3>Video</h3> 
+          <iframe src="https://player.vimeo.com/video/187696089" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+          <h3>Abstract</h3> 
+          <p>The DARPA Virtual Robotics Challenge gave birth to the first version of CloudSim. It provided a centralized platform that facilitated teams of participants from around the world to compete in simulation simultaneously. Since then, various projects have demanded the need for a similar cloud hosted environment for robotics competitions. In this presentation, we reveal a new, redesigned CloudSim that aims to be a generic tool for running robotics software and simulations on the cloud. We present some of its key features including simulation instance sharing, reusable front-end web components, a WebGL visualization client, and security and authentication.</p> 
+          <h3>Slides</h3> 
+          <p>View the slides <a href="https://roscon.ros.org/2016/presentations/ROSCon2016_Cloudsim.pdf">here</a></p> 
+         </div> 
+        </div> 
+        <div class="asset-footer"></div> 
+       </div> 
+       <div id="entry-3151" class="entry-asset asset hentry"> 
+        <div class="asset-header"> 
+         <h2 class="asset-name entry-title"><a href="http://www.ros.org/news/2017/09/mike-purvis-clearpath-robotics-robust-deployment-with-ros-bundles.html" rel="bookmark">Mike Purvis (Clearpath Robotics) Robust Deployment with ROS Bundles</a></h2> 
+         <div class="asset-meta"> 
+          <span class="byline"> By <span class="vcard author">Tully Foote</span> on <abbr class="published" title="2017-09-05T16:59:04-08:00">September 5, 2017 4:59 PM</abbr> </span> 
+         </div> 
+        </div> 
+        <div class="asset-content entry-content"> 
+         <div class="asset-body"> 
+          <p>Looking foward to ROSCon 2017 we're highlighting presentations from last year. The ROSCon 2017 <a href="https://discourse.ros.org/t/roscon-2017-registration-open/1813/1">registration</a> is currently open.</p> 
+          <p>Mike Purvis presents how to build bundles and use them for deploying robots with ROS software.</p> 
+          <h3>Video</h3> 
+          <iframe src="https://player.vimeo.com/video/187705228" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+          <h3>Abstract</h3> 
+          <p>Late in 2015, Clearpath was facing a deployment crisis, with software in various states going to customer sites, off-site demos, in-house demos &amp; testing, and developer workstations. There was a build-up of cultural issues and technical limitations in the existing tooling. The solution to all of these issues has been to build the entirety of our robot's software in a single large workspace (using catkin<em>tools), and then ship the whole thing as one "fat" deb package. Lessons learned will be presented, along with a brief example of building a customized desktop</em>full bundle for Ubuntu - this should be sufficient to kickstart the efforts of anyone else who'd like to set up a similar build. The demonstration will highlight in particular our contributions to upstream ROS tooling which have been made in the course of this development work, hopefully merged in coming months</p> 
+          <h3>Slides</h3> 
+          <p>View the slides <a href="https://roscon.ros.org/2016/presentations/ros-bundling.pdf">here</a></p> 
+         </div> 
+        </div> 
+        <div class="asset-footer"></div> 
+       </div> 
+       <div id="entry-3146" class="entry-asset asset hentry"> 
+        <div class="asset-header"> 
+         <h2 class="asset-name entry-title"><a href="http://www.ros.org/news/2017/08/dirk-thomas-osrf-the-ros-build-farm---what-it-can-do-for-me.html" rel="bookmark">Dirk Thomas (OSRF) The ROS build farm - what it can do for me</a></h2> 
+         <div class="asset-meta"> 
+          <span class="byline"> By <span class="vcard author">Tully Foote</span> on <abbr class="published" title="2017-08-30T13:04:30-08:00">August 30, 2017 1:04 PM</abbr> </span> 
+         </div> 
+        </div> 
+        <div class="asset-content entry-content"> 
+         <div class="asset-body"> 
+          <p>Looking foward to ROSCon 2017 we're highlighting presentations from last year. The ROSCon 2017 <a href="https://discourse.ros.org/t/roscon-2017-registration-open/1813/1">registration</a> is currently open.</p> 
+          <p>The OSRF team has put a lot of work into the ROS buildfarm. It's used to provide continuous integration for the open source ROS community. Here he talks about how to both take advantage of the hosted version as well as leverage the components of the system for your own deployment if you wish. </p> 
+          <h3>Video</h3> 
+          <iframe src="https://player.vimeo.com/video/187705230" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+          <h3>Abstract</h3> 
+          <p>The presentation is focused on the Python package ros_buildfarm. The various features provided are being described in detail which will improve the understand of the development process of ROS packages ranging from development and continuous integration over the release process to documentation. It will help you to leverage the provided infrastructure of build.ros.org for the development of your ROS packages and improve your workflow. Additionally it is being demonstrated how the software can be applied locally or e.g. via Travis to run your own "jobs".</p> 
+          <h3>Slides</h3> 
+          <p>View the slides <a href="https://roscon.ros.org/2016/presentations/ROSCon2016%20Build%20Farm.pdf">here</a></p> 
+         </div> 
+        </div> 
+        <div class="asset-footer"></div> 
+       </div> 
+       <div id="entry-3141" class="entry-asset asset hentry"> 
+        <div class="asset-header"> 
+         <h2 class="asset-name entry-title"><a href="http://www.ros.org/news/2017/08/ros-national-tour-seminar-in-korea.html" rel="bookmark">ROS National Tour Seminar in Korea</a></h2> 
+         <div class="asset-meta"> 
+          <span class="byline"> By <span class="vcard author">Tully Foote</span> on <abbr class="published" title="2017-08-29T08:19:30-08:00">August 29, 2017 8:19 AM</abbr> </span> 
+         </div> 
+        </div> 
+        <div class="asset-content entry-content"> 
+         <div class="asset-body"> 
+          <p><em>From Yoonseok Pyo</em></p> 
+          <p>'ROS National Tour Seminar' in Korea was held on 21-25 August 2017 at Gwangju, Busan, Daegu, Daejeon, Seoul. More than 540 engineers and students were participated in this event that was organized by ROBOTIS CO., LTD. (directed by Dr. Pyo) and GIST, Dong-A University, Kyungpook National University, KAIST, Seoul National University.</p> 
+          <p>This seminar was aimed at beginners of ROS, and we visited five major cities in Korea: Gwangju, Busan, Daegu, Daejeon and Seoul. Each day we spent 5 hours for the seminar, starting with the installation of ROS and learning about the introduction, features and tools. We then learned the concept of ROS based robot programming and tried various ROS development tools. Then we practiced SLAM, Navigation and Manipulation using ROS, TurtleBot3, OpenManipulator (to be announced at ROSCon2017) on the Gazebo simulator. Finally, in celebration of the 10th anniversary of ROS, we went over the ROS history and talked about future ROS development.</p> 
+          <p>It was truly grateful experience that we were able to share a wonderful time talking about ROS with 540 people in a week.</p> 
+          <p><img alt="ros_seminar_korea.png" src="http://www.ros.org/news/2017/08/29/ros_seminar_korea%28websize%29.png" width="1200" height="675" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;"></p> 
+         </div> 
+        </div> 
+        <div class="asset-footer"></div> 
+       </div> 
+       <div id="entry-3136" class="entry-asset asset hentry"> 
+        <div class="asset-header"> 
+         <h2 class="asset-name entry-title"><a href="http://www.ros.org/news/2017/08/peter-fankhauser-eth-zurich-et-al-anymal-at-the-argos-challenge-tools-and-experiences-from-the-auton.html" rel="bookmark">Péter Fankhauser (ETH Zurich) et al. ANYmal at the ARGOS Challenge: Tools and Experiences from the Autonomous Inspection of Oil &amp; Gas Sites with a Legged Robot</a></h2> 
+         <div class="asset-meta"> 
+          <span class="byline"> By <span class="vcard author">Tully Foote</span> on <abbr class="published" title="2017-08-25T22:18:13-08:00">August 25, 2017 10:18 PM</abbr> </span> 
+         </div> 
+        </div> 
+        <div class="asset-content entry-content"> 
+         <div class="asset-body"> 
+          <p>Looking foward to ROSCon 2017 we're highlighting presentations from last year. The ROSCon 2017 <a href="https://discourse.ros.org/t/roscon-2017-registration-open/1813/1">registration</a> is currently open.</p> 
+          <p>To open Day 2 Péter Fankhauser (ETH Zurich) presented how ETH Zurich has been using ROS on they robot ANYmal for the ARGOS Challenge.</p> 
+          <h3>Video</h3> 
+          <iframe src="https://player.vimeo.com/video/187696096" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+          <h3>Abstract</h3> 
+          <p>At the ARGOS Challenge, we participate with our legged robot ANYmal in the autonomous inspection of oil &amp; gas sites. In this presentation, we share our experience with using ROS in our work and introduce our tools, many of which are available open-source. ANYmal is an electrically driven quadrupedal robot, capable of dynamic running, climbing over obstacles, and scaling stairs. It uses onboard laser range sensors to precisely localize and map its surrounding, enabling the autonomous navigation in difficult environments. For ARGOS, ANYmal carries several inspection sensors and uses computer vision to monitor the state of the site.</p> 
+          <h3>Slides</h3> 
+          <p>View the slides <a href="https://roscon.ros.org/2016/presentations/ROSCon%202016%20-%20ANYmal.pdf">here</a></p> 
+         </div> 
+        </div> 
+        <div class="asset-footer"></div> 
+       </div> 
+       <div class="content-nav"> 
+        <a href="http://www.ros.org/news/archives.html">Archives</a> 
+       </div> 
+      </div> 
+     </div> 
+     <div id="beta"> 
+      <div id="beta-inner"> 
+       <p>Find this blog and more at <a href="http://planet.ros.org">planet.ros.org</a>.</p> 
+       <br> 
+       <p>Please submit content to be reviewed by emailing <a href="mailto:ros-news@googlegroups.com">ros-news@googlegroups.com</a>.</p> 
+       <div class="widget-archive widget-archive-category widget"> 
+        <h3 class="widget-header">Categories</h3> 
+        <div class="widget-content"> 
+         <ul> 
+          <li><a href="http://www.ros.org/news/announcements/">announcements (111)</a> </li> 
+          <li><a href="http://www.ros.org/news/book/">book (12)</a> </li> 
+          <li><a href="http://www.ros.org/news/events/">events (120)</a> </li> 
+          <li><a href="http://www.ros.org/news/jobs/">jobs (80)</a> </li> 
+          <li><a href="http://www.ros.org/news/misc/">misc (94)</a> </li> 
+          <li><a href="http://www.ros.org/news/packages/">packages (186)</a> </li> 
+          <li><a href="http://www.ros.org/news/papers/">papers (2)</a> </li> 
+          <li><a href="http://www.ros.org/news/report/">report (41)</a> </li> 
+          <li><a href="http://www.ros.org/news/repositories/">repositories (85)</a> </li> 
+          <li><a href="http://www.ros.org/news/reps/">reps (4)</a> </li> 
+          <li><a href="http://www.ros.org/news/robots/">robots (66)</a> 
+           <ul> 
+            <li><a href="http://www.ros.org/news/robots/uavs/">UAVs (17)</a> </li> 
+            <li><a href="http://www.ros.org/news/robots/autonomous-cars/">autonomous cars (4)</a> </li> 
+            <li><a href="http://www.ros.org/news/robots/robots-components/">components (7)</a> </li> 
+            <li><a href="http://www.ros.org/news/robots/field-robots/">field robots (8)</a> </li> 
+            <li><a href="http://www.ros.org/news/robots/hobby/">hobby (8)</a> </li> 
+            <li><a href="http://www.ros.org/news/robots/humanoid/">humanoid (3)</a> </li> 
+            <li><a href="http://www.ros.org/news/robots/mobile-manipulators/">mobile manipulators (21)</a> </li> 
+            <li><a href="http://www.ros.org/news/robots/mobile-robots/">mobile robots (25)</a> </li> 
+            <li><a href="http://www.ros.org/news/robots/sensors/">sensors (14)</a> </li> 
+           </ul> </li> 
+          <li><a href="http://www.ros.org/news/rosorg/">ros.org (10)</a> </li> 
+          <li><a href="http://www.ros.org/news/spotlight/">spotlight (18)</a> </li> 
+          <li><a href="http://www.ros.org/news/stacks/">stacks (29)</a> 
+           <ul> 
+            <li><a href="http://www.ros.org/news/stacks/releases/">releases (206)</a> </li> 
+           </ul> </li> 
+          <li><a href="http://www.ros.org/news/tutorials/">tutorials (17)</a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div class="widget-archive-monthly widget-archive widget"> 
+        <h3 class="widget-header">Monthly <a href="http://www.ros.org/news/archives.html">Archives</a></h3> 
+        <div class="widget-content"> 
+         <ul> 
+          <li><a href="http://www.ros.org/news/2017/10/">October 2017 (2)</a></li> 
+          <li><a href="http://www.ros.org/news/2017/09/">September 2017 (3)</a></li> 
+          <li><a href="http://www.ros.org/news/2017/08/">August 2017 (6)</a></li> 
+          <li><a href="http://www.ros.org/news/2017/07/">July 2017 (4)</a></li> 
+          <li><a href="http://www.ros.org/news/2017/06/">June 2017 (5)</a></li> 
+          <li><a href="http://www.ros.org/news/2017/05/">May 2017 (4)</a></li> 
+          <li><a href="http://www.ros.org/news/2017/04/">April 2017 (2)</a></li> 
+          <li><a href="http://www.ros.org/news/2017/03/">March 2017 (9)</a></li> 
+          <li><a href="http://www.ros.org/news/2017/02/">February 2017 (5)</a></li> 
+          <li><a href="http://www.ros.org/news/2017/01/">January 2017 (3)</a></li> 
+          <li><a href="http://www.ros.org/news/2016/12/">December 2016 (4)</a></li> 
+          <li><a href="http://www.ros.org/news/2016/10/">October 2016 (5)</a></li> 
+          <li><a href="http://www.ros.org/news/2016/09/">September 2016 (5)</a></li> 
+          <li><a href="http://www.ros.org/news/2016/08/">August 2016 (10)</a></li> 
+          <li><a href="http://www.ros.org/news/2016/07/">July 2016 (9)</a></li> 
+          <li><a href="http://www.ros.org/news/2016/06/">June 2016 (16)</a></li> 
+          <li><a href="http://www.ros.org/news/2016/05/">May 2016 (14)</a></li> 
+          <li><a href="http://www.ros.org/news/2016/04/">April 2016 (13)</a></li> 
+          <li><a href="http://www.ros.org/news/2016/03/">March 2016 (15)</a></li> 
+          <li><a href="http://www.ros.org/news/2016/02/">February 2016 (17)</a></li> 
+          <li><a href="http://www.ros.org/news/2016/01/">January 2016 (14)</a></li> 
+          <li><a href="http://www.ros.org/news/2015/12/">December 2015 (9)</a></li> 
+          <li><a href="http://www.ros.org/news/2015/11/">November 2015 (11)</a></li> 
+          <li><a href="http://www.ros.org/news/2015/10/">October 2015 (18)</a></li> 
+          <li><a href="http://www.ros.org/news/2015/09/">September 2015 (20)</a></li> 
+          <li><a href="http://www.ros.org/news/2015/08/">August 2015 (22)</a></li> 
+          <li><a href="http://www.ros.org/news/2015/07/">July 2015 (12)</a></li> 
+          <li><a href="http://www.ros.org/news/2015/06/">June 2015 (10)</a></li> 
+          <li><a href="http://www.ros.org/news/2015/05/">May 2015 (18)</a></li> 
+          <li><a href="http://www.ros.org/news/2015/04/">April 2015 (9)</a></li> 
+          <li><a href="http://www.ros.org/news/2015/03/">March 2015 (19)</a></li> 
+          <li><a href="http://www.ros.org/news/2015/02/">February 2015 (9)</a></li> 
+          <li><a href="http://www.ros.org/news/2015/01/">January 2015 (11)</a></li> 
+          <li><a href="http://www.ros.org/news/2014/12/">December 2014 (14)</a></li> 
+          <li><a href="http://www.ros.org/news/2014/11/">November 2014 (7)</a></li> 
+          <li><a href="http://www.ros.org/news/2014/10/">October 2014 (12)</a></li> 
+          <li><a href="http://www.ros.org/news/2014/09/">September 2014 (11)</a></li> 
+          <li><a href="http://www.ros.org/news/2014/08/">August 2014 (12)</a></li> 
+          <li><a href="http://www.ros.org/news/2014/07/">July 2014 (14)</a></li> 
+          <li><a href="http://www.ros.org/news/2014/06/">June 2014 (6)</a></li> 
+          <li><a href="http://www.ros.org/news/2014/05/">May 2014 (15)</a></li> 
+          <li><a href="http://www.ros.org/news/2014/04/">April 2014 (15)</a></li> 
+          <li><a href="http://www.ros.org/news/2014/03/">March 2014 (16)</a></li> 
+          <li><a href="http://www.ros.org/news/2014/02/">February 2014 (11)</a></li> 
+          <li><a href="http://www.ros.org/news/2014/01/">January 2014 (11)</a></li> 
+          <li><a href="http://www.ros.org/news/2013/12/">December 2013 (13)</a></li> 
+          <li><a href="http://www.ros.org/news/2013/11/">November 2013 (5)</a></li> 
+          <li><a href="http://www.ros.org/news/2013/10/">October 2013 (6)</a></li> 
+          <li><a href="http://www.ros.org/news/2013/09/">September 2013 (4)</a></li> 
+          <li><a href="http://www.ros.org/news/2013/08/">August 2013 (2)</a></li> 
+          <li><a href="http://www.ros.org/news/2013/07/">July 2013 (9)</a></li> 
+          <li><a href="http://www.ros.org/news/2013/06/">June 2013 (6)</a></li> 
+          <li><a href="http://www.ros.org/news/2013/05/">May 2013 (5)</a></li> 
+          <li><a href="http://www.ros.org/news/2013/04/">April 2013 (8)</a></li> 
+          <li><a href="http://www.ros.org/news/2013/03/">March 2013 (17)</a></li> 
+          <li><a href="http://www.ros.org/news/2013/02/">February 2013 (12)</a></li> 
+          <li><a href="http://www.ros.org/news/2013/01/">January 2013 (2)</a></li> 
+          <li><a href="http://www.ros.org/news/2012/12/">December 2012 (5)</a></li> 
+          <li><a href="http://www.ros.org/news/2012/11/">November 2012 (2)</a></li> 
+          <li><a href="http://www.ros.org/news/2012/10/">October 2012 (5)</a></li> 
+          <li><a href="http://www.ros.org/news/2012/09/">September 2012 (11)</a></li> 
+          <li><a href="http://www.ros.org/news/2012/08/">August 2012 (4)</a></li> 
+          <li><a href="http://www.ros.org/news/2012/07/">July 2012 (1)</a></li> 
+          <li><a href="http://www.ros.org/news/2012/06/">June 2012 (8)</a></li> 
+          <li><a href="http://www.ros.org/news/2012/05/">May 2012 (6)</a></li> 
+          <li><a href="http://www.ros.org/news/2012/04/">April 2012 (17)</a></li> 
+          <li><a href="http://www.ros.org/news/2012/03/">March 2012 (11)</a></li> 
+          <li><a href="http://www.ros.org/news/2012/02/">February 2012 (9)</a></li> 
+          <li><a href="http://www.ros.org/news/2012/01/">January 2012 (14)</a></li> 
+          <li><a href="http://www.ros.org/news/2011/12/">December 2011 (9)</a></li> 
+          <li><a href="http://www.ros.org/news/2011/11/">November 2011 (6)</a></li> 
+          <li><a href="http://www.ros.org/news/2011/10/">October 2011 (5)</a></li> 
+          <li><a href="http://www.ros.org/news/2011/09/">September 2011 (15)</a></li> 
+          <li><a href="http://www.ros.org/news/2011/08/">August 2011 (10)</a></li> 
+          <li><a href="http://www.ros.org/news/2011/07/">July 2011 (3)</a></li> 
+          <li><a href="http://www.ros.org/news/2011/06/">June 2011 (6)</a></li> 
+          <li><a href="http://www.ros.org/news/2011/05/">May 2011 (10)</a></li> 
+          <li><a href="http://www.ros.org/news/2011/04/">April 2011 (7)</a></li> 
+          <li><a href="http://www.ros.org/news/2011/03/">March 2011 (15)</a></li> 
+          <li><a href="http://www.ros.org/news/2011/02/">February 2011 (24)</a></li> 
+          <li><a href="http://www.ros.org/news/2011/01/">January 2011 (28)</a></li> 
+          <li><a href="http://www.ros.org/news/2010/12/">December 2010 (26)</a></li> 
+          <li><a href="http://www.ros.org/news/2010/11/">November 2010 (15)</a></li> 
+          <li><a href="http://www.ros.org/news/2010/10/">October 2010 (17)</a></li> 
+          <li><a href="http://www.ros.org/news/2010/09/">September 2010 (21)</a></li> 
+          <li><a href="http://www.ros.org/news/2010/08/">August 2010 (15)</a></li> 
+          <li><a href="http://www.ros.org/news/2010/07/">July 2010 (12)</a></li> 
+          <li><a href="http://www.ros.org/news/2010/06/">June 2010 (9)</a></li> 
+          <li><a href="http://www.ros.org/news/2010/05/">May 2010 (11)</a></li> 
+          <li><a href="http://www.ros.org/news/2010/04/">April 2010 (20)</a></li> 
+          <li><a href="http://www.ros.org/news/2010/03/">March 2010 (31)</a></li> 
+          <li><a href="http://www.ros.org/news/2010/02/">February 2010 (7)</a></li> 
+          <li><a href="http://www.ros.org/news/2010/01/">January 2010 (19)</a></li> 
+          <li><a href="http://www.ros.org/news/2009/12/">December 2009 (18)</a></li> 
+          <li><a href="http://www.ros.org/news/2009/11/">November 2009 (17)</a></li> 
+          <li><a href="http://www.ros.org/news/2009/10/">October 2009 (18)</a></li> 
+          <li><a href="http://www.ros.org/news/2009/09/">September 2009 (12)</a></li> 
+          <li><a href="http://www.ros.org/news/2009/08/">August 2009 (10)</a></li> 
+          <li><a href="http://www.ros.org/news/2009/07/">July 2009 (3)</a></li> 
+          <li><a href="http://www.ros.org/news/2009/06/">June 2009 (7)</a></li> 
+          <li><a href="http://www.ros.org/news/2009/05/">May 2009 (1)</a></li> 
+          <li><a href="http://www.ros.org/news/2009/04/">April 2009 (2)</a></li> 
+          <li><a href="http://www.ros.org/news/2009/02/">February 2009 (1)</a></li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div class="widget-recent-entries widget-archives widget"> 
+        <h3 class="widget-header">Recent Entries</h3> 
+        <div class="widget-content"> 
+         <ul> 
+          <li><a href="http://www.ros.org/news/2017/10/world-moveit-day-2017---october-18th.html">World MoveIt! Day 2017 - October 18th!</a></li> 
+          <li><a href="http://www.ros.org/news/2017/10/roscon-2017-video-recordings-of-presentations-are-available.html">ROSCon 2017: Video recordings of presentations are available</a></li> 
+          <li><a href="http://www.ros.org/news/2017/09/goodbye-roscon-2017.html">Goodbye, ROSCon 2017</a></li> 
+          <li><a href="http://www.ros.org/news/2017/09/ian-chen-osrf-cloudy-with-a-chance-of-simulation.html">Ian Chen (OSRF) Cloudy with a Chance of Simulation</a></li> 
+          <li><a href="http://www.ros.org/news/2017/09/mike-purvis-clearpath-robotics-robust-deployment-with-ros-bundles.html">Mike Purvis (Clearpath Robotics) Robust Deployment with ROS Bundles</a></li> 
+          <li><a href="http://www.ros.org/news/2017/08/dirk-thomas-osrf-the-ros-build-farm---what-it-can-do-for-me.html">Dirk Thomas (OSRF) The ROS build farm - what it can do for me</a></li> 
+          <li><a href="http://www.ros.org/news/2017/08/ros-national-tour-seminar-in-korea.html">ROS National Tour Seminar in Korea</a></li> 
+          <li><a href="http://www.ros.org/news/2017/08/peter-fankhauser-eth-zurich-et-al-anymal-at-the-argos-challenge-tools-and-experiences-from-the-auton.html">Péter Fankhauser (ETH Zurich) et al. ANYmal at the ARGOS Challenge: Tools and Experiences from the Autonomous Inspection of Oil &amp; Gas Sites with a Legged Robot</a></li> 
+          <li><a href="http://www.ros.org/news/2017/08/paul-hvass-shaun-edwards-southwest-research-institute-ros-x---focused-initiatives.html">Paul Hvass, Shaun Edwards (Southwest Research Institute): ROS-'X' - Focused Initiatives</a></li> 
+          <li><a href="http://www.ros.org/news/2017/08/laszlo-nagy-ppm-as-the-intuitive-ros-ui-flexgui-40---introduction-and-industrial-applications.html">Laszlo Nagy (PPM AS) The Intuitive ROS UI: FlexGui 4.0 - introduction and industrial applications</a></li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div class="widget-tag-cloud widget"> 
+        <h3 class="widget-header">Tag Cloud</h3> 
+        <div class="widget-content"> 
+         <ul> 
+          <li class="rank-5"><a href="javascript:void(0)" onclick="location.href='http://www.ros.org/mt-search.cgi?blog_id=1&amp;tag=camera_drivers&amp;limit=20';return false;" rel="tag">camera_drivers</a></li> 
+          <li class="rank-4"><a href="javascript:void(0)" onclick="location.href='http://www.ros.org/mt-search.cgi?blog_id=1&amp;tag=Clearpath&amp;limit=20';return false;" rel="tag">Clearpath</a></li> 
+          <li class="rank-4"><a href="javascript:void(0)" onclick="location.href='http://www.ros.org/mt-search.cgi?blog_id=1&amp;tag=common&amp;limit=20';return false;" rel="tag">common</a></li> 
+          <li class="rank-5"><a href="javascript:void(0)" onclick="location.href='http://www.ros.org/mt-search.cgi?blog_id=1&amp;tag=geometry&amp;limit=20';return false;" rel="tag">geometry</a></li> 
+          <li class="rank-5"><a href="javascript:void(0)" onclick="location.href='http://www.ros.org/mt-search.cgi?blog_id=1&amp;tag=industrial&amp;limit=20';return false;" rel="tag">industrial</a></li> 
+          <li class="rank-2"><a href="javascript:void(0)" onclick="location.href='http://www.ros.org/mt-search.cgi?blog_id=1&amp;tag=jobs&amp;limit=20';return false;" rel="tag">jobs</a></li> 
+          <li class="rank-5"><a href="javascript:void(0)" onclick="location.href='http://www.ros.org/mt-search.cgi?blog_id=1&amp;tag=joystick_drivers&amp;limit=20';return false;" rel="tag">joystick_drivers</a></li> 
+          <li class="rank-4"><a href="javascript:void(0)" onclick="location.href='http://www.ros.org/mt-search.cgi?blog_id=1&amp;tag=Kinect&amp;limit=20';return false;" rel="tag">Kinect</a></li> 
+          <li class="rank-4"><a href="javascript:void(0)" onclick="location.href='http://www.ros.org/mt-search.cgi?blog_id=1&amp;tag=navigation&amp;limit=20';return false;" rel="tag">navigation</a></li> 
+          <li class="rank-5"><a href="javascript:void(0)" onclick="location.href='http://www.ros.org/mt-search.cgi?blog_id=1&amp;tag=pr2_ethercat_drivers&amp;limit=20';return false;" rel="tag">pr2_ethercat_drivers</a></li> 
+          <li class="rank-5"><a href="javascript:void(0)" onclick="location.href='http://www.ros.org/mt-search.cgi?blog_id=1&amp;tag=pr2_simulator&amp;limit=20';return false;" rel="tag">pr2_simulator</a></li> 
+          <li class="rank-5"><a href="javascript:void(0)" onclick="location.href='http://www.ros.org/mt-search.cgi?blog_id=1&amp;tag=quadrotor&amp;limit=20';return false;" rel="tag">quadrotor</a></li> 
+          <li class="rank-4"><a href="javascript:void(0)" onclick="location.href='http://www.ros.org/mt-search.cgi?blog_id=1&amp;tag=robot_model&amp;limit=20';return false;" rel="tag">robot_model</a></li> 
+          <li class="rank-3"><a href="javascript:void(0)" onclick="location.href='http://www.ros.org/mt-search.cgi?blog_id=1&amp;tag=Robots%20Using%20ROS&amp;limit=20';return false;" rel="tag">Robots Using ROS</a></li> 
+          <li class="rank-3"><a href="javascript:void(0)" onclick="location.href='http://www.ros.org/mt-search.cgi?blog_id=1&amp;tag=ros&amp;limit=20';return false;" rel="tag">ros</a></li> 
+          <li class="rank-4"><a href="javascript:void(0)" onclick="location.href='http://www.ros.org/mt-search.cgi?blog_id=1&amp;tag=ROS%203D&amp;limit=20';return false;" rel="tag">ROS 3D</a></li> 
+          <li class="rank-1"><a href="javascript:void(0)" onclick="location.href='http://www.ros.org/mt-search.cgi?blog_id=1&amp;tag=ROSCon&amp;limit=20';return false;" rel="tag">ROSCon</a></li> 
+          <li class="rank-4"><a href="javascript:void(0)" onclick="location.href='http://www.ros.org/mt-search.cgi?blog_id=1&amp;tag=simulator_gazebo&amp;limit=20';return false;" rel="tag">simulator_gazebo</a></li> 
+          <li class="rank-5"><a href="javascript:void(0)" onclick="location.href='http://www.ros.org/mt-search.cgi?blog_id=1&amp;tag=visualization&amp;limit=20';return false;" rel="tag">visualization</a></li> 
+          <li class="rank-5"><a href="javascript:void(0)" onclick="location.href='http://www.ros.org/mt-search.cgi?blog_id=1&amp;tag=web_interface&amp;limit=20';return false;" rel="tag">web_interface</a></li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div class="widget-syndication widget"> 
+        <div class="widget-content"> 
+         <ul> 
+          <li><img src="http://www.ros.org/mt-static/images/status_icons/feed.gif" alt="Subscribe to feed" width="9" height="9"> <a href="http://www.ros.org/news/atom.xml">Subscribe to this blog's feed</a></li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div class="widget-about-this-page widget"> 
+        <h3 class="widget-header"> </h3> 
+        <div class="widget-content"> 
+         <p>Find recent content on the <a href="http://www.ros.org/news/">main index</a> or look in the <a href="http://www.ros.org/news/archives.html">archives</a> to find all content.</p> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="footer"> 
+    <div id="footer-inner"> 
+     <div id="footer-content"> 
+      <div class="widget-powered widget"> 
+       <div class="widget-content">
+         Powered by 
+        <a href="http://www.movabletype.com/" rel="generator">Movable Type</a> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+ </div>  
+</body>

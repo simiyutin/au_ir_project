@@ -1,0 +1,270 @@
+http://wiki.ros.org/
+<body lang="en" dir="ltr"> 
+ <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script> 
+ <script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-5950817-2");
+pageTracker._trackPageview();
+} catch(err) {}</script> 
+ <script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+if(f) f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+if(e) {
+  searchChange(e);
+  searchBlur(e);
+}
+
+function handleSubmit() {
+  var f = document.getElementById('searchform');
+  var t = document.getElementById('searchinput');
+  var r = document.getElementById('real_searchinput');
+
+  //alert("handleSubmit "+ t.value);
+  if(t.value.match(/review/)) {
+    r.value = t.value;
+  } else {
+    //r.value = t.value + " -PackageReviewCategory -StackReviewCategory -M3Review -DocReview -ApiReview -HelpOn -BadContent -LocalSpellingWords";
+    r.value = t.value + " -PackageReviewCategory -StackReviewCategory -DocReview -ApiReview";
+  }
+  //return validate(f);
+}
+//-->
+</script> 
+ <div id="dpage"> 
+  <div id="dpage-inner"> 
+   <div id="header">
+    <div id="topnav"> 
+     <!-- Alert box --> 
+     <!-- To enable/disable the alert box, uncomment/comment the block below and update the content below the button. --> 
+     <!--
+    <div class="alert alert-info alert-dismissable" style="text-align: center;">
+<script>
+jQuery(function( $ ){
+    alert_box_name = 'roswiki_10year_montage'
+    state = localStorage.getItem(alert_box_name);
+    if (!state) {
+      localStorage.setItem(alert_box_name, 'open');
+    }
+    state = localStorage.getItem(alert_box_name);
+    if (state == 'closed') {
+        $( '#topnav .alert' ).hide();
+    }
+    $( '.close' ).click(function () {
+	console.log('in .close.click');
+        localStorage.setItem(alert_box_name, 'closed');
+        $( '#topnav .alert' ).hide();
+  });
+});
+</script>
+      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+      <a href="https://events.osrfoundation.org/civicrm/?page=CiviCRM&q=civicrm/petition/sign&sid=9&reset=1">Submit your video clips to be included in the ROS 10 Year Montage!<br>
+      The deadline for submission is October 15th.</a>.
+    </div>
+--> 
+     <!-- End Alert box --> 
+     <table id="topnav-table"> 
+      <tbody>
+       <tr> 
+        <td width="300" valign="top"><a href="/"><img border="0" src="/custom/images/ros_org.png" alt="ros.org" width="238" height="51"></a></td> 
+        <td width="500" valign="middle"> <a href="http://www.ros.org/about-ros">About</a> | <a href="/Support">Support</a> | <a href="http://discourse.ros.org/">Discussion Forum</a> | <a href="http://status.ros.org/">Service Status</a> | <a href="http://answers.ros.org/">Q&amp;A answers.ros.org</a> 
+         <!--<a href="http://roscon.ros.org/2016/"><img align="middle" style="padding-left: 15px;" src="http://ros.org/images/roscon_wiki_header.jpg" width="133" height="65" alt="ROSCon 2016" /></a>
+--> 
+         <!-- <a href="https://events.osrfoundation.org/ros-kong-2014/"><img align="middle" style="padding-left: 15px;" src="http://ros.org/images/ros_kong_2014_badge.png" width="133" height="38" alt="roskong" /></a>
+--> 
+         <!--a href="https://events.osrfoundation.org/ros-kong-2014/"><img align="middle" style="padding-left: 15px;" src="http://imgur.com/eMzUJVe.png" width="133" height="38" alt="roskong" /></a--> </td> 
+        <td valign="middle" align="right"> <script language="Javascript">
+
+function Searchy(theButton){
+
+theForm = theButton.form;
+newID = theForm.input.value;
+theForm.q.value = newID;
+theForm.input.value=theForm.input.value
+
+}
+</script> 
+         <form action="http://www.ros.org/search/index.html" id="cse"> 
+          <div> 
+           <label>Search:</label> 
+           <input type="hidden" name="cx" value="018259903093183594226:txvzw9fat6w"> 
+           <input type="hidden" name="cof" value="FORID:11;NB:1"> 
+           <input type="hidden" name="filter" value="0"> 
+           <input type="hidden" name="num" value="10"> 
+           <input type="hidden" name="ie" value="UTF-8"> 
+           <input type="text" name="input" id="input" autocomplete="on" style="width: 35%"> 
+           <input type="hidden" name="q" value=""> 
+           <input type="submit" name="sa" value="Submit" onClick="Searchy(this)"> 
+          </div> 
+         </form> </td> 
+       </tr> 
+       <tr> 
+        <td colspan="3" height="53" width="1024">
+         <nobr>
+          <img src="/custom/images/menu_left.png" width="17" height="53" alt="">
+          <a href="/"><img border="0" src="/custom/images/menu_documentation.png" width="237" height="53" alt="Documentation"></a>
+          <img src="/custom/images/menu_spacer.png" width="69" height="53">
+          <a href="http://www.ros.org/browse/"><img border="0" src="/custom/images/menu_browse_software.png" width="268" height="53" alt="Browse Software"></a>
+          <img src="/custom/images/menu_spacer.png" width="69" height="53">
+          <a href="http://www.ros.org/news"><img border="0" src="/custom/images/menu_news.png" width="84" height="53" alt="News"></a>
+          <img src="/custom/images/menu_spacer.png" width="69" height="53">
+          <a href="/ROS/Installation"><img border="0" src="/custom/images/menu_download.png" width="151" height="53" alt="Download"></a>
+          <img src="/custom/images/menu_right.png" width="60" height="53">
+         </nobr></td> 
+       </tr> 
+      </tbody>
+     </table> 
+     <!-- topnav-table --> 
+    </div> 
+    <!-- /#topav --> 
+   </div> 
+   <!-- /#header --> 
+   <div id="header2"> 
+    <ul id="pagelocation"> 
+     <li><a class="backlink" href="/action/fullsearch/Documentation?action=fullsearch&amp;context=180&amp;value=linkto%3A%22Documentation%22" rel="nofollow" title="Click to do a full-text search for this title">Documentation</a></li> 
+    </ul> 
+    <div id="locationline"> 
+    </div> 
+   </div> 
+   <div id="sidebar"> 
+    <div class="sidepanel"> 
+     <h1>Wiki</h1> 
+     <ul id="navibar"> 
+      <li class="wikilink"><a href="/Distributions">Distributions</a></li>
+      <li class="wikilink"><a href="/ROS/Installation">ROS/Installation</a></li>
+      <li class="wikilink"><a href="/ROS/Tutorials">ROS/Tutorials</a></li>
+      <li class="wikilink"><a href="/RecentChanges">RecentChanges</a></li>
+      <li class="current"><a href="/Documentation">Documentation</a></li> 
+     </ul> 
+    </div> 
+    <div class="sidepanel"> 
+     <h1>Page</h1> 
+     <ul class="editbar">
+      <li><span class="disabled">Immutable Page</span></li>
+      <li class="toggleCommentsButton" style="display:none;"><a href="#" class="nbcomment" onclick="toggleComments();return false;">Comments</a></li>
+      <li><a class="nbinfo" href="/action/info/Documentation?action=info" rel="nofollow">Info</a></li>
+      <li><a class="nbattachments" href="/action/AttachFile/Documentation?action=AttachFile" rel="nofollow">Attachments</a></li>
+      <li> 
+       <form class="actionsmenu" method="GET" action="/Documentation"> 
+        <div> 
+         <label>More Actions:</label> 
+         <select name="action" onchange="if ((this.selectedIndex != 0) &amp;&amp;
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;"> <option value="raw">Raw Text</option> <option value="print">Print View</option> <option value="RenderAsDocbook">Render as Docbook</option> <option value="show" disabled class="disabled">Delete Cache</option> <option value="show" disabled class="disabled">------------------------</option> <option value="SpellCheck">Check Spelling</option> <option value="LikePages">Like Pages</option> <option value="LocalSiteMap">Local Site Map</option> <option value="show" disabled class="disabled">------------------------</option> <option value="RenamePage" disabled class="disabled">Rename Page</option> <option value="CopyPage">Copy Page</option> <option value="DeletePage" disabled class="disabled">Delete Page</option> <option value="show" disabled class="disabled">------------------------</option> <option value="MyPages">My Pages</option> <option value="show" disabled class="disabled">Subscribe User</option> <option value="show" disabled class="disabled">------------------------</option> <option value="show" disabled class="disabled">Remove Spam</option> <option value="show" disabled class="disabled">Revert to this revision</option> <option value="PackagePages">Package Pages</option> <option value="SyncPages">Sync Pages</option> <option value="show" disabled class="disabled">------------------------</option> <option value="CreatePdfDocument">CreatePdfDocument</option> <option value="Load">Load</option> <option value="RawFile">RawFile</option> <option value="Save">Save</option> <option value="SlideShow">SlideShow</option> </select> 
+         <input type="submit" value="Do"> 
+        </div> 
+        <script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script> 
+       </form> </li>
+     </ul> 
+    </div> 
+    <div class="sidepanel"> 
+     <h1>User</h1> 
+     <ul id="username">
+      <li><a href="/action/login/Documentation?action=login" id="login" rel="nofollow">Login</a></li>
+     </ul> 
+    </div> 
+   </div> 
+   <div id="page" lang="en" dir="ltr"> 
+    <div dir="ltr" id="content" lang="en">
+     <span class="anchor" id="top"></span> 
+     <span class="anchor" id="line-1"></span>
+     <p class="line867"><em>ROS (Robot Operating System) provides libraries and tools to help software developers create robot applications. It provides hardware abstraction, device drivers, libraries, visualizers, message-passing, package management, and more. ROS is licensed under an open source, BSD license.</em> <span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span></p>
+     <p class="line862">Available Translations: <a href="/de">German</a> | <a href="/es">Spanish</a> | <a href="/fr">French</a> | <a href="/it">Italian</a> | <a href="/ja">Japanese</a> | <a href="/ko">Korean</a> | <a href="/pt_BR">Brazilian Portuguese</a> | <a href="/pt">Portuguese</a> | <a href="/ru">Русский (Russian)</a> | <a href="/th">Thai</a> | <a href="/tr">Turkish</a> | <a href="/cn">简体中文</a> | <a href="/ua">Ukrainian</a> | <a href="/vn">Vietnamese</a> <span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span></p>
+     <p class="line874">ROS: <span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span></p>
+     <ul>
+      <li style="list-style-type:none"><p class="line891"><strong><a href="/ROS/Installation">Install</a></strong> <span class="anchor" id="line-8"></span></p>
+       <ul>
+        <li style="list-style-type:none">Install ROS on your machine. <span class="anchor" id="line-9"></span></li>
+       </ul><p class="line891"><strong><a href="/ROS/StartGuide">Getting Started</a></strong> <span class="anchor" id="line-10"></span></p>
+       <ul>
+        <li style="list-style-type:none">Learn about various concepts, client libraries, and technical overview of ROS. <span class="anchor" id="line-11"></span></li>
+       </ul><p class="line891"><strong><a href="/ROS/Tutorials">Tutorials</a></strong> <span class="anchor" id="line-12"></span></p>
+       <ul>
+        <li style="list-style-type:none">Step-by-step instructions for learning ROS hands-on <span class="anchor" id="line-13"></span></li>
+       </ul><p class="line891"><strong><a href="/Get%20Involved">Contribute</a></strong> <span class="anchor" id="line-14"></span></p>
+       <ul>
+        <li style="list-style-type:none">How to get involved with the ROS community, such as submitting your own repository. <span class="anchor" id="line-15"></span></li>
+       </ul><p class="line891"><strong><a href="/Support">Support</a></strong> <span class="anchor" id="line-16"></span></p>
+       <ul>
+        <li style="list-style-type:none">What to do if something doesn't work as expected. <span class="anchor" id="line-17"></span><span class="anchor" id="line-18"></span></li>
+       </ul></li>
+     </ul>
+     <p class="line874">Software: <span class="anchor" id="line-19"></span><span class="anchor" id="line-20"></span></p>
+     <ul>
+      <li style="list-style-type:none"><p class="line891"><strong><a href="/Distributions">Distributions</a></strong> <span class="anchor" id="line-21"></span></p>
+       <ul>
+        <li style="list-style-type:none">View the different release Distributions for ROS. <span class="anchor" id="line-22"></span></li>
+       </ul><p class="line891"><strong><a class="http" href="http://www.ros.org/browse/">Packages</a></strong> <span class="anchor" id="line-23"></span></p>
+       <ul>
+        <li style="list-style-type:none">Search the 2000+ software libraries available for ROS. <span class="anchor" id="line-24"></span></li>
+       </ul><p class="line891"><strong><a href="/APIs">Core Libraries</a></strong> <span class="anchor" id="line-25"></span></p>
+       <ul>
+        <li style="list-style-type:none">APIs by language and topic. <span class="anchor" id="line-26"></span></li>
+       </ul><p class="line891"><strong><a href="/Tools">Common Tools</a></strong> <span class="anchor" id="line-27"></span></p>
+       <ul>
+        <li style="list-style-type:none">Common tools for developing and debugging ROS software. <span class="anchor" id="line-28"></span><span class="anchor" id="line-29"></span></li>
+       </ul></li>
+     </ul>
+     <p class="line874">Robots/Hardware: <span class="anchor" id="line-30"></span><span class="anchor" id="line-31"></span></p>
+     <ul>
+      <li style="list-style-type:none"><p class="line891"><strong><a href="/Robots">Robots</a></strong> <span class="anchor" id="line-32"></span></p>
+       <ul>
+        <li style="list-style-type:none">Robots that you can use with ROS. <span class="anchor" id="line-33"></span></li>
+       </ul><p class="line891"><strong><a href="/Sensors">Sensors</a></strong> <span class="anchor" id="line-34"></span></p>
+       <ul>
+        <li style="list-style-type:none">Sensor drivers for ROS. <span class="anchor" id="line-35"></span></li>
+       </ul><p class="line891"><strong><a href="/Motor%20Controller%20Drivers">Motors</a></strong> <span class="anchor" id="line-36"></span></p>
+       <ul>
+        <li style="list-style-type:none">Motor controller drivers for ROS. <span class="anchor" id="line-37"></span><span class="anchor" id="line-38"></span></li>
+       </ul></li>
+     </ul>
+     <p class="line874">Publications, Courses, and Events: <span class="anchor" id="line-39"></span><span class="anchor" id="line-40"></span></p>
+     <ul>
+      <li style="list-style-type:none"><p class="line891"><strong><a href="/Papers">Papers</a></strong> <span class="anchor" id="line-41"></span></p>
+       <ul>
+        <li style="list-style-type:none">Published papers with open source implementations available. <span class="anchor" id="line-42"></span></li>
+       </ul></li>
+      <li style="list-style-type:none"><p class="line891"><strong><a href="/Books">Books</a></strong> <span class="anchor" id="line-43"></span></p>
+       <ul>
+        <li style="list-style-type:none">Published books with documentation and tutorials with open source code available. <span class="anchor" id="line-44"></span></li>
+       </ul></li>
+      <li style="list-style-type:none"><p class="line891"><strong><a href="/Courses">Courses</a></strong> <span class="anchor" id="line-45"></span></p>
+       <ul>
+        <li style="list-style-type:none">Courses using or teaching ROS. <span class="anchor" id="line-46"></span></li>
+       </ul></li>
+      <li style="list-style-type:none"><p class="line891"><strong><a href="/Events">Events</a></strong> <span class="anchor" id="line-47"></span></p>
+       <ul>
+        <li style="list-style-type:none">Past events and materials based on ROS. <span class="anchor" id="line-48"></span><span class="anchor" id="line-49"></span></li>
+       </ul></li>
+     </ul>
+     <p class="line867"><small>There are several <a href="/Mirrors">mirrors</a> of this wiki for use around the world</small> <span class="anchor" id="line-50"></span><span class="anchor" id="bottom"></span></p>
+    </div>
+   </div> 
+   <div id="pagebottom"></div> 
+  </div> 
+  <p id="pageinfo" class="info" lang="en" dir="ltr">Wiki: Documentation (last edited 2017-03-31 10:59:54 by <span title="HoangGiang88 @ 1.52.221.247[1.52.221.247]"><a class="nonexistent" href="/HoangGiang88" title="HoangGiang88 @ 1.52.221.247[1.52.221.247]">HoangGiang88</a></span>)</p> 
+  <div style="margin-top: 9px;" class="footer">
+    Except where otherwise noted, the ROS wiki is licensed under the 
+   <br>
+   <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0</a> | 
+   <a href="https://plus.google.com/113789706402978299308" rel="publisher">Find us on Google+</a> 
+   <hr style="margin-top: 10px;"> 
+   <div class="row"> 
+    <div class="col-md-4 col-md-offset-4"> 
+     <a href="http://www.osrfoundation.org"><img style="margin-top: -1px;" src="/custom/images/brought_by_horiz.png"><p></p></a> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+ <!-- /#dpage-inner, /#dpage -->   
+</body>

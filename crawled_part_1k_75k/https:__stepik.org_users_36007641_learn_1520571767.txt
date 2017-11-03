@@ -1,0 +1,166 @@
+https://stepik.org/users/36007641/learn
+<body> 
+ <div data-onload-remove> 
+  <div class="navbar__wrapper no-print navbar__wrapper_mode_loading"> 
+   <nav class="navbar" aria-label="Main navigation"> 
+    <div class="navbar__head "> 
+     <a href="/users/36007641/learn" class="topbar__logo-link  ember-link"> <img class="navbar__logo" alt="Stepik logo" src="/static/frontend/topbar_logo.svg"> </a> 
+     <div class="navbar__links-fixed"> 
+      <li class="navbar__menu-item"> <a href="/catalog" class="navbar__link st-link  ember-link">Catalog</a></li> 
+      <li class="navbar__menu-item"> <a href="/users/36007641/learn" class="navbar__link st-link  ember-link">My courses</a></li> 
+     </div> 
+     <a role="button" class="navbar__toggle st-link st-link_style_button"></a> 
+    </div> 
+    <div class="navbar__links "> 
+     <div class="navbar__divider"></div> 
+    </div> 
+   </nav> 
+  </div> 
+  <div class="loading_spinner_wrapper no-print" data-onload-remove> 
+   <div class="loading_spinner"> 
+    <div class="stepic__loader"> 
+     <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewbox="0 0 100 100" preserveaspectratio="xMidYMid" class="lds-squaricle" style="background:none">
+      <g transform="translate(50 50)">
+       <g transform="scale(.73935)">
+        <animatetransform attributeName="transform" type="scale" calcMode="spline" values="0.8;0.5;0.8" keyTimes="0;0.5;1" dur="1.7s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" begin="0s" repeatCount="indefinite" />
+        <rect width="90" height="90" x="-45" y="-45" fill="#68cc66" stroke="#68cc66" stroke-width="5" rx="16.67" transform="rotate(54.58)">
+         <animate attributeName="rx" calcMode="linear" values="0;50;0" keyTimes="0;0.5;1" dur="1.7" begin="0s" repeatCount="indefinite" />
+         <animate attributeName="stroke-width" calcMode="linear" values="5;15;5" keyTimes="0;0.5;1" dur="1.7" begin="0s" repeatCount="indefinite" />
+         <animatetransform attributeName="transform" type="rotate" calcMode="spline" values="0 0 0;270 0 0;540 0 0" keyTimes="0;0.5;1" dur="1.7s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" begin="0s" repeatCount="indefinite" />
+        </rect>
+       </g>
+      </g>
+      <g stroke="null">
+       <path fill="#FFF" d="M55.72 63.73c-1.44 1.44-3.44 2.32-5.68 2.32-2.24 0-4.32-.96-5.84-2.4l3.84-3.84c.48.5 1.2.8 2 .8s1.44-.3 2-.8l7.77-7.7c.5-.5.8-1.2.8-2s-.3-1.42-.8-2c-.4-.5-1.2-.8-2-.8s-1.4.3-2 .8l-7.7 7.78c-1.5 1.53-3.5 2.4-5.82 2.4s-4.32-.95-5.84-2.4c-1.52-1.5-2.4-3.5-2.4-5.83s.96-4.32 2.4-5.84l7.77-7.77c1.5-1.54 3.5-2.4 5.83-2.4s4.3.95 5.83 2.4L52 40.2c-.48-.5-1.2-.8-2-.8s-1.44.3-2 .8l-7.77 7.76c-.5.48-.8 1.2-.8 2s.3 1.44.8 2c.47.48 1.2.8 2 .8s1.44-.32 2-.8L52 44.22c1.5-1.52 3.5-2.4 5.83-2.4s4.33.96 5.85 2.4c1.52 1.52 2.4 3.52 2.4 5.84 0 2.24-.96 4.32-2.4 5.84l-7.93 7.85z" />
+      </g>
+     </svg> 
+     <h6 class="loading_spinner__msg">loading...</h6> 
+    </div> 
+   </div> 
+   <footer class=" page-footer page_footer">
+    <div class="page-footer__container"> 
+     <div class="page-footer__row"> 
+      <div class="page-footer__col page-footer__terms"> 
+       <div class="page-footer__years ">
+         © 2013 — 2017. Stepik 
+       </div> 
+       <a href="http://welcome.stepik.org/en/terms">Terms of service</a> and 
+       <a href="http://welcome.stepik.org/en/privacy">privacy policy</a> 
+      </div> 
+      <div class="page-footer__col page-footer__lists"> 
+       <ul class="page-footer__col  page-footer__list"> 
+        <li> <a href="http://welcome.stepik.org/en/pricing">Pricing</a> </li> 
+        <li> <a href="http://welcome.stepik.org/en/press">Press</a> </li> 
+        <li> <a href="http://welcome.stepik.org/en/team">Team</a> </li> 
+       </ul> 
+       <ul class="page-footer__col page-footer__list"> 
+        <li> <a href="http://support.stepik.org/en/support/home">Help Center</a> </li> 
+        <li> <a href="/lesson/9184" class=" ember-link">About Stepik</a> </li> 
+        <li> <a href="http://welcome.stepik.org/en/contacts">Contacts</a> </li> 
+       </ul> 
+       <ul class="page-footer__col page-footer__counters  page-footer__list"> 
+       </ul> 
+      </div> 
+      <div class="page-footer__col page-footer__social-links"> 
+       <a href="https://facebook.com/stepikorg" class="page-footer__social-link"> <span class=" svg-icon footer_fb_icon">
+         <svg viewbox="0 0 32 33" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <defs>
+           <rect width="32" height="32" rx="16"></rect>
+          </defs>
+          <g fill="none" fill-rule="evenodd">
+           <g transform="translate(0 .5)">
+            <use fill="#FFF" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#a"></use>
+            <rect stroke="currentColor" x=".5" y=".5" width="31" height="31" rx="15.5"></rect>
+           </g>
+           <path d="M14.188 25.033v-7.687h-2.721V14.19h2.72v-2.327c0-1.324.37-2.349 1.11-3.075.739-.725 1.725-1.088 2.959-1.088 1.043 0 1.85.04 2.421.122v2.817l-1.66.013c-.616 0-1.031.127-1.244.381-.214.254-.32.635-.32 1.143v2.014h3.115l-.408 3.156h-2.707v7.687h-3.265z" fill="currentColor"></path>
+          </g>
+         </svg></span> </a> 
+       <a href="https://twitter.com/stepikorg" class="page-footer__social-link"> <span class=" svg-icon footer_twitter_icon">
+         <svg viewbox="0 0 32 33" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <defs>
+           <rect width="32" height="32" rx="16"></rect>
+          </defs>
+          <g fill="none" fill-rule="evenodd">
+           <g transform="translate(0 .5)">
+            <use fill="#FFF" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#a"></use>
+            <rect stroke="currentColor" x=".5" y=".5" width="31" height="31" rx="15.5"></rect>
+           </g>
+           <path d="M23.202 13.489a10.514 10.514 0 0 1-.424 3.455c-.29.988-.731 1.938-1.323 2.847a11.193 11.193 0 0 1-2.114 2.412c-.818.699-1.803 1.256-2.957 1.673a10.82 10.82 0 0 1-3.7.624c-2.07 0-3.965-.554-5.684-1.661.267.03.565.045.894.045 1.719 0 3.25-.527 4.595-1.58a3.608 3.608 0 0 1-2.155-.74 3.62 3.62 0 0 1-1.306-1.828c.252.039.485.058.7.058.328 0 .652-.042.973-.126a3.641 3.641 0 0 1-2.125-1.278 3.576 3.576 0 0 1-.843-2.355v-.045c.52.29 1.077.446 1.673.47a3.697 3.697 0 0 1-1.203-1.318 3.606 3.606 0 0 1-.447-1.765c0-.672.168-1.295.504-1.868a10.492 10.492 0 0 0 3.375 2.733 10.312 10.312 0 0 0 4.257 1.14 4.111 4.111 0 0 1-.092-.848c0-1.023.36-1.896 1.083-2.618A3.567 3.567 0 0 1 19.5 9.833c1.07 0 1.97.39 2.704 1.17a7.257 7.257 0 0 0 2.35-.895 3.593 3.593 0 0 1-1.628 2.04 7.374 7.374 0 0 0 2.131-.573 7.755 7.755 0 0 1-1.856 1.914z" fill="currentColor"></path>
+          </g>
+         </svg></span> </a> 
+       <a href="https://blog.stepik.org/" class="page-footer__social-link"> <span class=" svg-icon footer_medium_icon">
+         <svg width="32" height="32" viewbox="0 0 612 612" xmlns="http://www.w3.org/2000/svg">
+          <g class="page-footer__medium-logo" fill="currentColor">
+           <path d="M488.228 457.309l-114.732-55.156-.864-250.027c-.02-5.837 6.073-9.683 11.333-7.153l108.772 52.305a7.907 7.907 0 0 1 4.48 7.126v247.253c0 4.62-4.825 7.654-8.989 5.652z"></path>
+           <path d="M373.496 402.153L249.32 342.45l119.544-196.818a7.908 7.908 0 0 1 10.185-3.022l110.292 53.037c4.216 2.028 5.76 7.252 3.322 11.245L373.496 402.153z"></path>
+           <path d="M373.496 402.153L249.32 342.45 135.503 157.107c-3.171-5.164 2.347-11.278 7.807-8.652l106.011 50.977 124.175 202.721z"></path>
+           <path d="M240.332 457.308l-112.087-53.9a6.272 6.272 0 0 1-3.553-5.652V149.161c0-4.473 4.673-7.412 8.706-5.473l115.923 55.744v252.224c0 4.62-4.826 7.654-8.989 5.652z"></path>
+          </g>
+          <ellipse cx="305.695" cy="305.995" rx="297.719" ry="297.719" stroke="currentColor" fill="none" stroke-width="20"></ellipse>
+         </svg></span> </a> 
+      </div> 
+     </div> 
+     <div class="page-footer__row page-footer__row_order_second "> 
+      <div class="page-footer__col page-footer__apps"> 
+       <a class="page-footer__mobapp-link" href="https://itunes.apple.com/app/id1064581926"><span class="app-store  svg-icon app_store_en_icon">
+         <svg xmlns="http://www.w3.org/2000/svg" width="135" height="40" viewbox="0 0 135 40">
+          <path fill="#A6A6A6" d="M130.197 40H4.729A4.74 4.74 0 0 1 0 35.267V4.726A4.733 4.733 0 0 1 4.729 0h125.468C132.803 0 135 2.12 135 4.726v30.541c0 2.605-2.197 4.733-4.803 4.733z"></path>
+          <path d="M134.032 35.268a3.83 3.83 0 0 1-3.834 3.83H4.729a3.835 3.835 0 0 1-3.839-3.83V4.725A3.84 3.84 0 0 1 4.729.89h125.468a3.834 3.834 0 0 1 3.834 3.835l.001 30.543z"></path>
+          <g fill="#FFF">
+           <path d="M30.128 19.784c-.029-3.223 2.639-4.791 2.761-4.864-1.511-2.203-3.853-2.504-4.676-2.528-1.967-.207-3.875 1.177-4.877 1.177-1.022 0-2.565-1.157-4.228-1.123-2.14.033-4.142 1.272-5.24 3.196-2.266 3.923-.576 9.688 1.595 12.859 1.086 1.553 2.355 3.287 4.016 3.226 1.625-.067 2.232-1.036 4.193-1.036 1.943 0 2.513 1.036 4.207.997 1.744-.028 2.842-1.56 3.89-3.127 1.255-1.78 1.759-3.533 1.779-3.623-.041-.014-3.387-1.291-3.42-5.154zM26.928 10.306c.874-1.093 1.472-2.58 1.306-4.089-1.265.056-2.847.875-3.758 1.944-.806.942-1.526 2.486-1.34 3.938 1.421.106 2.88-.717 3.792-1.793z"></path>
+          </g>
+          <g fill="#FFF">
+           <path d="M53.645 31.504h-2.271l-1.244-3.909h-4.324l-1.185 3.909H42.41l4.284-13.308h2.646l4.305 13.308zm-3.89-5.549L48.63 22.48c-.119-.355-.342-1.191-.671-2.507h-.04a96.75 96.75 0 0 1-.632 2.507l-1.105 3.475h3.573zM64.662 26.588c0 1.632-.441 2.922-1.323 3.869-.79.843-1.771 1.264-2.942 1.264-1.264 0-2.172-.454-2.725-1.362h-.04v5.055H55.5V25.067c0-1.026-.027-2.079-.079-3.159h1.875l.119 1.521h.04c.711-1.146 1.79-1.718 3.238-1.718 1.132 0 2.077.447 2.833 1.342.758.896 1.136 2.074 1.136 3.535zm-2.172.078c0-.934-.21-1.704-.632-2.31-.461-.632-1.08-.948-1.856-.948-.526 0-1.004.176-1.431.523-.428.35-.708.807-.839 1.373-.066.264-.099.48-.099.65v1.6c0 .698.214 1.287.642 1.768s.984.721 1.668.721c.803 0 1.428-.31 1.875-.928.448-.619.672-1.435.672-2.449zM75.699 26.588c0 1.632-.441 2.922-1.324 3.869-.789.843-1.77 1.264-2.941 1.264-1.264 0-2.172-.454-2.724-1.362h-.04v5.055h-2.132V25.067c0-1.026-.027-2.079-.079-3.159h1.875l.119 1.521h.04c.71-1.146 1.789-1.718 3.238-1.718 1.131 0 2.076.447 2.834 1.342.755.896 1.134 2.074 1.134 3.535zm-2.172.078c0-.934-.211-1.704-.633-2.31-.461-.632-1.078-.948-1.855-.948a2.22 2.22 0 0 0-1.432.523c-.428.35-.707.807-.838 1.373-.065.264-.099.48-.099.65v1.6c0 .698.214 1.287.64 1.768.428.48.984.721 1.67.721.803 0 1.428-.31 1.875-.928.448-.619.672-1.435.672-2.449zM88.039 27.772c0 1.132-.393 2.053-1.182 2.764-.867.777-2.074 1.165-3.625 1.165-1.432 0-2.58-.276-3.449-.829l.494-1.777c.936.566 1.963.85 3.082.85.803 0 1.428-.182 1.877-.544.447-.362.67-.848.67-1.454 0-.54-.184-.995-.553-1.364-.367-.369-.98-.712-1.836-1.029-2.33-.869-3.494-2.142-3.494-3.816 0-1.094.408-1.991 1.225-2.689.814-.699 1.9-1.048 3.258-1.048 1.211 0 2.217.211 3.02.632l-.533 1.738c-.75-.408-1.598-.612-2.547-.612-.75 0-1.336.185-1.756.553a1.58 1.58 0 0 0-.533 1.205c0 .526.203.961.611 1.303.355.316 1 .658 1.936 1.027 1.145.461 1.986 1 2.527 1.618.539.616.808 1.387.808 2.307zM95.088 23.508h-2.35v4.659c0 1.185.414 1.777 1.244 1.777.381 0 .697-.033.947-.099l.059 1.619c-.42.157-.973.236-1.658.236-.842 0-1.5-.257-1.975-.77-.473-.514-.711-1.376-.711-2.587v-4.837h-1.4v-1.6h1.4v-1.757l2.094-.632v2.389h2.35v1.602zM105.691 26.627c0 1.475-.422 2.686-1.264 3.633-.883.975-2.055 1.461-3.516 1.461-1.408 0-2.529-.467-3.365-1.401s-1.254-2.113-1.254-3.534c0-1.487.43-2.705 1.293-3.652.861-.948 2.023-1.422 3.484-1.422 1.408 0 2.541.467 3.396 1.402.818.907 1.226 2.078 1.226 3.513zm-2.212.069c0-.885-.189-1.644-.572-2.277-.447-.766-1.086-1.148-1.914-1.148-.857 0-1.508.383-1.955 1.148-.383.634-.572 1.405-.572 2.317 0 .885.189 1.644.572 2.276.461.766 1.105 1.148 1.936 1.148.814 0 1.453-.39 1.914-1.168.393-.645.591-1.412.591-2.296zM112.621 23.783a3.702 3.702 0 0 0-.672-.059c-.75 0-1.33.283-1.738.85-.355.5-.533 1.132-.533 1.895v5.035h-2.131l.02-6.574c0-1.106-.027-2.113-.08-3.021h1.857l.078 1.836h.059c.225-.631.58-1.139 1.066-1.52a2.578 2.578 0 0 1 1.541-.514c.197 0 .375.014.533.039v2.033zM122.156 26.252a5 5 0 0 1-.078.967h-6.396c.025.948.334 1.673.928 2.173.539.447 1.236.671 2.092.671.947 0 1.811-.151 2.588-.454l.334 1.48c-.908.396-1.98.593-3.217.593-1.488 0-2.656-.438-3.506-1.313-.848-.875-1.273-2.05-1.273-3.524 0-1.447.395-2.652 1.186-3.613.828-1.026 1.947-1.539 3.355-1.539 1.383 0 2.43.513 3.141 1.539.563.815.846 1.823.846 3.02zm-2.033-.553c.014-.632-.125-1.178-.414-1.639-.369-.593-.936-.889-1.699-.889-.697 0-1.264.289-1.697.869-.355.461-.566 1.014-.631 1.658h4.441z"></path>
+          </g>
+          <g fill="#FFF">
+           <path d="M49.05 10.009c0 1.177-.353 2.063-1.058 2.658-.653.549-1.581.824-2.783.824-.596 0-1.106-.026-1.533-.078V6.982c.557-.09 1.157-.136 1.805-.136 1.145 0 2.008.249 2.59.747.652.563.979 1.368.979 2.416zm-1.105.029c0-.763-.202-1.348-.606-1.756-.404-.407-.994-.611-1.771-.611-.33 0-.611.022-.844.068v4.889c.129.02.365.029.708.029.802 0 1.421-.223 1.857-.669s.656-1.096.656-1.95zM54.909 11.037c0 .725-.207 1.319-.621 1.785-.434.479-1.009.718-1.727.718-.692 0-1.243-.229-1.654-.689-.41-.459-.615-1.038-.615-1.736 0-.73.211-1.329.635-1.794s.994-.698 1.712-.698c.692 0 1.248.229 1.669.688.4.446.601 1.022.601 1.726zm-1.087.034c0-.435-.094-.808-.281-1.119-.22-.376-.533-.564-.94-.564-.421 0-.741.188-.961.564-.188.311-.281.69-.281 1.138 0 .435.094.808.281 1.119.227.376.543.564.951.564.4 0 .714-.191.94-.574.194-.317.291-.693.291-1.128zM62.765 8.719l-1.475 4.714h-.96l-.611-2.047a15.32 15.32 0 0 1-.379-1.523h-.019a11.15 11.15 0 0 1-.379 1.523l-.649 2.047h-.971l-1.387-4.714h1.077l.533 2.241c.129.53.235 1.035.32 1.513h.019c.078-.394.207-.896.389-1.503l.669-2.25h.854l.641 2.202c.155.537.281 1.054.378 1.552h.029c.071-.485.178-1.002.32-1.552l.572-2.202h1.029zM68.198 13.433H67.15v-2.7c0-.832-.316-1.248-.95-1.248a.946.946 0 0 0-.757.343 1.217 1.217 0 0 0-.291.808v2.796h-1.048v-3.366c0-.414-.013-.863-.038-1.349h.921l.049.737h.029c.122-.229.304-.418.543-.569.284-.176.602-.265.95-.265.44 0 .806.142 1.097.427.362.349.543.87.543 1.562v2.824zM71.088 13.433h-1.047V6.556h1.047v6.877zM77.258 11.037c0 .725-.207 1.319-.621 1.785-.434.479-1.01.718-1.727.718-.693 0-1.244-.229-1.654-.689-.41-.459-.615-1.038-.615-1.736 0-.73.211-1.329.635-1.794s.994-.698 1.711-.698c.693 0 1.248.229 1.67.688.4.446.601 1.022.601 1.726zm-1.088.034c0-.435-.094-.808-.281-1.119-.219-.376-.533-.564-.939-.564-.422 0-.742.188-.961.564-.188.311-.281.69-.281 1.138 0 .435.094.808.281 1.119.227.376.543.564.951.564.4 0 .713-.191.939-.574.195-.317.291-.693.291-1.128zM82.33 13.433h-.941l-.078-.543h-.029c-.322.433-.781.65-1.377.65-.445 0-.805-.143-1.076-.427a1.339 1.339 0 0 1-.369-.96c0-.576.24-1.015.723-1.319.482-.304 1.16-.453 2.033-.446V10.3c0-.621-.326-.931-.979-.931-.465 0-.875.117-1.229.349l-.213-.688c.438-.271.979-.407 1.617-.407 1.232 0 1.85.65 1.85 1.95v1.736c0 .471.023.846.068 1.124zm-1.088-1.62v-.727c-1.156-.02-1.734.297-1.734.95 0 .246.066.43.201.553a.733.733 0 0 0 .512.184c.23 0 .445-.073.641-.218a.893.893 0 0 0 .38-.742zM88.285 13.433h-.93l-.049-.757h-.029c-.297.576-.803.864-1.514.864-.568 0-1.041-.223-1.416-.669s-.562-1.025-.562-1.736c0-.763.203-1.381.611-1.853.395-.44.879-.66 1.455-.66.633 0 1.076.213 1.328.64h.02V6.556h1.049v5.607c0 .459.012.882.037 1.27zm-1.086-1.988v-.786a1.194 1.194 0 0 0-.408-.965 1.03 1.03 0 0 0-.701-.257c-.391 0-.697.155-.922.466-.223.311-.336.708-.336 1.193 0 .466.107.844.322 1.135.227.31.533.465.916.465.344 0 .619-.129.828-.388.202-.239.301-.527.301-.863zM97.248 11.037c0 .725-.207 1.319-.621 1.785-.434.479-1.008.718-1.727.718-.691 0-1.242-.229-1.654-.689-.41-.459-.615-1.038-.615-1.736 0-.73.211-1.329.635-1.794s.994-.698 1.713-.698c.691 0 1.248.229 1.668.688.4.446.601 1.022.601 1.726zm-1.086.034c0-.435-.094-.808-.281-1.119-.221-.376-.533-.564-.941-.564-.42 0-.74.188-.961.564-.188.311-.281.69-.281 1.138 0 .435.094.808.281 1.119.227.376.543.564.951.564.4 0 .715-.191.941-.574.193-.317.291-.693.291-1.128zM102.883 13.433h-1.047v-2.7c0-.832-.316-1.248-.951-1.248-.311 0-.562.114-.756.343s-.291.499-.291.808v2.796h-1.049v-3.366c0-.414-.012-.863-.037-1.349h.92l.049.737h.029a1.53 1.53 0 0 1 .543-.569c.285-.176.602-.265.951-.265.439 0 .805.142 1.096.427.363.349.543.87.543 1.562v2.824zM109.936 9.504h-1.154v2.29c0 .582.205.873.611.873.188 0 .344-.016.467-.049l.027.795c-.207.078-.479.117-.814.117-.414 0-.736-.126-.969-.378-.234-.252-.35-.676-.35-1.271V9.504h-.689v-.785h.689v-.864l1.027-.31v1.173h1.154v.786zM115.484 13.433h-1.049v-2.68c0-.845-.316-1.268-.949-1.268-.486 0-.818.245-1 .735a1.317 1.317 0 0 0-.049.377v2.835h-1.047V6.556h1.047v2.841h.02c.33-.517.803-.775 1.416-.775.434 0 .793.142 1.078.427.355.355.533.883.533 1.581v2.803zM121.207 10.853c0 .188-.014.346-.039.475h-3.143c.014.466.164.821.455 1.067.266.22.609.33 1.029.33.465 0 .889-.074 1.271-.223l.164.728c-.447.194-.973.291-1.582.291-.73 0-1.305-.215-1.721-.645-.418-.43-.625-1.007-.625-1.731 0-.711.193-1.303.582-1.775.406-.504.955-.756 1.648-.756.678 0 1.193.252 1.541.756.281.4.42.895.42 1.483zm-1-.271a1.411 1.411 0 0 0-.203-.805c-.182-.291-.459-.437-.834-.437a.995.995 0 0 0-.834.427 1.586 1.586 0 0 0-.311.815h2.182z"></path>
+          </g>
+         </svg></span></a> 
+       <a class="page-footer__mobapp-link" href="https://play.google.com/store/apps/details?id=org.stepic.droid&amp;utm_source=global_co&amp;utm_medium=prtnr&amp;utm_content=Mar2515&amp;utm_campaign=PartBadge&amp;pcampaignid=MKT-AC-global-none-all-co-pr-py-PartBadges-Oct1515-1"> <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/apps/en-play-badge.png"> </a> 
+      </div> 
+      <div class="page-footer__col page-footer__CC-note">
+        Public user contributions licensed under 
+       <a href="https://creativecommons.org/licenses/by-sa/4.0/">cc-wiki</a> license with attribution required 
+      </div> 
+     </div> 
+    </div> 
+   </footer> 
+  </div> 
+ </div> 
+ <script>
+    // try to detect embedding when needed
+    if (!window.STEPIC_IS_EMBEDDED) {
+      try {
+        window.STEPIC_IS_EMBEDDED = window.self !== window.top;
+      } catch (e) {
+        // old IE and FF fails with "same origin" errors
+        window.STEPIC_IS_EMBEDDED = true;
+      }
+    }
+    window.STEPIC_BUILD_VERSION = 1507820331;
+    window.STEPIC_BUILD_TAG = '107.0.5357';
+    window.__stepik_shoebox__ = JSON.parse('{\u0022stepics\u0022: [{\u0022id\u0022: 1, \u0022user\u0022: 36007641, \u0022config\u0022: {\u0022topbar_logo\u0022: \u0022/static/frontend/topbar_logo.svg\u0022, \u0022index_text\u0022: \u0022\u0022, \u0022has_course_review_tab\u0022: true, \u0022login_link\u0022: \u0022/login/\u0022, \u0022language\u0022: null, \u0022stripe_api_public_key\u0022: \u0022pk_live_vTMgNYTvMxpmKA0pN0ZQYoHT\u0022, \u0022project_domain\u0022: \u0022stepik.org\u0022, \u0022has_extra_favicons\u0022: true, \u0022is_standard_explore\u0022: true, \u0022is_standard_index\u0022: true, \u0022project_main_instance_url\u0022: \u0022https://stepik.org/\u0022, \u0022is_full_profile\u0022: true, \u0022project_name\u0022: \u0022Stepik\u0022, \u0022payments_yandex_money_scid\u0022: \u002275883\u0022, \u0022show_course_welcome_popup\u0022: true, \u0022has_mobile_apps_banner\u0022: true, \u0022can_change_language\u0022: true, \u0022has_social_sharing\u0022: true, \u0022has_lessons_in_navbar\u0022: true, \u0022favicon\u0022: \u0022/static/classic/ico/favicon.ico\u0022, \u0022telegram_bot_name\u0022: \u0022StepicBot\u0022, \u0022is_public_telegram_bot\u0022: true, \u0022can_set_password\u0022: true, \u0022enable_recommended_courses_for_users\u0022: [\u0022135091\u0022, \u002243329\u0022, \u002215557637\u0022], \u0022has_email_verification_alert\u0022: true, \u0022project_help_center_url\u0022: \u0022http://support.stepik.org\u0022, \u0022is_public_social_accounts\u0022: true, \u0022email_verify_warn_delay\u0022: 259200, \u0022has_activity_graph\u0022: true, \u0022courses_default_publicity\u0022: true, \u0022payments_yandex_money_shop_id\u0022: \u002274729\u0022, \u0022can_change_email\u0022: true, \u0022has_language_selector\u0022: true, \u0022project_support_email\u0022: \u0022support@stepik.org\u0022, \u0022course_reviews_passed_percent\u0022: 80, \u0022is_standard_footer\u0022: true, \u0022payments_yandex_money_form_action\u0022: \u0022https://money.yandex.ru/eshop.xml\u0022, \u0022has_registration_link\u0022: true, \u0022index_logo\u0022: \u0022\u0022, \u0022can_change_name\u0022: true, \u0022footer_logo\u0022: \u0022\u0022, \u0022can_change_city\u0022: true}, \u0022total_quizzes\u0022: 104110, \u0022total_submissions\u0022: 33411967, \u0022total_active\u0022: 62048, \u0022server_time\u0022: 1508527525.07067, \u0022profile\u0022: 36007641}], \u0022users\u0022: [{\u0022id\u0022: 36007641, \u0022profile\u0022: 36007641, \u0022is_private\u0022: false, \u0022is_active\u0022: true, \u0022is_guest\u0022: true, \u0022is_organization\u0022: false, \u0022short_bio\u0022: \u0022\u0022, \u0022details\u0022: \u0022\u0022, \u0022first_name\u0022: \u0022Anonymous\u0022, \u0022last_name\u0022: \u002236007641\u0022, \u0022full_name\u0022: \u0022Anonymous 36007641\u0022, \u0022alias\u0022: null, \u0022avatar\u0022: \u0022https://stepik.org/users/36007641/daf90b394c82d87bea772d93ef4229a29c543b4b/avatar.svg\u0022, \u0022cover\u0022: null, \u0022city\u0022: null, \u0022level\u0022: 0, \u0022level_title\u0022: \u0022guest\u0022, \u0022tag_progresses\u0022: [], \u0022knowledge\u0022: 0, \u0022knowledge_rank\u0022: null, \u0022reputation\u0022: 0, \u0022reputation_rank\u0022: null, \u0022join_date\u0022: null, \u0022social_profiles\u0022: [], \u0022solved_steps_count\u0022: 456, \u0022created_courses_count\u0022: 0, \u0022created_lessons_count\u0022: 0, \u0022issued_certificates_count\u0022: 0}], \u0022profiles\u0022: [{\u0022id\u0022: 36007641, \u0022first_name\u0022: \u0022\u0022, \u0022last_name\u0022: \u0022\u0022, \u0022full_name\u0022: \u0022Anonymous 36007641\u0022, \u0022is_private\u0022: false, \u0022avatar\u0022: \u0022https://stepik.org/users/36007641/daf90b394c82d87bea772d93ef4229a29c543b4b/avatar.svg\u0022, \u0022language\u0022: \u0022en\u0022, \u0022city\u0022: null, \u0022short_bio\u0022: \u0022\u0022, \u0022details\u0022: \u0022\u0022, \u0022subscribed_for_mail\u0022: false, \u0022notification_email_delay\u0022: \u00225m\u0022, \u0022notification_status\u0022: 36007641, \u0022is_staff\u0022: false, \u0022is_guest\u0022: true, \u0022can_add_lesson\u0022: false, \u0022can_add_course\u0022: false, \u0022can_add_group\u0022: false, \u0022subscribed_for_news_en\u0022: true, \u0022subscribed_for_news_ru\u0022: false, \u0022bit_field\u0022: 4294967295, \u0022level\u0022: 0, \u0022level_title\u0022: \u0022guest\u0022, \u0022level_abilities\u0022: [], \u0022has_password\u0022: false, \u0022social_accounts\u0022: [], \u0022email_addresses\u0022: [], \u0022is_email_verified\u0022: false, \u0022invite_url\u0022: \u0022https://stepik.org/friends/ne3M1NqR\u0022, \u0022telegram_bot_url\u0022: \u0022https://telegram.me/StepicBot?start\u003DTXpZd01EYzJOREU6MWU1Y3Y3OjVXZDVPbDcwbVFxTERhWjBNS2VvcFN6bW5kbw\u0022, \u0022subscription_plan\u0022: null, \u0022experiment_choices\u0022: {\u0022feedback_type\u0022: \u0022feedback_type.standart\u0022}, \u0022allowed_private_courses_count\u0022: 0}]}');
+  </script> 
+ <script defer src="https://stepik.azureedge.net/static/frontend/cli-build/vendor.js?v=1507820331"></script> 
+ <script defer src="https://stepik.azureedge.net/static/frontend/cli-build/stepic.js?v=1507820331"></script> 
+ <script>
+    var STEPIC_APP_LOADED = null;
+    UPLOADCARE_LOCALE = "en";
+    UPLOADCARE_LIVE = false;
+    UPLOADCARE_TABS = "file url dropbox facebook vk gdrive box skydrive instagram evernote";
+    UPLOADCARE_AUTOSTORE = true;
+    UPLOADCARE_PUBLIC_KEY = "e7a075ad8dc9e3a1ec61";
+    UPLOADCARE_CDN_BASE = 'https://ucarecdn.com/';
+    UPLOADCARE_MANUAL_START = true;
+    var STEPIC_SENTRY_DSN = 'https://847d1d9c4c25464db135715240b411e9@sentry.stepik.org/8';
+    var STEPIC_LOADED_CALLBACK = function(){};
+  </script> 
+ <script defer src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.6.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> 
+ <script defer type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {inlineMath: [['$','$']], preview: "none"},
+          TeX: {extensions: ["mhchem.js", "color.js"]},
+          messageStyle: "none",
+        });
+  </script>  
+</body>

@@ -1,0 +1,856 @@
+https://tmfeed.ru/popular/day/?ignore=geektimes
+<body>
+ <div>
+  <script>window.TM_APP_INITIAL_STATE = {"settings":{"geektimes":true,"habrahabr":true,"height":500,"heightStyle":"500px"},"toplink":{"links":[{"color":"#3c86ee","title":"Чемпионат по AI","url":"https://bit.ly/2fkIOqX"},{"color":"#32CD32","title":"Умный стол","url":"https://u.tmtm.ru/gAay2"},{"color":"#13A9BA","title":"Валютный контроль   ","url":"https://u.tmtm.ru/EU0Qs"}],"loaded":true}}</script>
+  <div id="app">
+   <div class="tm-layout">
+    <div class="tm-toppanel">
+     <div class="tm-toppanel__inner">
+      <div class="tm-toppanel__links">
+       <a href="http://tmfeed.ru/?utm_source=tm_tmfeed&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo" class="tm-toppanel__link tm-toppanel__link_current"> TM Feed </a>
+       <a href="http://habrahabr.ru?utm_source=tm_tmfeed&amp;amp;utm_medium=tm_top_panel&amp;amp;utm_campaign=tm_promo" class="tm-toppanel__link"> Хабрахабр </a>
+       <a href="http://geektimes.ru?utm_source=tm_tmfeed&amp;amp;utm_medium=tm_top_panel&amp;amp;utm_campaign=tm_promo" class="tm-toppanel__link"> Geektimes </a>
+       <a href="http://toster.ru?utm_source=tm_tmfeed&amp;amp;utm_medium=tm_top_panel&amp;amp;utm_campaign=tm_promo" class="tm-toppanel__link"> Тостер </a>
+       <a href="http://moikrug.ru?utm_source=tm_tmfeed&amp;amp;utm_medium=tm_top_panel&amp;amp;utm_campaign=tm_promo" class="tm-toppanel__link"> Мой круг </a>
+       <a href="http://freelansim.ru?utm_source=tm_tmfeed&amp;amp;utm_medium=tm_top_panel&amp;amp;utm_campaign=tm_promo" class="tm-toppanel__link"> Фрилансим </a>
+      </div> 
+      <div class="tm-megaposts-links">
+       <div class="tm-megaposts-links__title">
+        Мегапосты:
+       </div> 
+       <div class="tm-megaposts-links__links">
+        <a href="https://bit.ly/2fkIOqX" class="tm-megaposts-links__link" style="color:#3c86ee;">Чемпионат по AI</a>
+        <a href="https://u.tmtm.ru/gAay2" class="tm-megaposts-links__link" style="color:#32CD32;">Умный стол</a>
+        <a href="https://u.tmtm.ru/EU0Qs" class="tm-megaposts-links__link" style="color:#13A9BA;">Валютный контроль </a>
+       </div>
+      </div> 
+      <span class="tm-top-banner">
+       <div id="adriver_banner_465568687"></div></span>
+     </div>
+    </div> 
+    <div class="tm-layout-container">
+     <div class="tm-header">
+      <div class="tm-header__inner">
+       <div class="tm-header__logo-wrapper">
+        <a href="/" class="tm-header__logo"></a>
+       </div> 
+       <div class="tm-header__filter">
+        <!----> 
+        <div class="tm-filter">
+         <a href="/popular/day/?ignore=habrahabr,geektimes" class="router-link-active">
+          <div class="tm-checkbox tm-checkbox_checked">
+           <span class="tm-checkbox__box"></span> 
+           <span class="tm-checkbox__label"> Хабрахабр </span>
+          </div></a> 
+         <a href="/popular/day/" class="router-link-active">
+          <div class="tm-checkbox">
+           <span class="tm-checkbox__box"></span> 
+           <span class="tm-checkbox__label"> Geektimes </span>
+          </div></a>
+        </div>
+       </div> 
+       <div class="tm-header__nav">
+        <div class="tm-header__nav-inner">
+         <div class="tm-header__tabs">
+          <div class="tm-nav">
+           <div class="tm-tabs">
+            <a href="/popular/day?ignore=geektimes" class="router-link-exact-active router-link-active"><span class="tm-tab tm-tab_active"> Лучшие </span></a>
+            <a href="/all?ignore=geektimes"><span class="tm-tab"> Все подряд </span></a>
+           </div>
+          </div>
+         </div> 
+         <div class="tm-header__burger">
+          <div class="tm-burger">
+           <a href="/settings?ignore=geektimes">
+            <div class="tm-burger__icon"></div></a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div> 
+     <div class="tm-layout-main">
+      <div class="tm-subnav">
+       <div class="tm-buttongroup">
+        <a href="/popular/day?ignore=geektimes" class="tm-subnav__link router-link-exact-active router-link-active">
+         <div class="tm-button tm-button_first tm-button_active">
+          <!----> 
+          <span class="tm-button__text"> Сутки </span>
+         </div></a>
+        <a href="/popular/week?ignore=geektimes" class="tm-subnav__link">
+         <div class="tm-button">
+          <!----> 
+          <span class="tm-button__text"> Неделя </span>
+         </div></a>
+        <a href="/popular/month?ignore=geektimes" class="tm-subnav__link">
+         <div class="tm-button tm-button_last">
+          <!----> 
+          <span class="tm-button__text"> Месяц </span>
+         </div></a>
+       </div>
+      </div> 
+      <!----> 
+      <ul class="tm-posts">
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">сегодня в 12:03</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340540/" target="_blank" class="tm-post__title-link">Russian AI Cup 2017 — всем поклонникам StarCraft и C&amp;C посвящается</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/mailru/" target="_blank" class="tm-post__hub-link">Блог компании Mail.Ru Group, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/zadachki/" target="_blank" class="tm-post__hub-link">Занимательные задачки, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/programming/" target="_blank" class="tm-post__hub-link">Программирование, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/gamedev/" target="_blank" class="tm-post__hub-link">Разработка игр, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/sport_programming/" target="_blank" class="tm-post__hub-link">Спортивное программирование</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +70
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           6.43k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           35
+          </div> 
+          <a href="https://habrahabr.ru/post/340540/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">29</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">сегодня в 08:04</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340352/" target="_blank" class="tm-post__title-link">Структура и случайность простых чисел</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/data_visualization/" target="_blank" class="tm-post__hub-link">Визуализация данных, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/maths/" target="_blank" class="tm-post__hub-link">Математика</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +63
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           7.79k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           90
+          </div> 
+          <a href="https://habrahabr.ru/post/340352/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">19</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">сегодня в 09:56</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340556/" target="_blank" class="tm-post__title-link">Первая демонстрация TypeScript</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/ruvds/" target="_blank" class="tm-post__hub-link">Блог компании RUVDS.com, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/javascript/" target="_blank" class="tm-post__hub-link">JavaScript, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/webdev/" target="_blank" class="tm-post__hub-link">Разработка веб-сайтов</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +25
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           4.65k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           16
+          </div> 
+          <a href="https://habrahabr.ru/post/340556/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">4</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">сегодня в 07:34</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340550/" target="_blank" class="tm-post__title-link">Code review по-человечески (часть 1)</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/python/" target="_blank" class="tm-post__hub-link">Python, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/debug/" target="_blank" class="tm-post__hub-link">Отладка, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/programming/" target="_blank" class="tm-post__hub-link">Программирование, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/complete_code/" target="_blank" class="tm-post__hub-link">Совершенный код</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +24
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           6.65k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           88
+          </div> 
+          <a href="https://habrahabr.ru/post/340550/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">12</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">сегодня в 09:15</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340562/" target="_blank" class="tm-post__title-link">We need to go deeper: обходим скрипт который обходит адблок</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/google_chrome/" target="_blank" class="tm-post__hub-link">Google Chrome, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/javascript/" target="_blank" class="tm-post__hub-link">JavaScript, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/webdev/" target="_blank" class="tm-post__hub-link">Разработка веб-сайтов</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +22
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           7.66k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           39
+          </div> 
+          <a href="https://habrahabr.ru/post/340562/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">24</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">сегодня в 06:45</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/339866/" target="_blank" class="tm-post__title-link">Используем Apache Ignite в быту</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/gridgain/" target="_blank" class="tm-post__hub-link">Блог компании GridGain, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/net/" target="_blank" class="tm-post__hub-link">.NET, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/bigdata/" target="_blank" class="tm-post__hub-link">Big Data, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/csharp/" target="_blank" class="tm-post__hub-link">C#, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/sql/" target="_blank" class="tm-post__hub-link">SQL</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +20
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           3.20k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           27
+          </div> 
+          <a href="https://habrahabr.ru/post/339866/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">8</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">сегодня в 06:09</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340402/" target="_blank" class="tm-post__title-link">Открытая трансляция из главного зала SmartData 2017: речь не про решения — речь про эволюцию</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/jugru/" target="_blank" class="tm-post__hub-link">Блог компании JUG.ru Group, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/bigdata/" target="_blank" class="tm-post__hub-link">Big Data, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/machine_learning/" target="_blank" class="tm-post__hub-link">Машинное обучение</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +19
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           2.75k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           13
+          </div> 
+          <a href="https://habrahabr.ru/post/340402/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">0</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">сегодня в 13:48</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340588/" target="_blank" class="tm-post__title-link">Dell EMC SC и Unity: два сапога — пара</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/dellemc/" target="_blank" class="tm-post__hub-link">Блог компании Dell EMC, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/it-infrastructure/" target="_blank" class="tm-post__hub-link">IT-инфраструктура, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/s_admin/" target="_blank" class="tm-post__hub-link">Серверное администрирование, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/dwh/" target="_blank" class="tm-post__hub-link">Хранение данных, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/data_warehouse/" target="_blank" class="tm-post__hub-link">Хранилища данных</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +13
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           776
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           2
+          </div> 
+          <a href="https://habrahabr.ru/post/340588/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">1</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">вчера в 19:48</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340534/" target="_blank" class="tm-post__title-link">ROS, ELM и черепашка</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/webdev/" target="_blank" class="tm-post__hub-link">Разработка веб-сайтов, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/iot_dev/" target="_blank" class="tm-post__hub-link">Разработка для интернета вещей, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/robo_dev/" target="_blank" class="tm-post__hub-link">Разработка робототехники, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/funcprog/" target="_blank" class="tm-post__hub-link">Функциональное программирование</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +12
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           1.77k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           17
+          </div> 
+          <a href="https://habrahabr.ru/post/340534/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">2</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">сегодня в 06:00</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340538/" target="_blank" class="tm-post__title-link">Обзор конференции UFADEVCONF 2017</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/southbridge/" target="_blank" class="tm-post__hub-link">Блог компании Southbridge, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/devops/" target="_blank" class="tm-post__hub-link">DevOps, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/db_admins/" target="_blank" class="tm-post__hub-link">Администрирование баз данных, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/s_admin/" target="_blank" class="tm-post__hub-link">Серверное администрирование, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/sys_admin/" target="_blank" class="tm-post__hub-link">Системное администрирование</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +11
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           899
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           5
+          </div> 
+          <a href="https://habrahabr.ru/post/340538/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">0</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">сегодня в 13:53</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340030/" target="_blank" class="tm-post__title-link">Обзор коммутаторов DELL EMC Networking N1100</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/dellemc/" target="_blank" class="tm-post__hub-link">Блог компании Dell EMC, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/it-infrastructure/" target="_blank" class="tm-post__hub-link">IT-инфраструктура, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/network_technologies/" target="_blank" class="tm-post__hub-link">Сетевые технологии</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +10
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           1.20k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           1
+          </div> 
+          <a href="https://habrahabr.ru/post/340030/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">1</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">сегодня в 16:00</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/339852/" target="_blank" class="tm-post__title-link">Как фокус помогает</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/htmlacademy/" target="_blank" class="tm-post__hub-link">Блог компании HTML Academy, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/webdev/" target="_blank" class="tm-post__hub-link">Разработка веб-сайтов</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +8
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           1.69k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           6
+          </div> 
+          <a href="https://habrahabr.ru/post/339852/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">2</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">сегодня в 03:16</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340520/" target="_blank" class="tm-post__title-link">Пять наблюдений о планировании</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/pm/" target="_blank" class="tm-post__hub-link">Управление проектами</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +7
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           3.63k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           31
+          </div> 
+          <a href="https://habrahabr.ru/post/340520/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">6</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">сегодня в 12:12</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340578/" target="_blank" class="tm-post__title-link">Релиз СУБД InterSystems Caché 2017.2</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/intersystems/" target="_blank" class="tm-post__hub-link">Блог компании InterSystems, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/db_admins/" target="_blank" class="tm-post__hub-link">Администрирование баз данных, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/dwh/" target="_blank" class="tm-post__hub-link">Хранение данных</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +7
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           859
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           5
+          </div> 
+          <a href="https://habrahabr.ru/post/340578/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">0</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">сегодня в 07:21</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/339672/" target="_blank" class="tm-post__title-link">Геометрия данных 4. Пространство графа</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/maths/" target="_blank" class="tm-post__hub-link">Математика</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +7
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           1.84k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           44
+          </div> 
+          <a href="https://habrahabr.ru/post/339672/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">5</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">сегодня в 08:05</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340554/" target="_blank" class="tm-post__title-link">Определение устойчивости систем автоматического управления промышленными роботами</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/python/" target="_blank" class="tm-post__hub-link">Python, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/analysis_design/" target="_blank" class="tm-post__hub-link">Анализ и проектирование систем, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/maths/" target="_blank" class="tm-post__hub-link">Математика, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/windows_dev/" target="_blank" class="tm-post__hub-link">Разработка под Windows</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +6
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           1.06k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           17
+          </div> 
+          <a href="https://habrahabr.ru/post/340554/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">2</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">сегодня в 06:06</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340430/" target="_blank" class="tm-post__title-link">«Пятничный формат»: 7 верных способов загубить работу с ServiceNow на старте</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/it-guild/" target="_blank" class="tm-post__hub-link">Блог компании ИТ Гильдия, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/crm/" target="_blank" class="tm-post__hub-link">CRM-системы, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/erp/" target="_blank" class="tm-post__hub-link">ERP-системы, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/service_desk/" target="_blank" class="tm-post__hub-link">Service Desk, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/ecommerce/" target="_blank" class="tm-post__hub-link">Управление e-commerce</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +6
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           945
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           10
+          </div> 
+          <a href="https://habrahabr.ru/post/340430/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">2</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">сегодня в 10:26</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340566/" target="_blank" class="tm-post__title-link">Полезные скрипты при миграции из Oracle в PostgreSQL</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/java/" target="_blank" class="tm-post__hub-link">Java, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/oracle/" target="_blank" class="tm-post__hub-link">Oracle, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/postgresql/" target="_blank" class="tm-post__hub-link">PostgreSQL, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/programming/" target="_blank" class="tm-post__hub-link">Программирование</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +5
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           1.12k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           22
+          </div> 
+          <a href="https://habrahabr.ru/post/340566/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">0</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">сегодня в 12:15</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340580/" target="_blank" class="tm-post__title-link">Защищаем мобильное приложение с помощью «КриптоПро»: пошаговая инструкция</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/agima/" target="_blank" class="tm-post__hub-link">Блог компании Агентство AGIMA, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/infosecurity/" target="_blank" class="tm-post__hub-link">Информационная безопасность, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/mobile_dev/" target="_blank" class="tm-post__hub-link">Разработка мобильных приложений</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +5
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           1.55k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           12
+          </div> 
+          <a href="https://habrahabr.ru/post/340580/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">9</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">сегодня в 14:35</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340592/" target="_blank" class="tm-post__title-link">Как работает mobx изнутри и сравнение его с redux</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/javascript/" target="_blank" class="tm-post__hub-link">JavaScript, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/reactjs/" target="_blank" class="tm-post__hub-link">ReactJS</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +3
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           692
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           13
+          </div> 
+          <a href="https://habrahabr.ru/post/340592/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">0</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">сегодня в 14:18</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340024/" target="_blank" class="tm-post__title-link">Бизнес хочет коробочные решения на всё. Кого-то волнует закон Яровой?</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/yougile/" target="_blank" class="tm-post__hub-link">Блог компании YouGile, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/agile/" target="_blank" class="tm-post__hub-link">Agile, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/erp/" target="_blank" class="tm-post__hub-link">ERP-системы, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/startuprise/" target="_blank" class="tm-post__hub-link">Развитие стартапа, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/pm/" target="_blank" class="tm-post__hub-link">Управление проектами</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +2
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           1.86k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           7
+          </div> 
+          <a href="https://habrahabr.ru/post/340024/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">5</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">сегодня в 14:29</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340590/" target="_blank" class="tm-post__title-link">Давайте жить дружно</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/otus/" target="_blank" class="tm-post__hub-link">Блог компании Отус, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/linux/" target="_blank" class="tm-post__hub-link">Настройка Linux, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/sys_admin/" target="_blank" class="tm-post__hub-link">Системное администрирование</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +2
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           929
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           6
+          </div> 
+          <a href="https://habrahabr.ru/post/340590/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">8</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">сегодня в 16:59</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340604/" target="_blank" class="tm-post__title-link">Ваши собственные std::code_error</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/cpp/" target="_blank" class="tm-post__hub-link">C++, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/programming/" target="_blank" class="tm-post__hub-link">Программирование</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +1
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           278
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           4
+          </div> 
+          <a href="https://habrahabr.ru/post/340604/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">0</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">сегодня в 12:43</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340582/" target="_blank" class="tm-post__title-link">“Без data engineer-а ценность модели аналитика стремится к нулю” — интервью с дата инженером Николаем Марковым</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/company/newprolab/" target="_blank" class="tm-post__hub-link">Блог компании New Professions Lab, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/bigdata/" target="_blank" class="tm-post__hub-link">Big Data, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/data_mining/" target="_blank" class="tm-post__hub-link">Data Mining, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/python/" target="_blank" class="tm-post__hub-link">Python, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/machine_learning/" target="_blank" class="tm-post__hub-link">Машинное обучение</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +1
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           938
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           19
+          </div> 
+          <a href="https://habrahabr.ru/post/340582/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">4</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">сегодня в 08:29</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340560/" target="_blank" class="tm-post__title-link">Микросервисы для Java программистов. Практическое введение во фреймворки и контейнеры. (Часть 2)</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/java/" target="_blank" class="tm-post__hub-link">Java, </a></span>
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/analysis_design/" target="_blank" class="tm-post__hub-link">Анализ и проектирование систем</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +1
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           2.01k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           38
+          </div> 
+          <a href="https://habrahabr.ru/post/340560/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">1</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://habrahabr.ru" target="_blank" class="tm-post__site tm-post__site_habrahabr">Хабрахабр</a> 
+         <span class="tm-post__date">сегодня в 17:14</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://habrahabr.ru/post/340606/" target="_blank" class="tm-post__title-link">Началась новая атака с эксплойтом для Word</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://habrahabr.ru/hub/virus/" target="_blank" class="tm-post__hub-link">Антивирусная защита</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +1
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           797
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           4
+          </div> 
+          <a href="https://habrahabr.ru/post/340606/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">1</a>
+         </div> 
+         <!---->
+        </div></li>
+      </ul> 
+      <!----> 
+      <!---->
+     </div> 
+     <!---->
+    </div> 
+    <div class="tm-footer tm-footer_dark tm-footer_narrow">
+     <div class="tm-footer__inner">
+      <div class="tm-footer-copyright">
+       <a href="https://tmtm.ru" target="_blank" class="tm-tmlogo"></a> 
+       <span class="tm-copyright"><span class="tm-copyright__years"> 2006 — 2017 </span> <span class="tm-copyright__name"> «<a href="https://tmtm.ru" target="_blank" class="tm-copyright__link">TM</a>» </span></span>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <script>(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter28095615 = new Ya.Metrika({id:28095615, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script>
+ <noscript>
+  <img src="//mc.yandex.ru/watch/28095615" style="position:absolute; left:-9999px;" alt="">
+ </noscript> 
+ <!-- Vue rendering --> 
+ <!-- 271.113333 since request --> 
+ <!-- 271.113333 since last milestone --> 
+ <!-- Express rendering --> 
+ <!-- 271.424614 since request --> 
+ <!-- 0.31128100000000813 since last milestone --> 
+</body>

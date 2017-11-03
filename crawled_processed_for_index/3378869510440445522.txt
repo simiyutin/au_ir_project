@@ -1,0 +1,1268 @@
+<body data-function=""> 
+ <noscript>
+  <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1067365970024945&amp;ev=PageView&amp;noscript=1">
+ </noscript> 
+ <header class="header"> 
+  <div class="header-container"> 
+   <div class="header-logo-container"> 
+    <a href="/en/" class="logo_link"> <img src="/assets/images/logo-white-horizontal.png" srcset="/assets/images/logo-white-horizontal@2x.png 2x" width="150" alt="SmartData"> </a> 
+    <ul class="social-links"> 
+     <li class="social-item"> <a class="social_link" href="https://fb.me/smartdataconf" target="_blank"> <i class="icon-facebook"></i><span class="hidden-sm-down"></span> </a> </li> 
+     <li class="social-item"> <a class="social_link" href="https://vk.com/smartdata " target="_blank"> <i class="icon-vkontakte"></i><span class="hidden-sm-down"></span> </a> </li> 
+     <li class="social-item"> <a class="social_link" href="https://twitter.com/smartdatacon" target="_blank"> <i class="icon-twitter"></i><span class="hidden-sm-down"></span> </a> </li> 
+     <li class="social-item"> <a class="social_link" href="https://t.me/smartdataconf" target="_blank"> <i class="icon-telegram"></i><span class="hidden-sm-down"></span> </a> </li> 
+    </ul> 
+   </div> 
+   <div class="header-nav-container"> 
+    <nav class="navbar navbar-toggleable-md bg-inverse py-2 bg-faded hidden-md-down"> 
+     <ul class="navbar navbar-header"> 
+      <li class="nav-item"> <a class="nav-link nav-link-inverse " href="/en/#about"> About </a> </li> 
+      <li class="nav-item"> <a class="nav-link nav-link-inverse " href="/en/#schedule"> Schedule </a> </li> 
+      <li class="nav-item"> <a class="nav-link nav-link-inverse " href="/en/#sponsors"> Sponsors </a> </li> 
+      <li class="nav-item"> <a class="nav-link nav-link-inverse " href="#contacts"> Contacts </a> </li> 
+      <li class="nav-item"> <a href="/" class="nav-link nav-link-inverse">RU</a> </li> 
+     </ul> 
+    </nav> 
+   </div> 
+  </div> 
+ </header> 
+ <div class="hero"> 
+  <div class="logo-hero"> 
+   <picture class="logo-main"> 
+    <source srcset="/assets/images/logo-white-horizontal.png" media="(max-width: 800px)"> 
+    <source srcset="/assets/images/logo-white-horizontal@2x.png 2x"> 
+    <img src="/assets/images/logo-white-horizontal.png" alt="SmartData 2017 St. Petersburg"> 
+   </picture> 
+   <h2 class="slogan"> Big Data conference </h2> 
+  </div> 
+  <div class="hero-info"> 
+   <ul class="hero-info_items"> 
+    <li class="hero-info_item"> <i class="fa fa-calendar"></i> 
+     <nobr>
+      October 21, 2017
+     </nobr></li> 
+    <li class="hero-info_item"> <i class="fa fa-map-marker"></i> Crowne Plaza St.Petersburg Airport <span class="hero__place-adress">Startovaya ul. 6 A, St.Petersburg</span> </li> 
+   </ul> 
+  </div> 
+ </div> 
+ <section class="about" id="about"> 
+  <div class="about-container"> 
+   <h1 class="about_title">About SmartData</h1> 
+  </div> 
+  <article class="about-container"> 
+   <div class="about_note"> 
+    <div class="entry-content"> 
+     <p>The conference is devoted to Big Data world and technical aspects of data processing:</p> 
+     <ul> 
+      <li>Data Processing (Spark, Kafka, Storm, Flink)</li> 
+      <li>Storages (Databases, NoSQL, IMDG, Hadoop, Cloud storages)</li> 
+      <li>Data Science (Machine learning, neural networks, data analysis)</li> 
+     </ul> 
+     <p>No agile, scrum and bullshitting – only technologies, only hardcore!</p> 
+    </div> 
+   </div> 
+  </article> 
+ </section> 
+ <section class="schedule" id="schedule"> 
+  <div class="main-wrap"> 
+   <h2 class="title title__cards"> Schedule </h2> 
+   <div class="col"> 
+    <div class="text-md-right complexity-nav"> 
+     <span class="complexity_legend">Legend:</span> 
+     <span class="complexity-level-choice complexity-level_2" data-complexity="2"><img src="/assets/images/complexity/Intermediate_128_128.png" width="25" alt="Introduction to technology" title="Introduction to technology"> Introduction to technology</span> 
+     <span class="complexity-level-choice complexity-level_3" data-complexity="3"><img src="/assets/images/complexity/Advanced_128_128.png" width="25" alt="For practicing engineers" title="For practicing engineers"> For practicing engineers</span> 
+     <span class="complexity-level-choice complexity-level_4" data-complexity="4"> <img src="/assets/images/complexity/Hardcore_128_128.png" width="25" alt="Hardcore. Really hard and demanding talk, you'll understand only if you're an experienced engineer." title="Hardcore. Really hard and demanding talk, you'll understand only if you're an experienced engineer."> Hardcore</span> 
+    </div> 
+   </div> 
+   <div class="row"> 
+    <div class="program-table cols-2"> 
+     <div class="program-table-header pt-row-bg"> 
+      <div class="pt-cell"> 
+       <span class="pt_legend">Time</span> 
+      </div> 
+      <div class="pt-cell"> 
+       <span class="pt_legend">Track 1</span> 
+      </div> 
+      <div class="pt-cell"> 
+       <span class="pt_legend">Track 2</span> 
+      </div> 
+      <div class="pt-cell"> 
+       <span class="pt_legend">Track 3</span> 
+      </div> 
+     </div> 
+     <div class="program-table-body"> 
+      <div class="pt-row"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">9:00</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk">
+           Registration 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row pt-row-bg"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">10:00</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk">
+           Conference opening 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">10:30</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Track 1
+          </div> 
+          <div class="pt-talk complexity-2"> 
+           <a class="event_talk_link" href="/en/2017/spb/talks/5srlizuqtce00kic0mya2o/"> <strong>Name is a feature</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/5srlizuqtce00kic0mya2o/"> Vitaly Khudobakhshov <br> <i class="text-muted">Odnoklassniki</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Intermediate_128_128.png" width="25" alt="Introduction to technology" title="Introduction to technology"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row pt-row-bg"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">11:20</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk">
+           Break 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">11:40</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Track 1
+          </div> 
+          <div class="pt-talk complexity-3"> 
+           <a class="event_talk_link" href="/en/2017/spb/talks/ywt5alcng0wow8iw4uaem/"> <strong>Recommendation systems: from matrix factorization to deep learning in stream mode</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/ywt5alcng0wow8iw4uaem/"> Mikhail Kamalov<br> <i class="text-muted">Epam Systems</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Advanced_128_128.png" width="25" alt="For practicing engineers" title="For practicing engineers"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Track 2
+          </div> 
+          <div class="pt-talk complexity-4"> 
+           <a class="event_talk_link" href="/en/2017/spb/talks/5ykyd6xouwuqysksuicowo/"> <strong>Deep learning, probabilistic programming and meta-estimation: point of intersection</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/5ykyd6xouwuqysksuicowo/"> Alexey Potapov<br> <i class="text-muted">ITMO</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Hardcore_128_128.png" width="25" alt="Hardcore. Really hard and demanding talk, you'll understand only if you're an experienced engineer." title="Hardcore. Really hard and demanding talk, you'll understand only if you're an experienced engineer."> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Track 3
+          </div> 
+          <div class="pt-talk complexity-2"> 
+           <a class="event_talk_link" href="/en/2017/spb/talks/3ww4hownog4uyyeo4yg0qg/"> <strong>Crowdsourcing: How to train your crowd</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/3ww4hownog4uyyeo4yg0qg/"> Artem Grigoriev<br> <i class="text-muted">Yandex</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Intermediate_128_128.png" width="25" alt="Introduction to technology" title="Introduction to technology"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row pt-row-bg"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">12:30</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk">
+           Break 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">12:50</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Track 1
+          </div> 
+          <div class="pt-talk complexity-3"> 
+           <a class="event_talk_link" href="/en/2017/spb/talks/3niwvfzujkukcce0kgqooi/"> <strong>Deep convolutional networks for object detection and image segmentation</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/3niwvfzujkukcce0kgqooi/"> Sergey Nikolenko<br> <i class="text-muted">PDMI RAS</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Advanced_128_128.png" width="25" alt="For practicing engineers" title="For practicing engineers"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Track 2
+          </div> 
+          <div class="pt-talk complexity-2"> 
+           <a class="event_talk_link" href="/en/2017/spb/talks/hwncxtclswq6g68ksa8kw/"> <strong>Applied machine learning in e-commerce — scenarios and architectures of pilots and real-world projects</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/hwncxtclswq6g68ksa8kw/"> Alexander Serbul<br> <i class="text-muted">1C-Bitrix</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Intermediate_128_128.png" width="25" alt="Introduction to technology" title="Introduction to technology"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Track 3
+          </div> 
+          <div class="pt-talk complexity-3"> 
+           <a class="event_talk_link" href="/en/2017/spb/talks/6vyipohraegsmiqm2i2sok/"> <strong>Distributed ML on Big Data: recommender system building experience at ivi</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/6vyipohraegsmiqm2i2sok/"> Boris Shminke<br> <i class="text-muted">ivi</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Advanced_128_128.png" width="25" alt="For practicing engineers" title="For practicing engineers"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row pt-row-bg"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">13:40</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk">
+           Lunch 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">14:25</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Track 1
+          </div> 
+          <div class="pt-talk complexity-3"> 
+           <a class="event_talk_link" href="/en/2017/spb/talks/2slkmculqmyci8ysgaygsm/"> <strong>From click to predict and back: Data Science pipelines at Odnoklassniki</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/2slkmculqmyci8ysgaygsm/"> Dmitry Bugaychenko <br> <i class="text-muted">Odnoklassniki</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Advanced_128_128.png" width="25" alt="For practicing engineers" title="For practicing engineers"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Track 2
+          </div> 
+          <div class="pt-talk complexity-2"> 
+           <a class="event_talk_link" href="/en/2017/spb/talks/22mgoionxomowsccsosi6m/"> <strong>Back to the future of a modern banking system</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/22mgoionxomowsccsosi6m/"> Vladimir Krasilschik<br> <i class="text-muted">Yandex</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Intermediate_128_128.png" width="25" alt="Introduction to technology" title="Introduction to technology"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Track 3
+          </div> 
+          <div class="pt-talk complexity-3"> 
+           <a class="event_talk_link" href="/en/2017/spb/talks/h7fa9frvsekcyawoaasec/"> <strong>Deep Learning: Scene recognition and attractions recognition in the images</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/h7fa9frvsekcyawoaasec/"> Andrey Boyarov<br> <i class="text-muted">Mail.Ru Group</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Advanced_128_128.png" width="25" alt="For practicing engineers" title="For practicing engineers"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row pt-row-bg"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">15:15</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk">
+           Break 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">15:35</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Track 1
+          </div> 
+          <div class="pt-talk complexity-3"> 
+           <a class="event_talk_link" href="/en/2017/spb/talks/1aa3k7twzoukaci8e060ag/"> <strong>Segmenting 600 millions of users in real-time mode every day</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/1aa3k7twzoukaci8e060ag/"> Artem Marinov<br> <i class="text-muted">Directual</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Advanced_128_128.png" width="25" alt="For practicing engineers" title="For practicing engineers"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Track 2
+          </div> 
+          <div class="pt-talk complexity-2"> 
+           <a class="event_talk_link" href="/en/2017/spb/talks/7jjemhkene6ayeic8yqsqu/"> <strong>No data? No problem! Deep Learning with CGI</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/7jjemhkene6ayeic8yqsqu/"> Ivan Drokin<br> <i class="text-muted">BrainGarden</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Intermediate_128_128.png" width="25" alt="Introduction to technology" title="Introduction to technology"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Track 3
+          </div> 
+          <div class="pt-talk complexity-3"> 
+           <a class="event_talk_link" href="/en/2017/spb/talks/5fe6kggg7sowicic6mgemk/"> <strong>CatBoost — the next generation of gradient boosting</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/5fe6kggg7sowicic6mgemk/"> Anna Veronika Dorogush<br> <i class="text-muted">Yandex</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Advanced_128_128.png" width="25" alt="For practicing engineers" title="For practicing engineers"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row pt-row-bg"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">16:25</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk">
+           Break 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">16:45</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Track 1
+          </div> 
+          <div class="pt-talk complexity-3"> 
+           <a class="event_talk_link" href="/en/2017/spb/talks/h934vx14buocak6ga6ms2/"> <strong>Hadoop high availability: Badoo experience</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/h934vx14buocak6ga6ms2/"> Alexander Krasheninnikov<br> <i class="text-muted">Badoo</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Advanced_128_128.png" width="25" alt="For practicing engineers" title="For practicing engineers"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Track 2
+          </div> 
+          <div class="pt-talk complexity-3"> 
+           <a class="event_talk_link" href="/en/2017/spb/talks/4nmhnhvppquc2gwei6moaa/"> <strong>Lock, stock and two boosting barrels</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/4nmhnhvppquc2gwei6moaa/"> Alexey Natekin<br> <i class="text-muted">DM Labs, Arktur, Open Data Science</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Advanced_128_128.png" width="25" alt="For practicing engineers" title="For practicing engineers"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Track 3
+          </div> 
+          <div class="pt-talk complexity-2"> 
+           <a class="event_talk_link" href="/en/2017/spb/talks/4zpqewdanwuuogkssqyqsw/"> <strong>Automatic contact information extraction from the web</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/4zpqewdanwuuogkssqyqsw/"> Alexander Sibiryakov<br> <i class="text-muted">Scrapinghub</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Intermediate_128_128.png" width="25" alt="Introduction to technology" title="Introduction to technology"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row pt-row-bg"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">17:35</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk">
+           Break 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">17:50</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk"> 
+          <div class="pt__legend">
+           Track 1
+          </div> 
+          <div class="pt-talk complexity-2"> 
+           <a class="event_talk_link" href="/en/2017/spb/talks/1pgqaarotaqgokakgay2cm/"> <strong>Neurona: why we taught a neural network to write poems in Kurt Cobain style</strong> </a> 
+          </div> 
+          <div class="pt-speaker"> 
+           <div class="pt-speaker-wrap"> 
+            <div class="pt-speaker-info"> 
+             <a class="event_talk_link" href="/2017/spb/talks/1pgqaarotaqgokakgay2cm/"> Ivan Yamschikov<br> <i class="text-muted">The Max Planck Institute, Leipzig, Germany / Creaited Labs</i> </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="text-lg-right cell-helper"> 
+           <span class=""> <img src="/assets/images/complexity/Intermediate_128_128.png" width="25" alt="Introduction to technology" title="Introduction to technology"> </span> 
+           <span class="cell-lang"> RU </span> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pt-row pt-row-bg"> 
+       <div class="pt-col-time pt-cell"> 
+        <span class="event__time">18:40</span> 
+       </div> 
+       <div class="pt-cell"> 
+        <div class="pt-col-talks"> 
+         <div class="pt-col-talk">
+           Conference closing 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="text-center"> 
+   <a href="/tickets/" class="btn">Купить билет</a> 
+  </div> 
+ </section> 
+ <div class="main-wrap"> 
+  <div class="container mt-3"> 
+   <div class="row"> 
+    <h2 class="mb-3">Speakers</h2> 
+   </div> 
+   <div class="row"> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="5KhqVcjnFKSOC4GOqWuIKC"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/4QkUdERtD22kmIIMOWQaQ2/315245ea197b487796a1bb948d836299/_______________________.jpg?w=320" alt="Иван Ямщиков"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Ivan Yamschikov</span> 
+       <br> 
+       <span class="speaker__company">The Max Planck Institute, Leipzig, Germany / Creaited Labs</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="5KhqVcjnFKSOC4GOqWuIKC" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Ivan Yamschikov<br><small>The Max Planck Institute, Leipzig, Germany / Creaited Labs</small></h3> 
+     <div class="speaker-modal-info"> 
+      <p>Analyst at Yandex since 2011. Got PhD in applied mathematics at Brandenburg University of Technology (Cottbus, Germany). Is currently a research associate at Max Planck Institute (Leipzig, Germany) and a consultant at Yandex. Ivan is studying new AI work principles which could help us to understand how our brain works.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="5m513GFbSowY4uAEQWmo8S"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/GbWKsVdNo4s2Oc6qeK2CS/d3b0edaa840099775517bc385f9e6d55/pd7ekrkWmdc.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/GbWKsVdNo4s2Oc6qeK2CS/d3b0edaa840099775517bc385f9e6d55/pd7ekrkWmdc.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/GbWKsVdNo4s2Oc6qeK2CS/d3b0edaa840099775517bc385f9e6d55/pd7ekrkWmdc.jpg?w=640 2x" alt="Виталий Худобахшов "> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Vitaly Khudobakhshov </span> 
+       <br> 
+       <span class="speaker__company">Odnoklassniki</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="5m513GFbSowY4uAEQWmo8S" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Vitaly Khudobakhshov <br><small>Odnoklassniki</small></h3> 
+     <a href="https://twitter.com/khudobakhshov " target="_blank"><i class="icon-twitter"></i> khudobakhshov </a> 
+     <div class="speaker-modal-info"> 
+      <p>Graduated from Physics Department of St. Petersburg State University. His experience with Java dates back from the version 1.1. For many years was an Assistant Professor in St. Petersburg State University and taught computer science and mathematics courses. From 2015 is a Senior Analyst in Odnoklassniki, deals with various aspects of data mining and machine learning. Has been involved with functional programming for many years and outside of the main job and Java stack is also a Haskell programmer. For data mining purposes uses both Spark/Scala and R programming language.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="2JiC2BCcEwYMc024QuKIy6"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/1M39lPnS8QE6a8O6meagw8/056edf59fb1f24fca10414ad3d02c16e/Dorogush.JPG?w=320" srcset="//images.contentful.com/oxjq45e8ilak/1M39lPnS8QE6a8O6meagw8/056edf59fb1f24fca10414ad3d02c16e/Dorogush.JPG?w=320 1x, //images.contentful.com/oxjq45e8ilak/1M39lPnS8QE6a8O6meagw8/056edf59fb1f24fca10414ad3d02c16e/Dorogush.JPG?w=640 2x" alt="Анна Вероника Дорогуш"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Anna Veronika Dorogush</span> 
+       <br> 
+       <span class="speaker__company">Yandex</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="2JiC2BCcEwYMc024QuKIy6" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Anna Veronika Dorogush<br><small>Yandex</small></h3> 
+     <div class="speaker-modal-info"> 
+      <p>Graduated from the Faculty of Computational Mathematics and Cybernetics of Lomonosov Moscow State University and the School of Data Analysis. Used to work at ABBYY, Microsoft, Bing, Google. Has been working at Yandex since 2015. Deals with machine learning algorithms problems.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="5Tetfd0IXCkA220MoGu0OQ"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/2O4Qx8ipx6OoAQo68eCoqI/f4f1073c3e1c7961606894aa970c8162/lkbjDcC0Cac.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/2O4Qx8ipx6OoAQo68eCoqI/f4f1073c3e1c7961606894aa970c8162/lkbjDcC0Cac.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/2O4Qx8ipx6OoAQo68eCoqI/f4f1073c3e1c7961606894aa970c8162/lkbjDcC0Cac.jpg?w=640 2x" alt="Владимир Красильщик "> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Vladimir Krasilschik</span> 
+       <br> 
+       <span class="speaker__company">Yandex</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="5Tetfd0IXCkA220MoGu0OQ" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Vladimir Krasilschik<br><small>Yandex</small></h3> 
+     <a href="https://twitter.com/dyer_the " target="_blank"><i class="icon-twitter"></i> dyer_the </a> 
+     <div class="speaker-modal-info"> 
+      <p>Vladimir graduated with honors from St. Petersburg Electrotechnical University "LETI" and has been developing software for governmental, educational and financial establishments, along with automobile and telecommunication concerns for 14 years. He is currently working as a Yandex.Market developer in St. Petersburg. Vladimir is a resident of Russian Java developers community JUG.ru and is a speaker at such conferences as JPoint, Joker, JBreak and PGDay.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="7wwry2Ay6QqYKYEKqmsWEY"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/6imR26ZkxqY2kq0USW8Cs6/65e1be5795390c4ac0d8c4605e59e942/potapov_a__1_.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/6imR26ZkxqY2kq0USW8Cs6/65e1be5795390c4ac0d8c4605e59e942/potapov_a__1_.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/6imR26ZkxqY2kq0USW8Cs6/65e1be5795390c4ac0d8c4605e59e942/potapov_a__1_.jpg?w=640 2x" alt="Алексей Потапов"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Alexey Potapov</span> 
+       <br> 
+       <span class="speaker__company">ITMO</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="7wwry2Ay6QqYKYEKqmsWEY" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Alexey Potapov<br><small>ITMO</small></h3> 
+     <div class="speaker-modal-info"> 
+      <p>Doctor of Science. Professor at the Department of Computer Photonics and Videomatics of ITMO University. 20 years of experience in R&amp;D and academic research projects in the fields of computer vision, pattern recognition, machine learning and artificial general intelligence with more than 130 scientific papers and 3 books. Current fields of interest are universal algorithmic intelligence, cognitive architectures, probabilistic programming and deep learning, especially including neuro-bayesian approach and meta-learning.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="14rsuXgmKqc8k2cAQAWaKg"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/2ZRF2U1IVyEoGsGQCgymOQ/59cc04b2aeef4dfcdaef25931d4cdd26/maxresdefault.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/2ZRF2U1IVyEoGsGQCgymOQ/59cc04b2aeef4dfcdaef25931d4cdd26/maxresdefault.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/2ZRF2U1IVyEoGsGQCgymOQ/59cc04b2aeef4dfcdaef25931d4cdd26/maxresdefault.jpg?w=640 2x" alt="Дмитрий Бугайченко "> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Dmitry Bugaychenko </span> 
+       <br> 
+       <span class="speaker__company">Odnoklassniki</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="14rsuXgmKqc8k2cAQAWaKg" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Dmitry Bugaychenko <br><small>Odnoklassniki</small></h3> 
+     <div class="speaker-modal-info"> 
+      <p>Graduated from St. Petersburg State University in 2004, got a PhD degree in the field of the formal logical methods in 2007. Spent almost 9 years in outsourcing without losing contact with the university and research community. Big data analysis at Odnoklassniki became for Dmitry a unique chance to combine theoretical knowledge and scientific foundation to the development of real and popular products. And this chance he gladly took advantage of by coming there in 2011.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="5Vn2EgaZxuWeQIQscUKy6C"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/258zKejGAAk82EoiM6Io0Y/b3994d4b5ef447ac0ceaef04c3375df9/amarinov__1_.png?w=320" srcset="//images.contentful.com/oxjq45e8ilak/258zKejGAAk82EoiM6Io0Y/b3994d4b5ef447ac0ceaef04c3375df9/amarinov__1_.png?w=320 1x, //images.contentful.com/oxjq45e8ilak/258zKejGAAk82EoiM6Io0Y/b3994d4b5ef447ac0ceaef04c3375df9/amarinov__1_.png?w=640 2x" alt="Артем Маринов"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Artem Marinov</span> 
+       <br> 
+       <span class="speaker__company">Directual</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="5Vn2EgaZxuWeQIQscUKy6C" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Artem Marinov<br><small>Directual</small></h3> 
+     <a href="https://twitter.com/onexdrk" target="_blank"><i class="icon-twitter"></i> onexdrk</a> 
+     <div class="speaker-modal-info"> 
+      <p>Has been into advertising technologies since 2013. The last two years was working at Data-Centric Alliance company as a DMP Facetz development leader. Is currently working at Directual company. Was previously involved in a couple of advertising projects development at Creara company. Works with BigData and high load. His main languages are Java and Scala. Has already more than 8 years experience in his profession.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="7eR7K4PkrY0sYAAq6MCIAe"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/3V0rjI6qxqC8aaQQcQ8KAu/20e4cf630d2af71fcd321afed1a453fa/______________1_.jpg?w=320" alt="Андрей Бояров"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Andrey Boyarov</span> 
+       <br> 
+       <span class="speaker__company">Mail.Ru Group</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="7eR7K4PkrY0sYAAq6MCIAe" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Andrey Boyarov<br><small>Mail.Ru Group</small></h3> 
+     <a href="https://twitter.com/andrew_bo_29" target="_blank"><i class="icon-twitter"></i> andrew_bo_29</a> 
+     <div class="speaker-modal-info"> 
+      <p>Research engineer at Mail.Ru Group since 2016. Graduated from the Mathematics and Mechanics Department of St. Petersburg State University. Now is studying there as a PhD student. Is engaged in questions connected with the application of methods of deep learning to solve problems of machine vision.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="Rf2KxYErySW0WEyGY2C2K"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/GgaijcWrw2K0ymGmkWmSm/421f5af0e722745fbbd6c9d29ab7bc0e/Nikolenko_Sergey.JPG?w=320" srcset="//images.contentful.com/oxjq45e8ilak/GgaijcWrw2K0ymGmkWmSm/421f5af0e722745fbbd6c9d29ab7bc0e/Nikolenko_Sergey.JPG?w=320 1x, //images.contentful.com/oxjq45e8ilak/GgaijcWrw2K0ymGmkWmSm/421f5af0e722745fbbd6c9d29ab7bc0e/Nikolenko_Sergey.JPG?w=640 2x" alt="Сергей Николенко"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Sergey Nikolenko</span> 
+       <br> 
+       <span class="speaker__company">PDMI RAS</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="Rf2KxYErySW0WEyGY2C2K" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Sergey Nikolenko<br><small>PDMI RAS</small></h3> 
+     <div class="speaker-modal-info"> 
+      <p>Researcher in the field of machine learning (deep learning, Bayesian methods, natural language processing and more) and analysis of algorithms (network algorithms, competitive analysis). Co-authored more than 100 research papers, several books, courses "Machine learning", "Deep learning", and others. Extensive experience with industrial projects (Neuromation, SolidOpinion, Surfingbird, Deloitte Analytics Institute).</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="42HXQo59K8meqqAEgWccwS"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/5ZD760WrioEOI2A6U0Ucqs/7fbd7991132ab27637302ed7c152dc4d/________________1_.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/5ZD760WrioEOI2A6U0Ucqs/7fbd7991132ab27637302ed7c152dc4d/________________1_.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/5ZD760WrioEOI2A6U0Ucqs/7fbd7991132ab27637302ed7c152dc4d/________________1_.jpg?w=640 2x" alt="Алексей Натёкин"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Alexey Natekin</span> 
+       <br> 
+       <span class="speaker__company">DM Labs, Arktur, Open Data Science</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="42HXQo59K8meqqAEgWccwS" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Alexey Natekin<br><small>DM Labs, Arktur, Open Data Science</small></h3> 
+     <div class="speaker-modal-info"> 
+      <p>Founder of a couple of projects with machine learning and data analysis. Dictator and coordinator at Open Data Science — the largest Data Scientists online community in Eastern Europe.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="6pt3X5YARqsiA8ugOio6YK"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/61thT59JwQEymcIGCyYEeo/9239092758c99b4d8c1bfa6ee7e0d104/009_DSCF2683__1_.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/61thT59JwQEymcIGCyYEeo/9239092758c99b4d8c1bfa6ee7e0d104/009_DSCF2683__1_.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/61thT59JwQEymcIGCyYEeo/9239092758c99b4d8c1bfa6ee7e0d104/009_DSCF2683__1_.jpg?w=640 2x" alt="Артём Григорьев"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Artem Grigoriev</span> 
+       <br> 
+       <span class="speaker__company">Yandex</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="6pt3X5YARqsiA8ugOio6YK" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Artem Grigoriev<br><small>Yandex</small></h3> 
+     <a href="https://twitter.com/ortemij" target="_blank"><i class="icon-twitter"></i> ortemij</a> 
+     <div class="speaker-modal-info"> 
+      <p>In Yandex since 2010. Currently a Group Head, Artem and the team are responsible for judgements retrieval infrastructure development, Yandex.Toloka crowdsourcing platform improvement and assessor services elaboration. Artem is a postgraduate at Mathematics &amp; Mechanics Department, SPbSU.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="2UKocYRbZeEcSKG04aSQce"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/2LRJVTpuSkeK8MsuusgkoU/d38f540625e7df931e6121b96b1c509d/serbul_a.jpg?w=320" alt="Александр Сербул"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Alexander Serbul</span> 
+       <br> 
+       <span class="speaker__company">1C-Bitrix</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="2UKocYRbZeEcSKG04aSQce" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Alexander Serbul<br><small>1C-Bitrix</small></h3> 
+     <a href="https://twitter.com/AlexSerbul" target="_blank"><i class="icon-twitter"></i> AlexSerbul</a> 
+     <div class="speaker-modal-info"> 
+      <p>Has been supervising the area of the integration and implementation quality control of OOO 1C-Bitrix, as well as AI direction, deep learning and big data, actively participates as an architect and developer in company's projects, connected with highload and fault tolerance (Bitrix 24). Is also consulting partners and clients about high load solutions architecture and effective usage of product clustering technologies 1C-Bitrix in the context of modern cloud services (Amazon Web Services, etc.). Alexander is into programming in Java for more than 15 years, along with system analysis and designing. Among his favourite books about programming, which have been tried out in real-world projects dozens of times, are: "Effective Java", "Java Concurrency in Practice". Some other books to read in your spare time: "Structured Computer Organization" (by Andrew S. Tanenbaum), "Advanced Programming in the UNIX Environment" (by Richard Stevens). Graduated from Don State Technical University in 1998. Used to work as a councilor at the Office of the President of Russia in Southern Federal District, at the South-west bank of Sberbank Russia, as a senior developer at the QSoft web-studio and as the head of the development department at the Softline Internet Trade company.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="1zAVPiaYtCkGCsEy8q4qiC"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/2It6FThbXiAu208W2uKWq8/53f7956ad8a397beca5cca2669f7a477/sibiryakov_a__1_.jpg?w=320" alt="Александр Сибиряков"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Alexander Sibiryakov</span> 
+       <br> 
+       <span class="speaker__company">Scrapinghub</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="1zAVPiaYtCkGCsEy8q4qiC" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Alexander Sibiryakov<br><small>Scrapinghub</small></h3> 
+     <div class="speaker-modal-info"> 
+      <p>Used to work for five years in Yandex in the search quality department, dealing with development of social and question answering search and annotations improvement. After that worked for two years on Avast! antivirus, developed an automatic processing of false positives. Is interested in problems of processing large amounts of data and informational retrieval.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="5TZixc9FDOUO8Q24cw26g6"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/22yTt9sCjiEcQ6wMCKYUYU/846c8bba0c16c80c1aac6daa80bb370b/drokin2__1_.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/22yTt9sCjiEcQ6wMCKYUYU/846c8bba0c16c80c1aac6daa80bb370b/drokin2__1_.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/22yTt9sCjiEcQ6wMCKYUYU/846c8bba0c16c80c1aac6daa80bb370b/drokin2__1_.jpg?w=640 2x" alt="Иван Дрокин"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Ivan Drokin</span> 
+       <br> 
+       <span class="speaker__company">BrainGarden</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="5TZixc9FDOUO8Q24cw26g6" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Ivan Drokin<br><small>BrainGarden</small></h3> 
+     <div class="speaker-modal-info"> 
+      <p>Graduated from the Department of Applied Mathematics and Control Processes of St. Petersburg State University with specialty of Applied Mathematics and Informatics, postgraduate course of System Analysis, Information Control and Processing. Professional interests include an application of deep learning to an analysis and processing of natural languages, images, video streams, as well as reinforcement learning and question-answering systems. Has a deep expertise in the areas of financial markets, hedge funds, bioinformatics, computational biology. He is currently a co-founder and chief science officer at Brain Garden, which specializes in developing and implementing of full cycle intelligent solutions.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="J4edrgnw4uq0mSo2qwWsQ"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/5NQWurVxIsKwwiQWG0e4cq/4cb919b124944d364c0a4ebd9c07df3c/__________________________.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/5NQWurVxIsKwwiQWG0e4cq/4cb919b124944d364c0a4ebd9c07df3c/__________________________.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/5NQWurVxIsKwwiQWG0e4cq/4cb919b124944d364c0a4ebd9c07df3c/__________________________.jpg?w=640 2x" alt="Александр Крашенинников"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Alexander Krasheninnikov</span> 
+       <br> 
+       <span class="speaker__company">Badoo</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="J4edrgnw4uq0mSo2qwWsQ" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Alexander Krasheninnikov<br><small>Badoo</small></h3> 
+     <div class="speaker-modal-info"> 
+      <p>The Head of DataTeam at Badoo. Deals with tool development for data processing within ETL, processing of various statistics and Hadoop infrastructure. Has more than 10 years experience in web-dev. To get a result can use a volatile mix of programming languages (Java, PHP, Go), databases (MySQL, Exasol) and technologies of distributed computing (Hadoop, Spark, Hive, Presto).</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="5vzPNB1yTKmAUAWME4kUY2"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/476woqfTFSi264060mICAa/e6814d1b300badce883f253096044aee/Mikhail_Kamalov__1_.JPG?w=320" srcset="//images.contentful.com/oxjq45e8ilak/476woqfTFSi264060mICAa/e6814d1b300badce883f253096044aee/Mikhail_Kamalov__1_.JPG?w=320 1x, //images.contentful.com/oxjq45e8ilak/476woqfTFSi264060mICAa/e6814d1b300badce883f253096044aee/Mikhail_Kamalov__1_.JPG?w=640 2x" alt="Михаил Камалов"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Mikhail Kamalov</span> 
+       <br> 
+       <span class="speaker__company">Epam Systems</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="5vzPNB1yTKmAUAWME4kUY2" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Mikhail Kamalov<br><small>Epam Systems</small></h3> 
+     <a href="https://twitter.com/MikhailKamalov" target="_blank"><i class="icon-twitter"></i> MikhailKamalov</a> 
+     <div class="speaker-modal-info"> 
+      <p>Analyst at EPAM Systems since 2016, Mikhail is responsible for NLP judgements and information retrieval project development. Graduated from the Faculty of Applied Mathematics and Control Processes of Saint Petersburg State University. Mikhail passed the internship at the Inria French National Research Institution. Nowadays he is a postgraduate at Faculty of Applied Mathematics and Control Processes, SPbSU.</p> 
+     </div> 
+    </div> 
+    <div class="speaker-index speaker-index-modal" data-remodal-target="3j8RlsVoxa0swkwIWggQsc"> 
+     <div class="people-card"> 
+      <div class="people-photo"> 
+       <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/62gHK5sJFuyM8UUUuEwaye/46049bb6b69c38b1009ec571b2368b93/Shminke_B__1_.png?w=320" srcset="//images.contentful.com/oxjq45e8ilak/62gHK5sJFuyM8UUUuEwaye/46049bb6b69c38b1009ec571b2368b93/Shminke_B__1_.png?w=320 1x, //images.contentful.com/oxjq45e8ilak/62gHK5sJFuyM8UUUuEwaye/46049bb6b69c38b1009ec571b2368b93/Shminke_B__1_.png?w=640 2x" alt="Борис Шминке"> 
+      </div> 
+      <div class="people-name-container"> 
+       <span class="speaker__name">Boris Shminke</span> 
+       <br> 
+       <span class="speaker__company">ivi</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="remodal" data-remodal-id="3j8RlsVoxa0swkwIWggQsc" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+     <h3>Boris Shminke<br><small>ivi</small></h3> 
+     <div class="speaker-modal-info"> 
+      <p>Graduated from Applied Mathematics and Physics Department of Moscow Aviation Institute. Worked for more than 5 years in the field of corporate data warehousing, BI and financial risk management. In 2015 started to work with Big Data at ivi where he leads the recommender system development team for about a year now.</p> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="show-all-talks"> 
+    <a href="/en/talks/" class="btn">All talks</a> 
+   </div> 
+  </div> 
+ </div> 
+ <section class="discussion-section"> 
+  <div class="discussion-photo"> 
+   <img src="/assets/images/discussions.jpg" alt="Discussion zone" class="discussion_photo"> 
+  </div> 
+  <div class="discussion-description"> 
+   <h2 class="discussion_title">Discussion zone</h2> 
+   <p>Do you know the feeling when you raise a hand to ask a question and the track owner announces: “There’s time left for one question only”. Of course, he doesn’t pick you to ask that question. And then the speaker disappears behind the doors of the speaker room. To make sure this situation never happens, we’re setting up dedicated discussion zones: special areas with a flip-chart for drawing, a couple of seats and an opportunity to pour a cup of coffee or two. The discussion zone opens right after the talk finishes. This is the place to chat with the speaker, ask questions about the talk or to get some advice on your projects.</p> 
+  </div> 
+ </section> 
+ <section class="sponsors main-wrap" id="sponsors"> 
+  <h2 class="sponsors-section_title">Sponsors</h2> 
+  <div class="sponsors-row"> 
+  </div> 
+  <h3 class="sponsors-section_title">Gold sponsors</h3> 
+  <div class="sponsors-row"> 
+   <div class="sponsor sponsor-gold"> 
+    <a href="https://sber-tech.com/#vacancies" target="_blank" onclick="trackOutboundLink('https://sber-tech.com/#vacancies'); return false;"> <img class="sponsor__logo" sizes="(max-width: 1920px) 100vw, 1920px" srcset="//images.contentful.com/oxjq45e8ilak/6f07XA535mIi2CMYoMk4Uc/47dd9639338240c0c362fbd375992c80/Sber_800_800.png?w=400 2x,
+                      //images.contentful.com/oxjq45e8ilak/6f07XA535mIi2CMYoMk4Uc/47dd9639338240c0c362fbd375992c80/Sber_800_800.png?w=200" src="//images.contentful.com/oxjq45e8ilak/6f07XA535mIi2CMYoMk4Uc/47dd9639338240c0c362fbd375992c80/Sber_800_800.png?w=200" alt="[object Object]"> </a> 
+   </div> 
+  </div> 
+  <h3 class="sponsors-section_title">Silver sponsors</h3> 
+  <div class="sponsors-row"> 
+   <div class="sponsor sponsor-silver"> 
+    <a href="http://www.epam-group.ru/careers" target="_blank" onclick="trackOutboundLink('http://www.epam-group.ru/careers'); return false;"> <img class="sponsor__logo" sizes="(max-width: 1920px) 100vw, 1920px" srcset="//images.contentful.com/oxjq45e8ilak/4RHeuQ7co0kS0qEmSsciSM/02c990b4422135038107ce3789618a8d/EPAM_800_800__2_.png?w=300 2x,
+                      //images.contentful.com/oxjq45e8ilak/4RHeuQ7co0kS0qEmSsciSM/02c990b4422135038107ce3789618a8d/EPAM_800_800__2_.png?w=150" src="//images.contentful.com/oxjq45e8ilak/4RHeuQ7co0kS0qEmSsciSM/02c990b4422135038107ce3789618a8d/EPAM_800_800__2_.png?w=150" alt="[object Object]"> </a> 
+   </div> 
+   <div class="sponsor sponsor-silver"> 
+    <a href="https://firstlinesoftware.ru/team/vacancy" target="_blank" onclick="trackOutboundLink('https://firstlinesoftware.ru/team/vacancy'); return false;"> <img class="sponsor__logo" sizes="(max-width: 1920px) 100vw, 1920px" srcset="//images.contentful.com/oxjq45e8ilak/1DcvwTewe4iEUkCwKIKuMW/364e0be9fd5a6ecf82de99c6c2cefb69/Firstline_800_800__1_.png?w=300 2x,
+                      //images.contentful.com/oxjq45e8ilak/1DcvwTewe4iEUkCwKIKuMW/364e0be9fd5a6ecf82de99c6c2cefb69/Firstline_800_800__1_.png?w=150" src="//images.contentful.com/oxjq45e8ilak/1DcvwTewe4iEUkCwKIKuMW/364e0be9fd5a6ecf82de99c6c2cefb69/Firstline_800_800__1_.png?w=150" alt="[object Object]"> </a> 
+   </div> 
+  </div> 
+  <div class="sponsors-row"> 
+  </div> 
+  <h3 class="sponsors-section_title">Information partner</h3> 
+  <div class="sponsors-row"> 
+   <div class="sponsor sponsor-info"> 
+    <a href="http://www.iksmedia.ru/" target="_blank" onclick="trackOutboundLink('http://www.iksmedia.ru/'); return false;"> <img class="sponsor__logo" sizes="(max-width: 1920px) 100vw, 1920px" srcset="//images.contentful.com/oxjq45e8ilak/419crObtQc0cga6AAqcSeq/7222ede179be3d7c7f755986be38b177/xmedia_800_800.png?w=280 2x,
+                      //images.contentful.com/oxjq45e8ilak/419crObtQc0cga6AAqcSeq/7222ede179be3d7c7f755986be38b177/xmedia_800_800.png?w=140" src="//images.contentful.com/oxjq45e8ilak/419crObtQc0cga6AAqcSeq/7222ede179be3d7c7f755986be38b177/xmedia_800_800.png?w=140" alt="[object Object]"> </a> 
+   </div> 
+   <div class="sponsor sponsor-info"> 
+    <a href="http://ai-community.com/" target="_blank" onclick="trackOutboundLink('http://ai-community.com/'); return false;"> <img class="sponsor__logo" sizes="(max-width: 1920px) 100vw, 1920px" srcset="//images.contentful.com/oxjq45e8ilak/2IqhsytebYI2QCYYSEIc8m/44778675d41f511f35a62d0e20cd61d7/ai_comm_800_800.png?w=280 2x,
+                      //images.contentful.com/oxjq45e8ilak/2IqhsytebYI2QCYYSEIc8m/44778675d41f511f35a62d0e20cd61d7/ai_comm_800_800.png?w=140" src="//images.contentful.com/oxjq45e8ilak/2IqhsytebYI2QCYYSEIc8m/44778675d41f511f35a62d0e20cd61d7/ai_comm_800_800.png?w=140" alt="[object Object]"> </a> 
+   </div> 
+  </div> 
+  <div class="sponsors-row"> 
+  </div> 
+ </section> 
+ <section class="program-committee main-wrap"> 
+  <h3 class="section__title">Program committee</h3> 
+  <div class="row"> 
+   <div class="speaker-index speaker-index-modal" data-remodal-target="4K4VAAVKoUKIA6SgoQ8acA"> 
+    <div class="people-card"> 
+     <div class="people-photo"> 
+      <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/2GVm4LVISQ2K0OOKo4eCwS/a40332a17da5dfe4ee2c22a41432eec4/poborchy3__1_.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/2GVm4LVISQ2K0OOKo4eCwS/a40332a17da5dfe4ee2c22a41432eec4/poborchy3__1_.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/2GVm4LVISQ2K0OOKo4eCwS/a40332a17da5dfe4ee2c22a41432eec4/poborchy3__1_.jpg?w=640 2x" alt="Роман Поборчий"> 
+     </div> 
+     <div class="people-name-container"> 
+      <span class="speaker__name">Roman Poborchy</span> 
+      <br> 
+      <span class="speaker__company">Independent consultant presentations</span> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="remodal" data-remodal-id="4K4VAAVKoUKIA6SgoQ8acA" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+    <h3>Roman Poborchy<br><small>Independent consultant presentations</small></h3> 
+    <div class="speaker-modal-info"> 
+     <p>Will be later</p> 
+    </div> 
+   </div> 
+   <div class="speaker-index speaker-index-modal" data-remodal-target="5m513GFbSowY4uAEQWmo8S"> 
+    <div class="people-card"> 
+     <div class="people-photo"> 
+      <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/GbWKsVdNo4s2Oc6qeK2CS/d3b0edaa840099775517bc385f9e6d55/pd7ekrkWmdc.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/GbWKsVdNo4s2Oc6qeK2CS/d3b0edaa840099775517bc385f9e6d55/pd7ekrkWmdc.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/GbWKsVdNo4s2Oc6qeK2CS/d3b0edaa840099775517bc385f9e6d55/pd7ekrkWmdc.jpg?w=640 2x" alt="Виталий Худобахшов "> 
+     </div> 
+     <div class="people-name-container"> 
+      <span class="speaker__name">Vitaly Khudobakhshov </span> 
+      <br> 
+      <span class="speaker__company">Odnoklassniki</span> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="remodal" data-remodal-id="5m513GFbSowY4uAEQWmo8S" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+    <h3>Vitaly Khudobakhshov <br><small>Odnoklassniki</small></h3> 
+    <a href="https://twitter.com/khudobakhshov " target="_blank"><i class="icon-twitter"></i> khudobakhshov </a> 
+    <div class="speaker-modal-info"> 
+     <p>Graduated from Physics Department of St. Petersburg State University. His experience with Java dates back from the version 1.1. For many years was an Assistant Professor in St. Petersburg State University and taught computer science and mathematics courses. From 2015 is a Senior Analyst in Odnoklassniki, deals with various aspects of data mining and machine learning. Has been involved with functional programming for many years and outside of the main job and Java stack is also a Haskell programmer. For data mining purposes uses both Spark/Scala and R programming language.</p> 
+    </div> 
+   </div> 
+   <div class="speaker-index speaker-index-modal" data-remodal-target="d0oViR4triOCGEm8sgMOq"> 
+    <div class="people-card"> 
+     <div class="people-photo"> 
+      <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/4E20kwaLq0OioaoMaysoyq/28b5d3c1b9286d244916a9ae92ffb303/OwUzyvLsQkY.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/4E20kwaLq0OioaoMaysoyq/28b5d3c1b9286d244916a9ae92ffb303/OwUzyvLsQkY.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/4E20kwaLq0OioaoMaysoyq/28b5d3c1b9286d244916a9ae92ffb303/OwUzyvLsQkY.jpg?w=640 2x" alt="Глеб Смирнов "> 
+     </div> 
+     <div class="people-name-container"> 
+      <span class="speaker__name">Gleb Smirnov</span> 
+      <br> 
+      <span class="speaker__company">Plumbr</span> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="remodal" data-remodal-id="d0oViR4triOCGEm8sgMOq" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+    <h3>Gleb Smirnov<br><small>Plumbr</small></h3> 
+    <a href="https://twitter.com/gvsmirnov" target="_blank"><i class="icon-twitter"></i> gvsmirnov</a> 
+    <div class="speaker-modal-info"> 
+     <p>Gleb specializes in developing highly performant fault-tolerant systems, including high frequency trading platforms. In his spare time, Gleb likes to dabble in the sources of OpenJDK and doing various horrible perversions with the JVM.\r\n\r\nFor the last two years, Gleb has been working at Plumbr on a state-of-the-art APM solution.</p> 
+    </div> 
+   </div> 
+   <div class="speaker-index speaker-index-modal" data-remodal-target="23z6kgZDLiiIoSM4YMeUmQ"> 
+    <div class="people-card"> 
+     <div class="people-photo"> 
+      <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/4C7bfU4gpO4qcGI8CiGucC/8159987353f454477df507b61a4c3ef9/______________________________2.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/4C7bfU4gpO4qcGI8CiGucC/8159987353f454477df507b61a4c3ef9/______________________________2.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/4C7bfU4gpO4qcGI8CiGucC/8159987353f454477df507b61a4c3ef9/______________________________2.jpg?w=640 2x" alt="Олег Анастасьев  "> 
+     </div> 
+     <div class="people-name-container"> 
+      <span class="speaker__name">Oleg Anastasiev </span> 
+      <br> 
+      <span class="speaker__company">Odnoklassniki</span> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="remodal" data-remodal-id="23z6kgZDLiiIoSM4YMeUmQ" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+    <h3>Oleg Anastasiev <br><small>Odnoklassniki</small></h3> 
+    <div class="speaker-modal-info"> 
+     <p>Oleg Anastasyev started his career in computer programming in 1995. He developed banking, telecom, public transportation software as well as software for the government of Latvia. Oleg is a leading developer at Odnoklassniki (<a href="http://ok.ru/">http://ok.ru/</a>) since 2007. His primary responsibilities as a Platform Team member are development of architectures and solutions for highly loaded as well as big data services, solving performance and availability problems. His last successful projects include NewSQL ACID compliant distributed fault-tolerant database and private cloud system to help manage the whole fleet of Odnoklassniki machines.</p> 
+    </div> 
+   </div> 
+   <div class="speaker-index speaker-index-modal" data-remodal-target="7Fuk0541RSOQGGsGsiCSI0"> 
+    <div class="people-card"> 
+     <div class="people-photo"> 
+      <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/41kRRZO2E0EgAgESu2Is8q/0eea39ff47655441f7d9bc66330b0641/FCBF0EE3-EDF1-453A-9A40-BEA9284711DF.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/41kRRZO2E0EgAgESu2Is8q/0eea39ff47655441f7d9bc66330b0641/FCBF0EE3-EDF1-453A-9A40-BEA9284711DF.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/41kRRZO2E0EgAgESu2Is8q/0eea39ff47655441f7d9bc66330b0641/FCBF0EE3-EDF1-453A-9A40-BEA9284711DF.jpg?w=640 2x" alt="Виктор Гамов "> 
+     </div> 
+     <div class="people-name-container"> 
+      <span class="speaker__name">Viktor Gamov </span> 
+      <br> 
+      <span class="speaker__company">Confluent</span> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="remodal" data-remodal-id="7Fuk0541RSOQGGsGsiCSI0" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+    <h3>Viktor Gamov <br><small>Confluent</small></h3> 
+    <a href="https://twitter.com/gamussa " target="_blank"><i class="icon-twitter"></i> gamussa </a> 
+    <div class="speaker-modal-info"> 
+     <p>Viktor Gamov is a Solution Architect at Confluent, the company behind the popular Apache Kafka streaming platform. Viktor has comprehensive knowledge and expertise in enterprise application architecture leveraging open source technologies and enjoys helping different organizations build low latency, scalable and highly available distributed systems. He is also co-organizer of Princeton JUG and a co-author of O’Reilly’s “Enterprise Web Development.” He is a professional conference speaker on Distributed Systems, Java, and JS topics, and is a regular at the most prestigious events including JPoint, Joker, JavaOne, Devoxx, OSCON, Qcon and others (<a href="http://lanyrd.com/gamussa">http://lanyrd.com/gamussa</a>), blogging (<a href="http://gamov.io">http://gamov.io</a>) and producing podcasts “Razbor Poletov” (in Russian) and DevRelRad.io. Follow Viktor on Twitter @gamussa.</p> 
+    </div> 
+   </div> 
+   <div class="speaker-index speaker-index-modal" data-remodal-target="J0OX29rrywsykoM8cIyM6"> 
+    <div class="people-card"> 
+     <div class="people-photo"> 
+      <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/312XGAlWrCqcIOIMQ8U8o0/c03ab7fe0e75964c0cd707e3d20233f0/__________________________________1.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/312XGAlWrCqcIOIMQ8U8o0/c03ab7fe0e75964c0cd707e3d20233f0/__________________________________1.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/312XGAlWrCqcIOIMQ8U8o0/c03ab7fe0e75964c0cd707e3d20233f0/__________________________________1.jpg?w=640 2x" alt="Алексей Зиновьев "> 
+     </div> 
+     <div class="people-name-container"> 
+      <span class="speaker__name">Alexey Zinoviev </span> 
+      <br> 
+      <span class="speaker__company">EPAM</span> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="remodal" data-remodal-id="J0OX29rrywsykoM8cIyM6" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+    <h3>Alexey Zinoviev <br><small>EPAM</small></h3> 
+    <div class="speaker-modal-info"> 
+     <p>Alexey is a Java/BigData trainer in EPAM. He is an independent expert in machine learning. Alexey loves text data and big graphs.</p> 
+    </div> 
+   </div> 
+   <div class="speaker-index speaker-index-modal" data-remodal-target="3nboKUkWk8mK4wuyqwGQiY"> 
+    <div class="people-card"> 
+     <div class="people-photo"> 
+      <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/in6VFbfEe4AsoGKM8uY0Y/388706a3e701499722cf6b415796878e/Nevolin_R.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/in6VFbfEe4AsoGKM8uY0Y/388706a3e701499722cf6b415796878e/Nevolin_R.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/in6VFbfEe4AsoGKM8uY0Y/388706a3e701499722cf6b415796878e/Nevolin_R.jpg?w=640 2x" alt="Роман Неволин"> 
+     </div> 
+     <div class="people-name-container"> 
+      <span class="speaker__name">Roman Nevolin</span> 
+      <br> 
+      <span class="speaker__company">EPAM Systems</span> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="remodal" data-remodal-id="3nboKUkWk8mK4wuyqwGQiY" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+    <h3>Roman Nevolin<br><small>EPAM Systems</small></h3> 
+    <div class="speaker-modal-info"> 
+     <p>Software engineer working with data in scientific projects in EPAM. Roman is engaged in research in the field of machine learning and develops machine learning tools.</p> 
+    </div> 
+   </div> 
+   <div class="speaker-index speaker-index-modal" data-remodal-target="257Ie5gZvKGke0yy8ee8Is"> 
+    <div class="people-card"> 
+     <div class="people-photo"> 
+      <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/3XFYYmEjcsCYuKMwewgGEU/e5703e1ea0a26574f8b0cc8b5a59e8bb/__________________________________1.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/3XFYYmEjcsCYuKMwewgGEU/e5703e1ea0a26574f8b0cc8b5a59e8bb/__________________________________1.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/3XFYYmEjcsCYuKMwewgGEU/e5703e1ea0a26574f8b0cc8b5a59e8bb/__________________________________1.jpg?w=640 2x" alt="Владимир Ситников"> 
+     </div> 
+     <div class="people-name-container"> 
+      <span class="speaker__name">Vladimir Sitnikov</span> 
+      <br> 
+      <span class="speaker__company">NetCracker</span> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="remodal" data-remodal-id="257Ie5gZvKGke0yy8ee8Is" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+    <h3>Vladimir Sitnikov<br><small>NetCracker</small></h3> 
+    <div class="speaker-modal-info"> 
+     <p>Vladimir has been working on performance and scalability of NetCracker platform (A software used by telecom operators for automatization of network management processes and network equipment) for ten years. His focus is Java and Oracle Database performance optimisations. Vladimir is an author of more than a dozen of performance improvements in the official PostgreSQL JDBC driver.</p> 
+    </div> 
+   </div> 
+   <div class="speaker-index speaker-index-modal" data-remodal-target="30qtUqOi6Q4kkWU4AO4SUU"> 
+    <div class="people-card"> 
+     <div class="people-photo"> 
+      <img class="people__image" src="//images.contentful.com/oxjq45e8ilak/7DpeiuR8tiyMoAGQAoSMke/9939d85150392a6fc9c0d1ab69ed66ec/ucehpB5X3PI.jpg?w=320" srcset="//images.contentful.com/oxjq45e8ilak/7DpeiuR8tiyMoAGQAoSMke/9939d85150392a6fc9c0d1ab69ed66ec/ucehpB5X3PI.jpg?w=320 1x, //images.contentful.com/oxjq45e8ilak/7DpeiuR8tiyMoAGQAoSMke/9939d85150392a6fc9c0d1ab69ed66ec/ucehpB5X3PI.jpg?w=640 2x" alt="Андрей Дмитриев"> 
+     </div> 
+     <div class="people-name-container"> 
+      <span class="speaker__name">Andrey Dmitriev</span> 
+      <br> 
+      <span class="speaker__company">JUG.ru</span> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="remodal" data-remodal-id="30qtUqOi6Q4kkWU4AO4SUU" role="dialog" aria-labelledby="modal2Title" aria-describedby="modal2Desc"> 
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button> 
+    <h3>Andrey Dmitriev<br><small>JUG.ru</small></h3> 
+    <a href="https://twitter.com/it_improve" target="_blank"><i class="icon-twitter"></i> it_improve</a> 
+    <div class="speaker-modal-info"> 
+     <p>Andrey graduated from SPbU "Mathematics and Mechanics" faculty. He was developing a graphical stack of JDK libraries (AWT / Swing / JavaFX) for few years in Sun and Oracle. Andrey supervised the development team in QuickOffice, was responsible for the functionality QuickPoint component, worked as a manager of load testing group in NetCracker.</p> 
+     <p>Currently, Andrey is the program director and organizer of JUG.ru Group conferences, Java-conferences JPoint, Joker and JBreak, JUG.ru and CodeFreeze community\' meetings in St. Petersburg and Moscow.</p> 
+    </div> 
+   </div> 
+  </div> 
+ </section> 
+ <section class="contacts" id="contacts"> 
+  <div class="container"> 
+   <div class="contacts-wrap"> 
+    <h2 class="contacts__title">Contacts</h2> 
+    <ul class="contacts-list"> 
+     <li class="contact__item"> <span class="contact__title">Tickets</span> <a href="mailto:tickets@smartdataconf.ru" class="contact__link">tickets@smartdataconf.ru</a> </li> 
+     <li class="contact__item"> <span class="contact__title">Program</span> <a href="mailto:program@smartdataconf.ru" class="contact__link">program@smartdataconf.ru</a> </li> 
+     <li class="contact__item"> <span class="contact__title">Sponsorship</span> <a href="mailto:sponsors@smartdataconf.ru" class="contact__link">sponsors@smartdataconf.ru</a> </li> 
+     <li class="contact__item"> <span class="contact__title">Partnership</span> <a href="mailto:partners@smartdataconf.ru" class="contact__link">partners@smartdataconf.ru</a> </li> 
+     <li class="contact__item"> <span class="contact__title">Questions</span> <a href="mailto:questions@smartdataconf.ru" class="contact__link">questions@smartdataconf.ru</a> </li> 
+     <li class="contact__item"> <span class="contact__title">Site</span> <a href="mailto:site@smartdataconf.ru" class="contact__link">site@smartdataconf.ru</a> </li> 
+    </ul> 
+   </div> 
+   <div class="contacts-map"> 
+    <div id="map" style="width:100%; height:100%"> 
+     <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A56082fc1bf512f9af6bf91e4a7a2c6a58a2f27db1395412879e2ef6717315b0a&amp;lang=en&amp;scroll=true"></script> 
+    </div> 
+   </div> 
+  </div> 
+ </section> 
+ <div class="container"> 
+  <footer class="footer"> 
+   <div class="footer-widgets"> 
+    <div class="footer-text"> 
+     <a href="/"> SmartData </a> 
+     <div class="footer-about"> 
+      <p>The conference is devoted to Big Data world and technical aspects of data processing.</p> 
+     </div> 
+    </div> 
+    <div class="footer-nav"> 
+     <h5 class="footer_title"> Menu </h5> 
+     <ul class="nav-footer"> 
+      <li class="nav-item"> <a href="/en/#about" class="nav_link"> About </a> </li> 
+      <li class="nav-item"> <a href="/en/#schedule" class="nav_link"> Schedule </a> </li> 
+      <li class="nav-item"> <a href="/en/#sponsors" class="nav_link"> Sponsors </a> </li> 
+      <li class="nav-item"> <a href="#contacts" class="nav_link"> Contacts </a> </li> 
+      <li class="nav-item"> <a href="https://jugru.org/privacy_policy.html" target="_blank">Privacy policy</a> </li> 
+     </ul> 
+    </div> 
+    <div class="footer-nav"> 
+     <h5 class="footer_title"> Our conferences </h5> 
+     <ul class="nav-footer"> 
+      <li class="nav-item"> <a href="https://dotnext-piter.ru/en/" class="nav_link" target="_blank"> DotNext </a> </li> 
+      <li class="nav-item"> <a href="https://holyjs-piter.ru/en/" class="nav_link" target="_blank"> HolyJS </a> </li> 
+      <li class="nav-item"> <a href="https://heisenbug-piter.ru/en/" class="nav_link" target="_blank"> Heisenbug </a> </li> 
+      <li class="nav-item"> <a href="https://mobiusconf.com/en/" class="nav_link" target="_blank"> Mobius </a> </li> 
+      <li class="nav-item"> <a href="https://2017.jbreak.ru/en/" class="nav_link" target="_blank"> JBreak </a> </li> 
+      <li class="nav-item"> <a href="https://jokerconf.com/en/" class="nav_link" target="_blank"> Joker </a> </li> 
+      <li class="nav-item"> <a href="https://jpoint.ru/en/" class="nav_link" target="_blank"> JPoint </a> </li>
+     </ul> 
+    </div> 
+    <div class="footer-contacts"> 
+     <h5 class="footer_title">Social links</h5> 
+     <ul class="nav nav-footer"> 
+      <li class="nav-item"> <a class="nav-link pa-0" href="https://fb.me/smartdataconf" target="_blank"> <i class="icon-facebook"></i><span class="hidden-sm-down">SmartData</span> </a> </li> 
+      <li class="nav-item"> <a class="nav-link pa-0" href="https://vk.com/smartdata " target="_blank"> <i class="icon-vkontakte"></i><span class="hidden-sm-down">SmartData</span> </a> </li> 
+      <li class="nav-item"> <a class="nav-link pa-0" href="https://twitter.com/smartdatacon" target="_blank"> <i class="icon-twitter"></i><span class="hidden-sm-down">@SmartDataCon</span> </a> </li> 
+      <li class="nav-item"> <a class="nav-link pa-0" href="https://t.me/smartdataconf" target="_blank"> <i class="icon-telegram"></i><span class="hidden-sm-down">SmartData Telegram</span> </a> </li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="copyright"> 
+    <p>© SmartData</p> 
+   </div> 
+  </footer> 
+ </div> 
+ <script src="/assets/vendor.js"></script> 
+ <script src="/assets/app.js"></script> 
+ <script>
+    (function(win) {
+      'use strict';
+      var DRAWER_ATTR = 'right-drawer';
+      var pdp = document.getElementById('paperDrawerPanel');
+      win.flipDrawer = function() {
+        pdp.rightDrawer = !pdp.rightDrawer;
+      }
+      win.toogleDrawer = function() {
+        pdp.togglePanel();
+      };
+    }(this));
+  </script> 
+ <script>
+    window.addEventListener("load", function(){
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#000"
+          },
+          "button": {
+            "background": "#1779ba"
+          }
+        },
+        "position": "bottom-right",
+        "content": {
+          "message": "Cookies help us improve our web content and deliver a personalized experience. By using this website, you agree to our use of cookies.",
+          "dismiss": "Got it!",
+          "link": "Learn more...",
+          "href": "https://jugru.org/privacy_policy.html#7.1.5"
+        }
+      })});
+  </script> 
+ <script src="/cookieconsent.min.js"></script>  
+</body>

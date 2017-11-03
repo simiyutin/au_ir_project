@@ -1,0 +1,123 @@
+<body>
+ <div>
+  <script>window.TM_APP_INITIAL_STATE = {"settings":{"geektimes":true,"habrahabr":true,"height":500,"heightStyle":"500px"},"toplink":{"links":[{"color":"#3c86ee","title":"Чемпионат по AI","url":"https://bit.ly/2fkIOqX"},{"color":"#32CD32","title":"Умный стол","url":"https://u.tmtm.ru/gAay2"},{"color":"#13A9BA","title":"Валютный контроль   ","url":"https://u.tmtm.ru/EU0Qs"}],"loaded":true}}</script>
+  <div id="app">
+   <div class="tm-layout">
+    <div class="tm-toppanel">
+     <div class="tm-toppanel__inner">
+      <div class="tm-toppanel__links">
+       <a href="http://tmfeed.ru/?utm_source=tm_tmfeed&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo" class="tm-toppanel__link tm-toppanel__link_current"> TM Feed </a>
+       <a href="http://habrahabr.ru?utm_source=tm_tmfeed&amp;amp;utm_medium=tm_top_panel&amp;amp;utm_campaign=tm_promo" class="tm-toppanel__link"> Хабрахабр </a>
+       <a href="http://geektimes.ru?utm_source=tm_tmfeed&amp;amp;utm_medium=tm_top_panel&amp;amp;utm_campaign=tm_promo" class="tm-toppanel__link"> Geektimes </a>
+       <a href="http://toster.ru?utm_source=tm_tmfeed&amp;amp;utm_medium=tm_top_panel&amp;amp;utm_campaign=tm_promo" class="tm-toppanel__link"> Тостер </a>
+       <a href="http://moikrug.ru?utm_source=tm_tmfeed&amp;amp;utm_medium=tm_top_panel&amp;amp;utm_campaign=tm_promo" class="tm-toppanel__link"> Мой круг </a>
+       <a href="http://freelansim.ru?utm_source=tm_tmfeed&amp;amp;utm_medium=tm_top_panel&amp;amp;utm_campaign=tm_promo" class="tm-toppanel__link"> Фрилансим </a>
+      </div> 
+      <div class="tm-megaposts-links">
+       <div class="tm-megaposts-links__title">
+        Мегапосты:
+       </div> 
+       <div class="tm-megaposts-links__links">
+        <a href="https://bit.ly/2fkIOqX" class="tm-megaposts-links__link" style="color:#3c86ee;">Чемпионат по AI</a>
+        <a href="https://u.tmtm.ru/gAay2" class="tm-megaposts-links__link" style="color:#32CD32;">Умный стол</a>
+        <a href="https://u.tmtm.ru/EU0Qs" class="tm-megaposts-links__link" style="color:#13A9BA;">Валютный контроль </a>
+       </div>
+      </div> 
+      <span class="tm-top-banner">
+       <div id="adriver_banner_465568687"></div></span>
+     </div>
+    </div> 
+    <div class="tm-layout-container">
+     <div class="tm-header">
+      <div class="tm-header__inner">
+       <div class="tm-header__logo-wrapper">
+        <a href="/" class="tm-header__logo"></a>
+       </div> 
+       <div class="tm-header__filter">
+        <!----> 
+        <div class="tm-filter">
+         <a href="/settings/?ignore=habrahabr">
+          <div class="tm-checkbox tm-checkbox_checked">
+           <span class="tm-checkbox__box"></span> 
+           <span class="tm-checkbox__label"> Хабрахабр </span>
+          </div></a> 
+         <a href="/settings/?ignore=geektimes">
+          <div class="tm-checkbox tm-checkbox_checked">
+           <span class="tm-checkbox__box"></span> 
+           <span class="tm-checkbox__label"> Geektimes </span>
+          </div></a>
+        </div>
+       </div> 
+       <div class="tm-header__nav">
+        <div class="tm-header__nav-inner">
+         <div class="tm-header__tabs">
+          <div class="tm-nav">
+           <div class="tm-tabs">
+            <a href="/popular/day"><span class="tm-tab"> Лучшие </span></a>
+            <a href="/all"><span class="tm-tab"> Все подряд </span></a>
+           </div>
+          </div>
+         </div> 
+         <div class="tm-header__burger">
+          <div class="tm-burger tm-burger_active">
+           <div class="tm-burger__icon"></div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div> 
+     <div class="tm-layout-main">
+      <!----> 
+      <!----> 
+      <!----> 
+      <!----> 
+      <!---->
+     </div> 
+     <div class="tm-settings" style="height:500px;">
+      <div class="tm-settings__inner">
+       <div class="tm-settings__title-wrapper">
+        <div class="tm-settings__title">
+         Источники:
+        </div>
+       </div> 
+       <div class="tm-settings__content">
+        <div class="tm-checkbox tm-checkbox_checked">
+         <span class="tm-checkbox__box"></span> 
+         <span class="tm-checkbox__label"> Хабрахабр </span>
+        </div> 
+        <div class="tm-checkbox tm-checkbox_checked">
+         <span class="tm-checkbox__box"></span> 
+         <span class="tm-checkbox__label"> Geektimes </span>
+        </div>
+       </div> 
+       <div class="tm-settings__submit-wrapper">
+        <div class="tm-settings__submit">
+         Сохранить
+        </div>
+       </div>
+      </div>
+     </div>
+    </div> 
+    <div class="tm-footer tm-footer_dark tm-footer_narrow">
+     <div class="tm-footer__inner">
+      <div class="tm-footer-copyright">
+       <a href="https://tmtm.ru" target="_blank" class="tm-tmlogo"></a> 
+       <span class="tm-copyright"><span class="tm-copyright__years"> 2006 — 2017 </span> <span class="tm-copyright__name"> «<a href="https://tmtm.ru" target="_blank" class="tm-copyright__link">TM</a>» </span></span>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <script>(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter28095615 = new Ya.Metrika({id:28095615, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script>
+ <noscript>
+  <img src="//mc.yandex.ru/watch/28095615" style="position:absolute; left:-9999px;" alt="">
+ </noscript> 
+ <!-- Vue rendering --> 
+ <!-- 131.825558 since request --> 
+ <!-- 131.825558 since last milestone --> 
+ <!-- Express rendering --> 
+ <!-- 131.922073 since request --> 
+ <!-- 0.09651500000001079 since last milestone --> 
+</body>

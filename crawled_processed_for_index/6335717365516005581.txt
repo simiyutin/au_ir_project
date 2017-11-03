@@ -1,0 +1,44 @@
+<body class="logged-out"> 
+ <div class="app-layout"> 
+  <div class="nli-menu__logo"> 
+   <div class="logo-holder logo-animation"> 
+    <div class="logo-left-arm logo-animation"></div> 
+    <div class="logo-body-left logo-animation"></div> 
+    <div class="logo-body-right logo-animation"></div> 
+    <div class="logo-right-arm logo-animation"></div> 
+   </div> 
+   <img class="nli-menu__logo-text" src="//cdn03.gitter.im/_s/708c5ff/images/gitter-vector-logo.svg"> 
+  </div> 
+  <nav class="nli-menu"> 
+   <h1 class="nli-menu__header"> Where communities thrive </h1> 
+   <h2 class="nli-menu__features-header"> Free for communities </h2> 
+   <dl class="nli-menu__features"> 
+    <dd>
+     Join over 
+     <strong>800K+ people</strong>
+    </dd> 
+    <dd>
+     Join over 
+     <strong>90K+ communities</strong>
+    </dd> 
+    <dd>
+     Create 
+     <strong>your own community</strong>
+    </dd> 
+   </dl> 
+   <dl class="nli-menu__features"> 
+    <dd>
+     <a href="/explore">Explore more communities</a>
+    </dd> 
+   </dl> 
+   <small class="nli-menu__footer">Browser, <a href="/apps">Desktop</a> and <a href="/apps">Mobile</a> Apps.</small> 
+  </nav> 
+  <div id="iframe-region" class="iframe-region"> 
+   <iframe id="content-frame" src="/apacheignite/ignite/~chat#initial" style="display: block; width: 100%; height: 100%; border: 0;" frameborder="0"></iframe> 
+  </div> 
+ </div> 
+ <script type="text/javascript">window.gitterClientEnv = {"lang":"en","domain":"gitter.im","baseServer":"gitter.im","basePath":"https://gitter.im","apiBasePath":"https://gitter.im/api","homeUrl":"/","badgeBaseUrl":"https://badges.gitter.im","googleTrackingId":"UA-45918290-1","googleTrackingDomain":"gitter.im","env":"prod","cdns":["cdn01.gitter.im","cdn02.gitter.im","cdn03.gitter.im"],"version":"708c5f","assetTag":"708c5ff","logging":false,"ravenUrl":"https://0f50f03f994740328ab6a67c82395948@app.getsentry.com/19257","websockets":{"fayeUrl":"https://ws.gitter.im/bayeux","options":{"timeout":120,"retry":2}},"avatarsUrl":"https://avatars.gitter.im","avatarCdns":["https://avatars-01.gitter.im","https://avatars-02.gitter.im","https://avatars-03.gitter.im","https://avatars-04.gitter.im","https://avatars-05.gitter.im"],"embed":{"basepath":"https://embed.gitter.im","cacheBuster":"1"},"vapidAppServerKey":"BMhrlZd_I5OFJSJQTbg2mZ5PTHarzenwsKfsRd8C0-HRBygpDj9O3M4VTJIQfB9VPDjAoO_w2eg7Sj_cMXzuLwI","headlineNumbers":{"gitterUsers":"800K+","gitterRooms":"300K+","gitterGroups":"90K+","gitterCountries":"100+"}};window.troupeContext = {"accessToken":"$j5WPsdIBZiJaL5JnvHRUtha++GwvKmPg2Z/hBZuMLOY=","isNativeDesktopApp":false,"locale":{"%d unread message":{"one":"%d unread message","other":"%d unread messages"},"Unread messages in %%s, %%s and one other":{"one":"Unread messages in %%s, %%s and one other","other":"Unread messages in %%s, %%s and %d others"},"Unread messages in %s":"Unread messages in %s","Unread messages in %s and %s":"Unread messages in %s and %s","Unread messages from %s":"Unread messages from %s","Unread messages from %s and %s":"Unread messages from %s and %s","Unread messages from %%s, %%s and one other":{"one":"Unread messages from %%s, %%s and one other","other":"Unread messages from %%s, %%s and %d others"}},"features":[],"roomMember":false,"user":null,"group":{"id":"57542d11c43b8c601977946e","name":"apacheignite","uri":"apacheignite","homeUri":"apacheignite/home","backedBy":{"type":"GH_ORG","linkPath":"apacheignite"},"avatarUrl":"https://avatars-04.gitter.im/group/iv/3/57542d11c43b8c601977946e"},"troupe":{"id":"565b800916b6c7089cbca098","name":"apacheignite/ignite","topic":"Mirror of Apache Ignite","avatarUrl":"https://avatars-04.gitter.im/group/iv/3/57542d11c43b8c601977946e","uri":"apacheignite/ignite","userCount":565,"url":"/apacheignite/ignite","githubType":"REPO","associatedRepo":"apacheignite/ignite","security":"PUBLIC","groupId":"57542d11c43b8c601977946e","group":{"id":"57542d11c43b8c601977946e","name":"apacheignite","uri":"apacheignite","homeUri":"apacheignite/home","backedBy":{"type":"GH_ORG","linkPath":"apacheignite"},"avatarUrl":"https://avatars-04.gitter.im/group/iv/3/57542d11c43b8c601977946e"},"backend":{"type":"GH_REPO","linkPath":"apacheignite/ignite"},"public":true},"suggestedRoomsHidden":null,"leftRoomMenuState":{"state":"org","groupId":"57542d11c43b8c601977946e","hasDismissedSuggestions":null,"roomMenuIsPinned":null},"snapshots":{"leftMenu":{"state":"org","groupId":"57542d11c43b8c601977946e","hasDismissedSuggestions":null,"roomMenuIsPinned":null},"allRooms":[],"groups":[]}};</script> 
+ <script type="text/javascript">window.webpackPublicPath = '//cdn02.gitter.im/_s/708c5ff/js/';</script>
+ <script type="text/javascript" src="//cdn02.gitter.im/_s/708c5ff/js/vendor.js"></script>
+ <script type="text/javascript" src="//cdn03.gitter.im/_s/708c5ff/js/router-nli-app.js"></script>  
+</body>

@@ -1,0 +1,530 @@
+https://jpoint.ru/
+<body data-function=""> 
+ <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function()
+    {n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)}
+    ;if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+      document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1067365970024945');
+    fbq('track', 'PageView');
+  </script> 
+ <noscript>
+  <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1067365970024945&amp;ev=PageView&amp;noscript=1">
+ </noscript> 
+ <paper-drawer-panel id="paperDrawerPanel" force-narrow> 
+  <div drawer> 
+   <aside class="drawer-aside"> 
+    <a class="nav__link nav__link--drawer " href="/#about"> О конференции </a> 
+    <a class="nav__link nav__link--drawer " href="/talks/"> Доклады </a> 
+    <a class="nav__link nav__link--drawer " href="/callforpapers/"> Подать доклад </a> 
+    <a class="nav__link nav__link--drawer " href="/organizers/"> Организаторы </a> 
+    <a class="nav__link nav__link--drawer " href="#contacts"> Контакты </a> 
+    <a href="/en/" class="nav__link nav__link--drawer">EN</a> 
+    <a href="https://jugru.org" class="organizer_link"> <img alt="JPoint 2018" src="/assets/images/jugru-w.png" srcset="/assets/images/jugru-w@3x.png 3x" class=""> </a> 
+   </aside> 
+  </div> 
+  <paper-header-panel main> 
+   <div> 
+    <header class="header"> 
+     <div class="container py-1"> 
+      <div class="row mt-1 mb-1 align-items-end"> 
+       <div class="col-md-6 logo-container"> 
+        <paper-button paper-drawer-toggle raised class="drawer-opener">
+         &nbsp;
+        </paper-button> 
+        <a href="/"> <img alt="JPoint 2018" src="/assets/images/jpoint-w-small.png" srcset="/assets/images/jpoint-w-small@3x.png 3x" class="logo"> </a> 
+        <ul class="social-links"> 
+         <li class="social-item"> <a class="social_link" href="https://www.facebook.com/jpointconf/" target="_blank"> <i class="fa fa-facebook"></i><span class="hidden-sm-down"></span> </a> </li> 
+         <li class="social-item"> <a class="social_link" href="https://vk.com/jpoint" target="_blank"> <i class="fa fa-vk"></i><span class="hidden-sm-down"></span> </a> </li> 
+         <li class="social-item"> <a class="social_link" href="https://twitter.com/JUGru" target="_blank"> <i class="fa fa-twitter"></i><span class="hidden-sm-down"></span> </a> </li> 
+         <li class="social-item"> <a class="social_link" href="https://www.youtube.com/user/JUGRuVideo/" target="_blank"> <i class="fa fa-youtube"></i><span class="hidden-sm-down"></span> </a> </li> 
+         <li class="social-item"> <a class="social_link" href="https://telegram.me/jpointconf" target="_blank"> <i class="fa fa-telegram"></i><span class="hidden-sm-down"></span> </a> </li> 
+        </ul> 
+       </div> 
+       <div class="col-md-6 text-md-right hidden-md-down"> 
+        <ul class="archive_links"> 
+         <li> <a class="archive_link" href="http://2013.jpoint.ru/" target="_blank">2013</a> </li> 
+         <li> <a class="archive_link" href="http://2014.jpoint.ru/" target="_blank">2014</a> </li> 
+         <li> <a class="archive_link" href="http://2015.jpoint.ru/" target="_blank">2015</a> </li> 
+         <li> <a class="archive_link" href="http://2016.jpoint.ru/" target="_blank">2016</a> </li> 
+         <li> <a class="archive_link" href="http://2017.jpoint.ru/" target="_blank">2017</a> </li> 
+        </ul> 
+        <a href="https://jugru.org" class="organizer_link"> <img alt="JPoint 2018" src="/assets/images/jugru-w.png" srcset="/assets/images/jugru-w@3x.png 3x" class=""> </a> 
+       </div> 
+      </div> 
+     </div> 
+     <nav class="navbar navbar-toggleable-md bg-inverse py-2 bg-faded hidden-md-down"> 
+      <div class="container"> 
+       <div class="collapse navbar-collapse"> 
+        <ul class="navbar-nav mr-auto"> 
+         <li class="nav-item"> <a class="nav-link nav-link-inverse " href="/#about"> О конференции </a> </li> 
+         <li class="nav-item"> <a class="nav-link nav-link-inverse " href="/talks/"> Доклады </a> </li> 
+         <li class="nav-item"> <a class="nav-link nav-link-inverse " href="/callforpapers/"> Подать доклад </a> </li> 
+         <li class="nav-item"> <a class="nav-link nav-link-inverse " href="/organizers/"> Организаторы </a> </li> 
+         <li class="nav-item"> <a class="nav-link nav-link-inverse " href="#contacts"> Контакты </a> </li> 
+        </ul> 
+        <ul class="nav navbar-nav pull-right"> 
+         <li class="nav-item"> <a href="/en/" class="nav-link nav-link-inverse">EN</a> </li> 
+        </ul> 
+       </div> 
+      </div> 
+     </nav> 
+    </header> 
+    <div class="hero "> 
+     <div class="logo logo-hero"> 
+      <picture class="logo logo-main"> 
+       <source srcset="/assets/images/jpoint-w-logo.png" media="(max-width: 800px)"> 
+       <source srcset="/assets/images/jpoint-w-logo@2x.png 2x"> 
+       <source srcset="/assets/images/jpoint-w-logo@3x.png 3x"> 
+       <img src="/assets/images/jpoint-w-logo.png" alt="JPoint 2018 Москва"> 
+      </picture> 
+      <h2 class="slogan"> Международная 
+       <nobr>
+        Java-конференция
+       </nobr> </h2> 
+     </div> 
+     <div class="hero-action"> 
+     </div> 
+     <div class="hero-info"> 
+      <ul class="hero-info_items"> 
+       <li class="hero-info_item"> <i class="fa fa-calendar"></i> 6-7 апреля 2018</li> 
+       <li class="hero-info_item"> <i class="fa fa-map-marker"></i> Москва, Конгресс-центр ЦМТ <span class="hero__place-adress">Краснопресненская наб., 12, 4й подъезд</span> </li> 
+      </ul> 
+     </div> 
+     <form action="//jugru.us14.list-manage.com/subscribe/post?u=f48529a826cf95fa04d4a4634&amp;id=e5a040e732" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"> 
+      <div class="subscribe"> 
+       <p>Узнать о старте продаж:</p> 
+       <input type="email" value="" name="EMAIL" class="form-control subscribe_input" id="mce-EMAIL" placeholder="Введите ваш Email" required> 
+       <label for="agrre"><input type="checkbox" required id="agrre"> Согласен на <a href="https://jugru.org/privacy_policy.html" target="_blank" style="color: #fff">обработку персональных данных</a></label>
+       <br> 
+       <div style="position: absolute; left: -5000px;" aria-hidden="true">
+        <input type="text" name="b_f48529a826cf95fa04d4a4634_e5a040e732" tabindex="-1" value="">
+       </div> 
+       <input type="submit" value="Подписаться" name="subscribe" id="mc-embedded-subscribe" class="btn btn-success subscribe_submit"> 
+      </div> 
+     </form> 
+    </div> 
+    <section class="about" id="about"> 
+     <div class="container"> 
+      <div class="row"> 
+       <div class="col-md-12"> 
+        <h1 class="about_title">О конференции</h1> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="about-container"> 
+      <div class="container"> 
+       <article class="row"> 
+        <div class="col-xs-12 col-lg-6"> 
+         <div class="entry-content"> 
+          <p>JPoint — международная Java-конференция для опытных Java-разработчиков. 6-7 апреля 2018 года состоится шестой по счёту JPoint: с каждым годом он растёт, становится ещё больше, интереснее и хардкорнее. Ежегодно конференция собирает более 1000 участников.</p> 
+          <p>Все доклады конференции только про востребованные в Java технологии. Основные темы JPoint: производительность, concurrency, тестирование, распределённые системы и высокие нагрузки в мире Java, а также будущее платформы.</p> 
+         </div> 
+        </div> 
+        <div class="col-xs-12 col-lg-6"> 
+         <div class="embed-responsive embed-responsive-16by9"> 
+          <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/223159137?title=0&amp;byline=0&amp;portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+         </div> 
+        </div> 
+       </article> 
+      </div> 
+     </div> 
+    </section> 
+    <section class="main-topic about mb-4"> 
+     <div class="container"> 
+      <div class="row"> 
+       <div class="col-12"> 
+        <h2 class="about_title">О чём будут доклады</h2> 
+       </div> 
+      </div> 
+      <div class="row"> 
+       <div class="col-md-5"> 
+        <ul class="list-unstyled"> 
+         <li><p>JVM/JDK под капотом <small>(Runtime, GC, OpenJDK)</small> </p></li> 
+         <li><p>Архитектуры Java-проектов</p></li> 
+         <li><p>Инструменты разработчика</p></li> 
+         <li><p>Data storages <small>(SQL/NoSQL/Cloud)</small> </p></li> 
+         <li><p>Фреймворки <small>(Spring, Spark, Hibernate и др)</small> </p></li> 
+        </ul> 
+       </div> 
+       <div class="col-md-3"> 
+        <ul class="list-unstyled"> 
+         <li><p>Java9 / Java10</p></li> 
+         <li><p>DevOps, CD, CI</p></li> 
+         <li><p>Data Science / ML</p></li> 
+         <li><p>Java EE</p></li> 
+         <li><p>Puzzlers!</p></li> 
+        </ul> 
+       </div> 
+       <div class="col-md-4"> 
+        <ul class="list-unstyled"> 
+         <li><p>Perfomance</p></li> 
+         <li><p>Высоконагруженные системы</p></li> 
+         <li><p>JVM языки программирования</p></li> 
+         <li><p>Распределённые системы</p></li> 
+        </ul> 
+       </div> 
+      </div> 
+     </div> 
+    </section> 
+    <div class="container mb-5"> 
+     <div class="row"> 
+      <div class="col-md-12"> 
+       <h2 class="text-center my-5">Спикеры конференции JPoint 2018</h2> 
+       <div class="speakers-list"> 
+        <div class="speaker-info-slide"> 
+         <div class="row"> 
+          <div class="col-md-6"> 
+           <h5 class="speaker-info_name">Juergen Hoeller</h5> 
+           <h6 class="speaker-info_company">Pivotal</h6> 
+           <div class="speaker-info_bio"> 
+            <p>Juergen Hoeller is a co-founder of the Spring Framework open source project and has been serving as the project lead and release manager for the core framework since 2003. Juergen is an experienced software architect and consultant with outstanding expertise in code organization, transaction management and enterprise messaging.</p> 
+           </div> 
+           <div class="talks"> 
+            <span>Доклад(ы):</span>
+            <br> 
+            <div class="talks_list"> 
+             <span class=""><i class="fa fa-globe"></i> EN</span>
+             <br> 
+             <a href="/talks/4ahofkxr5uemauyyos0q2i/">Spring Framework 5: feature highlights and hidden gems</a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="col-md-6"> 
+           <img alt="Juergen Hoeller" class="img-fluid" src="//images.contentful.com/oxjq45e8ilak/68GTdmCzgQK42K8qowYoUi/5fb7bbf6b43da80f7b1f3f87749a2a53/juergen_hoeller__1_.jpg?w=600"> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="speaker-info-slide"> 
+         <div class="row"> 
+          <div class="col-md-6"> 
+           <h5 class="speaker-info_name">Роман Елизаров</h5> 
+           <h6 class="speaker-info_company">JetBrains</h6> 
+           <div class="speaker-info_bio"> 
+            <p>Роман Елизаров занимается профессиональной разработкой программного обеспечения для биржевой и брокерской деятельности более 15 лет. В роли технического директора в компании Devexperts, участвует в разработке торговых платформ и терминалов для ведущих брокеров мира. Будучи экспертом по высокопроизводительной обработке и распространению больших объемов данных и по вопросам оптимизации производительности на современных архитектурах, Роман регулярно выступает с соответствующими докладами на различных конференциях. Является экспертом по платформе Java. В 2000 году Роман с отличием закончил СПбГУ ИТМО, где в настоящее время преподает курс параллельного и распределенного программирования. Во время учебы в университете участвовал в международных командных соревнованиях студентов по программированию ACM ICPC в составе команды ИТМО. С 1997 года и по настоящее время является председателем жюри соревнований Северо-восточного Европейского Региона (NEERC) ACM.</p> 
+           </div> 
+           <div class="talks"> 
+            <span>Доклад(ы):</span>
+            <br> 
+            <div class="talks_list"> 
+             <span class=""><i class="fa fa-globe"></i> RU</span>
+             <br> 
+             <a href="/talks/1pztl3mbmqswiyiqqg2ocu/">Kotlin Coroutines</a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="col-md-6"> 
+           <img alt="Роман Елизаров" class="img-fluid" src="//images.contentful.com/oxjq45e8ilak/5R2rOzCrniEU8Wg4EAWoKQ/19b101e09cba7e89d8577f390398056a/maxresdefault__1_.jpg?w=600"> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="speaker-info-slide"> 
+         <div class="row"> 
+          <div class="col-md-6"> 
+           <h5 class="speaker-info_name">Gerrit Grunwald</h5> 
+           <h6 class="speaker-info_company">Canoo Engineering AG</h6> 
+           <div class="speaker-info_bio"> 
+            <p>Gerrit is a software engineer with more than 15 years of experience in software development. He is a true believer in open source and has participated in popular projects like JFXtras.org as well as his own projects (TilesFX, Medusa, Enzo, SteelSeries Swing, SteelSeries Canvas, etc.) Gerrit blogs regularly at <a href="http://harmonic-code.org">http://harmonic-code.org</a>, he is an active member of the Java community where he founded and leads the Java User Group Münster (Germany), he is a JavaOne Rockstar and a Java Champion. Gerrit is a speaker at conferences and user groups internationally and writes for several magazines. </p> 
+           </div> 
+           <div class="talks"> 
+            <span>Доклад(ы):</span>
+            <br> 
+            <div class="talks_list"> 
+             <span class=""><i class="fa fa-globe"></i> EN</span>
+             <br> 
+             <a href="/talks/19qqwspvjgem4isuc0usmy/">JavaFX on JDK 9</a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="col-md-6"> 
+           <img alt="Gerrit Grunwald" class="img-fluid" src="//images.contentful.com/oxjq45e8ilak/7nsyAUaXKMmsKwA00KeqsA/ff1164ec2d71426dd86581df38658603/Gerrit1.jpg?w=600"> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="speaker-info-slide"> 
+         <div class="row"> 
+          <div class="col-md-6"> 
+           <h5 class="speaker-info_name">Rabea Gransberger</h5> 
+           <h6 class="speaker-info_company">MEKOS</h6> 
+           <div class="speaker-info_bio"> 
+            <p>Studied computer science and got a diploma in 2008. Co-leading the software development department and working as a software engineer on various projects at MEKOS. The main focus is on keeping the code base clean and educating the team on how to write a better code. A well-known speaker at Java conferences and user groups around the world. Started the Java user group Bremen in 2012 and is a part of the organisation team ever since. Besides software development likes to watch Werder football games in the local Weserstadion. </p> 
+            <p>Most of the time is writing Java software based on Eclipse RCP. Rabea configures Continuous Integration servers and tries to automate the deployments as much as possible. Sometimes she also does Javascript, C#, VBA or other languages she needs to complete her current task.</p> 
+           </div> 
+           <div class="talks"> 
+            <span>Доклад(ы):</span>
+            <br> 
+            <div class="talks_list"> 
+             <span class=""><i class="fa fa-globe"></i> EN</span>
+             <br> 
+             <a href="/talks/4uhryig3nu82wa6gwioq4q/">Refactoring your code to Java 9 modules</a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="col-md-6"> 
+           <img alt="Rabea Gransberger" class="img-fluid" src="//images.contentful.com/oxjq45e8ilak/29OvmmQIvaSeuYCUsEg4Kg/af0dcc1e9a740cda60c4c522b8534da4/rabea_gransberger.jpg?w=600" srcset="//images.contentful.com/oxjq45e8ilak/29OvmmQIvaSeuYCUsEg4Kg/af0dcc1e9a740cda60c4c522b8534da4/rabea_gransberger.jpg?w=1200 2x"> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="speaker-info-slide"> 
+         <div class="row"> 
+          <div class="col-md-6"> 
+           <h5 class="speaker-info_name">Christopher Batey</h5> 
+           <h6 class="speaker-info_company">Lightbend</h6> 
+           <div class="speaker-info_bio"> 
+            <p>Christopher (@chbatey) is a Senior Engineer at Lightbend. He is currently on the core Akka team responsible for developing Akka (<a href="https://akka.io/">https://akka.io/</a>), Akka Http, Akka Streams, Reactive Kafka and Alpakka (<a href="https://github.com/akka/alpakka">https://github.com/akka/alpakka</a>). He has previously built trading systems, online television platforms and worked extensively with Apache Cassandra. Likes Scala, Java, the JVM, Akka, distributed databases, XP, TDD, pairing. Dislikes untested software and code ownership. You can check out his blog at: <a href="http://www.batey.info">http://www.batey.info</a>.</p> 
+           </div> 
+           <div class="talks"> 
+            <span>Доклад(ы):</span>
+            <br> 
+            <div class="talks_list"> 
+             <span class=""><i class="fa fa-globe"></i> EN</span>
+             <br> 
+             <a href="/talks/5qmjxxmz7gkkcuc0o864gq/">Building scalable, back pressured services with Akka </a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="col-md-6"> 
+           <img alt="Christopher Batey" class="img-fluid" src="//images.contentful.com/oxjq45e8ilak/3KxuoyBJ4kG6mmKMWA2QQ0/d2c7a45ae73b3ce582a210f04168c3bb/me__2___1_.jpg?w=600"> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="speaker-info-slide"> 
+         <div class="row"> 
+          <div class="col-md-6"> 
+           <h5 class="speaker-info_name">Sasha Goldshtein</h5> 
+           <h6 class="speaker-info_company">Sela Group</h6> 
+           <div class="speaker-info_bio"> 
+            <p>Sasha Goldshtein is the CTO of Sela Group, Microsoft MVP and Regional Director, Pluralsight and O'Reilly author, and an international consultant and trainer. Sasha is the author of "Introducing Windows 7 for Developers" (Microsoft Press, 2009) and "Pro .NET Performance" (Apress, 2012), a prolific blogger and open source contributor, and author of numerous training courses including .NET Debugging, .NET Performance, Android Application Development, and Modern C++. His consulting work revolves mainly around distributed architecture, production debugging and performance diagnostics, and mobile application development.</p> 
+           </div> 
+           <div class="talks"> 
+            <span>Доклад(ы):</span>
+            <br> 
+            <div class="talks_list"> 
+             <span class=""><i class="fa fa-globe"></i> EN</span>
+             <br> 
+             <a href="/talks/1bvhc9jbruimqwks4uqaeu/">Linux container performance tools for JVM applications</a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="col-md-6"> 
+           <img alt="Sasha Goldshtein" class="img-fluid" src="//images.contentful.com/oxjq45e8ilak/4HHz5is332aEeSwMekmOAG/97fb0977565ac454894ecf8c8538a9f4/Ff9Nvp1-mU0.jpg?w=600" srcset="//images.contentful.com/oxjq45e8ilak/4HHz5is332aEeSwMekmOAG/97fb0977565ac454894ecf8c8538a9f4/Ff9Nvp1-mU0.jpg?w=1200 2x"> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="speaker-info-slide"> 
+         <div class="row"> 
+          <div class="col-md-6"> 
+           <h5 class="speaker-info_name">Sander Mak</h5> 
+           <h6 class="speaker-info_company">Luminis Technologies</h6> 
+           <div class="speaker-info_bio"> 
+            <p>Sander is a Fellow at Luminis in the Netherlands, where he crafts modular and scalable software, most often on the JVM, but with a touch of TypeScript when needed. He is the author of the O'Reilly book "Java 9 Modularity" (<a href="https://javamodularity.com">https://javamodularity.com</a>) and an avid conference speaker. Sander loves sharing knowledge through his blog at <a href="http://branchandbound.net">http://branchandbound.net</a>, and also as a Pluralsight instructor (<a href="https://bit.ly/sander-ps">https://bit.ly/sander-ps</a>).</p> 
+           </div> 
+           <div class="talks"> 
+            <span>Доклад(ы):</span>
+            <br> 
+            <div class="talks_list"> 
+             <span class=""><i class="fa fa-globe"></i> EN</span>
+             <br> 
+             <a href="/talks/5auxdrsar6ywaugwquimyi/">Migrating to Java 9 modules</a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="col-md-6"> 
+           <img alt="Sander Mak" class="img-fluid" src="//images.contentful.com/oxjq45e8ilak/3JMqePBgEUuuo6eSeWOkU0/105245fae979fcbbe3e87a9373a5ed55/LGdAgYKu.jpg?w=600"> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="speaker-info-slide"> 
+         <div class="row"> 
+          <div class="col-md-6"> 
+           <h5 class="speaker-info_name">Stephane Nicoll</h5> 
+           <h6 class="speaker-info_company">Pivotal</h6> 
+           <div class="speaker-info_bio"> 
+            <p>Stéphane has a thing for code quality and robustness. He's been spreading the word for more than ten years while developing large scale Java enterprise applications in the geospatial, financial, or logistics sectors. An Apache Maven PMC member since 2006, he joined the core Spring Framework development team early 2014, being one of the main contributors to both Spring Framework and Spring Boot since. During his free time, he loves traveling around the world.</p> 
+           </div> 
+           <div class="talks"> 
+            <span>Доклад(ы):</span>
+            <br> 
+            <div class="talks_list"> 
+             <span class=""><i class="fa fa-globe"></i> EN</span>
+             <br> 
+             <a href="/talks/1hmetib3xesmau8mqko0aq/">Reactive Web Applications with Spring Boot 2.0</a> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="col-md-6"> 
+           <img alt="Stephane Nicoll" class="img-fluid" src="//images.contentful.com/oxjq45e8ilak/6nhlDudLoWeIgWOqQ4WaGy/929f2fadd88f090452cb88d23270a1dc/snicoll-devoxx-thumb.png?w=600"> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="speakers-nav"> 
+        <div class="speaker-nav-slide"> 
+         <img alt="Juergen Hoeller" class="slide-nav-speaker_photo" src="//images.contentful.com/oxjq45e8ilak/68GTdmCzgQK42K8qowYoUi/5fb7bbf6b43da80f7b1f3f87749a2a53/juergen_hoeller__1_.jpg?w=190"> 
+         <div class="speaker-nav-slide-info"> 
+          <h5 class="speaker-nav_name">Juergen Hoeller</h5> 
+          <h6 class="speaker-nav_company">Pivotal</h6> 
+         </div> 
+        </div> 
+        <div class="speaker-nav-slide"> 
+         <img alt="Роман Елизаров" class="slide-nav-speaker_photo" src="//images.contentful.com/oxjq45e8ilak/5R2rOzCrniEU8Wg4EAWoKQ/19b101e09cba7e89d8577f390398056a/maxresdefault__1_.jpg?w=190" srcset="//images.contentful.com/oxjq45e8ilak/5R2rOzCrniEU8Wg4EAWoKQ/19b101e09cba7e89d8577f390398056a/maxresdefault__1_.jpg?w=380 2x"> 
+         <div class="speaker-nav-slide-info"> 
+          <h5 class="speaker-nav_name">Роман Елизаров</h5> 
+          <h6 class="speaker-nav_company">JetBrains</h6> 
+         </div> 
+        </div> 
+        <div class="speaker-nav-slide"> 
+         <img alt="Gerrit Grunwald" class="slide-nav-speaker_photo" src="//images.contentful.com/oxjq45e8ilak/7nsyAUaXKMmsKwA00KeqsA/ff1164ec2d71426dd86581df38658603/Gerrit1.jpg?w=190"> 
+         <div class="speaker-nav-slide-info"> 
+          <h5 class="speaker-nav_name">Gerrit Grunwald</h5> 
+          <h6 class="speaker-nav_company">Canoo Engineering AG</h6> 
+         </div> 
+        </div> 
+        <div class="speaker-nav-slide"> 
+         <img alt="Rabea Gransberger" class="slide-nav-speaker_photo" src="//images.contentful.com/oxjq45e8ilak/29OvmmQIvaSeuYCUsEg4Kg/af0dcc1e9a740cda60c4c522b8534da4/rabea_gransberger.jpg?w=190" srcset="//images.contentful.com/oxjq45e8ilak/29OvmmQIvaSeuYCUsEg4Kg/af0dcc1e9a740cda60c4c522b8534da4/rabea_gransberger.jpg?w=380 2x"> 
+         <div class="speaker-nav-slide-info"> 
+          <h5 class="speaker-nav_name">Rabea Gransberger</h5> 
+          <h6 class="speaker-nav_company">MEKOS</h6> 
+         </div> 
+        </div> 
+        <div class="speaker-nav-slide"> 
+         <img alt="Christopher Batey" class="slide-nav-speaker_photo" src="//images.contentful.com/oxjq45e8ilak/3KxuoyBJ4kG6mmKMWA2QQ0/d2c7a45ae73b3ce582a210f04168c3bb/me__2___1_.jpg?w=190"> 
+         <div class="speaker-nav-slide-info"> 
+          <h5 class="speaker-nav_name">Christopher Batey</h5> 
+          <h6 class="speaker-nav_company">Lightbend</h6> 
+         </div> 
+        </div> 
+        <div class="speaker-nav-slide"> 
+         <img alt="Sasha Goldshtein" class="slide-nav-speaker_photo" src="//images.contentful.com/oxjq45e8ilak/4HHz5is332aEeSwMekmOAG/97fb0977565ac454894ecf8c8538a9f4/Ff9Nvp1-mU0.jpg?w=190" srcset="//images.contentful.com/oxjq45e8ilak/4HHz5is332aEeSwMekmOAG/97fb0977565ac454894ecf8c8538a9f4/Ff9Nvp1-mU0.jpg?w=380 2x"> 
+         <div class="speaker-nav-slide-info"> 
+          <h5 class="speaker-nav_name">Sasha Goldshtein</h5> 
+          <h6 class="speaker-nav_company">Sela Group</h6> 
+         </div> 
+        </div> 
+        <div class="speaker-nav-slide"> 
+         <img alt="Sander Mak" class="slide-nav-speaker_photo" src="//images.contentful.com/oxjq45e8ilak/3JMqePBgEUuuo6eSeWOkU0/105245fae979fcbbe3e87a9373a5ed55/LGdAgYKu.jpg?w=190"> 
+         <div class="speaker-nav-slide-info"> 
+          <h5 class="speaker-nav_name">Sander Mak</h5> 
+          <h6 class="speaker-nav_company">Luminis Technologies</h6> 
+         </div> 
+        </div> 
+        <div class="speaker-nav-slide"> 
+         <img alt="Stephane Nicoll" class="slide-nav-speaker_photo" src="//images.contentful.com/oxjq45e8ilak/6nhlDudLoWeIgWOqQ4WaGy/929f2fadd88f090452cb88d23270a1dc/snicoll-devoxx-thumb.png?w=190" srcset="//images.contentful.com/oxjq45e8ilak/6nhlDudLoWeIgWOqQ4WaGy/929f2fadd88f090452cb88d23270a1dc/snicoll-devoxx-thumb.png?w=380 2x"> 
+         <div class="speaker-nav-slide-info"> 
+          <h5 class="speaker-nav_name">Stephane Nicoll</h5> 
+          <h6 class="speaker-nav_company">Pivotal</h6> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <section class="discussion-section"> 
+     <div class="container"> 
+      <div class="row"> 
+       <div class="col-md-4"> 
+        <img src="/assets/images/discussions.jpg" alt="Дискуссионные зоны" class="discussion_photo"> 
+       </div> 
+       <div class="col-md-8"> 
+        <h2 class="discussion_title">Дискуссионные зоны</h2> 
+        <p>Знакомо чувство, когда вы поднимаете руку, чтобы задать вопрос, а ведущий трека объявляет: «Осталось время для одного вопроса», – и конечно, выбор падает на другого человека, а в перерыве спикер скрывается за дверьми спикерских комнат?</p> 
+        <p>Чтобы этого не происходило, мы делаем специальные дискуссионные зоны: выделенное пространство с доской для иллюстраций, сидячими местами и возможностью схватить чашку кофе. Именно там, сразу после доклада, можно лично задать вопросы спикеру не только по теме выступления, но и проконсультироваться о каких-то своих проектах или даже просто поболтать с ним о жизни.</p> 
+       </div> 
+      </div> 
+     </div> 
+    </section> 
+    <section class="contacts" id="contacts"> 
+     <div class="container"> 
+      <div class="contacts-wrap"> 
+       <h2 class="contacts__title">Наши контакты</h2> 
+       <ul class="contacts-list"> 
+        <li class="contact__item"> <span class="contact__title">Билеты</span> <a href="mailto:tickets@jpoint.ru" class="contact__link">tickets@jpoint.ru</a> </li> 
+        <li class="contact__item"> <span class="contact__title">Программа конференции</span> <a href="mailto:program@jpoint.ru" class="contact__link">program@jpoint.ru</a> </li> 
+        <li class="contact__item"> <span class="contact__title">Спонсоры</span> <a href="mailto:sponsors@jpoint.ru" class="contact__link">sponsors@jpoint.ru</a> </li> 
+        <li class="contact__item"> <span class="contact__title">Партнеры</span> <a href="mailto:partners@jpoint.ru" class="contact__link">partners@jpoint.ru</a> </li> 
+        <li class="contact__item"> <span class="contact__title">Вопросы</span> <a href="mailto:questions@jpoint.ru" class="contact__link">questions@jpoint.ru</a> </li> 
+        <li class="contact__item"> <span class="contact__title">Сайт</span> <a href="mailto:site@jpoint.ru" class="contact__link">site@jpoint.ru</a> </li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="contacts-map"> 
+      <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6c0fb7aeaa32ee17c29b9a0b045c2a36a398e01c69e5e16dc4efcbd8602d10d8&amp;lang=ru_RU&amp;scroll=true"></script> 
+     </div> 
+    </section> 
+    <div class="container"> 
+     <footer class="footer"> 
+      <div class="footer-widgets"> 
+       <div class="footer-text"> 
+        <a href="/"> <img alt="JPoint 2018" src="/assets/images/jpoint_logo.png" srcset="/assets/images/jpoint_logo@2x.png 2x" class="logo logo-footer"> </a> 
+        <div class="footer-about"> 
+         <p>JPoint — международная Java-конференция для опытных Java-разработчиков. В 2018 году состоится шестой по счёту JPoint: с каждым годом он растёт, становится ещё больше, интереснее и хардкорнее. Ежегодно конференция собирает более 1000 участников.</p> 
+         <p>Все доклады конференции только про востребованные в Java технологии. Основные темы JPoint: производительность, concurrency, тестирование, распределённые системы и высокие нагрузки в мире Java, а также будущее платформы.</p> 
+        </div> 
+       </div> 
+       <div class="footer-nav"> 
+        <h5 class="footer_title"> Навигация </h5> 
+        <ul class="nav-footer"> 
+         <li class="nav-item"> <a href="/#about" class="nav_link"> О конференции </a> </li> 
+         <li class="nav-item"> <a href="/talks/" class="nav_link"> Доклады </a> </li> 
+         <li class="nav-item"> <a href="/callforpapers/" class="nav_link"> Подать доклад </a> </li> 
+         <li class="nav-item"> <a href="/organizers/" class="nav_link"> Организаторы </a> </li> 
+         <li class="nav-item"> <a href="#contacts" class="nav_link"> Контакты </a> </li> 
+         <li class="nav-item"> <a href="https://jugru.org/privacy_policy.html" target="_blank">Политика конфиденциальности</a> </li> 
+        </ul> 
+       </div> 
+       <div class="footer-nav"> 
+        <h5 class="footer_title"> Наши конференции </h5> 
+        <ul class="nav-footer"> 
+         <li class="nav-item"> <a href="https://dotnext.ru" class="nav_link" target="_blank"> DotNext </a> </li> 
+         <li class="nav-item"> <a href="https://holyjs.ru" class="nav_link" target="_blank"> HolyJS </a> </li> 
+         <li class="nav-item"> <a href="https://heisenbug.ru" class="nav_link" target="_blank"> Гейзенбаг </a> </li> 
+         <li class="nav-item"> <a href="https://mobiusconf.com" class="nav_link" target="_blank"> Mobius </a> </li> 
+         <li class="nav-item"> <a href="https://2017.jbreak.ru" class="nav_link" target="_blank"> JBreak </a> </li> 
+         <li class="nav-item"> <a href="https://jokerconf.com/" class="nav_link" target="_blank"> Joker </a> </li>
+        </ul> 
+       </div> 
+       <div class="footer-contacts"> 
+        <h5 class="footer_title">Мы в социальных сетях</h5> 
+        <ul class="nav"> 
+         <li class="nav-item"> <a class="nav-link pa-0" href="https://www.facebook.com/jpointconf/" target="_blank"> <i class="fa fa-facebook"></i><span class="hidden-sm-down"></span> </a> </li> 
+         <li class="nav-item"> <a class="nav-link pa-0" href="https://vk.com/jpoint" target="_blank"> <i class="fa fa-vk"></i><span class="hidden-sm-down"></span> </a> </li> 
+         <li class="nav-item"> <a class="nav-link pa-0" href="https://twitter.com/JUGru" target="_blank"> <i class="fa fa-twitter"></i><span class="hidden-sm-down"></span> </a> </li> 
+         <li class="nav-item"> <a class="nav-link pa-0" href="https://www.youtube.com/user/JUGRuVideo/" target="_blank"> <i class="fa fa-youtube"></i><span class="hidden-sm-down"></span> </a> </li> 
+         <li class="nav-item"> <a class="nav-link pa-0" href="https://telegram.me/jpointconf" target="_blank"> <i class="fa fa-telegram"></i><span class="hidden-sm-down"></span> </a> </li> 
+        </ul> 
+       </div> 
+      </div> 
+      <div class="copyright"> 
+       <p>© JPoint</p> 
+      </div> 
+     </footer> 
+    </div> 
+   </div> 
+  </paper-header-panel> 
+ </paper-drawer-panel> 
+ <script src="/assets/vendor.js"></script> 
+ <script src="/assets/app.js"></script> 
+ <script>
+    window.addEventListener("load", function(){
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#000"
+          },
+          "button": {
+            "background": "#1779ba"
+          }
+        },
+        "position": "bottom-right",
+        "content": {
+          "message": "Наш сайт использует файлы cookies, чтобы улучшить работу и повысить эффективность сайта. Продолжая использование сайта, вы соглашаетесь с использованием нами cookies.",
+          "dismiss": "Принять",
+          "link": "Подробнее...",
+          "href": "https://jugru.org/privacy_policy.html#7.1.5"
+        }
+      })});
+  </script> 
+ <script src="/cookieconsent.min.js"></script>  
+</body>

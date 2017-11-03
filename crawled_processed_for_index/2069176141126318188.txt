@@ -1,0 +1,823 @@
+<body> 
+ <div id="wrapper"> 
+  <!-- REMEMBER TO COPY ALL CHANGES TO download.html --> 
+  <header id="header" class="affix header" data-spy="affix" data-offset-top="0"> 
+   <div class="container-fluid"> 
+    <div class="row"> 
+     <div class="news-announcement"> 
+      <p>Apache Ignite™ 2.2 Released!&nbsp; <a href="https://ignite.apache.org/download.cgi">Download</a></p> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="col-md-12 col-sm-12 col-xs-12"> 
+      <nav id="top-nav" class="navbar navbar-default" role="navigation"> 
+       <div class="container-fluid"> 
+        <!--<div class="navbar-header">--> 
+        <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar">--> 
+        <!--<span class="sr-only">Toggle navigation</span>--> 
+        <!--<span class="icon-bar"></span>--> 
+        <!--<span class="icon-bar"></span>--> 
+        <!--<span class="icon-bar"></span>--> 
+        <!--</button>--> 
+        <!--</div>--> 
+        <div class="collapse navbar-collapse" id="top-navbar"> 
+         <ul class="nav navbar-nav"> 
+          <li><a href="http://apache-ignite-users.70518.x6.nabble.com/" target="_blank"><i class="fa fa-users" aria-hidden="true"></i> User Forum</a></li> 
+          <li><a href="http://stackoverflow.com/questions/tagged/ignite" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i> Stack Overflow</a></li> 
+          <li><a href="/events.html"><i class="fa fa-calendar" aria-hidden="true"></i> Events</a></li> 
+          <li><a href="/screencasts.html"><i class="fa fa-video-camera" aria-hidden="true"></i> Screencasts</a></li> 
+         </ul> 
+        </div> 
+       </div> 
+      </nav> 
+     </div> 
+    </div> 
+    <div class="row"> 
+     <div class="col-md-2 col-sm-2 col-xs-6"> 
+      <div class="logo">
+       <a href="/index.html"><img src="/images/ignite-logo-white.svg" alt="ApacheIgnite"></a>
+      </div> 
+     </div> 
+     <div class="col-md-10 col-sm-10 col-xs-6"> 
+      <nav id="nav" class="navbar navbar-default" role="navigation"> 
+       <div class="container-fluid"> 
+        <div class="navbar-header"> 
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> 
+        </div> 
+        <div class="collapse navbar-collapse" id="navbar"> 
+         <ul class="nav navbar-nav"> 
+          <li class="dropdown"> <a href="/features.html">Features<span class="caret"></span></a> 
+           <ul class="dropdown-menu lg-screen-menu" role="menu"> 
+            <div class="col-md-6 col-sm-6 col-xs-12 items" style="padding-right: 35px; border-right: 1px solid #d7d7d7;"> 
+             <li role="presentation" class="submenu-header">Overview</li> 
+             <li><a href="/whatisignite.html">What is Ignite™?</a></li> 
+             <li><a href="/memorycentric.html">What is Memory-Centric?</a></li> 
+             <li><a href="/collocatedprocessing.html">What is Collocated Processing?</a></li> 
+             <li role="presentation" class="submenu-header">Main Features</li> 
+             <li><a href="/features/durablememory.html">Durable Memory</a></li> 
+             <li><a href="/features/persistence.html">Native Persistence</a></li> 
+             <li><a href="/features/sql.html">SQL Database</a></li> 
+             <li><a href="/features/datagrid.html">Data Grid</a></li> 
+             <li><a href="/features/computegrid.html">Compute Grid</a></li> 
+             <li><a href="/features/machinelearning.html">Machine Learning<sup>βeta</sup></a></li> 
+             <li><a href="/features.html"><i>More Features</i></a></li> 
+             <li role="presentation" class="submenu-header">Tooling</li> 
+             <li><a href="/features/datavisualization.html#apache-ignite-web-console">Ignite Web Console</a></li> 
+             <li><a href="/features/datavisualization.html"><i>More Tooling</i></a></li> 
+            </div> 
+            <div class="col-md-6 col-sm-6 col-xs-12 items"> 
+             <li role="presentation" class="submenu-header">Runs Everywhere</li> 
+             <li><a href="/features/java.html">Java</a></li> 
+             <li><a href="/features/dotnet.html">.NET</a></li> 
+             <li><a href="/features/cpp.html">C++</a></li> 
+             <li><a href="/features/clientprotos.html">Client Protocols</a></li> 
+             <li><a href="/features/deploy.html">Deployment Options</a></li> 
+             <li role="presentation" class="submenu-header">Hadoop &amp; Spark</li> 
+             <li><a href="/features/igniterdd.html">Spark Shared RDDs</a></li> 
+             <li><a href="/features/igfs.html">In-Memory File System</a></li> 
+             <li><a href="/features/mapreduce.html">In-Memory MapReduce</a></li> 
+             <li role="presentation" class="submenu-header">Add-Ons</li> 
+             <li><a href="/addons.html#ga-grid">GA Grid<sup>βeta</sup></a></li> 
+             <li><a href="/addons.html"><i>More Add-ons</i></a></li> 
+            </div> 
+           </ul> 
+           <ul class="dropdown-menu mobile-menu" role="menu"> 
+            <li role="presentation" class="submenu-header">Overview</li> 
+            <li><a href="/whatisignite.html">What is Ignite™?</a></li> 
+            <li><a href="/memorycentric.html">What is Memory-Centric?</a></li> 
+            <li><a href="/collocatedprocessing.html">What is Collocated Processing?</a></li> 
+            <li role="presentation" class="submenu-header">Main Features</li> 
+            <li><a href="/features/durablememory.html">Durable Memory</a></li> 
+            <li><a href="/features/persistence.html">Native Persistence</a></li> 
+            <li><a href="/features/sql.html">SQL Database</a></li> 
+            <li><a href="/features/datagrid.html">Data Grid</a></li> 
+            <li><a href="/features/computegrid.html">Compute Grid</a></li> 
+            <li><a href="/features/machinelearning.html">Machine Learning<sup>βeta</sup></a></li> 
+            <li><a href="/features.html"><i>More Features</i></a></li> 
+            <li role="presentation" class="submenu-header">Tooling</li> 
+            <li><a href="/features/datavisualization.html#apache-ignite-web-console">Ignite Web Console</a></li> 
+            <li><a href="/features/datavisualization.html"><i>More Tooling</i></a></li> 
+            <li role="presentation" class="submenu-header">Runs Everywhere</li> 
+            <li><a href="/features/java.html">Java</a></li> 
+            <li><a href="/features/dotnet.html">.NET</a></li> 
+            <li><a href="/features/cpp.html">C++</a></li> 
+            <li><a href="/features/clientprotos.html">Client Protocols</a></li> 
+            <li><a href="/features/deploy.html">Deployment Options</a></li> 
+            <li role="presentation" class="submenu-header">Hadoop &amp; Spark</li> 
+            <li><a href="/features/igniterdd.html">Spark Shared RDDs</a></li> 
+            <li><a href="/features/igfs.html">In-Memory File System</a></li> 
+            <li><a href="/features/mapreduce.html">In-Memory MapReduce</a></li> 
+            <li role="presentation" class="submenu-header">Add-Ons</li> 
+            <li><a href="/addons.html#ga-grid">GA Grid<sup>βeta</sup></a></li> 
+            <li><a href="/addons.html"><i>More Add-ons</i></a></li> 
+           </ul> </li> 
+          <li class="dropdown"> <a href="/usecases.html">Use Cases<span class="caret"></span></a> 
+           <ul class="dropdown-menu" role="menu"> 
+            <li role="presentation" class="submenu-header">Database</li> 
+            <li><a href="/use-cases/database/distributed-database.html">Distributed Database</a></li> 
+            <li><a href="/use-cases/database/in-memory-database.html">In-Memory Database</a></li> 
+            <!--<li><a href="/use-cases/database/sql-database.html">SQL Database</a></li>--> 
+            <li><a href="/use-cases/database/key-value-store.html">Key-Value Store</a></li> 
+            <li class="divider"> </li>
+            <li role="presentation" class="submenu-header">Comparison</li> 
+            <li><a href="/use-cases/comparison/ignite-for-nosql.html">Ignite for NoSQL Users</a></li> 
+            <li><a href="/use-cases/comparison/ignite-for-rdbms.html">Ignite for RDBMS Users</a></li> 
+            <li class="divider"> </li>
+            <li role="presentation" class="submenu-header">In-Memory Caching</li> 
+            <li><a href="/use-cases/caching/database-caching.html">Database Caching</a></li> 
+            <li><a href="/use-cases/caching/jcache-provider.html">JCache Provider</a></li> 
+            <li><a href="/use-cases/caching/hibernate-l2-cache.html">Hibernate L2 Cache</a></li> 
+            <li><a href="/use-cases/caching/web-session-clustering.html">Web Session Clustering</a></li> 
+            <li class="divider"> </li>
+            <li role="presentation" class="submenu-header">Ignite with Spark &amp; Hadoop</li> 
+            <li><a href="/use-cases/spark/shared-memory-layer.html">Shared Memory Layer</a></li> 
+            <li><a href="/use-cases/spark/sql-queries">Faster Sql Queries for Spark</a></li> 
+            <li><a href="/use-cases/hadoop/hdfs-cache">IGFS as HDFS Cache</a></li> 
+            <li><a href="/use-cases/hadoop/mapreduce">Faster In-Memory MapReduce</a></li> 
+           </ul> </li> 
+          <li class="dropdown"> <a href="http://apacheignite.readme.io/docs" target="_blank">Docs<span class="caret"></span></a> 
+           <ul class="dropdown-menu" role="menu"> 
+            <li role="presentation" class="submenu-header">Technical Documentation</li> 
+            <li><a href="http://apacheignite.readme.io/docs" target="_blank">Ignite <i class="fa fa-external-link" style="padding-left:5px;"></i></a></li> 
+            <li><a href="https://www.zybuluo.com/liyuj/note/230739" target="_blank">Ignite (Chinese) <i class="fa fa-external-link" style="padding-left:5px;"></i></a></li> 
+            <li><a href="https://apacheignite-net.readme.io/docs/" target="_blank">Ignite.NET <i class="fa fa-external-link" style="padding-left:5px;"></i></a></li> 
+            <li><a href="https://apacheignite-cpp.readme.io/" target="_blank">Ignite.C++ <i class="fa fa-external-link" style="padding-left:5px;"></i></a></li> 
+            <li><a href="https://apacheignite-fs.readme.io/docs" target="_blank">Ignite for Hadoop/Spark <i class="fa fa-external-link" style="padding-left:5px;"></i></a></li> 
+            <li><a href="http://apacheignite-tools.readme.io/docs" target="_blank">Management &amp; Monitoring <i class="fa fa-external-link" style="padding-left:5px;"></i></a></li> 
+            <li><a href="https://apacheignite-mix.readme.io/docs" target="_blank">Ignite Integrations <i class="fa fa-external-link" style="padding-left:5px;"></i></a></li> 
+            <li class="divider"> </li>
+            <li role="presentation" class="submenu-header">APIs</li> 
+            <li><a href="https://ignite.apache.org/releases/latest/javadoc/index.html" target="_blank">Javadoc <i class="fa fa-external-link" style="padding-left:5px;"></i></a></li> 
+            <li><a href="https://ignite.apache.org/releases/latest/dotnetdoc/index.html" target="_blank">.NET API <i class="fa fa-external-link" style="padding-left:5px;"></i></a></li> 
+            <li><a href="https://ignite.apache.org/releases/latest/cppdoc/index.html" target="_blank">C++ API <i class="fa fa-external-link" style="padding-left:5px;"></i></a></li> 
+            <li><a href="https://ignite.apache.org/releases/latest/scaladoc/scalar/index.html" target="_blank">Scala API <i class="fa fa-external-link" style="padding-left:5px;"></i></a></li> 
+            <li><a href="https://github.com/apache/ignite/tree/master/examples" target="_blank">Examples <i class="fa fa-external-link" style="padding-left:5px;"></i></a></li> 
+            <li class="divider"> </li>
+            <li role="presentation" class="submenu-header">Ignite Book</li> 
+            <li><a href="http://a.co/h4MBi1v" target="_blank">Amazon <i class="fa fa-external-link" style="padding-left:5px;"></i></a></li> 
+            <li><a href="https://leanpub.com/ignite" target="_blank">Leanpub <i class="fa fa-external-link" style="padding-left:5px;"></i></a></li> 
+           </ul> </li> 
+          <li class="dropdown"> <a href="/community/resources.html">Community<span class="caret"></span></a> 
+           <ul class="dropdown-menu" role="menu"> 
+            <li role="presentation" class="submenu-header">Resources</li> 
+            <li><a href="/community/resources.html#ask">Ask a Question</a></li> 
+            <li><a href="/community/resources.html#mail-lists">Mailing Lists</a></li> 
+            <li><a href="https://gitter.im/apacheignite/ignite" target="_blank">Chat <img src="/images/gitter-small.png" alt="Join the chat at https://gitter.im/apacheignite/ignite" style="padding-left:5px; padding-bottom:3px;"></a> </li> 
+            <li><a href="https://twitter.com/ApacheIgnite" target="_blank">Twitter <i class="fa fa-twitter-square fa-lg" style="padding-left:5px;"></i></a></li> 
+            <li><a href="/screencasts.html">Screencasts</a></li> 
+            <li><a href="/blogs.html">Blogs</a></li> 
+            <li><a href="/community/resources.html#git">Github Repo <i class="fa fa-github fa-lg" style="padding-left:5px;"></i></a></li> 
+            <li><a href="https://issues.apache.org/jira/browse/IGNITE" target="_blank">Ignite Jira <i class="fa fa-external-link" style="padding-left:5px;"></i></a></li> 
+            <li><a href="https://cwiki.apache.org/confluence/display/IGNITE/" target="_blank">Ignite Wiki <i class="fa fa-external-link" style="padding-left:5px;"></i></a></li> 
+            <li><a href="/community/resources.html#people">People</a></li> 
+            <li class="divider"></li> 
+            <li role="presentation" class="submenu-header">Events</li> 
+            <li><a href="/events.html">Upcoming Events</a></li> 
+            <li><a href="https://www.meetup.com/Bay-Area-In-Memory-Computing" target="_blank">Ignite Bay Area Meetup <i class="fa fa-external-link" style="padding-left:5px;"></i></a></li> 
+            <li><a href="http://www.meetup.com/Apache-Ignite-London" target="_blank">Ignite London Meetup <i class="fa fa-external-link" style="padding-left:5px;"></i></a></li> 
+            <li><a href="https://www.meetup.com/Moscow-Apache-Ignite-Meetup/" target="_blank">Ignite Moscow Meetup <i class="fa fa-external-link" style="padding-left:5px;"></i></a></li> 
+            <li class="divider"></li> 
+            <li role="presentation" class="submenu-header">Contribute</li> 
+            <li><a href="/community/contribute.html#contribute">Start Contributing</a></li> 
+            <li><a href="/community/contribute.html#become-committer">Become a Committer</a></li> 
+           </ul> </li> 
+          <li class="dropdown"> <a href="/addons.html">Manage<span class="caret"></span></a> 
+           <ul class="dropdown-menu" role="menu"> 
+            <li><a href="/addons.html#web-console">Ignite Web Console</a></li> 
+            <li><a href="/addons.html#aiex">Apache Ignite Extensions</a></li> 
+           </ul> </li> 
+          <li class="dropdown download-button-visibilty"> <a class="download-button-dropdown" href="/download.cgi">Download<span class="caret"></span></a> 
+           <ul class="dropdown-menu" role="menu"> 
+            <li><a href="/download.cgi#sources">Source Releases</a></li> 
+            <li class="divider"></li> 
+            <li><a href="/download.cgi#binaries">Binary Releases</a></li> 
+            <li class="divider"></li> 
+            <li><a href="/download.cgi#docker">Docker and Cloud Images</a></li> 
+            <li class="divider"></li> 
+            <li><a href="/download.cgi#maven">Download from Maven</a></li> 
+            <li class="divider"></li> 
+            <li><a href="/download.cgi#nuget">Download from NuGet</a></li> 
+            <li class="divider"></li> 
+            <li><a href="/download.cgi#build-source">Build from Source</a></li> 
+            <li class="divider"></li> 
+            <li><a href="/download.cgi#git-repository">Git Repository</a></li> 
+            <li class="divider"></li> 
+            <li><a href="/download.cgi#3rdparty">3<sup>rd</sup> Party Binaries</a></li> 
+           </ul> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </nav> 
+     </div> 
+    </div> 
+   </div> 
+  </header> 
+  <main id="main" role="main" class="container"> 
+   <section id="datagrid" class="page-section"> 
+    <h1 class="first">In-Memory Data Grid</h1> 
+    <div class="col-sm-12 col-md-12 col-xs-12" style="padding:0 0 20px 0;"> 
+     <div class="col-sm-6 col-md-6 col-xs-12" style="padding-left:0; padding-right:0"> 
+      <p> Ignite data grid is a <code>distributed, transactional key-value store</code>. Unlike other in-memory data grids (IMDG), Ignite enables storing data both, in memory and on disk. On top of the standard key-value data operations, including ACID transactions and all the JCache (JSR 107) functionality, Ignite also supports 
+       <nobr>
+        <code>SQL queries</code>
+       </nobr> over its data with the support for 
+       <nobr>
+        <code>distributed joins</code>
+       </nobr>. </p> 
+     </div> 
+     <div class="col-sm-4 col-md-6 col-xs-12" style="padding-right:0"> 
+      <img class="img-responsive" src="/images/data_grid.png" width="500px" style="float:right;"> 
+     </div> 
+    </div> 
+    <p> The data grid has been built from the ground up to linearly scale to hundreds of nodes with strong semantics for data locality and affinity data routing to reduce redundant data noise. It can be viewed as a distributed partitioned hash map with every cluster node owning a portion of the overall data. This way the more cluster nodes we add, the more data we can cache. </p> 
+    <p> Ignite data grid is one of the fastest implementations of ACID transactions or atomic data updates in distributed clusters today. We know it because we constantly benchmark it ourselves. </p> 
+    <p> The data in the data grid can be stored either purely in memory, or can also be persisted to disk. If <a href="/features/persistence.html" target="_blank">Ignite native persistence</a> is enabled, then data and indexes will be persisted natively by Ignite on every cluster node. In this case, memory only serves as a smaller caching layer of the overall persisted data set. All queries and transactions span the whole data set stored on disk. </p> 
+    <p> The in-memory data grid can also improve performance and scalability by integrating with existing 3rd party databases, like RDBMS, NoSQL, or Hadoop-based storages. This approach does not require rip-and-replace of the existing data, but has its limitations. For example, SQL or scan queries will only include the results stored in memory, and not in the external database, since Ignite does not have any knowledge of the external data. </p> 
+    <p> <a href="https://apacheignite.readme.io/docs/distributed-persistent-store" target="_blank">Read more</a> about different types of persistence in Ignite. </p> 
+    <div class="videos"> 
+     <div class="page-heading">
+      Videos:
+     </div> 
+     <ul class="page-list"> 
+      <li> <i class="fa fa-lg fa-play-circle-o"></i> <span class="video-title"> <a target="youtube" href="https://www.youtube.com/watch?v=pFbDWpOiMOU">Getting Started with Data Grid</a> </span> <span class="video-duration">03:49</span> </li> 
+     </ul> 
+    </div> 
+    <div class="code-examples"> 
+     <div class="page-heading">
+      Code Examples:
+     </div> 
+     <!-- Nav tabs --> 
+     <ul id="datagrid-examples" class="nav nav-tabs"> 
+      <li class="active"><a href="#datagrid-example-basic" role="tab" data-toggle="tab">Put and Get</a></li> 
+      <li><a href="#datagrid-example-transactions" role="tab" data-toggle="tab">Transactions</a></li> 
+      <li><a href="#datagrid-example-locks" role="tab" data-toggle="tab">Locks</a></li> 
+      <li><a href="#datagrid-example-sqlquery" role="tab" data-toggle="tab">SQL Query</a></li> 
+      <li><a href="#datagrid-example-sqljoin" role="tab" data-toggle="tab">SQL Join</a></li> 
+      <li><a href="#datagrid-example-sqlaggregation" role="tab" data-toggle="tab">SQL Aggregation</a></li> 
+     </ul> 
+     <!-- Tab panes --> 
+     <div class="tab-content"> 
+      <div role="tabpanel" class="tab-pane active" id="datagrid-example-basic"> 
+       <pre class="brush:java">
+                            Ignite ignite = Ignition.ignite();
+
+                            // Get an instance of named cache.
+                            final IgniteCache&lt;Integer, String&gt; cache = ignite.cache("cacheName");
+
+                            // Store keys in cache.
+                            for (int i = 0; i &lt; 10; i++)
+                                cache.put(i, Integer.toString(i));
+
+                            // Retrieve values from cache.
+                            for (int i = 0; i &lt; 10; i++)
+                                System.out.println("Got [key=" + i + ", val=" + cache.get(i) + ']');
+
+                            // Remove objects from cache.
+                            for (int i = 0; i &lt; 10; i++)
+                                cache.remove(i);
+
+                            // Atomic put-if-absent.
+                            cache.putIfAbsent(1, "1");
+
+                            // Atomic replace.
+                            cache.replace(1, "1", "2");
+                        </pre> 
+      </div> 
+      <div role="tabpanel" class="tab-pane" id="datagrid-example-transactions"> 
+       <pre class="brush:java">
+                            Ignite ignite = Ignition.ignite();
+
+                            // Clone every object we get from cache, so we can freely update it.
+                            IgniteCache&lt;Integer, Account&gt; cache = ignite.cache("cacheName");
+
+                            try (IgniteTx tx = Ignition.ignite().transactions().txStart()) {
+                                Account acct = cache.get(acctId);
+
+                                assert acct != null;
+
+                                // Deposit $20 into account.
+                                acct.setBalance(acct.getBalance() + 20);
+
+                                // Store updated account in cache.
+                                cache.put(acctId, acct);
+
+                                tx.commit();
+                            }
+                        </pre> 
+      </div> 
+      <div role="tabpanel" class="tab-pane" id="datagrid-example-locks"> 
+       <pre class="brush:java">
+                            Ignite ignite = Ignition.ignite();
+
+                            // Get an instance of named cache.
+                            final GridCache&lt;String, Integer&gt; cache = ignite.cache("cacheName");
+
+                            // Lock cache key "Hello".
+                            Lock lock = cache.lock("Hello");
+
+                            lock.lock();
+
+                            try {
+                                cache.put("Hello", 11);
+                                cache.put("World", 22);
+                            }
+                            finally {
+                                lock.unlock();
+                            }
+                        </pre> 
+      </div> 
+      <div role="tabpanel" class="tab-pane" id="datagrid-example-sqlquery"> 
+       <pre class="brush:java">
+                            IgniteCache&lt;Long, Person&gt; cache = ignite.cache("mycache");
+
+                            SqlFieldsQuery sql = new SqlFieldsQuery(
+                              "select concat(firstName, ' ', lastName) from Person");
+
+                            // Select concatinated first and last name for all persons.
+                            try (QueryCursor&lt;List&lt;?&gt;&gt; cursor = cache.query(sql)) {
+                              for (List&lt;?&gt; row : cursor)
+                                System.out.println("Full name: " + row.get(0));
+                            }
+                        </pre> 
+      </div> 
+      <div role="tabpanel" class="tab-pane" id="datagrid-example-sqljoin"> 
+       <pre class="brush:java">
+                            IgniteCache&lt;Long, Person&gt; personCache = ignite.cache("personCache");
+
+                            // Select with join between Person and Organization to
+                            // get the names of all the employees of a specific organization.
+                            SqlFieldsQuery sql = new SqlFieldsQuery(
+                                "select p.name  "
+                                    + "from Person p, \"orgCache\".Organization o where "
+                                    + "p.orgId = o.id "
+                                    + "and o.name = ?");
+
+                            // Execute the query and obtain the query result cursor.
+                            try (QueryCursor&lt;List&lt;?&gt;&gt; cursor =  personCache.query(sql.setArgs("Ignite"))) {
+                                for (List&lt;?&gt; row : cursor)
+                                    System.out.println("Person name=" + row);
+                            }
+                        </pre> 
+      </div> 
+      <div role="tabpanel" class="tab-pane" id="datagrid-example-sqlaggregation"> 
+       <pre class="brush:java">
+                            IgniteCache&lt;Long, Person&gt; personCache = ignite.cache("personCache");
+
+                            // Select average age of people working within different departments.
+                            SqlFieldsQuery sql = new SqlFieldsQuery(
+                                "select avg(p.age) as avg_age, d.name as dpmt_name, o.name as org_name "
+                                    + "from Person p, \"depCache\".Department d, \"orgCache\".Organization o "
+                                    + "where p.depid = d.id and d.orgid = o.id "
+                                    + "group by d.name, o.name "
+                                    + "order by avg_age";
+
+                            // Execute the query and obtain the query result cursor.
+                            try (QueryCursor&lt;List&lt;?&gt;&gt; cursor =  personCache.query(sql.setArgs("Ignite"))) {
+                                for (List&lt;?&gt; row : cursor)
+                                    System.out.println("Average age by department and organization: " + row);
+                            }
+                        </pre> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="page-heading github-examples">
+     GitHub Examples:
+    </div> 
+    <p> Also see <a href="https://github.com/apache/ignite/tree/master/examples/src/main/java/org/apache/ignite/examples/datagrid" target="github">data grid examples</a> available on GitHub. </p> 
+   </section> 
+   <section id="key-features" class="page-section"> 
+    <h2>Data Grid Features</h2> 
+    <table class="formatted" name="Data Grid Features"> 
+     <thead> 
+      <tr> 
+       <th width="35%" class="left">Feature</th> 
+       <th>Description</th> 
+      </tr> 
+     </thead> 
+     <tbody> 
+      <tr> 
+       <td class="left">Key-Value Store</td> 
+       <td> <p> Ignite data grid is a <code>key-value store</code> which can store data both, in-memory and on-disk. It can be viewed as a distributed partitioned hash map, with every cluster node owning a portion of the overall data. This way the more cluster nodes we add, the more data we can store. </p> <p> Unlike other key-value stores, Ignite determines data locality using a pluggable hashing algorithm. Every client can determine which node a key belongs to by plugging it into a hashing function, without a need for any special mapping servers or name nodes. </p> 
+        <div class="page-links"> 
+         <a href="http://apacheignite.readme.io/docs/data-grid" target="docs">Docs for this Feature <i class="fa fa-angle-double-right"></i></a> 
+        </div> </td> 
+      </tr> 
+      <tr> 
+       <td class="left">SQL Support</td> 
+       <td> <p> In addition to key-value API, Ignite data grid has complete SQL support, including primary and secondary indexes and distributed JOINs. </p> 
+        <div class="page-links"> 
+         <a href="https://apacheignite.readme.io/docs/sql-queries" target="docs">Docs for this Feature <i class="fa fa-angle-double-right"></i></a> 
+        </div> </td> 
+      </tr> 
+      <tr> 
+       <td class="left">Durable Memory</td> 
+       <td> <p> Ignite <code>Durable Memory</code> allows storing and processing data and indexes both, in memory and on disk. The in-memory data, including indexes, is always stored and managed <code>off-heap</code>, completely removing any type of Garbage Collection overhead. </p> 
+        <div class="page-links"> 
+         <a href="https://apacheignite.readme.io/docs/durable-memory" target="docs">Docs for this Feature <i class="fa fa-angle-double-right"></i></a> 
+        </div> </td> 
+      </tr> 
+      <tr> 
+       <td class="left">JCache (JSR 107)</td> 
+       <td> <p> Ignite is a 100% compliant implementation of <span style="white-space: nowrap">JCache (JSR 107)</span> specification. JCache provides a very simple to use, yet very powerful API for data caching. </p> <p> Some of the JCache API features include: </p>
+        <ul class="page-list"> 
+         <li>Basic Cache Operations</li> 
+         <li>ConcurrentMap APIs</li> 
+         <li>Collocated Processing (EntryProcessor)</li> 
+         <li>Events and Metrics</li> 
+         <li>Pluggable Persistence</li> 
+        </ul> <p></p> 
+        <div class="page-links"> 
+         <a href="http://apacheignite.readme.io/docs/jcache" target="docs">Docs for this Feature <i class="fa fa-angle-double-right"></i></a> 
+        </div> </td> 
+      </tr> 
+      <tr> 
+       <td class="left">Partitioning &amp; Replication</td> 
+       <td> <p> Depending on the configuration, Ignite can either <i>partition</i> or <i>replicate</i> data. Unlike <code>REPLICATED</code> mode, where data is fully replicated across all nodes in the cluster, in <code>PARTITIONED</code> mode Ignite will equally split the data across multiple cluster nodes. </p> <p> Ignite also allows to configure multiple <b>backup copies</b> to guarantee data resiliency in case of node failures. </p> 
+        <div class="page-links"> 
+         <a href="http://apacheignite.readme.io/docs/cache-modes" target="docs">Docs for this Feature <i class="fa fa-angle-double-right"></i></a> 
+        </div> </td> 
+      </tr> 
+      <tr> 
+       <td class="left">Collocated Processing</td> 
+       <td> <p> Ignite allows executing any native Java, C++, and .NET/C# code directly on the server-side, close to the data, in collocated fashion. </p> 
+        <div class="page-links"> 
+         <a href="/collocatedprocessing.html" target="docs">Docs for this feature <i class="fa fa-angle-double-right"></i></a> 
+        </div> </td> 
+      </tr> 
+      <tr> 
+       <td class="left">Self-Healing Cluster</td> 
+       <td> <p> Ignite cluster can self-heal, where clients automatically reconnect in case of failures, slow clients are automatically kicked out, and data from failed nodes is automatically propagated to other nodes in the grid. </p> 
+        <div class="page-links"> 
+         <a href="http://apacheignite.readme.io/docs/clients-vs-servers" target="docs">Docs for this Feature <i class="fa fa-angle-double-right"></i></a> 
+        </div> </td> 
+      </tr> 
+      <tr> 
+       <td class="left">Client-side Near Caches</td> 
+       <td> <p> Near cache is local client-side cache that stores the most recently and most frequently accessed data. </p> 
+        <div class="page-links"> 
+         <a href="http://apacheignite.readme.io/docs/near-caches" target="docs">Docs for this Feature <i class="fa fa-angle-double-right"></i></a> 
+        </div> </td> 
+      </tr> 
+      <tr> 
+       <td class="left">ACID Transactions</td> 
+       <td> <p> Ignite provides fully ACID compliant distributed transactions that ensure guaranteed consistency.</p> <p> Ignite supports <code>OPTIMISTIC</code> and <code>PESSIMISTIC</code> concurrency modes as well as <code>READ_COMMITTED</code>, <code>REPEATABLE_READ</code>, and <code>SERIALIZABLE</code> isolation levels.</p> <p> Ignite transactions utilize 2PC protocol with many one-phase-commit optimizations whenever applicable. </p> 
+        <div class="page-links"> 
+         <a href="http://apacheignite.readme.io/docs/transactions" target="docs">Docs for this Feature <i class="fa fa-angle-double-right"></i></a> 
+        </div> </td> 
+      </tr> 
+      <tr> 
+       <td class="left" width="35%">Deadlock-Free Transactions</td> 
+       <td> <p> Ignite supports deadlock-free, optimistic transactions, which do not acquire any locks, and free users from worrying about the lock order. Such transactions also provide much better performance. </p> 
+        <div class="page-links"> 
+         <a href="https://apacheignite.readme.io/docs/transactions" target="docs">Docs for this feature <i class="fa fa-angle-double-right"></i></a> 
+        </div> </td> 
+      </tr> 
+      <tr> 
+       <td class="left" width="35%">Transactional Entry Processor</td> 
+       <td> <p> Ignite transactional entry processor allows executing collocated user logic on the server side within a transaction. </p> 
+        <div class="page-links"> 
+         <a href="https://apacheignite.readme.io/docs/affinity-collocation#ignitecompute-vs-entryprocessor" target="docs">Docs for this feature <i class="fa fa-angle-double-right"></i></a> 
+        </div> </td> 
+      </tr> 
+      <tr> 
+       <td class="left" width="35%">Cross-Partition Transactions</td> 
+       <td> <p> In Ignite, transactions can be performed on all partitions of a cache across the whole cluster. </p> 
+        <div class="page-links"> 
+         <a href="https://apacheignite.readme.io/docs/transactions#ignitetransactions" target="docs">Docs for this feature <i class="fa fa-angle-double-right"></i></a> 
+        </div> </td> 
+      </tr> 
+      <tr> 
+       <td class="left" width="35%">Locks</td> 
+       <td> <p> Ignite allows developers to define explicit locks enforcing mutual exclusion on cached objects. </p> 
+        <div class="page-links"> 
+         <a href="https://apacheignite.readme.io/docs/distributed-locks" target="docs">Docs for this feature <i class="fa fa-angle-double-right"></i></a> 
+        </div> </td> 
+      </tr> 
+      <tr> 
+       <td class="left" width="35%">Continuous Queries</td> 
+       <td> <p> Continuous queries are useful for cases when you want to execute a query and then continue to get notified about the data changes that fall into your query filter. </p> 
+        <div class="page-links"> 
+         <a href="https://apacheignite.readme.io/docs/continuous-queries" target="docs">Docs for this feature <i class="fa fa-angle-double-right"></i></a> 
+        </div> </td> 
+      </tr> 
+      <tr> 
+       <td class="left">Native Persistence</td> 
+       <td> <p> Ignite <code>Native Persistence</code> is a distributed ACID and SQL-compliant disk store that transparently integrates with Ignite's Durable Memory as an optional persistence layer, storing data and indexes on SSD, Flash, 3D XPoint, or any other types of storages. </p> 
+        <div class="page-links"> 
+         <a href="https://apacheignite.readme.io/docs/distributed-persistent-store" target="docs">Docs for this Feature <i class="fa fa-angle-double-right"></i></a> 
+        </div> </td> 
+      </tr> 
+      <tr> 
+       <td class="left"> <b>Database Integration</b> </td> 
+       <td> <p> Ignite can automatically integrate with external databases, like RDBMS, NoSQL, HDFS and others. </p> 
+        <div class="page-links"> 
+         <a href="https://apacheignite.readme.io/docs/3rd-party-store" target="docs">Docs for this feature <i class="fa fa-angle-double-right"></i></a> 
+        </div> </td> 
+      </tr> 
+      <tr> 
+       <td class="left" width="35%">Write-Through</td> 
+       <td> <p> Write-Through mode allows updating the data in the database. </p> 
+        <div class="page-links"> 
+         <a href="https://apacheignite.readme.io/docs/3rd-party-store#read-through-and-write-through" target="docs">Docs for this feature <i class="fa fa-angle-double-right"></i></a> 
+        </div> </td> 
+      </tr> 
+      <tr> 
+       <td class="left">Read-Through</td> 
+       <td> <p> Read-Through mode allows reading the data from the database. </p> 
+        <div class="page-links"> 
+         <a href="https://apacheignite.readme.io/docs/3rd-party-store#read-through-and-write-through" target="docs">Docs for this feature <i class="fa fa-angle-double-right"></i></a> 
+        </div> </td> 
+      </tr> 
+      <tr> 
+       <td class="left">Write-Behind Caching</td> 
+       <td> <p> Ignite provides an option to asynchronously perform updates to the database via Write-Behind Caching. </p> 
+        <div class="page-links"> 
+         <a href="https://apacheignite.readme.io/docs/3rd-party-store#section-write-behind-caching" target="docs">Docs for this feature <i class="fa fa-angle-double-right"></i></a> 
+        </div> </td> 
+      </tr> 
+      <tr> 
+       <td class="left">Web Session Clustering</td> 
+       <td> <p> Ignite data grid is capable of caching web sessions of all Java Servlet containers that follow Java Servlet 3.0 Specification, including Apache Tomcat, Eclipse Jetty, Oracle WebLogic, and others. </p> <p> Web sessions caching becomes useful when running a cluster of app servers to improve performance and scalability of the servlet container. </p> 
+        <div class="page-links"> 
+         <a href="https://apacheignite-mix.readme.io/docs/web-session-clustering" target="docs">Docs for this Feature <i class="fa fa-angle-double-right"></i></a> 
+        </div> </td> 
+      </tr> 
+      <tr> 
+       <td class="left">Hibernate L2 Caching</td> 
+       <td> <p> Ignite data grid can be used as <code>Hibernate Second-Level Cache</code> (or L2 cache), which can significantly speed-up the persistence layer of your application. </p> 
+        <div class="page-links"> 
+         <a href="https://apacheignite-mix.readme.io/docs/hibernate-l2-cache" target="docs">Docs for this Feature <i class="fa fa-angle-double-right"></i></a> 
+        </div> </td> 
+      </tr> 
+      <tr> 
+       <td class="left">Spring Caching</td> 
+       <td> <p> Ignite provides Spring-annotation-based way to enable caching for Java methods so that the result of a method execution is stored in the Ignite cache. If later the same method is called with the same set of parameters, the result will be retrieved from the cache instead of actually executing the method. </p> 
+        <div class="page-links"> 
+         <a href="http://apacheignite-mix.readme.io/docs/spring-caching" target="docs">Docs for this Feature <i class="fa fa-angle-double-right"></i></a> 
+        </div> </td> 
+      </tr> 
+      <tr> 
+       <td class="left">Spring Data</td> 
+       <td> <p> Apache Ignite implements Spring Data <code>CrudRepository</code> interface that not only supports basic CRUD operations but also provides access to the Apache Ignite SQL capabilities via the unified Spring Data API. </p> 
+        <div class="page-links"> 
+         <a href="https://apacheignite-mix.readme.io/docs/spring-data" target="docs">Docs for this Feature <i class="fa fa-angle-double-right"></i></a> 
+        </div> </td> 
+      </tr> 
+      <tr> 
+       <td class="left">XA/JTA</td> 
+       <td> <p> Ignite can be configured with a Java Transaction API (JTA) transaction manager lookup class. </p> 
+        <div class="page-links"> 
+         <a href="https://apacheignite.readme.io/docs/transactions#integration-with-jta" target="docs">Docs for this feature <i class="fa fa-angle-double-right"></i></a> 
+        </div> </td> 
+      </tr> 
+      <tr> 
+       <td class="left">OSGI Support</td> 
+       <td> <p></p> &nbsp; 
+        <div class="page-links"> 
+         <a href="https://apacheignite-mix.readme.io/docs/starting-inside-an-osgi-container" target="docs">Docs for this feature <i class="fa fa-angle-double-right"></i></a> 
+        </div> </td> 
+      </tr> 
+      <tr> 
+       <td class="left">Binary Protocol</td> 
+       <td> <p> Apache Ignite stores data in caches as <code>BinaryObjects</code> that allows you to: </p> 
+        <ul class="page-list"> 
+         <li>Read a serialized object's field without full object deserialization.</li> 
+         <li>Dynamically change an object's structure.</li> 
+         <li>Dynamically create an object.</li> 
+        </ul> 
+        <div class="page-links"> 
+         <a href="https://apacheignite.readme.io/docs/binary-marshaller" target="docs">Docs for this feature <i class="fa fa-angle-double-right"></i></a> 
+        </div> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+   </section> 
+  </main> 
+  <!-- REMEMBER TO COPY ALL CHANGES TO download.html --> 
+  <footer id="footer"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="col-md-4 col-sm-5"> 
+      <div class="logo">
+       <a href="#wrapper"><img src="/images/logo3.png"></a>
+      </div> 
+      <a href="https://donate.apache.org/"><img src="/images/support-apache.png" height="50" width="50" style="margin-top: 30px; margin-left: 10px;"></a> 
+     </div> 
+     <nav class="col-md-4 col-sm-3 footer-nav"> 
+      <!--<ul class="list-unstyled">--> 
+      <!--<li><a href="/index.html#overview">Overview</a></li>--> 
+      <!--<li><a href="/features.html">Features</a></li>--> 
+      <!--<li><a href="/usecases.html">Use Cases</a></li>--> 
+      <!--<li><a href="http://apacheignite.readme.io/docs">Documentation</a></li>--> 
+      <!--<li><a href="http://apache-ignite-users.70518.x6.nabble.com/">Ask Question</a></li>--> 
+      <!--<li><a href="/community/resources.html">Community</a></li>--> 
+      <!--<li><a href="/addons.html">Manage</a></li>--> 
+      <!--<li><a href="/download.cgi">Download</a></li>--> 
+      <!--</ul>--> 
+     </nav> 
+     <div class="col-md-4 col-sm-4"> 
+      <p style="text-align: right"> © 2015 - 2017 <a href="http://www.apache.org/">The Apache Software Foundation</a>.<br> Apache, Apache Ignite, the Apache feather and the Apache Ignite logo are trademarks of The Apache Software Foundation. </p> 
+      <ul class="social-networks list-unstyled"> 
+       <li><a href="https://www.linkedin.com/company/apache-ignite" class="icon-linkedin" target="_blank"></a></li> 
+       <li><a href="https://twitter.com/ApacheIgnite" class="icon-twitter" target="_blank"></a></li> 
+       <li><a href="https://plus.google.com/109419715166167783665" class="icon-google-plus" target="_blank"></a></li> 
+       <li><a href="https://www.facebook.com/Apache-Ignite-813431118713318/" class="icon-facebook" target="_blank"></a></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+  </footer> 
+ </div> 
+ <!-- REMEMBER TO COPY ALL CHANGES TO download.html --> 
+ <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+ <script type="text/javascript">window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script> 
+ <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+ <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-61232409-1', 'auto');
+    ga('send', 'pageview');
+</script> 
+ <script type="text/javascript">
+    if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+        var msViewportStyle = document.createElement('style');
+        msViewportStyle.appendChild(
+            document.createTextNode(
+                '@-ms-viewport{width:auto!important}'
+            )
+        );
+        document.querySelector('head').appendChild(msViewportStyle)
+    }
+</script> 
+ <script type="text/javascript">
+    eval(function()
+    {
+        try
+        {
+            doHighlight();
+        }
+        catch(e)
+        {
+            var elem = document.createElement('SCRIPT');
+            elem.src="https://crux-framework-tools.googlecode.com/svn/trunk/misc/highlight/highlight.js";
+            var theBody = document.getElementsByTagName('body')[0];
+            theBody.appendChild(elem);
+        }
+    })();
+</script> 
+ <!-- Syntax highlight. --> 
+ <script type="text/javascript">
+    SyntaxHighlighter.all()
+</script> 
+ <!-- Disable carousel slide on mobile devices. --> 
+ <script type="text/javascript">
+    if( /Android|webOS|iPhone|iPod|Galaxy Note|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+ $('.carousel').carousel ({
+   interval:false
+ });
+}
+</script> 
+ <!-- Table export --> 
+ <script type="text/javascript" src="//cdn.rawgit.com/hhurz/tableExport.jquery.plugin/master/libs/FileSaver/FileSaver.min.js"></script> 
+ <script type="text/javascript" src="//cdn.rawgit.com/hhurz/tableExport.jquery.plugin/master/libs/jsPDF/jspdf.min.js"></script> 
+ <script type="text/javascript" src="/js/jspdf.plugin.autotable.js"></script> 
+ <script type="text/javascript" src="/js/tableExport.min.js"></script> 
+ <script type="text/javascript">
+$(document).ready(function() {
+    var expBtnDesc = [
+        {cfg: {type:'json'}, text: 'JSON', icon:'ico-json.png'},
+        {cfg: {type:'xml'}, text: 'XML', icon:'ico-xml.png'},
+        {cfg: {type:'csv'}, text: 'CSV', icon:'ico-csv.png'},
+        {cfg: {type:'excel'}, text: 'XLS', icon:'ico-xls.png'},
+        {cfg: {type:'pdf',
+                jspdf: {
+                    autotable: {
+                        styles: {
+                            overflow: 'linebreak',
+                            fontSize: 14,
+                            rowHeight: 19,
+                            valign: 'top'
+                        },
+                        headerStyles: {
+                            rowHeight: 20,
+                            fontSize: 16,
+                            fillColor: 207,
+                            textColor: 0,
+                            valign: 'middle'
+                        },
+                        bodyStyles: {
+                            fillColor: 245
+                        },
+                        alternateRowStyles: {
+                            fillColor: 255,
+                            valign: 'middle'
+                        }
+                    }
+                }
+            },
+            text: 'PDF',
+            icon:'ico-pdf.png'}
+    ];
+
+    $("table").each(function (ix, tbl) {
+        var insert = '' +
+            '<div class="btn-group btn-group-export" title="Export table content to selected format">\n' +
+            '    <button class="btn btn-default btn-export btn-sm dropdown-toggle fa fa-download" data-toggle="dropdown"> <i class="fa fa-caret-down"/></button>\n' +
+            '    <ul class="dropdown-menu dropdown-menu-right" role="menu">\n';
+
+        var id = this.id || 'table' + ix;
+
+        this.id = id;
+
+        $.each(expBtnDesc, function (ix, btn) {
+            btn.cfg.fileName = $(tbl).attr('name');
+
+            insert += "        <li><a href='#' onclick='$(\"#" + id + "\").tableExport(" + JSON.stringify(btn.cfg) + ");'>" +
+                    "<img src='/images/" + btn.icon + "' width='24px'/> " + btn.text +
+                "</a></li>\n";
+
+            if (ix < expBtnDesc.length - 1)
+                insert += '        <li class="divider"></li>\n';
+        });
+
+        insert += '    </ul>\n'+
+            '</div>\n';
+
+        $(this).find('thead').before(insert);
+    });
+
+    $("table#mc").find("button").hide();
+});
+</script> 
+ <!--Launch YouTube video in Bootstrap modal--> 
+ <script type="text/javascript">
+$(document).ready(function(){
+    /* Get iframe src attribute value i.e. YouTube video url
+    and store it in a variable */
+    var sqlUrl = $("#sql").attr('src');
+    var dataGridUrl = $("#data-grid").attr('src');
+    var clusteringUrl = $("#clustering").attr('src');
+    var databaseImportUrl = $("#database-import").attr('src');
+    var dataLoadingUrl = $("#data-loading").attr('src');
+    var webconsoleSqlUrl = $("#webconsole-sql").attr('src');
+
+    /* Assign empty url value to the iframe src attribute when
+    modal hide, which stop the video playing */
+    $("#sql-modal").on('hide.bs.modal', function(){
+        $("#sql").attr('src', '');
+    });
+
+    $("#data-grid-modal").on('hide.bs.modal', function(){
+        $("#data-grid").attr('src', '');
+    });
+
+    $("#clustering-modal").on('hide.bs.modal', function(){
+        $("#clustering").attr('src', '');
+    });
+
+    $("#database-import-modal").on('hide.bs.modal', function(){
+        $("#database-import").attr('src', '');
+    });
+    $("#data-loading-modal").on('hide.bs.modal', function(){
+        $("#data-loading").attr('src', '');
+    });
+    $("#webconsole-sql-modal").on('hide.bs.modal', function(){
+        $("#webconsole-sql").attr('src', '');
+    });
+
+    /* Assign the initially stored url back to the iframe src
+    attribute when modal is displayed again */
+    $("#sql-modal").on('show.bs.modal', function(){
+        $("#sql").attr('src', sqlUrl);
+    });
+
+    $("#data-grid-modal").on('show.bs.modal', function(){
+        $("#data-grid").attr('src', dataGridUrl);
+    });
+
+    $("#clustering-modal").on('show.bs.modal', function(){
+        $("#clustering").attr('src', clusteringUrl);
+    });
+
+    $("#database-import-modal").on('show.bs.modal', function(){
+        $("#database-import").attr('src', databaseImportUrl);
+    });
+    $("#data-loading-modal").on('show.bs.modal', function(){
+        $("#data-loading").attr('src', dataLoadingUrl);
+    });
+    $("#webconsole-sql-modal").on('show.bs.modal', function(){
+        $("#webconsole-sql").attr('src', webconsoleSqlUrl);
+    });
+});
+</script> 
+ <!-- Share news on social media--> 
+ <script async src="https://static.addtoany.com/menu/page.js"></script> 
+ <!-- Github stats--> 
+ <script async defer src="https://buttons.github.io/buttons.js"></script> 
+ <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>  
+</body>

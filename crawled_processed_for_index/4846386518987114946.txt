@@ -1,0 +1,1135 @@
+<body> 
+ <!-- Google Tag Manager --> 
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-5V3WWJ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+ </noscript> 
+ <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5V3WWJ');</script> 
+ <!-- End Google Tag Manager --> 
+ <script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter24049294 = new Ya.Metrika({id:24049294, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script> 
+ <noscript> 
+  <div>
+   <img src="//mc.yandex.ru/watch/24049294" style="position:absolute; left:-9999px;" alt="">
+  </div> 
+ </noscript> 
+ <div class="tm-services-panel" role="tm_panel"> 
+  <ul class="menu menu_horizontal menu_services"> 
+   <li class="menu__item"> <a class="menu__item-link" href="https://tmfeed.ru?utm_source=tm_freelansim&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo">TM Feed</a> </li> 
+   <li class="menu__item"> <a class="menu__item-link" href="https://habrahabr.ru?utm_source=tm_freelansim&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo">Хабрахабр</a> </li> 
+   <li class="menu__item"> <a class="menu__item-link" href="https://geektimes.ru?utm_source=tm_freelansim&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo">Geektimes</a> </li> 
+   <li class="menu__item"> <a class="menu__item-link" href="https://toster.ru?utm_source=tm_freelansim&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo">Тостер</a> </li> 
+   <li class="menu__item"> <a class="menu__item-link" href="https://moikrug.ru?utm_source=tm_freelansim&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo">Мой круг</a> </li> 
+   <li class="menu__item last"> <a class="menu__item-link  menu__item-link_current" href="https://freelansim.ru?utm_source=tm_freelansim&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo">Фрилансим</a> </li> 
+   <li class="menu__item specials"> <span id="adriver_banner_465568687"></span> </li> 
+  </ul> 
+ </div> 
+ <header class="main_header"> 
+  <div class="inner"> 
+   <a class="top_logo" href="/">
+    <!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Слой_1" x="0px" y="0px" width="157.5px" height="30.6px" viewbox="0 0 157.5 30.6" enable-background="new 0 0 157.5 30.6" xml:space="preserve"> 
+     <rect id="XMLID_1_" y="3.6" fill="none" width="157.5" height="26"></rect> 
+     <g id="XMLID_2_" enable-background="new    "> 
+      <path d="M14.82,22.1H9.204v-1.977h-0.52c-4.291,0-7.904-2.834-7.904-7.514c0-4.94,3.822-7.515,7.904-7.515h0.52V3.379h5.616v1.742   h0.521c4.29,0,7.904,2.834,7.904,7.514c0,4.94-3.822,7.515-7.904,7.515H14.82V22.1z M8.918,9.671c-1.898,0-2.964,1.353-2.964,2.964   c0,1.664,1.066,2.938,2.964,2.938h0.286V9.671H8.918z M14.82,9.671v5.902h0.286c1.898,0,2.964-1.274,2.964-2.938   c0-1.611-1.066-2.964-2.964-2.964H14.82z"></path> 
+      <path d="M29.9,9.1v1.689c0.598-1.248,2.028-2.08,3.354-2.08c3.796,0,5.85,3.094,5.85,6.891c0,3.796-2.054,6.89-5.85,6.89   c-1.326,0-2.756-0.832-3.354-2.08v6.995h-4.836V9.1H29.9z M29.9,14.144v2.886c0.442,0.546,1.092,0.884,1.794,0.884   c1.248,0,2.314-1.065,2.314-2.313c0-1.301-1.066-2.314-2.314-2.314C30.992,13.285,30.342,13.623,29.9,14.144z"></path> 
+      <path d="M50.05,22.1v-6.084L45.76,22.1h-4.836v-13h4.836v6.084L50.05,9.1h4.837v13H50.05z"></path> 
+      <path d="M63.205,15.235c0,4.524-1.612,6.864-4.784,6.864h-2.236v-3.614h0.729c1.118,0,1.976-1.065,1.976-4.42V9.1h12.091v13h-4.836   v-8.84h-2.938V15.235z"></path> 
+      <path d="M86.475,22.1h-4.836v-1.69c-1.195,1.353-2.964,2.08-4.29,2.08c-2.756,0-4.55-1.195-4.55-3.691   c0-3.536,3.614-4.446,8.84-4.446v-0.391c0-1.378-0.962-1.664-2.054-1.664c-1.196,0-2.99,0.442-4.187,1.223l-2.288-2.73   c1.769-1.378,4.082-2.08,6.578-2.08c3.017,0,6.786,0.676,6.786,4.473V22.1z M81.639,17.836v-1.301   c-1.924,0-3.484,0.442-3.484,1.664c0,0.494,0.286,1.015,1.274,1.015C80.131,19.214,80.911,18.798,81.639,17.836z"></path> 
+      <path d="M88.555,22.1v-13h4.836v4.056h4.29V9.1h4.837v13h-4.837v-4.524h-4.29V22.1H88.555z"></path> 
+      <path d="M111.747,17.913c1.196,0,1.638-0.104,2.834-0.754l2.028,3.511c-1.353,1.222-2.938,1.819-5.383,1.819   c-3.796,0-6.89-3.094-6.89-6.89c0-3.797,3.094-6.891,6.89-6.891c2.444,0,4.03,0.598,5.383,1.82l-2.028,3.51   c-1.196-0.624-1.638-0.754-2.834-0.754c-1.353,0-2.574,0.937-2.574,2.314S110.395,17.913,111.747,17.913z"></path> 
+      <path d="M127.294,22.1v-6.084l-4.29,6.084h-4.836v-13h4.836v6.084l4.29-6.084h4.837v13H127.294z"></path> 
+      <path d="M146.04,22.1v-6.969l-2.651,3.953h-1.717l-2.626-3.9V22.1h-4.836v-13h5.097l3.224,4.731l3.25-4.731h5.097v13H146.04z"></path> 
+     </g> 
+    </svg> </a>
+   <div class="guest_menu"> 
+    <a title="Войти или зарегистрироваться" href="/users/sign_in">Войти на сайт</a> 
+   </div> 
+   <div class="main_menu"> 
+    <a href="/tasks">Заказы</a> 
+    <a class="active" href="/services">Услуги</a> 
+    <a href="/freelancers">Фрилансеры</a> 
+    <a href="/projects">Проекты</a> 
+   </div> 
+  </div> 
+ </header> 
+ <div class="layout"> 
+  <main class="layout__body"> 
+   <section class="column_wrap"> 
+    <div class="column_main"> 
+     <div class="page"> 
+      <div class="main-content"> 
+       <div class="page-title">
+         Услуги (3534) 
+       </div> 
+       <div class="search-suggest"> 
+        <form id="search_items" action="/services" accept-charset="UTF-8" method="get">
+         <input name="utf8" type="hidden" value="✓">
+         <input type="text" name="q" id="q" size="60" class="search-suggest___field" placeholder="Поиск услуг"> 
+         <i class="search-suggest__icon icon_search"></i> 
+        </form> 
+       </div> 
+       <ul class="content-list content-list_tasks content-list_services" id="tasks_list"> 
+        <li class="content-list__item" id="service_16861"> 
+         <article class="user user_short"> 
+          <figure class="user__avatar user__avatar_r50"> 
+           <a href="/freelancers/antony-bayrer"><img class="avatario" src="https://habrastorage.org/getpro/freelansim/users/avatars/45/459/459143/r50_d9d58612d2864fcb3f0bbf94fe2c603f.jpg" alt="R50 d9d58612d2864fcb3f0bbf94fe2c603f"></a> 
+          </figure> 
+          <div class="user__info"> 
+           <header class="user-data"> 
+            <div class="user-data__title"> 
+             <a href="/services/16861">Верстка </a>
+             <div class="user-data__spec"> 
+             </div> 
+            </div> 
+            <div class="user__price user__price_services"> 
+             <span class="icon_cash" title="Стоимость"></span> 
+             <span class="count"> 3 000 руб. </span> 
+            </div> 
+           </header> 
+           <div class="projects_grid" style="margin-top:0"> 
+            <a class="project_item" title="Portfolio." href="/projects/94979">
+             <div class="thumb">
+              <img src="https://habrastorage.org/getpro/freelansim/allfiles/25/255/255523/preview_8709fbe7a1.jpg" alt="Preview 8709fbe7a1">
+             </div> 
+             <div class="about"> 
+              <div class="name">
+               Portfolio.
+              </div> 
+             </div> </a>
+           </div> 
+          </div> 
+         </article> </li> 
+        <li class="content-list__item" id="service_14107"> 
+         <article class="user user_short"> 
+          <figure class="user__avatar user__avatar_r50"> 
+           <a href="/freelancers/ergebe"><img class="avatario" src="https://habrastorage.org/getpro/freelansim/users/avatars/4/47/47590/r50_7e57d98d7af566ee337f4f6c9fba4669.jpg" alt="R50 7e57d98d7af566ee337f4f6c9fba4669"></a> 
+          </figure> 
+          <div class="user__info"> 
+           <header class="user-data"> 
+            <div class="user-data__title"> 
+             <a href="/services/14107">Разработка конверсионных интерфейсов любой сложности. </a>
+             <div class="user-data__spec"> 
+             </div> 
+            </div> 
+            <div class="user__price user__price_services"> 
+             <span class="icon_cash" title="Стоимость"></span> 
+             <span class="count"> 100 000 руб. </span> 
+            </div> 
+           </header> 
+           <div class="projects_grid" style="margin-top:0"> 
+            <a class="project_item" title="Уральские Авиалинии - редизайн" href="/projects/80697">
+             <div class="thumb">
+              <img src="https://habrastorage.org/getpro/freelansim/allfiles/20/202/202533/preview_8683aec2a3.jpg" alt="Preview 8683aec2a3">
+             </div> 
+             <div class="about"> 
+              <div class="name">
+               Уральские Авиалинии - редизайн
+              </div> 
+             </div> </a>
+            <a class="project_item" title="Master Card Black Edition" href="/projects/80699">
+             <div class="thumb">
+              <img src="https://habrastorage.org/getpro/freelansim/allfiles/20/202/202537/preview_020d812b65.jpg" alt="Preview 020d812b65">
+             </div> 
+             <div class="about"> 
+              <div class="name">
+               Master Card Black Edition
+              </div> 
+             </div> </a>
+            <a class="project_item" title="Energy.com" href="/projects/80701">
+             <div class="thumb">
+              <img src="https://habrastorage.org/getpro/freelansim/allfiles/20/202/202541/preview_8bdb7654f2.jpg" alt="Preview 8bdb7654f2">
+             </div> 
+             <div class="about"> 
+              <div class="name">
+               Energy.com
+              </div> 
+             </div> </a>
+           </div> 
+          </div> 
+         </article> </li> 
+        <li class="content-list__item" id="service_16851"> 
+         <article class="user user_short"> 
+          <figure class="user__avatar user__avatar_r50"> 
+           <a href="/freelancers/JuliaPhoenix"><img class="avatario" src="https://habrastorage.org/getpro/freelansim/users/avatars/28/286/286587/r50_577e96d59627711363c7729129e15a13.jpg" alt="R50 577e96d59627711363c7729129e15a13"></a> 
+          </figure> 
+          <div class="user__info"> 
+           <header class="user-data"> 
+            <div class="user-data__title"> 
+             <a href="/services/16851">Создание сайта визитки </a>
+             <div class="user-data__spec"> 
+             </div> 
+            </div> 
+            <div class="user__price user__price_services"> 
+             <span class="icon_cash" title="Стоимость"></span> 
+             <span class="count"> 15 000 руб. </span> 
+            </div> 
+           </header> 
+           <div class="projects_grid" style="margin-top:0"> 
+            <a class="project_item" title="july.graphics - портфолио иллюстратора иЮль" href="/projects/43991">
+             <div class="thumb">
+              <img src="https://habrastorage.org/getpro/freelansim/allfiles/24/241/241305/preview_d47685ad93.jpg" alt="Preview d47685ad93">
+             </div> 
+             <div class="about"> 
+              <div class="name">
+               july.graphics - портфолио иллюстратора иЮль
+              </div> 
+             </div> </a>
+            <a class="project_item" title="argumentum.spb.ru - согласование наружной рекламы" href="/projects/43995">
+             <div class="thumb">
+              <img src="https://habrastorage.org/getpro/freelansim/allfiles/24/241/241301/preview_771aba5ab7.jpg" alt="Preview 771aba5ab7">
+             </div> 
+             <div class="about"> 
+              <div class="name">
+               argumentum.spb.ru - согласование наружной рекламы
+              </div> 
+             </div> </a>
+           </div> 
+          </div> 
+         </article> </li> 
+        <li class="content-list__item" id="service_16849"> 
+         <article class="user user_short"> 
+          <figure class="user__avatar user__avatar_r50"> 
+           <a href="/freelancers/AndreyBulavskiy"><img class="avatario" src="/assets/default/users/avatar_r50-a6ce93fe35b158fd29ba0e8681c918c22117160e9586a56eee4ffbc20df9bda1.png" alt="Avatar r50 a6ce93fe35b158fd29ba0e8681c918c22117160e9586a56eee4ffbc20df9bda1"></a> 
+          </figure> 
+          <div class="user__info"> 
+           <header class="user-data"> 
+            <div class="user-data__title"> 
+             <a href="/services/16849">Разработка бизнес-приложений </a>
+             <div class="user-data__spec"> 
+             </div> 
+            </div> 
+            <div class="user__price user__price_services"> 
+             <span class="icon_cash" title="Стоимость"></span> 
+             <span class="count"> 600 руб. </span> 
+            </div> 
+           </header> 
+          </div> 
+         </article> </li> 
+        <li class="content-list__item" id="service_16827"> 
+         <article class="user user_short"> 
+          <figure class="user__avatar user__avatar_r50"> 
+           <a href="/freelancers/GrayHoax"><img class="avatario" src="https://habrastorage.org/getpro/freelansim/users/avatars/21/216/216957/r50_4e30426225b1dfa871e1305a53525349.jpg" alt="R50 4e30426225b1dfa871e1305a53525349"></a> 
+           <span class="user-profile__status_verified user-profile__status_verified_mini" title="Личность подтверждена"> Личность подтверждена </span> 
+          </figure> 
+          <div class="user__info"> 
+           <header class="user-data"> 
+            <div class="user-data__title"> 
+             <a href="/services/16827">Разработаю бота Telegram </a>
+             <div class="user-data__spec"> 
+             </div> 
+            </div> 
+            <div class="user__price user__price_services"> 
+             <span class="icon_cash" title="Стоимость"></span> 
+             <span class="count"> 500 руб. </span> 
+            </div> 
+           </header> 
+          </div> 
+         </article> </li> 
+        <li class="content-list__item" id="service_16781"> 
+         <article class="user user_short"> 
+          <figure class="user__avatar user__avatar_r50"> 
+           <a href="/freelancers/Caragus"><img class="avatario" src="https://habrastorage.org/getpro/freelansim/users/avatars/2/27/27424/r50_e7bdf482ac4b2af19380da8b7f67c939.png" alt="R50 e7bdf482ac4b2af19380da8b7f67c939"></a> 
+          </figure> 
+          <div class="user__info"> 
+           <header class="user-data"> 
+            <div class="user-data__title"> 
+             <a href="/services/16781">Фирменный стиль </a>
+             <div class="user-data__spec"> 
+             </div> 
+            </div> 
+            <div class="user__price user__price_services"> 
+             <span class="icon_cash" title="Стоимость"></span> 
+             <span class="count"> 39 900 руб. </span> 
+            </div> 
+           </header> 
+           <div class="projects_grid" style="margin-top:0"> 
+            <a class="project_item" title="Музторг" href="/projects/94631">
+             <div class="thumb">
+              <img src="https://habrastorage.org/getpro/freelansim/allfiles/25/254/254199/preview_33335993d2.jpg" alt="Preview 33335993d2">
+             </div> 
+             <div class="about"> 
+              <div class="name">
+               Музторг
+              </div> 
+             </div> </a>
+            <a class="project_item" title="ЛРКЦ" href="/projects/94639">
+             <div class="thumb">
+              <img src="https://habrastorage.org/getpro/freelansim/allfiles/25/254/254245/preview_44537a4824.jpg" alt="Preview 44537a4824">
+             </div> 
+             <div class="about"> 
+              <div class="name">
+               ЛРКЦ
+              </div> 
+             </div> </a>
+            <a class="project_item" title="Targeleon" href="/projects/94643">
+             <div class="thumb">
+              <img src="https://habrastorage.org/getpro/freelansim/allfiles/25/254/254263/preview_418a32f57b.jpg" alt="Preview 418a32f57b">
+             </div> 
+             <div class="about"> 
+              <div class="name">
+               Targeleon
+              </div> 
+             </div> </a>
+           </div> 
+          </div> 
+         </article> </li> 
+        <li class="content-list__item" id="service_16779"> 
+         <article class="user user_short"> 
+          <figure class="user__avatar user__avatar_r50"> 
+           <a href="/freelancers/Caragus"><img class="avatario" src="https://habrastorage.org/getpro/freelansim/users/avatars/2/27/27424/r50_e7bdf482ac4b2af19380da8b7f67c939.png" alt="R50 e7bdf482ac4b2af19380da8b7f67c939"></a> 
+          </figure> 
+          <div class="user__info"> 
+           <header class="user-data"> 
+            <div class="user-data__title"> 
+             <a href="/services/16779">Логотип </a>
+             <div class="user-data__spec"> 
+             </div> 
+            </div> 
+            <div class="user__price user__price_services"> 
+             <span class="icon_cash" title="Стоимость"></span> 
+             <span class="count"> 29 900 руб. </span> 
+            </div> 
+           </header> 
+           <div class="projects_grid" style="margin-top:0"> 
+            <a class="project_item" title="Gigstar" href="/projects/94629">
+             <div class="thumb">
+              <img src="https://habrastorage.org/getpro/freelansim/allfiles/25/254/254171/preview_7ff2b8afcd.jpg" alt="Preview 7ff2b8afcd">
+             </div> 
+             <div class="about"> 
+              <div class="name">
+               Gigstar
+              </div> 
+             </div> </a>
+            <a class="project_item" title="Veery Coool Santa" href="/projects/94633">
+             <div class="thumb">
+              <img src="https://habrastorage.org/getpro/freelansim/allfiles/25/254/254205/preview_853304d525.jpg" alt="Preview 853304d525">
+             </div> 
+             <div class="about"> 
+              <div class="name">
+               Veery Coool Santa
+              </div> 
+             </div> </a>
+            <a class="project_item" title="Master Zen" href="/projects/94635">
+             <div class="thumb">
+              <img src="https://habrastorage.org/getpro/freelansim/allfiles/25/254/254221/preview_aa96b9dde2.jpg" alt="Preview aa96b9dde2">
+             </div> 
+             <div class="about"> 
+              <div class="name">
+               Master Zen
+              </div> 
+             </div> </a>
+           </div> 
+          </div> 
+         </article> </li> 
+        <li class="content-list__item" id="service_16773"> 
+         <article class="user user_short"> 
+          <figure class="user__avatar user__avatar_r50"> 
+           <a href="/freelancers/ryzhena"><img class="avatario" src="https://habrastorage.org/getpro/freelansim/users/avatars/46/464/464529/r50_105c6b0a23094909b98c825d59998abf.JPG" alt="R50 105c6b0a23094909b98c825d59998abf"></a> 
+          </figure> 
+          <div class="user__info"> 
+           <header class="user-data"> 
+            <div class="user-data__title"> 
+             <a href="/services/16773">Контекстная реклама в Яндексе </a>
+             <div class="user-data__spec"> 
+             </div> 
+            </div> 
+            <div class="user__price user__price_services"> 
+             <span class="icon_cash" title="Стоимость"></span> 
+             <span class="count"> 1 руб. </span> 
+            </div> 
+           </header> 
+          </div> 
+         </article> </li> 
+        <li class="content-list__item" id="service_16765"> 
+         <article class="user user_short"> 
+          <figure class="user__avatar user__avatar_r50"> 
+           <a href="/freelancers/MrAleh"><img class="avatario" src="https://habrastorage.org/getpro/freelansim/users/avatars/43/433/433933/r50_ec301f0440a746fcafbcfba1d4eefbfa.png" alt="R50 ec301f0440a746fcafbcfba1d4eefbfa"></a> 
+          </figure> 
+          <div class="user__info"> 
+           <header class="user-data"> 
+            <div class="user-data__title"> 
+             <a href="/services/16765">Разработка адаптивного дизайна для вашего сайта </a>
+             <div class="user-data__spec"> 
+             </div> 
+            </div> 
+            <div class="user__price user__price_services"> 
+             <span class="icon_cash" title="Стоимость"></span> 
+             <span class="count"> 10 000 руб. </span> 
+            </div> 
+           </header> 
+           <div class="projects_grid" style="margin-top:0"> 
+            <a class="project_item" title="Дизайн Landing Page" href="/projects/86935">
+             <div class="thumb">
+              <img src="https://habrastorage.org/getpro/freelansim/allfiles/25/253/253911/preview_a9213e8b7a.png" alt="Preview a9213e8b7a">
+             </div> 
+             <div class="about"> 
+              <div class="name">
+               Дизайн Landing Page
+              </div> 
+             </div> </a>
+            <a class="project_item" title="Дизайн Landing page" href="/projects/94523">
+             <div class="thumb">
+              <img src="https://habrastorage.org/getpro/freelansim/allfiles/25/253/253905/preview_4d799d8d2c.png" alt="Preview 4d799d8d2c">
+             </div> 
+             <div class="about"> 
+              <div class="name">
+               Дизайн Landing page
+              </div> 
+             </div> </a>
+            <a class="project_item" title="Дизайн главной страницы интернет-магазина" href="/projects/94525">
+             <div class="thumb">
+              <img src="https://habrastorage.org/getpro/freelansim/allfiles/25/253/253925/preview_39956d8908.png" alt="Preview 39956d8908">
+             </div> 
+             <div class="about"> 
+              <div class="name">
+               Дизайн главной страницы интернет-магазина
+              </div> 
+             </div> </a>
+           </div> 
+          </div> 
+         </article> </li> 
+        <li class="content-list__item" id="service_16753"> 
+         <article class="user user_short"> 
+          <figure class="user__avatar user__avatar_r50"> 
+           <a href="/freelancers/ivngrzn"><img class="avatario" src="https://habrastorage.org/getpro/freelansim/users/avatars/44/441/441161/r50_7a523c2b299597bd0d448b1feb1fd95b.JPG" alt="R50 7a523c2b299597bd0d448b1feb1fd95b"></a> 
+          </figure> 
+          <div class="user__info"> 
+           <header class="user-data"> 
+            <div class="user-data__title"> 
+             <a href="/services/16753">Переводчик </a>
+             <div class="user-data__spec"> 
+             </div> 
+            </div> 
+            <div class="user__price user__price_services"> 
+             <span class="icon_cash" title="Стоимость"></span> 
+             <span class="count"> 500 руб. </span> 
+            </div> 
+           </header> 
+           <div class="projects_grid" style="margin-top:0"> 
+            <a class="project_item" title="Перевод рекламных роликов" href="/projects/87435">
+             <div class="thumb">
+              <img src="https://habrastorage.org/getpro/freelansim/allfiles/25/253/253709/preview_9403d6e410.png" alt="Preview 9403d6e410">
+             </div> 
+             <div class="about"> 
+              <div class="name">
+               Перевод рекламных роликов
+              </div> 
+             </div> </a>
+            <a class="project_item" title="Перевод пресс-релиза компании Huawei" href="/projects/93555">
+             <div class="thumb">
+              <img src="https://habrastorage.org/getpro/freelansim/allfiles/25/253/253711/preview_af23fe0f78.jpeg" alt="Preview af23fe0f78">
+             </div> 
+             <div class="about"> 
+              <div class="name">
+               Перевод пресс-релиза компании Huawei
+              </div> 
+             </div> </a>
+           </div> 
+          </div> 
+         </article> </li> 
+        <li class="content-list__item" id="service_16751"> 
+         <article class="user user_short"> 
+          <figure class="user__avatar user__avatar_r50"> 
+           <a href="/freelancers/c3p083"><img class="avatario" src="https://habrastorage.org/getpro/freelansim/users/avatars/46/463/463131/r50_82ffd662b5e10cf823d63c06a153baa3.jpg" alt="R50 82ffd662b5e10cf823d63c06a153baa3"></a> 
+          </figure> 
+          <div class="user__info"> 
+           <header class="user-data"> 
+            <div class="user-data__title"> 
+             <a href="/services/16751">Разработка и программирование электроники на заказ </a>
+             <div class="user-data__spec"> 
+             </div> 
+            </div> 
+            <div class="user__price user__price_services"> 
+             <span class="icon_cash" title="Стоимость"></span> 
+             <span class="count"> 1 000 руб. </span> 
+            </div> 
+           </header> 
+          </div> 
+         </article> </li> 
+        <li class="content-list__item" id="service_16735"> 
+         <article class="user user_short"> 
+          <figure class="user__avatar user__avatar_r50"> 
+           <a href="/freelancers/mikeit"><img class="avatario" src="https://habrastorage.org/getpro/freelansim/users/avatars/46/463/463823/r50_b3da885e337005f5428cedc9ffc99d06.png" alt="R50 b3da885e337005f5428cedc9ffc99d06"></a> 
+          </figure> 
+          <div class="user__info"> 
+           <header class="user-data"> 
+            <div class="user-data__title"> 
+             <a href="/services/16735">Работы с linux , VDS/VPS, тестирование сайтов, пентест, оптимизация </a>
+             <div class="user-data__spec"> 
+             </div> 
+            </div> 
+            <div class="user__price user__price_services"> 
+             <span class="icon_cash" title="Стоимость"></span> 
+             <span class="count"> 350 руб. </span> 
+            </div> 
+           </header> 
+          </div> 
+         </article> </li> 
+        <li class="content-list__item" id="service_16733"> 
+         <article class="user user_short"> 
+          <figure class="user__avatar user__avatar_r50"> 
+           <a href="/freelancers/mikeit"><img class="avatario" src="https://habrastorage.org/getpro/freelansim/users/avatars/46/463/463823/r50_b3da885e337005f5428cedc9ffc99d06.png" alt="R50 b3da885e337005f5428cedc9ffc99d06"></a> 
+          </figure> 
+          <div class="user__info"> 
+           <header class="user-data"> 
+            <div class="user-data__title"> 
+             <a href="/services/16733">CMS, Сайты под ключ, веб программирование, rest, Api, интернет магазин </a>
+             <div class="user-data__spec"> 
+             </div> 
+            </div> 
+            <div class="user__price user__price_services"> 
+             <span class="icon_cash" title="Стоимость"></span> 
+             <span class="count"> 400 руб. </span> 
+            </div> 
+           </header> 
+          </div> 
+         </article> </li> 
+        <li class="content-list__item" id="service_16731"> 
+         <article class="user user_short"> 
+          <figure class="user__avatar user__avatar_r50"> 
+           <a href="/freelancers/mikeit"><img class="avatario" src="https://habrastorage.org/getpro/freelansim/users/avatars/46/463/463823/r50_b3da885e337005f5428cedc9ffc99d06.png" alt="R50 b3da885e337005f5428cedc9ffc99d06"></a> 
+          </figure> 
+          <div class="user__info"> 
+           <header class="user-data"> 
+            <div class="user-data__title"> 
+             <a href="/services/16731">HTML верстка, Frontend работы, Landing page, Лэндинг </a>
+             <div class="user-data__spec"> 
+             </div> 
+            </div> 
+            <div class="user__price user__price_services"> 
+             <span class="icon_cash" title="Стоимость"></span> 
+             <span class="count"> 350 руб. </span> 
+            </div> 
+           </header> 
+          </div> 
+         </article> </li> 
+        <li class="content-list__item" id="service_16729"> 
+         <article class="user user_short"> 
+          <figure class="user__avatar user__avatar_r50"> 
+           <a href="/freelancers/ottoLagerfeld"><img class="avatario" src="https://habrastorage.org/getpro/freelansim/users/avatars/46/463/463515/r50_43bf57b86eabbf6282e409052b5ea8c9.JPG" alt="R50 43bf57b86eabbf6282e409052b5ea8c9"></a> 
+          </figure> 
+          <div class="user__info"> 
+           <header class="user-data"> 
+            <div class="user-data__title"> 
+             <a href="/services/16729">Визуализация\черчение </a>
+             <div class="user-data__spec"> 
+             </div> 
+            </div> 
+            <div class="user__price user__price_services"> 
+             <span class="icon_cash" title="Стоимость"></span> 
+             <span class="count"> 3 000 руб. </span> 
+            </div> 
+           </header> 
+          </div> 
+         </article> </li> 
+        <li class="content-list__item" id="service_16727"> 
+         <article class="user user_short"> 
+          <figure class="user__avatar user__avatar_r50"> 
+           <a href="/freelancers/php_freelancer"><img class="avatario" src="https://habrastorage.org/getpro/freelansim/users/avatars/38/384/384613/r50_8119bf12711e7589f39da2f4f36331e4.jpg" alt="R50 8119bf12711e7589f39da2f4f36331e4"></a> 
+          </figure> 
+          <div class="user__info"> 
+           <header class="user-data"> 
+            <div class="user-data__title"> 
+             <a href="/services/16727">Symfony 3 + VueJS NUXT FullStack Developer​ </a>
+             <div class="user-data__spec"> 
+             </div> 
+            </div> 
+            <div class="user__price user__price_services"> 
+             <span class="icon_cash" title="Стоимость"></span> 
+             <span class="count"> 1 000 руб. </span> 
+            </div> 
+           </header> 
+          </div> 
+         </article> </li> 
+        <li class="content-list__item" id="service_16725"> 
+         <article class="user user_short"> 
+          <figure class="user__avatar user__avatar_r50"> 
+           <a href="/freelancers/firenovell"><img class="avatario" src="/assets/default/users/avatar_r50-a6ce93fe35b158fd29ba0e8681c918c22117160e9586a56eee4ffbc20df9bda1.png" alt="Avatar r50 a6ce93fe35b158fd29ba0e8681c918c22117160e9586a56eee4ffbc20df9bda1"></a> 
+          </figure> 
+          <div class="user__info"> 
+           <header class="user-data"> 
+            <div class="user-data__title"> 
+             <a href="/services/16725">Джуниор разработчик на python/django + немного jquery и bootstrap-а </a>
+             <div class="user-data__spec"> 
+             </div> 
+            </div> 
+            <div class="user__price user__price_services"> 
+             <span class="icon_cash" title="Стоимость"></span> 
+             <span class="count"> 10 000 руб. </span> 
+            </div> 
+           </header> 
+          </div> 
+         </article> </li> 
+        <li class="content-list__item" id="service_16711"> 
+         <article class="user user_short"> 
+          <figure class="user__avatar user__avatar_r50"> 
+           <a href="/freelancers/ivan-sudakov"><img class="avatario" src="https://habrastorage.org/getpro/freelansim/users/avatars/46/463/463185/r50_bf9e309509459f3807dc2bc4e2992a72.jpg" alt="R50 bf9e309509459f3807dc2bc4e2992a72"></a> 
+          </figure> 
+          <div class="user__info"> 
+           <header class="user-data"> 
+            <div class="user-data__title"> 
+             <a href="/services/16711">Дизайн </a>
+             <div class="user-data__spec"> 
+             </div> 
+            </div> 
+            <div class="user__price user__price_services"> 
+             <span class="icon_cash" title="Стоимость"></span> 
+             <span class="count"> 100 руб. </span> 
+            </div> 
+           </header> 
+           <div class="projects_grid" style="margin-top:0"> 
+            <a class="project_item" title="Работа над визуализацией гранитных комплексов по чертежам в пропорциях" href="/projects/94117">
+             <div class="thumb">
+              <img src="https://habrastorage.org/getpro/freelansim/allfiles/25/252/252569/preview_90886ecaf8.jpg" alt="Preview 90886ecaf8">
+             </div> 
+             <div class="about"> 
+              <div class="name">
+               Работа над визуализацией гранитных комплексов по чертежам в пропорциях
+              </div> 
+             </div> </a>
+            <a class="project_item" title="Проект и визуализация дома." href="/projects/94119">
+             <div class="thumb">
+              <img src="https://habrastorage.org/getpro/freelansim/allfiles/25/252/252585/preview_1032b574f4.jpg" alt="Preview 1032b574f4">
+             </div> 
+             <div class="about"> 
+              <div class="name">
+               Проект и визуализация дома.
+              </div> 
+             </div> </a>
+            <a class="project_item" title="Сеть фитнес клубов." href="/projects/94151">
+             <div class="thumb">
+              <img src="https://habrastorage.org/getpro/freelansim/allfiles/25/252/252695/preview_6217dce7d2.jpg" alt="Preview 6217dce7d2">
+             </div> 
+             <div class="about"> 
+              <div class="name">
+               Сеть фитнес клубов.
+              </div> 
+             </div> </a>
+           </div> 
+          </div> 
+         </article> </li> 
+        <li class="content-list__item" id="service_16705"> 
+         <article class="user user_short"> 
+          <figure class="user__avatar user__avatar_r50"> 
+           <a href="/freelancers/Denis_Chizh"><img class="avatario" src="https://habrastorage.org/getpro/freelansim/users/avatars/46/463/463033/r50_473dc5d40bd9438e5d290d7940b5cce1.png" alt="R50 473dc5d40bd9438e5d290d7940b5cce1"></a> 
+          </figure> 
+          <div class="user__info"> 
+           <header class="user-data"> 
+            <div class="user-data__title"> 
+             <a href="/services/16705">Адаптивная кроссбраузерная качественная вёрстка по макету (jQuery, JS) </a>
+             <div class="user-data__spec"> 
+             </div> 
+            </div> 
+            <div class="user__price user__price_services"> 
+             <span class="icon_cash" title="Стоимость"></span> 
+             <span class="count"> 10 000 руб. </span> 
+            </div> 
+           </header> 
+           <div class="projects_grid" style="margin-top:0"> 
+            <a class="project_item" title="Учебный центр по защите ядерной и промышленной безопасности" href="/projects/94067">
+             <div class="thumb">
+              <img src="https://habrastorage.org/getpro/freelansim/allfiles/25/252/252449/preview_266be6d65f.png" alt="Preview 266be6d65f">
+             </div> 
+             <div class="about"> 
+              <div class="name">
+               Учебный центр по защите ядерной и промышленной безопасности
+              </div> 
+             </div> </a>
+            <a class="project_item" title="Pink мобильное приложение. проект продвинутого интенсива HTML-Academy" href="/projects/94145">
+             <div class="thumb">
+              <img src="https://habrastorage.org/getpro/freelansim/allfiles/25/252/252667/preview_1a217eae83.png" alt="Preview 1a217eae83">
+             </div> 
+             <div class="about"> 
+              <div class="name">
+               Pink мобильное приложение. проект продвинутого интенсива HTML-Academy
+              </div> 
+             </div> </a>
+           </div> 
+          </div> 
+         </article> </li> 
+        <li class="content-list__item" id="service_16703"> 
+         <article class="user user_short"> 
+          <figure class="user__avatar user__avatar_r50"> 
+           <a href="/freelancers/ruslan-tupolev"><img class="avatario" src="https://habrastorage.org/getpro/freelansim/users/avatars/46/461/461729/r50_2dd344bc1523729e43873c9526f540bb.png" alt="R50 2dd344bc1523729e43873c9526f540bb"></a> 
+          </figure> 
+          <div class="user__info"> 
+           <header class="user-data"> 
+            <div class="user-data__title"> 
+             <a href="/services/16703">Javascript - программирование </a>
+             <div class="user-data__spec"> 
+             </div> 
+            </div> 
+            <div class="user__price user__price_services"> 
+             <span class="icon_cash" title="Стоимость"></span> 
+             <span class="count"> 300 руб. </span> 
+            </div> 
+           </header> 
+          </div> 
+         </article> </li> 
+        <li class="content-list__item" id="service_16701"> 
+         <article class="user user_short"> 
+          <figure class="user__avatar user__avatar_r50"> 
+           <a href="/freelancers/ruslan-tupolev"><img class="avatario" src="https://habrastorage.org/getpro/freelansim/users/avatars/46/461/461729/r50_2dd344bc1523729e43873c9526f540bb.png" alt="R50 2dd344bc1523729e43873c9526f540bb"></a> 
+          </figure> 
+          <div class="user__info"> 
+           <header class="user-data"> 
+            <div class="user-data__title"> 
+             <a href="/services/16701">Верстка сайтов </a>
+             <div class="user-data__spec"> 
+             </div> 
+            </div> 
+            <div class="user__price user__price_services"> 
+             <span class="icon_cash" title="Стоимость"></span> 
+             <span class="count"> 250 руб. </span> 
+            </div> 
+           </header> 
+          </div> 
+         </article> </li> 
+        <li class="content-list__item" id="service_16695"> 
+         <article class="user user_short"> 
+          <figure class="user__avatar user__avatar_r50"> 
+           <a href="/freelancers/sergeyvolobuev"><img class="avatario" src="https://habrastorage.org/getpro/freelansim/users/avatars/4/40/40498/r50_b3c0b2570f9d16118ef55ab1958c242f.JPG" alt="R50 b3c0b2570f9d16118ef55ab1958c242f"></a> 
+          </figure> 
+          <div class="user__info"> 
+           <header class="user-data"> 
+            <div class="user-data__title"> 
+             <a href="/services/16695">Аудит кодовой базы PHP </a>
+             <div class="user-data__spec"> 
+             </div> 
+            </div> 
+            <div class="user__price user__price_services"> 
+             <span class="icon_cash" title="Стоимость"></span> 
+             <span class="count"> 1 000 руб. </span> 
+            </div> 
+           </header> 
+          </div> 
+         </article> </li> 
+        <li class="content-list__item" id="service_16689"> 
+         <article class="user user_short"> 
+          <figure class="user__avatar user__avatar_r50"> 
+           <a href="/freelancers/sysor"><img class="avatario" src="https://habrastorage.org/getpro/freelansim/users/avatars/3/36/36880/r50_078c02547b4ccb6b5fac254819bdf7c9.jpg" alt="R50 078c02547b4ccb6b5fac254819bdf7c9"></a> 
+          </figure> 
+          <div class="user__info"> 
+           <header class="user-data"> 
+            <div class="user-data__title"> 
+             <a href="/services/16689">Разработка ПО </a>
+             <div class="user-data__spec"> 
+             </div> 
+            </div> 
+            <div class="user__price user__price_services"> 
+             <span class="icon_cash" title="Стоимость"></span> 
+             <span class="count"> 300 руб. </span> 
+            </div> 
+           </header> 
+          </div> 
+         </article> </li> 
+        <li class="content-list__item" id="service_16671"> 
+         <article class="user user_short"> 
+          <figure class="user__avatar user__avatar_r50"> 
+           <a href="/freelancers/Sargin"><img class="avatario" src="/assets/default/users/avatar_r50-a6ce93fe35b158fd29ba0e8681c918c22117160e9586a56eee4ffbc20df9bda1.png" alt="Avatar r50 a6ce93fe35b158fd29ba0e8681c918c22117160e9586a56eee4ffbc20df9bda1"></a> 
+           <span class="user-profile__status_verified user-profile__status_verified_mini" title="Личность подтверждена"> Личность подтверждена </span> 
+          </figure> 
+          <div class="user__info"> 
+           <header class="user-data"> 
+            <div class="user-data__title"> 
+             <a href="/services/16671">Программирование на языке python </a>
+             <div class="user-data__spec"> 
+             </div> 
+            </div> 
+            <div class="user__price user__price_services"> 
+             <span class="icon_cash" title="Стоимость"></span> 
+             <span class="count"> 600 руб. </span> 
+            </div> 
+           </header> 
+          </div> 
+         </article> </li> 
+        <li class="content-list__item" id="service_16669"> 
+         <article class="user user_short"> 
+          <figure class="user__avatar user__avatar_r50"> 
+           <a href="/freelancers/karsky"><img class="avatario" src="https://habrastorage.org/getpro/freelansim/users/avatars/4/47/47478/r50_a4f64857f1d9ddb162f4de0aa149c2a0.jpg" alt="R50 a4f64857f1d9ddb162f4de0aa149c2a0"></a> 
+           <span class="user-profile__status_verified user-profile__status_verified_mini" title="Личность подтверждена"> Личность подтверждена </span> 
+          </figure> 
+          <div class="user__info"> 
+           <header class="user-data"> 
+            <div class="user-data__title"> 
+             <a href="/services/16669">Разработка сайта на основе готового шаблона </a>
+             <div class="user-data__spec"> 
+             </div> 
+            </div> 
+            <div class="user__price user__price_services"> 
+             <span class="icon_cash" title="Стоимость"></span> 
+             <span class="count"> 12 000 руб. </span> 
+            </div> 
+           </header> 
+          </div> 
+         </article> </li> 
+       </ul> 
+       <div id="pagination"> 
+        <div class="pagination">
+         <span class="previous_page disabled">← Сюда</span> 
+         <em class="current">1</em> 
+         <a rel="next" href="/services?page=2">2</a> 
+         <a href="/services?page=3">3</a> 
+         <a href="/services?page=4">4</a> 
+         <a href="/services?page=5">5</a> 
+         <span class="gap">…</span> 
+         <a href="/services?page=142">142</a> 
+         <a class="next_page" rel="next" href="/services?page=2">Туда →</a>
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <aside class="column_sidebar"> 
+     <dl class="layout-block layout-block_categories"> 
+      <dt class="layout-block__title">
+       Сфера деятельности
+      </dt> 
+      <dd class="layout-block__content"> 
+       <ul class="category-group"> 
+        <li class="category-group__folder"> 
+         <div class="category-group__name checkbox_flat"> 
+          <div class="checkbox_pseudo js-checkbox_group"></div> 
+          <span class="link_dotted js-toggle"> Разработка сайтов </span> 
+         </div> 
+         <ul class="sub-categories"> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_web_all_inclusive"> <input type="checkbox" name="category[]" id="category_web_all_inclusive" value="web_all_inclusive"> <span class="checkbox__label"> Сайты «под ключ» </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_web_design"> <input type="checkbox" name="category[]" id="category_web_design" value="web_design"> <span class="checkbox__label"> Дизайн </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_web_html"> <input type="checkbox" name="category[]" id="category_web_html" value="web_html"> <span class="checkbox__label"> Вëрстка </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_web_programming"> <input type="checkbox" name="category[]" id="category_web_programming" value="web_programming"> <span class="checkbox__label"> Программирование </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_web_prototyping"> <input type="checkbox" name="category[]" id="category_web_prototyping" value="web_prototyping"> <span class="checkbox__label"> Прототипирование </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_web_test"> <input type="checkbox" name="category[]" id="category_web_test" value="web_test"> <span class="checkbox__label"> Тестирование </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_web_other"> <input type="checkbox" name="category[]" id="category_web_other" value="web_other"> <span class="checkbox__label"> Разное </span> </label> </li> 
+         </ul> </li> 
+        <li class="category-group__folder"> 
+         <div class="category-group__name checkbox_flat"> 
+          <div class="checkbox_pseudo js-checkbox_group"></div> 
+          <span class="link_dotted js-toggle"> Мобильные приложения </span> 
+         </div> 
+         <ul class="sub-categories"> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_mobile_ios"> <input type="checkbox" name="category[]" id="category_mobile_ios" value="mobile_ios"> <span class="checkbox__label"> iOS </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_mobile_android"> <input type="checkbox" name="category[]" id="category_mobile_android" value="mobile_android"> <span class="checkbox__label"> Android </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_mobile_wp"> <input type="checkbox" name="category[]" id="category_mobile_wp" value="mobile_wp"> <span class="checkbox__label"> Windows Phone </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_mobile_bada"> <input type="checkbox" name="category[]" id="category_mobile_bada" value="mobile_bada"> <span class="checkbox__label"> Bada </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_mobile_blackberry"> <input type="checkbox" name="category[]" id="category_mobile_blackberry" value="mobile_blackberry"> <span class="checkbox__label"> Blackberry </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_mobile_design"> <input type="checkbox" name="category[]" id="category_mobile_design" value="mobile_design"> <span class="checkbox__label"> Дизайн </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_mobile_programming"> <input type="checkbox" name="category[]" id="category_mobile_programming" value="mobile_programming"> <span class="checkbox__label"> Программирование </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_mobile_prototyping"> <input type="checkbox" name="category[]" id="category_mobile_prototyping" value="mobile_prototyping"> <span class="checkbox__label"> Прототипирование </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_mobile_test"> <input type="checkbox" name="category[]" id="category_mobile_test" value="mobile_test"> <span class="checkbox__label"> Тестирование </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_mobile_other"> <input type="checkbox" name="category[]" id="category_mobile_other" value="mobile_other"> <span class="checkbox__label"> Разное </span> </label> </li> 
+         </ul> </li> 
+        <li class="category-group__folder"> 
+         <div class="category-group__name checkbox_flat"> 
+          <div class="checkbox_pseudo js-checkbox_group"></div> 
+          <span class="link_dotted js-toggle"> Разработка ПО </span> 
+         </div> 
+         <ul class="sub-categories"> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_app_all_inclusive"> <input type="checkbox" name="category[]" id="category_app_all_inclusive" value="app_all_inclusive"> <span class="checkbox__label"> ПО «под ключ» </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_app_scripts"> <input type="checkbox" name="category[]" id="category_app_scripts" value="app_scripts"> <span class="checkbox__label"> Скрипты </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_app_bots"> <input type="checkbox" name="category[]" id="category_app_bots" value="app_bots"> <span class="checkbox__label"> Боты </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_app_plugins"> <input type="checkbox" name="category[]" id="category_app_plugins" value="app_plugins"> <span class="checkbox__label"> Плагины </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_app_utilites"> <input type="checkbox" name="category[]" id="category_app_utilites" value="app_utilites"> <span class="checkbox__label"> Утилиты </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_app_design"> <input type="checkbox" name="category[]" id="category_app_design" value="app_design"> <span class="checkbox__label"> Дизайн </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_app_programming"> <input type="checkbox" name="category[]" id="category_app_programming" value="app_programming"> <span class="checkbox__label"> Программирование </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_app_prototyping"> <input type="checkbox" name="category[]" id="category_app_prototyping" value="app_prototyping"> <span class="checkbox__label"> Прототипирование </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_app_1c_dev"> <input type="checkbox" name="category[]" id="category_app_1c_dev" value="app_1c_dev"> <span class="checkbox__label"> 1С-программирование </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_app_test"> <input type="checkbox" name="category[]" id="category_app_test" value="app_test"> <span class="checkbox__label"> Тестирование </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_app_other"> <input type="checkbox" name="category[]" id="category_app_other" value="app_other"> <span class="checkbox__label"> Разное </span> </label> </li> 
+         </ul> </li> 
+        <li class="category-group__folder"> 
+         <div class="category-group__name checkbox_flat"> 
+          <div class="checkbox_pseudo js-checkbox_group"></div> 
+          <span class="link_dotted js-toggle"> Контент </span> 
+         </div> 
+         <ul class="sub-categories"> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_content_copywriting"> <input type="checkbox" name="category[]" id="category_content_copywriting" value="content_copywriting"> <span class="checkbox__label"> Копирайтинг </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_content_rewriting"> <input type="checkbox" name="category[]" id="category_content_rewriting" value="content_rewriting"> <span class="checkbox__label"> Рерайтинг </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_content_article"> <input type="checkbox" name="category[]" id="category_content_article" value="content_article"> <span class="checkbox__label"> Статьи </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_content_reviews"> <input type="checkbox" name="category[]" id="category_content_reviews" value="content_reviews"> <span class="checkbox__label"> Обзоры </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_content_news"> <input type="checkbox" name="category[]" id="category_content_news" value="content_news"> <span class="checkbox__label"> Новости </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_content_translations"> <input type="checkbox" name="category[]" id="category_content_translations" value="content_translations"> <span class="checkbox__label"> Переводы </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_content_press_releases"> <input type="checkbox" name="category[]" id="category_content_press_releases" value="content_press_releases"> <span class="checkbox__label"> Пресс-релизы </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_content_documentation"> <input type="checkbox" name="category[]" id="category_content_documentation" value="content_documentation"> <span class="checkbox__label"> Документация </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_content_correction"> <input type="checkbox" name="category[]" id="category_content_correction" value="content_correction"> <span class="checkbox__label"> Корректура </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_content_scenarios"> <input type="checkbox" name="category[]" id="category_content_scenarios" value="content_scenarios"> <span class="checkbox__label"> Сценарии </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_content_coursework"> <input type="checkbox" name="category[]" id="category_content_coursework" value="content_coursework"> <span class="checkbox__label"> Курсовые и рефераты </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_content_naming"> <input type="checkbox" name="category[]" id="category_content_naming" value="content_naming"> <span class="checkbox__label"> Нейминг и слоганы </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_content_specification"> <input type="checkbox" name="category[]" id="category_content_specification" value="content_specification"> <span class="checkbox__label"> Техническое задание </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_content_management"> <input type="checkbox" name="category[]" id="category_content_management" value="content_management"> <span class="checkbox__label"> Контент-менеджмент </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_content_blog_post"> <input type="checkbox" name="category[]" id="category_content_blog_post" value="content_blog_post"> <span class="checkbox__label"> Блоги и постинг </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_content_other"> <input type="checkbox" name="category[]" id="category_content_other" value="content_other"> <span class="checkbox__label"> Разное </span> </label> </li> 
+         </ul> </li> 
+        <li class="category-group__folder"> 
+         <div class="category-group__name checkbox_flat"> 
+          <div class="checkbox_pseudo js-checkbox_group"></div> 
+          <span class="link_dotted js-toggle"> Администрирование </span> 
+         </div> 
+         <ul class="sub-categories"> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_admin_network"> <input type="checkbox" name="category[]" id="category_admin_network" value="admin_network"> <span class="checkbox__label"> Сети </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_admin_servers"> <input type="checkbox" name="category[]" id="category_admin_servers" value="admin_servers"> <span class="checkbox__label"> Сервера </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_admin_databases"> <input type="checkbox" name="category[]" id="category_admin_databases" value="admin_databases"> <span class="checkbox__label"> Базы данных </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_admin_design"> <input type="checkbox" name="category[]" id="category_admin_design" value="admin_design"> <span class="checkbox__label"> Проектирование </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_admin_testing"> <input type="checkbox" name="category[]" id="category_admin_testing" value="admin_testing"> <span class="checkbox__label"> Тестирование </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_admin_other"> <input type="checkbox" name="category[]" id="category_admin_other" value="admin_other"> <span class="checkbox__label"> Разное </span> </label> </li> 
+         </ul> </li> 
+        <li class="category-group__folder"> 
+         <div class="category-group__name checkbox_flat"> 
+          <div class="checkbox_pseudo js-checkbox_group"></div> 
+          <span class="link_dotted js-toggle"> Дизайн и мультимедиа </span> 
+         </div> 
+         <ul class="sub-categories"> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_design_graphics"> <input type="checkbox" name="category[]" id="category_design_graphics" value="design_graphics"> <span class="checkbox__label"> Графика </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_design_logos"> <input type="checkbox" name="category[]" id="category_design_logos" value="design_logos"> <span class="checkbox__label"> Логотипы </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_design_icons"> <input type="checkbox" name="category[]" id="category_design_icons" value="design_icons"> <span class="checkbox__label"> Иконки </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_design_illustrations"> <input type="checkbox" name="category[]" id="category_design_illustrations" value="design_illustrations"> <span class="checkbox__label"> Иллюстрации </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_design_banners"> <input type="checkbox" name="category[]" id="category_design_banners" value="design_banners"> <span class="checkbox__label"> Баннеры </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_design_prints"> <input type="checkbox" name="category[]" id="category_design_prints" value="design_prints"> <span class="checkbox__label"> Принты </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_design_modeling"> <input type="checkbox" name="category[]" id="category_design_modeling" value="design_modeling"> <span class="checkbox__label"> 3D-моделирование </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_design_animation"> <input type="checkbox" name="category[]" id="category_design_animation" value="design_animation"> <span class="checkbox__label"> Анимация </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_design_presentations"> <input type="checkbox" name="category[]" id="category_design_presentations" value="design_presentations"> <span class="checkbox__label"> Презентации </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_design_photo"> <input type="checkbox" name="category[]" id="category_design_photo" value="design_photo"> <span class="checkbox__label"> Фотография </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_design_video"> <input type="checkbox" name="category[]" id="category_design_video" value="design_video"> <span class="checkbox__label"> Видео </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_design_audio"> <input type="checkbox" name="category[]" id="category_design_audio" value="design_audio"> <span class="checkbox__label"> Аудио </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_design_interfaces"> <input type="checkbox" name="category[]" id="category_design_interfaces" value="design_interfaces"> <span class="checkbox__label"> Интерфейсы </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_design_flash_flex"> <input type="checkbox" name="category[]" id="category_design_flash_flex" value="design_flash_flex"> <span class="checkbox__label"> Flash / Flex </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_design_interiors"> <input type="checkbox" name="category[]" id="category_design_interiors" value="design_interiors"> <span class="checkbox__label"> Интерьеры </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_design_fonts"> <input type="checkbox" name="category[]" id="category_design_fonts" value="design_fonts"> <span class="checkbox__label"> Шрифты </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_design_other"> <input type="checkbox" name="category[]" id="category_design_other" value="design_other"> <span class="checkbox__label"> Разное </span> </label> </li> 
+         </ul> </li> 
+        <li class="category-group__folder"> 
+         <div class="category-group__name checkbox_flat"> 
+          <div class="checkbox_pseudo js-checkbox_group"></div> 
+          <span class="link_dotted js-toggle"> Полиграфия </span> 
+         </div> 
+         <ul class="sub-categories"> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_printing_all_inclusive"> <input type="checkbox" name="category[]" id="category_printing_all_inclusive" value="printing_all_inclusive"> <span class="checkbox__label"> Полиграфия «под ключ» </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_printing_design"> <input type="checkbox" name="category[]" id="category_printing_design" value="printing_design"> <span class="checkbox__label"> Дизайн </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_printing_makeup"> <input type="checkbox" name="category[]" id="category_printing_makeup" value="printing_makeup"> <span class="checkbox__label"> Вёрстка </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_printing_packaging_design"> <input type="checkbox" name="category[]" id="category_printing_packaging_design" value="printing_packaging_design"> <span class="checkbox__label"> Дизайн упаковки </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_printing_corporate_identity"> <input type="checkbox" name="category[]" id="category_printing_corporate_identity" value="printing_corporate_identity"> <span class="checkbox__label"> Фирменный стиль </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_printing_outdoor_advertising"> <input type="checkbox" name="category[]" id="category_printing_outdoor_advertising" value="printing_outdoor_advertising"> <span class="checkbox__label"> Наружная реклама </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_printing_other"> <input type="checkbox" name="category[]" id="category_printing_other" value="printing_other"> <span class="checkbox__label"> Разное </span> </label> </li> 
+         </ul> </li> 
+        <li class="category-group__folder"> 
+         <div class="category-group__name checkbox_flat"> 
+          <div class="checkbox_pseudo js-checkbox_group"></div> 
+          <span class="link_dotted js-toggle"> Инженерия </span> 
+         </div> 
+         <ul class="sub-categories"> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_engineering_development_electronics"> <input type="checkbox" name="category[]" id="category_engineering_development_electronics" value="engineering_development_electronics"> <span class="checkbox__label"> Разработка электроники </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_engineering_programming_electronics"> <input type="checkbox" name="category[]" id="category_engineering_programming_electronics" value="engineering_programming_electronics"> <span class="checkbox__label"> Программирование электроники </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_engineering_drawings_diagrams"> <input type="checkbox" name="category[]" id="category_engineering_drawings_diagrams" value="engineering_drawings_diagrams"> <span class="checkbox__label"> Чертежи и схемы </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_engineering_architecture"> <input type="checkbox" name="category[]" id="category_engineering_architecture" value="engineering_architecture"> <span class="checkbox__label"> Архитектура </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_engineering_other"> <input type="checkbox" name="category[]" id="category_engineering_other" value="engineering_other"> <span class="checkbox__label"> Разное </span> </label> </li> 
+         </ul> </li> 
+        <li class="category-group__folder"> 
+         <div class="category-group__name checkbox_flat"> 
+          <div class="checkbox_pseudo js-checkbox_group"></div> 
+          <span class="link_dotted js-toggle"> Реклама и маркетинг </span> 
+         </div> 
+         <ul class="sub-categories"> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_advertising_seo"> <input type="checkbox" name="category[]" id="category_advertising_seo" value="advertising_seo"> <span class="checkbox__label"> Поисковые системы (SEO) </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_advertising_context"> <input type="checkbox" name="category[]" id="category_advertising_context" value="advertising_context"> <span class="checkbox__label"> Контекстная реклама </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_advertising_smo"> <input type="checkbox" name="category[]" id="category_advertising_smo" value="advertising_smo"> <span class="checkbox__label"> SMO </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_advertising_smm"> <input type="checkbox" name="category[]" id="category_advertising_smm" value="advertising_smm"> <span class="checkbox__label"> SMM </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_advertising_sem"> <input type="checkbox" name="category[]" id="category_advertising_sem" value="advertising_sem"> <span class="checkbox__label"> SEM </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_advertising_other"> <input type="checkbox" name="category[]" id="category_advertising_other" value="advertising_other"> <span class="checkbox__label"> Разное </span> </label> </li> 
+         </ul> </li> 
+        <li class="category-group__folder"> 
+         <div class="category-group__name checkbox_flat"> 
+          <div class="checkbox_pseudo js-checkbox_group"></div> 
+          <span class="link_dotted js-toggle"> Разное </span> 
+         </div> 
+         <ul class="sub-categories"> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_other_consulting"> <input type="checkbox" name="category[]" id="category_other_consulting" value="other_consulting"> <span class="checkbox__label"> Консалтинг </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_other_audit_analysis"> <input type="checkbox" name="category[]" id="category_other_audit_analysis" value="other_audit_analysis"> <span class="checkbox__label"> Аудит и аналитика </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_other_jurisprudence"> <input type="checkbox" name="category[]" id="category_other_jurisprudence" value="other_jurisprudence"> <span class="checkbox__label"> Юриспруденция </span> </label> </li> 
+          <li class="sub-categories__item"> <label class="checkbox_flat" for="category_other_other"> <input type="checkbox" name="category[]" id="category_other_other" value="other_other"> <span class="checkbox__label"> Разное </span> </label> </li> 
+         </ul> </li> 
+       </ul> 
+      </dd> 
+     </dl> 
+     <div class="layout-block layout-block_banner"> 
+      <div id="adriver_banner_389073892"></div> 
+     </div> 
+     <script>
+  new adriver("adriver_banner_389073892", {sid:187865, bt:52});
+</script> 
+     <dl class="layout-block layout-block_subscribe"> 
+      <dt class="layout-block__title">
+       Рассылка
+      </dt> 
+      <dd class="layout-block__content">
+        Оформите доставку заказов в ваш почтовый ящик 
+       <div class="subscribe__button"> 
+        <a class="btn_red" href="/users/sign_up">Подписаться</a> 
+       </div> 
+       <div class="about2"> 
+        <strong> 2300+ </strong> фрилансеров следят за 
+        <br> новыми заказами 
+       </div> 
+      </dd> 
+     </dl> 
+     <dl class="layout-block layout-block_hantim"> 
+      <dt class="layout-block__title">
+       Вакансии с «Моего круга»
+      </dt> 
+      <dd class="layout-block__content"> 
+       <div class="jobs-list"> 
+        <div class="jobs-item"> 
+         <a class="job_icon" style="background-image: url(https://habrastorage.org/getpro/moikrug/uploads/company/100/004/377/9/logo/32fb96586e6d1df065f165ef4240555b.png);" href="https://moikrug.ru/vacancies/1000011251?utm_source=tm_freelansim&amp;utm_medium=tm_block&amp;utm_campaign=tm_promo"></a> 
+         <div class="job_info"> 
+          <div class="job_title">
+           <a href="https://moikrug.ru/vacancies/1000011251?utm_source=tm_freelansim&amp;utm_medium=tm_block&amp;utm_campaign=tm_promo">Front-end разработчик</a>
+          </div> 
+          <div class="job_company">
+           <a href="https://moikrug.ru/companies/ikitlab?utm_source=tm_freelansim&amp;utm_medium=tm_block&amp;utm_campaign=tm_promo">IKIT Laboratory</a>
+          </div> 
+          <div class="job_city">
+           Москва
+          </div> 
+         </div> 
+        </div> 
+        <div class="jobs-item"> 
+         <a class="job_icon" style="background-image: url(https://habracdn.net/mk/assets/defaults/companies/logo/default-24155d3c1826f1b948ff74257329961a.png);" href="https://moikrug.ru/vacancies/1000025428?utm_source=tm_freelansim&amp;utm_medium=tm_block&amp;utm_campaign=tm_promo"></a> 
+         <div class="job_info"> 
+          <div class="job_title">
+           <a href="https://moikrug.ru/vacancies/1000025428?utm_source=tm_freelansim&amp;utm_medium=tm_block&amp;utm_campaign=tm_promo">Разносторонний веб-программист</a>
+          </div> 
+          <div class="job_company">
+           <a href="https://moikrug.ru/companies/8ece728a-7fd8-4d60-abe7-982d36611190?utm_source=tm_freelansim&amp;utm_medium=tm_block&amp;utm_campaign=tm_promo">A&amp;M Studio</a>
+          </div> 
+          <div class="job_salary">
+           от 2 000 до 3 000 eur.
+          </div> 
+         </div> 
+        </div> 
+        <div class="jobs-item"> 
+         <a class="job_icon" style="background-image: url(https://habrastorage.org/getpro/moikrug/uploads/company/100/005/580/2/logo/3d4e051632d48b213dab11865c5105f3.jpg);" href="https://moikrug.ru/vacancies/1000037321?utm_source=tm_freelansim&amp;utm_medium=tm_block&amp;utm_campaign=tm_promo"></a> 
+         <div class="job_info"> 
+          <div class="job_title">
+           <a href="https://moikrug.ru/vacancies/1000037321?utm_source=tm_freelansim&amp;utm_medium=tm_block&amp;utm_campaign=tm_promo">Технический‎ UI-дизайнер</a>
+          </div> 
+          <div class="job_company">
+           <a href="https://moikrug.ru/companies/pixonic?utm_source=tm_freelansim&amp;utm_medium=tm_block&amp;utm_campaign=tm_promo">Pixonic</a>
+          </div> 
+          <div class="job_city">
+           Москва
+          </div> 
+         </div> 
+        </div> 
+        <div class="jobs-item"> 
+         <a class="job_icon" style="background-image: url(https://habrastorage.org/getpro/moikrug/uploads/company/100/004/772/9/logo/727910741b51a2d59231d459d9a8ac46.jpg);" href="https://moikrug.ru/vacancies/1000031634?utm_source=tm_freelansim&amp;utm_medium=tm_block&amp;utm_campaign=tm_promo"></a> 
+         <div class="job_info"> 
+          <div class="job_title">
+           <a href="https://moikrug.ru/vacancies/1000031634?utm_source=tm_freelansim&amp;utm_medium=tm_block&amp;utm_campaign=tm_promo">Программист Битрикс (PHP, Bitrix)</a>
+          </div> 
+          <div class="job_company">
+           <a href="https://moikrug.ru/companies/vong?utm_source=tm_freelansim&amp;utm_medium=tm_block&amp;utm_campaign=tm_promo">ВОНГ</a>
+          </div> 
+          <div class="job_salary">
+           от 70 000 руб.
+          </div> 
+         </div> 
+        </div> 
+        <div class="jobs-item"> 
+         <a class="job_icon" style="background-image: url(https://habrastorage.org/getpro/moikrug/uploads/company/100/000/555/1/logo/60d6fb46afbc2d968e48fa4e966082bd.png);" href="https://moikrug.ru/vacancies/1000030156?utm_source=tm_freelansim&amp;utm_medium=tm_block&amp;utm_campaign=tm_promo"></a> 
+         <div class="job_info"> 
+          <div class="job_title">
+           <a href="https://moikrug.ru/vacancies/1000030156?utm_source=tm_freelansim&amp;utm_medium=tm_block&amp;utm_campaign=tm_promo">HTML-верстальщик</a>
+          </div> 
+          <div class="job_company">
+           <a href="https://moikrug.ru/companies/itsoft?utm_source=tm_freelansim&amp;utm_medium=tm_block&amp;utm_campaign=tm_promo">ITSOFT</a>
+          </div> 
+          <div class="job_city">
+           Москва
+          </div> 
+          <div class="job_salary">
+           от 40 000 до 70 000 руб.
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </dd> 
+      <dd class="layout-block__footer"> 
+       <a href="https://moikrug.ru?utm_source=tm_freelansim&amp;utm_medium=tm_block&amp;utm_campaign=tm_promo">Все вакансии</a> 
+      </dd> 
+     </dl> 
+     <!-- - cache("habrahabr_posts", expires_in: 7.minutes) do --> 
+     <!-- - posts = Habrahabr.new(Settings.habrahabr.apikey).posts --> 
+     <!-- - unless posts.blank? --> 
+     <!-- %dl.layout-block.layout-block_hantim --> 
+     <!-- %dt.layout-block__title --> 
+     <!-- = "Посты с #{ link_to 'Хабра', 'http://habrahabr.ru?utm_source=tm_freelansim&utm_medium=tm_block&utm_campaign=tm_promo'}".html_safe --> 
+     <!-- %dd.layout-block__content --> 
+     <!-- %ul.jobs-list --> 
+     <!-- - posts.each do |post| --> 
+     <!-- %li.jobs-list__item --> 
+     <!-- .job__title --> 
+     <!-- = link_to post[:title], "#{post[:url]}?utm_source=tm_freelansim&utm_medium=tm_block&utm_campaign=tm_promo" --> 
+     <!-- = link_to 'Все посты', 'http://habrahabr.ru/hub/freelance/?utm_source=tm_freelansim&utm_medium=tm_block&utm_campaign=tm_promo' --> 
+     <!-- - cache("toster_questions", expires_in: 10.minutes) do --> 
+     <!-- - questions = Toster.new(Settings.toster.api_key).questions --> 
+     <!-- - unless questions.blank? --> 
+     <!-- %dl.layout-block.layout-block_hantim --> 
+     <!-- %dt.layout-block__title --> 
+     <!-- = "Вопросы с #{ link_to 'Тостера', 'http://toster.ru?utm_source=tm_freelansim&utm_medium=tm_block&utm_campaign=tm_promo'}".html_safe --> 
+     <!-- %dd.layout-block__content --> 
+     <!-- %ul.jobs-list --> 
+     <!-- - questions.each do |question| --> 
+     <!-- %li.jobs-list__item --> 
+     <!-- .job__title --> 
+     <!-- = link_to question[:title], "#{question[:url]}?utm_source=tm_freelansim&utm_medium=tm_block&utm_campaign=tm_promo" --> 
+     <!-- = link_to 'Все вопросы', 'http://toster.ru?utm_source=tm_freelansim&utm_medium=tm_block&utm_campaign=tm_promo' --> 
+    </aside> 
+   </section> 
+  </main> 
+ </div> 
+ <div class="footer_height"> 
+  <footer class="layout__footer"> 
+   <div class="inner"> 
+    <div class="social"> 
+     <h5>Следите за нами в соцсетях</h5> 
+     <a title="Наш аккаунт в Facebook" href="https://www.facebook.com/freelansim.ru"><span class="icon icon-facebook-with-circle"></span> </a>
+     <a title="Наш аккаунт в Twitter" href="https://twitter.com/ru_freelansim"><span class="icon icon-twitter-with-circle"></span> </a>
+     <a title="Наша группа на Вконтакте" href="https://vk.com/freelansim"><span class="icon icon-vk-with-circle"></span> </a>
+     <a title="Наш канал в Телеграм" class="telegram_link" href="https://t.me/freelansim_ru"><span class="icon icon-telegram-with-circle"></span> </a>
+     <a title="Наш бот в Телеграм" class="telegram_link" href="https://t.me/freelansim_ru_bot"><span class="icon icon-telegram-with-circle"></span> <span class="hint">Бот</span> </a>
+    </div> 
+    <div class="links"> 
+     <h5> Фрилансим </h5> 
+     <ul> 
+      <li><a href="/info/about">О сервисе</a></li> 
+      <li><a href="https://habrastorage.org/storage/stuff/hr_prices.pdf">Услуги и цены</a></li> 
+     </ul> 
+    </div> 
+    <div class="links"> 
+     <h5>Помощь</h5> 
+     <ul> 
+      <li><a href="/help/freelancer">Фрилансеру</a></li> 
+      <li><a href="/help/customer">Заказчику</a></li> 
+      <li><a href="/help/payments">Оплата услуг</a></li> 
+      <li><a href="/feedback">Служба поддержки</a></li> 
+     </ul> 
+    </div> 
+    <div class="links"> 
+     <h5>Документы</h5> 
+     <ul> 
+      <li><a href="/info/agreement">Соглашение с пользователем</a></li> 
+      <li><a href="/info/rules">Правила оказания услуг</a></li> 
+     </ul> 
+    </div> 
+    <div class="copyright">
+      © 
+     <a target="_blank" href="https://tmtm.ru">ТM</a> , 105082, Москва, Спартаковский переулок, д. 2, стр. 1, секция 3, ООО «Хабр», +7 (499) 653-59-61. 
+    </div> 
+   </div> 
+  </footer> 
+ </div> 
+ <img class="footer__pix" src="http://ad.adriver.ru/cgi-bin/rle.cgi?sid=1&amp;ad=505035&amp;bt=21&amp;pid=1844622&amp;bid=3690127&amp;bn=3690127&amp;rnd=729164517"> 
+ <!-- = render 'layouts/partials/piwik' --> 
+ <div class="overlay" data-block="overlay"></div>  
+</body>

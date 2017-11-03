@@ -1,0 +1,297 @@
+https://heisenbug.ru
+<body data-function=""> 
+ <style is="custom-style">
+    :root {
+      --sky-blue: #263238;
+      --dark-grey-blue: #263238;
+      --bluey-grey: #9299b1;
+      --white: #ffffff;
+      --dark-sky-blue: #d78d02;
+    }
+    #paperDrawerPanel [drawer] {
+      border-right: 1px solid var(--dark-sky-blue);
+      background-color: var(--dark-grey-blue);
+      color: #fff;
+    }
+    .paper-header {
+      height: 60px;
+      padding: 10px;
+      background-color: var(--sky-blue);
+      color: #fff;
+    }
+    .header-container {
+      max-width: 1200px;
+      @apply(--layout-horizontal);
+      @apply(--layout-center);
+      height: 100%;
+      margin: 0 auto;
+    }
+
+    .drawer-toggle-button {
+      cursor: pointer;
+      position: relative;
+      z-index: 10;
+      color: var(--sky-blue);
+    }
+    .toggle {
+      @apply(--layout-flex);
+    }
+    .social {
+      margin-left: 30px;
+      @apply(--layout-flex);
+    }
+    .organizer {
+      @apply(--layout-flex-3);
+      text-align: right;
+    }
+    .organizer img {
+      height: 24px;
+    }
+    .social a{
+      display: inline-block;
+      text-decoration: none;
+      color: #fff;
+      width: 40px;
+      text-align: center;
+    }
+    .social a:hover iron-icon {
+      fill: var(--dark-grey-blue);
+    }
+
+
+    .drawer-toggle-button span {
+      transform: rotate(90deg);
+    }
+    .content {
+      color: #fff;
+      background: url('/assets/images/bg.jpg');
+      background-size: cover;
+      min-height: 100%;
+      @apply(--layout-vertical);
+      @apply(--layout-center);
+      @apply(--layout-around-justified);
+    }
+    .logo-container {
+      margin-top: 70px;
+    }
+    .slogan {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #fff;
+      font-weight: 300;
+      text-align: center;
+    }
+    .main-description {
+      max-width: 1200px;
+      line-height: 1.5;
+      font-size: 18px;
+    }
+    .schedule {
+      @apply(--layout-horizontal);
+      justify-content: space-around;
+      width: 100%;
+      max-width: 1200px;
+    }
+    paper-card {
+      @apply(--layout-flex);
+      color: var(--sky-blue);
+      margin: 0 15px;
+      max-width: 30%;
+    }
+    .card-content {
+      padding: 40px;
+      text-align: center;
+      font-weight: 300;
+    }
+    .event-location {
+      font-size: 24px;
+    }
+    .event-date {
+      font-size: 18px;
+      margin-top: 5px;
+    }
+    .archive-nav {
+      padding: 50px 0 0 45px;
+
+    }
+    .archive-nav a {
+      display: block;
+      color: var(--bluey-grey);
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 300;
+      margin: 50px 0;
+    }
+    .archive-nav a:focus {
+      outline: none;
+    }
+    .archive-nav a:hover {
+      color: var(--sky-blue);
+    }
+    .event-link {
+      text-decoration: none;
+      display: inline-block;
+      font-size: 18px;
+      font-weight: 300;
+      padding: 8px 23px;
+      color: #fff;
+      margin-top: 25px;
+      background-color: var(--sky-blue);
+      border-radius: 25px;
+    }
+    .event-link:hover {
+      background-color: var(--dark-sky-blue);
+    }
+    @media (max-width: 600px) {
+      .logo-container {
+        padding: 0 1rem;
+      }
+      .logo-container img {
+        max-width: 100%;
+      }
+      .schedule {
+        flex-flow: row wrap;
+      }
+      paper-card {
+        margin: 15px;
+        flex: 1 1 100%;
+        flex-basis: auto;
+        max-width: 100%;
+      }
+      .main-description {
+        padding: 10px 15px;
+      }
+      .organizer {
+        display: none;
+      }
+    }
+    .iron-selected .drawer-toggle-button{
+      z-index: 1;
+      color: #fff;
+    }
+
+  </style> 
+ <paper-drawer-panel id="paperDrawerPanel" force-narrow> 
+  <div main> 
+   <paper-header-panel> 
+    <div class="paper-header"> 
+     <div class="header-container"> 
+      <div class="toggle"> 
+       <span paper-drawer-toggle raised class="drawer-toggle-button">Прошедшие конференции</span> 
+      </div> 
+      <div class="social"> 
+       <a href="https://twitter.com/HeisenbugConf"> 
+        <iron-icon icon="svg-sample-icons:twitter"></iron-icon> </a> 
+       <a href="https://vk.com/heisenbugconf" target="_blank"> 
+        <iron-icon icon="svg-sample-icons:vk"></iron-icon> </a> 
+       <a href="https://www.facebook.com/heisenbugconf/" target="_blank"> 
+        <iron-icon icon="svg-sample-icons:facebook"></iron-icon> </a> 
+       <a href="https://www.youtube.com/channel/UCX6fjZa167tSy_4ryTLcOBw" target="_blank"> 
+        <iron-icon icon="svg-sample-icons:youtube"></iron-icon> </a> 
+      </div> 
+      <div class="organizer"> 
+       <a href="https://jugru.org/" target="_blank"> 
+        <picture class="img-fluid center-block mb-1"> 
+         <source srcset="/assets/images/jugru-group.png, /assets/images/jugru-group@2x.png 2x" media="(min-width: 960px)"> 
+         <img src="/assets/images/jugru-group.png" alt="JugRu Group — Организаторы"> 
+        </picture> </a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="content"> 
+     <div class="logo-container"> 
+      <picture class="img-fluid center-block mb-1"> 
+       <source srcset="/assets/images/logo.png, /assets/images/logo@2x.png 2x" media="(min-width: 960px)"> 
+       <img src="/assets/images/logo@2x.png" alt="Гейзенбаг"> 
+      </picture> 
+      <h1 class="slogan">Тестирование. Не только для тестировщиков!</h1> 
+     </div> 
+     <div class="main-description"> 
+      <p>Гейзенбаг – большая техническая конференция для специалистов в области тестирования. Тестировщики, и программисты, разрабатывающие тесты для своего кода, и специалисты по автоматическому и нагрузочному тестированию, и менеджеры команд смогут обсудить:</p> 
+      <ul> 
+       <li>Автоматизацию тестирования;</li> 
+       <li>Нагрузочное тестирование;</li> 
+       <li>Performance-тестирование, бенчмаркинг;</li> 
+       <li>Интеграционное тестирование модульных/распределённых систем;</li> 
+       <li>Concurrency testing;</li> 
+       <li>Тестирование мобильных приложений;</li> 
+       <li>Ручное тестирование;</li> 
+       <li>UX, Security, A/B, статический анализ кода, метрики кода и продукта, etc.;</li> 
+       <li>Инструментарий, окружение для тестирования;</li> 
+       <li>Сравнение инструментов для тестирования;</li> 
+       <li>Тестирование в gamedev;</li> 
+      </ul> 
+     </div> 
+     <div class="schedule"> 
+      <paper-card image="/assets/images/spb.jpg" aria-label="" elevation="1" class="x-scope paper-card-0"> 
+       <div class="header style-scope paper-card"> 
+        <iron-image class="style-scope paper-card x-scope iron-image-0" aria-hidden="false"> 
+         <div id="sizedImgDiv" role="img" class="style-scope iron-image" aria-label="spb.jpg" hidden style="background-image: url(&quot;/assets/images/spb.jpg&quot;);"></div> 
+         <img id="img" class="style-scope iron-image" src="/assets/images/spb.jpg"> 
+         <div id="placeholder" class="style-scope iron-image" hidden></div> 
+        </iron-image> 
+        <div class="title-text  over-image style-scope paper-card" hidden></div> 
+       </div> 
+       <div class="card-content"> 
+        <div class="event-location">
+         Санкт-Петербург 
+         <div class="event-date"> 
+          <span>04 июня 2017 г.</span> 
+         </div> 
+        </div> 
+        <a href="https://heisenbug-piter.ru/" class="event-link" target="_blank">Подробнее</a> 
+       </div> 
+      </paper-card> 
+      <paper-card image="/assets/images/msk.jpg" aria-label="" elevation="1" class="x-scope paper-card-0"> 
+       <div class="header style-scope paper-card"> 
+        <iron-image class="style-scope paper-card x-scope iron-image-0" aria-hidden="false"> 
+         <div id="sizedImgDiv" role="img" class="style-scope iron-image" aria-label="msk.jpg" hidden style="background-image: url(&quot;/assets/images/msk.jpg&quot;);"></div> 
+         <img id="img" class="style-scope iron-image" src="/assets/images/msk.jpg"> 
+         <div id="placeholder" class="style-scope iron-image" hidden></div> 
+        </iron-image> 
+        <div class="title-text  over-image style-scope paper-card" hidden></div> 
+       </div> 
+       <div class="card-content"> 
+        <div class="event-location">
+         Москва 
+         <div class="event-date"> 
+          <span>08-09 декабря 2017 г.</span> 
+         </div> 
+        </div> 
+        <a href="https://heisenbug-moscow.ru/" class="event-link" target="_blank">Подробнее</a> 
+       </div> 
+      </paper-card> 
+     </div> 
+    </div> 
+   </paper-header-panel> 
+  </div> 
+  <div drawer> 
+   <div class="archive-nav"> 
+    <a href="http://2016.heisenbug-moscow.ru/?utm_source=heisenbugru&amp;utm_medium=vidget" target="_blank">Москва 2016</a> 
+   </div> 
+  </div> 
+ </paper-drawer-panel> 
+ <script src="/assets/vendor.js"></script> 
+ <script src="/assets/app.js"></script> 
+ <script src="/cookieconsent.min.js"></script> 
+ <script>
+    window.addEventListener("load", function(){
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#000"
+          },
+          "button": {
+            "background": "#1779ba"
+          }
+        },
+        "position": "bottom-right",
+        "content": {
+          "message": "Наш сайт использует файлы cookies, чтобы улучшить работу и повысить эффективность сайта. Продолжая использование сайта, вы соглашаетесь с использованием нами cookies.",
+          "dismiss": "Принять",
+          "link": "Подробнее...",
+          "href": "https://jugru.org/privacy_policy.html#7.1.5"
+        }
+      })});
+  </script>  
+</body>

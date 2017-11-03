@@ -1,0 +1,640 @@
+<body class="logo-type-preset1 header-headroom-enabled-1 showcase-bg-transition-left-to-right showcase-type-none feature-type-none mainbody-overlay-light extension-type-none footer-overlay-light copyright-overlay-dark font-family-open-sans font-size-is-default menu-type-dropdownmenu layout-mode-responsive col12 option-com-content menu-pressa " id="scrollheader"> 
+ <!-- Yandex.Metrika counter --> 
+ <script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter23808841 = new Ya.Metrika({id:23808841,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script> 
+ <noscript>
+  <div>
+   <img src="//mc.yandex.ru/watch/23808841" style="position:absolute; left:-9999px;" alt="">
+  </div>
+ </noscript> 
+ <!-- /Yandex.Metrika counter --> 
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-38240582-1', 'auto');
+  ga('send', 'pageview');
+
+</script> 
+ <div id="rt-page-surround"> 
+  <header id="rt-header-surround" class="scrollheader"> 
+   <div id="rt-header" class="rt-overlay-light"> 
+    <div class="rt-container"> 
+     <div class="rt-grid-3 rt-alpha"> 
+      <div class="rt-logo-block"> 
+       <a href="/" id="rt-logo" class="new-year"></a> 
+      </div> 
+     </div> 
+     <div class="rt-grid-9 rt-omega"> 
+      <form name="rokajaxsearch" id="rokajaxsearch" class="light" action="https://firstlinesoftware.ru/" method="get"> 
+       <div class="rokajaxsearch search-field-container icon-search"> 
+        <div class="roksearch-wrapper"> 
+         <input id="roksearch_search_str" name="searchword" type="text" class="inputbox roksearch_search_str" placeholder="Поиск..."> 
+        </div> 
+        <input type="hidden" name="searchphrase" value="any"> 
+        <input type="hidden" name="limit" value="20"> 
+        <input type="hidden" name="ordering" value="newest"> 
+        <input type="hidden" name="view" value="search"> 
+        <input type="hidden" name="option" value="com_search"> 
+        <div id="roksearch_results"></div> 
+       </div> 
+       <div id="rokajaxsearch_tmp" style="visibility:hidden;display:none;"></div> 
+      </form> 
+      <div class="rt-block language-change-box"> 
+       <div class="module-surround"> 
+        <div class="module-content"> 
+         <!--/usr/local/www/www_flsru/httpdocs/templates--> 
+         <div class="country-select"> 
+          <span>Русский</span> 
+          <a href="http://firstlinesoftware.com" class="counry-link" title="English"> </a> 
+          <span>/</span> 
+          <span class="selected-counrty" title="English"></span> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="rt-block menu-block nomarginleft nomarginright largemargintop largemarginbottom"> 
+       <div class="module-surround"> 
+        <div class="module-content"> 
+         <div class="gf-menu-device-container responsive-type-panel"></div> 
+         <ul class="gf-menu l1 " id=""> 
+          <li class="item115 parent"> <a class="item" href="/i-need-to"> Услуги </a> <span class="dropdown-spacer"></span> 
+           <div class="dropdown columns-1 " style="width:235px;"> 
+            <div class="column col1" style="width:235px;"> 
+             <ul class="l2"> 
+              <li class="item158"> <a class="item" href="/i-need-to/develop-a-software-product"> Разработка программных продуктов и приложений </a> </li> 
+              <li class="item159"> <a class="item" href="/i-need-to/find-a-development-team"> Создание выделенных центров разработки </a> </li> 
+              <li class="item157"> <a class="item" href="/i-need-to/build-a-software-application"> Внедрение и кастомизация информационных систем </a> </li> 
+             </ul> 
+            </div> 
+           </div> </li> 
+          <li class="item112 parent"> <a class="item" href="/expertise"> Экспертиза </a> <span class="dropdown-spacer"></span> 
+           <div class="dropdown columns-1 " style="width:350px;"> 
+            <div class="column col1" style="width:350px;"> 
+             <ul class="l2"> 
+              <li class="item154"> <a class="item" href="/expertise/loyalty-programs"> Системы лояльности / бонусные системы </a> </li> 
+              <li class="item156"> <a class="item" href="/expertise/multichannel-marketing"> Мультиканальный маркетинг </a> </li> 
+              <li class="item234"> <a class="item" href="/expertise/portal"> Корпоративные порталы </a> </li> 
+              <li class="item153"> <a class="item" href="/expertise/financial-systems"> Финансовые системы </a> </li> 
+              <li class="item155"> <a class="item" href="/expertise/media-solutions"> Решения для медиа-отрасли </a> </li> 
+              <li class="item230"> <a class="item" href="/expertise/city"> Решения для управления городской средой </a> </li> 
+              <li class="item152"> <a class="item" href="/expertise/enterprise-mobility"> Разработка мобильных приложений </a> </li> 
+              <li class="item174"> <a class="item" href="/expertise/wearable-technology"> Проектирование носимых устройств </a> </li> 
+              <li class="item232"> <a class="item" href="/expertise/viastore"> Автоматизация склада - решения на базе WMS viad@t </a> </li> 
+              <li class="item233"> <a class="item" href="/expertise/ecm"> Автоматизация документооборота / ECM-системы </a> </li> 
+              <li class="item235"> <a class="item" href="/expertise/analiz-potrebitelej"> Анализ поведения потребителей </a> </li> 
+              <li class="item236"> <a class="item" href="/expertise/video"> Обработка и управление видеоконтентом </a> </li> 
+              <li class="item295"> <a class="item" href="/expertise/internet-veshchej"> Интернет вещей </a> </li> 
+             </ul> 
+            </div> 
+           </div> </li> 
+          <li class="item194 parent"> <a class="item" href="/technologies"> Технологии </a> <span class="dropdown-spacer"></span> 
+           <div class="dropdown columns-1 " style="width:180px;"> 
+            <div class="column col1" style="width:180px;"> 
+             <ul class="l2"> 
+              <li class="item195"> <a class="item" href="/technologies/java"> Java </a> </li> 
+              <li class="item220"> <a class="item" href="/technologies/net"> .NET </a> </li> 
+              <li class="item199"> <a class="item" href="/technologies/mongodb"> MongoDB </a> </li> 
+              <li class="item200"> <a class="item" href="/technologies/apache-hadoop"> Hadoop </a> </li> 
+              <li class="item198"> <a class="item" href="/technologies/ruby"> Ruby </a> </li> 
+              <li class="item217"> <a class="item" href="/technologies/php"> PHP </a> </li> 
+              <li class="item197"> <a class="item" href="/technologies/episerver"> EPiServer </a> </li> 
+              <li class="item196"> <a class="item" href="/technologies/sharepoint"> SharePoint </a> </li> 
+              <li class="item215"> <a class="item" href="/technologies/opentext"> OpenText </a> </li> 
+              <li class="item218"> <a class="item" href="/technologies/alfresco"> Alfresco </a> </li> 
+             </ul> 
+            </div> 
+           </div> </li> 
+          <li class="item117"> <a class="item" href="/case-studies"> Проекты </a> </li> 
+          <li class="item221 parent"> <a class="item" href="/team"> Компания </a> <span class="dropdown-spacer"></span> 
+           <div class="dropdown columns-1 " style="width:180px;"> 
+            <div class="column col1" style="width:180px;"> 
+             <ul class="l2"> 
+              <li class="item113 parent"> <a class="item" href="/team/leadership"> Руководство </a> </li> 
+              <li class="item114 parent"> <a class="item" href="/team/people-culture"> Люди и культура </a> </li> 
+              <li class="item276"> <a class="item" href="/team/flipbook"> Презентация </a> </li> 
+              <li class="item277"> <a class="item" href="/team/video"> Видео презентация </a> </li> 
+              <li class="item223"> <a class="item" href="/team/vacancy"> Вакансии </a> </li> 
+             </ul> 
+            </div> 
+           </div> </li> 
+          <li class="item229 parent active"> <a class="item" href="/news"> Новости </a> <span class="dropdown-spacer"></span> 
+           <div class="dropdown columns-1 " style="width:180px;"> 
+            <div class="column col1" style="width:180px;"> 
+             <ul class="l2"> 
+              <li class="item120"> <a class="item" href="/news/blog"> Блог </a> </li> 
+              <li class="item227 active last"> <a class="item" href="/news/pressa"> Пресса о нас </a> </li> 
+              <li class="item225"> <a class="item" href="/news/news-company"> Новости компании </a> </li> 
+             </ul> 
+            </div> 
+           </div> </li> 
+          <li class="item122"> <a class="item" href="/contact-us"> Контакты </a> </li> 
+          <li class="item298"> <a class="item" href="/career"> Карьера </a> </li> 
+         </ul> 
+         <script>
+	jQuery('.gf-menu .parent > a').bind('touchstart', function (e) {
+            var $this = jQuery(this),
+				$parent = $this.closest('.parent');
+            jQuery('.gf-menu .parent').each(function (index) {
+                if (!jQuery(this).is($parent)) {
+                    jQuery(this).removeClass('touchstart');
+                }
+            });			
+			if(!$parent.hasClass('touchstart')){
+				$parent.addClass('touchstart');
+				return false;
+			}	
+	});
+</script> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="clear"></div> 
+    </div> 
+   </div> 
+  </header> 
+  <div id="rt-drawer"> 
+   <div class="rt-container"> 
+    <div class="clear"></div> 
+   </div> 
+  </div> 
+  <section id="rt-showcase-surround"> 
+   <div id="rt-showcase" class="rt-overlay-light"> 
+    <div class="rt-container"> 
+     <div class="rt-grid-12 rt-alpha rt-omega"> 
+      <div class="rt-block rt-big-title rt-center"> 
+       <div class="module-surround"> 
+        <div class="module-title"> 
+         <h2 class="title"><span>Пресса о нас</span></h2> 
+        </div> 
+        <div class="module-content"> 
+         <div class="customrt-big-title rt-center"> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="clear"></div> 
+    </div> 
+   </div> 
+  </section> 
+  <section id="rt-main-surround"> 
+   <div id="rt-transition"> 
+    <div id="rt-mainbody-surround"> 
+     <div id="rt-expandedtop" class="rt-overlay-light"> 
+      <div class="rt-container"> 
+       <div class="rt-grid-12 rt-alpha rt-omega"> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+     </div> 
+     <div class="rt-container"> 
+      <div id="rt-main" class="mb8-sa4"> 
+       <div class="rt-container"> 
+        <div class="rt-grid-8 "> 
+         <div class="rt-block"> 
+          <div id="rt-mainbody"> 
+           <div class="component-content"> 
+            <section class="blog"> 
+             <div class="items-row cols-2 row-0"> 
+              <article class="item column-1"> 
+               <h2> <a href="/news/pressa/362-gde-vzyat-million-programmistov"> Где взять миллион программистов</a> </h2> 
+               <p><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">10 октября 2017</span></strong><br><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><img src="/images/news/press/dp_logo.png" alt="dp logo"></span></strong><br><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><span style="font-family: arial, helvetica, sans-serif;">Источник: <a href="https://www.dp.ru/a/2017/10/09/Gde_vzjat_million_program">Деловой Петербург</a></span></span><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><a href="http://www.rbc.ru/spb_sz/16/05/2017/591ab29c9a79473f4da2daea?from=newsfeed"><br></a></span></p> 
+               <p><strong><span style="font-size: 1em;">В прошлом году министр связи Николай Никифоров заявил, что для развития ИТ–отрасли через 2 года стране понадобится 1 млн программистов. В этой сфере сейчас работает 400–500 тыс. человек. Где найти еще полмиллиона?</span></strong></p> 
+               <p class="readmore"> <a href="/news/pressa/362-gde-vzyat-million-programmistov"> читать полностью</a> </p> 
+               <div class="item-separator"></div> 
+              </article> 
+              <article class="item column-2"> 
+               <h2> <a href="/news/pressa/361-novyj-defitsit-gonit-rossijskie-it-kompanii-na-zapadnyj-rynok-m-a"> Новый дефицит гонит российские IT-компании на западный рынок M&amp;A</a> </h2> 
+               <p><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">6 октября, 2017</span></strong><br><img src="/images/rbc-share1.png" alt="rbc-share1" width="185" height="77"><br><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Источник:&nbsp;<a href="http://www.rbc.ru/spb_sz/06/10/2017/59d778719a7947b8c610c38e" target="_blank">РБК</a><br></span></p> 
+               <p>В последние два года российские IT-группы начали активно скупать конкурентов за рубежом. Не остаются в стороне и петербургские IT-разработчики, некоторые из которых уже совершили крупные сделки. Как считают опрошенные РБК Петербург участники рынка, активность отечественных компаний на зарубежных рынках M&amp;A можно объяснить двумя обстоятельствами. Во-первых, в России поглощать больше некого, а во-вторых, заграничный «шопинг» позволяет российским айтишникам заработать имиджевый капитал в глазах иностранных клиентов.</p> 
+               <p class="readmore"> <a href="/news/pressa/361-novyj-defitsit-gonit-rossijskie-it-kompanii-na-zapadnyj-rynok-m-a"> читать полностью</a> </p> 
+               <div class="item-separator"></div> 
+              </article> 
+              <span class="row-separator"></span> 
+             </div> 
+             <div class="items-row cols-2 row-1"> 
+              <article class="item column-1"> 
+               <h2> <a href="/news/pressa/360-peterburgskie-biznesmeny-rasskazali-chego-zhdut-ot-novogo-delovogo-sezona"> Петербургские бизнесмены рассказали, чего ждут от нового делового сезона</a> </h2> 
+               <p><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">4 октября, 2017</span></strong><br><img src="/images/rbc-share1.png" alt="rbc-share1" width="185" height="77">&nbsp; <span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"></span><br><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Источник: <a href="http://www.rbc.ru/spb_sz/04/10/2017/59d4e06b9a7947d601f361ed">РБК</a>&nbsp;</span></p> 
+               <p>РБК Петербург дал символический старт деловому сезону 2017/2018, собрав собственников и руководителей динамичных петербургских компаний на вечер «Good Harvest. Секреты успешных инвестиций». Гости мероприятия рассказали РБК Петербург, чего они ждут от нового делового сезона, какие видят новые возможности и риски для своего бизнеса.</p> 
+               <p class="readmore"> <a href="/news/pressa/360-peterburgskie-biznesmeny-rasskazali-chego-zhdut-ot-novogo-delovogo-sezona"> читать полностью</a> </p> 
+               <div class="item-separator"></div> 
+              </article> 
+              <article class="item column-2"> 
+               <h2> <a href="/news/pressa/356-est-li-agile-v-rossii-plyusy-dlya-komandy-i-klientov"> Есть ли Agile в России? Плюсы для команды и клиентов</a> </h2> 
+               <p><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">27 сентября, 2017</span></strong><br><img src="/images/logo-rabota.PNG" alt="logo-rabota" width="180" height="32"><br><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Источник: <a href="https://spb.rabota.ru/articles/career/est-li-v-rossii-agile-4577">Rabota.ru</a></span></p> 
+               <div>
+                То, что в&nbsp;российских компаниях в&nbsp;области проектного управления царит хаос,&nbsp;— расхожий стереотип. Несмотря на&nbsp;то, что этой теме посвящено много шуток и&nbsp;мемов, опрос компаний показал, что бизнес готов к&nbsp;внедрению подходов проектного менеджмента и&nbsp;уже экспериментирует с&nbsp;ними.
+               </div> 
+               <div>
+                Цель таких компаний&nbsp;— стать более гибкими, чтобы быстрее реагировать на&nbsp;меняющийся рынок и&nbsp;становиться более конкурентоспособными. Гибкость, или agility, стала фундаментальной идеей методологии проектного управления Agile.
+               </div> 
+               <div>
+                &nbsp;
+               </div> 
+               <p class="readmore"> <a href="/news/pressa/356-est-li-agile-v-rossii-plyusy-dlya-komandy-i-klientov"> читать полностью</a> </p> 
+               <div class="item-separator"></div> 
+              </article> 
+              <span class="row-separator"></span> 
+             </div> 
+             <div class="items-row cols-2 row-2"> 
+              <article class="item column-1"> 
+               <h2> <a href="/news/pressa/357-realnyj-opyt-kak-agile-transformiruet-rossijskij-biznes"> Реальный опыт: как Agile трансформирует российский бизнес </a> </h2> 
+               <p><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">29 августа, 2017</span></strong><br><img src="/images/logo-alfa.PNG" alt="logo-alfa" width="210" height="36"><br> <span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Источник: <a href="https://ru.calameo.com/read/004599794bc7c6dd18f07">AlfaHealth</a></span></p> 
+               <p>Представители бизнеса из различных отраслей поделились опытом перехода к гибкой проектной разработке.&nbsp;Нашу компанию представила скрам-мастер Наталья Воронько.</p> 
+               <p class="readmore"> <a href="/news/pressa/357-realnyj-opyt-kak-agile-transformiruet-rossijskij-biznes"> читать полностью</a> </p> 
+               <div class="item-separator"></div> 
+              </article> 
+              <article class="item column-2"> 
+               <h2> <a href="/news/pressa/351-afrikanskie-smartfony-zainteresovali-peterburgskikh-vrachej"> Африканские смартфоны заинтересовали петербургских врачей</a> </h2> 
+               <p><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">4 июля, 2017</span></strong><br><img src="/images/rbc-share1.png" alt="rbc-share1" width="200" height="83"><br> <span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Источник: </span><a style="font-family: arial, helvetica, sans-serif; font-size: 10pt;" href="http://www.rbc.ru/spb_sz/03/07/2017/595a214d9a79475b002c8b34">РБК</a></p> 
+               <p>Петербургская софтверная компания First Line Software разработала мобильное приложение для оказания медицинских услуг онлайн жителям Африки. Как объяснили РБК Петербург в пресс-центре компании, поводом к выходу на африканский рынок стал острый дефицит врачей и высокий уровень проникновения смартфонов на африканском континенте. Все это дает российскому бизнесу шанс на успешную экспансию. Однако поставщики телемедицинских услуг указывают и на ряд особенностей африканского рынка, которые могут помешать нормальному развитию проектов.</p> 
+               <p class="readmore"> <a href="/news/pressa/351-afrikanskie-smartfony-zainteresovali-peterburgskikh-vrachej"> читать полностью</a> </p> 
+               <div class="item-separator"></div> 
+              </article> 
+              <span class="row-separator"></span> 
+             </div> 
+             <div class="items-more"> 
+              <h3>Еще статьи...</h3> 
+              <ol> 
+               <li> <a href="/news/pressa/339-first-line-software-voshla-v-top-krupnejshikh-kompanij-po-versii-cnews"> First Line Software вошла в ТОП крупнейших компаний по версии Cnews</a> </li> 
+               <li> <a href="/news/pressa/338-krupnejshaya-it-kompaniya-ukhodit-iz-peterburga"> Крупнейшая IT-компания уходит из Петербурга</a> </li> 
+               <li> <a href="/news/pressa/328-kogo-ishchut-krupnejshie-it-kompanii"> Кого ищут крупнейшие IT–компании</a> </li> 
+               <li> <a href="/news/pressa/327-russkij-muzej-vypustit-gid-prilozhenie-dlya-glukhikh-posetitelej"> Русский музей выпустит гид-приложение для глухих посетителей</a> </li> 
+              </ol> 
+             </div> 
+             <div class="pagination"> 
+              <p class="counter"> Страница 1 из 15 </p> 
+              <ul>
+               <li class="pagination-start"><span class="pagenav">В начало</span></li>
+               <li class="pagination-prev"><span class="pagenav">Назад</span></li>
+               <li><span class="pagenav">1</span></li>
+               <li><a href="/news/pressa?start=6" class="pagenav">2</a></li>
+               <li><a href="/news/pressa?start=12" class="pagenav">3</a></li>
+               <li><a href="/news/pressa?start=18" class="pagenav">4</a></li>
+               <li><a href="/news/pressa?start=24" class="pagenav">5</a></li>
+               <li><a href="/news/pressa?start=30" class="pagenav">6</a></li>
+               <li><a href="/news/pressa?start=36" class="pagenav">7</a></li>
+               <li><a href="/news/pressa?start=42" class="pagenav">8</a></li>
+               <li><a href="/news/pressa?start=48" class="pagenav">9</a></li>
+               <li><a href="/news/pressa?start=54" class="pagenav">10</a></li>
+               <li class="pagination-next"><a title="Вперёд" href="/news/pressa?start=6" class="hasTooltip pagenav">Вперёд</a></li>
+               <li class="pagination-end"><a title="В конец" href="/news/pressa?start=84" class="hasTooltip pagenav">В конец</a></li>
+              </ul> 
+             </div> 
+            </section> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="rt-grid-4 "> 
+         <div id="rt-sidebar-a"> 
+          <div class="rt-block text-left-align facebook-module"> 
+           <div class="module-surround"> 
+            <div class="module-content"> 
+             <div class="customtext-left-align facebook-module"> 
+              <div class="module-title"> 
+               <h2 class="title"><span>Нажмите «Нравится», чтобы читать нас на&nbsp;Facebook</span></h2> 
+              </div> 
+              <div>
+               <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FFirstlinesoftware&amp;width=380&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false" scrolling="no" width="380" height="258" allowtransparency="true" style="border: none; overflow: hidden; width: 380px; height: 258px;"></iframe>
+              </div>
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <footer id="rt-footer-surround"> 
+   <div class="rt-footer-surround-pattern"> 
+    <div id="rt-footer" class="rt-overlay-light"> 
+     <div class="rt-container"> 
+      <div class="rt-grid-4 rt-alpha"> 
+       <div class="rt-block fp-footer-a rt-center"> 
+        <div class="module-surround"> 
+         <div class="module-content"> 
+          <div class="customfp-footer-a rt-center"> 
+           <p><a href="/contact-us"><span class="rt-icon"><span class="icon-exclamation-sign"></span></span></a></p>
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="rt-block fp-latest-news rt-title-center"> 
+        <div class="module-surround"> 
+         <div class="module-title"> 
+          <h2 class="title"><span>Есть вопросы?</span></h2> 
+         </div> 
+         <div class="module-content"> 
+          <div class="customfp-latest-news rt-title-center"> 
+           <p style="text-align: center;"><a class="readon rt-big-button btn-action" href="/contact-us">Свяжитесь с нами</a></p>
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="rt-grid-4"> 
+       <div class="rt-block fp-footer-b rt-center"> 
+        <div class="module-surround"> 
+         <div class="module-content"> 
+          <div class="customfp-footer-b rt-center"> 
+           <p><a href="/news/blog"><span class="rt-icon"><span class="icon-file-text-alt"></span></span></a></p>
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="rt-block fp-latest-news rt-title-center"> 
+        <div class="module-surround"> 
+         <div class="module-title"> 
+          <h2 class="title"><span>Наш блог</span></h2> 
+         </div> 
+         <div class="module-content"> 
+          <ul class="latestnewsfp-latest-news rt-title-center"> 
+           <li itemscope itemtype="http://schema.org/Article"> <a href="/news/blog/355-kakimi-budut-tsifrovye-oteli-budushchego" itemprop="url"> <span itemprop="name"> Какими будут цифровые отели будущего? </span> </a> </li> 
+           <li itemscope itemtype="http://schema.org/Article"> <a href="/news/blog/352-umnye-chasy-zadacha-pridat-smysl" itemprop="url"> <span itemprop="name"> Умные часы: оптимальная комплектация </span> </a> </li> 
+           <li itemscope itemtype="http://schema.org/Article"> <a href="/news/blog/345-tsifrovoj-turizm-kakie-segmenty-rynka-organizovannykh-puteshestvij-otsifrovyvayutsya-prezhde-vsego" itemprop="url"> <span itemprop="name"> Цифровой туризм: какие сегменты рынка организованных путешествий оцифровываются прежде всего? </span> </a> </li> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="rt-grid-4 rt-omega"> 
+       <div class="rt-block fp-footer-b rt-center"> 
+        <div class="module-surround"> 
+         <div class="module-content"> 
+          <div class="customfp-footer-b rt-center"> 
+           <p><a href="/news/pressa"><span class="rt-icon"><span class="icon-columns"></span></span></a></p>
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="rt-block fp-latest-news rt-title-center"> 
+        <div class="module-surround"> 
+         <div class="module-title"> 
+          <h2 class="title"><span>Пресса о нас</span></h2> 
+         </div> 
+         <div class="module-content"> 
+          <ul class="latestnewsfp-latest-news rt-title-center"> 
+           <li itemscope itemtype="http://schema.org/Article"> <a href="/news/pressa/362-gde-vzyat-million-programmistov" itemprop="url"> <span itemprop="name"> Где взять миллион программистов </span> </a> </li> 
+           <li itemscope itemtype="http://schema.org/Article"> <a href="/news/pressa/361-novyj-defitsit-gonit-rossijskie-it-kompanii-na-zapadnyj-rynok-m-a" itemprop="url"> <span itemprop="name"> Новый дефицит гонит российские IT-компании на западный рынок M&amp;A </span> </a> </li> 
+           <li itemscope itemtype="http://schema.org/Article"> <a href="/news/pressa/360-peterburgskie-biznesmeny-rasskazali-chego-zhdut-ot-novogo-delovogo-sezona" itemprop="url"> <span itemprop="name"> Петербургские бизнесмены рассказали, чего ждут от нового делового сезона </span> </a> </li> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="clear"></div> 
+     </div> 
+    </div> 
+   </div> 
+  </footer> 
+ </div> 
+ <div id="rt-copyright" class="rt-overlay-dark"> 
+  <div class="rt-container"> 
+   <div class="rt-grid-4 rt-alpha"> 
+    <div class="rt-copyright-content rt-block">
+      First Line Software 
+    </div> 
+   </div> 
+   <div class="rt-grid-4"> 
+    <div class="clear"></div> 
+    <div class="rt-block"> 
+     <a href="#" id="gantry-totop" rel="nofollow"><span class="icon-angle-up rt-totop-icon"></span></a> 
+    </div> 
+   </div> 
+   <div class="rt-grid-4 rt-omega"> 
+    <div class="rt-social-buttons rt-block"> 
+     <a class="social-button rt-social-button-1" href="https://www.facebook.com/firstlinesoftware" target="_blank"> <span class="icon-facebook"></span> </a> 
+     <a class="social-button rt-social-button-2" href="https://twitter.com/firstlinesoft" target="_blank"> <span class="icon-twitter"></span> </a> 
+     <a class="social-button rt-social-button-3" href="https://plus.google.com/u/0/s/First%20Line%20Software" target="_blank"> <span class="icon-google-plus"></span> </a> 
+     <a class="social-button rt-social-button-5" href="http://www.linkedin.com/company/875103?trk=tyah&amp;trkInfo=tas%3Afirst%20line%20soft%2Cidx%3A1-1-1" target="_blank"> <span class="icon-linkedin"></span> </a> 
+     <div class="clear"></div> 
+    </div> 
+   </div> 
+   <div class="clear"></div> 
+  </div> 
+ </div> 
+ <script type="text/javascript">
+	
+ 
+  jQuery("#owl-demo").owlCarousel({
+ 		autoPlay : 3000,
+ 		paginationSpeed : 1000,
+    stopOnHover : true,
+      navigation : false, // Show next and prev buttons
+      slideSpeed : 1000,
+      singleItem:true
+ 
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+ 
+  });
+ 
+
+</script> 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.min.js"></script> 
+ <script>
+   var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: 2000
+    });
+    </script> 
+ <script>
+ jQuery('.multiple-items').slick({
+  infinite: false,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  prevArrow: '<button type="button" class="hr-slick-prev"><img src="/images/slick.png"></button>',
+  nextArrow: '<button type="button" class="hr-slick-next"><img src="/images/slick.png"></button>',
+   responsive: [
+    {
+      breakpoint: 1050,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 3,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 700,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 500,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 380,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+    </script> 
+ <script>
+ jQuery('.multiple-itemss').slick({
+  infinite: false,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  prevArrow: '<button type="button" class="hr-slick-prev"><img src="/images/slick.png"></button>',
+  nextArrow: '<button type="button" class="hr-slick-next"><img src="/images/slick.png"></button>',
+   responsive: [
+    {
+      breakpoint: 999,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 680,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+    </script> 
+ <script>
+jQuery('.slaider_center').slick({
+  centerMode: true,
+  centerPadding: '310px',
+prevArrow: '<button type="button" class="pz-slick-prev"><img src="/images/slick.png"></button>',
+  nextArrow: '<button type="button" class="pz-slick-next"><img src="/images/slick.png"></button>',
+  slidesToShow: 1
+});
+   </script> 
+ <script>
+jQuery('.slaider_center_2').slick({
+  centerMode: true,
+  centerPadding: '310px',
+prevArrow: '<button type="button" class="pz-slick-prev"><img src="/images/slick.png"></button>',
+  nextArrow: '<button type="button" class="pz-slick-next"><img src="/images/slick.png"></button>',
+  slidesToShow: 1
+});
+   </script> 
+ <script>
+ jQuery('.multiple-item').slick({
+  infinite: true,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  prevArrow: '<button type="button" class="hr-slick-prev"><img src="/images/slick.png"></button>',
+  nextArrow: '<button type="button" class="hr-slick-next"><img src="/images/slick.png"></button>',
+  responsive: [
+    {
+      breakpoint: 1050,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 3,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 700,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 500,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 380,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+    </script> 
+ <script type="text/javascript">
+   
+    $('.slb').simplebox({
+      fadeSpeed: 350,
+    });
+  </script> 
+ <script type="text/javascript">
+    	//var hr_podlogka_top = document.getElementById('hr_podlogka_top');
+    	//var hr_podlogka_top_scrole = hr_podlogka_top.getBoundingClientRect().bottom + window.pageYOffset;
+
+    	/*window.onscroll = function() {
+
+    	}*/
+    	jQuery(document).ready(function() {
+		jQuery('a[href^="#"]').click(function(){
+		var el = jQuery(this).attr('href');
+		jQuery('body').animate({
+		scrollTop: jQuery(el).offset().top}, 2000);
+		return false;
+		});
+		});
+    </script>  
+</body>

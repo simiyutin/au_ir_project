@@ -1,0 +1,314 @@
+<body>
+ <div>
+  <script>window.TM_APP_INITIAL_STATE = {"settings":{"geektimes":true,"habrahabr":true,"height":500,"heightStyle":"500px"},"toplink":{"links":[{"color":"#3c86ee","title":"Чемпионат по AI","url":"https://bit.ly/2fkIOqX"},{"color":"#32CD32","title":"Умный стол","url":"https://u.tmtm.ru/gAay2"},{"color":"#13A9BA","title":"Валютный контроль   ","url":"https://u.tmtm.ru/EU0Qs"}],"loaded":true}}</script>
+  <div id="app">
+   <div class="tm-layout">
+    <div class="tm-toppanel">
+     <div class="tm-toppanel__inner">
+      <div class="tm-toppanel__links">
+       <a href="http://tmfeed.ru/?utm_source=tm_tmfeed&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo" class="tm-toppanel__link tm-toppanel__link_current"> TM Feed </a>
+       <a href="http://habrahabr.ru?utm_source=tm_tmfeed&amp;amp;utm_medium=tm_top_panel&amp;amp;utm_campaign=tm_promo" class="tm-toppanel__link"> Хабрахабр </a>
+       <a href="http://geektimes.ru?utm_source=tm_tmfeed&amp;amp;utm_medium=tm_top_panel&amp;amp;utm_campaign=tm_promo" class="tm-toppanel__link"> Geektimes </a>
+       <a href="http://toster.ru?utm_source=tm_tmfeed&amp;amp;utm_medium=tm_top_panel&amp;amp;utm_campaign=tm_promo" class="tm-toppanel__link"> Тостер </a>
+       <a href="http://moikrug.ru?utm_source=tm_tmfeed&amp;amp;utm_medium=tm_top_panel&amp;amp;utm_campaign=tm_promo" class="tm-toppanel__link"> Мой круг </a>
+       <a href="http://freelansim.ru?utm_source=tm_tmfeed&amp;amp;utm_medium=tm_top_panel&amp;amp;utm_campaign=tm_promo" class="tm-toppanel__link"> Фрилансим </a>
+      </div> 
+      <div class="tm-megaposts-links">
+       <div class="tm-megaposts-links__title">
+        Мегапосты:
+       </div> 
+       <div class="tm-megaposts-links__links">
+        <a href="https://bit.ly/2fkIOqX" class="tm-megaposts-links__link" style="color:#3c86ee;">Чемпионат по AI</a>
+        <a href="https://u.tmtm.ru/gAay2" class="tm-megaposts-links__link" style="color:#32CD32;">Умный стол</a>
+        <a href="https://u.tmtm.ru/EU0Qs" class="tm-megaposts-links__link" style="color:#13A9BA;">Валютный контроль </a>
+       </div>
+      </div> 
+      <span class="tm-top-banner">
+       <div id="adriver_banner_465568687"></div></span>
+     </div>
+    </div> 
+    <div class="tm-layout-container">
+     <div class="tm-header">
+      <div class="tm-header__inner">
+       <div class="tm-header__logo-wrapper">
+        <a href="/" class="tm-header__logo"></a>
+       </div> 
+       <div class="tm-header__filter">
+        <!----> 
+        <div class="tm-filter">
+         <a href="/popular/day/" class="router-link-active">
+          <div class="tm-checkbox">
+           <span class="tm-checkbox__box"></span> 
+           <span class="tm-checkbox__label"> Хабрахабр </span>
+          </div></a> 
+         <a href="/popular/day/?ignore=geektimes,habrahabr" class="router-link-active">
+          <div class="tm-checkbox tm-checkbox_checked">
+           <span class="tm-checkbox__box"></span> 
+           <span class="tm-checkbox__label"> Geektimes </span>
+          </div></a>
+        </div>
+       </div> 
+       <div class="tm-header__nav">
+        <div class="tm-header__nav-inner">
+         <div class="tm-header__tabs">
+          <div class="tm-nav">
+           <div class="tm-tabs">
+            <a href="/popular/day?ignore=habrahabr" class="router-link-exact-active router-link-active"><span class="tm-tab tm-tab_active"> Лучшие </span></a>
+            <a href="/all?ignore=habrahabr"><span class="tm-tab"> Все подряд </span></a>
+           </div>
+          </div>
+         </div> 
+         <div class="tm-header__burger">
+          <div class="tm-burger">
+           <a href="/settings?ignore=habrahabr">
+            <div class="tm-burger__icon"></div></a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div> 
+     <div class="tm-layout-main">
+      <div class="tm-subnav">
+       <div class="tm-buttongroup">
+        <a href="/popular/day?ignore=habrahabr" class="tm-subnav__link router-link-exact-active router-link-active">
+         <div class="tm-button tm-button_first tm-button_active">
+          <!----> 
+          <span class="tm-button__text"> Сутки </span>
+         </div></a>
+        <a href="/popular/week?ignore=habrahabr" class="tm-subnav__link">
+         <div class="tm-button">
+          <!----> 
+          <span class="tm-button__text"> Неделя </span>
+         </div></a>
+        <a href="/popular/month?ignore=habrahabr" class="tm-subnav__link">
+         <div class="tm-button tm-button_last">
+          <!----> 
+          <span class="tm-button__text"> Месяц </span>
+         </div></a>
+       </div>
+      </div> 
+      <!----> 
+      <ul class="tm-posts">
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">сегодня в 04:45</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294555/" target="_blank" class="tm-post__title-link">122 дня под УФ-лучами: сравнительное тестирование 3D-печатных изделий из пластиков ABS и ASA</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/3d-printers/" target="_blank" class="tm-post__hub-link">3D-принтеры, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/DIY/" target="_blank" class="tm-post__hub-link">DIY или Сделай сам, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/futurenow/" target="_blank" class="tm-post__hub-link">Будущее здесь</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +32
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           8.01k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           14
+          </div> 
+          <a href="https://geektimes.ru/post/294555/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">21</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">сегодня в 11:09</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294585/" target="_blank" class="tm-post__title-link">Телескоп «Джеймс Уэбб» прошёл критическое испытание&nbsp;— он сделал селфи</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/astronomy/" target="_blank" class="tm-post__hub-link">Астрономия, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/popular_science/" target="_blank" class="tm-post__hub-link">Научно-популярное, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/photo/" target="_blank" class="tm-post__hub-link">Фототехника</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +28
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           5.96k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           3
+          </div> 
+          <a href="https://geektimes.ru/post/294585/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">18</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">сегодня в 10:31</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294581/" target="_blank" class="tm-post__title-link">Является ли межплеменная вражда естественным сбоем?</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/artificial_intelligence/" target="_blank" class="tm-post__hub-link">Искусственный интеллект</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +19
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           5.29k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           23
+          </div> 
+          <a href="https://geektimes.ru/post/294581/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">3</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">сегодня в 09:18</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294579/" target="_blank" class="tm-post__title-link">Долгожданные новости: CEO группы компаний «Полибиус» приступит к работе в январе 2018 г</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/company/polybius/" target="_blank" class="tm-post__hub-link">Блог компании Polybius Foundation, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/cryptocurrency/" target="_blank" class="tm-post__hub-link">Криптовалюты, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/finance/" target="_blank" class="tm-post__hub-link">Финансы</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +15
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           3.69k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           5
+          </div> 
+          <a href="https://geektimes.ru/post/294579/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">23</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">сегодня в 12:45</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294521/" target="_blank" class="tm-post__title-link">Создание 3D-моделей при помощи дронов DJI и Agisoft Photoscan</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/company/coptertime/" target="_blank" class="tm-post__hub-link">Блог компании CopterTime, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/video_tech/" target="_blank" class="tm-post__hub-link">Видеотехника, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/multicopters/" target="_blank" class="tm-post__hub-link">Мультикоптеры, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/robot/" target="_blank" class="tm-post__hub-link">Робототехника</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +12
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           2.33k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           25
+          </div> 
+          <a href="https://geektimes.ru/post/294521/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">4</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">сегодня в 08:50</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294577/" target="_blank" class="tm-post__title-link">Готовится полный запрет на госзакупки иностранных антивирусов и систем документооборота</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/it_regulation/" target="_blank" class="tm-post__hub-link">Регулирование IT-сектора, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/soft/" target="_blank" class="tm-post__hub-link">Софт, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/finance/" target="_blank" class="tm-post__hub-link">Финансы</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +7
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           7.88k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           7
+          </div> 
+          <a href="https://geektimes.ru/post/294577/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">52</a>
+         </div> 
+         <!---->
+        </div></li>
+       <li class="tm-post">
+        <div class="tm-post__origin">
+         <a href="https://geektimes.ru" target="_blank" class="tm-post__site tm-post__site_geektimes">Geektimes</a> 
+         <span class="tm-post__date">сегодня в 15:28</span>
+        </div> 
+        <div class="tm-post__title">
+         <a href="https://geektimes.ru/post/294587/" target="_blank" class="tm-post__title-link">DRM-защита Denuvo не выдерживает и дня, компания готовит 5-ю версию защиты</a>
+        </div> 
+        <div class="tm-post__hubs">
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/games/" target="_blank" class="tm-post__hub-link">Игры, </a></span>
+         <span class="tm-post__hub"><a href="https://geektimes.ru/hub/copyright/" target="_blank" class="tm-post__hub-link">Копирайт</a></span>
+        </div> 
+        <div class="tm-post__meta">
+         <div class="tm-post__meta-inner">
+          <div class="tm-post__meta-item tm-post__meta-rating tm-post__meta-rating_positive">
+           +3
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-views">
+           3.12k
+          </div> 
+          <div class="tm-post__meta-item tm-post__meta-favorites">
+           2
+          </div> 
+          <a href="https://geektimes.ru/post/294587/#comments" target="_blank" class="tm-post__meta-item tm-post__meta-comments">24</a>
+         </div> 
+         <!---->
+        </div></li>
+      </ul> 
+      <!----> 
+      <!---->
+     </div> 
+     <!---->
+    </div> 
+    <div class="tm-footer tm-footer_dark tm-footer_narrow">
+     <div class="tm-footer__inner">
+      <div class="tm-footer-copyright">
+       <a href="https://tmtm.ru" target="_blank" class="tm-tmlogo"></a> 
+       <span class="tm-copyright"><span class="tm-copyright__years"> 2006 — 2017 </span> <span class="tm-copyright__name"> «<a href="https://tmtm.ru" target="_blank" class="tm-copyright__link">TM</a>» </span></span>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <script>(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter28095615 = new Ya.Metrika({id:28095615, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script>
+ <noscript>
+  <img src="//mc.yandex.ru/watch/28095615" style="position:absolute; left:-9999px;" alt="">
+ </noscript> 
+ <!-- Vue rendering --> 
+ <!-- 121.103326 since request --> 
+ <!-- 121.103326 since last milestone --> 
+ <!-- Express rendering --> 
+ <!-- 121.417196 since request --> 
+ <!-- 0.31387000000000853 since last milestone --> 
+</body>

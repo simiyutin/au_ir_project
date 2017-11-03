@@ -1,0 +1,1118 @@
+<body> 
+ <div class="tmservices-panel" role="tm_panel"> 
+  <ul class="tmenu-mservices"> 
+   <li class="tmenu-mservices__item"> <a class="tmenu-mservices__item-link" href="http://tmfeed.ru?utm_source=tm_tmfeed&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo">TM Feed</a> </li> 
+   <li class="tmenu-mservices__item"> <a class="tmenu-mservices__item-link" href="http://habrahabr.ru?utm_source=tm_toster&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo">Хабрахабр</a> </li> 
+   <li class="tmenu-mservices__item"> <a class="tmenu-mservices__item-link" href="http://geektimes.ru?utm_source=tm_toster&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo">Geektimes</a> </li> 
+   <li class="tmenu-mservices__item"> <a class="tmenu-mservices__item-link tmenu-mservices__item-link_current" href="http://toster.ru?utm_source=tm_toster&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo">Тостер</a> </li> 
+   <li class="tmenu-mservices__item"> <a class="tmenu-mservices__item-link" href="http://moikrug.ru?utm_source=tm_toster&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo">Мой круг</a> </li> 
+   <li class="tmenu-mservices__item last-item"> <a class="tmenu-mservices__item-link" href="http://freelansim.ru/?utm_source=tm_toster&amp;utm_medium=tm_top_panel&amp;utm_campaign=tm_promo">Фрилансим</a> </li> 
+   <li class="tmenu-mservices__item tmspecials"> <span id="adriver_banner_465568687"></span> </li> 
+  </ul> 
+ </div> 
+ <div class="layout"> 
+  <div class="layout__canvas" id="js-canvas"> 
+   <aside class="layout__navbar" role="navbar"> 
+    <a class="logo logo_sidebar" href="https://toster.ru/"> 
+     <svg class="icon_svg icon_logo"> 
+      <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_logo"></use> 
+     </svg> </a> 
+    <section class="user-panel" role="user_expand_menu"> 
+     <div class="user-panel_head"> 
+      <svg class="icon_svg icon_menu_lock" viewbox="0 0 32 32"> 
+       <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_menu_lock"></use> 
+      </svg> 
+      <a class="user-panel__login-link" href="auth/ac?ret=@referer">Войти на сайт</a> 
+     </div> 
+    </section> 
+    <ul class="main-menu"> 
+     <li class="main-menu__item"> <a class="main-menu__link " id="item_questions" href="questions"> 
+       <svg class="icon_svg icon_menu_questions" viewbox="0 0 32 32"> 
+        <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_menu_question"></use> 
+       </svg> Все вопросы </a> </li> 
+     <li class="main-menu__item"> <a class="main-menu__link " href="tags"> 
+       <svg class="icon_svg icon_menu_tags" viewbox="0 0 32 32"> 
+        <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_menu_tags"></use> 
+       </svg> Все теги </a> </li> 
+     <li class="main-menu__item"> <a class="main-menu__link open" href="users"> 
+       <svg class="icon_svg icon_menu_users" viewbox="0 0 34 32"> 
+        <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_menu_users"></use> 
+       </svg> Пользователи </a> </li> 
+    </ul> 
+    <section class="promo-block promo-block_sticky-bottom"> 
+     <h3 class="promo-block__title">Тостер&nbsp;— вопросы и&nbsp;ответы для IT-специалистов</h3> 
+     <p class="promo-block__desc">Получайте ответы на&nbsp;вопросы по&nbsp;любой теме из&nbsp;области&nbsp;IT от&nbsp;специалистов в&nbsp;этой теме.</p> 
+     <a class="btn btn_green" href="/info/about">Узнать больше</a> 
+    </section> 
+   </aside> 
+   <div class="layout__body"> 
+    <header class="layout__topbar"> 
+     <div class="layout__topbar_suggest"> 
+      <div class="layout__topbar_wrap"> 
+       <form class="suggest" action="search" method="get" id="header_search_form"> 
+        <div class="suggest__field_wrap"> 
+         <div class="suggest__wrap_fluid"> 
+          <input class="suggest__field" type="search" autocomplete="off" name="q" placeholder="Найти вопрос, ответ, тег или пользователя"> 
+         </div> 
+         <button class="btn btn_link" type="button" role="btn_suggest_close"> <span>Закрыть</span> </button> 
+        </div> 
+        <button class="btn btn_suggest" type="button" role="btn_suggest"> 
+         <svg class="icon_svg icon_search" viewbox="0 0 32 32"> 
+          <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_search"></use> 
+         </svg> </button> 
+       </form> 
+       <div class="layout__topbar_add-question"> 
+        <a class="btn btn_green btn_add-question" href="question/new" role="auth_popup_trigger" data-value="Чтобы задать вопрос и&nbsp;получить на&nbsp;него квалифицированный ответ." data-title="" data-auth-ret="question/new" data-no-button=""> 
+         <svg class="icon_svg icon_plus" viewbox="0 0 32 32"> 
+          <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_plus"></use> 
+         </svg> <span>Задать вопрос</span> </a> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="layout__topbar_canvas-toggler"> 
+      <button class="btn btn_navbar_toggle" role="toggle_navbar" type="button"> 
+       <svg class="icon_svg icon_burger" viewbox="0 0 32 32"> 
+        <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_burger"></use> 
+       </svg> </button> 
+      <a class="logo logo_topbar" href="https://toster.ru/"> 
+       <svg class="icon_svg icon_logo"> 
+        <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_logo"></use> 
+       </svg> </a> 
+     </div> 
+    </header> 
+    <section class="column column_wrap" role="wrap_section"> 
+     <div class="column_main"> 
+      <main class="page"> 
+       <div class="flash-notices" role="notices_container_flash"></div> 
+       <div class="notices-container" role="notice_container"> 
+       </div> 
+       <header class="page__header"> 
+        <h1 class="page__header-title page__header-title_bordered">Пользователи</h1> 
+       </header> 
+       <div class="page__body"> 
+        <div class="adsbygoogle_wrap adsbygoogle_mobile"> 
+         <!-- Yandex.RTB R-A-149488-14 --> 
+         <div id="yandex_rtb_R-A-149488-14"></div> 
+         <script type="text/javascript">
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Context.AdvManager.render({
+                blockId: "R-A-149488-14",
+                renderTo: "yandex_rtb_R-A-149488-14",
+                async: true
+            });
+        });
+        t = d.getElementsByTagName("script")[0];
+        s = d.createElement("script");
+        s.type = "text/javascript";
+        s.src = "//an.yandex.ru/system/context.js";
+        s.async = true;
+        t.parentNode.insertBefore(s, t);
+    })(this, this.document, "yandexContextAsyncCallbacks");
+  </script> 
+        </div> 
+        <ul class="content-list content-list_cards-users"> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/Fesor"> 
+             <meta itemprop="image" content="//www.gravatar.com/avatar/7d36bab963d4eaf384e653b2ad2e1c16?d=wavatar&amp;s=256"> <img src="//www.gravatar.com/avatar/7d36bab963d4eaf384e653b2ad2e1c16?d=wavatar&amp;s=120" alt="Fesor"> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/Fesor" itemprop="url"> 
+              <meta itemprop="name" content="Сергей Протько"> Сергей Протько </a> </h2> 
+            <div class="card__head-subtitle" itemprop="description">
+              Full-stack developer (Symfony, Angular) 
+            </div> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/Fesor/answers" class="card__stats-counter" title="Ответов: 4793"> 
+               <meta itemprop="interactionCount" content="4793 answers"> 4k ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/Fesor/questions" class="card__stats-counter" title="Вопросов: 62"> 
+               <meta itemprop="interactionCount" content="62 questions"> 62 вопроса </a> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>4196</strong> Общий вклад 
+            <div class="progress" data-progress="100"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/opium"> 
+             <meta itemprop="image" content="//habrastorage.org/getpro/toster/avatars/d81/2c5/86d/d812c586d5d94b955a3d091cd8d8de86.jpg"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/getpro/toster/avatars/d81/2c5/86d/d812c586d5d94b955a3d091cd8d8de86.jpg&amp;container=focus&amp;refresh=2592000&amp;resize_w=120" alt="opium"> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/opium" itemprop="url"> 
+              <meta itemprop="name" content="Пума Тайланд"> Пума Тайланд </a> </h2> 
+            <div class="card__head-subtitle" itemprop="description">
+              Просто люблю качественно работать 
+            </div> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/opium/answers" class="card__stats-counter" title="Ответов: 8996"> 
+               <meta itemprop="interactionCount" content="8996 answers"> 8k ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/opium/questions" class="card__stats-counter" title="Вопросов: 233"> 
+               <meta itemprop="interactionCount" content="233 questions"> 233 вопроса </a> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>3712</strong> Общий вклад 
+            <div class="progress" data-progress="88.5"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/DevMan"> 
+             <meta itemprop="image" content="https://habrastorage.org/files/efe/8fe/fec/efe8fefec0c2411fb183b1478e95337d.png"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/efe/8fe/fec/efe8fefec0c2411fb183b1478e95337d.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=120" alt="DevMan"> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/DevMan" itemprop="url"> 
+              <meta itemprop="name" content="DevMan"> DevMan </a> </h2> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/DevMan/answers" class="card__stats-counter" title="Ответов: 1678"> 
+               <meta itemprop="interactionCount" content="1678 answers"> 1k ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <span class="card__stats-counter card__stats-counter_zero"> 0 вопросов </span> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>3381</strong> Общий вклад 
+            <div class="progress" data-progress="80.6"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/Jump"> 
+             <meta itemprop="image" content="//habrastorage.org/files/115/403/52d/11540352d8024a928dc33b3d9e0db91b.jpg"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/115/403/52d/11540352d8024a928dc33b3d9e0db91b.jpg&amp;container=focus&amp;refresh=2592000&amp;resize_w=120" alt="Jump"> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/Jump" itemprop="url"> 
+              <meta itemprop="name" content="АртемЪ"> АртемЪ </a> </h2> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/Jump/answers" class="card__stats-counter" title="Ответов: 3247"> 
+               <meta itemprop="interactionCount" content="3247 answers"> 3k ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/Jump/questions" class="card__stats-counter" title="Вопросов: 10"> 
+               <meta itemprop="interactionCount" content="10 questions"> 10 вопросов </a> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>2969</strong> Общий вклад 
+            <div class="progress" data-progress="70.8"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/sim3x"> 
+             <meta itemprop="image" content="//habrastorage.org/files/dd9/dc9/364/dd9dc9364c1c4822b67068a021147568.png"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/dd9/dc9/364/dd9dc9364c1c4822b67068a021147568.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=120" alt="sim3x"> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/sim3x" itemprop="url"> 
+              <meta itemprop="name" content="sim3x"> sim3x </a> </h2> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/sim3x/answers" class="card__stats-counter" title="Ответов: 3762"> 
+               <meta itemprop="interactionCount" content="3762 answers"> 3k ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/sim3x/questions" class="card__stats-counter" title="Вопросов: 9"> 
+               <meta itemprop="interactionCount" content="9 questions"> 9 вопросов </a> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>2661</strong> Общий вклад 
+            <div class="progress" data-progress="63.4"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/saboteur_kiev"> 
+             <meta itemprop="image" content="//habrastorage.org/getpro/toster/avatars/f45/024/bcc/f45024bcc7d7567f4c4296de5d36c0b3.jpg"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/getpro/toster/avatars/f45/024/bcc/f45024bcc7d7567f4c4296de5d36c0b3.jpg&amp;container=focus&amp;refresh=2592000&amp;resize_w=120" alt="saboteur_kiev"> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/saboteur_kiev" itemprop="url"> 
+              <meta itemprop="name" content="Saboteur"> Saboteur </a> </h2> 
+            <div class="card__head-subtitle" itemprop="description">
+              build engineer 
+            </div> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/saboteur_kiev/answers" class="card__stats-counter" title="Ответов: 2553"> 
+               <meta itemprop="interactionCount" content="2553 answers"> 2k ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/saboteur_kiev/questions" class="card__stats-counter" title="Вопросов: 32"> 
+               <meta itemprop="interactionCount" content="32 questions"> 32 вопроса </a> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>2572</strong> Общий вклад 
+            <div class="progress" data-progress="61.3"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/xmoonlight"> 
+             <meta itemprop="image" content="//habrastorage.org/getpro/toster/avatars/be2/36a/a77/be236aa775f9eff8b53ffb0533b3d78e.png"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/getpro/toster/avatars/be2/36a/a77/be236aa775f9eff8b53ffb0533b3d78e.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=120" alt="xmoonlight"> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/xmoonlight" itemprop="url"> 
+              <meta itemprop="name" content="xmoonlight"> xmoonlight </a> </h2> 
+            <div class="card__head-subtitle" itemprop="description">
+              https://sitecoder.blogspot.ru 
+            </div> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/xmoonlight/answers" class="card__stats-counter" title="Ответов: 4821"> 
+               <meta itemprop="interactionCount" content="4821 answers"> 4k ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/xmoonlight/questions" class="card__stats-counter" title="Вопросов: 101"> 
+               <meta itemprop="interactionCount" content="101 questions"> 101 вопрос </a> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>2558</strong> Общий вклад 
+            <div class="progress" data-progress="61"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/IonDen"> 
+             <meta itemprop="image" content="//habrastorage.org/getpro/toster/ad81c3b0/96eb/464e/ad81c3b0-96eb-464e-ba0b-0f9c515cdcb8/ineshin_denis.jpg"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/getpro/toster/ad81c3b0/96eb/464e/ad81c3b0-96eb-464e-ba0b-0f9c515cdcb8/ineshin_denis.jpg&amp;container=focus&amp;refresh=2592000&amp;resize_w=120" alt="IonDen"> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/IonDen" itemprop="url"> 
+              <meta itemprop="name" content="Денис Инешин"> Денис Инешин </a> </h2> 
+            <div class="card__head-subtitle" itemprop="description">
+              JavaScript developer. IonDen.com 
+            </div> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/IonDen/answers" class="card__stats-counter" title="Ответов: 2810"> 
+               <meta itemprop="interactionCount" content="2810 answers"> 2k ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/IonDen/questions" class="card__stats-counter" title="Вопросов: 23"> 
+               <meta itemprop="interactionCount" content="23 questions"> 23 вопроса </a> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>2149</strong> Общий вклад 
+            <div class="progress" data-progress="51.2"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/OnYourLips"> 
+             <meta itemprop="image" content="//habrastorage.org/files/c07/99e/ef9/c0799eef95b24ef49746e4b9e199c573.png"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/c07/99e/ef9/c0799eef95b24ef49746e4b9e199c573.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=120" alt="OnYourLips"> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/OnYourLips" itemprop="url"> 
+              <meta itemprop="name" content="OnYourLips"> OnYourLips </a> </h2> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/OnYourLips/answers" class="card__stats-counter" title="Ответов: 2906"> 
+               <meta itemprop="interactionCount" content="2906 answers"> 2k ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/OnYourLips/questions" class="card__stats-counter" title="Вопросов: 61"> 
+               <meta itemprop="interactionCount" content="61 questions"> 61 вопрос </a> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>2107</strong> Общий вклад 
+            <div class="progress" data-progress="50.2"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/alexey-m-ukolov"> 
+             <meta itemprop="image" content="https://habrastorage.org/files/1ff/f06/9d8/1fff069d88a94504bd0793abf2c9b586.gif"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/1ff/f06/9d8/1fff069d88a94504bd0793abf2c9b586.gif&amp;container=focus&amp;refresh=2592000&amp;resize_w=120" alt="alexey-m-ukolov"> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/alexey-m-ukolov" itemprop="url"> 
+              <meta itemprop="name" content="Алексей Уколов"> Алексей Уколов </a> </h2> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/alexey-m-ukolov/answers" class="card__stats-counter" title="Ответов: 2140"> 
+               <meta itemprop="interactionCount" content="2140 answers"> 2k ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/alexey-m-ukolov/questions" class="card__stats-counter" title="Вопросов: 28"> 
+               <meta itemprop="interactionCount" content="28 questions"> 28 вопросов </a> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>2092</strong> Общий вклад 
+            <div class="progress" data-progress="49.9"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/dimonchik2013"> 
+             <meta itemprop="image" content="https://habrastorage.org/files/42c/6d8/f13/42c6d8f1303446ea8b1d71a0d31eaf00.png"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/42c/6d8/f13/42c6d8f1303446ea8b1d71a0d31eaf00.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=120" alt="dimonchik2013"> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/dimonchik2013" itemprop="url"> 
+              <meta itemprop="name" content="dimonchik2013"> dimonchik2013 </a> </h2> 
+            <div class="card__head-subtitle" itemprop="description">
+              Сравана Крутапси Крутанапаль 
+            </div> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/dimonchik2013/answers" class="card__stats-counter" title="Ответов: 4592"> 
+               <meta itemprop="interactionCount" content="4592 answers"> 4k ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/dimonchik2013/questions" class="card__stats-counter" title="Вопросов: 2"> 
+               <meta itemprop="interactionCount" content="2 questions"> 2 вопроса </a> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>2018</strong> Общий вклад 
+            <div class="progress" data-progress="48.1"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/Rsa97"> 
+             <meta itemprop="image" content="//habrastorage.org/getpro/toster/bedb4180/8ae5/492a/bedb4180-8ae5-492a-b7ac-8ae1cbae44b9/d01ee88fa9d86334c9d335897a9_prev.jpg"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/getpro/toster/bedb4180/8ae5/492a/bedb4180-8ae5-492a-b7ac-8ae1cbae44b9/d01ee88fa9d86334c9d335897a9_prev.jpg&amp;container=focus&amp;refresh=2592000&amp;resize_w=120" alt="Rsa97"> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/Rsa97" itemprop="url"> 
+              <meta itemprop="name" content="Rsa97"> Rsa97 </a> </h2> 
+            <div class="card__head-subtitle" itemprop="description">
+              Для правильного вопроса надо знать половину ответа 
+            </div> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/Rsa97/answers" class="card__stats-counter" title="Ответов: 2435"> 
+               <meta itemprop="interactionCount" content="2435 answers"> 2k ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/Rsa97/questions" class="card__stats-counter" title="Вопросов: 1"> 
+               <meta itemprop="interactionCount" content="1 questions"> 1 вопрос </a> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>1860</strong> Общий вклад 
+            <div class="progress" data-progress="44.3"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/Stalker_RED"> 
+             <meta itemprop="image" content="//habrastorage.org/getpro/toster/avatars/8ea/e85/9e1/8eae859e19c9e059332d4db92056edef.png"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/getpro/toster/avatars/8ea/e85/9e1/8eae859e19c9e059332d4db92056edef.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=120" alt="Stalker_RED"> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/Stalker_RED" itemprop="url"> 
+              <meta itemprop="name" content="Stalker_RED"> Stalker_RED </a> </h2> 
+            <div class="card__head-subtitle" itemprop="description">
+              . 
+            </div> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/Stalker_RED/answers" class="card__stats-counter" title="Ответов: 2200"> 
+               <meta itemprop="interactionCount" content="2200 answers"> 2k ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/Stalker_RED/questions" class="card__stats-counter" title="Вопросов: 2"> 
+               <meta itemprop="interactionCount" content="2 questions"> 2 вопроса </a> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>1636</strong> Общий вклад 
+            <div class="progress" data-progress="39"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/DmitriyEntelis"> 
+             <meta itemprop="image" content="https://habrastorage.org/files/344/218/2f8/3442182f89b84a81bcc5799ae14570d2.jpg"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/344/218/2f8/3442182f89b84a81bcc5799ae14570d2.jpg&amp;container=focus&amp;refresh=2592000&amp;resize_w=120" alt="DmitriyEntelis"> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/DmitriyEntelis" itemprop="url"> 
+              <meta itemprop="name" content="Дмитрий Энтелис"> Дмитрий Энтелис </a> </h2> 
+            <div class="card__head-subtitle" itemprop="description">
+              Думаю за деньги 
+            </div> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/DmitriyEntelis/answers" class="card__stats-counter" title="Ответов: 1351"> 
+               <meta itemprop="interactionCount" content="1351 answers"> 1k ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/DmitriyEntelis/questions" class="card__stats-counter" title="Вопросов: 1"> 
+               <meta itemprop="interactionCount" content="1 questions"> 1 вопрос </a> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>1623</strong> Общий вклад 
+            <div class="progress" data-progress="38.7"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/Taraflex"> 
+             <meta itemprop="image" content="//habrastorage.org/files/2d0/5fd/f81/2d05fdf812d54b3da8b04467e1b11994.jpg"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/2d0/5fd/f81/2d05fdf812d54b3da8b04467e1b11994.jpg&amp;container=focus&amp;refresh=2592000&amp;resize_w=120" alt="Taraflex"> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/Taraflex" itemprop="url"> 
+              <meta itemprop="name" content="Александр Таратин"> Александр Таратин </a> </h2> 
+            <div class="card__head-subtitle" itemprop="description">
+              Ищу работу. Контакты в профиле. 
+            </div> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/Taraflex/answers" class="card__stats-counter" title="Ответов: 2380"> 
+               <meta itemprop="interactionCount" content="2380 answers"> 2k ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/Taraflex/questions" class="card__stats-counter" title="Вопросов: 38"> 
+               <meta itemprop="interactionCount" content="38 questions"> 38 вопросов </a> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>1608</strong> Общий вклад 
+            <div class="progress" data-progress="38.3"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/webinar"> 
+             <meta itemprop="image" content="//habrastorage.org/files/807/97f/326/80797f32605a4bb1a72cf1ea5f2b06a8.jpg"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/807/97f/326/80797f32605a4bb1a72cf1ea5f2b06a8.jpg&amp;container=focus&amp;refresh=2592000&amp;resize_w=120" alt="webinar"> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/webinar" itemprop="url"> 
+              <meta itemprop="name" content="Максим Тимофеев"> Максим Тимофеев </a> </h2> 
+            <div class="card__head-subtitle" itemprop="description">
+              Учим yii2: https://youtu.be/-WRMlGHLgRg 
+            </div> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/webinar/answers" class="card__stats-counter" title="Ответов: 3193"> 
+               <meta itemprop="interactionCount" content="3193 answers"> 3k ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/webinar/questions" class="card__stats-counter" title="Вопросов: 187"> 
+               <meta itemprop="interactionCount" content="187 questions"> 187 вопросов </a> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>1601</strong> Общий вклад 
+            <div class="progress" data-progress="38.2"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/gbg"> 
+             <meta itemprop="image" content="//habrastorage.org/files/1d0/252/8e7/1d02528e73b34d4b897be989f64379e5.png"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/1d0/252/8e7/1d02528e73b34d4b897be989f64379e5.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=120" alt="gbg"> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/gbg" itemprop="url"> 
+              <meta itemprop="name" content="Армянское Радио"> Армянское Радио </a> </h2> 
+            <div class="card__head-subtitle" itemprop="description">
+              Баянист. Тамада. Услуги. 
+            </div> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/gbg/answers" class="card__stats-counter" title="Ответов: 1977"> 
+               <meta itemprop="interactionCount" content="1977 answers"> 1k ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <span class="card__stats-counter card__stats-counter_zero"> 0 вопросов </span> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>1384</strong> Общий вклад 
+            <div class="progress" data-progress="33"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/iiiBird"> 
+             <meta itemprop="image" content="https://habrastorage.org/files/fd5/543/b46/fd5543b46ea3495fba32ad98a9900062.jpg"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/fd5/543/b46/fd5543b46ea3495fba32ad98a9900062.jpg&amp;container=focus&amp;refresh=2592000&amp;resize_w=120" alt="iiiBird"> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/iiiBird" itemprop="url"> 
+              <meta itemprop="name" content="iBird Rose"> iBird Rose </a> </h2> 
+            <div class="card__head-subtitle" itemprop="description">
+              ✔ Важный факт: Пока ты спишь - твой враг качается 
+            </div> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/iiiBird/answers" class="card__stats-counter" title="Ответов: 1712"> 
+               <meta itemprop="interactionCount" content="1712 answers"> 1k ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/iiiBird/questions" class="card__stats-counter" title="Вопросов: 42"> 
+               <meta itemprop="interactionCount" content="42 questions"> 42 вопроса </a> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>1365</strong> Общий вклад 
+            <div class="progress" data-progress="32.5"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/inkvizitor68sl"> 
+             <meta itemprop="image" content="https://toster.ru/images/no_avatar.png"> 
+             <svg class="icon_userpic" viewbox="0 0 32 32"> 
+              <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_userpic"></use> 
+             </svg> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/inkvizitor68sl" itemprop="url"> 
+              <meta itemprop="name" content="Влад Животнев"> Влад Животнев </a> </h2> 
+            <div class="card__head-subtitle" itemprop="description">
+              Linux-сисадмин с 8 летним стажем. 
+            </div> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/inkvizitor68sl/answers" class="card__stats-counter" title="Ответов: 3128"> 
+               <meta itemprop="interactionCount" content="3128 answers"> 3k ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/inkvizitor68sl/questions" class="card__stats-counter" title="Вопросов: 12"> 
+               <meta itemprop="interactionCount" content="12 questions"> 12 вопросов </a> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>1319</strong> Общий вклад 
+            <div class="progress" data-progress="31.4"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/SyavaSyava"> 
+             <meta itemprop="image" content="https://toster.ru/images/no_avatar.png"> 
+             <svg class="icon_userpic" viewbox="0 0 32 32"> 
+              <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_userpic"></use> 
+             </svg> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/SyavaSyava" itemprop="url"> 
+              <meta itemprop="name" content="SyavaSyava"> SyavaSyava </a> </h2> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/SyavaSyava/answers" class="card__stats-counter" title="Ответов: 2151"> 
+               <meta itemprop="interactionCount" content="2151 answers"> 2k ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/SyavaSyava/questions" class="card__stats-counter" title="Вопросов: 1"> 
+               <meta itemprop="interactionCount" content="1 questions"> 1 вопрос </a> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>1312</strong> Общий вклад 
+            <div class="progress" data-progress="31.3"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/dpr"> 
+             <meta itemprop="image" content="//habrastorage.org/files/a74/623/17d/a7462317d6c046069e867292f78ed922.jpg"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/a74/623/17d/a7462317d6c046069e867292f78ed922.jpg&amp;container=focus&amp;refresh=2592000&amp;resize_w=120" alt="dpr"> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/dpr" itemprop="url"> 
+              <meta itemprop="name" content="Сергей"> Сергей </a> </h2> 
+            <div class="card__head-subtitle" itemprop="description">
+              frontend developer 
+            </div> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/dpr/answers" class="card__stats-counter" title="Ответов: 807"> 
+               <meta itemprop="interactionCount" content="807 answers"> 807 ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/dpr/questions" class="card__stats-counter" title="Вопросов: 28"> 
+               <meta itemprop="interactionCount" content="28 questions"> 28 вопросов </a> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>1234</strong> Общий вклад 
+            <div class="progress" data-progress="29.4"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/Petroveg"> 
+             <meta itemprop="image" content="//habrastorage.org/files/5dd/bb0/86f/5ddbb086f5d547088b646f781a2d70d3.png"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/5dd/bb0/86f/5ddbb086f5d547088b646f781a2d70d3.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=120" alt="Petroveg"> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/Petroveg" itemprop="url"> 
+              <meta itemprop="name" content="Евгений Петров"> Евгений Петров </a> </h2> 
+            <div class="card__head-subtitle" itemprop="description">
+              Миром правят маленькие с#@&amp;ки 
+            </div> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/Petroveg/answers" class="card__stats-counter" title="Ответов: 963"> 
+               <meta itemprop="interactionCount" content="963 answers"> 963 ответа </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <span class="card__stats-counter card__stats-counter_zero"> 0 вопросов </span> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>1187</strong> Общий вклад 
+            <div class="progress" data-progress="28.3"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/GavriKos"> 
+             <meta itemprop="image" content="//habrastorage.org/files/451/7ea/c16/4517eac166c64fce929dbfe83abb69e6.png"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/451/7ea/c16/4517eac166c64fce929dbfe83abb69e6.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=120" alt="GavriKos"> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/GavriKos" itemprop="url"> 
+              <meta itemprop="name" content="GavriKos"> GavriKos </a> </h2> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/GavriKos/answers" class="card__stats-counter" title="Ответов: 1888"> 
+               <meta itemprop="interactionCount" content="1888 answers"> 1k ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/GavriKos/questions" class="card__stats-counter" title="Вопросов: 16"> 
+               <meta itemprop="interactionCount" content="16 questions"> 16 вопросов </a> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>1143</strong> Общий вклад 
+            <div class="progress" data-progress="27.2"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/webirus"> 
+             <meta itemprop="image" content="https://habrastorage.org/files/870/2ea/435/8702ea435cbc4c3381136fffdef475f0.png"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/870/2ea/435/8702ea435cbc4c3381136fffdef475f0.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=120" alt="webirus"> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/webirus" itemprop="url"> 
+              <meta itemprop="name" content="Сергей Горячев"> Сергей Горячев </a> </h2> 
+            <div class="card__head-subtitle" itemprop="description">
+              Тыжверстальщик! Наверстай мне упущенное... 
+            </div> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/webirus/answers" class="card__stats-counter" title="Ответов: 1453"> 
+               <meta itemprop="interactionCount" content="1453 answers"> 1k ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/webirus/questions" class="card__stats-counter" title="Вопросов: 308"> 
+               <meta itemprop="interactionCount" content="308 questions"> 308 вопросов </a> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>1098</strong> Общий вклад 
+            <div class="progress" data-progress="26.2"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/miraage"> 
+             <meta itemprop="image" content="https://habrastorage.org/files/9f6/e76/f61/9f6e76f617934f1aac50f7a62eb24ef1.jpg"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/9f6/e76/f61/9f6e76f617934f1aac50f7a62eb24ef1.jpg&amp;container=focus&amp;refresh=2592000&amp;resize_w=120" alt="miraage"> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/miraage" itemprop="url"> 
+              <meta itemprop="name" content="Mikhail Osher"> Mikhail Osher </a> </h2> 
+            <div class="card__head-subtitle" itemprop="description">
+              Fullstack Web Developer 
+            </div> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/miraage/answers" class="card__stats-counter" title="Ответов: 1580"> 
+               <meta itemprop="interactionCount" content="1580 answers"> 1k ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/miraage/questions" class="card__stats-counter" title="Вопросов: 44"> 
+               <meta itemprop="interactionCount" content="44 questions"> 44 вопроса </a> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>1080</strong> Общий вклад 
+            <div class="progress" data-progress="25.7"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/BuriK666"> 
+             <meta itemprop="image" content="https://habrastorage.org/web/598/19a/4aa/59819a4aacc742d99044f9900fbe5ce6.gif"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/web/598/19a/4aa/59819a4aacc742d99044f9900fbe5ce6.gif&amp;container=focus&amp;refresh=2592000&amp;resize_w=120" alt="BuriK666"> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/BuriK666" itemprop="url"> 
+              <meta itemprop="name" content="Андрей Буров"> Андрей Буров </a> </h2> 
+            <div class="card__head-subtitle" itemprop="description">
+              Компьютерный псих 
+            </div> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/BuriK666/answers" class="card__stats-counter" title="Ответов: 1556"> 
+               <meta itemprop="interactionCount" content="1556 answers"> 1k ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <span class="card__stats-counter card__stats-counter_zero"> 0 вопросов </span> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>1078</strong> Общий вклад 
+            <div class="progress" data-progress="25.7"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/nazarpc"> 
+             <meta itemprop="image" content="//www.gravatar.com/avatar/3d67cc976284fd62356e2edd8a8dfc49?d=wavatar&amp;s=256"> <img src="//www.gravatar.com/avatar/3d67cc976284fd62356e2edd8a8dfc49?d=wavatar&amp;s=120" alt="nazarpc"> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/nazarpc" itemprop="url"> 
+              <meta itemprop="name" content="Назар Мокринский"> Назар Мокринский </a> </h2> 
+            <div class="card__head-subtitle" itemprop="description">
+              Full-stack web developer, love Open Source 
+            </div> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/nazarpc/answers" class="card__stats-counter" title="Ответов: 1701"> 
+               <meta itemprop="interactionCount" content="1701 answers"> 1k ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/nazarpc/questions" class="card__stats-counter" title="Вопросов: 47"> 
+               <meta itemprop="interactionCount" content="47 questions"> 47 вопросов </a> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>1048</strong> Общий вклад 
+            <div class="progress" data-progress="25"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/k12th"> 
+             <meta itemprop="image" content="https://habrastorage.org/files/a05/da1/506/a05da1506e604356affc922cb7b106c7.png"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/a05/da1/506/a05da1506e604356affc922cb7b106c7.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=120" alt="k12th"> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/k12th" itemprop="url"> 
+              <meta itemprop="name" content="Константин Китманов"> Константин Китманов </a> </h2> 
+            <div class="card__head-subtitle" itemprop="description">
+              console.log(`You're pulling my leg, right?`); 
+            </div> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/k12th/answers" class="card__stats-counter" title="Ответов: 1565"> 
+               <meta itemprop="interactionCount" content="1565 answers"> 1k ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/k12th/questions" class="card__stats-counter" title="Вопросов: 23"> 
+               <meta itemprop="interactionCount" content="23 questions"> 23 вопроса </a> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>1041</strong> Общий вклад 
+            <div class="progress" data-progress="24.8"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/MaxKorz"> 
+             <meta itemprop="image" content="https://toster.ru/images/no_avatar.png"> 
+             <svg class="icon_userpic" viewbox="0 0 32 32"> 
+              <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_userpic"></use> 
+             </svg> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/MaxKorz" itemprop="url"> 
+              <meta itemprop="name" content="MaxKorz"> MaxKorz </a> </h2> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/MaxKorz/answers" class="card__stats-counter" title="Ответов: 670"> 
+               <meta itemprop="interactionCount" content="670 answers"> 670 ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/MaxKorz/questions" class="card__stats-counter" title="Вопросов: 44"> 
+               <meta itemprop="interactionCount" content="44 questions"> 44 вопроса </a> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>1026</strong> Общий вклад 
+            <div class="progress" data-progress="24.5"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+         <li class="content-list__item"> 
+          <article class="card" itemscope itemtype="http://schema.org/Person"> 
+           <header class="card__head card__head_user"> 
+            <a class="card__head-image card__head-image_user" href="https://toster.ru/user/Sanasol"> 
+             <meta itemprop="image" content="//habrastorage.org/files/c27/c93/87d/c27c9387db0345d986c8c6d87f025ff5.png"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/c27/c93/87d/c27c9387db0345d986c8c6d87f025ff5.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=120" alt="Sanasol"> </a> 
+            <h2 class="card__head-title"> <a href="https://toster.ru/user/Sanasol" itemprop="url"> 
+              <meta itemprop="name" content="Александр Аксентьев"> Александр Аксентьев </a> </h2> 
+            <div class="card__head-subtitle" itemprop="description">
+              нельзя просто так взять и загуглить ошибку 
+            </div> 
+           </header> 
+           <div class="card__stats"> 
+            <ul class="inline-list inline-list_card"> 
+             <li class="inline-list__item inline-list__item_bullet"> <a href="https://toster.ru/user/Sanasol/answers" class="card__stats-counter" title="Ответов: 1932"> 
+               <meta itemprop="interactionCount" content="1932 answers"> 1k ответов </a> </li> 
+             <li class="inline-list__item inline-list__item_bullet"> <span class="card__stats-counter card__stats-counter_zero"> 0 вопросов </span> </li> 
+            </ul> 
+           </div> 
+           <div class="card__rate"> 
+            <strong>1003</strong> Общий вклад 
+            <div class="progress" data-progress="23.9"> 
+             <div class="progress__bar"></div> 
+            </div> 
+           </div> 
+          </article> </li> 
+        </ul> 
+        <ul class="paginator"> 
+         <li class="paginator__item current"> <span class="paginator__item-link">1</span> </li> 
+         <li class="paginator__item"> <a class="paginator__item-link" href="https://toster.ru/users/main?page=2">2</a> </li> 
+         <li class="paginator__item"> <a class="paginator__item-link" href="https://toster.ru/users/main?page=3">3</a> </li> 
+         <li class="paginator__item"> <a class="paginator__item-link" href="https://toster.ru/users/main?page=4">4</a> </li> 
+         <li class="paginator__item"> <a class="paginator__item-link" href="https://toster.ru/users/main?page=5">5</a> </li> 
+         <li class="paginator__item"> <a class="paginator__item-link" href="https://toster.ru/users/main?page=6">6</a> </li> 
+         <li class="paginator__item"> <a class="paginator__item-link" href="https://toster.ru/users/main?page=7">7</a> </li> 
+         <li class="paginator__item"> <a class="paginator__item-link" href="https://toster.ru/users/main?page=8">8</a> </li> 
+         <li class="paginator__item"> <a class="paginator__item-link" href="https://toster.ru/users/main?page=9">9</a> </li> 
+         <li class="paginator__item"> <a class="paginator__item-link" href="https://toster.ru/users/main?page=10">10</a> </li> 
+         <li class="paginator__item"> <a class="paginator__item-link" href="https://toster.ru/users/main?page=11">11</a> </li> 
+         <li class="paginator__item next"> <a class="paginator__item-link" href="https://toster.ru/users/main?page=2">Следующие →</a> </li> 
+        </ul> 
+       </div> 
+      </main> 
+     </div> 
+     <aside class="column_sidebar"> 
+      <div id="adriver_banner_1676287896"></div> 
+      <script type="text/javascript">
+  //<![CDATA[
+    new adriver("adriver_banner_1676287896", {sid:195294, bt:52, bn:1});
+  //]]>
+  </script> 
+      <dl class="panel-heading panel-heading_inner" role="most_interest"> 
+       <dt class="panel-heading__title panel-heading__title_underline">
+         Самые активные сегодня 
+       </dt> 
+       <dd class="panel-heading__content panel-heading__content_inner"> 
+        <ul class="content-list content-list_sidebar-block"> 
+         <li class="content-list__item"> 
+          <div class="user-summary user-summary_users-top"> 
+           <a class="user-summary__avatar" href="https://toster.ru/user/HeadOnFire"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/getpro/toster/1f2ee125/bcbd/4553/1f2ee125-bcbd-4553-b83b-4850c9c5b6b3/myself2014.jpg&amp;container=focus&amp;refresh=2592000&amp;resize_w=60" alt="HeadOnFire"> </a> 
+           <div class="user-summary__desc"> 
+            <a class="user-summary__name" href="https://toster.ru/user/HeadOnFire"> Игорь Воротнёв </a> 
+            <div class="user-summary__counters"> 
+             <ul class="inline-list inline-list_meta-attrs"> 
+              <li class="inline-list__item inline-list__item_bullet"> <span title="Количество ответов на вопросы за последнее время"> 16 ответов </span> </li> 
+              <li class="inline-list__item inline-list__item_bullet"> <span title="Количество вопросов за последнее время"> 0 вопросов </span> </li> 
+             </ul> 
+            </div> 
+           </div> 
+          </div> </li> 
+         <li class="content-list__item"> 
+          <div class="user-summary user-summary_users-top"> 
+           <a class="user-summary__avatar" href="https://toster.ru/user/neatek"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/webt/59/e9/07/59e907d6043c7427559267.jpeg&amp;container=focus&amp;refresh=2592000&amp;resize_w=60" alt="neatek"> </a> 
+           <div class="user-summary__desc"> 
+            <a class="user-summary__name" href="https://toster.ru/user/neatek"> Владимир Желнов </a> 
+            <div class="user-summary__counters"> 
+             <ul class="inline-list inline-list_meta-attrs"> 
+              <li class="inline-list__item inline-list__item_bullet"> <span title="Количество ответов на вопросы за последнее время"> 14 ответов </span> </li> 
+              <li class="inline-list__item inline-list__item_bullet"> <span title="Количество вопросов за последнее время"> 0 вопросов </span> </li> 
+             </ul> 
+            </div> 
+           </div> 
+          </div> </li> 
+         <li class="content-list__item"> 
+          <div class="user-summary user-summary_users-top"> 
+           <a class="user-summary__avatar" href="https://toster.ru/user/longclaps"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/files/332/57f/3a4/33257f3a438a4f6089b577abe7eb2e50.png&amp;container=focus&amp;refresh=2592000&amp;resize_w=60" alt="longclaps"> </a> 
+           <div class="user-summary__desc"> 
+            <a class="user-summary__name" href="https://toster.ru/user/longclaps"> longclaps </a> 
+            <div class="user-summary__counters"> 
+             <ul class="inline-list inline-list_meta-attrs"> 
+              <li class="inline-list__item inline-list__item_bullet"> <span title="Количество ответов на вопросы за последнее время"> 13 ответов </span> </li> 
+              <li class="inline-list__item inline-list__item_bullet"> <span title="Количество вопросов за последнее время"> 0 вопросов </span> </li> 
+             </ul> 
+            </div> 
+           </div> 
+          </div> </li> 
+         <li class="content-list__item"> 
+          <div class="user-summary user-summary_users-top"> 
+           <a class="user-summary__avatar" href="https://toster.ru/user/Olek1"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/web/1c1/a3a/842/1c1a3a8421b940478af6ad433b177721.jpg&amp;container=focus&amp;refresh=2592000&amp;resize_w=60" alt="Olek1"> </a> 
+           <div class="user-summary__desc"> 
+            <a class="user-summary__name" href="https://toster.ru/user/Olek1"> Olek1 </a> 
+            <div class="user-summary__counters"> 
+             <ul class="inline-list inline-list_meta-attrs"> 
+              <li class="inline-list__item inline-list__item_bullet"> <span title="Количество ответов на вопросы за последнее время"> 4 ответа </span> </li> 
+              <li class="inline-list__item inline-list__item_bullet"> <span title="Количество вопросов за последнее время"> 4 вопроса </span> </li> 
+             </ul> 
+            </div> 
+           </div> 
+          </div> </li> 
+         <li class="content-list__item"> 
+          <div class="user-summary user-summary_users-top"> 
+           <a class="user-summary__avatar" href="https://toster.ru/user/arhangelsoft"> 
+            <svg class="icon_userpic" viewbox="0 0 32 32"> 
+             <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_userpic"></use> 
+            </svg> </a> 
+           <div class="user-summary__desc"> 
+            <a class="user-summary__name" href="https://toster.ru/user/arhangelsoft"> Александр + </a> 
+            <div class="user-summary__counters"> 
+             <ul class="inline-list inline-list_meta-attrs"> 
+              <li class="inline-list__item inline-list__item_bullet"> <span title="Количество ответов на вопросы за последнее время"> 7 ответов </span> </li> 
+              <li class="inline-list__item inline-list__item_bullet"> <span title="Количество вопросов за последнее время"> 1 вопрос </span> </li> 
+             </ul> 
+            </div> 
+           </div> 
+          </div> </li> 
+         <li class="content-list__item"> 
+          <div class="user-summary user-summary_users-top"> 
+           <a class="user-summary__avatar" href="https://toster.ru/user/arsenty"> <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=https://habrastorage.org/getpro/toster/avatars/b47/c34/085/b47c3408578f4c4e5b5b51d172bf0712.jpg&amp;container=focus&amp;refresh=2592000&amp;resize_w=60" alt="arsenty"> </a> 
+           <div class="user-summary__desc"> 
+            <a class="user-summary__name" href="https://toster.ru/user/arsenty"> arsenty </a> 
+            <div class="user-summary__counters"> 
+             <ul class="inline-list inline-list_meta-attrs"> 
+              <li class="inline-list__item inline-list__item_bullet"> <span title="Количество ответов на вопросы за последнее время"> 7 ответов </span> </li> 
+              <li class="inline-list__item inline-list__item_bullet"> <span title="Количество вопросов за последнее время"> 0 вопросов </span> </li> 
+             </ul> 
+            </div> 
+           </div> 
+          </div> </li> 
+        </ul> 
+       </dd> 
+      </dl> 
+      <div class="sidebar-block_center" role="sticky_banner"> 
+       <!-- R-149488-3 Яндекс.RTB-блок  --> 
+       <div id="yandex_ad_R-149488-3"></div> 
+       <script type="text/javascript">
+      (function(w, d, n, s, t) {
+          w[n] = w[n] || [];
+          w[n].push(function() {
+              Ya.Context.AdvManager.render({
+                  blockId: "R-149488-3",
+                  renderTo: "yandex_ad_R-149488-3",
+                  async: true
+              });
+          });
+          t = d.getElementsByTagName("script")[0];
+          s = d.createElement("script");
+          s.type = "text/javascript";
+          s.src = "//an.yandex.ru/system/context.js";
+          s.async = true;
+          t.parentNode.insertBefore(s, t);
+      })(this, this.document, "yandexContextAsyncCallbacks");
+    </script> 
+      </div> 
+     </aside> 
+    </section> 
+   </div> 
+   <footer class="layout__footer"> 
+    <div class="layout__footer_inner"> 
+     <nav class="menu_services"> 
+      <ul class="menu menu_inline"> 
+       <li class="menu__item"> <a class="menu__item-link" href="http://tmtm.ru"> <span class="copyright_short">© TM</span> </a> </li> 
+       <li class="menu__item"> <a class="menu__item-link" href="info/about">О сайте</a> </li> 
+       <li class="menu__item"> <a class="menu__item-link" href="info/agreement">Соглашение</a> </li> 
+       <li class="menu__item"> <a class="menu__item-link" href="feedback">Обратная связь</a> </li> 
+       <li class="menu__item"> <a class="menu__item-link" href="https://habrahabr.ru/company/toster/">Блог</a> </li> 
+      </ul> 
+     </nav> 
+     <nav class="menu_socials"> 
+      <ul class="menu menu_inline"> 
+       <li class="menu__item"> <a class="menu__item-link tw" href="https://twitter.com/toster_ru" title="Наш аккаунт в Twitter"> 
+         <svg class="icon_svg icon_social_twitter" viewbox="0 0 39 32"> 
+          <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_social_twitter"></use> 
+         </svg> </a> </li> 
+       <li class="menu__item"> <a class="menu__item-link fb" href="https://www.facebook.com/toster.ru" title="Наша группа в Facebook"> 
+         <svg class="icon_svg icon_social_facebook" viewbox="0 0 17 32"> 
+          <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_social_facebook"></use> 
+         </svg> </a> </li> 
+       <li class="menu__item"> <a class="menu__item-link vk" href="http://vk.com/toster_ru" title="Наша группа на Вконтакте"> 
+         <svg class="icon_svg icon_social_vk" viewbox="0 0 56 32"> 
+          <use xlink:href="https://toster.ru/images/sprite_0.1.svg#icon_social_vk"></use> 
+         </svg> </a> </li> 
+      </ul> 
+     </nav> 
+    </div> 
+    <!-- Facebook Pixel Code --> 
+    <script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '322477921209238');
+fbq('track', 'PageView');
+</script> 
+    <noscript>
+     <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=322477921209238&amp;ev=PageView&amp;noscript=1">
+    </noscript> 
+    <!-- End Facebook Pixel Code --> 
+    <img class="footer__pix" src="https://ad.adriver.ru/cgi-bin/rle.cgi?sid=1&amp;ad=505035&amp;bt=21&amp;pid=1844621&amp;bid=3690124&amp;bn=3690124&amp;rnd=538787923"> 
+   </footer> 
+   <div class="popup__overlay hidden" role="popup auth_popup" data-default-title="Войдите на сайт"> 
+    <div class="popup popup_auth"> 
+     <div class="popup__body"> 
+      <div class="empty-block"> 
+       <div class="empty-block__inner"> 
+        <h3 class="empty-block__title icon_unauthorized" role="title_replace"> Войдите на сайт </h3> 
+        <div class="empty-block__description" role="desc_replace">
+          Чтобы задать вопрос и получить на него квалифицированный ответ. 
+        </div> 
+        <a class="empty-block__button" href="auth/ac"> Войти через TM ID </a> 
+       </div> 
+      </div> 
+     </div> 
+     <button class="btn btn_link popup__close-btn" type="reset" role="btn_popup_close"> <span>Закрыть</span> </button> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+ <script src="https://habracdn.net/toster/frontend.fb257f19-78c0-4b7e-960d-225739187b40.js"></script> 
+ <script type="text/javascript">
+    //<![CDATA[
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', 'UA-726094-14', 'toster.ru');
+      ga('require', 'displayfeatures');
+      ga('set', 'dimension1', 'guest'); // user type - guest/authorized
+      ga('send', 'pageview');
+      
+    //]]>
+    </script> 
+ <script type="text/javascript">
+  //<![CDATA[
+    (function (d, w, c) {(w[c] = w[c] || []).push(function() {try {w.yaCounter24049246 = new Ya.Metrika({id:24049246, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } });
+    var n = d.getElementsByTagName("script")[0],
+    s = d.createElement("script"),
+    f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+    if (w.opera == "[object Opera]") {
+    d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+    
+  //]]>
+  </script> 
+ <noscript> 
+  <div> 
+   <img src="//mc.yandex.ru/watch/24049246" style="position:absolute; left:-9999px;" alt=""> 
+  </div> 
+ </noscript> 
+ <script type="text/javascript">window.apmInfo={appID:"56",appTime:1,agentUrl:"https://apm.24mon.com/js/apm_agent.js"},function(){var n=0,a=function(){if(!n++){var a=document.createElement("script")
+a.type="application/javascript",a.src=window.apmInfo.agentUrl,document.body.appendChild(a)}}
+"function"==typeof window.document.addEventListener?window.addEventListener("load",a,!1):window.attachEvent("onload",a)}();</script> 
+</body>

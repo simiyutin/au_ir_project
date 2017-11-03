@@ -1,0 +1,266 @@
+https://smartdataconf.ru/tickets/#tickets
+<body data-function=""> 
+ <noscript>
+  <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1067365970024945&amp;ev=PageView&amp;noscript=1">
+ </noscript> 
+ <header class="header"> 
+  <div class="header-container"> 
+   <div class="header-logo-container"> 
+    <a href="/" class="logo_link"> <img src="/assets/images/logo-white-horizontal.png" srcset="/assets/images/logo-white-horizontal@2x.png 2x" width="150" alt="SmartData"> </a> 
+    <ul class="social-links"> 
+     <li class="social-item"> <a class="social_link" href="https://fb.me/smartdataconf" target="_blank"> <i class="icon-facebook"></i><span class="hidden-sm-down"></span> </a> </li> 
+     <li class="social-item"> <a class="social_link" href="https://vk.com/smartdata " target="_blank"> <i class="icon-vkontakte"></i><span class="hidden-sm-down"></span> </a> </li> 
+     <li class="social-item"> <a class="social_link" href="https://twitter.com/smartdatacon" target="_blank"> <i class="icon-twitter"></i><span class="hidden-sm-down"></span> </a> </li> 
+     <li class="social-item"> <a class="social_link" href="https://t.me/smartdataconf" target="_blank"> <i class="icon-telegram"></i><span class="hidden-sm-down"></span> </a> </li> 
+    </ul> 
+   </div> 
+   <div class="header-nav-container"> 
+    <nav class="navbar navbar-toggleable-md bg-inverse py-2 bg-faded hidden-md-down"> 
+     <ul class="navbar navbar-header"> 
+      <li class="nav-item"> <a class="nav-link nav-link-inverse " href="/#about"> О конференции </a> </li> 
+      <li class="nav-item"> <a class="nav-link nav-link-inverse " href="/#schedule"> Программа </a> </li> 
+      <li class="nav-item"> <a class="nav-link nav-link-inverse " href="/tickets/"> Купить билет </a> </li> 
+      <li class="nav-item"> <a class="nav-link nav-link-inverse " href="/#faq"> F.A.Q. </a> </li> 
+      <li class="nav-item"> <a class="nav-link nav-link-inverse " href="/#sponsors"> Спонсоры </a> </li> 
+      <li class="nav-item"> <a class="nav-link nav-link-inverse " href="/organizers/"> Организаторы </a> </li> 
+      <li class="nav-item"> <a class="nav-link nav-link-inverse " href="#contacts"> Контакты </a> </li> 
+      <li class="nav-item"> <a href="/en/" class="nav-link nav-link-inverse">EN</a> </li> 
+     </ul> 
+    </nav> 
+   </div> 
+  </div> 
+ </header> 
+ <div class="main-wrap"> 
+  <div class="container my-3"> 
+   <h1 class="mb-2">Регистрация</h1> 
+   <div class="container my-3 hidden-sm-down"> 
+    <div class="row"> 
+     <div class="col-md-12"> 
+      <div class="pricing-row"> 
+       <div class="pricing-block"> 
+        <div class="pricing-block-header"> 
+         <h5 class="pricing-category">Standard</h5> 
+         <span class="pricing_value pricing_value--current">16 000 <span class="currency">₽</span></span> 
+         <p class="pricing_legend">Билет для личного посещения конференции</p> 
+        </div> 
+        <div class="pricing-block-body"> 
+         <ul class="pricing-features-list"> 
+          <li class="pricing-features-item">Доступ ко всем трекам конференции</li> 
+          <li class="pricing-features-item">Общение со спикерами в дискуссионных зонах</li> 
+          <li class="pricing-features-item">Доступ к выставочной зоне</li> 
+          <li class="pricing-features-item">Кофебрейки</li> 
+          <li class="pricing-features-item">Подарки организаторов</li> 
+          <li class="pricing-features-item">Обед</li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div class="pricing-block"> 
+        <div class="pricing-block-header"> 
+         <h5 class="pricing-category">Online-Personal</h5> 
+         <span class="pricing_value pricing_value--current">8 000 <span class="currency">₽</span></span> 
+         <p class="pricing_legend">Билет, дающий возможность смотреть онлайн-трансляцию</p> 
+        </div> 
+        <div class="pricing-block-body"> 
+         <ul class="pricing-features-list"> 
+          <li class="pricing-features-item">Все доклады конференции real-time</li> 
+          <li class="pricing-features-item">Доступ ко всем трекам конференции</li> 
+          <li class="pricing-features-item">FullHD-трансляция</li> 
+          <li class="pricing-features-item">1 подключение</li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div class="pricing-block"> 
+        <div class="pricing-block-header"> 
+         <h5 class="pricing-category">Online-Corporate</h5> 
+         <span class="pricing_value pricing_value--current">48 000 <span class="currency">₽</span></span> 
+         <p class="pricing_legend">Билет, дающий возможность смотреть онлайн-трансляцию</p> 
+        </div> 
+        <div class="pricing-block-body"> 
+         <ul class="pricing-features-list"> 
+          <li class="pricing-features-item">Все доклады конференции real-time</li> 
+          <li class="pricing-features-item">Доступ ко всем трекам конференции</li> 
+          <li class="pricing-features-item">FullHD-трансляция</li> 
+          <li class="pricing-features-item">до 10 подключений</li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="row"> 
+       <div class="col-12 text-center pb-5"> 
+        <a href="/tickets/#tickets" class="btn btn-lg btn-primary twp_link">Купить билет</a> 
+       </div> 
+      </div> 
+      <div class="alert alert-success"> 
+       <strong><i class="fa fa-info"></i> Видеозаписи докладов будут доступны всем участникам, заполнившим форму обратной связи после конференции, независимо от типа билета.</strong> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <table class="table price-table"> 
+   <thead> 
+    <tr> 
+     <th class="price-col">Срок</th> 
+     <th class="price-col">Standard</th> 
+     <th class="price-col">Online-Personal</th> 
+     <th class="price-col">Online-Corporate</th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr class="tickets-period" data-date-from="2017-06-01" data-date-to="2017-07-07"> 
+     <td data-th="">до 8 июля</td> 
+     <td data-th="Standard">8 000 руб.</td> 
+     <td data-th="Online-Personal">4 000 руб.</td> 
+     <td data-th="Online-Corporate">24 000 руб.</td> 
+    </tr> 
+    <tr class="tickets-period" data-date-from="2017-07-08" data-date-to="2017-07-31"> 
+     <td data-th="">до 1 августа</td> 
+     <td data-th="Standard">10 000 руб.</td> 
+     <td data-th="Online-Personal">5 000 руб.</td> 
+     <td data-th="Online-Corporate">30 000 руб.</td> 
+    </tr> 
+    <tr class="tickets-period" data-date-from="2017-08-01" data-date-to="2017-08-31"> 
+     <td data-th="">до 1 сентября</td> 
+     <td data-th="Standard">12 000 руб.</td> 
+     <td data-th="Online-Personal">6 000 руб.</td> 
+     <td data-th="Online-Corporate">36 000 руб.</td> 
+    </tr> 
+    <tr class="tickets-period" data-date-from="2017-09-01" data-date-to="2017-09-29"> 
+     <td data-th="">до 1 октября</td> 
+     <td data-th="Standard">14 000 руб.</td> 
+     <td data-th="Online-Personal">7 000 руб.</td> 
+     <td data-th="Online-Corporate">42 000 руб.</td> 
+    </tr> 
+    <tr class="tickets-period" data-date-from="2017-10-05" data-date-to="2017-10-31"> 
+     <td data-th="">до 21 октября</td> 
+     <td data-th="Standard">16 000 руб.</td> 
+     <td data-th="Online-Personal">8 000 руб.</td> 
+     <td data-th="Online-Corporate">48 000 руб.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <section class="container"> 
+   <h5>Рекомендуемый отель</h5> 
+   <div class="hotel-card"> 
+    <div class="hotel-photo"> 
+     <img src="/assets/images/crowne-plaza-st.jpeg" class="img-fluid" alt="Crowne Plaza St. Petersburg Airport"> 
+     <div class="hotel-info"> 
+      <h6 class="hotel_name">Crowne Plaza St. Petersburg Airport</h6> 
+      <a href="https://www.ihg.com/crowneplaza/hotels/ru/ru/reservation/book?method=roomRate&amp;ftv=y&amp;qAdlt=2&amp;qBrs=6c.hi.ex.rs.ic.cp.in.sb.cw.cv.ul.vn.ki.sp.nd.ct&amp;qChld=0&amp;qCiD=19&amp;qCiMy=092017&amp;qCoD=21&amp;qCoMy=092017&amp;qDest=Startovaya+6+LIT+A+St.+Petersburg++Russian+Federation&amp;qFRA=1&amp;qGRM=0&amp;qGrpCd=KEG&amp;qHtlC=ledap&amp;qPSt=0&amp;qRRSrt=rc&amp;qRef=rr&amp;qRmP=K.O.T.X&amp;qRms=1&amp;qRpn=1&amp;qRpp=20&amp;qRtP=6CBARC&amp;qSHp=1&amp;qSlH=ledap&amp;qSmP=3&amp;qSrt=sBR&amp;qWch=0&amp;srb_u=1#roomratestitle" target="_blank" class="btn">Бронировать</a> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <div class="container hidden-md-up" id="tickets"> 
+   <div class="col-md-12 pb-5"> 
+    <a href="/tickets/#tickets" class="twp_link btn btn-primary">Регистрация</a> 
+    <script type="text/javascript" async defer charset="UTF-8" src="https://timepad.ru/js/tpwf/loader/min/loader.js" data-timepad-customized="11268" data-twf2s-event--id="513512" data-timepad-widget-v2="event_register"></script> 
+   </div> 
+  </div> 
+ </div> 
+ <section class="contacts" id="contacts"> 
+  <div class="container"> 
+   <div class="contacts-wrap"> 
+    <h2 class="contacts__title">Наши контакты</h2> 
+    <ul class="contacts-list"> 
+     <li class="contact__item"> <span class="contact__title">Билеты</span> <a href="mailto:tickets@smartdataconf.ru" class="contact__link">tickets@smartdataconf.ru</a> </li> 
+     <li class="contact__item"> <span class="contact__title">Программа конференции</span> <a href="mailto:program@smartdataconf.ru" class="contact__link">program@smartdataconf.ru</a> </li> 
+     <li class="contact__item"> <span class="contact__title">Спонсоры</span> <a href="mailto:sponsors@smartdataconf.ru" class="contact__link">sponsors@smartdataconf.ru</a> </li> 
+     <li class="contact__item"> <span class="contact__title">Партнеры</span> <a href="mailto:partners@smartdataconf.ru" class="contact__link">partners@smartdataconf.ru</a> </li> 
+     <li class="contact__item"> <span class="contact__title">Вопросы</span> <a href="mailto:questions@smartdataconf.ru" class="contact__link">questions@smartdataconf.ru</a> </li> 
+     <li class="contact__item"> <span class="contact__title">Сайт</span> <a href="mailto:site@smartdataconf.ru" class="contact__link">site@smartdataconf.ru</a> </li> 
+    </ul> 
+   </div> 
+   <div class="contacts-map"> 
+    <div id="map" style="width:100%; height:100%"> 
+     <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Afda1fd4cd88f69ebb0d0c862c3b21efcfc237afa38e9a946d7a7b5dcccafa0fb&amp;lang=ru_RU&amp;scroll=true"></script> 
+    </div> 
+   </div> 
+  </div> 
+ </section> 
+ <div class="container"> 
+  <footer class="footer"> 
+   <div class="footer-widgets"> 
+    <div class="footer-text"> 
+     <a href="/" class="logo_link"> SmartData </a> 
+     <div class="footer-about"> 
+      <p>Конференция, посвященная техническим вопросам из мира Big Data и обработки данных.</p> 
+     </div> 
+    </div> 
+    <div class="footer-nav"> 
+     <h5 class="footer_title"> Навигация </h5> 
+     <ul class="nav-footer"> 
+      <li class="nav-item"> <a href="/#about" class="nav_link"> О конференции </a> </li> 
+      <li class="nav-item"> <a href="/#schedule" class="nav_link"> Программа </a> </li> 
+      <li class="nav-item"> <a href="/tickets/" class="nav_link"> Купить билет </a> </li> 
+      <li class="nav-item"> <a href="/#faq" class="nav_link"> F.A.Q. </a> </li> 
+      <li class="nav-item"> <a href="/#sponsors" class="nav_link"> Спонсоры </a> </li> 
+      <li class="nav-item"> <a href="/organizers/" class="nav_link"> Организаторы </a> </li> 
+      <li class="nav-item"> <a href="#contacts" class="nav_link"> Контакты </a> </li> 
+      <li class="nav-item"> <a href="https://jugru.org/privacy_policy.html" target="_blank">Политика конфиденциальности</a> </li> 
+     </ul> 
+    </div> 
+    <div class="footer-nav"> 
+     <h5 class="footer_title"> Наши конференции </h5> 
+     <ul class="nav-footer"> 
+      <li class="nav-item"> <a href="https://dotnext.ru" class="nav_link" target="_blank"> DotNext </a> </li> 
+      <li class="nav-item"> <a href="https://holyjs.ru" class="nav_link" target="_blank"> HolyJS </a> </li> 
+      <li class="nav-item"> <a href="https://heisenbug.ru" class="nav_link" target="_blank"> Гейзенбаг </a> </li> 
+      <li class="nav-item"> <a href="https://mobiusconf.com" class="nav_link" target="_blank"> Mobius </a> </li> 
+      <li class="nav-item"> <a href="https://2017.jbreak.ru" class="nav_link" target="_blank"> JBreak </a> </li> 
+      <li class="nav-item"> <a href="https://jokerconf.com/" class="nav_link" target="_blank"> Joker </a> </li> 
+      <li class="nav-item"> <a href="https://jpoint.ru/" class="nav_link" target="_blank"> JPoint </a> </li>
+     </ul> 
+    </div> 
+    <div class="footer-contacts"> 
+     <h5 class="footer_title">Мы в социальных сетях</h5> 
+     <ul class="nav nav-footer"> 
+      <li class="nav-item"> <a class="nav-link pa-0" href="https://fb.me/smartdataconf" target="_blank"> <i class="icon-facebook"></i><span class="hidden-sm-down">SmartData</span> </a> </li> 
+      <li class="nav-item"> <a class="nav-link pa-0" href="https://vk.com/smartdata " target="_blank"> <i class="icon-vkontakte"></i><span class="hidden-sm-down">SmartData</span> </a> </li> 
+      <li class="nav-item"> <a class="nav-link pa-0" href="https://twitter.com/smartdatacon" target="_blank"> <i class="icon-twitter"></i><span class="hidden-sm-down">@SmartDataCon</span> </a> </li> 
+      <li class="nav-item"> <a class="nav-link pa-0" href="https://t.me/smartdataconf" target="_blank"> <i class="icon-telegram"></i><span class="hidden-sm-down">SmartData Telegram</span> </a> </li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="copyright"> 
+    <p>© SmartData</p> 
+   </div> 
+  </footer> 
+ </div> 
+ <script src="/assets/vendor.js"></script> 
+ <script src="/assets/app.js"></script> 
+ <script>
+    (function(win) {
+      'use strict';
+      var DRAWER_ATTR = 'right-drawer';
+      var pdp = document.getElementById('paperDrawerPanel');
+      win.flipDrawer = function() {
+        pdp.rightDrawer = !pdp.rightDrawer;
+      }
+      win.toogleDrawer = function() {
+        pdp.togglePanel();
+      };
+    }(this));
+  </script> 
+ <script>
+    window.addEventListener("load", function(){
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#000"
+          },
+          "button": {
+            "background": "#1779ba"
+          }
+        },
+        "position": "bottom-right",
+        "content": {
+          "message": "Наш сайт использует файлы cookies, чтобы улучшить работу и повысить эффективность сайта. Продолжая использование сайта, вы соглашаетесь с использованием нами cookies.",
+          "dismiss": "Принять",
+          "link": "Подробнее...",
+          "href": "https://jugru.org/privacy_policy.html#7.1.5"
+        }
+      })});
+  </script> 
+ <script src="/cookieconsent.min.js"></script>  
+</body>

@@ -1,0 +1,926 @@
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Теория_игр rootpage-Теория_игр vector-experimental-print-styles vector-nav-directionality skin-vector action-view"> 
+ <div id="mw-page-base" class="noprint"></div> 
+ <div id="mw-head-base" class="noprint"></div> 
+ <div id="content" class="mw-body" role="main"> 
+  <a id="top"></a> 
+  <div id="siteNotice" class="mw-body-content">
+   <!-- CentralNotice -->
+  </div> 
+  <div class="mw-indicators mw-body-content"> 
+  </div> 
+  <h1 id="firstHeading" class="firstHeading" lang="ru">Теория игр</h1> 
+  <div id="bodyContent" class="mw-body-content"> 
+   <div id="siteSub" class="noprint">
+    Материал из Википедии — свободной энциклопедии
+   </div> 
+   <div id="contentSub"></div> 
+   <div id="jump-to-nav" class="mw-jump">
+     Перейти к: 
+    <a href="#mw-head">навигация</a>, 
+    <a href="#p-search">поиск</a> 
+   </div> 
+   <div id="mw-content-text" lang="ru" dir="ltr" class="mw-content-ltr">
+    <div class="mw-parser-output">
+     <div class="thumb tright"> 
+      <div class="thumbinner" style="width:282px;">
+       <a href="/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:John_Forbes_Nash,_Jr..jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2d/John_Forbes_Nash%2C_Jr..jpg/280px-John_Forbes_Nash%2C_Jr..jpg" width="280" height="186" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2d/John_Forbes_Nash%2C_Jr..jpg/420px-John_Forbes_Nash%2C_Jr..jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2d/John_Forbes_Nash%2C_Jr..jpg/560px-John_Forbes_Nash%2C_Jr..jpg 2x" data-file-width="2144" data-file-height="1424"></a> 
+       <div class="thumbcaption"> 
+        <div class="magnify">
+         <a href="/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:John_Forbes_Nash,_Jr..jpg" class="internal" title="Enlarge"></a>
+        </div> 
+        <a href="/wiki/%D0%9D%D1%8D%D1%88,_%D0%94%D0%B6%D0%BE%D0%BD_%D0%A4%D0%BE%D1%80%D0%B1%D1%81" title="Нэш, Джон Форбс">Джон Нэш</a>&nbsp;— математик, 
+        <a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BB%D0%B0%D1%83%D1%80%D0%B5%D0%B0%D1%82%D0%BE%D0%B2_%D0%9D%D0%BE%D0%B1%D0%B5%D0%BB%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B9_%D0%BF%D1%80%D0%B5%D0%BC%D0%B8%D0%B8_%D0%BF%D0%BE_%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B5" title="Список лауреатов Нобелевской премии по экономике">нобелевский лауреат</a>
+       </div> 
+      </div> 
+     </div> 
+     <p><b>Теория игр</b>&nbsp;— математический метод изучения оптимальных <a href="/wiki/%D0%A1%D1%82%D1%80%D0%B0%D1%82%D0%B5%D0%B3%D0%B8%D1%8F_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" class="mw-redirect" title="Стратегия (математика)">стратегий</a> в <a href="/wiki/%D0%98%D0%B3%D1%80%D0%B0" title="Игра">играх</a>. Под игрой понимается процесс, в котором участвуют две и более сторон, ведущих борьбу за реализацию своих интересов. Каждая из сторон имеет свою цель и использует некоторую стратегию, которая может вести к выигрышу или проигрышу&nbsp;— в зависимости от поведения других игроков. Теория игр помогает выбрать лучшие стратегии с учётом представлений о других участниках, их <a href="/w/index.php?title=%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81_(%D0%B8%D0%B3%D1%80%D1%8B)&amp;action=edit&amp;redlink=1" class="new" title="Ресурс (игры) (страница отсутствует)">ресурсах</a> и их возможных поступках<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup>.</p> 
+     <p>Теория игр&nbsp;— это раздел <a href="/wiki/%D0%9F%D1%80%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0" title="Прикладная математика">прикладной математики</a>, точнее&nbsp;— <a href="/wiki/%D0%98%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B9" title="Исследование операций">исследования операций</a>. Чаще всего методы теории игр находят применение в <a href="/wiki/%D0%AD%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0" title="Экономика">экономике</a>, чуть реже в других <a href="/wiki/%D0%9E%D0%B1%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5_%D0%BD%D0%B0%D1%83%D0%BA%D0%B8" title="Общественные науки">общественных науках</a>&nbsp;— <a href="/wiki/%D0%A1%D0%BE%D1%86%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" title="Социология">социологии</a>, <a href="/wiki/%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" title="Политология">политологии</a>, <a href="/wiki/%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" title="Психология">психологии</a>, <a href="/wiki/%D0%AD%D1%82%D0%B8%D0%BA%D0%B0" title="Этика">этике</a>, <a href="/wiki/%D0%AE%D1%80%D0%B8%D1%81%D0%BF%D1%80%D1%83%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D1%8F" title="Юриспруденция">юриспруденции</a> и других. Начиная с <a href="/wiki/1970-%D0%B5" class="mw-redirect" title="1970-е">1970-х</a> годов её взяли на вооружение <a href="/wiki/%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" title="Биология">биологи</a> для исследования поведения животных и <a href="/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D1%8D%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D0%B8%D0%B8" class="mw-redirect" title="Теория эволюции">теории эволюции</a>. Очень важное значение она имеет для <a href="/wiki/%D0%98%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82" title="Искусственный интеллект">искусственного интеллекта</a> и <a href="/wiki/%D0%9A%D0%B8%D0%B1%D0%B5%D1%80%D0%BD%D0%B5%D1%82%D0%B8%D0%BA%D0%B0" title="Кибернетика">кибернетики</a>, особенно с проявлением интереса к <a href="/wiki/%D0%98%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%B0%D0%B3%D0%B5%D0%BD%D1%82" title="Интеллектуальный агент">интеллектуальным агентам</a>.</p> 
+     <p></p> 
+     <div id="toc" class="toc"> 
+      <div class="toctitle"> 
+       <h2>Содержание</h2> 
+      </div> 
+      <ul> 
+       <li class="toclevel-1 tocsection-1"><a href="#.D0.98.D1.81.D1.82.D0.BE.D1.80.D0.B8.D1.8F"><span class="tocnumber">1</span> <span class="toctext">История</span></a></li> 
+       <li class="toclevel-1 tocsection-2"><a href="#.D0.9F.D1.80.D0.B5.D0.B4.D1.81.D1.82.D0.B0.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5_.D0.B8.D0.B3.D1.80"><span class="tocnumber">2</span> <span class="toctext">Представление игр</span></a> 
+        <ul> 
+         <li class="toclevel-2 tocsection-3"><a href="#.D0.AD.D0.BA.D1.81.D1.82.D0.B5.D0.BD.D1.81.D0.B8.D0.B2.D0.BD.D0.B0.D1.8F_.D1.84.D0.BE.D1.80.D0.BC.D0.B0"><span class="tocnumber">2.1</span> <span class="toctext">Экстенсивная форма</span></a></li> 
+         <li class="toclevel-2 tocsection-4"><a href="#.D0.9D.D0.BE.D1.80.D0.BC.D0.B0.D0.BB.D1.8C.D0.BD.D0.B0.D1.8F_.D1.84.D0.BE.D1.80.D0.BC.D0.B0"><span class="tocnumber">2.2</span> <span class="toctext">Нормальная форма</span></a></li> 
+         <li class="toclevel-2 tocsection-5"><a href="#.D0.A5.D0.B0.D1.80.D0.B0.D0.BA.D1.82.D0.B5.D1.80.D0.B8.D1.81.D1.82.D0.B8.D1.87.D0.B5.D1.81.D0.BA.D0.B0.D1.8F_.D1.84.D1.83.D0.BD.D0.BA.D1.86.D0.B8.D1.8F"><span class="tocnumber">2.3</span> <span class="toctext">Характеристическая функция</span></a></li> 
+        </ul> </li> 
+       <li class="toclevel-1 tocsection-6"><a href="#.D0.9F.D1.80.D0.B8.D0.BC.D0.B5.D0.BD.D0.B5.D0.BD.D0.B8.D0.B5_.D1.82.D0.B5.D0.BE.D1.80.D0.B8.D0.B8_.D0.B8.D0.B3.D1.80"><span class="tocnumber">3</span> <span class="toctext">Применение теории игр</span></a> 
+        <ul> 
+         <li class="toclevel-2 tocsection-7"><a href="#.D0.9E.D0.BF.D0.B8.D1.81.D0.B0.D0.BD.D0.B8.D0.B5_.D0.B8_.D0.BC.D0.BE.D0.B4.D0.B5.D0.BB.D0.B8.D1.80.D0.BE.D0.B2.D0.B0.D0.BD.D0.B8.D0.B5"><span class="tocnumber">3.1</span> <span class="toctext">Описание и моделирование</span></a></li> 
+         <li class="toclevel-2 tocsection-8"><a href="#.D0.9D.D0.BE.D1.80.D0.BC.D0.B0.D1.82.D0.B8.D0.B2.D0.BD.D1.8B.D0.B9_.D0.B0.D0.BD.D0.B0.D0.BB.D0.B8.D0.B7_.28.D0.B2.D1.8B.D1.8F.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5_.D0.BD.D0.B0.D0.B8.D0.BB.D1.83.D1.87.D1.88.D0.B5.D0.B3.D0.BE_.D0.BF.D0.BE.D0.B2.D0.B5.D0.B4.D0.B5.D0.BD.D0.B8.D1.8F.29"><span class="tocnumber">3.2</span> <span class="toctext">Нормативный анализ (выявление наилучшего поведения)</span></a></li> 
+        </ul> </li> 
+       <li class="toclevel-1 tocsection-9"><a href="#.D0.A2.D0.B8.D0.BF.D1.8B_.D0.B8.D0.B3.D1.80"><span class="tocnumber">4</span> <span class="toctext">Типы игр</span></a> 
+        <ul> 
+         <li class="toclevel-2 tocsection-10"><a href="#.D0.9A.D0.BE.D0.BE.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.B8.D0.B2.D0.BD.D1.8B.D0.B5_.D0.B8_.D0.BD.D0.B5.D0.BA.D0.BE.D0.BE.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.B8.D0.B2.D0.BD.D1.8B.D0.B5"><span class="tocnumber">4.1</span> <span class="toctext">Кооперативные и некооперативные</span></a></li> 
+         <li class="toclevel-2 tocsection-11"><a href="#.D0.A1.D0.B8.D0.BC.D0.BC.D0.B5.D1.82.D1.80.D0.B8.D1.87.D0.BD.D1.8B.D0.B5_.D0.B8_.D0.BD.D0.B5.D1.81.D0.B8.D0.BC.D0.BC.D0.B5.D1.82.D1.80.D0.B8.D1.87.D0.BD.D1.8B.D0.B5"><span class="tocnumber">4.2</span> <span class="toctext">Симметричные и несимметричные</span></a></li> 
+         <li class="toclevel-2 tocsection-12"><a href="#.D0.A1_.D0.BD.D1.83.D0.BB.D0.B5.D0.B2.D0.BE.D0.B9_.D1.81.D1.83.D0.BC.D0.BC.D0.BE.D0.B9_.D0.B8_.D1.81_.D0.BD.D0.B5.D0.BD.D1.83.D0.BB.D0.B5.D0.B2.D0.BE.D0.B9_.D1.81.D1.83.D0.BC.D0.BC.D0.BE.D0.B9"><span class="tocnumber">4.3</span> <span class="toctext">С нулевой суммой и с ненулевой суммой</span></a></li> 
+         <li class="toclevel-2 tocsection-13"><a href="#.D0.9F.D0.B0.D1.80.D0.B0.D0.BB.D0.BB.D0.B5.D0.BB.D1.8C.D0.BD.D1.8B.D0.B5_.D0.B8_.D0.BF.D0.BE.D1.81.D0.BB.D0.B5.D0.B4.D0.BE.D0.B2.D0.B0.D1.82.D0.B5.D0.BB.D1.8C.D0.BD.D1.8B.D0.B5"><span class="tocnumber">4.4</span> <span class="toctext">Параллельные и последовательные</span></a></li> 
+         <li class="toclevel-2 tocsection-14"><a href="#.D0.A1_.D0.BF.D0.BE.D0.BB.D0.BD.D0.BE.D0.B9_.D0.B8.D0.BB.D0.B8_.D0.BD.D0.B5.D0.BF.D0.BE.D0.BB.D0.BD.D0.BE.D0.B9_.D0.B8.D0.BD.D1.84.D0.BE.D1.80.D0.BC.D0.B0.D1.86.D0.B8.D0.B5.D0.B9"><span class="tocnumber">4.5</span> <span class="toctext">С полной или неполной информацией</span></a></li> 
+         <li class="toclevel-2 tocsection-15"><a href="#.D0.98.D0.B3.D1.80.D1.8B_.D1.81_.D0.B1.D0.B5.D1.81.D0.BA.D0.BE.D0.BD.D0.B5.D1.87.D0.BD.D1.8B.D0.BC_.D1.87.D0.B8.D1.81.D0.BB.D0.BE.D0.BC_.D1.88.D0.B0.D0.B3.D0.BE.D0.B2"><span class="tocnumber">4.6</span> <span class="toctext">Игры с бесконечным числом шагов</span></a></li> 
+         <li class="toclevel-2 tocsection-16"><a href="#.D0.94.D0.B8.D1.81.D0.BA.D1.80.D0.B5.D1.82.D0.BD.D1.8B.D0.B5_.D0.B8_.D0.BD.D0.B5.D0.BF.D1.80.D0.B5.D1.80.D1.8B.D0.B2.D0.BD.D1.8B.D0.B5_.D0.B8.D0.B3.D1.80.D1.8B"><span class="tocnumber">4.7</span> <span class="toctext">Дискретные и непрерывные игры</span></a></li> 
+         <li class="toclevel-2 tocsection-17"><a href="#.D0.9C.D0.B5.D1.82.D0.B0.D0.B8.D0.B3.D1.80.D1.8B"><span class="tocnumber">4.8</span> <span class="toctext">Метаигры</span></a></li> 
+        </ul> </li> 
+       <li class="toclevel-1 tocsection-18"><a href="#.D0.A1.D0.BC._.D1.82.D0.B0.D0.BA.D0.B6.D0.B5"><span class="tocnumber">5</span> <span class="toctext">См. также</span></a></li> 
+       <li class="toclevel-1 tocsection-19"><a href="#.D0.9F.D1.80.D0.B8.D0.BC.D0.B5.D1.87.D0.B0.D0.BD.D0.B8.D1.8F"><span class="tocnumber">6</span> <span class="toctext">Примечания</span></a></li> 
+       <li class="toclevel-1 tocsection-20"><a href="#.D0.9B.D0.B8.D1.82.D0.B5.D1.80.D0.B0.D1.82.D1.83.D1.80.D0.B0"><span class="tocnumber">7</span> <span class="toctext">Литература</span></a></li> 
+       <li class="toclevel-1 tocsection-21"><a href="#.D0.A1.D1.81.D1.8B.D0.BB.D0.BA.D0.B8"><span class="tocnumber">8</span> <span class="toctext">Ссылки</span></a></li> 
+      </ul> 
+     </div> 
+     <p></p> 
+     <h2><span id="История"></span><span class="mw-headline" id=".D0.98.D1.81.D1.82.D0.BE.D1.80.D0.B8.D1.8F">История</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;veaction=edit&amp;section=1" class="mw-editsection-visualeditor" title="Редактировать раздел «История»">править</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;action=edit&amp;section=1" title="Редактировать раздел «История»">править вики-текст</a><span class="mw-editsection-bracket">]</span></span></h2> 
+     <p>Оптимальные решения или стратегии в математическом моделировании предлагались ещё в XVIII&nbsp;в. Задачи производства и ценообразования в условиях <a href="/wiki/%D0%9E%D0%BB%D0%B8%D0%B3%D0%BE%D0%BF%D0%BE%D0%BB%D0%B8%D1%8F_%D0%9A%D1%83%D1%80%D0%BD%D0%BE" title="Олигополия Курно">олигополии</a>, которые стали позже хрестоматийными примерами теории игр, рассматривались в XIX&nbsp;в. <a href="/wiki/%D0%9A%D1%83%D1%80%D0%BD%D0%BE,_%D0%90%D0%BD%D1%82%D1%83%D0%B0%D0%BD_%D0%9E%D0%B3%D1%8E%D1%81%D1%82" class="mw-redirect" title="Курно, Антуан Огюст">А. Курно</a> и <a href="/wiki/%D0%91%D0%B5%D1%80%D1%82%D1%80%D0%B0%D0%BD,_%D0%96%D0%BE%D0%B7%D0%B5%D1%84_%D0%9B%D1%83%D0%B8_%D0%A4%D1%80%D0%B0%D0%BD%D1%81%D1%83%D0%B0" title="Бертран, Жозеф Луи Франсуа">Ж. Бертраном</a>. В начале XX&nbsp;в. <a href="/wiki/%D0%9B%D0%B0%D1%81%D0%BA%D0%B5%D1%80,_%D0%AD%D0%BC%D0%B0%D0%BD%D1%83%D1%8D%D0%BB%D1%8C" title="Ласкер, Эмануэль">Эмануэль Ласкер</a>, <a href="/wiki/%D0%A6%D0%B5%D1%80%D0%BC%D0%B5%D0%BB%D0%BE,_%D0%AD%D1%80%D0%BD%D1%81%D1%82" title="Цермело, Эрнст">Эрнст Цермело</a> и <a href="/wiki/%D0%91%D0%BE%D1%80%D0%B5%D0%BB%D1%8C,_%D0%AD%D0%BC%D0%B8%D0%BB%D1%8C" title="Борель, Эмиль">Эмиль Борель</a> выдвигают идею математической теории конфликта интересов.</p> 
+     <p>Математическая теория игр берёт своё начало из <a href="/wiki/%D0%9D%D0%B5%D0%BE%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0" class="mw-redirect" title="Неоклассическая экономика">неоклассической экономики</a>. Впервые математические аспекты и приложения теории были изложены в классической книге <a href="/wiki/1944_%D0%B3%D0%BE%D0%B4" title="1944 год">1944 года</a> <a href="/wiki/%D0%9D%D0%B5%D0%B9%D0%BC%D0%B0%D0%BD,_%D0%94%D0%B6%D0%BE%D0%BD_%D1%84%D0%BE%D0%BD" title="Нейман, Джон фон">Джона фон Неймана</a> и <a href="/wiki/%D0%9C%D0%BE%D1%80%D0%B3%D0%B5%D0%BD%D1%88%D1%82%D0%B5%D1%80%D0%BD,_%D0%9E%D1%81%D0%BA%D0%B0%D1%80" title="Моргенштерн, Оскар">Оскара Моргенштерна</a> «Теория игр и экономическое поведение»<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup> (<a href="/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Английский язык">англ.</a>&nbsp;<i><span lang="en" xml:lang="en">Theory of Games and Economic Behavior</span></i>).</p> 
+     <p>Эта область математики нашла некоторое отражение в общественной культуре. В <a href="/wiki/1998_%D0%B3%D0%BE%D0%B4" title="1998 год">1998 году</a> <a href="/wiki/%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0" title="Америка">американская</a> <a href="/wiki/%D0%9F%D0%B8%D1%81%D0%B0%D1%82%D0%B5%D0%BB%D1%8C" title="Писатель">писательница</a> и <a href="/wiki/%D0%96%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D0%B8%D1%81%D1%82" title="Журналист">журналистка</a> <a href="/wiki/%D0%9D%D0%B0%D0%B7%D0%B0%D1%80,_%D0%A1%D0%B8%D0%BB%D1%8C%D0%B2%D0%B8%D1%8F" title="Назар, Сильвия">Сильвия Назар</a> издала книгу<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">[3]</a></sup> о судьбе <a href="/wiki/%D0%9D%D1%8D%D1%88,_%D0%94%D0%B6%D0%BE%D0%BD_%D0%A4%D0%BE%D1%80%D0%B1%D1%81" title="Нэш, Джон Форбс">Джона Нэша</a>, <a href="/wiki/%D0%9D%D0%BE%D0%B1%D0%B5%D0%BB%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D1%80%D0%B5%D0%BC%D0%B8%D1%8F_%D0%BF%D0%BE_%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B5" class="mw-redirect" title="Нобелевская премия по экономике">нобелевского лауреата по экономике</a> и учёного в области теории игр; а в <a href="/wiki/2001_%D0%B3%D0%BE%D0%B4" title="2001 год">2001</a> по мотивам книги был снят фильм «<a href="/wiki/%D0%98%D0%B3%D1%80%D1%8B_%D1%80%D0%B0%D0%B7%D1%83%D0%BC%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2001)" class="mw-redirect" title="Игры разума (фильм, 2001)">Игры разума</a>». Некоторые американские телевизионные шоу, например, «<a href="https://en.wikipedia.org/wiki/Friend_or_Foe" class="extiw" title="en:Friend or Foe">Friend or Foe</a>», «Alias» или «NUMB3RS», периодически ссылаются на теорию в своих эпизодах.</p> 
+     <p><a href="/wiki/%D0%9D%D1%8D%D1%88,_%D0%94%D0%B6%D0%BE%D0%BD_%D0%A4%D0%BE%D1%80%D0%B1%D1%81" title="Нэш, Джон Форбс">Дж. Нэш</a> в 1949 году пишет диссертацию по теории игр, через 45 лет он получает Нобелевскую премию по экономике. <a href="/wiki/%D0%9D%D1%8D%D1%88,_%D0%94%D0%B6%D0%BE%D0%BD_%D0%A4%D0%BE%D1%80%D0%B1%D1%81" title="Нэш, Джон Форбс">Дж. Нэш</a> после окончания Политехнического института Карнеги с двумя дипломами&nbsp;— бакалавра и магистра&nbsp;— поступил в <a href="/wiki/%D0%9F%D1%80%D0%B8%D0%BD%D1%81%D1%82%D0%BE%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82" title="Принстонский университет">Принстонский университет</a>, где посещал лекции <a href="/wiki/%D0%9D%D0%B5%D0%B9%D0%BC%D0%B0%D0%BD,_%D0%94%D0%B6%D0%BE%D0%BD_%D1%84%D0%BE%D0%BD" title="Нейман, Джон фон">Джона фон Неймана</a>. В своих трудах <a href="/wiki/%D0%9D%D1%8D%D1%88,_%D0%94%D0%B6%D0%BE%D0%BD_%D0%A4%D0%BE%D1%80%D0%B1%D1%81" title="Нэш, Джон Форбс">Дж. Нэш</a> разработал принципы «управленческой динамики». Первые концепции теории игр анализировали <a href="/wiki/%D0%90%D0%BD%D1%82%D0%B0%D0%B3%D0%BE%D0%BD%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%B8%D0%B3%D1%80%D0%B0" title="Антагонистическая игра">антагонистические игры</a>, когда есть проигравшие и выигравшие за их счёт игроки. Нэш разрабатывает методы анализа, в которых все участники или выигрывают, или терпят поражение. Эти ситуации получили названия «<a href="/wiki/%D0%A0%D0%B0%D0%B2%D0%BD%D0%BE%D0%B2%D0%B5%D1%81%D0%B8%D0%B5_%D0%9D%D1%8D%D1%88%D0%B0" title="Равновесие Нэша">равновесие по Нэшу</a>», или «некооперативное равновесие», в ситуации стороны используют оптимальную стратегию, что и приводит к созданию устойчивого равновесия. Игрокам выгодно сохранять это равновесие, так как любое изменение ухудшит их положение. Эти работы <a href="/wiki/%D0%9D%D1%8D%D1%88,_%D0%94%D0%B6%D0%BE%D0%BD_%D0%A4%D0%BE%D1%80%D0%B1%D1%81" title="Нэш, Джон Форбс">Дж. Нэша</a> сделали серьёзный вклад в развитие теории игр, были пересмотрены математические инструменты экономического моделирования. <a href="/wiki/%D0%9D%D1%8D%D1%88,_%D0%94%D0%B6%D0%BE%D0%BD_%D0%A4%D0%BE%D1%80%D0%B1%D1%81" title="Нэш, Джон Форбс">Дж. Нэш</a> показывает, что классический подход к конкуренции <a href="/wiki/%D0%A1%D0%BC%D0%B8%D1%82,_%D0%90%D0%B4%D0%B0%D0%BC" title="Смит, Адам">А.Смита</a>, когда каждый сам за себя, неоптимален. Более выгодны стратегии, когда каждый старается сделать лучше для себя, делая лучше для других.</p> 
+     <p>Хотя теория игр первоначально и рассматривала экономические модели, вплоть до 1950-х она оставалась формальной теорией в рамках математики. Но уже с 1950-х гг. начинаются попытки применить методы теории игр не только в экономике, но в биологии, <a href="/wiki/%D0%9A%D0%B8%D0%B1%D0%B5%D1%80%D0%BD%D0%B5%D1%82%D0%B8%D0%BA%D0%B0" title="Кибернетика">кибернетике</a>, <a href="/wiki/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0" title="Техника">технике</a>, <a href="/wiki/%D0%90%D0%BD%D1%82%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" title="Антропология">антропологии</a>. Во время <a href="/wiki/%D0%92%D1%82%D0%BE%D1%80%D0%B0%D1%8F_%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B2%D0%BE%D0%B9%D0%BD%D0%B0" title="Вторая мировая война">Второй мировой войны</a> и сразу после неё теорией игр серьёзно заинтересовались военные, которые увидели в ней мощный аппарат для исследования стратегических решений.</p> 
+     <p>В 1960—1970&nbsp;гг. интерес к теории игр угасает, несмотря на значительные математические результаты, полученные к тому времени. С середины 1980-х гг. начинается активное практическое использование теории игр, особенно в экономике и менеджменте. За последние 20&nbsp;— 30 лет значение теории игр и интерес к ней значительно растёт, некоторые направления современной экономической теории невозможно изложить без применения теории игр.</p> 
+     <p>Большим вкладом в применение теории игр стала работа <a href="/wiki/%D0%A8%D0%B5%D0%BB%D0%BB%D0%B8%D0%BD%D0%B3,_%D0%A2%D0%BE%D0%BC%D0%B0%D1%81" title="Шеллинг, Томас">Томаса Шеллинга</a>, <a href="/wiki/%D0%9D%D0%BE%D0%B1%D0%B5%D0%BB%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D1%80%D0%B5%D0%BC%D0%B8%D1%8F_%D0%BF%D0%BE_%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B5" class="mw-redirect" title="Нобелевская премия по экономике">нобелевского лауреата по экономике</a> 2005&nbsp;г. «Стратегия конфликта». Т.Шеллинг рассматривает различные «стратегии» поведения участников конфликта. Эти стратегии совпадают с тактиками управления конфликтами и принципами анализа конфликтов в <a href="/wiki/%D0%9A%D0%BE%D0%BD%D1%84%D0%BB%D0%B8%D0%BA%D1%82_(%D0%BF%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F)" title="Конфликт (психология)">конфликтологии</a> (это психологическая дисциплина) и в управлении конфликтами в организации (теория менеджмента). В психологии и других науках используют слово «игра» в других смыслах, нежели в математике. Некоторые психологи и математики скептически относятся к использованию этого термина в других смыслах, сложившихся ранее. Культурологическое понятие игры было дано в работе <a href="/wiki/%D0%A5%D1%91%D0%B9%D0%B7%D0%B8%D0%BD%D0%B3%D0%B0,_%D0%99%D0%BE%D1%85%D0%B0%D0%BD" title="Хёйзинга, Йохан">Йохана Хёйзинга</a> «<a href="/wiki/Homo_Ludens" class="mw-redirect" title="Homo Ludens">Homo Ludens</a>» (статьи по истории культуры), автор говорит об использовании игр в правосудии, культуре, этике, о том, что игра старше самого человека, так как животные тоже играют. Понятие игры встречается в концепции <a href="/wiki/%D0%91%D0%B5%D1%80%D0%BD,_%D0%AD%D1%80%D0%B8%D0%BA_%D0%9B%D0%B5%D0%BD%D0%BD%D0%B0%D1%80%D0%B4" title="Берн, Эрик Леннард">Эрика Бёрна</a> «Игры, в которые играют люди, люди, которые играют в игры». Это сугубо психологические игры, основанные на <a href="/wiki/%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D0%B0%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7" title="Трансакционный анализ">трансакционном анализе</a>. Понятие игры у Й.Хёзинга отличается от интерпретации игры в теории конфликтов и математической теории игр. Игры также используются для обучения в бизнес-кейсах, семинарах <a href="/wiki/%D0%A9%D0%B5%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%86%D0%BA%D0%B8%D0%B9,_%D0%93%D0%B5%D0%BE%D1%80%D0%B3%D0%B8%D0%B9_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87" title="Щедровицкий, Георгий Петрович">Г.&nbsp;П.&nbsp;Щедровицкого</a>, основоположника организационно-деятельностного подхода. Во время Перестройки в СССР <a href="/wiki/%D0%A9%D0%B5%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%86%D0%BA%D0%B8%D0%B9,_%D0%93%D0%B5%D0%BE%D1%80%D0%B3%D0%B8%D0%B9_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87" title="Щедровицкий, Георгий Петрович">Г.&nbsp;П.&nbsp;Щедровицкий</a> провёл множество игр с советскими управленцами. По психологическому накалу ОДИ (организационно-деятельностные игры) были так сильны, что служили мощным катализатором изменений в СССР. Сейчас в России сложилось целое движение ОДИ. Критики отмечают искусственную уникальность ОДИ. Основой ОДИ стал <a href="/wiki/%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D1%83%D0%B6%D0%BE%D0%BA" title="Московский логический кружок">Московский методологический кружок (ММК)</a>.</p> 
+     <p>Математическая теория игр сейчас бурно развивается, рассматриваются динамические игры. Однако математический аппарат теории игр затратен<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">[4]</a></sup>. Его применяют для оправданных задач: политика, экономика монополий и распределения рыночной власти и&nbsp;т.&nbsp;п. Ряд известных учёных стали <a href="/wiki/%D0%9D%D0%BE%D0%B1%D0%B5%D0%BB%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D1%80%D0%B5%D0%BC%D0%B8%D1%8F_%D0%BF%D0%BE_%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B5" class="mw-redirect" title="Нобелевская премия по экономике">Нобелевскими лауреатами по экономике</a> за вклад в развитие теории игр, которая описывает социально-экономические процессы. <a href="/wiki/%D0%9D%D1%8D%D1%88,_%D0%94%D0%B6%D0%BE%D0%BD_%D0%A4%D0%BE%D1%80%D0%B1%D1%81" title="Нэш, Джон Форбс">Дж. Нэш</a>, благодаря своим исследованиям в теории игр, стал одним из ведущих специалистов в области ведения «<a href="/wiki/%D0%A5%D0%BE%D0%BB%D0%BE%D0%B4%D0%BD%D0%B0%D1%8F_%D0%B2%D0%BE%D0%B9%D0%BD%D0%B0" title="Холодная война">холодной войны</a>», что подтверждает масштабность задач, которыми занимается теория игр.</p> 
+     <p><a href="/wiki/%D0%9D%D0%BE%D0%B1%D0%B5%D0%BB%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D1%80%D0%B5%D0%BC%D0%B8%D1%8F_%D0%BF%D0%BE_%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B5" class="mw-redirect" title="Нобелевская премия по экономике">Нобелевскими лауреатами по экономике</a> за достижения в области теории игр и экономической теории стали: <a href="/wiki/%D0%90%D1%83%D0%BC%D0%B0%D0%BD,_%D0%A0%D0%BE%D0%B1%D0%B5%D1%80%D1%82" title="Ауман, Роберт">Роберт Ауман</a>, <a href="/wiki/%D0%97%D0%B5%D0%BB%D1%82%D0%B5%D0%BD,_%D0%A0%D0%B0%D0%B9%D0%BD%D1%85%D0%B0%D1%80%D0%B4" class="mw-redirect" title="Зелтен, Райнхард">Райнхард Зелтен</a>, <a href="/wiki/%D0%9D%D1%8D%D1%88,_%D0%94%D0%B6%D0%BE%D0%BD_%D0%A4%D0%BE%D1%80%D0%B1%D1%81" title="Нэш, Джон Форбс">Джон Нэш</a>, <a href="/wiki/%D0%A5%D0%B0%D1%80%D1%81%D0%B0%D0%BD%D1%8C%D0%B8,_%D0%94%D0%B6%D0%BE%D0%BD" title="Харсаньи, Джон">Джон Харсаньи</a>, <a href="/wiki/%D0%92%D0%B8%D0%BA%D1%80%D0%B8,_%D0%A3%D0%B8%D0%BB%D1%8C%D1%8F%D0%BC" title="Викри, Уильям">Уильям Викри</a>, <a href="/wiki/%D0%9C%D0%B8%D1%80%D1%80%D0%BB%D0%B8%D1%81,_%D0%94%D0%B6%D0%B5%D0%B9%D0%BC%D1%81" title="Миррлис, Джеймс">Джеймс Миррлис</a>, <a href="/wiki/%D0%A8%D0%B5%D0%BB%D0%BB%D0%B8%D0%BD%D0%B3,_%D0%A2%D0%BE%D0%BC%D0%B0%D1%81" title="Шеллинг, Томас">Томас Шеллинг</a>, <a href="/wiki/%D0%90%D0%BA%D0%B5%D1%80%D0%BB%D0%BE%D1%84,_%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6" title="Акерлоф, Джордж">Джордж Акерлоф</a>, <a href="/wiki/%D0%A1%D0%BF%D0%B5%D0%BD%D1%81,_%D0%9C%D0%B0%D0%B9%D0%BA%D0%BB" title="Спенс, Майкл">Майкл Спенс</a>, <a href="/wiki/%D0%A1%D1%82%D0%B8%D0%B3%D0%BB%D0%B8%D1%86,_%D0%94%D0%B6%D0%BE%D0%B7%D0%B5%D1%84_%D0%AE%D0%B4%D0%B6%D0%B8%D0%BD" class="mw-redirect" title="Стиглиц, Джозеф Юджин">Джозеф Стиглиц</a>, <a href="/wiki/%D0%93%D1%83%D1%80%D0%B2%D0%B8%D1%87,_%D0%9B%D0%B5%D0%BE%D0%BD%D0%B8%D0%B4" title="Гурвич, Леонид">Леонид Гурвиц</a>, <a href="/wiki/%D0%9C%D1%8D%D1%81%D0%BA%D0%B8%D0%BD,_%D0%AD%D1%80%D0%B8%D0%BA" class="mw-redirect" title="Мэскин, Эрик">Эрик Мэскин</a>, <a href="/wiki/%D0%9C%D0%B0%D0%B9%D0%B5%D1%80%D1%81%D0%BE%D0%BD,_%D0%A0%D0%BE%D0%B4%D0%B6%D0%B5%D1%80" title="Майерсон, Роджер">Роджер Майерсон</a>, <a href="/wiki/%D0%A8%D0%B5%D0%BF%D0%BB%D0%B8,_%D0%9B%D0%BB%D0%BE%D0%B9%D0%B4" title="Шепли, Ллойд">Ллойд Шепли</a>, <a href="/wiki/%D0%A0%D0%BE%D1%82,_%D0%AD%D0%BB%D0%B2%D0%B8%D0%BD" title="Рот, Элвин">Элвин Рот</a>, <a href="/wiki/%D0%96%D0%B0%D0%BD_%D0%A2%D0%B8%D1%80%D0%BE%D0%BB%D1%8C" class="mw-redirect" title="Жан Тироль">Жан Тироль</a>.</p> 
+     <h2><span id="Представление_игр"></span><span class="mw-headline" id=".D0.9F.D1.80.D0.B5.D0.B4.D1.81.D1.82.D0.B0.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5_.D0.B8.D0.B3.D1.80">Представление игр</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;veaction=edit&amp;section=2" class="mw-editsection-visualeditor" title="Редактировать раздел «Представление игр»">править</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;action=edit&amp;section=2" title="Редактировать раздел «Представление игр»">править вики-текст</a><span class="mw-editsection-bracket">]</span></span></h2> 
+     <div class="dablink">
+      См. также: 
+      <a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%B8%D0%B3%D1%80_%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D0%B8_%D0%B8%D0%B3%D1%80" title="Список игр теории игр">Список игр теории игр</a>
+     </div> 
+     <p>Игры представляют собой строго определённые математические объекты. Игра образуется игроками, набором стратегий для каждого игрока и указания выигрышей, или <b>платежей</b>, игроков для каждой комбинации стратегий. Большинство кооперативных игр описываются характеристической функцией, в то время как для остальных видов чаще используют нормальную или экстенсивную форму. Характеризующие признаки игры как математической модели ситуации:</p> 
+     <ol> 
+      <li>наличие нескольких участников;</li> 
+      <li>неопределённость поведения участников, связанная с наличием у каждого из них нескольких вариантов действий;</li> 
+      <li>различие (несовпадение) интересов участников;</li> 
+      <li>взаимосвязанность поведения участников, поскольку результат, получаемый каждым из них, зависит от поведения всех участников;</li> 
+      <li>наличие правил поведения, известных всем участникам.</li> 
+     </ol> 
+     <h3><span id="Экстенсивная_форма"></span><span class="mw-headline" id=".D0.AD.D0.BA.D1.81.D1.82.D0.B5.D0.BD.D1.81.D0.B8.D0.B2.D0.BD.D0.B0.D1.8F_.D1.84.D0.BE.D1.80.D0.BC.D0.B0">Экстенсивная форма</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;veaction=edit&amp;section=3" class="mw-editsection-visualeditor" title="Редактировать раздел «Экстенсивная форма»">править</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;action=edit&amp;section=3" title="Редактировать раздел «Экстенсивная форма»">править вики-текст</a><span class="mw-editsection-bracket">]</span></span></h3> 
+     <div class="dablink noprint">
+      Основная статья: 
+      <b><a href="/w/index.php?title=%D0%AD%D0%BA%D1%81%D1%82%D0%B5%D0%BD%D1%81%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F_%D1%84%D0%BE%D1%80%D0%BC%D0%B0_%D0%B8%D0%B3%D1%80%D1%8B&amp;action=edit&amp;redlink=1" class="new" title="Экстенсивная форма игры (страница отсутствует)">Экстенсивная форма игры</a></b>
+     </div> 
+     <div class="thumb tleft"> 
+      <div class="thumbinner" style="width:222px;">
+       <a href="/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:Ultimatum_Game_Extensive_Form.svg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/be/Ultimatum_Game_Extensive_Form.svg/220px-Ultimatum_Game_Extensive_Form.svg.png" width="220" height="110" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/be/Ultimatum_Game_Extensive_Form.svg/330px-Ultimatum_Game_Extensive_Form.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/be/Ultimatum_Game_Extensive_Form.svg/440px-Ultimatum_Game_Extensive_Form.svg.png 2x" data-file-width="148" data-file-height="74"></a> 
+       <div class="thumbcaption"> 
+        <div class="magnify">
+         <a href="/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:Ultimatum_Game_Extensive_Form.svg" class="internal" title="Enlarge"></a>
+        </div> Игра «
+        <a href="/w/index.php?title=%D0%A3%D0%BB%D1%8C%D1%82%D0%B8%D0%BC%D0%B0%D1%82%D1%83%D0%BC_(%D0%B8%D0%B3%D1%80%D0%B0)&amp;action=edit&amp;redlink=1" class="new" title="Ультиматум (игра) (страница отсутствует)">Ультиматум</a>» в экстенсивной форме
+       </div> 
+      </div> 
+     </div> 
+     <p>Игры в экстенсивной, или расширенной, форме<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">[5]</a></sup> представляются в виде ориентированного <a href="/wiki/%D0%93%D1%80%D0%B0%D1%84_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" title="Граф (математика)">дерева</a>, где каждая вершина соответствует ситуации выбора игроком своей стратегии. Каждому игроку сопоставлен целый уровень вершин. Платежи записываются внизу дерева, под каждой <i>листовой вершиной</i>.</p> 
+     <p>На рисунке слева&nbsp;— игра для двух игроков. Игрок 1 ходит первым и выбирает стратегию F или U. Игрок 2 анализирует свою позицию и решает&nbsp;— выбрать стратегию A или R. Скорее всего первый игрок выберет U, а второй&nbsp;— A (для каждого из них это <i>оптимальные стратегии</i>); тогда они получат соответственно 8 и 2 очка.</p> 
+     <p>Экстенсивная форма очень наглядна, с её помощью особенно удобно представлять игры с более чем двумя игроками и игры с последовательными ходами. Если же участники делают одновременные ходы, то соответствующие вершины либо соединяются пунктиром, либо обводятся сплошной линией.</p> 
+     <h3><span id="Нормальная_форма"></span><span class="mw-headline" id=".D0.9D.D0.BE.D1.80.D0.BC.D0.B0.D0.BB.D1.8C.D0.BD.D0.B0.D1.8F_.D1.84.D0.BE.D1.80.D0.BC.D0.B0">Нормальная форма</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;veaction=edit&amp;section=4" class="mw-editsection-visualeditor" title="Редактировать раздел «Нормальная форма»">править</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;action=edit&amp;section=4" title="Редактировать раздел «Нормальная форма»">править вики-текст</a><span class="mw-editsection-bracket">]</span></span></h3> 
+     <table class="standard" align="right" width="330" cellpadding="4" cellspacing="0" style="margin: 1em 1em 1em 1em; background:#f9f9f9; float: right; clear:right; text-align:center; border: 1px #888 solid; border-collapse: collapse;"> 
+      <tbody>
+       <tr> 
+        <td style="width:33%;"></td> 
+        <td style="width:33%;"><font color="red">Игрок 2<br> стратегия 1</font></td> 
+        <td style="width:33%;"><font color="red">Игрок 2<br> стратегия 2</font></td> 
+       </tr> 
+       <tr> 
+        <td style="text-align: right;"><font color="blue">Игрок 1<br> стратегия 1</font></td> 
+        <td style="background:#f9f9f9;"><font color="blue"><b>4</b></font>, <font color="red"><b>3</b></font></td> 
+        <td style="background:#f9f9f9;"><font color="blue"><b>–1</b></font>, <font color="red"><b>–1</b></font></td> 
+       </tr> 
+       <tr> 
+        <td style="text-align: right;"><font color="blue">Игрок 1<br> стратегия 2</font></td> 
+        <td style="background:#f9f9f9;"><font color="blue"><b>0</b></font>, <font color="red"><b>0</b></font></td> 
+        <td style="background:#f9f9f9;"><font color="blue"><b>3</b></font>, <font color="red"><b>4</b></font></td> 
+       </tr> 
+       <tr> 
+        <td style="font-size: 90%;" colspan="3"><i>Нормальная форма для игры с 2 игроками, у каждого из которых по 2 стратегии.</i></td> 
+       </tr> 
+      </tbody>
+     </table> 
+     <div class="dablink noprint">
+      Основная статья: 
+      <b><a href="/wiki/%D0%9D%D0%BE%D1%80%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%84%D0%BE%D1%80%D0%BC%D0%B0_%D0%B8%D0%B3%D1%80%D1%8B" title="Нормальная форма игры">Нормальная форма игры</a></b>
+     </div> 
+     <p>В нормальной, или стратегической, форме игра описывается <b>платёжной матрицей</b>.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">[6]</a></sup> Каждая сторона (точнее, измерение) матрицы&nbsp;— это игрок, строки определяют стратегии первого игрока, а столбцы&nbsp;— второго. На пересечении двух стратегий можно увидеть выигрыши, которые получат игроки. В примере справа, если игрок 1 выбирает первую стратегию, а второй игрок&nbsp;— вторую стратегию, то на пересечении мы видим (−1, −1), это значит, что в результате хода оба игрока потеряли по одному очку.</p> 
+     <p>Игроки выбирали стратегии с максимальным для себя результатом, но проиграли из-за незнания хода другого игрока. Обычно в нормальной форме представляются игры, в которых ходы делаются <i>одновременно</i>, или хотя бы полагается, что все игроки не знают о том, что делают другие участники. Такие игры <b>с неполной информацией</b> будут рассмотрены ниже.</p> 
+     <h3><span id="Характеристическая_функция"></span><span class="mw-headline" id=".D0.A5.D0.B0.D1.80.D0.B0.D0.BA.D1.82.D0.B5.D1.80.D0.B8.D1.81.D1.82.D0.B8.D1.87.D0.B5.D1.81.D0.BA.D0.B0.D1.8F_.D1.84.D1.83.D0.BD.D0.BA.D1.86.D0.B8.D1.8F">Характеристическая функция</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;veaction=edit&amp;section=5" class="mw-editsection-visualeditor" title="Редактировать раздел «Характеристическая функция»">править</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;action=edit&amp;section=5" title="Редактировать раздел «Характеристическая функция»">править вики-текст</a><span class="mw-editsection-bracket">]</span></span></h3> 
+     <div class="dablink noprint">
+      Основная статья: 
+      <b><a href="/wiki/%D0%9A%D0%BE%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F_%D0%B8%D0%B3%D1%80%D0%B0_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" title="Кооперативная игра (математика)">Кооперативная игра (математика)</a></b>
+     </div> 
+     <p>В кооперативных играх с <a href="/w/index.php?title=%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%B5%D1%80%D0%B0%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D0%BE%D1%81%D1%82%D1%8C&amp;action=edit&amp;redlink=1" class="new" title="Трансферабельная полезность (страница отсутствует)">трансферабельной полезностью</a>, то есть возможностью передачи средств от одного игрока к другому, невозможно применять понятие <i>индивидуальных платежей</i>. Вместо этого используют так называемую характеристическую функцию, определяющую выигрыш каждой <a href="/wiki/%D0%9A%D0%BE%D0%B0%D0%BB%D0%B8%D1%86%D0%B8%D1%8F" title="Коалиция">коалиции</a> игроков. При этом предполагается, что выигрыш пустой коалиции равен нулю.</p> 
+     <p>Основания такого подхода можно найти ещё в книге фон Неймана и Моргенштерна. Изучая нормальную форму для коалиционных игр, они рассудили, что если в игре с двумя сторонами образуется коалиция <i>C</i>, то против неё выступает коалиция <i>N</i> \ <i>C</i>. Образуется как бы игра для двух игроков. Но так как вариантов возможных коалиций много (а именно 2<sup><i>N</i></sup>, где <i>N</i>&nbsp;— количество игроков), то выигрыш для <i>C</i> будет некоторой <i>характеристической величиной</i>, зависящей от состава коалиции. Формально игра в такой форме (также называемая TU-игрой<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">[7]</a></sup>) представляется парой <i>(N, v)</i>, где <i>N</i>&nbsp;— множество всех игроков, а <i>v&nbsp;: 2<sup>N</sup> → <b>R</b></i>&nbsp;— это характеристическая функция.</p> 
+     <p>Подобная форма представления может быть применена для всех игр, в том числе без трансферабельной полезности. В настоящее время существуют способы перевести любую игру из нормальной формы в характеристическую, но преобразование в обратную сторону возможно не во всех случаях.</p> 
+     <h2><span id="Применение_теории_игр"></span><span class="mw-headline" id=".D0.9F.D1.80.D0.B8.D0.BC.D0.B5.D0.BD.D0.B5.D0.BD.D0.B8.D0.B5_.D1.82.D0.B5.D0.BE.D1.80.D0.B8.D0.B8_.D0.B8.D0.B3.D1.80">Применение теории игр</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;veaction=edit&amp;section=6" class="mw-editsection-visualeditor" title="Редактировать раздел «Применение теории игр»">править</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;action=edit&amp;section=6" title="Редактировать раздел «Применение теории игр»">править вики-текст</a><span class="mw-editsection-bracket">]</span></span></h2> 
+     <p>Теория игр как один из подходов в прикладной математике применяется для изучения поведения человека и животных в различных ситуациях. Первоначально теория игр начала развиваться в рамках экономической науки, позволив понять и объяснить поведение экономических агентов в различных ситуациях. Позднее область применения теории игр была расширена на другие социальные науки; в настоящее время теория игр используется для объяснения поведения людей в политологии, социологии и психологии. Теоретико-игровой анализ был впервые использован для описания поведения животных <a href="/wiki/%D0%A4%D0%B8%D1%88%D0%B5%D1%80,_%D0%A0%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%B4_%D0%AD%D0%B9%D0%BB%D0%BC%D0%B5%D1%80" title="Фишер, Рональд Эйлмер">Рональдом Фишером</a> в 30-х годах XX века (хотя даже <a href="/wiki/%D0%94%D0%B0%D1%80%D0%B2%D0%B8%D0%BD,_%D0%A7%D0%B0%D1%80%D0%BB%D1%8C%D0%B7" class="mw-redirect" title="Дарвин, Чарльз">Чарльз Дарвин</a> использовал идеи теории игр без формального обоснования). В работе Рональда Фишера не появляется термин «теория игр». Тем не менее, работа по существу выполнена в русле теоретико-игрового анализа. Разработки, сделанные в экономике, были применены <a href="/wiki/%D0%9C%D0%B5%D0%B9%D0%BD%D0%B0%D1%80%D0%B4_%D0%A1%D0%BC%D0%B8%D1%82,_%D0%94%D0%B6%D0%BE%D0%BD" title="Мейнард Смит, Джон">Джоном Майнардом Смитом</a> в книге «Эволюция и теория игр». Теория игр используется не только для предсказания и объяснения поведения; были предприняты попытки использовать теорию игр для разработки теорий этичного или эталонного поведения. Экономисты и философы применяли теорию игр для лучшего понимания хорошего (достойного) поведения.</p> 
+     <h3><span id="Описание_и_моделирование"></span><span class="mw-headline" id=".D0.9E.D0.BF.D0.B8.D1.81.D0.B0.D0.BD.D0.B8.D0.B5_.D0.B8_.D0.BC.D0.BE.D0.B4.D0.B5.D0.BB.D0.B8.D1.80.D0.BE.D0.B2.D0.B0.D0.BD.D0.B8.D0.B5">Описание и моделирование</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;veaction=edit&amp;section=7" class="mw-editsection-visualeditor" title="Редактировать раздел «Описание и моделирование»">править</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;action=edit&amp;section=7" title="Редактировать раздел «Описание и моделирование»">править вики-текст</a><span class="mw-editsection-bracket">]</span></span></h3> 
+     <p>Первоначально теория игр использовалась для описания и моделирования поведения человеческих популяций. Некоторые исследователи считают, что с помощью определения равновесия в соответствующих играх они могут предсказать поведение человеческих популяций в ситуации реальной конфронтации. Такой подход к теории игр в последнее время подвергается критике по нескольким причинам. Во-первых, предположения, используемые при моделировании, зачастую нарушаются в реальной жизни. Исследователи могут предполагать, что игроки выбирают поведения, максимизирующие их суммарную выгоду (модель экономического человека), однако на практике человеческое поведение часто не соответствует этой предпосылке. Существует множество объяснений этого феномена&nbsp;— нерациональность, моделирование обсуждения, и даже различные мотивы игроков (включая альтруизм). Авторы теоретико-игровых моделей возражают на это, говоря, что их предположения аналогичны подобным предположениям в физике. Поэтому даже если их предположения не всегда выполняются, теория игр может использоваться как разумная идеальная модель, по аналогии с такими же моделями в физике. Однако, на теорию игр обрушился новый вал критики, когда в результате экспериментов было выявлено, что люди не следуют равновесным стратегиям на практике. Например, в играх «Сороконожка», «Диктатор» участники часто не используют профиль стратегий, составляющий равновесие по Нэшу. Продолжаются споры о значении подобных экспериментов. Согласно другой точке зрения, равновесие по Нэшу не является предсказанием ожидаемого поведения, оно лишь объясняет, почему популяции, уже находящиеся в равновесии по Нэшу, остаются в этом состоянии. Однако вопрос о том, как эти популяции приходят к равновесию Нэша, остаётся открытым. Некоторые исследователи в поисках ответа на этот вопрос переключились на изучение эволюционной теории игр. Модели эволюционной теории игр предполагают ограниченную рациональность или нерациональность игроков. Несмотря на название, эволюционная теория игр занимается не столько вопросами естественного отбора биологических видов. Этот раздел теории игр изучает модели биологической и культурной эволюции, а также модели процесса обучения.</p> 
+     <h3><span id="Нормативный_анализ_(выявление_наилучшего_поведения)"></span><span class="mw-headline" id=".D0.9D.D0.BE.D1.80.D0.BC.D0.B0.D1.82.D0.B8.D0.B2.D0.BD.D1.8B.D0.B9_.D0.B0.D0.BD.D0.B0.D0.BB.D0.B8.D0.B7_.28.D0.B2.D1.8B.D1.8F.D0.B2.D0.BB.D0.B5.D0.BD.D0.B8.D0.B5_.D0.BD.D0.B0.D0.B8.D0.BB.D1.83.D1.87.D1.88.D0.B5.D0.B3.D0.BE_.D0.BF.D0.BE.D0.B2.D0.B5.D0.B4.D0.B5.D0.BD.D0.B8.D1.8F.29">Нормативный анализ (выявление наилучшего поведения)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;veaction=edit&amp;section=8" class="mw-editsection-visualeditor" title="Редактировать раздел «Нормативный анализ (выявление наилучшего поведения)»">править</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;action=edit&amp;section=8" title="Редактировать раздел «Нормативный анализ (выявление наилучшего поведения)»">править вики-текст</a><span class="mw-editsection-bracket">]</span></span></h3> 
+     <p>С другой стороны, многие исследователи рассматривают теорию игр не как инструмент предсказания поведения, но как инструмент анализа ситуаций с целью выявления наилучшего поведения для рационального игрока. Поскольку равновесие Нэша включает стратегии, являющиеся наилучшим откликом на поведение другого игрока, использование концепции равновесия Нэша для выбора поведения выглядит вполне обоснованным. Однако, и такое использование теоретико-игровых моделей подверглось критике. Во-первых, в некоторых случаях игроку выгодно выбрать стратегию, не входящую в равновесие, если он ожидает, что другие игроки также не будут следовать равновесным стратегиям. Во-вторых, знаменитая игра «<a href="/wiki/%D0%94%D0%B8%D0%BB%D0%B5%D0%BC%D0%BC%D0%B0_%D0%B7%D0%B0%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE" class="mw-redirect" title="Дилемма заключенного">Дилемма заключенного</a>» позволяет привести ещё один контрпример. В «<a href="/wiki/%D0%94%D0%B8%D0%BB%D0%B5%D0%BC%D0%BC%D0%B0_%D0%B7%D0%B0%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE" class="mw-redirect" title="Дилемма заключенного">Дилемме заключенного</a>» следование личным интересам приводит к тому, что оба игрока оказываются в худшей ситуации в сравнении с той, в которой они пожертвовали бы личными интересами.</p> 
+     <h2><span id="Типы_игр"></span><span class="mw-headline" id=".D0.A2.D0.B8.D0.BF.D1.8B_.D0.B8.D0.B3.D1.80">Типы игр</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;veaction=edit&amp;section=9" class="mw-editsection-visualeditor" title="Редактировать раздел «Типы игр»">править</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;action=edit&amp;section=9" title="Редактировать раздел «Типы игр»">править вики-текст</a><span class="mw-editsection-bracket">]</span></span></h2> 
+     <h3><span id="Кооперативные_и_некооперативные"></span><span class="mw-headline" id=".D0.9A.D0.BE.D0.BE.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.B8.D0.B2.D0.BD.D1.8B.D0.B5_.D0.B8_.D0.BD.D0.B5.D0.BA.D0.BE.D0.BE.D0.BF.D0.B5.D1.80.D0.B0.D1.82.D0.B8.D0.B2.D0.BD.D1.8B.D0.B5">Кооперативные и некооперативные</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;veaction=edit&amp;section=10" class="mw-editsection-visualeditor" title="Редактировать раздел «Кооперативные и некооперативные»">править</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;action=edit&amp;section=10" title="Редактировать раздел «Кооперативные и некооперативные»">править вики-текст</a><span class="mw-editsection-bracket">]</span></span></h3> 
+     <div class="dablink noprint">
+      Основные статьи: 
+      <b><a href="/wiki/%D0%9A%D0%BE%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F_%D0%B8%D0%B3%D1%80%D0%B0_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" title="Кооперативная игра (математика)">Кооперативная игра (математика)</a></b>, 
+      <b><a href="/wiki/%D0%9D%D0%B5%D0%BA%D0%BE%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F_%D0%B8%D0%B3%D1%80%D0%B0" title="Некооперативная игра">Некооперативная игра</a></b>
+     </div> 
+     <p>Игра называется кооперативной, или <i>коалиционной</i>, если игроки могут объединяться в группы, взяв на себя некоторые обязательства перед другими игроками и координируя свои действия. Этим она отличается от некооперативных игр, в которых каждый обязан играть за себя. Развлекательные игры редко являются кооперативными, однако такие механизмы нередки в повседневной жизни.</p> 
+     <p>Часто предполагают, что кооперативные игры отличаются именно возможностью общения игроков друг с другом. В общем случае это неверно. Существуют игры, где коммуникация разрешена, но игроки преследуют личные цели, и наоборот.</p> 
+     <p>Из двух типов игр, некооперативные описывают ситуации в мельчайших деталях и выдают более точные результаты. Кооперативные рассматривают процесс игры в целом. Попытки объединить два подхода дали немалые результаты. Так называемая <i>программа Нэша</i> уже нашла решения некоторых кооперативных игр как ситуации равновесия некооперативных игр.</p> 
+     <p>Гибридные игры включают в себя элементы кооперативных и некооперативных игр. Например, игроки могут образовывать группы, но игра будет вестись в некооперативном стиле. Это значит, что каждый игрок будет преследовать интересы своей группы, вместе с тем стараясь достичь личной выгоды.</p> 
+     <h3><span id="Симметричные_и_несимметричные"></span><span class="mw-headline" id=".D0.A1.D0.B8.D0.BC.D0.BC.D0.B5.D1.82.D1.80.D0.B8.D1.87.D0.BD.D1.8B.D0.B5_.D0.B8_.D0.BD.D0.B5.D1.81.D0.B8.D0.BC.D0.BC.D0.B5.D1.82.D1.80.D0.B8.D1.87.D0.BD.D1.8B.D0.B5">Симметричные и несимметричные</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;veaction=edit&amp;section=11" class="mw-editsection-visualeditor" title="Редактировать раздел «Симметричные и несимметричные»">править</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;action=edit&amp;section=11" title="Редактировать раздел «Симметричные и несимметричные»">править вики-текст</a><span class="mw-editsection-bracket">]</span></span></h3> 
+     <table class="standard" align="right" width="225" cellpadding="4" cellspacing="0" style="margin: 1em 1em 1em 1em; background:#f9f9f9; float: right; clear:right; text-align:center; border: 1px #888 solid; border-collapse: collapse;"> 
+      <tbody>
+       <tr> 
+        <td style="width:33%;"></td> 
+        <td style="width:33%;">А</td> 
+        <td style="width:33%;">Б</td> 
+       </tr> 
+       <tr> 
+        <td style="text-align: right;">А</td> 
+        <td style="background:#f9f9f9;">1, 2</td> 
+        <td style="background:#f9f9f9;">0, 0</td> 
+       </tr> 
+       <tr> 
+        <td style="text-align: right;">Б</td> 
+        <td style="background:#f9f9f9;">0, 0</td> 
+        <td style="background:#f9f9f9;">1, 2</td> 
+       </tr> 
+       <tr> 
+        <td style="font-size: 90%;" colspan="3"><i>Несимметричная игра</i></td> 
+       </tr> 
+      </tbody>
+     </table> 
+     <div class="dablink noprint">
+      Основная статья: 
+      <b><a href="/w/index.php?title=%D0%A1%D0%B8%D0%BC%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%BD%D0%B0%D1%8F_%D0%B8%D0%B3%D1%80%D0%B0&amp;action=edit&amp;redlink=1" class="new" title="Симметричная игра (страница отсутствует)">Симметричная игра</a></b>
+     </div> 
+     <p>Игра будет симметричной тогда, когда соответствующие стратегии у игроков будут равны, то есть иметь одинаковые платежи. Иначе говоря, если игроки могут поменяться местами и при этом их выигрыши за одни и те же ходы не изменятся. Многие изучаемые игры для двух игроков&nbsp;— симметричные. В частности, таковыми являются: «<a href="/wiki/%D0%94%D0%B8%D0%BB%D0%B5%D0%BC%D0%BC%D0%B0_%D0%B7%D0%B0%D0%BA%D0%BB%D1%8E%D1%87%D1%91%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE" title="Дилемма заключённого">Дилемма заключённого</a>», «<a href="/wiki/%D0%9E%D1%85%D0%BE%D1%82%D0%B0_%D0%BD%D0%B0_%D0%BE%D0%BB%D0%B5%D0%BD%D1%8F_(%D0%B8%D0%B3%D1%80%D0%B0)" class="mw-redirect" title="Охота на оленя (игра)">Охота на оленя</a>», «<a href="/wiki/%D0%98%D0%B3%D1%80%D0%B0_%C2%AB%D0%AF%D1%81%D1%82%D1%80%D0%B5%D0%B1%D1%8B_%D0%B8_%D0%B3%D0%BE%D0%BB%D1%83%D0%B1%D0%B8%C2%BB" title="Игра «Ястребы и голуби»">Ястребы и голуби</a>».<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">[8]</a></sup> В качестве несимметричных игр можно привести «<a href="/w/index.php?title=%D0%A3%D0%BB%D1%8C%D1%82%D0%B8%D0%BC%D0%B0%D1%82%D1%83%D0%BC_(%D0%B8%D0%B3%D1%80%D0%B0)&amp;action=edit&amp;redlink=1" class="new" title="Ультиматум (игра) (страница отсутствует)">Ультиматум</a>» или «<a href="/w/index.php?title=%D0%94%D0%B8%D0%BA%D1%82%D0%B0%D1%82%D0%BE%D1%80_(%D0%B8%D0%B3%D1%80%D0%B0)&amp;action=edit&amp;redlink=1" class="new" title="Диктатор (игра) (страница отсутствует)">Диктатор</a>».</p> 
+     <p>В примере справа игра на первый взгляд может показаться симметричной из-за похожих стратегий, но это не так&nbsp;— ведь выигрыш второго игрока при профилях стратегий (А, А) и (Б, Б) будет больше, чем у первого.</p> 
+     <h3><span id="С_нулевой_суммой_и_с_ненулевой_суммой"></span><span class="mw-headline" id=".D0.A1_.D0.BD.D1.83.D0.BB.D0.B5.D0.B2.D0.BE.D0.B9_.D1.81.D1.83.D0.BC.D0.BC.D0.BE.D0.B9_.D0.B8_.D1.81_.D0.BD.D0.B5.D0.BD.D1.83.D0.BB.D0.B5.D0.B2.D0.BE.D0.B9_.D1.81.D1.83.D0.BC.D0.BC.D0.BE.D0.B9">С нулевой суммой и с ненулевой суммой</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;veaction=edit&amp;section=12" class="mw-editsection-visualeditor" title="Редактировать раздел «С нулевой суммой и с ненулевой суммой»">править</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;action=edit&amp;section=12" title="Редактировать раздел «С нулевой суммой и с ненулевой суммой»">править вики-текст</a><span class="mw-editsection-bracket">]</span></span></h3> 
+     <table class="standard" align="right" width="225" cellpadding="4" cellspacing="0" style="margin: 1em 1em 1em 1em; background:#f9f9f9; float: right; clear:right; text-align:center; border: 1px #888 solid; border-collapse: collapse;"> 
+      <tbody>
+       <tr> 
+        <td style="width:33%;"></td> 
+        <td style="width:33%;">А</td> 
+        <td style="width:33%;">Б</td> 
+       </tr> 
+       <tr> 
+        <td style="text-align: right;">А</td> 
+        <td style="background:#f9f9f9;">−1, 1</td> 
+        <td style="background:#f9f9f9;">3, −3</td> 
+       </tr> 
+       <tr> 
+        <td style="text-align: right;">Б</td> 
+        <td style="background:#f9f9f9;">0, 0</td> 
+        <td style="background:#f9f9f9;">−2, 2</td> 
+       </tr> 
+       <tr> 
+        <td style="font-size: 90%;" colspan="3"><i>Игра с нулевой суммой</i></td> 
+       </tr> 
+      </tbody>
+     </table> 
+     <div class="dablink noprint">
+      Основная статья: 
+      <b><a href="/wiki/%D0%98%D0%B3%D1%80%D0%B0_%D1%81_%D0%BD%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9_%D1%81%D1%83%D0%BC%D0%BC%D0%BE%D0%B9" class="mw-redirect" title="Игра с нулевой суммой">Игра с нулевой суммой</a></b>
+     </div> 
+     <p><b>Игры с нулевой суммой</b>&nbsp;— особая разновидность <b>игр с постоянной суммой</b>, то есть таких, где игроки не могут увеличить или уменьшить имеющиеся ресурсы, или фонд игры. В этом случае сумма всех выигрышей равна сумме всех проигрышей при любом ходе. Посмотрите направо&nbsp;— числа означают платежи игрокам&nbsp;— и их сумма в каждой клетке равна нулю. Примерами таких игр может служить <a href="/wiki/%D0%9F%D0%BE%D0%BA%D0%B5%D1%80" title="Покер">покер</a>, где один выигрывает все ставки других; <a href="/wiki/%D0%A0%D0%B5%D0%B2%D0%B5%D1%80%D1%81%D0%B8" title="Реверси">реверси</a>, где захватываются фишки противника; либо банальное <i><a href="/wiki/%D0%92%D0%BE%D1%80%D0%BE%D0%B2%D1%81%D1%82%D0%B2%D0%BE" class="mw-redirect" title="Воровство">воровство</a></i>.</p> 
+     <p>Многие изучаемые математиками игры, в том числе уже упоминавшаяся «Дилемма заключённого», иного рода: в <i>играх с ненулевой суммой</i> выигрыш какого-то игрока не обязательно означает проигрыш другого, и наоборот. Исход такой игры может быть меньше или больше нуля. Такие игры могут быть преобразованы к нулевой сумме&nbsp;— это делается введением <b>фиктивного игрока</b>, который «присваивает себе» излишек или восполняет недостаток средств.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9">[9]</a></sup></p> 
+     <p>Ещё игрой с отличной от нуля суммой является <i><a href="/wiki/%D0%A2%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D0%BB%D1%8F" title="Торговля">торговля</a></i>, где каждый участник извлекает выгоду. Широко известным примером, где она уменьшается, является <i><a href="/wiki/%D0%92%D0%BE%D0%B9%D0%BD%D0%B0" title="Война">война</a></i>.</p> 
+     <h3><span id="Параллельные_и_последовательные"></span><span class="mw-headline" id=".D0.9F.D0.B0.D1.80.D0.B0.D0.BB.D0.BB.D0.B5.D0.BB.D1.8C.D0.BD.D1.8B.D0.B5_.D0.B8_.D0.BF.D0.BE.D1.81.D0.BB.D0.B5.D0.B4.D0.BE.D0.B2.D0.B0.D1.82.D0.B5.D0.BB.D1.8C.D0.BD.D1.8B.D0.B5">Параллельные и последовательные</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;veaction=edit&amp;section=13" class="mw-editsection-visualeditor" title="Редактировать раздел «Параллельные и последовательные»">править</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;action=edit&amp;section=13" title="Редактировать раздел «Параллельные и последовательные»">править вики-текст</a><span class="mw-editsection-bracket">]</span></span></h3> 
+     <div class="dablink noprint">
+      Основная статья: 
+      <b><a href="/wiki/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B8%D0%B3%D1%80%D0%B0" title="Последовательная игра">Последовательная игра</a></b>
+     </div> 
+     <p>В параллельных играх игроки ходят одновременно, или, по крайней мере, они не осведомлены о выборе других до тех пор, пока <i>все</i> не сделают свой ход. В последовательных, или <i>динамических</i>, играх участники могут делать ходы в заранее установленном либо случайном порядке, но при этом они получают некоторую информацию о предшествующих действиях других. Эта информация может быть даже <i>не совсем полной</i>, например, игрок может узнать, что его противник из десяти своих стратегий <i>точно не выбрал</i> пятую, ничего не узнав о других.</p> 
+     <p>Различия в представлении параллельных и последовательных игр рассматривались выше. Первые обычно представляют в нормальной форме, а вторые&nbsp;— в экстенсивной.</p> 
+     <h3><span id="С_полной_или_неполной_информацией"></span><span class="mw-headline" id=".D0.A1_.D0.BF.D0.BE.D0.BB.D0.BD.D0.BE.D0.B9_.D0.B8.D0.BB.D0.B8_.D0.BD.D0.B5.D0.BF.D0.BE.D0.BB.D0.BD.D0.BE.D0.B9_.D0.B8.D0.BD.D1.84.D0.BE.D1.80.D0.BC.D0.B0.D1.86.D0.B8.D0.B5.D0.B9">С полной или неполной информацией</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;veaction=edit&amp;section=14" class="mw-editsection-visualeditor" title="Редактировать раздел «С полной или неполной информацией»">править</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;action=edit&amp;section=14" title="Редактировать раздел «С полной или неполной информацией»">править вики-текст</a><span class="mw-editsection-bracket">]</span></span></h3> 
+     <div class="dablink noprint">
+      Основная статья: 
+      <b><a href="/wiki/%D0%98%D0%B3%D1%80%D0%B0_%D1%81_%D0%BF%D0%BE%D0%BB%D0%BD%D0%BE%D0%B9_%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B5%D0%B9" title="Игра с полной информацией">Игра с полной информацией</a></b>
+     </div> 
+     <p>Важное подмножество последовательных игр составляют игры с полной информацией. В такой игре участники знают все ходы, сделанные до текущего момента, равно как и возможные стратегии противников, что позволяет им в некоторой степени предсказать последующее развитие игры. Полная информация не доступна в параллельных играх, так как в них неизвестны текущие ходы противников. Большинство изучаемых в математике игр&nbsp;— с неполной информацией. Например, вся «соль» <i><a href="/wiki/%D0%94%D0%B8%D0%BB%D0%B5%D0%BC%D0%BC%D0%B0_%D0%B7%D0%B0%D0%BA%D0%BB%D1%8E%D1%87%D1%91%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE" title="Дилемма заключённого">Дилеммы заключённого</a></i> или <i><a href="/w/index.php?title=%D0%A1%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BC%D0%BE%D0%BD%D0%B5%D1%82_(%D0%B8%D0%B3%D1%80%D0%B0)&amp;action=edit&amp;redlink=1" class="new" title="Сравнение монет (игра) (страница отсутствует)">Сравнения монеток</a></i> заключается в их неполноте.</p> 
+     <p>В то же время есть интересные примеры игр с полной информацией: «Ультиматум», «<a href="/w/index.php?title=%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D0%BD%D0%BE%D0%B6%D0%BA%D0%B0_(%D0%B8%D0%B3%D1%80%D0%B0)&amp;action=edit&amp;redlink=1" class="new" title="Многоножка (игра) (страница отсутствует)">Многоножка</a>». Сюда же относятся шахматы, шашки, го, <a href="/wiki/%D0%9C%D0%B0%D0%BD%D0%BA%D0%B0%D0%BB%D0%B0" title="Манкала">манкала</a> и другие.</p> 
+     <p>Часто понятие полной информации путают с похожим&nbsp;— <b><a href="/w/index.php?title=%D0%A1%D0%BE%D0%B2%D0%B5%D1%80%D1%88%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F&amp;action=edit&amp;redlink=1" class="new" title="Совершенная информация (страница отсутствует)">совершенной информации</a></b>. Для последнего достаточно лишь знание всех доступных противникам стратегий, знание всех их ходов необязательно.</p> 
+     <h3><span id="Игры_с_бесконечным_числом_шагов"></span><span class="mw-headline" id=".D0.98.D0.B3.D1.80.D1.8B_.D1.81_.D0.B1.D0.B5.D1.81.D0.BA.D0.BE.D0.BD.D0.B5.D1.87.D0.BD.D1.8B.D0.BC_.D1.87.D0.B8.D1.81.D0.BB.D0.BE.D0.BC_.D1.88.D0.B0.D0.B3.D0.BE.D0.B2">Игры с бесконечным числом шагов</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;veaction=edit&amp;section=15" class="mw-editsection-visualeditor" title="Редактировать раздел «Игры с бесконечным числом шагов»">править</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;action=edit&amp;section=15" title="Редактировать раздел «Игры с бесконечным числом шагов»">править вики-текст</a><span class="mw-editsection-bracket">]</span></span></h3> 
+     <p>Игры в реальном мире или изучаемые в экономике игры, как правило, длятся <i>конечное</i> число ходов. Математика не так ограничена, и в частности, в <a href="/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2" title="Теория множеств">теории множеств</a> рассматриваются игры, способные продолжаться <a href="/wiki/%D0%91%D0%B5%D1%81%D0%BA%D0%BE%D0%BD%D0%B5%D1%87%D0%BD%D0%BE%D1%81%D1%82%D1%8C" title="Бесконечность">бесконечно</a> долго. Причём победитель и его выигрыш не определены до окончания всех ходов.</p> 
+     <p>Задача, которая обычно ставится в этом случае, состоит не в поиске оптимального решения, а в поиске хотя бы <b>выигрышной стратегии</b>. Используя <a href="/wiki/%D0%90%D0%BA%D1%81%D0%B8%D0%BE%D0%BC%D0%B0_%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B0" title="Аксиома выбора">аксиому выбора</a>, можно доказать, что иногда даже для игр с полной информацией и двумя исходами&nbsp;— «выиграл» или «проиграл»&nbsp;— ни один из игроков не имеет такой стратегии. Существование выигрышных стратегий для некоторых особенным образом сконструированных игр имеет важную роль в <a href="/wiki/%D0%94%D0%B5%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F_%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2" class="mw-redirect" title="Дескриптивная теория множеств">дескриптивной теории множеств</a>.</p> 
+     <h3><span id="Дискретные_и_непрерывные_игры"></span><span class="mw-headline" id=".D0.94.D0.B8.D1.81.D0.BA.D1.80.D0.B5.D1.82.D0.BD.D1.8B.D0.B5_.D0.B8_.D0.BD.D0.B5.D0.BF.D1.80.D0.B5.D1.80.D1.8B.D0.B2.D0.BD.D1.8B.D0.B5_.D0.B8.D0.B3.D1.80.D1.8B">Дискретные и непрерывные игры</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;veaction=edit&amp;section=16" class="mw-editsection-visualeditor" title="Редактировать раздел «Дискретные и непрерывные игры»">править</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;action=edit&amp;section=16" title="Редактировать раздел «Дискретные и непрерывные игры»">править вики-текст</a><span class="mw-editsection-bracket">]</span></span></h3> 
+     <div class="dablink noprint">
+      Основная статья: 
+      <b><a href="/wiki/%D0%94%D0%B8%D1%84%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%B8%D0%B3%D1%80%D1%8B" title="Дифференциальные игры">Дифференциальные игры</a></b>
+     </div> 
+     <p>Большинство изучаемых игр <i>дискретны</i>: в них конечное число игроков, ходов, событий, исходов и&nbsp;т.&nbsp;п. Однако эти составляющие могут быть расширены на множество <a href="/wiki/%D0%92%D0%B5%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5_%D1%87%D0%B8%D1%81%D0%BB%D0%BE" title="Вещественное число">вещественных чисел</a>. Игры, включающие такие элементы, часто называются дифференциальными. Они связаны с какой-то вещественной <a href="/wiki/%D0%A8%D0%BA%D0%B0%D0%BB%D0%B0" title="Шкала">шкалой</a> (обычно&nbsp;— шкалой времени), хотя происходящие в них события могут быть дискретными по природе. Дифференциальные игры также рассматриваются в <a href="/wiki/%D0%9E%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" title="Оптимизация (математика)">теории оптимизации</a>, находят своё применение в <a href="/wiki/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0" title="Техника">технике</a> и <a href="/wiki/%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" title="Технология">технологиях</a>, <a href="/wiki/%D0%A4%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0" title="Физика">физике</a>.</p> 
+     <h3><span id="Метаигры"></span><span class="mw-headline" id=".D0.9C.D0.B5.D1.82.D0.B0.D0.B8.D0.B3.D1.80.D1.8B">Метаигры</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;veaction=edit&amp;section=17" class="mw-editsection-visualeditor" title="Редактировать раздел «Метаигры»">править</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;action=edit&amp;section=17" title="Редактировать раздел «Метаигры»">править вики-текст</a><span class="mw-editsection-bracket">]</span></span></h3> 
+     <p>Это игры, результатом которых является набор правил для другой игры (называемой <i>целевой</i> или <i>игрой-объектом</i>). Цель метаигр&nbsp;— увеличить полезность выдаваемого набора правил. Теория метаигр связана с <a href="/wiki/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD_%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%B7%D0%BC%D0%BE%D0%B2" title="Дизайн механизмов">теорией оптимальных механизмов</a>.</p> 
+     <h2><span id="См._также"></span><span class="mw-headline" id=".D0.A1.D0.BC._.D1.82.D0.B0.D0.BA.D0.B6.D0.B5">См. также</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;veaction=edit&amp;section=18" class="mw-editsection-visualeditor" title="Редактировать раздел «См. также»">править</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;action=edit&amp;section=18" title="Редактировать раздел «См. также»">править вики-текст</a><span class="mw-editsection-bracket">]</span></span></h2> 
+     <ul> 
+      <li><a href="/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%BF%D1%80%D0%B8%D0%BD%D1%8F%D1%82%D0%B8%D1%8F_%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B9" title="Теория принятия решений">Теория принятия решений</a></li> 
+      <li><a href="/wiki/%D0%90%D0%BD%D1%82%D0%B0%D0%B3%D0%BE%D0%BD%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%B8%D0%B3%D1%80%D0%B0" title="Антагонистическая игра">Антагонистическая игра</a></li> 
+      <li><a href="/wiki/%D0%94%D0%B8%D1%84%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%B8%D0%B3%D1%80%D1%8B" title="Дифференциальные игры">Дифференциальные игры</a></li> 
+      <li><a href="/wiki/%D0%98%D0%B3%D1%80%D0%B0_%D0%BF%D1%80%D0%B5%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F" title="Игра преследования">Игра преследования</a></li> 
+      <li><a href="/wiki/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D1%8B%D0%B5_%D0%B8%D0%B3%D1%80%D1%8B" title="Сетевые игры">Сетевые игры</a></li> 
+      <li><a href="/wiki/%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D1%8B%D0%B5_%D1%88%D0%B0%D1%85%D0%BC%D0%B0%D1%82%D1%8B" title="Компьютерные шахматы">Компьютерные шахматы</a></li> 
+      <li><a href="/wiki/%D0%9A%D0%BE%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%81%D1%82%D0%BE%D1%85%D0%B0%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D0%B8%D0%B3%D1%80%D1%8B" title="Кооперативные стохастические игры">Кооперативные стохастические игры</a></li> 
+      <li><a href="/wiki/%D0%9C%D0%B0%D1%80%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81_%D0%BF%D1%80%D0%B8%D0%BD%D1%8F%D1%82%D0%B8%D1%8F_%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B9" title="Марковский процесс принятия решений">Марковский процесс принятия решений</a></li> 
+      <li><a href="/wiki/%D0%9B%D0%B8%D0%BD%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F_%D1%87%D0%B0%D1%81%D1%82%D0%B8%D1%87%D0%BD%D0%B0%D1%8F_%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F" title="Линейная частичная информация">Линейная частичная информация</a></li> 
+      <li><a href="/wiki/%D0%94%D0%B8%D0%BB%D0%B5%D0%BC%D0%BC%D0%B0_%D0%B7%D0%B0%D0%BA%D0%BB%D1%8E%D1%87%D1%91%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE" title="Дилемма заключённого">Дилемма заключённого</a></li> 
+      <li><a href="/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80_%D0%B8_%D0%B5%D1%91_%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F" title="Математическая теория игр и её приложения">Математическая теория игр и её приложения</a></li> 
+      <li><a href="/wiki/%D0%9C%D0%B0%D1%82%D1%87%D0%B8%D0%BD%D0%B3" title="Матчинг">Матчинг</a></li> 
+     </ul> 
+     <h2><span id="Примечания"></span><span class="mw-headline" id=".D0.9F.D1.80.D0.B8.D0.BC.D0.B5.D1.87.D0.B0.D0.BD.D0.B8.D1.8F">Примечания</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;veaction=edit&amp;section=19" class="mw-editsection-visualeditor" title="Редактировать раздел «Примечания»">править</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;action=edit&amp;section=19" title="Редактировать раздел «Примечания»">править вики-текст</a><span class="mw-editsection-bracket">]</span></span></h2> 
+     <div class="references-small columns" style="column-count:2;-moz-column-count:2;-webkit-column-count:2;"> 
+      <ol class="references"> 
+       <li id="cite_note-1"><b><a href="#cite_ref-1">↑</a></b> <span class="reference-text">Этим она отличается от теории принятия решений</span></li> 
+       <li id="cite_note-2"><b><a href="#cite_ref-2">↑</a></b> <span class="reference-text"><a rel="nofollow" class="external text" href="http://institutiones.com/download/books/806-teoriya-igr-economichescoe-povedenie.html">Одно из изданий на русском языке</a></span></li> 
+       <li id="cite_note-3"><b><a href="#cite_ref-3">↑</a></b> <span class="reference-text"><i>A Beautiful Mind: A Biography of John Forbes Nash, Jr., Winner of the Nobel Prize in Economics</i> <a href="/wiki/Simon_%26_Schuster" title="Simon &amp; Schuster">Simon &amp; Schuster</a>, 1994. <a href="/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%98%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8_%D0%BA%D0%BD%D0%B8%D0%B3/0684819066" class="internal mw-magiclink-isbn">ISBN 0-684-81906-6</a></span></li> 
+       <li id="cite_note-4"><b><a href="#cite_ref-4">↑</a></b> <span class="reference-text">С. 10. Дубина И.&nbsp;Н.&nbsp;Основы теории экономических игр: учебное пособие.- М.: КНОРУС, 2010</span></li> 
+       <li id="cite_note-5"><b><a href="#cite_ref-5">↑</a></b> <span class="reference-text">Не отождествлять с <i>позиционными играми</i>, которые просто часто в такой форме представляют.</span></li> 
+       <li id="cite_note-6"><b><a href="#cite_ref-6">↑</a></b> <span class="reference-text">В общем случае, во-первых, матрица не плоская, а n-мерная по числу игроков; а во-вторых, игру в нормальной форме игру можно перевести в функцию, вычисляющей выигрыши от выбранных стратегий.</span></li> 
+       <li id="cite_note-7"><b><a href="#cite_ref-7">↑</a></b> <span class="reference-text">от <a href="/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Английский язык">англ.</a>&nbsp;<i><span lang="en" xml:lang="en">trade union</span></i>&nbsp;— <a href="/wiki/%D0%9F%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%81%D0%BE%D1%8E%D0%B7" title="Профессиональный союз">профессиональный союз</a>..</span></li> 
+       <li id="cite_note-8"><b><a href="#cite_ref-8">↑</a></b> <span class="reference-text">Правда, для этих игр можно изменить платёжные матрицы так, чтобы те стали несимметричными, но обычно этого не делается.</span></li> 
+       <li id="cite_note-9"><b><a href="#cite_ref-9">↑</a></b> <span class="reference-text">Таким образом, будет ли считаться игра с «нулевой» или «ненулевой» суммой&nbsp;— зависит на самом деле от её <a href="/wiki/%D0%A4%D0%BE%D1%80%D0%BC%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F" title="Формализация">формализации</a>.</span></li> 
+      </ol> 
+     </div> 
+     <h2><span id="Литература"></span><span class="mw-headline" id=".D0.9B.D0.B8.D1.82.D0.B5.D1.80.D0.B0.D1.82.D1.83.D1.80.D0.B0">Литература</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;veaction=edit&amp;section=20" class="mw-editsection-visualeditor" title="Редактировать раздел «Литература»">править</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;action=edit&amp;section=20" title="Редактировать раздел «Литература»">править вики-текст</a><span class="mw-editsection-bracket">]</span></span></h2> 
+     <ul> 
+      <li><span class="citation no-wikidata" data-wikidata-property-id="P1343"><i><a href="/wiki/%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D1%81%D1%8F%D0%BD,_%D0%9B%D0%B5%D0%BE%D0%BD_%D0%90%D0%B3%D0%B0%D0%BD%D0%B5%D1%81%D0%BE%D0%B2%D0%B8%D1%87" title="Петросян, Леон Аганесович">Петросян Л. А.</a> Зенкевич Н.А., Семина Е.А.</i> Теория игр: Учеб. пособие для ун-тов.&nbsp;— <abbr title="Москва">М.</abbr>: Высш. шк., Книжный дом «Университет», 1998.&nbsp;— С.&nbsp;304.&nbsp;— <a href="/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%98%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8_%D0%BA%D0%BD%D0%B8%D0%B3/5060010058" class="internal mw-magiclink-isbn">ISBN 5-06-001005-8</a>, 5-8013-0007-4.</span></li> 
+      <li><span class="citation no-wikidata" data-wikidata-property-id="P1343"><i><a href="/wiki/%D0%9C%D0%B0%D0%B7%D0%B0%D0%BB%D0%BE%D0%B2,_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87" title="Мазалов, Владимир Викторович">Мазалов В.В.</a></i> Математическая теория игр и приложения.&nbsp;— Санкт-Петербург - Москва - Краснодар: Лань, 2010.&nbsp;— 446&nbsp;с.&nbsp;— <a href="/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%98%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8_%D0%BA%D0%BD%D0%B8%D0%B3/9785811410255" class="internal mw-magiclink-isbn">ISBN 978-5-8114-1025-5</a>.</span></li> 
+     </ul> 
+     <h2><span id="Ссылки"></span><span class="mw-headline" id=".D0.A1.D1.81.D1.8B.D0.BB.D0.BA.D0.B8">Ссылки</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;veaction=edit&amp;section=21" class="mw-editsection-visualeditor" title="Редактировать раздел «Ссылки»">править</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;action=edit&amp;section=21" title="Редактировать раздел «Ссылки»">править вики-текст</a><span class="mw-editsection-bracket">]</span></span></h2> 
+     <div class="references-small" style="margin-left:1.5em;"> 
+      <ul> 
+       <li><a rel="nofollow" class="external text" href="http://trv-science.ru/2011/08/16/10-faktov-o-teorii-igr/">10 фактов о теории игр</a></li> 
+       <li><a rel="nofollow" class="external text" href="https://web.archive.org/web/20070217042413/http://ecsocman.edu.ru/db/msg/54933.html">Теория игр</a>&nbsp;— статья Миркина Б. Г. на портале «Экономика. Социология. Менеджмент»</li> 
+       <li><a rel="nofollow" class="external text" href="http://chernykh.net/content/view/152/">Теория игр</a></li> 
+       <li>Оуэн, Г. <a rel="nofollow" class="external text" href="http://www.krelib.com/matematicheskaja_kibernetika/3247">Теория игр</a></li> 
+       <li>Дж. фон Нейман, О. Моргенштерн. <a rel="nofollow" class="external text" href="http://log-in.ru/books/19900/">Теория игр и экономическое поведение</a></li> 
+       <li>Дж. Д. Вильямс <a rel="nofollow" class="external text" href="http://financepro.ru/work/5316-dzh.-d.-viljams-sovershennyjj-strateg-ili-bukvar.html">Совершенный стратег или букварь по теории стратегических игр</a></li> 
+       <li>Д.&nbsp;А.&nbsp;Фёдоровых <a rel="nofollow" class="external text" href="http://theoryandpractice.ru/videos/619-igry-kotorye-izuchayut-ekonomisty">Игры, которые изучают экономисты</a>&nbsp;— научно-популярная лекция</li> 
+       <li><span class="citation"><i>Раскин М. А.</i>&nbsp;<a rel="nofollow" class="external text" href="http://www.mccme.ru/dubna/2008/material.htm">Введение в теорию игр</a>&nbsp;// Летняя школа «Современная математика».&nbsp;— Дубна, 2008.</span></li> 
+       <li>Майкл Темплтон <a rel="nofollow" class="external text" href="http://existenzia.ru/theory/mind_games_great_theory">Теория игр</a> &nbsp;<span class="ref-info">(недоступная ссылка&nbsp;с 13-05-2013 [1605&nbsp;дней]&nbsp;— <a rel="nofollow" class="external text" href="//web.archive.org/web/*/http://existenzia.ru/theory/mind_games_great_theory"><i>история</i></a>)</span></li> 
+      </ul> 
+     </div> 
+     <div role="navigation" class="navbox" aria-labelledby=".D0.A2.D0.B5.D0.BE.D1.80.D0.B8.D1.8F_.D0.B8.D0.B3.D1.80" style="padding:3px"> 
+      <table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"> 
+       <tbody>
+        <tr> 
+         <th scope="col" class="navbox-title" colspan="2"><span style="float:left;text-align:left;width:5em;margin-right:0.5em"><a href="/wiki/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD:%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80" title="Просмотр этого шаблона"><img alt="⛭" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Wikipedia_interwiki_section_gear_icon.svg/14px-Wikipedia_interwiki_section_gear_icon.svg.png" width="14" height="14" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Wikipedia_interwiki_section_gear_icon.svg/21px-Wikipedia_interwiki_section_gear_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Wikipedia_interwiki_section_gear_icon.svg/28px-Wikipedia_interwiki_section_gear_icon.svg.png 2x" data-file-width="14" data-file-height="14"></a></span> 
+          <div id=".D0.A2.D0.B5.D0.BE.D1.80.D0.B8.D1.8F_.D0.B8.D0.B3.D1.80" style="font-size:114%;margin:0 5em">
+           <a class="mw-selflink selflink">Теория игр</a>
+          </div> </th> 
+        </tr> 
+        <tr> 
+         <td class="navbox-abovebelow" colspan="2"> 
+          <div>
+           <a href="/wiki/%D0%AD%D0%BF%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80" title="Эпистемическая теория игр">Эпистемическая теория игр</a>
+          </div> </td> 
+        </tr> 
+        <tr> 
+         <th scope="row" class="navbox-group" style="width:1px">Определения</th> 
+         <td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"> 
+          <div style="padding:0em 0.25em">
+           <a href="/wiki/%D0%9D%D0%B5%D0%BA%D0%BE%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F_%D0%B8%D0%B3%D1%80%D0%B0" title="Некооперативная игра">Некооперативная игра</a>
+           <span style="font-weight:bold;">&nbsp;·</span> 
+           <a href="/wiki/%D0%9A%D0%BE%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F_%D0%B8%D0%B3%D1%80%D0%B0_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" title="Кооперативная игра (математика)">Кооперативная игра</a>
+           <span style="font-weight:bold;">&nbsp;·</span> 
+           <a href="/wiki/%D0%90%D0%BD%D1%82%D0%B0%D0%B3%D0%BE%D0%BD%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%B8%D0%B3%D1%80%D0%B0" title="Антагонистическая игра">Антагонистическая игра</a>
+           <span style="font-weight:bold;">&nbsp;·</span> 
+           <a href="/wiki/%D0%A1%D1%82%D0%BE%D1%85%D0%B0%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%B8%D0%B3%D1%80%D0%B0" title="Стохастическая игра">Стохастическая игра</a>
+           <span style="font-weight:bold;">&nbsp;·</span> 
+           <a href="/wiki/%D0%94%D0%B8%D1%84%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%B8%D0%B3%D1%80%D1%8B" title="Дифференциальные игры">Дифференциальные игры</a>
+           <span style="font-weight:bold;">&nbsp;·</span> 
+           <a href="/wiki/%D0%98%D0%B3%D1%80%D0%BE%D0%BA_(%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80)" title="Игрок (теория игр)">Игрок</a>
+           <span style="font-weight:bold;">&nbsp;·</span> 
+           <a href="/wiki/%D0%A1%D1%82%D1%80%D0%B0%D1%82%D0%B5%D0%B3%D0%B8%D1%8F_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" class="mw-redirect" title="Стратегия (математика)">Стратегия</a>
+           <span style="font-weight:bold;">&nbsp;·</span> 
+           <a href="/wiki/%D0%94%D0%BE%D0%BC%D0%B8%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_(%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80)" title="Доминирование (теория игр)">Доминирование стратегий</a>
+           <span style="font-weight:bold;">&nbsp;·</span> 
+           <a href="/wiki/%D0%9E%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D0%B0%D1%8F_%D0%B8%D0%BD%D0%B4%D1%83%D0%BA%D1%86%D0%B8%D1%8F" title="Обратная индукция">Обратная индукция</a>
+           <span style="font-weight:bold;">&nbsp;·</span> 
+           <a href="/wiki/%D0%98%D0%B5%D1%80%D0%B0%D1%80%D1%85%D0%B8%D1%8F_%D0%B2%D0%B5%D1%80" title="Иерархия вер">Иерархия вер</a>
+          </div> </td> 
+        </tr> 
+        <tr> 
+         <th scope="row" class="navbox-group" style="width:1px"><a href="/wiki/%D0%9F%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF_%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8" class="mw-redirect" title="Принцип оптимальности">Принципы<br> оптимальности</a></th> 
+         <td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"> 
+          <div style="padding:0em 0.25em">
+           <a href="/wiki/%D0%A0%D0%B0%D0%B2%D0%BD%D0%BE%D0%B2%D0%B5%D1%81%D0%B8%D0%B5_%D0%9D%D1%8D%D1%88%D0%B0" title="Равновесие Нэша">Равновесие Нэша</a>
+           <span style="font-weight:bold;">&nbsp;·</span> 
+           <a href="/wiki/%D0%AD%D1%84%D1%84%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%D0%BF%D0%BE_%D0%9F%D0%B0%D1%80%D0%B5%D1%82%D0%BE" title="Эффективность по Парето">Эффективность по Парето</a>
+           <span style="font-weight:bold;">&nbsp;·</span> 
+           <a href="/wiki/%D0%A0%D0%B0%D0%B2%D0%BD%D0%BE%D0%B2%D0%B5%D1%81%D0%B8%D0%B5_%D0%B2_%D0%B4%D0%BE%D0%BC%D0%B8%D0%BD%D0%B8%D1%80%D1%83%D1%8E%D1%89%D0%B8%D1%85_%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B5%D0%B3%D0%B8%D1%8F%D1%85" title="Равновесие в доминирующих стратегиях">Равновесие в доминирующих стратегиях</a>
+           <span style="font-weight:bold;">&nbsp;·</span> 
+           <a href="/w/index.php?title=%D0%A0%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BF%D0%BE_%D0%B4%D0%BE%D0%BC%D0%B8%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E&amp;action=edit&amp;redlink=1" class="new" title="Решение по доминированию (страница отсутствует)">Решение по доминированию</a>
+           <span style="font-weight:bold;">&nbsp;·</span> 
+           <a href="/wiki/%D0%A0%D0%B0%D0%B2%D0%BD%D0%BE%D0%B2%D0%B5%D1%81%D0%B8%D0%B5_%D0%B4%D1%80%D0%BE%D0%B6%D0%B0%D1%89%D0%B5%D0%B9_%D1%80%D1%83%D0%BA%D0%B8" title="Равновесие дрожащей руки">Равновесие дрожащей руки</a>
+           <span style="font-weight:bold;">&nbsp;·</span> 
+           <a href="/wiki/%D0%A0%D0%B0%D0%B2%D0%BD%D0%BE%D0%B2%D0%B5%D1%81%D0%B8%D0%B5,_%D1%81%D0%BE%D0%B2%D0%B5%D1%80%D1%88%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D0%BE_%D0%BF%D0%BE%D0%B4%D1%8B%D0%B3%D1%80%D0%B0%D0%BC" title="Равновесие, совершенное по подыграм">Равновесие, совершенное по подыграм</a>
+           <span style="font-weight:bold;">&nbsp;·</span> 
+           <a href="/wiki/%D0%A1%D0%BE%D0%B1%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5_%D1%80%D0%B0%D0%B2%D0%BD%D0%BE%D0%B2%D0%B5%D1%81%D0%B8%D0%B5" title="Собственное равновесие">Собственное равновесие</a>
+           <span style="font-weight:bold;">&nbsp;·</span> 
+           <a href="/wiki/%D0%A1%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D1%80%D0%B0%D0%B2%D0%BD%D0%BE%D0%B2%D0%B5%D1%81%D0%B8%D0%B5" title="Сильное равновесие">Сильное равновесие</a>
+           <span style="font-weight:bold;">&nbsp;·</span> 
+           <a href="/wiki/%D0%AD%D0%BF%D1%81%D0%B8%D0%BB%D0%BE%D0%BD-%D1%80%D0%B0%D0%B2%D0%BD%D0%BE%D0%B2%D0%B5%D1%81%D0%B8%D0%B5" title="Эпсилон-равновесие">Эпсилон-равновесие</a>
+           <span style="font-weight:bold;">&nbsp;·</span> 
+           <a href="/w/index.php?title=%D0%9A%D0%BE%D1%80%D1%80%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D1%80%D0%B0%D0%B2%D0%BD%D0%BE%D0%B2%D0%B5%D1%81%D0%B8%D0%B5&amp;action=edit&amp;redlink=1" class="new" title="Коррелированное равновесие (страница отсутствует)">Коррелированное равновесие</a>
+           <span style="font-weight:bold;">&nbsp;·</span> 
+           <a href="/w/index.php?title=%D0%A1%D0%B5%D0%BA%D0%B2%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D1%80%D0%B0%D0%B2%D0%BD%D0%BE%D0%B2%D0%B5%D1%81%D0%B8%D0%B5&amp;action=edit&amp;redlink=1" class="new" title="Секвенциальное равновесие (страница отсутствует)">Секвенциальное равновесие</a>
+           <span style="font-weight:bold;">&nbsp;·</span> 
+           <a href="/wiki/%D0%94%D0%BE%D0%BC%D0%B8%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BF%D0%BE_%D1%80%D0%B8%D1%81%D0%BA%D1%83" title="Доминирование по риску">Доминирование по риску</a>
+           <span style="font-weight:bold;">&nbsp;·</span> 
+           <a href="/wiki/%D0%AD%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE_%D1%81%D1%82%D0%B0%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B5%D0%B3%D0%B8%D1%8F" title="Эволюционно стабильная стратегия">Эволюционно стабильная стратегия</a>
+          </div> </td> 
+        </tr> 
+        <tr> 
+         <th scope="row" class="navbox-group" style="width:1px">Примеры <a href="/wiki/%D0%98%D0%B3%D1%80%D0%B0" title="Игра">игр</a></th> 
+         <td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"> 
+          <div style="padding:0em 0.25em">
+           <a href="/wiki/%D0%94%D0%B8%D0%BB%D0%B5%D0%BC%D0%BC%D0%B0_%D0%B7%D0%B0%D0%BA%D0%BB%D1%8E%D1%87%D1%91%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE" title="Дилемма заключённого">Дилемма заключённого</a>
+           <span style="font-weight:bold;">&nbsp;·</span> 
+           <a href="/wiki/%D0%A2%D1%80%D0%B0%D0%B3%D0%B5%D0%B4%D0%B8%D1%8F_%D0%BE%D0%B1%D1%89%D0%B8%D0%BD" title="Трагедия общин">Трагедия общин</a>
+           <span style="font-weight:bold;">&nbsp;·</span> 
+           <a href="/wiki/%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C_%D0%91%D0%B5%D1%80%D1%82%D1%80%D0%B0%D0%BD%D0%B0" title="Модель Бертрана">Модель Бертрана</a>
+           <span style="font-weight:bold;">&nbsp;·</span> 
+           <a href="/wiki/%D0%9E%D0%BB%D0%B8%D0%B3%D0%BE%D0%BF%D0%BE%D0%BB%D0%B8%D1%8F_%D0%9A%D1%83%D1%80%D0%BD%D0%BE" title="Олигополия Курно">Модель Курно</a>
+           <span style="font-weight:bold;">&nbsp;·</span> 
+           <a href="/wiki/%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C_%D0%A8%D1%82%D0%B0%D0%BA%D0%B5%D0%BB%D1%8C%D0%B1%D0%B5%D1%80%D0%B3%D0%B0" title="Модель Штакельберга">Модель Штакельберга</a>
+           <span style="font-weight:bold;">&nbsp;·</span> 
+           <a href="/wiki/%D0%98%D0%B3%D1%80%D0%B0_%C2%AB%D0%AF%D1%81%D1%82%D1%80%D0%B5%D0%B1%D1%8B_%D0%B8_%D0%B3%D0%BE%D0%BB%D1%83%D0%B1%D0%B8%C2%BB" title="Игра «Ястребы и голуби»">Игра «Ястребы и голуби»</a>
+           <span style="font-weight:bold;">&nbsp;·</span> 
+           <a href="/wiki/%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0_%D0%B1%D0%B0%D1%80%D0%B0_%C2%AB%D0%9F%D0%BB%D0%BE%D1%88%D0%BA%D0%B0%C2%BB" title="Задача бара «Плошка»">Задача бара «Плошка»</a>
+          </div> </td> 
+        </tr> 
+       </tbody>
+      </table> 
+     </div> 
+     <div role="navigation" class="navbox" aria-labelledby=".D0.A0.D0.B0.D0.B7.D0.B4.D0.B5.D0.BB.D1.8B_.D0.BC.D0.B0.D1.82.D0.B5.D0.BC.D0.B0.D1.82.D0.B8.D0.BA.D0.B8" style="background:#f0f0f0;;padding:3px"> 
+      <table class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"> 
+       <tbody>
+        <tr> 
+         <th scope="col" class="navbox-title" colspan="2" style="background:#ccccff;"><span style="float:left;text-align:left;width:5em;margin-right:0.5em"><a href="/wiki/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD:%D0%A0%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D1%8B_%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B8" title="Просмотр этого шаблона"><img alt="⛭" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Wikipedia_interwiki_section_gear_icon.svg/14px-Wikipedia_interwiki_section_gear_icon.svg.png" width="14" height="14" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Wikipedia_interwiki_section_gear_icon.svg/21px-Wikipedia_interwiki_section_gear_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Wikipedia_interwiki_section_gear_icon.svg/28px-Wikipedia_interwiki_section_gear_icon.svg.png 2x" data-file-width="14" data-file-height="14"></a></span> 
+          <div id=".D0.A0.D0.B0.D0.B7.D0.B4.D0.B5.D0.BB.D1.8B_.D0.BC.D0.B0.D1.82.D0.B5.D0.BC.D0.B0.D1.82.D0.B8.D0.BA.D0.B8" style="font-size:114%;margin:0 5em">
+           <a href="/wiki/%D0%A0%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D1%8B_%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B8" title="Разделы математики">Разделы математики</a>
+          </div> </th> 
+        </tr> 
+        <tr> 
+         <td class="navbox-abovebelow" colspan="2" style="background:#f0f0f0;"> 
+          <div>
+           <a href="/wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%9D%D0%B0%D1%83%D0%BA%D0%B0" title="Портал:Наука">Портал «Наука»</a>
+          </div> </td> 
+        </tr> 
+        <tr> 
+         <td class="navbox-list navbox-odd" style="width:100%;padding:0px;background:#fff;;height:25px;"> 
+          <div style="padding:0em 0.25em"> 
+           <dl> 
+            <dt>
+             <a href="/wiki/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B8" class="mw-redirect" title="Основания математики">Основания математики</a>
+            </dt> 
+            <dd>
+             <a href="/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2" title="Теория множеств">Теория множеств</a>
+            </dd> 
+            <dd>
+             <a href="/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%BB%D0%BE%D0%B3%D0%B8%D0%BA%D0%B0" title="Математическая логика">Математическая логика</a> 
+             <dl> 
+              <dd>
+               <a href="/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0_%D0%BB%D0%BE%D0%B3%D0%B8%D0%BA%D0%B8" title="Алгебра логики">алгебра логики</a>
+              </dd> 
+             </dl> 
+            </dd> 
+           </dl> 
+          </div> </td> 
+        </tr> 
+        <tr> 
+         <td class="navbox-list navbox-even" style="width:100%;padding:0px;background:#eee;;height:25px;"> 
+          <div style="padding:0em 0.25em">
+           <a href="/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D1%87%D0%B8%D1%81%D0%B5%D0%BB" title="Теория чисел">Теория чисел</a> (
+           <a href="/wiki/%D0%90%D1%80%D0%B8%D1%84%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B0" title="Арифметика">арифметика</a>)
+          </div> </td> 
+        </tr> 
+        <tr> 
+         <td class="navbox-list navbox-odd" style="width:100%;padding:0px;background:#fff;"> 
+          <div style="padding:0em 0.25em"></div> 
+          <table class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0"> 
+           <tbody>
+            <tr> 
+             <th scope="col" class="navbox-title" colspan="2"> 
+              <div id=".D0.90.D0.BB.D0.B3.D0.B5.D0.B1.D1.80.D0.B0" style="font-size:114%;margin:0 5em">
+               <a href="/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" title="Алгебра">Алгебра</a>
+              </div> </th> 
+            </tr> 
+            <tr> 
+             <td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px"> 
+              <div style="padding:0em 0.25em">
+               <span class="nowrap"><a href="/wiki/%D0%AD%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%BD%D0%B0%D1%8F_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" title="Элементарная алгебра">Элементарная алгебра</a> &nbsp;•</span> 
+               <span class="nowrap"><a href="/wiki/%D0%9B%D0%B8%D0%BD%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" title="Линейная алгебра">Линейная алгебра</a> (<a href="/wiki/%D0%9F%D0%BE%D0%BB%D0%B8%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" title="Полилинейная алгебра">Полилинейная алгебра</a>) &nbsp;•</span> 
+               <span class="nowrap"><a href="/wiki/%D0%9E%D0%B1%D1%89%D0%B0%D1%8F_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" title="Общая алгебра">Общая алгебра</a></span>
+              </div> </td> 
+            </tr> 
+            <tr> 
+             <th scope="row" class="navbox-group" style="width:1px;padding:2px;"><span class="nowrap"><a href="/wiki/%D0%9E%D0%B1%D1%89%D0%B0%D1%8F_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" title="Общая алгебра">Общая алгебра</a></span></th> 
+             <td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;background:#ddd;"> 
+              <div style="padding:0em 0.25em">
+               <span class="nowrap"><a href="/wiki/%D0%9A%D0%BE%D0%BC%D0%BC%D1%83%D1%82%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" title="Коммутативная алгебра">Коммутативная алгебра</a> &nbsp;•</span> 
+               <span class="nowrap"><a href="/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9" title="Теория представлений">Теория представлений</a> &nbsp;•</span> 
+               <span class="nowrap"><a href="/wiki/%D0%94%D0%B8%D1%84%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" title="Дифференциальная алгебра">Дифференциальная алгебра</a> &nbsp;•</span> 
+               <span class="nowrap"><a href="/wiki/%D0%93%D0%BE%D0%BC%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" title="Гомологическая алгебра">Гомологическая алгебра</a> &nbsp;•</span> 
+               <span class="nowrap"><a href="/wiki/%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" title="Универсальная алгебра">Универсальная алгебра</a> &nbsp;•</span> 
+               <span class="nowrap"><a href="/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D0%B9" title="Теория категорий">Теория категорий</a></span>
+              </div> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td class="navbox-list navbox-odd" style="width:100%;padding:0px;background:#eee;"> 
+          <div style="padding:0em 0.25em"></div> 
+          <table class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0"> 
+           <tbody>
+            <tr> 
+             <th scope="col" class="navbox-title" colspan="2"> 
+              <div id=".D0.90.D0.BD.D0.B0.D0.BB.D0.B8.D0.B7" style="font-size:114%;margin:0 5em">
+               <a href="/wiki/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7_(%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB_%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B8)" title="Анализ (раздел математики)">Анализ</a>
+              </div> </th> 
+            </tr> 
+            <tr> 
+             <th scope="row" class="navbox-group" style="width:1px"><a href="/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7" class="mw-redirect" title="Классический математический анализ">Классический анализ</a></th> 
+             <td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"> 
+              <div style="padding:0em 0.25em">
+               <span class="nowrap"><a href="/wiki/%D0%94%D0%B8%D1%84%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D0%B8%D1%81%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5" title="Дифференциальное исчисление">Дифференциальное исчисление</a>&nbsp;•</span> 
+               <span class="nowrap"><a href="/wiki/%D0%98%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D0%B8%D1%81%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5" title="Интегральное исчисление">Интегральное исчисление</a></span>
+              </div> </td> 
+            </tr> 
+            <tr> 
+             <th scope="row" class="navbox-group" style="width:1px">Теория функций</th> 
+             <td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;background:#ddd;"> 
+              <div style="padding:0em 0.25em">
+               <span class="nowrap"><a href="/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B9_%D0%B2%D0%B5%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE" class="mw-redirect" title="Теория функций вещественного переменного">Теория функций вещественного переменного</a>&nbsp;•</span> 
+               <span class="nowrap"><a href="/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%BC%D0%B5%D1%80%D1%8B" class="mw-redirect" title="Теория меры">Теория меры</a>&nbsp;•</span> 
+               <span class="nowrap"><a href="/wiki/%D0%9A%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%D0%BD%D1%8B%D0%B9_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7" title="Комплексный анализ">Комплексный анализ</a>&nbsp;•</span> 
+               <span class="nowrap"><a href="/wiki/%D0%9A%D0%B2%D0%B0%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7" title="Кватернионный анализ">Кватернионный анализ</a>&nbsp;•</span> 
+               <span class="nowrap"><a href="/wiki/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7" title="Функциональный анализ">Функциональный анализ</a>&nbsp;•</span> 
+               <span class="nowrap"><a href="/wiki/%D0%92%D0%B0%D1%80%D0%B8%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%B5_%D0%B8%D1%81%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5" title="Вариационное исчисление">Вариационное исчисление</a>&nbsp;•</span> 
+               <span class="nowrap"><a href="/wiki/%D0%93%D0%B0%D1%80%D0%BC%D0%BE%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7" title="Гармонический анализ">Гармонический анализ</a></span>
+              </div> </td> 
+            </tr> 
+            <tr> 
+             <th scope="row" class="navbox-group" style="width:1px">Дифференциальные и<br> интегральные уравнения</th> 
+             <td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"> 
+              <div style="padding:0em 0.25em">
+               <span class="nowrap"><a href="/wiki/%D0%9E%D0%B1%D1%8B%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5_%D0%B4%D0%B8%D1%84%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D1%83%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F" class="mw-redirect" title="Обыкновенные дифференциальные уравнения">Обыкновенные дифференциальные уравнения</a>&nbsp;•</span> 
+               <span class="nowrap"><a href="/wiki/%D0%A3%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F_%D0%B2_%D1%87%D0%B0%D1%81%D1%82%D0%BD%D1%8B%D1%85_%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%BD%D1%8B%D1%85" class="mw-redirect" title="Уравнения в частных производных">Уравнения в частных производных</a>&nbsp;•</span> 
+               <span class="nowrap"><a href="/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" class="mw-redirect" title="Теория динамических систем">Динамические системы</a> и <a href="/wiki/%D0%AD%D1%80%D0%B3%D0%BE%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F" class="mw-redirect" title="Эргодическая теория">эргодическая теория</a>&nbsp;•</span> 
+               <span class="nowrap"><a href="/wiki/%D0%98%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D1%83%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F" class="mw-redirect" title="Интегральные уравнения">Интегральные уравнения</a></span>
+              </div> </td> 
+            </tr> 
+            <tr> 
+             <td colspan="2" class="navbox-list navbox-even" style="width:100%;padding:0px;background:#ddd;"> 
+              <div style="padding:0em 0.25em">
+               <span class="nowrap"><a href="/wiki/%D0%92%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D0%B9_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7" title="Векторный анализ">Векторный анализ</a>&nbsp;•</span> 
+               <span class="nowrap"><a href="/wiki/%D0%93%D0%BB%D0%BE%D0%B1%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7" class="mw-redirect" title="Глобальный анализ">Глобальный анализ</a>&nbsp;•</span> 
+               <span class="nowrap"><a href="/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%BA%D0%B0%D1%82%D0%B0%D1%81%D1%82%D1%80%D0%BE%D1%84" title="Теория катастроф">Теория катастроф</a>&nbsp;•</span> 
+               <span class="nowrap"><a href="/wiki/%D0%9D%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%D0%BD%D1%8B%D0%B9_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7" title="Нестандартный анализ">Нестандартный анализ</a>&nbsp;•</span> 
+               <span class="nowrap"><a href="/wiki/%D0%93%D0%BB%D0%B0%D0%B4%D0%BA%D0%B8%D0%B9_%D0%B8%D0%BD%D1%84%D0%B8%D0%BD%D0%B8%D1%82%D0%B5%D0%B7%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7" title="Гладкий инфинитезимальный анализ">Гладкий инфинитезимальный анализ</a></span>
+              </div> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td class="navbox-list navbox-odd" style="width:100%;padding:0px;background:#fff;"> 
+          <div style="padding:0em 0.25em"></div> 
+          <table class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0"> 
+           <tbody>
+            <tr> 
+             <th scope="col" class="navbox-title" colspan="2"> 
+              <div id=".D0.93.D0.B5.D0.BE.D0.BC.D0.B5.D1.82.D1.80.D0.B8.D1.8F_.D0.B8_.D1.82.D0.BE.D0.BF.D0.BE.D0.BB.D0.BE.D0.B3.D0.B8.D1.8F" style="font-size:114%;margin:0 5em">
+               <a href="/wiki/%D0%93%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" title="Геометрия">Геометрия</a> и 
+               <a href="/wiki/%D0%A2%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" title="Топология">топология</a>
+              </div> </th> 
+            </tr> 
+            <tr> 
+             <th scope="row" class="navbox-group" style="width:1px"><a href="/wiki/%D0%93%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" title="Геометрия">Геометрия</a></th> 
+             <td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"> 
+              <div style="padding:0em 0.25em">
+               <a href="/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" title="Алгебраическая геометрия">Алгебраическая геометрия</a> &nbsp;• 
+               <a href="/wiki/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" title="Аналитическая геометрия">Аналитическая геометрия</a> &nbsp;• 
+               <a href="/wiki/%D0%95%D0%B2%D0%BA%D0%BB%D0%B8%D0%B4%D0%BE%D0%B2%D0%B0_%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" title="Евклидова геометрия">Евклидова геометрия</a> &nbsp;• 
+               <a href="/wiki/%D0%9D%D0%B5%D0%B5%D0%B2%D0%BA%D0%BB%D0%B8%D0%B4%D0%BE%D0%B2%D0%B0_%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" title="Неевклидова геометрия">Неевклидова геометрия</a> &nbsp;• 
+               <a href="/wiki/%D0%9F%D0%BB%D0%B0%D0%BD%D0%B8%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" title="Планиметрия">Планиметрия</a> &nbsp;• 
+               <a href="/wiki/%D0%A1%D1%82%D0%B5%D1%80%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" title="Стереометрия">Стереометрия</a> &nbsp;• 
+               <a href="/wiki/%D0%A2%D1%80%D0%B8%D0%B3%D0%BE%D0%BD%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" title="Тригонометрия">Тригонометрия</a>
+              </div> </td> 
+            </tr> 
+            <tr> 
+             <th scope="row" class="navbox-group" style="width:1px"><a href="/wiki/%D0%A2%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" title="Топология">Топология</a></th> 
+             <td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;background:#ddd;"> 
+              <div style="padding:0em 0.25em">
+               <a href="/wiki/%D0%9E%D0%B1%D1%89%D0%B0%D1%8F_%D1%82%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" title="Общая топология">Общая топология</a> &nbsp;• 
+               <a href="/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%82%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" title="Алгебраическая топология">Алгебраическая топология</a> &nbsp;• 
+               <a href="/wiki/%D0%94%D0%B8%D1%84%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F_%D0%B8_%D1%82%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" title="Дифференциальная геометрия и топология">Дифференциальная геометрия и топология</a>
+              </div> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td class="navbox-list navbox-odd" style="width:100%;padding:0px;background:#eee;"> 
+          <div style="padding:0em 0.25em"></div> 
+          <table class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0"> 
+           <tbody>
+            <tr> 
+             <th scope="col" class="navbox-title" colspan="2"> 
+              <div id=".D0.94.D0.B8.D1.81.D0.BA.D1.80.D0.B5.D1.82.D0.BD.D0.B0.D1.8F_.D0.BC.D0.B0.D1.82.D0.B5.D0.BC.D0.B0.D1.82.D0.B8.D0.BA.D0.B0" style="font-size:114%;margin:0 5em">
+               <a href="/wiki/%D0%94%D0%B8%D1%81%D0%BA%D1%80%D0%B5%D1%82%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0" title="Дискретная математика">Дискретная математика</a>
+              </div> </th> 
+            </tr> 
+            <tr> 
+             <td class="navbox-list navbox-odd" style="width:100%;padding:0px"> 
+              <div style="padding:0em 0.25em">
+               <span class="nowrap"><a href="/wiki/%D0%9A%D0%BE%D0%BC%D0%B1%D0%B8%D0%BD%D0%B0%D1%82%D0%BE%D1%80%D0%B8%D0%BA%D0%B0" title="Комбинаторика">Комбинаторика</a> &nbsp;•</span> 
+               <span class="nowrap"><a href="/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B3%D1%80%D0%B0%D1%84%D0%BE%D0%B2" title="Теория графов">Теория графов</a></span>
+              </div> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td class="navbox-list navbox-odd" style="width:100%;padding:0px;background:#fff;"> 
+          <div style="padding:0em 0.25em"></div> 
+          <table class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0"> 
+           <tbody>
+            <tr> 
+             <th scope="col" class="navbox-title" colspan="2"> 
+              <div id=".D0.9F.D1.80.D0.B8.D0.BA.D0.BB.D0.B0.D0.B4.D0.BD.D0.B0.D1.8F_.D0.BC.D0.B0.D1.82.D0.B5.D0.BC.D0.B0.D1.82.D0.B8.D0.BA.D0.B0" style="font-size:114%;margin:0 5em">
+               <a href="/wiki/%D0%9F%D1%80%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0" title="Прикладная математика">Прикладная математика</a>
+              </div> </th> 
+            </tr> 
+            <tr> 
+             <td class="navbox-list navbox-odd hlist" style="width:100%;padding:0px"> 
+              <div style="padding:0em 0.25em"> 
+               <ul> 
+                <li><a href="/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0" title="Математическая физика">Математическая физика</a></li> 
+                <li><a href="/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%85%D0%B8%D0%BC%D0%B8%D1%8F" title="Математическая химия">Математическая химия</a></li> 
+                <li><a href="/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0" title="Математическая статистика">Математическая статистика</a></li> 
+                <li><a href="/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C" title="Математическая модель">Математическое моделирование</a></li> 
+                <li><a href="/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D0%BE%D0%B2" title="Теория алгоритмов">Теория алгоритмов</a></li> 
+                <li><a href="/wiki/%D0%92%D1%8B%D1%87%D0%B8%D1%81%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B" title="Вычислительные методы">Численные методы</a></li> 
+                <li><br> <a href="/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0" title="Математическая экономика">Математическая экономика</a></li> 
+                <li><a href="/wiki/%D0%A4%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0" title="Финансовая математика">Финансовая математика</a></li> 
+                <li><a href="/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B2%D0%B5%D1%80%D0%BE%D1%8F%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9" title="Теория вероятностей">Теория вероятностей</a></li> 
+                <li><a href="/wiki/%D0%98%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B9" title="Исследование операций">Исследование операций</a></li> 
+                <li><a class="mw-selflink selflink">Теория игр</a></li> 
+               </ul> 
+              </div> </td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td class="navbox-abovebelow" colspan="2" style="background:#f0f0f0;"> 
+          <div> 
+           <ul> 
+            <li><a href="/wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0" title="Портал:Математика">Портал «Математика»</a></li> 
+            <li><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0" title="Категория:Математика">Категория «Математика»</a></li> 
+           </ul> 
+          </div> </td> 
+        </tr> 
+       </tbody>
+      </table> 
+     </div> 
+     <!-- 
+NewPP limit report
+Parsed by mw1234
+Cached time: 20171004183340
+Cache expiry: 1900800
+Dynamic content: false
+CPU time usage: 0.232 seconds
+Real time usage: 0.313 seconds
+Preprocessor visited node count: 2650/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 88914/2097152 bytes
+Template argument size: 8934/2097152 bytes
+Highest expansion depth: 19/40
+Expensive parser function count: 0/500
+Lua time usage: 0.038/10.000 seconds
+Lua memory usage: 1.48 MB/50 MB
+--> 
+     <!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  200.130      1 -total
+ 38.43%   76.914      6 Шаблон:Навигационная_таблица2
+ 26.12%   52.281      1 Шаблон:Разделы_математики
+ 19.02%   38.065     10 Шаблон:Другое_значение
+ 18.89%   37.801      1 Шаблон:Также
+ 14.25%   28.521      1 Шаблон:Ссылка_на_раздел
+ 10.87%   21.747      1 Шаблон:Теория_игр
+ 10.54%   21.103      2 Шаблон:Книга
+  9.65%   19.306      1 Шаблон:Навигационная_таблица
+  9.14%   18.293      3 Шаблон:Платёжная_матрица
+--> 
+    </div> 
+    <!-- Saved in parser cache with key ruwiki:pcache:idhash:93666-0!canonical and timestamp 20171004183340 and revision id 88115792
+ --> 
+    <noscript>
+     <img src="//ru.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;">
+    </noscript>
+   </div> 
+   <div class="printfooter">
+     Источник — «
+    <a dir="ltr" href="https://ru.wikipedia.org/w/index.php?title=Теория_игр&amp;oldid=88115792">https://ru.wikipedia.org/w/index.php?title=Теория_игр&amp;oldid=88115792</a>» 
+   </div> 
+   <div id="catlinks" class="catlinks" data-mw="interface">
+    <div id="mw-normal-catlinks" class="mw-normal-catlinks">
+     <a href="/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D0%B8" title="Служебная:Категории">Категории</a>: 
+     <ul>
+      <li><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80" title="Категория:Теория игр">Теория игр</a></li>
+      <li><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:1949_%D0%B3%D0%BE%D0%B4_%D0%B2_%D0%BD%D0%B0%D1%83%D0%BA%D0%B5" title="Категория:1949 год в науке">1949 год в науке</a></li>
+     </ul>
+    </div>
+    <div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">
+     Скрытые категории: 
+     <ul>
+      <li><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%A1%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B,_%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D1%8E%D1%89%D0%B8%D0%B5_%D0%B2%D0%BE%D0%BB%D1%88%D0%B5%D0%B1%D0%BD%D1%8B%D0%B5_%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8_ISBN" title="Категория:Страницы, использующие волшебные ссылки ISBN">Страницы, использующие волшебные ссылки ISBN</a></li>
+      <li><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8_%D1%81_%D0%BD%D0%B5%D1%80%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%BC%D0%B8_%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B0%D0%BC%D0%B8_%D1%81_%D0%BC%D0%B0%D1%8F_2013" title="Категория:Википедия:Статьи с нерабочими ссылками с мая 2013">Википедия:Статьи с нерабочими ссылками с мая 2013</a></li>
+     </ul>
+    </div>
+   </div> 
+   <div class="visualClear"></div> 
+  </div> 
+ </div> 
+ <div id="mw-navigation"> 
+  <h2>Навигация</h2> 
+  <div id="mw-head"> 
+   <div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label"> 
+    <h3 id="p-personal-label">Персональные инструменты</h3> 
+    <ul> 
+     <li id="pt-anonuserpage">Вы не представились системе</li>
+     <li id="pt-anontalk"><a href="/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%9C%D0%BE%D1%91_%D0%BE%D0%B1%D1%81%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5" title="Страница обсуждений для моего IP [n]" accesskey="n">Обсуждение</a></li>
+     <li id="pt-anoncontribs"><a href="/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%9C%D0%BE%D0%B9_%D0%B2%D0%BA%D0%BB%D0%B0%D0%B4" title="Список правок, сделанных с этого IP-адреса [y]" accesskey="y">Вклад</a></li>
+     <li id="pt-createaccount"><a href="/w/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C_%D1%83%D1%87%D1%91%D1%82%D0%BD%D1%83%D1%8E_%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C&amp;returnto=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F+%D0%B8%D0%B3%D1%80" title="Мы предлагаем вам создать учётную запись и войти в систему, хотя это и не обязательно.">Создать учётную запись</a></li>
+     <li id="pt-login"><a href="/w/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%92%D1%85%D0%BE%D0%B4&amp;returnto=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F+%D0%B8%D0%B3%D1%80" title="Здесь можно зарегистрироваться в системе, но это необязательно. [o]" accesskey="o">Войти</a></li> 
+    </ul> 
+   </div> 
+   <div id="left-navigation"> 
+    <div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label"> 
+     <h3 id="p-namespaces-label">Пространства имён</h3> 
+     <ul> 
+      <li id="ca-nstab-main" class="selected"><span><a href="/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80" title="Просмотр основной страницы [c]" accesskey="c">Статья</a></span></li> 
+      <li id="ca-talk"><span><a href="/wiki/%D0%9E%D0%B1%D1%81%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5:%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80" rel="discussion" title="Обсуждение основной страницы [t]" accesskey="t">Обсуждение</a></span></li> 
+     </ul> 
+    </div> 
+    <div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label"> 
+     <h3 id="p-variants-label"> <span>Варианты</span> </h3> 
+     <div class="menu"> 
+      <ul> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="right-navigation"> 
+    <div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label"> 
+     <h3 id="p-views-label">Просмотры</h3> 
+     <ul> 
+      <li id="ca-view" class="collapsible selected"><span><a href="/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80">Читать</a></span></li> 
+      <li id="ca-ve-edit" class="collapsible"><span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;veaction=edit" title="Редактировать данную страницу [v]" accesskey="v">Править</a></span></li> 
+      <li id="ca-edit" class="collapsible"><span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;action=edit" title="Эту статью можно изменять. Перед сохранением изменений, пожалуйста, нажмите кнопку предварительного просмотра для визуальной проверки результата [e]" accesskey="e">Править вики-текст</a></span></li> 
+      <li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;action=history" title="Журнал изменений страницы [h]" accesskey="h">История</a></span></li> 
+     </ul> 
+    </div> 
+    <div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label"> 
+     <h3 id="p-cactions-label"><span>Ещё</span></h3> 
+     <div class="menu"> 
+      <ul> 
+      </ul> 
+     </div> 
+    </div> 
+    <div id="p-search" role="search"> 
+     <h3> <label for="searchInput">Поиск</label> </h3> 
+     <form action="/w/index.php" id="searchform"> 
+      <div id="simpleSearch"> 
+       <input type="search" name="search" placeholder="Искать в Википедии" title="Искать в Википедии [f]" accesskey="f" id="searchInput">
+       <input type="hidden" value="Служебная:Поиск" name="title">
+       <input type="submit" name="fulltext" value="Найти" title="Найти страницы, содержащие указанный текст" id="mw-searchButton" class="searchButton mw-fallbackSearchButton">
+       <input type="submit" name="go" value="Перейти" title="Перейти к странице, имеющей в точности такое название" id="searchButton" class="searchButton"> 
+      </div> 
+     </form> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="mw-panel"> 
+   <div id="p-logo" role="banner">
+    <a class="mw-wiki-logo" href="/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0" title="Перейти на заглавную страницу"></a>
+   </div> 
+   <div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label"> 
+    <h3 id="p-navigation-label">Навигация</h3> 
+    <div class="body"> 
+     <ul> 
+      <li id="n-mainpage"><a href="/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0" title="Перейти на заглавную страницу [z]" accesskey="z">Заглавная страница</a></li>
+      <li id="n-browse"><a href="/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%9F%D0%BE%D0%B8%D1%81%D0%BA_%D0%BF%D0%BE_%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F%D0%BC" title="Поиск по категориям">Рубрикация</a></li>
+      <li id="n-index"><a href="/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%90%D0%BB%D1%84%D0%B0%D0%B2%D0%B8%D1%82%D0%BD%D1%8B%D0%B9_%D1%83%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C" title="Поиск по двум первым буквам">Указатель А — Я</a></li>
+      <li id="n-featured"><a href="/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%98%D0%B7%D0%B1%D1%80%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5_%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8" title="Статьи, считающиеся лучшими статьями проекта">Избранные статьи</a></li>
+      <li id="n-randompage"><a href="/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D0%BB%D1%83%D1%87%D0%B0%D0%B9%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0" title="Посмотреть случайно выбранную страницу [x]" accesskey="x">Случайная статья</a></li>
+      <li id="n-currentevents"><a href="/wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%A2%D0%B5%D0%BA%D1%83%D1%89%D0%B8%D0%B5_%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D1%8F" title="Статьи о текущих событиях в мире">Текущие события</a></li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="portal" role="navigation" id="p-participation" aria-labelledby="p-participation-label"> 
+    <h3 id="p-participation-label">Участие</h3> 
+    <div class="body"> 
+     <ul> 
+      <li id="n-bug_in_article"><a href="/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%A1%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D1%8F_%D0%BE%D0%B1_%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B0%D1%85" title="Сообщить об ошибке в этой статье">Сообщить об&nbsp;ошибке</a></li>
+      <li id="n-portal"><a href="/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%A1%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE" title="О проекте, о том, чем здесь можно заниматься, а также — где что находится">Сообщество</a></li>
+      <li id="n-forum"><a href="/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%A4%D0%BE%D1%80%D1%83%D0%BC" title="Форум участников Википедии">Форум</a></li>
+      <li id="n-recentchanges"><a href="/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D0%B2%D0%B5%D0%B6%D0%B8%D0%B5_%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B8" title="Список последних изменений [r]" accesskey="r">Свежие правки</a></li>
+      <li id="n-newpages"><a href="/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B" title="Список недавно созданных страниц">Новые страницы</a></li>
+      <li id="n-help"><a href="/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%A1%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B0" title="Место, где можно получить справку">Справка</a></li>
+      <li id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_ru.wikipedia.org&amp;uselang=ru" title="Поддержите нас">Пожертвовать</a></li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label"> 
+    <h3 id="p-tb-label">Инструменты</h3> 
+    <div class="body"> 
+     <ul> 
+      <li id="t-whatlinkshere"><a href="/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8_%D1%81%D1%8E%D0%B4%D0%B0/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80" title="Список всех страниц, ссылающихся на данную [j]" accesskey="j">Ссылки сюда</a></li>
+      <li id="t-recentchangeslinked"><a href="/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5_%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B8/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80" rel="nofollow" title="Последние изменения в страницах, на которые ссылается эта страница [k]" accesskey="k">Связанные правки</a></li>
+      <li id="t-specialpages"><a href="/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D0%BF%D0%B5%D1%86%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B" title="Список служебных страниц [q]" accesskey="q">Спецстраницы</a></li>
+      <li id="t-permalink"><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;oldid=88115792" title="Постоянная ссылка на эту версию страницы">Постоянная ссылка</a></li>
+      <li id="t-info"><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;action=info" title="Подробнее об этой странице">Сведения о&nbsp;странице</a></li>
+      <li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q44455" title="Ссылка на связанный элемент репозитория данных [g]" accesskey="g">Элемент Викиданных</a></li>
+      <li id="t-cite"><a href="/w/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A6%D0%B8%D1%82%D0%B0%D1%82%D0%B0&amp;page=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;id=88115792" title="Информация о том, как цитировать эту страницу">Цитировать страницу</a></li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="portal" role="navigation" id="p-coll-print_export" aria-labelledby="p-coll-print_export-label"> 
+    <h3 id="p-coll-print_export-label">Печать/экспорт</h3> 
+    <div class="body"> 
+     <ul> 
+      <li id="coll-create_a_book"><a href="/w/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%9A%D0%BE%D0%BB%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D1%8F_%D0%BA%D0%BD%D0%B8%D0%B3&amp;bookcmd=book_creator&amp;referer=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F+%D0%B8%D0%B3%D1%80">Создать книгу</a></li>
+      <li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:ElectronPdf&amp;page=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F+%D0%B8%D0%B3%D1%80&amp;action=show-download-screen">Скачать как PDF</a></li>
+      <li id="t-print"><a href="/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;printable=yes" title="Версия этой страницы для печати [p]" accesskey="p">Версия для печати</a></li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="portal" role="navigation" id="p-wikibase-otherprojects" aria-labelledby="p-wikibase-otherprojects-label"> 
+    <h3 id="p-wikibase-otherprojects-label">В других проектах</h3> 
+    <div class="body"> 
+     <ul> 
+      <li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Game_theory" hreflang="en">Викисклад</a></li>
+      <li class="wb-otherproject-link wb-otherproject-wikibooks"><a href="https://ru.wikibooks.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80" hreflang="ru">Викиучебник</a></li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label"> 
+    <h3 id="p-lang-label">На других языках</h3> 
+    <div class="body"> 
+     <ul> 
+      <li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D9%86%D8%B8%D8%B1%D9%8A%D8%A9_%D8%A7%D9%84%D8%A3%D9%84%D8%B9%D8%A7%D8%A8" title="نظرية الألعاب — арабский" lang="ar" hreflang="ar" class="interlanguage-link-target">العربية</a></li>
+      <li class="interlanguage-link interwiki-az"><a href="https://az.wikipedia.org/wiki/Oyunlar_n%C9%99z%C9%99riyy%C9%99si" title="Oyunlar nəzəriyyəsi — азербайджанский" lang="az" hreflang="az" class="interlanguage-link-target">Azərbaycanca</a></li>
+      <li class="interlanguage-link interwiki-bar"><a href="https://bar.wikipedia.org/wiki/Spuitheorie" title="Spuitheorie — Bavarian" lang="bar" hreflang="bar" class="interlanguage-link-target">Boarisch</a></li>
+      <li class="interlanguage-link interwiki-be"><a href="https://be.wikipedia.org/wiki/%D0%A2%D1%8D%D0%BE%D1%80%D1%8B%D1%8F_%D0%B3%D1%83%D0%BB%D1%8C%D0%BD%D1%8F%D1%9E" title="Тэорыя гульняў — белорусский" lang="be" hreflang="be" class="interlanguage-link-target">Беларуская</a></li>
+      <li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%BD%D0%B0_%D0%B8%D0%B3%D1%80%D0%B8%D1%82%D0%B5" title="Теория на игрите — болгарский" lang="bg" hreflang="bg" class="interlanguage-link-target">Български</a></li>
+      <li class="interlanguage-link interwiki-bn"><a href="https://bn.wikipedia.org/wiki/%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%A1%E0%A6%BC%E0%A6%BE_%E0%A6%A4%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%AC" title="ক্রীড়া তত্ত্ব — бенгальский" lang="bn" hreflang="bn" class="interlanguage-link-target">বাংলা</a></li>
+      <li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Teoria_dels_jocs" title="Teoria dels jocs — каталанский" lang="ca" hreflang="ca" class="interlanguage-link-target">Català</a></li>
+      <li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Teorie_her" title="Teorie her — чешский" lang="cs" hreflang="cs" class="interlanguage-link-target">Čeština</a></li>
+      <li class="interlanguage-link interwiki-cy"><a href="https://cy.wikipedia.org/wiki/Damcaniaeth_gemau" title="Damcaniaeth gemau — валлийский" lang="cy" hreflang="cy" class="interlanguage-link-target">Cymraeg</a></li>
+      <li class="interlanguage-link interwiki-da"><a href="https://da.wikipedia.org/wiki/Spilteori" title="Spilteori — датский" lang="da" hreflang="da" class="interlanguage-link-target">Dansk</a></li>
+      <li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Spieltheorie" title="Spieltheorie — немецкий" lang="de" hreflang="de" class="interlanguage-link-target">Deutsch</a></li>
+      <li class="interlanguage-link interwiki-el"><a href="https://el.wikipedia.org/wiki/%CE%98%CE%B5%CF%89%CF%81%CE%AF%CE%B1_%CF%80%CE%B1%CE%B9%CE%B3%CE%BD%CE%AF%CF%89%CE%BD" title="Θεωρία παιγνίων — греческий" lang="el" hreflang="el" class="interlanguage-link-target">Ελληνικά</a></li>
+      <li class="interlanguage-link interwiki-en"><a href="https://en.wikipedia.org/wiki/Game_theory" title="Game theory — английский" lang="en" hreflang="en" class="interlanguage-link-target">English</a></li>
+      <li class="interlanguage-link interwiki-eo"><a href="https://eo.wikipedia.org/wiki/Ludoteorio" title="Ludoteorio — эсперанто" lang="eo" hreflang="eo" class="interlanguage-link-target">Esperanto</a></li>
+      <li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Teor%C3%ADa_de_juegos" title="Teoría de juegos — испанский" lang="es" hreflang="es" class="interlanguage-link-target">Español</a></li>
+      <li class="interlanguage-link interwiki-et"><a href="https://et.wikipedia.org/wiki/M%C3%A4nguteooria" title="Mänguteooria — эстонский" lang="et" hreflang="et" class="interlanguage-link-target">Eesti</a></li>
+      <li class="interlanguage-link interwiki-eu"><a href="https://eu.wikipedia.org/wiki/Joko-teoria" title="Joko-teoria — баскский" lang="eu" hreflang="eu" class="interlanguage-link-target">Euskara</a></li>
+      <li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D9%86%D8%B8%D8%B1%DB%8C%D9%87_%D8%A8%D8%A7%D8%B2%DB%8C%E2%80%8C%D9%87%D8%A7" title="نظریه بازی‌ها — персидский" lang="fa" hreflang="fa" class="interlanguage-link-target">فارسی</a></li>
+      <li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/Peliteoria" title="Peliteoria — финский" lang="fi" hreflang="fi" class="interlanguage-link-target">Suomi</a></li>
+      <li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Th%C3%A9orie_des_jeux" title="Théorie des jeux — французский" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li>
+      <li class="interlanguage-link interwiki-ga"><a href="https://ga.wikipedia.org/wiki/Teoiric_na_gcluich%C3%AD" title="Teoiric na gcluichí — ирландский" lang="ga" hreflang="ga" class="interlanguage-link-target">Gaeilge</a></li>
+      <li class="interlanguage-link interwiki-gan"><a href="https://gan.wikipedia.org/wiki/%E5%8D%9A%E5%BC%88%E8%AB%96" title="博弈論 — гань" lang="gan" hreflang="gan" class="interlanguage-link-target">贛語</a></li>
+      <li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/Teor%C3%ADa_de_xogos" title="Teoría de xogos — галисийский" lang="gl" hreflang="gl" class="interlanguage-link-target">Galego</a></li>
+      <li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/%D7%AA%D7%95%D7%A8%D7%AA_%D7%94%D7%9E%D7%A9%D7%97%D7%A7%D7%99%D7%9D" title="תורת המשחקים — иврит" lang="he" hreflang="he" class="interlanguage-link-target">עברית</a></li>
+      <li class="interlanguage-link interwiki-hi"><a href="https://hi.wikipedia.org/wiki/%E0%A4%96%E0%A5%87%E0%A4%B2_%E0%A4%B8%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BE%E0%A4%82%E0%A4%A4" title="खेल सिद्धांत — хинди" lang="hi" hreflang="hi" class="interlanguage-link-target">हिन्दी</a></li>
+      <li class="interlanguage-link interwiki-hr"><a href="https://hr.wikipedia.org/wiki/Teorija_igara" title="Teorija igara — хорватский" lang="hr" hreflang="hr" class="interlanguage-link-target">Hrvatski</a></li>
+      <li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/J%C3%A1t%C3%A9kelm%C3%A9let" title="Játékelmélet — венгерский" lang="hu" hreflang="hu" class="interlanguage-link-target">Magyar</a></li>
+      <li class="interlanguage-link interwiki-hy"><a href="https://hy.wikipedia.org/wiki/%D4%BD%D5%A1%D5%B2%D5%A5%D6%80%D5%AB_%D5%BF%D5%A5%D5%BD%D5%B8%D6%82%D5%A9%D5%B5%D5%B8%D6%82%D5%B6" title="Խաղերի տեսություն — армянский" lang="hy" hreflang="hy" class="interlanguage-link-target">Հայերեն</a></li>
+      <li class="interlanguage-link interwiki-ia"><a href="https://ia.wikipedia.org/wiki/Theoria_de_jocos" title="Theoria de jocos — интерлингва" lang="ia" hreflang="ia" class="interlanguage-link-target">Interlingua</a></li>
+      <li class="interlanguage-link interwiki-id"><a href="https://id.wikipedia.org/wiki/Teori_permainan" title="Teori permainan — индонезийский" lang="id" hreflang="id" class="interlanguage-link-target">Bahasa Indonesia</a></li>
+      <li class="interlanguage-link interwiki-io"><a href="https://io.wikipedia.org/wiki/Ludo-teorio" title="Ludo-teorio — идо" lang="io" hreflang="io" class="interlanguage-link-target">Ido</a></li>
+      <li class="interlanguage-link interwiki-is"><a href="https://is.wikipedia.org/wiki/Leikjafr%C3%A6%C3%B0i" title="Leikjafræði — исландский" lang="is" hreflang="is" class="interlanguage-link-target">Íslenska</a></li>
+      <li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Teoria_dei_giochi" title="Teoria dei giochi — итальянский" lang="it" hreflang="it" class="interlanguage-link-target">Italiano</a></li>
+      <li class="interlanguage-link interwiki-ja badge-Q17437798 badge-goodarticle" title="good article"><a href="https://ja.wikipedia.org/wiki/%E3%82%B2%E3%83%BC%E3%83%A0%E7%90%86%E8%AB%96" title="ゲーム理論 — японский" lang="ja" hreflang="ja" class="interlanguage-link-target">日本語</a></li>
+      <li class="interlanguage-link interwiki-jam"><a href="https://jam.wikipedia.org/wiki/Giem_tiori" title="Giem tiori — Jamaican Creole English" lang="jam" hreflang="jam" class="interlanguage-link-target">Patois</a></li>
+      <li class="interlanguage-link interwiki-ka"><a href="https://ka.wikipedia.org/wiki/%E1%83%97%E1%83%90%E1%83%9B%E1%83%90%E1%83%A8%E1%83%97%E1%83%90_%E1%83%97%E1%83%94%E1%83%9D%E1%83%A0%E1%83%98%E1%83%90" title="თამაშთა თეორია — грузинский" lang="ka" hreflang="ka" class="interlanguage-link-target">ქართული</a></li>
+      <li class="interlanguage-link interwiki-kk"><a href="https://kk.wikipedia.org/wiki/%D0%9E%D0%B9%D1%8B%D0%BD%D0%B4%D0%B0%D1%80_%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F%D1%81%D1%8B" title="Ойындар теориясы — казахский" lang="kk" hreflang="kk" class="interlanguage-link-target">Қазақша</a></li>
+      <li class="interlanguage-link interwiki-km"><a href="https://km.wikipedia.org/wiki/%E1%9E%91%E1%9F%92%E1%9E%9A%E1%9E%B9%E1%9E%9F%E1%9F%92%E1%9E%8A%E1%9E%B8%E1%9E%9B%E1%9F%92%E1%9E%94%E1%9F%82%E1%9E%84" title="ទ្រឹស្ដីល្បែង — кхмерский" lang="km" hreflang="km" class="interlanguage-link-target">ភាសាខ្មែរ</a></li>
+      <li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EA%B2%8C%EC%9E%84_%EC%9D%B4%EB%A1%A0" title="게임 이론 — корейский" lang="ko" hreflang="ko" class="interlanguage-link-target">한국어</a></li>
+      <li class="interlanguage-link interwiki-ky"><a href="https://ky.wikipedia.org/wiki/%D0%9E%D1%8E%D0%BD_%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F%D1%81%D1%8B" title="Оюн теориясы — киргизский" lang="ky" hreflang="ky" class="interlanguage-link-target">Кыргызча</a></li>
+      <li class="interlanguage-link interwiki-lt"><a href="https://lt.wikipedia.org/wiki/%C5%BDaidim%C5%B3_teorija" title="Žaidimų teorija — литовский" lang="lt" hreflang="lt" class="interlanguage-link-target">Lietuvių</a></li>
+      <li class="interlanguage-link interwiki-lv"><a href="https://lv.wikipedia.org/wiki/Sp%C4%93%C4%BCu_teorija" title="Spēļu teorija — латышский" lang="lv" hreflang="lv" class="interlanguage-link-target">Latviešu</a></li>
+      <li class="interlanguage-link interwiki-mk"><a href="https://mk.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%98%D0%B0_%D0%BD%D0%B0_%D0%B8%D0%B3%D1%80%D0%B8%D1%82%D0%B5" title="Теорија на игрите — македонский" lang="mk" hreflang="mk" class="interlanguage-link-target">Македонски</a></li>
+      <li class="interlanguage-link interwiki-ml"><a href="https://ml.wikipedia.org/wiki/%E0%B4%AE%E0%B4%A4%E0%B5%8D%E0%B4%B8%E0%B4%B0_%E0%B4%B8%E0%B4%BF%E0%B4%A6%E0%B5%8D%E0%B4%A7%E0%B4%BE%E0%B4%A8%E0%B5%8D%E0%B4%A4%E0%B4%82" title="മത്സര സിദ്ധാന്തം — малаялам" lang="ml" hreflang="ml" class="interlanguage-link-target">മലയാളം</a></li>
+      <li class="interlanguage-link interwiki-mn"><a href="https://mn.wikipedia.org/wiki/%D0%A2%D0%BE%D0%B3%D0%BB%D0%BE%D0%BE%D0%BC%D1%8B%D0%BD_%D0%BE%D0%BD%D0%BE%D0%BB" title="Тоглоомын онол — монгольский" lang="mn" hreflang="mn" class="interlanguage-link-target">Монгол</a></li>
+      <li class="interlanguage-link interwiki-ms"><a href="https://ms.wikipedia.org/wiki/Teori_permainan" title="Teori permainan — малайский" lang="ms" hreflang="ms" class="interlanguage-link-target">Bahasa Melayu</a></li>
+      <li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Speltheorie" title="Speltheorie — нидерландский" lang="nl" hreflang="nl" class="interlanguage-link-target">Nederlands</a></li>
+      <li class="interlanguage-link interwiki-nn"><a href="https://nn.wikipedia.org/wiki/Spelteori" title="Spelteori — нюнорск" lang="nn" hreflang="nn" class="interlanguage-link-target">Norsk nynorsk</a></li>
+      <li class="interlanguage-link interwiki-no"><a href="https://no.wikipedia.org/wiki/Spillteori" title="Spillteori — норвежский" lang="no" hreflang="no" class="interlanguage-link-target">Norsk</a></li>
+      <li class="interlanguage-link interwiki-nov"><a href="https://nov.wikipedia.org/wiki/Lude-teorie" title="Lude-teorie — Novial" lang="nov" hreflang="nov" class="interlanguage-link-target">Novial</a></li>
+      <li class="interlanguage-link interwiki-pa"><a href="https://pa.wikipedia.org/wiki/%E0%A8%97%E0%A9%87%E0%A8%AE_%E0%A8%A5%E0%A8%BF%E0%A8%8A%E0%A8%B0%E0%A9%80" title="ਗੇਮ ਥਿਊਰੀ — панджаби" lang="pa" hreflang="pa" class="interlanguage-link-target">ਪੰਜਾਬੀ</a></li>
+      <li class="interlanguage-link interwiki-pdc"><a href="https://pdc.wikipedia.org/wiki/Schpiel-Theory" title="Schpiel-Theory — Pennsylvania German" lang="pdc" hreflang="pdc" class="interlanguage-link-target">Deitsch</a></li>
+      <li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Teoria_gier" title="Teoria gier — польский" lang="pl" hreflang="pl" class="interlanguage-link-target">Polski</a></li>
+      <li class="interlanguage-link interwiki-ps"><a href="https://ps.wikipedia.org/wiki/%D8%AF_%D9%84%D9%88%D8%A8%DB%8C_%D9%86%D8%B8%D8%B1%DB%8C%D9%87" title="د لوبی نظریه — пушту" lang="ps" hreflang="ps" class="interlanguage-link-target">پښتو</a></li>
+      <li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Teoria_dos_jogos" title="Teoria dos jogos — португальский" lang="pt" hreflang="pt" class="interlanguage-link-target">Português</a></li>
+      <li class="interlanguage-link interwiki-ro"><a href="https://ro.wikipedia.org/wiki/Teoria_jocurilor" title="Teoria jocurilor — румынский" lang="ro" hreflang="ro" class="interlanguage-link-target">Română</a></li>
+      <li class="interlanguage-link interwiki-scn"><a href="https://scn.wikipedia.org/wiki/Tiur%C3%ACa_di_li_joca" title="Tiurìa di li joca — сицилийский" lang="scn" hreflang="scn" class="interlanguage-link-target">Sicilianu</a></li>
+      <li class="interlanguage-link interwiki-sco"><a href="https://sco.wikipedia.org/wiki/Gemme_theory" title="Gemme theory — шотландский" lang="sco" hreflang="sco" class="interlanguage-link-target">Scots</a></li>
+      <li class="interlanguage-link interwiki-sh"><a href="https://sh.wikipedia.org/wiki/Teorija_igara" title="Teorija igara — сербскохорватский" lang="sh" hreflang="sh" class="interlanguage-link-target">Srpskohrvatski / српскохрватски</a></li>
+      <li class="interlanguage-link interwiki-si"><a href="https://si.wikipedia.org/wiki/%E0%B6%9A%E0%B7%8A%E2%80%8D%E0%B6%BB%E0%B7%93%E0%B6%A9%E0%B7%8F_%E0%B6%B1%E0%B7%8A%E2%80%8D%E0%B6%BA%E0%B7%8F%E0%B6%BA" title="ක්‍රීඩා න්‍යාය — сингальский" lang="si" hreflang="si" class="interlanguage-link-target">සිංහල</a></li>
+      <li class="interlanguage-link interwiki-simple"><a href="https://simple.wikipedia.org/wiki/Game_theory" title="Game theory — Simple English" lang="simple" hreflang="simple" class="interlanguage-link-target">Simple English</a></li>
+      <li class="interlanguage-link interwiki-sk"><a href="https://sk.wikipedia.org/wiki/Te%C3%B3ria_hier" title="Teória hier — словацкий" lang="sk" hreflang="sk" class="interlanguage-link-target">Slovenčina</a></li>
+      <li class="interlanguage-link interwiki-sl"><a href="https://sl.wikipedia.org/wiki/Teorija_iger" title="Teorija iger — словенский" lang="sl" hreflang="sl" class="interlanguage-link-target">Slovenščina</a></li>
+      <li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%98%D0%B0_%D0%B8%D0%B3%D0%B0%D1%80%D0%B0" title="Теорија игара — сербский" lang="sr" hreflang="sr" class="interlanguage-link-target">Српски / srpski</a></li>
+      <li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Spelteori" title="Spelteori — шведский" lang="sv" hreflang="sv" class="interlanguage-link-target">Svenska</a></li>
+      <li class="interlanguage-link interwiki-ta"><a href="https://ta.wikipedia.org/wiki/%E0%AE%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%95%E0%AF%8D_%E0%AE%95%E0%AF%8B%E0%AE%9F%E0%AF%8D%E0%AE%AA%E0%AE%BE%E0%AE%9F%E0%AF%81" title="ஆட்டக் கோட்பாடு — тамильский" lang="ta" hreflang="ta" class="interlanguage-link-target">தமிழ்</a></li>
+      <li class="interlanguage-link interwiki-th"><a href="https://th.wikipedia.org/wiki/%E0%B8%97%E0%B8%A4%E0%B8%A9%E0%B8%8E%E0%B8%B5%E0%B9%80%E0%B8%81%E0%B8%A1" title="ทฤษฎีเกม — тайский" lang="th" hreflang="th" class="interlanguage-link-target">ไทย</a></li>
+      <li class="interlanguage-link interwiki-tl"><a href="https://tl.wikipedia.org/wiki/Teorya_ng_laro" title="Teorya ng laro — тагалог" lang="tl" hreflang="tl" class="interlanguage-link-target">Tagalog</a></li>
+      <li class="interlanguage-link interwiki-tr"><a href="https://tr.wikipedia.org/wiki/Oyun_kuram%C4%B1" title="Oyun kuramı — турецкий" lang="tr" hreflang="tr" class="interlanguage-link-target">Türkçe</a></li>
+      <li class="interlanguage-link interwiki-ug"><a href="https://ug.wikipedia.org/wiki/%D8%A6%D9%88%D9%8A%DB%87%D9%86_%D9%86%DB%95%D8%B2%DB%95%D8%B1%D9%89%D9%8A%DB%95%D8%B3%D9%89" title="ئويۇن نەزەرىيەسى — уйгурский" lang="ug" hreflang="ug" class="interlanguage-link-target">ئۇيغۇرچە / Uyghurche</a></li>
+      <li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D1%96%D1%8F_%D1%96%D0%B3%D0%BE%D1%80" title="Теорія ігор — украинский" lang="uk" hreflang="uk" class="interlanguage-link-target">Українська</a></li>
+      <li class="interlanguage-link interwiki-ur"><a href="https://ur.wikipedia.org/wiki/%D9%86%D8%B8%D8%B1%DB%8C%DB%81_%D8%A8%D8%A7%D8%B2%DB%8C" title="نظریہ بازی — урду" lang="ur" hreflang="ur" class="interlanguage-link-target">اردو</a></li>
+      <li class="interlanguage-link interwiki-uz"><a href="https://uz.wikipedia.org/wiki/O%CA%BByinlar_nazariyasi" title="Oʻyinlar nazariyasi — узбекский" lang="uz" hreflang="uz" class="interlanguage-link-target">Oʻzbekcha/ўзбекча</a></li>
+      <li class="interlanguage-link interwiki-vi"><a href="https://vi.wikipedia.org/wiki/L%C3%BD_thuy%E1%BA%BFt_tr%C3%B2_ch%C6%A1i" title="Lý thuyết trò chơi — вьетнамский" lang="vi" hreflang="vi" class="interlanguage-link-target">Tiếng Việt</a></li>
+      <li class="interlanguage-link interwiki-war"><a href="https://war.wikipedia.org/wiki/Teyorya_hin_mulay" title="Teyorya hin mulay — варай" lang="war" hreflang="war" class="interlanguage-link-target">Winaray</a></li>
+      <li class="interlanguage-link interwiki-yi"><a href="https://yi.wikipedia.org/wiki/%D7%A9%D7%A4%D7%99%D7%9C_%D7%98%D7%A2%D7%90%D7%A8%D7%99%D7%A2" title="שפיל טעאריע — идиш" lang="yi" hreflang="yi" class="interlanguage-link-target">ייִדיש</a></li>
+      <li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E5%8D%9A%E5%BC%88%E8%AE%BA" title="博弈论 — китайский" lang="zh" hreflang="zh" class="interlanguage-link-target">中文</a></li>
+      <li class="interlanguage-link interwiki-zh-min-nan"><a href="https://zh-min-nan.wikipedia.org/wiki/I%C3%BB-h%C3%AC_l%C3%AD-l%C5%ABn" title="Iû-hì lí-lūn — Chinese (Min Nan)" lang="zh-min-nan" hreflang="zh-min-nan" class="interlanguage-link-target">Bân-lâm-gú</a></li>
+      <li class="interlanguage-link interwiki-zh-yue"><a href="https://zh-yue.wikipedia.org/wiki/%E5%8D%9A%E5%BC%88%E8%AB%96" title="博弈論 — Cantonese" lang="zh-yue" hreflang="zh-yue" class="interlanguage-link-target">粵語</a></li> 
+     </ul> 
+     <div class="after-portlet after-portlet-lang">
+      <span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q44455#sitelinks-wikipedia" title="Править межъязыковые ссылки" class="wbc-editpage">Править ссылки</a></span>
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+ <div id="footer" role="contentinfo"> 
+  <ul id="footer-info"> 
+   <li id="footer-info-lastmod"> Эта страница последний раз была отредактирована 4 октября 2017 в 18:33.</li> 
+   <li id="footer-info-copyright">Текст доступен по <a rel="license" href="//ru.wikipedia.org/wiki/Википедия:Текст_лицензии_Creative_Commons_Attribution-ShareAlike_3.0_Unported">лицензии Creative Commons Attribution-ShareAlike</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>; в отдельных случаях могут действовать дополнительные условия. <span class="noprint">Подробнее см. <a href="//wikimediafoundation.org/wiki/Terms_of_Use/ru">Условия использования</a>.</span><br> Wikipedia® — зарегистрированный товарный знак некоммерческой организации <a href="//wikimediafoundation.org/wiki/Приёмная">Wikimedia Foundation, Inc.</a><br></li>
+   <li class="noprint"><a class="internal" href="//ru.wikipedia.org/wiki/Википедия:Контакты">Свяжитесь с нами</a></li> 
+  </ul> 
+  <ul id="footer-places"> 
+   <li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/ru" class="extiw" title="m:Privacy policy/ru">Политика конфиденциальности</a></li> 
+   <li id="footer-places-about"><a href="/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%9E%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5" title="Википедия:Описание">Описание Википедии</a></li> 
+   <li id="footer-places-disclaimer"><a href="/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%9E%D1%82%D0%BA%D0%B0%D0%B7_%D0%BE%D1%82_%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8" title="Википедия:Отказ от ответственности">Отказ от ответственности</a></li> 
+   <li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Разработчики</a></li> 
+   <li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Соглашение о cookie</a></li> 
+   <li id="footer-places-mobileview"><a href="//ru.m.wikipedia.org/w/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Мобильная версия</a></li> 
+  </ul> 
+  <ul id="footer-icons" class="noprint"> 
+   <li id="footer-copyrightico"> <a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"></a> </li> 
+   <li id="footer-poweredbyico"> <a href="//www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"></a> </li> 
+  </ul> 
+  <div style="clear:both"></div> 
+ </div> 
+ <script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.232","walltime":"0.313","ppvisitednodes":{"value":2650,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":88914,"limit":2097152},"templateargumentsize":{"value":8934,"limit":2097152},"expansiondepth":{"value":19,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  200.130      1 -total"," 38.43%   76.914      6 Шаблон:Навигационная_таблица2"," 26.12%   52.281      1 Шаблон:Разделы_математики"," 19.02%   38.065     10 Шаблон:Другое_значение"," 18.89%   37.801      1 Шаблон:Также"," 14.25%   28.521      1 Шаблон:Ссылка_на_раздел"," 10.87%   21.747      1 Шаблон:Теория_игр"," 10.54%   21.103      2 Шаблон:Книга","  9.65%   19.306      1 Шаблон:Навигационная_таблица","  9.14%   18.293      3 Шаблон:Платёжная_матрица"]},"scribunto":{"limitreport-timeusage":{"value":"0.038","limit":"10.000"},"limitreport-memusage":{"value":1555161,"limit":52428800}},"cachereport":{"origin":"mw1234","timestamp":"20171004183340","ttl":1900800,"transientcontent":false}}});});</script>
+ <script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":101,"wgHostname":"mw1326"});});</script>  
+</body>

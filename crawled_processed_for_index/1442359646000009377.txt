@@ -1,0 +1,617 @@
+<body class="project"> 
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-52FZ8C" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+ </noscript> 
+ <script data-cfasync="false">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-52FZ8C');</script> 
+ <div class="container-wrapper header-wrapper"> 
+  <div class="container header js-header"> 
+   <div class="navigation-list"> 
+    <div class="navigation-item logo-wrapper"> 
+     <a class="logo" href="https://boomstarter.ru/"></a> 
+    </div> 
+    <div class="navigation-item links-wrapper"> 
+     <a href="/discover">Проекты</a> 
+     <a class="create-project-link" href="https://boomstarter.ru/start">Создать проект</a> 
+     <a href="/crowd_learning">Бесплатное обучение</a> 
+    </div> 
+    <input id="toggle-search-mobile" type="checkbox"> 
+    <div class="navigation-item search-wrapper"> 
+     <label class="search-icon search-icon-mobile" for="toggle-search-mobile"></label> 
+     <form class="search-box" action="https://boomstarter.ru/projects/search" accept-charset="UTF-8" method="get">
+      <input name="utf8" type="hidden" value="✓"> 
+      <label class="search-close arrow-grey" for="toggle-search-mobile"></label> 
+      <button name="button" type="submit" class="search-submit"><span class="search-icon"></span> </button>
+      <input type="text" name="q" id="q" class="search-query" placeholder="Название проекта"> 
+      <input type="submit" name="commit" value="Найти" class="button"> 
+     </form> 
+    </div> 
+    <div class="navigation-item login-personal-wrapper"> 
+     <a class="link" href="https://boomstarter.ru/login?redirect_to=%2Fprojects%2Frogo3in%2Ftabula_sense_dizaynerskiy_stol_s_vstroennymi_gadzhetami%2Fbackers">Войти</a> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+ <div class="container-wrapper"> 
+  <div class="container"> 
+   <div class="caption js-project-caption"> 
+    <div class="title"> 
+     <h1 class="title"><a href="/projects/rogo3in/tabula_sense_dizaynerskiy_stol_s_vstroennymi_gadzhetami">Tabula Sense. Дизайнерский стол с встроенными гаджетами</a></h1> 
+     <div class="blurb">
+       Беспроводная зарядка, USB hub, док станция, регулировка наклона, изменяемая высота! Made in Moscow! 
+      <a class="more js-more" href="/projects/rogo3in/tabula_sense_dizaynerskiy_stol_s_vstroennymi_gadzhetami#content">Подробнее</a> 
+     </div> 
+     <ul class="tags"> 
+      <li class="location"><a href="/discover/cities/moscow-ru">Москва, Россия</a></li> 
+      <li class="category"><a href="/discover/categories/product%20design">Промышленный дизайн </a></li> 
+     </ul> 
+    </div> 
+    <div class="caption-container"> 
+     <div class="main"> 
+      <div class="video-wrapper" data-project-id="136003"> 
+       <video class="video-js vjs-boom-skin" controls data-setup="{}" height="100%" poster="https://boomstarter.blob.core.windows.net/boomstarter/uploads/project/photo/136003/full_1506084244-photo.jpg" preload="none" width="100%"> 
+        <source src="https://boomstarter.blob.core.windows.net/boomstarter/uploads/project/video/136003/video.mp4" type="video/mp4"> 
+       </video> 
+      </div> 
+      <div class="blurb">
+       Беспроводная зарядка, USB hub, док станция, регулировка наклона, изменяемая высота! Made in Moscow!
+      </div> 
+      <div class="social-share social-share-project-wrapper"> 
+       <div class="share-request">
+        Помогите автору рассказать о проекте. Вам пара кликов, человеку — мечта.
+       </div> 
+       <div class="social-likes project-share-likes js-caption-share-likes" data-url="https://boomstarter.ru/projects/rogo3in/tabula_sense_dizaynerskiy_stol_s_vstroennymi_gadzhetami"> 
+        <button class="social-likes-close"></button> 
+        <div class="social-likes-title">
+         Рассказать о проекте
+        </div> 
+        <div class="facebook" title="Поделиться ссылкой на Фейсбуке">
+         Поделиться
+        </div> 
+        <div class="vkontakte" title="Поделиться ссылкой во Вконтакте">
+         Поделиться
+        </div> 
+        <div class="twitter" data-via="boomstarterru" title="Поделиться ссылкой в Твиттере">
+         Твитнуть
+        </div> 
+        <div class="social-likes__widget social-likes__widget_embed js-embed-project"> 
+         <span class="social-likes__button social-likes__button_embed"> <span class="social-likes__icon social-likes__icon_embed"></span> Встроить </span> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="sidebar"> 
+      <div class="statistics"> 
+       <div class="pledged">
+         719 656 ₽ 
+       </div> 
+       <div class="goal"> 
+        <strong>собрано</strong> из 500 000 
+        <span class="ruble">a</span> 
+       </div> 
+       <div class="backers">
+        28 спонсоров
+       </div> 
+       <div class="progress"> 
+        <div class="value" style="width:143%"></div> 
+       </div> 
+       <ul class="status"> 
+        <li class="percentage">143%</li> 
+        <li class="backers">28 спонсоров</li> 
+        <li class="timer"> <span class="left">осталось</span> 7&nbsp;дней <span class="to-end">до завершения</span> 
+         <div class="hint"> 
+          <span class="text">Проект начался 28 сентября и завершится<br>в субботу 28 октября 2017 в 11:42 MSK</span> 
+         </div> </li> 
+       </ul> 
+       <div class="controls">
+        <button name="button" type="submit" class="button share js-dropdown" data-target=".js-caption-share-likes"></button>
+        <a class="button backing" href="/projects/rogo3in/tabula_sense_dizaynerskiy_stol_s_vstroennymi_gadzhetami/backing_orders/new">Поддержать</a>
+       </div> 
+       <div class="staff-controls"></div> 
+      </div> 
+      <ul class="creator"> 
+       <li class="position">Автор проекта</li> 
+       <li class="avatar js-about-creator"><img alt="Андрей Рогозин" src="https://boomstarter.blob.core.windows.net/boomstarter/uploads/user/avatar/20771/large_1504538744-avatar.jpg"></li> 
+       <li class="name js-about-creator">Андрей Рогозин</li> 
+       <li class="achievements"><a href="/profile/rogo3in/backed">спонсор 2</a>, <a href="/profile/rogo3in/created">автор 1</a> проекта</li> 
+       <li class="links"> <span class="link js-about-creator">Про автора</span> <span class="link send-message js-send-message">Сообщение</span> </li> 
+      </ul> 
+      <div class="curators"> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+ <div class="container-wrapper common-container-wrapper"> 
+  <div class="content-anchor" id="content"></div> 
+  <div class="menu-wrapper js-sticky-menu"> 
+   <div class="container"> 
+    <ul class="menu js-tabs"> 
+     <li class="js-tab js-tab-rewards"> <a href="#rewards">Вознаграждения</a> </li> 
+     <li class="js-tab js-tab-project"> <a href="/projects/rogo3in/tabula_sense_dizaynerskiy_stol_s_vstroennymi_gadzhetami#content">Проект</a> </li> 
+     <li class="js-tab"> <a href="/projects/rogo3in/tabula_sense_dizaynerskiy_stol_s_vstroennymi_gadzhetami/posts#content">Новости <span class="count">4</span> </a></li> 
+     <li class="js-tab"> <a href="/projects/rogo3in/tabula_sense_dizaynerskiy_stol_s_vstroennymi_gadzhetami/comments#content">Комментарии </a></li> 
+     <li class="active js-tab"> <a href="/projects/rogo3in/tabula_sense_dizaynerskiy_stol_s_vstroennymi_gadzhetami/backers#content">Спонсоры <span class="count">28</span> </a></li> 
+    </ul> 
+    <div class="floating-controls" data-450="bottom: -60px" data-800="bottom: 5px"> 
+     <div class="controls">
+      <button name="button" type="submit" class="button share js-dropdown" data-target=".js-caption-share-likes"></button>
+      <a class="button backing" href="/projects/rogo3in/tabula_sense_dizaynerskiy_stol_s_vstroennymi_gadzhetami/backing_orders/new">Поддержать</a>
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="container common-container"> 
+   <div class="rewards js-tabs-content"> 
+    <h4 class="title">Выберите вознаграждение</h4> 
+    <div class="js-rewards-container"> 
+     <div class="spinner js-spinner"></div> 
+     <script type="text/template" id="reward-template">
+    <@ if (!reward.is_sold) { @>
+      <@ if (reward.is_popular) { @>
+        <div class="label popular"></div>
+      <@ } else if (reward.is_limited) { @>
+        <div class="label limited <@= reward.is_limited_ends ? 'last' : '' @>"></div>
+      <@ } @>
+    <@ } @>
+
+  <div class="top">
+    <@ if (reward.photo) { @>
+      <img src="<@= reward.photo @>" class="image">
+    <@ } @>
+
+    <div class="left">
+      <@ if (reward.description) { @>
+        <div class="description">
+          <@= reward.description @>
+        </div>
+      <@ } @>
+
+      <@ if (reward.link) { @>
+        <div class="description" id='reward_link' style='display:hidden'>
+          <input type='text' id ="reward_link_<@= reward.id @>" value="<@= reward.reward_path @>">
+          <a href='#' style='margin-left: 5px;' class="action copy-to-clipboard" onclick='event.preventDefault();' data-clipboard-target="#reward_link_<@= reward.id @>">Скопировать</a>
+        </div>
+
+      <@ } @>
+
+      <div class="delivery">
+        <strong>Доставка:</strong>
+        <@ if (reward.estimated_delivery) { @>
+          <@= reward.estimated_delivery @>,
+        <@ } @>
+
+        <@= reward.delivery @>
+
+        <br>
+
+        <@ if (reward.exw_available) { @>
+          или самовывоз
+        <@ } @>
+      </div>
+        
+      <div class="limits">
+        <strong>
+          <@ if (reward.is_limited) { @>
+            Осталось <@= reward.left @> из <@= reward.limit @>
+          <@ } else if (reward.backings_count > 0) { @>
+            Куплено <@= reward.backings_count @>
+          <@ } else if (reward.is_active) { @>
+            Станьте первым, кто купит!
+          <@ } @>
+        </strong>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom">
+    <div class="amount">
+      <@= app.utils.thousands(reward.amount) @>
+      <span class="ruble">a</span>
+
+      <@ if (reward.backing_count) { @>
+        <b class="count"><@= reward.backing_count @> шт.</b>
+      <@ } @>
+    </div>
+
+    <div class="buy">
+      <@ if (reward.is_bought) { @>
+        <div class="choice">
+          <span class="my-choice">Мой выбор</span> <span class="count"><@= reward.backing_count @>&nbsp;<@= app.utils.pluralize(reward.backing_count, 'штука', 'штуки', 'штук') @></span>
+
+          <div class="change">
+            <a class="link">Изменить</a>
+          </div>
+        </div>
+      <@ } else if (reward.is_sold) { @>
+        <strong class="sold">Все продано!</strong>
+      <@ } else if (reward.is_active) { @>
+        <button class="button">Купить</button>
+      <@ } @>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="bottom-form">
+    <@ if (reward.is_active && !reward.is_sold) { @>
+      <form class="form js-buy-form" action="/projects/rogo3in/tabula_sense_dizaynerskiy_stol_s_vstroennymi_gadzhetami/backing_orders/new" method="get">
+        <fieldset class="fieldset">
+          <div class="text-wrapper">
+            <input type="text" name="backing[amount]" class="text js-amount" value="<@= reward.amount @>" maxlength="7" />
+          </div>
+          <span class="ruble">a</span>
+          <span class="multiply">×</span>
+
+          <div class="text-wrapper count-wrapper">
+            <input type="text" name="backing[count]" class="text js-count" value="<@= reward.pledge_count @>" maxlength="3" <@if (reward.is_limited) { @>max="<@= reward.left @>"<@ } @> />
+          </div>
+          <span class="js-pieces-count"></span>
+
+          <div class="notice js-notice"></div>
+        </fieldset>
+
+        <div class="js-purchase-button-container"></div>
+      </form>
+    <@ } @>
+
+    <@ if (reward.backing_details_edit_path) { @>
+      <a href="<@= reward.backing_details_edit_path @>" class="button transparent backing-details-edit">Изменить данные</a>
+    <@ } @>
+
+    <@ if (reward.cancellable) { @>
+      <div class="pledge-cancel">
+        <span class="link js-pledge-cancel">Отменить покупку</span>
+      </div>
+    <@ } @>
+  </div>
+
+  <div class="pledge-canceled">
+    <b>Покупка отменена</b>
+    <p>Деньги в размере <@= app.utils.thousands(reward.backing_amount) @>&nbsp;<span class="ruble">a</span> возвращены на ваш <a href="/profile/payment_transactions" class="link">внутренний счет</a>.</p>
+  </div>
+</script> 
+     <script type="text/template" id="reward-purchase-button-template">
+  <@ if (reward.is_bought) { @>
+    Докупить
+  <@ } else { @>
+    Купить
+  <@ } @>
+
+  за
+
+  <@= app.utils.thousands(reward.pledge_amount * reward.pledge_count) @>&nbsp;<span class="ruble">a</span>
+</script> 
+    </div> 
+   </div> 
+   <div class="content js-tabs-content js-active"> 
+    <div class="backers"> 
+     <ul class="backer"> 
+      <a href="/profile/34142"><li class="avatar"> <img alt="Максим Филиппов" src="https://boomstarter.blob.core.windows.net/boomstarter/uploads/user/avatar/34142/small_0QULVgyNnF8.jpg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/34142">Максим Филиппов</a></li> 
+      <li class="achievements"><a href="/profile/34142/backed">спонсор 3</a> проектов</li> 
+     </ul> 
+     <ul class="backer"> 
+      <a href="/profile/125475"><li class="avatar"> <img alt="Мария Суханова" src="https://boomstarter.ru/assets/fallback/user/avatar-c5198e2f09e5261ee2abd47579b42afacd96bbafbb34ea89435d6eb092a65e2d.svg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/125475">Мария Суханова</a></li> 
+      <li class="achievements"><a href="/profile/125475/backed">спонсор 15</a> проектов</li> 
+     </ul> 
+     <ul class="backer"> 
+      <a href="/profile/241807"><li class="avatar"> <img alt="Dmitrii Tuchin" src="https://boomstarter.blob.core.windows.net/boomstarter/uploads/user/avatar/241807/small_1462801555-avatar.jpg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/241807">Dmitrii Tuchin</a></li> 
+      <li class="achievements"><a href="/profile/241807/backed">спонсор 6</a>, <a href="/profile/241807/created">автор 1</a> проекта</li> 
+     </ul> 
+     <ul class="backer"> 
+      <a href="/profile/305359"><li class="avatar"> <img alt="Расим Рзаев" src="https://boomstarter.blob.core.windows.net/boomstarter/uploads/user/avatar/305359/small_1422433775-avatar.jpg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/305359">Расим Рзаев</a></li> 
+      <li class="achievements"><a href="/profile/305359/backed">спонсор 1</a>, <a href="/profile/305359/created">автор 1</a> проекта</li> 
+     </ul> 
+     <ul class="backer"> 
+      <a href="/profile/382691"><li class="avatar"> <img alt="Lev Zvyagintsev" src="https://boomstarter.blob.core.windows.net/boomstarter/uploads/user/avatar/382691/small_1433362196-avatar.jpg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/382691">Lev Zvyagintsev</a></li> 
+      <li class="achievements"><a href="/profile/382691/backed">спонсор 3</a> проектов</li> 
+     </ul> 
+     <ul class="backer"> 
+      <a href="/profile/dedepete"><li class="avatar"> <img alt="Игорь Попов" src="https://boomstarter.blob.core.windows.net/boomstarter/uploads/user/avatar/394935/small_1455280388-avatar.jpg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/dedepete">Игорь Попов</a></li> 
+      <li class="achievements"><a href="/profile/dedepete/backed">спонсор 5</a> проектов</li> 
+     </ul> 
+     <ul class="backer"> 
+      <a href="/profile/621225"><li class="avatar"> <img alt="Алексей Матвеец" src="https://boomstarter.blob.core.windows.net/boomstarter/uploads/user/avatar/621225/small_1505463926-avatar.jpg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/621225">Алексей Матвеец</a></li> 
+      <li class="achievements"><a href="/profile/621225/backed">спонсор 4</a> проектов</li> 
+     </ul> 
+     <ul class="backer"> 
+      <a href="/profile/643917"><li class="avatar"> <img alt="александр сурнин" src="https://boomstarter.ru/assets/fallback/user/avatar-c5198e2f09e5261ee2abd47579b42afacd96bbafbb34ea89435d6eb092a65e2d.svg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/643917">александр сурнин</a></li> 
+      <li class="achievements"><a href="/profile/643917/backed">спонсор 1</a> проекта</li> 
+     </ul> 
+     <ul class="backer"> 
+      <a href="/profile/643972"><li class="avatar"> <img alt="Петр Саватеев " src="https://boomstarter.ru/assets/fallback/user/avatar-c5198e2f09e5261ee2abd47579b42afacd96bbafbb34ea89435d6eb092a65e2d.svg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/643972">Петр Саватеев </a></li> 
+      <li class="achievements"><a href="/profile/643972/backed">спонсор 1</a> проекта</li> 
+     </ul> 
+     <ul class="backer"> 
+      <a href="/profile/644066"><li class="avatar"> <img alt="Александр Литвинов" src="https://boomstarter.ru/assets/fallback/user/avatar-c5198e2f09e5261ee2abd47579b42afacd96bbafbb34ea89435d6eb092a65e2d.svg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/644066">Александр Литвинов</a></li> 
+      <li class="achievements"><a href="/profile/644066/backed">спонсор 1</a> проекта</li> 
+     </ul> 
+     <ul class="backer"> 
+      <a href="/profile/644089"><li class="avatar"> <img alt="Анонимный пользователь " src="https://boomstarter.ru/assets/fallback/user/avatar-c5198e2f09e5261ee2abd47579b42afacd96bbafbb34ea89435d6eb092a65e2d.svg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/644089">Анонимный пользователь </a></li> 
+      <li class="achievements"><a href="/profile/644089/backed">спонсор 1</a> проекта</li> 
+     </ul> 
+     <ul class="backer"> 
+      <a href="/profile/644572"><li class="avatar"> <img alt="Nikita Krivonosov" src="https://boomstarter.blob.core.windows.net/boomstarter/uploads/user/avatar/644572/small_1506971433-avatar.jpg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/644572">Nikita Krivonosov</a></li> 
+      <li class="achievements"><a href="/profile/644572/backed">спонсор 1</a> проекта</li> 
+     </ul> 
+     <ul class="backer"> 
+      <a href="/profile/644623"><li class="avatar"> <img alt="Дмитрий Милушин" src="https://boomstarter.ru/assets/fallback/user/avatar-c5198e2f09e5261ee2abd47579b42afacd96bbafbb34ea89435d6eb092a65e2d.svg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/644623">Дмитрий Милушин</a></li> 
+      <li class="achievements"><a href="/profile/644623/backed">спонсор 1</a> проекта</li> 
+     </ul> 
+     <ul class="backer"> 
+      <a href="/profile/644647"><li class="avatar"> <img alt="Анонимный пользователь " src="https://boomstarter.ru/assets/fallback/user/avatar-c5198e2f09e5261ee2abd47579b42afacd96bbafbb34ea89435d6eb092a65e2d.svg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/644647">Анонимный пользователь </a></li> 
+      <li class="achievements"><a href="/profile/644647/backed">спонсор 1</a> проекта</li> 
+     </ul> 
+     <ul class="backer"> 
+      <a href="/profile/644966"><li class="avatar"> <img alt="Алексей Захаров" src="https://boomstarter.ru/assets/fallback/user/avatar-c5198e2f09e5261ee2abd47579b42afacd96bbafbb34ea89435d6eb092a65e2d.svg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/644966">Алексей Захаров</a></li> 
+      <li class="achievements"><a href="/profile/644966/backed">спонсор 1</a> проекта</li> 
+     </ul> 
+     <ul class="backer"> 
+      <a href="/profile/645024"><li class="avatar"> <img alt="Роман Куликов" src="https://boomstarter.ru/assets/fallback/user/avatar-c5198e2f09e5261ee2abd47579b42afacd96bbafbb34ea89435d6eb092a65e2d.svg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/645024">Роман Куликов</a></li> 
+      <li class="achievements"><a href="/profile/645024/backed">спонсор 1</a> проекта</li> 
+     </ul> 
+     <ul class="backer"> 
+      <a href="/profile/645642"><li class="avatar"> <img alt="Dmitriy Goverdovskiy" src="https://boomstarter.ru/assets/fallback/user/avatar-c5198e2f09e5261ee2abd47579b42afacd96bbafbb34ea89435d6eb092a65e2d.svg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/645642">Dmitriy Goverdovskiy</a></li> 
+      <li class="achievements"><a href="/profile/645642/backed">спонсор 1</a> проекта</li> 
+     </ul> 
+     <ul class="backer"> 
+      <a href="/profile/645754"><li class="avatar"> <img alt="сергей хробостов" src="https://boomstarter.ru/assets/fallback/user/avatar-c5198e2f09e5261ee2abd47579b42afacd96bbafbb34ea89435d6eb092a65e2d.svg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/645754">сергей хробостов</a></li> 
+      <li class="achievements"><a href="/profile/645754/backed">спонсор 1</a> проекта</li> 
+     </ul> 
+     <ul class="backer"> 
+      <a href="/profile/646134"><li class="avatar"> <img alt="Alex Semenov" src="https://boomstarter.blob.core.windows.net/boomstarter/uploads/user/avatar/646134/small_1507633996-avatar.jpg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/646134">Alex Semenov</a></li> 
+      <li class="achievements"><a href="/profile/646134/backed">спонсор 1</a> проекта</li> 
+     </ul> 
+     <ul class="backer"> 
+      <a href="/profile/646608"><li class="avatar"> <img alt="Андрей Спирин" src="https://boomstarter.blob.core.windows.net/boomstarter/uploads/user/avatar/646608/small_1507650326-avatar.jpg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/646608">Андрей Спирин</a></li> 
+      <li class="achievements"><a href="/profile/646608/backed">спонсор 1</a> проекта</li> 
+     </ul> 
+     <ul class="backer"> 
+      <a href="/profile/646767"><li class="avatar"> <img alt="Ибрагим Нальгиев" src="https://boomstarter.ru/assets/fallback/user/avatar-c5198e2f09e5261ee2abd47579b42afacd96bbafbb34ea89435d6eb092a65e2d.svg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/646767">Ибрагим Нальгиев</a></li> 
+      <li class="achievements"><a href="/profile/646767/backed">спонсор 1</a> проекта</li> 
+     </ul> 
+     <ul class="backer"> 
+      <a href="/profile/646817"><li class="avatar"> <img alt="Даниэль Циненко" src="https://boomstarter.blob.core.windows.net/boomstarter/uploads/user/avatar/646817/small_1507675787-avatar.jpg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/646817">Даниэль Циненко</a></li> 
+      <li class="achievements"><a href="/profile/646817/backed">спонсор 1</a> проекта</li> 
+     </ul> 
+     <ul class="backer"> 
+      <a href="/profile/648677"><li class="avatar"> <img alt="Иван Новиков" src="https://boomstarter.ru/assets/fallback/user/avatar-c5198e2f09e5261ee2abd47579b42afacd96bbafbb34ea89435d6eb092a65e2d.svg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/648677">Иван Новиков</a></li> 
+      <li class="achievements"><a href="/profile/648677/backed">спонсор 1</a> проекта</li> 
+     </ul> 
+     <ul class="backer"> 
+      <a href="/profile/651331"><li class="avatar"> <img alt="Владислав Камельский" src="https://boomstarter.ru/assets/fallback/user/avatar-c5198e2f09e5261ee2abd47579b42afacd96bbafbb34ea89435d6eb092a65e2d.svg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/651331">Владислав Камельский</a></li> 
+      <li class="achievements"><a href="/profile/651331/backed">спонсор 1</a> проекта</li> 
+     </ul> 
+     <ul class="backer"> 
+      <a href="/profile/651633"><li class="avatar"> <img alt="Екатерина Деркач" src="https://boomstarter.ru/assets/fallback/user/avatar-c5198e2f09e5261ee2abd47579b42afacd96bbafbb34ea89435d6eb092a65e2d.svg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/651633">Екатерина Деркач</a></li> 
+      <li class="achievements"><a href="/profile/651633/backed">спонсор 1</a> проекта</li> 
+     </ul> 
+     <ul class="backer"> 
+      <a href="/profile/651699"><li class="avatar"> <img alt="Александр Хорунжий" src="https://boomstarter.blob.core.windows.net/boomstarter/uploads/user/avatar/651699/small_1508262255-avatar.jpg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/651699">Александр Хорунжий</a></li> 
+      <li class="achievements"><a href="/profile/651699/backed">спонсор 1</a> проекта</li> 
+     </ul> 
+     <ul class="backer"> 
+      <a href="/profile/652630"><li class="avatar"> <img alt="Alexandra Kazakova" src="https://boomstarter.blob.core.windows.net/boomstarter/uploads/user/avatar/652630/small_1508344955-avatar.jpg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/652630">Alexandra Kazakova</a></li> 
+      <li class="achievements"><a href="/profile/652630/backed">спонсор 1</a> проекта</li> 
+     </ul> 
+     <ul class="backer"> 
+      <a href="/profile/653449"><li class="avatar"> <img alt="Алексей Шерстобитов" src="https://boomstarter.ru/assets/fallback/user/avatar-c5198e2f09e5261ee2abd47579b42afacd96bbafbb34ea89435d6eb092a65e2d.svg" width="40" height="40"> </li> </a>
+      <li class="name"><a href="/profile/653449">Алексей Шерстобитов</a></li> 
+      <li class="achievements"><a href="/profile/653449/backed">спонсор 1</a> проекта</li> 
+     </ul> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+ <div class="container-wrapper footer-wrapper"> 
+  <div class="container"> 
+   <div class="footer-column"> 
+    <div class="title">
+     Boomstarter в Facebook
+    </div> 
+    <iframe allowtransparency="true" frameborder="0" scrolling="no" src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fboomstarter.ru&amp;width=300&amp;height=80&amp;colorscheme=dark&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;send=false" style="border:none; overflow:hidden; width:300px; height:80px;"></iframe> 
+   </div> 
+   <div class="footer-column"> 
+    <div class="title">
+     Следуй вместе с нами
+    </div> 
+    <div class="social-lists"> 
+     <ul class="social-list"> 
+      <li class="social-item"> <a class="link facebook" href="//facebook.com/BoomStarter.ru">Вступай в Facebook</a> </li> 
+      <li class="social-item"> <a class="link vkontakte" href="//vk.com/boomstarter">Вступай в Вконтакте</a> </li> 
+      <li class="social-item"> <a class="link twitter" href="//twitter.com/boomstarterru">Читай в Twitter</a> </li> 
+      <li class="social-item"> <a class="link youtube" href="//youtube.com/boomstarterru">Смотри на Youtube</a> </li> 
+     </ul> 
+     <ul class="social-list"> 
+      <li class="social-item"> <a class="link googleplus" href="//plus.google.com/115419453188461235207">Добавляй в Google+</a> </li> 
+      <li class="social-item"> <a class="link vimeo" href="//vimeo.com/boomstarter">Наблюдай на Vimeo</a> </li> 
+      <li class="social-item"> <a class="link team" href="/team">Познакомься с командой</a> </li> 
+      <li class="social-item"> <a class="link job" href="/jobs">Работай у нас</a> </li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="footer-column"> 
+    <div class="title">
+     Наши награды
+    </div> 
+    <a target="_blank" href="http://award.inc.hse.ru/"><img alt="Стартап года" height="50" src="/assets/awards-hse-512a8bc5258f27998650c353fe1ce7a4a2754725b41067f93f8ab865685fa8f0.png"> </a>
+   </div> 
+   <div class="footer-row"> 
+    <ul class="navigation-list"> 
+     <li class="navigation-item"> <a href="/help">Помощь</a> </li> 
+     <li class="navigation-item"> <a href="/help/guidelines">Правила</a> </li> 
+     <li class="navigation-item"> <a href="/terms-of-use">Пользовательское соглашение</a> </li> 
+     <li class="navigation-item"> <a href="/privacy">Политика конфиденциальности</a> </li> 
+     <li class="navigation-item"> <a class="omni-email-widget" onclick="return false" href="#">Напишите нам</a> </li> 
+     <li class="navigation-item"> <a href="/blog">Блог</a> </li> 
+     <li class="navigation-item"> <a href="/team">Команда</a> </li> 
+    </ul> 
+    <div class="legal">
+      © 2012-2017 Boomstarter — ООО «Краудфандинг» 
+     <a href="https://mixpanel.com/f/partner" rel="nofollow" style="margin-left: 50%"> <img alt="Mobile Analytics" src="//cdn.mxpnl.com/site_media/images/partner/badge_blue.png"> </a> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+ <script>
+!function(e,o){!window.omni?window.omni=[]:'';window.omni.push(o);o.g_config={widget_id:"261-7ah1mms1"}; o.email_widget=o.email_widget||{};var w=o.email_widget;w.readyQueue=[];o.config=function(e){ this.g_config.user=e};w.ready=function(e){this.readyQueue.push(e)};var r=e.getElementsByTagName("script")[0];c=e.createElement("script");c.type="text/javascript",c.async=!0;c.src="https://omnidesk.ru/bundles/acmesite/js/cwidget0.2.js";r.parentNode.insertBefore(c,r)}(document,[]);
+omni[0].config({diplay_button: false});
+</script> 
+ <div class="popup js-about-creator-popup"> 
+  <div class="popup-overlay"></div> 
+  <div class="popup-content js-content"> 
+   <button class="popup-close js-close">✕</button> 
+   <ul class="popup-header"> 
+    <li class="avatar"><img alt="Андрей Рогозин" src="https://boomstarter.blob.core.windows.net/boomstarter/uploads/user/avatar/20771/large_1504538744-avatar.jpg"></li> 
+    <li class="position">Автор проекта</li> 
+    <li class="name">Андрей Рогозин</li> 
+    <li class="last-seen">заходил 1 день назад</li> 
+    <li> <button class="button js-send-message">Написать сообщение</button> </li> 
+   </ul> 
+   <div class="biography">
+    <p>Привет! Я CEO проекта Tabula Sense. Мы занимаемся разработкой и производством мебели со встроенной электроникой. Наше производство находится в Москве, а большинство комплектующих российского производства.</p> 
+    <p>Наша цель - создавать красивую и удобную мебель со встроенными гаджетами и реализовывать её по всему миру! </p>
+   </div> 
+   <div class="sidebar"> 
+    <ul class="public-info"> 
+     <li class="achievements"><a href="/profile/rogo3in/backed">спонсор 2</a>, <a href="/profile/rogo3in/created">автор 1</a> проекта</li> 
+     <li class="location"> <a class="link" href="/discover/cities/moscow-ru">Москва, Россия</a> </li> 
+    </ul> 
+    <ul class="sites"> 
+     <li class="title">Сайты</li> 
+     <li><a class="link" rel="nofollow" target="_blank" href="http://tabulasense.ru">tabulasense.ru</a></li> 
+    </ul> 
+   </div> 
+  </div> 
+ </div> 
+ <div class="popup js-send-message-popup"> 
+  <div class="popup-overlay"></div> 
+  <div class="popup-content js-content"> 
+   <button class="popup-close js-close">✕</button> 
+   <h3 class="popup-title">Сообщение автору</h3> 
+   <form class="form js-send-message-form" id="new_message" action="/api/v3/projects/tabula_sense_dizaynerskiy_stol_s_vstroennymi_gadzhetami/messages" accept-charset="UTF-8" method="post">
+    <input name="utf8" type="hidden" value="✓">
+    <input type="hidden" name="authenticity_token" value="mP7NvLuTDeh72a4Mctv2rmGEaAYqKtRxJGxoD1AtAsAGcI/QQZBblXG3XNqk8KqpzdIdrFn9O1yWi2s4TIDOEw==">
+    <div class="text-wrapper"> 
+     <textarea class="text textarea" name="message[body]" id="message_body"></textarea> 
+    </div> 
+    <div class="popup-footer"> 
+     <div class="left"> 
+      <button class="button" type="submit">Отправить</button> 
+     </div> 
+    </div> 
+   </form> 
+  </div> 
+ </div> 
+ <div class="popup js-embed-project-popup"> 
+  <div class="popup-overlay"></div> 
+  <div class="popup-content js-content"> 
+   <button class="popup-close js-close">✕</button> 
+   <h3 class="popup-title">Код для сайта</h3> 
+   <div class="js-embed-project-popup-body-container"></div> 
+  </div> 
+ </div> 
+ <script id="embed-project-popup-body-template" type="text/template">
+<div class="widgets">
+<div class="pane video">
+<h2>Видео</h2>
+<textarea onclick="this.select()"><iframe frameborder="0" height="288" src="https://boomstarter.ru/projects/rogo3in/tabula_sense_dizaynerskiy_stol_s_vstroennymi_gadzhetami/widget/video.html" width="480"></iframe></textarea>
+<iframe frameborder="0" height="288" src="https://boomstarter.ru/projects/rogo3in/tabula_sense_dizaynerskiy_stol_s_vstroennymi_gadzhetami/widget/video.html" width="480"></iframe>
+</div>
+<div class="pane card">
+<h2>Виджет</h2>
+<textarea onclick="this.select()"><iframe frameborder="0" height="390" src="https://boomstarter.ru/projects/rogo3in/tabula_sense_dizaynerskiy_stol_s_vstroennymi_gadzhetami/widget/card.html" width="210"></iframe></textarea>
+<iframe frameborder="0" height="390" src="https://boomstarter.ru/projects/rogo3in/tabula_sense_dizaynerskiy_stol_s_vstroennymi_gadzhetami/widget/card.html" width="210"></iframe>
+</div>
+</div>
+</script> 
+ <script type="text/template" id="project-duration-form-template">
+  <div class="inline">
+    <div class="data-wrapper">
+      <input type="text" name="duration" placeholder="30" maxlength="2" class="js-error js-duration" min="0" max="60" value="<@= _.escape(project.duration || '') @>">
+    </div>
+    <div class="unit">дн.</div>
+    <div class="text">
+      <div class="info">Проект может длиться не более 60 дней, мы рекомендуем 30.</div>
+      <div class="js-date" style="display: none;">
+        Завершится <span class="js-date-indicator"></span> (без учета времени на модерацию).
+      </div>
+    </div>
+  </div>
+</script> 
+ <script type="text/template" id="project-deadline-form-template">
+  <div class="inline">
+    <div class="calendar-wrapper" data-error="deadline">
+      <div class="js-rome"></div>
+    </div>
+    <div class="text" style="vertical-align: top;">
+      <div class="info">Проект может длиться не более 60 дней, мы рекомендуем 30.</div>
+
+      <div style="display: none;" class="js-diff-container">
+        Проект продлится <span class="js-diff"></span>.
+      </div>
+
+      <div data-error="deadline">
+        Дата и время завершения <span data-error-message="deadline"></span>
+      </div>
+    </div>
+  </div>
+</script> 
+ <script type="text/template" id="project-duration-template">
+  <div class="tabs">
+    <button class="tab js-tab js-duration-tab <@= project.duration || !project.deadline ? 'active' : '' @>" type="button">Количество дней</button>
+    <button class="tab js-tab js-deadline-tab <@= project.deadline ? 'active' : '' @>" type="button">Дата и время завершения</button>
+  </div>
+
+  <div class="tab-content js-tab-content js-duration-container <@= project.duration || !project.deadline ? 'active' : '' @>"></div>
+  <div class="tab-content js-tab-content js-deadline-container <@= project.deadline ? 'active' : '' @>"></div>
+</script> 
+ <script src="/assets/project-6a2f252b3c257e1310241bf531cbc167ecf9f0a5ff740e6a6ee9daa2bb57df93.js"></script> 
+ <script>
+  if (typeof odin !== 'undefined' && odin !== null) {
+    odin.sendProjectInteractions(136003, 'backers');
+  }
+</script> 
+ <script>
+//<![CDATA[
+window.gon={};gon.Project={"id":136003,"type":"deadline","creator_id":20771,"name":"Tabula Sense. Дизайнерский стол с встроенными гаджетами"};gon.Rewards=[{"id":207865,"photo":"https://boomstarter.blob.core.windows.net/boomstarter/uploads/reward/photo/207865/medium_1506028883-photo.jpg?1508523967","description":"Tabula Sense Lap Desk - легкий и функциональный столик-подставка для ноутбука\n\nДля создания мобильного столика-подставки мы используем  исключительно натуральные материалы. Мобильный столик-подставка представляет собой плоскую рабочую поверхность, слот для фиксации смартфона или планшета, а также отверстия для удобного расположения бокала с напитком. Основа платформы – срощенный массив березы.\n\nТеперь Вы можете продолжать работу, комфортно расположившись в кресле, на диване и даже в гамаке!","delivery":"за счет спонсора","is_deliverable":true,"estimated_delivery":"ноябрь 2017","amount":3499,"limit":0,"backings_count":6,"exw_available":null,"is_popular":false,"is_bought":false,"is_active":true,"backing_details_edit_path":null,"link":false,"reward_path":false,"backing_amount":0.0,"backing_count":0,"cancellable":false},{"id":207867,"photo":"https://boomstarter.blob.core.windows.net/boomstarter/uploads/reward/photo/207867/medium_1505780445-photo.jpg?1508523967","description":"Стол Tabula Sense Light на стационарных ножках, со съёмной центральной частью. Три разъёма USB fast charge, универсальная док станция и беспроводная зарядка стандарта Qi уже встроены в стол! Станьте первым обладателем уникального дизайнерского стола российского производства по оптовой цене!","delivery":"за счет спонсора","is_deliverable":true,"estimated_delivery":"ноябрь 2017","amount":29900,"limit":0,"backings_count":15,"exw_available":null,"is_popular":true,"is_bought":false,"is_active":true,"backing_details_edit_path":null,"link":false,"reward_path":false,"backing_amount":0.0,"backing_count":0,"cancellable":false},{"id":207868,"photo":"https://boomstarter.blob.core.windows.net/boomstarter/uploads/reward/photo/207868/medium_1505778326-photo.jpg?1508523967","description":"Стол Tabula Sense Light на телескопических ножках с электроприводом, со съёмной центральной частью. Три разъёма USB fast charge, универсальная док станция и беспроводная зарядка стандарта Qi уже встроены в стол! Станьте первым обладателем уникального дизайнерского стола российского производства по оптовой цене!","delivery":"за счет спонсора","is_deliverable":true,"estimated_delivery":"ноябрь 2017","amount":69900,"limit":0,"backings_count":3,"exw_available":null,"is_popular":false,"is_bought":false,"is_active":true,"backing_details_edit_path":null,"link":false,"reward_path":false,"backing_amount":0.0,"backing_count":0,"cancellable":false}];
+//]]>
+</script> 
+ <script>
+  new app.views.Header();
+  new app.views.Project.Menu();
+  new app.Project();
+  new app.pm.ProjectLaunch();
+</script>  
+</body>

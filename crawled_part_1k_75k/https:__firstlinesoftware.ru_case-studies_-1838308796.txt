@@ -1,0 +1,757 @@
+https://firstlinesoftware.ru/case-studies
+<body class="logo-type-preset1 header-headroom-enabled-1 showcase-bg-transition-left-to-right showcase-type-none feature-type-none mainbody-overlay-light extension-type-none footer-overlay-light copyright-overlay-dark font-family-open-sans font-size-is-default menu-type-dropdownmenu layout-mode-responsive col12 option-com-content menu-case-studies " id="scrollheader"> 
+ <!-- Yandex.Metrika counter --> 
+ <script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter23808841 = new Ya.Metrika({id:23808841,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script> 
+ <noscript>
+  <div>
+   <img src="//mc.yandex.ru/watch/23808841" style="position:absolute; left:-9999px;" alt="">
+  </div>
+ </noscript> 
+ <!-- /Yandex.Metrika counter --> 
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-38240582-1', 'auto');
+  ga('send', 'pageview');
+
+</script> 
+ <div id="rt-page-surround"> 
+  <header id="rt-header-surround" class="scrollheader"> 
+   <div id="rt-header" class="rt-overlay-light"> 
+    <div class="rt-container"> 
+     <div class="rt-grid-3 rt-alpha"> 
+      <div class="rt-logo-block"> 
+       <a href="/" id="rt-logo" class="new-year"></a> 
+      </div> 
+     </div> 
+     <div class="rt-grid-9 rt-omega"> 
+      <form name="rokajaxsearch" id="rokajaxsearch" class="light" action="https://firstlinesoftware.ru/" method="get"> 
+       <div class="rokajaxsearch search-field-container icon-search"> 
+        <div class="roksearch-wrapper"> 
+         <input id="roksearch_search_str" name="searchword" type="text" class="inputbox roksearch_search_str" placeholder="Поиск..."> 
+        </div> 
+        <input type="hidden" name="searchphrase" value="any"> 
+        <input type="hidden" name="limit" value="20"> 
+        <input type="hidden" name="ordering" value="newest"> 
+        <input type="hidden" name="view" value="search"> 
+        <input type="hidden" name="option" value="com_search"> 
+        <div id="roksearch_results"></div> 
+       </div> 
+       <div id="rokajaxsearch_tmp" style="visibility:hidden;display:none;"></div> 
+      </form> 
+      <div class="rt-block language-change-box"> 
+       <div class="module-surround"> 
+        <div class="module-content"> 
+         <!--/usr/local/www/www_flsru/httpdocs/templates--> 
+         <div class="country-select"> 
+          <span>Русский</span> 
+          <a href="http://firstlinesoftware.com" class="counry-link" title="English"> </a> 
+          <span>/</span> 
+          <span class="selected-counrty" title="English"></span> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="rt-block menu-block nomarginleft nomarginright largemargintop largemarginbottom"> 
+       <div class="module-surround"> 
+        <div class="module-content"> 
+         <div class="gf-menu-device-container responsive-type-panel"></div> 
+         <ul class="gf-menu l1 " id=""> 
+          <li class="item115 parent"> <a class="item" href="/i-need-to"> Услуги </a> <span class="dropdown-spacer"></span> 
+           <div class="dropdown columns-1 " style="width:235px;"> 
+            <div class="column col1" style="width:235px;"> 
+             <ul class="l2"> 
+              <li class="item158"> <a class="item" href="/i-need-to/develop-a-software-product"> Разработка программных продуктов и приложений </a> </li> 
+              <li class="item159"> <a class="item" href="/i-need-to/find-a-development-team"> Создание выделенных центров разработки </a> </li> 
+              <li class="item157"> <a class="item" href="/i-need-to/build-a-software-application"> Внедрение и кастомизация информационных систем </a> </li> 
+             </ul> 
+            </div> 
+           </div> </li> 
+          <li class="item112 parent"> <a class="item" href="/expertise"> Экспертиза </a> <span class="dropdown-spacer"></span> 
+           <div class="dropdown columns-1 " style="width:350px;"> 
+            <div class="column col1" style="width:350px;"> 
+             <ul class="l2"> 
+              <li class="item154"> <a class="item" href="/expertise/loyalty-programs"> Системы лояльности / бонусные системы </a> </li> 
+              <li class="item156"> <a class="item" href="/expertise/multichannel-marketing"> Мультиканальный маркетинг </a> </li> 
+              <li class="item234"> <a class="item" href="/expertise/portal"> Корпоративные порталы </a> </li> 
+              <li class="item153"> <a class="item" href="/expertise/financial-systems"> Финансовые системы </a> </li> 
+              <li class="item155"> <a class="item" href="/expertise/media-solutions"> Решения для медиа-отрасли </a> </li> 
+              <li class="item230"> <a class="item" href="/expertise/city"> Решения для управления городской средой </a> </li> 
+              <li class="item152"> <a class="item" href="/expertise/enterprise-mobility"> Разработка мобильных приложений </a> </li> 
+              <li class="item174"> <a class="item" href="/expertise/wearable-technology"> Проектирование носимых устройств </a> </li> 
+              <li class="item232"> <a class="item" href="/expertise/viastore"> Автоматизация склада - решения на базе WMS viad@t </a> </li> 
+              <li class="item233"> <a class="item" href="/expertise/ecm"> Автоматизация документооборота / ECM-системы </a> </li> 
+              <li class="item235"> <a class="item" href="/expertise/analiz-potrebitelej"> Анализ поведения потребителей </a> </li> 
+              <li class="item236"> <a class="item" href="/expertise/video"> Обработка и управление видеоконтентом </a> </li> 
+              <li class="item295"> <a class="item" href="/expertise/internet-veshchej"> Интернет вещей </a> </li> 
+             </ul> 
+            </div> 
+           </div> </li> 
+          <li class="item194 parent"> <a class="item" href="/technologies"> Технологии </a> <span class="dropdown-spacer"></span> 
+           <div class="dropdown columns-1 " style="width:180px;"> 
+            <div class="column col1" style="width:180px;"> 
+             <ul class="l2"> 
+              <li class="item195"> <a class="item" href="/technologies/java"> Java </a> </li> 
+              <li class="item220"> <a class="item" href="/technologies/net"> .NET </a> </li> 
+              <li class="item199"> <a class="item" href="/technologies/mongodb"> MongoDB </a> </li> 
+              <li class="item200"> <a class="item" href="/technologies/apache-hadoop"> Hadoop </a> </li> 
+              <li class="item198"> <a class="item" href="/technologies/ruby"> Ruby </a> </li> 
+              <li class="item217"> <a class="item" href="/technologies/php"> PHP </a> </li> 
+              <li class="item197"> <a class="item" href="/technologies/episerver"> EPiServer </a> </li> 
+              <li class="item196"> <a class="item" href="/technologies/sharepoint"> SharePoint </a> </li> 
+              <li class="item215"> <a class="item" href="/technologies/opentext"> OpenText </a> </li> 
+              <li class="item218"> <a class="item" href="/technologies/alfresco"> Alfresco </a> </li> 
+             </ul> 
+            </div> 
+           </div> </li> 
+          <li class="item117 active last"> <a class="item" href="/case-studies"> Проекты </a> </li> 
+          <li class="item221 parent"> <a class="item" href="/team"> Компания </a> <span class="dropdown-spacer"></span> 
+           <div class="dropdown columns-1 " style="width:180px;"> 
+            <div class="column col1" style="width:180px;"> 
+             <ul class="l2"> 
+              <li class="item113 parent"> <a class="item" href="/team/leadership"> Руководство </a> </li> 
+              <li class="item114 parent"> <a class="item" href="/team/people-culture"> Люди и культура </a> </li> 
+              <li class="item276"> <a class="item" href="/team/flipbook"> Презентация </a> </li> 
+              <li class="item277"> <a class="item" href="/team/video"> Видео презентация </a> </li> 
+              <li class="item223"> <a class="item" href="/team/vacancy"> Вакансии </a> </li> 
+             </ul> 
+            </div> 
+           </div> </li> 
+          <li class="item229 parent"> <a class="item" href="/news"> Новости </a> <span class="dropdown-spacer"></span> 
+           <div class="dropdown columns-1 " style="width:180px;"> 
+            <div class="column col1" style="width:180px;"> 
+             <ul class="l2"> 
+              <li class="item120"> <a class="item" href="/news/blog"> Блог </a> </li> 
+              <li class="item227"> <a class="item" href="/news/pressa"> Пресса о нас </a> </li> 
+              <li class="item225"> <a class="item" href="/news/news-company"> Новости компании </a> </li> 
+             </ul> 
+            </div> 
+           </div> </li> 
+          <li class="item122"> <a class="item" href="/contact-us"> Контакты </a> </li> 
+          <li class="item298"> <a class="item" href="/career"> Карьера </a> </li> 
+         </ul> 
+         <script>
+	jQuery('.gf-menu .parent > a').bind('touchstart', function (e) {
+            var $this = jQuery(this),
+				$parent = $this.closest('.parent');
+            jQuery('.gf-menu .parent').each(function (index) {
+                if (!jQuery(this).is($parent)) {
+                    jQuery(this).removeClass('touchstart');
+                }
+            });			
+			if(!$parent.hasClass('touchstart')){
+				$parent.addClass('touchstart');
+				return false;
+			}	
+	});
+</script> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="clear"></div> 
+    </div> 
+   </div> 
+  </header> 
+  <div id="rt-drawer"> 
+   <div class="rt-container"> 
+    <div class="clear"></div> 
+   </div> 
+  </div> 
+  <section id="rt-showcase-surround"> 
+   <div id="rt-showcase" class="rt-overlay-light"> 
+    <div class="rt-container"> 
+     <div class="rt-grid-12 rt-alpha rt-omega"> 
+      <div class="rt-block rt-big-title rt-center"> 
+       <div class="module-surround"> 
+        <div class="module-title"> 
+         <h2 class="title"><span>Проекты<span class="rt-title-tag">Некоторые интересные задачи, которые мы решили</span></span></h2> 
+        </div> 
+        <div class="module-content"> 
+         <div class="customrt-big-title rt-center"> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="clear"></div> 
+    </div> 
+   </div> 
+  </section> 
+  <section id="rt-main-surround"> 
+   <div id="rt-transition"> 
+    <div id="rt-mainbody-surround"> 
+     <div id="rt-expandedtop" class="rt-overlay-light"> 
+      <div class="rt-container"> 
+       <div class="rt-grid-12 rt-alpha rt-omega"> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+     </div> 
+     <div class="rt-container"> 
+      <div id="rt-main" class="mb12"> 
+       <div class="rt-container"> 
+        <div class="rt-grid-12 "> 
+         <div id="rt-content-top"> 
+          <div class="rt-grid-12 rt-alpha rt-omega"> 
+           <div class="rt-block rt-center nomarginbottom nopaddingbottom case-studies-mosaic"> 
+            <div class="module-surround"> 
+             <div class="module-content"> 
+              <div class="sprocket-mosaic" data-mosaic="326"> 
+               <div class="sprocket-mosaic-overlay">
+                <div class="css-loader-wrapper">
+                 <div class="css-loader"></div>
+                </div>
+               </div> 
+               <div class="sprocket-mosaic-header"> 
+                <div class="sprocket-mosaic-filter"> 
+                 <ul> 
+                  <li class="all active" data-mosaic-filterby="all" data-mosaic-count=">1"> All </li> 
+                  <li class="EPiServer" data-mosaic-filterby="EPiServer" data-mosaic-count=">1"> EPiServer </li> 
+                  <li class="Media" data-mosaic-filterby="Media" data-mosaic-count=">1"> Media </li> 
+                  <li class=".NET" data-mosaic-filterby=".NET" data-mosaic-count=">1"> .NET </li> 
+                  <li class="E-commerce" data-mosaic-filterby="E-commerce" data-mosaic-count=">1"> E Commerce </li> 
+                  <li class="PHP" data-mosaic-filterby="PHP" data-mosaic-count=">1"> PHP </li> 
+                  <li class="Java" data-mosaic-filterby="Java" data-mosaic-count=">1"> Java </li> 
+                  <li class="Mobile" data-mosaic-filterby="Mobile" data-mosaic-count=">1"> Mobile </li> 
+                  <li class="Cloud" data-mosaic-filterby="Cloud" data-mosaic-count=">1"> Cloud </li> 
+                  <li class="Digital-Marketing" data-mosaic-filterby="Digital-Marketing" data-mosaic-count=">1"> Digital Marketing </li> 
+                  <li class="NoSQL" data-mosaic-filterby="NoSQL" data-mosaic-count=">1"> NoSQL </li> 
+                  <li class="Big-Data" data-mosaic-filterby="Big-Data" data-mosaic-count=">1"> Big Data </li> 
+                  <li class="Salesforce.com" data-mosaic-filterby="Salesforce.com" data-mosaic-count=">1"> Salesforce.com </li> 
+                  <li class="cloud" data-mosaic-filterby="cloud" data-mosaic-count=">1"> Cloud </li> 
+                 </ul> 
+                </div> 
+                <div class="sprocket-mosaic-order"> 
+                 <ul> 
+                  <li class="active" data-mosaic-orderby="default">Default</li> 
+                  <li data-mosaic-orderby="title">Title</li> 
+                  <li data-mosaic-orderby="date">Date</li> 
+                  <li data-mosaic-orderby="random">Random</li> 
+                 </ul> 
+                </div> 
+                <div class="clear"></div> 
+               </div> 
+               <ul class="sprocket-mosaic-container sprocket-mosaic-columns-3" data-mosaic-items> 
+                <li class="sprocket-tags-EPiServer sprocket-tags-Media sprocket-tags-.NET" data-mosaic-item> 
+                 <div class="sprocket-mosaic-item" data-mosaic-content> 
+                  <div style="display: none;" data-mosaic-order-title="Платформа управления контентом для мировой издательской группы" data-mosaic-order-date="2014-03-12 18:25:13"></div> 
+                  <div class="sprocket-padding"> 
+                   <div class="sprocket-mosaic-image-container"> 
+                    <a href="/cases/content-management-platform-for-global-publisher"> <img src="/images/case-studies/cms-platform-intro.jpg" alt="" class="sprocket-mosaic-image"> <span class="sprocket-mosaic-hover"></span> <span class="sprocket-mosaic-hovercontent"><span>+</span>Подробнее</span> </a> 
+                   </div> 
+                   <div class="sprocket-mosaic-head"> 
+                    <h2 class="sprocket-mosaic-title"> <a href="/cases/content-management-platform-for-global-publisher"> Платформа управления контентом для мировой издательской группы </a> </h2> 
+                   </div> 
+                   <div class="sprocket-mosaic-text">
+                     Проект миграции 60 интернет-изданий на единую платформу, прошедший незаметно для миллионов пользователей 
+                   </div> 
+                   <a href="/cases/content-management-platform-for-global-publisher" class="sprocket-readmore"><span>Подробнее</span></a> 
+                   <ul class="sprocket-mosaic-tags"> 
+                    <li class="sprocket-tags-EPiServer">EPiServer</li> 
+                    <li class="sprocket-tags-Media">Media</li> 
+                    <li class="sprocket-tags-.NET">.NET</li> 
+                   </ul> 
+                  </div> 
+                 </div> </li> 
+                <li class="sprocket-tags-E-commerce sprocket-tags-EPiServer sprocket-tags-.NET" data-mosaic-item> 
+                 <div class="sprocket-mosaic-item" data-mosaic-content> 
+                  <div style="display: none;" data-mosaic-order-title="Управление цепочками поставок для маркетинговой компании" data-mosaic-order-date="2014-03-12 18:13:31"></div> 
+                  <div class="sprocket-padding"> 
+                   <div class="sprocket-mosaic-image-container"> 
+                    <a href="/cases/digital-supply-model-for-global-marketing-company"> <img src="/images/case-studies/digital-supply-intro.jpg" alt="" class="sprocket-mosaic-image"> <span class="sprocket-mosaic-hover"></span> <span class="sprocket-mosaic-hovercontent"><span>+</span>Подробнее</span> </a> 
+                   </div> 
+                   <div class="sprocket-mosaic-head"> 
+                    <h2 class="sprocket-mosaic-title"> <a href="/cases/digital-supply-model-for-global-marketing-company"> Управление цепочками поставок для маркетинговой компании </a> </h2> 
+                   </div> 
+                   <div class="sprocket-mosaic-text">
+                     В2В веб-портал и автоматизация управления заказами мирового маркетингового поставщика 
+                   </div> 
+                   <a href="/cases/digital-supply-model-for-global-marketing-company" class="sprocket-readmore"><span>Подробнее</span></a> 
+                   <ul class="sprocket-mosaic-tags"> 
+                    <li class="sprocket-tags-E-commerce">E Commerce</li> 
+                    <li class="sprocket-tags-EPiServer">EPiServer</li> 
+                    <li class="sprocket-tags-.NET">.NET</li> 
+                   </ul> 
+                  </div> 
+                 </div> </li> 
+                <li class="sprocket-tags-Media sprocket-tags-PHP" data-mosaic-item> 
+                 <div class="sprocket-mosaic-item" data-mosaic-content> 
+                  <div style="display: none;" data-mosaic-order-title="Перезапуск сервиса частных объявлений в онлайне" data-mosaic-order-date="2014-03-22 17:00:08"></div> 
+                  <div class="sprocket-padding"> 
+                   <div class="sprocket-mosaic-image-container"> 
+                    <a href="/cases/helping-classified-ads-business-go-digital"> <img src="/images/case-studies/classified-intro.jpg" alt="" class="sprocket-mosaic-image"> <span class="sprocket-mosaic-hover"></span> <span class="sprocket-mosaic-hovercontent"><span>+</span>Подробнее</span> </a> 
+                   </div> 
+                   <div class="sprocket-mosaic-head"> 
+                    <h2 class="sprocket-mosaic-title"> <a href="/cases/helping-classified-ads-business-go-digital"> Перезапуск сервиса частных объявлений в онлайне </a> </h2> 
+                   </div> 
+                   <div class="sprocket-mosaic-text">
+                     Запуск современной версии веб-портала одного из крупнейших в России рекламного издательства 
+                   </div> 
+                   <a href="/cases/helping-classified-ads-business-go-digital" class="sprocket-readmore"><span>Подробнее</span></a> 
+                   <ul class="sprocket-mosaic-tags"> 
+                    <li class="sprocket-tags-Media">Media</li> 
+                    <li class="sprocket-tags-PHP">PHP</li> 
+                   </ul> 
+                  </div> 
+                 </div> </li> 
+                <li class="sprocket-tags-Java" data-mosaic-item> 
+                 <div class="sprocket-mosaic-item" data-mosaic-content> 
+                  <div style="display: none;" data-mosaic-order-title="Инновационное решение для шифрования баз данных" data-mosaic-order-date="2014-03-22 17:48:45"></div> 
+                  <div class="sprocket-padding"> 
+                   <div class="sprocket-mosaic-image-container"> 
+                    <a href="/cases/innovative-database-encryption-solution"> <img src="/images/case-studies/database-intro.jpg" alt="" class="sprocket-mosaic-image"> <span class="sprocket-mosaic-hover"></span> <span class="sprocket-mosaic-hovercontent"><span>+</span>Подробнее</span> </a> 
+                   </div> 
+                   <div class="sprocket-mosaic-head"> 
+                    <h2 class="sprocket-mosaic-title"> <a href="/cases/innovative-database-encryption-solution"> Инновационное решение для шифрования баз данных </a> </h2> 
+                   </div> 
+                   <div class="sprocket-mosaic-text">
+                     Решение по выборочному и прозрачному шифрованию баз данных "на лету" 
+                   </div> 
+                   <a href="/cases/innovative-database-encryption-solution" class="sprocket-readmore"><span>Подробнее</span></a> 
+                   <ul class="sprocket-mosaic-tags"> 
+                    <li class="sprocket-tags-Java">Java</li> 
+                   </ul> 
+                  </div> 
+                 </div> </li> 
+                <li class="sprocket-tags-Java sprocket-tags-Mobile" data-mosaic-item> 
+                 <div class="sprocket-mosaic-item" data-mosaic-content> 
+                  <div style="display: none;" data-mosaic-order-title="Разработка крупномасштабной пассажирской платформы лояльности" data-mosaic-order-date="2014-03-12 18:20:57"></div> 
+                  <div class="sprocket-padding"> 
+                   <div class="sprocket-mosaic-image-container"> 
+                    <a href="/cases/large-scale-passenger-loyalty-platform"> <img src="/images/case-studies/loyalty-intro.jpg" alt="" class="sprocket-mosaic-image"> <span class="sprocket-mosaic-hover"></span> <span class="sprocket-mosaic-hovercontent"><span>+</span>Подробнее</span> </a> 
+                   </div> 
+                   <div class="sprocket-mosaic-head"> 
+                    <h2 class="sprocket-mosaic-title"> <a href="/cases/large-scale-passenger-loyalty-platform"> Разработка крупномасштабной пассажирской платформы лояльности </a> </h2> 
+                   </div> 
+                   <div class="sprocket-mosaic-text">
+                     Бонусная система для крупнейшей железнодорожной компании 
+                   </div> 
+                   <a href="/cases/large-scale-passenger-loyalty-platform" class="sprocket-readmore"><span>Подробнее</span></a> 
+                   <ul class="sprocket-mosaic-tags"> 
+                    <li class="sprocket-tags-Java">Java</li> 
+                    <li class="sprocket-tags-Mobile">Mobile</li> 
+                   </ul> 
+                  </div> 
+                 </div> </li> 
+                <li class="sprocket-tags-.NET sprocket-tags-Cloud sprocket-tags-Digital-Marketing" data-mosaic-item> 
+                 <div class="sprocket-mosaic-item" data-mosaic-content> 
+                  <div style="display: none;" data-mosaic-order-title="Инновационный цифровой маркетинг в облачной среде" data-mosaic-order-date="2014-03-12 18:24:06"></div> 
+                  <div class="sprocket-padding"> 
+                   <div class="sprocket-mosaic-image-container"> 
+                    <a href="/cases/innovative-digital-marketing-in-the-cloud"> <img src="/images/case-studies/digital-marketing-intro.jpg" alt="" class="sprocket-mosaic-image"> <span class="sprocket-mosaic-hover"></span> <span class="sprocket-mosaic-hovercontent"><span>+</span>Подробнее</span> </a> 
+                   </div> 
+                   <div class="sprocket-mosaic-head"> 
+                    <h2 class="sprocket-mosaic-title"> <a href="/cases/innovative-digital-marketing-in-the-cloud"> Инновационный цифровой маркетинг в облачной среде </a> </h2> 
+                   </div> 
+                   <div class="sprocket-mosaic-text">
+                     Мультиканальная и мультипоточная система управления коммуникациями с клиентами 
+                   </div> 
+                   <a href="/cases/innovative-digital-marketing-in-the-cloud" class="sprocket-readmore"><span>Подробнее</span></a> 
+                   <ul class="sprocket-mosaic-tags"> 
+                    <li class="sprocket-tags-.NET">.NET</li> 
+                    <li class="sprocket-tags-Cloud">Cloud</li> 
+                    <li class="sprocket-tags-Digital-Marketing">Digital Marketing</li> 
+                   </ul> 
+                  </div> 
+                 </div> </li> 
+               </ul> 
+               <div class="sprocket-mosaic-loadmore" data-mosaic-loadmore> 
+                <span class="loadmore-more"> <span class="loadmore-text">показать еще</span> <span class="loadmore-info">Удерживайте <strong>SHIFT</strong>, чтобы загрузить все</span> </span> 
+                <span class="loadmore-all"> <span class="loadmore-text">показать еще</span> </span> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="rt-block"> 
+          <div id="rt-mainbody"> 
+           <div class="component-content"> 
+            <section class="blog"> 
+            </section> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+      </div> 
+     </div> 
+     <div id="rt-extension" class="rt-overlay-dark"> 
+      <div class="rt-container"> 
+       <div class="rt-grid-12 rt-alpha rt-omega"> 
+        <div class="rt-block fp-roksprocket-strips header-center rt-big-title"> 
+         <div class="module-surround"> 
+          <div class="module-title"> 
+           <h2 class="title"><span>Что говорят наши клиенты</span></h2> 
+          </div> 
+          <div class="module-content"> 
+           <div class="sprocket-strips" data-strips="241"> 
+            <div class="sprocket-strips-overlay">
+             <div class="css-loader-wrapper">
+              <div class="css-loader"></div>
+             </div>
+            </div> 
+            <ul class="sprocket-strips-container cols-1" data-strips-items> 
+             <li data-strips-item> 
+              <div class="sprocket-strips-item" data-strips-content> 
+               <div class="sprocket-strips-content"> 
+                <span class="sprocket-strips-text"> Мы хотели бы выразить крайнюю признательность как руководству, так и всем членам проектной команды за качественную, быструю, а самое главное, гибкую модель разработки ПО, которая позволила в короткие сроки разработать большой объем функционала и приступить к его внедрению в опытную эксплуатацию. При этом следует особенно отметить профессионализм всех членов команды, которые смогли в течение недели перестроиться с технологии Scrum на технологию Канбан, и, как следствие, показать результат, превосходящий ожидания заказчика. <b>Дмитрий Скляров, генеральный директор СпайдерМайнд</b> </span> 
+               </div> 
+              </div> </li> 
+            </ul> 
+            <div class="sprocket-strips-nav"> 
+             <div class="sprocket-strips-pagination"> 
+              <ul> 
+               <li class="active" data-strips-page="1"><span>1</span></li> 
+               <li data-strips-page="2"><span>2</span></li> 
+               <li data-strips-page="3"><span>3</span></li> 
+               <li data-strips-page="4"><span>4</span></li> 
+               <li data-strips-page="5"><span>5</span></li> 
+               <li data-strips-page="6"><span>6</span></li> 
+               <li data-strips-page="7"><span>7</span></li> 
+               <li data-strips-page="8"><span>8</span></li> 
+               <li data-strips-page="9"><span>9</span></li> 
+               <li data-strips-page="10"><span>10</span></li> 
+              </ul> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <footer id="rt-footer-surround"> 
+   <div class="rt-footer-surround-pattern"> 
+    <div id="rt-footer" class="rt-overlay-light"> 
+     <div class="rt-container"> 
+      <div class="rt-grid-4 rt-alpha"> 
+       <div class="rt-block fp-footer-a rt-center"> 
+        <div class="module-surround"> 
+         <div class="module-content"> 
+          <div class="customfp-footer-a rt-center"> 
+           <p><a href="/contact-us"><span class="rt-icon"><span class="icon-exclamation-sign"></span></span></a></p>
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="rt-block fp-latest-news rt-title-center"> 
+        <div class="module-surround"> 
+         <div class="module-title"> 
+          <h2 class="title"><span>Есть вопросы?</span></h2> 
+         </div> 
+         <div class="module-content"> 
+          <div class="customfp-latest-news rt-title-center"> 
+           <p style="text-align: center;"><a class="readon rt-big-button btn-action" href="/contact-us">Свяжитесь с нами</a></p>
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="rt-grid-4"> 
+       <div class="rt-block fp-footer-b rt-center"> 
+        <div class="module-surround"> 
+         <div class="module-content"> 
+          <div class="customfp-footer-b rt-center"> 
+           <p><a href="/news/blog"><span class="rt-icon"><span class="icon-file-text-alt"></span></span></a></p>
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="rt-block fp-latest-news rt-title-center"> 
+        <div class="module-surround"> 
+         <div class="module-title"> 
+          <h2 class="title"><span>Наш блог</span></h2> 
+         </div> 
+         <div class="module-content"> 
+          <ul class="latestnewsfp-latest-news rt-title-center"> 
+           <li itemscope itemtype="http://schema.org/Article"> <a href="/news/blog/355-kakimi-budut-tsifrovye-oteli-budushchego" itemprop="url"> <span itemprop="name"> Какими будут цифровые отели будущего? </span> </a> </li> 
+           <li itemscope itemtype="http://schema.org/Article"> <a href="/news/blog/352-umnye-chasy-zadacha-pridat-smysl" itemprop="url"> <span itemprop="name"> Умные часы: оптимальная комплектация </span> </a> </li> 
+           <li itemscope itemtype="http://schema.org/Article"> <a href="/news/blog/345-tsifrovoj-turizm-kakie-segmenty-rynka-organizovannykh-puteshestvij-otsifrovyvayutsya-prezhde-vsego" itemprop="url"> <span itemprop="name"> Цифровой туризм: какие сегменты рынка организованных путешествий оцифровываются прежде всего? </span> </a> </li> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="rt-grid-4 rt-omega"> 
+       <div class="rt-block fp-footer-b rt-center"> 
+        <div class="module-surround"> 
+         <div class="module-content"> 
+          <div class="customfp-footer-b rt-center"> 
+           <p><a href="/news/pressa"><span class="rt-icon"><span class="icon-columns"></span></span></a></p>
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="rt-block fp-latest-news rt-title-center"> 
+        <div class="module-surround"> 
+         <div class="module-title"> 
+          <h2 class="title"><span>Пресса о нас</span></h2> 
+         </div> 
+         <div class="module-content"> 
+          <ul class="latestnewsfp-latest-news rt-title-center"> 
+           <li itemscope itemtype="http://schema.org/Article"> <a href="/news/pressa/362-gde-vzyat-million-programmistov" itemprop="url"> <span itemprop="name"> Где взять миллион программистов </span> </a> </li> 
+           <li itemscope itemtype="http://schema.org/Article"> <a href="/news/pressa/361-novyj-defitsit-gonit-rossijskie-it-kompanii-na-zapadnyj-rynok-m-a" itemprop="url"> <span itemprop="name"> Новый дефицит гонит российские IT-компании на западный рынок M&amp;A </span> </a> </li> 
+           <li itemscope itemtype="http://schema.org/Article"> <a href="/news/pressa/360-peterburgskie-biznesmeny-rasskazali-chego-zhdut-ot-novogo-delovogo-sezona" itemprop="url"> <span itemprop="name"> Петербургские бизнесмены рассказали, чего ждут от нового делового сезона </span> </a> </li> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="clear"></div> 
+     </div> 
+    </div> 
+   </div> 
+  </footer> 
+ </div> 
+ <div id="rt-copyright" class="rt-overlay-dark"> 
+  <div class="rt-container"> 
+   <div class="rt-grid-4 rt-alpha"> 
+    <div class="rt-copyright-content rt-block">
+      First Line Software 
+    </div> 
+   </div> 
+   <div class="rt-grid-4"> 
+    <div class="clear"></div> 
+    <div class="rt-block"> 
+     <a href="#" id="gantry-totop" rel="nofollow"><span class="icon-angle-up rt-totop-icon"></span></a> 
+    </div> 
+   </div> 
+   <div class="rt-grid-4 rt-omega"> 
+    <div class="rt-social-buttons rt-block"> 
+     <a class="social-button rt-social-button-1" href="https://www.facebook.com/firstlinesoftware" target="_blank"> <span class="icon-facebook"></span> </a> 
+     <a class="social-button rt-social-button-2" href="https://twitter.com/firstlinesoft" target="_blank"> <span class="icon-twitter"></span> </a> 
+     <a class="social-button rt-social-button-3" href="https://plus.google.com/u/0/s/First%20Line%20Software" target="_blank"> <span class="icon-google-plus"></span> </a> 
+     <a class="social-button rt-social-button-5" href="http://www.linkedin.com/company/875103?trk=tyah&amp;trkInfo=tas%3Afirst%20line%20soft%2Cidx%3A1-1-1" target="_blank"> <span class="icon-linkedin"></span> </a> 
+     <div class="clear"></div> 
+    </div> 
+   </div> 
+   <div class="clear"></div> 
+  </div> 
+ </div> 
+ <script type="text/javascript">
+	
+ 
+  jQuery("#owl-demo").owlCarousel({
+ 		autoPlay : 3000,
+ 		paginationSpeed : 1000,
+    stopOnHover : true,
+      navigation : false, // Show next and prev buttons
+      slideSpeed : 1000,
+      singleItem:true
+ 
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+ 
+  });
+ 
+
+</script> 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.min.js"></script> 
+ <script>
+   var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: 2000
+    });
+    </script> 
+ <script>
+ jQuery('.multiple-items').slick({
+  infinite: false,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  prevArrow: '<button type="button" class="hr-slick-prev"><img src="/images/slick.png"></button>',
+  nextArrow: '<button type="button" class="hr-slick-next"><img src="/images/slick.png"></button>',
+   responsive: [
+    {
+      breakpoint: 1050,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 3,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 700,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 500,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 380,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+    </script> 
+ <script>
+ jQuery('.multiple-itemss').slick({
+  infinite: false,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  prevArrow: '<button type="button" class="hr-slick-prev"><img src="/images/slick.png"></button>',
+  nextArrow: '<button type="button" class="hr-slick-next"><img src="/images/slick.png"></button>',
+   responsive: [
+    {
+      breakpoint: 999,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 680,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+    </script> 
+ <script>
+jQuery('.slaider_center').slick({
+  centerMode: true,
+  centerPadding: '310px',
+prevArrow: '<button type="button" class="pz-slick-prev"><img src="/images/slick.png"></button>',
+  nextArrow: '<button type="button" class="pz-slick-next"><img src="/images/slick.png"></button>',
+  slidesToShow: 1
+});
+   </script> 
+ <script>
+jQuery('.slaider_center_2').slick({
+  centerMode: true,
+  centerPadding: '310px',
+prevArrow: '<button type="button" class="pz-slick-prev"><img src="/images/slick.png"></button>',
+  nextArrow: '<button type="button" class="pz-slick-next"><img src="/images/slick.png"></button>',
+  slidesToShow: 1
+});
+   </script> 
+ <script>
+ jQuery('.multiple-item').slick({
+  infinite: true,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  prevArrow: '<button type="button" class="hr-slick-prev"><img src="/images/slick.png"></button>',
+  nextArrow: '<button type="button" class="hr-slick-next"><img src="/images/slick.png"></button>',
+  responsive: [
+    {
+      breakpoint: 1050,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 3,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 700,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 500,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 380,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+    </script> 
+ <script type="text/javascript">
+   
+    $('.slb').simplebox({
+      fadeSpeed: 350,
+    });
+  </script> 
+ <script type="text/javascript">
+    	//var hr_podlogka_top = document.getElementById('hr_podlogka_top');
+    	//var hr_podlogka_top_scrole = hr_podlogka_top.getBoundingClientRect().bottom + window.pageYOffset;
+
+    	/*window.onscroll = function() {
+
+    	}*/
+    	jQuery(document).ready(function() {
+		jQuery('a[href^="#"]').click(function(){
+		var el = jQuery(this).attr('href');
+		jQuery('body').animate({
+		scrollTop: jQuery(el).offset().top}, 2000);
+		return false;
+		});
+		});
+    </script>  
+</body>
