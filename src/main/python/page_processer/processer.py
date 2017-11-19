@@ -19,20 +19,20 @@ from bs4 import BeautifulSoup
 # sudo pip install pyspark
 # спарк ругался на hadoop-native, поэтому пришлось прописать его в LD_LIBRARY_PATH
 
-from nltk.corpus import stopwords
-from nltk import word_tokenize
-
 import nltk
+from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
-from nltk.tokenize import sent_tokenize, word_tokenize
 
 import string
 import enchant
-import json
 
-from pyspark.sql import SparkSession
-from collections import Counter
 import datetime
+
+import pickle
+import multiprocessing as mp
+import numpy as np
+
+from project_dir import project_dir
 
 headers = ['h{}'.format(i) for i in range(1, 6)]  # h1, h2, h3 ...
 
@@ -41,9 +41,9 @@ def process_text(text):
     translator = str.maketrans('', '', string.punctuation)
     nopunct = text.translate(translator)
     tokenised = nopunct.lower().split()
-    english = [w for w in tokenised if broadcast_dictionary.value.check(w)]
-    nostops = [w for w in english if w not in broadcast_stop.value]
-    stemmed = [broadcast_ps.value.stem(w) for w in nostops]
+    english = [w for w in tokenised if dictionary.check(w)]
+    nostops = [w for w in english if w not in stop]
+    stemmed = [ps.stem(w) for w in nostops]
     return stemmed
 
 
@@ -64,9 +64,8 @@ def get_body(parsed_page, file_name):
         return [(file_name, "body", body.text)]
 
 
-def file_to_text(file):
-    path, text = file
-    file_name = os.path.basename(path)
+# entry format: (file name, source tag, text)
+def file_to_entries(file_name, text):
     parsed_page = BeautifulSoup(text, "lxml")
     headers = get_headers(parsed_page, file_name)
 
@@ -84,50 +83,42 @@ def language_process(entry):
     return file_name, weight, process_text(text)
 
 
-def count_words(entry):
-    file_name, weight, words = entry
-    return [(word, file_name, (weight, count)) for (word, count) in Counter(words).items()]
+def process_chunk(chunk, process_id):
+    total = len(chunk)
+    processed = 0
+    for pagefile in chunk:
+        with open(crawled_dir + pagefile, 'r') as page:
+            lines = "\n".join(page.readlines())
+            entries = file_to_entries(pagefile, lines)
+            processed_entries = [language_process(entry) for entry in entries]
+            with open(processed_dir + pagefile, 'wb') as pr:
+                pickle.dump(processed_entries, pr)
+
+        processed += 1
+        if processed % 100 == 0:
+            print("process id={}, processed: {} / {}".format(process_id, processed, total))
 
 
 if __name__ == '__main__':
-
-    print(datetime.datetime.now())
+    start_time = datetime.datetime.now()
+    print('start time: {}'.format(start_time))
 
     # nltk.download() # при первом запуске раскомменчиваешь и выбираешь вкладку corpora -> stopwords и грузишь пакет
     stop = set(stopwords.words('english'))  # .union(stopwords.words('russian')) # хотим ли иметь дело с русским языком?
     ps = PorterStemmer()
     dictionary = enchant.Dict("en_US")
 
-    # crawled_dir = '../../../../crawled/'
-    crawled_dir = '../../../../crawled_processed_for_index/'  # renamed
-    # crawled_dir = '../../../../small_crawled/'  # todo: change crawled directory
-    # crawled_dir = '/media/boris/Data/shared/au_3/ir/project/crawled_1'
+    crawled_dir = project_dir + 'crawled_renamed/'
+    processed_dir = project_dir + 'crawled_processed/'
 
-    print('total files: {}'.format(len(os.listdir(crawled_dir))))
+    all_page_files = os.listdir(crawled_dir)
 
-    index_file = '../../../../index.txt'
+    ncores = 8
+    chunks = np.array_split(all_page_files, ncores)
+    pool = mp.Pool(processes=ncores)
+    results = [pool.apply_async(process_chunk, args=(chunk, process_id)) for process_id, chunk in enumerate(chunks)]
+    results = [p.get() for p in results]
 
-    spark = SparkSession.builder.appName("").master("local[*]").getOrCreate()
-    sc = spark.sparkContext
-
-    broadcast_stop = sc.broadcast(stop)
-    broadcast_ps = sc.broadcast(ps)
-    broadcast_dictionary = sc.broadcast(dictionary)
-
-    res = \
-        sc\
-        .wholeTextFiles(crawled_dir)\
-        .flatMap(file_to_text)\
-        .map(language_process) \
-        .flatMap(count_words) \
-        .groupBy(lambda entry: (entry[0], entry[1])) \
-        .map(lambda entry: (entry[0], [counters for (wo, we, counters) in entry[1]]))\
-        .groupBy(lambda entry: entry[0][0]) \
-        .map(lambda entry: (entry[0], {file_name: dict(values) for ((word, file_name), values) in entry[1]}))\
-        .collect()
-
-    res = dict(res)
-    with open(index_file, 'w') as fp:
-        json.dump(res, fp)
-
-    print(datetime.datetime.now())
+    end_time = datetime.datetime.now()
+    print('time elapsed: {}'.format(end_time - start_time))
+    # на моей машине 75к примерно 1 час 10 минут
