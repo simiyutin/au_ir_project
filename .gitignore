@@ -1,6 +1,7 @@
-/.idea
-/target
-*.iml
+**/.idea
+**/target
+**/*.iml
+**/__pycache__*
 /preprocessed
 /crawled
 
