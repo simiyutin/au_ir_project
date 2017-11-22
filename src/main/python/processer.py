@@ -40,10 +40,15 @@ from project_dir import project_dir
 headers = ['h{}'.format(i) for i in range(1, 6)]  # h1, h2, h3 ...
 
 
+# todo allow all printable characters. e.g. we need to support c++ as query term
 def only_letters_and_digits(tested_string):
     match = re.match("^[a-z0-9]*$", tested_string)
     return match is not None
 
+
+# nltk.download() # при первом запуске раскомменчиваешь и выбираешь вкладку corpora -> stopwords и грузишь пакет
+stop = set(stopwords.words('english'))  # .union(stopwords.words('russian')) # хотим ли иметь дело с русским языком?
+ps = PorterStemmer()
 
 def process_text(text):
     translator = str.maketrans('', '', string.punctuation)
@@ -117,10 +122,6 @@ def process_chunk(chunk, file_name_shift, process_id):
 if __name__ == '__main__':
     start_time = datetime.datetime.now()
     print('start time: {}'.format(start_time))
-
-    # nltk.download() # при первом запуске раскомменчиваешь и выбираешь вкладку corpora -> stopwords и грузишь пакет
-    stop = set(stopwords.words('english'))  # .union(stopwords.words('russian')) # хотим ли иметь дело с русским языком?
-    ps = PorterStemmer()
 
     crawled_dir = project_dir + 'crawled/'
     processed_dir = project_dir + 'processed/'
