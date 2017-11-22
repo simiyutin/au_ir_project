@@ -55,11 +55,10 @@ def calculate_bm_25_for_index(index, file_len_map, N, dlavg, k1, b):
 
 
 def load_chunks():
-    os.chdir(project_dir)
     index_chunks = []
-    all_chunks = glob.glob("indexChunk*.txt")
-    for filename in all_chunks:
-        with open(project_dir + filename, 'r') as file:
+    all_chunks = glob.glob(project_dir + "indexChunk*.txt")
+    for filepath in all_chunks:
+        with open(filepath, 'r') as file:
             index_chunks.append(json.load(file))
     return index_chunks
 

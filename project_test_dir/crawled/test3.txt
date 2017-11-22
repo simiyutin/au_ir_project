@@ -1,9 +1,0 @@
-http://yandex.ru
-<body>
-<h1>bla bla bla</h1>
-<h2>foo</h2>
-<h3>bar</h3>
-<h4>baz</h4>
-<h5>boz</h5>
-kotlin text text
-</body>

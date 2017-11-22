@@ -126,6 +126,11 @@ if __name__ == '__main__':
     crawled_dir = project_dir + 'crawled/'
     processed_dir = project_dir + 'processed/'
 
+    if os.path.exists(processed_dir):
+        import shutil
+        shutil.rmtree(processed_dir)
+    os.mkdir(processed_dir)
+
     all_page_files = os.listdir(crawled_dir)
 
     ncores = 8

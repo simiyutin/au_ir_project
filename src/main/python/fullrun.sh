@@ -6,3 +6,5 @@ echo "indexing.."
 ./indexer.py
 echo "building bm25.."
 ./bm25_calculator.py
+echo "searching.."
+./searcher.py

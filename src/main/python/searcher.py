@@ -1,3 +1,5 @@
+#! /usr/bin/python3
+
 from project_dir import project_dir
 import os, glob, json
 from processer import process_text
@@ -12,12 +14,11 @@ def concat_chunks(acceptor, donor):
 
 
 if __name__ == '__main__':
-    os.chdir(project_dir)
-    all_chunks = glob.glob("bm25IndexChunk*.txt")
+    all_chunks = glob.glob(project_dir + "bm25IndexChunk*.txt")
     index = dict()
-    for ind, filename in enumerate(all_chunks):
+    for ind, filepath in enumerate(all_chunks):
         print('processing {} / {} chunk..'.format(ind + 1, len(all_chunks)))
-        with open(project_dir + filename, 'r') as file:
+        with open(filepath, 'r') as file:
             chunk = json.load(file)
         concat_chunks(index, chunk)
 
@@ -40,4 +41,5 @@ if __name__ == '__main__':
 
     ranked_documents_list = list(map(lambda p: (index_files_map[p[0]], p[1]), ranked_documents_list))
 
-    print(ranked_documents_list)
+    print('query: {}'.format(query))
+    print('documents: {}'.format(ranked_documents_list))
