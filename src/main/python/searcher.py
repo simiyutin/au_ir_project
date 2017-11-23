@@ -24,22 +24,24 @@ if __name__ == '__main__':
 
     print('ready to take queries')
 
-    query = 'kotlin'
-    processed_query = process_text(query)
-    ranked_documents = dict()
-    for term in processed_query:
-        docs = index.get(term, dict())
-        for doc, doc_score in docs.items():
-            prev_score = ranked_documents.get(doc, 0)
-            ranked_documents[doc] = prev_score + doc_score
-
-    ranked_documents_list = ranked_documents.items()
-    ranked_documents_list = sorted(ranked_documents_list, key=lambda it: it[1], reverse=True)
-
     with open(project_dir + 'indexFilesMap.txt') as fp:
         index_files_map = json.load(fp)
 
-    ranked_documents_list = list(map(lambda p: (index_files_map[p[0]], p[1]), ranked_documents_list))
+    query = 'binary search'
+    while True:
+        processed_query = process_text(query)
+        ranked_documents = dict()
+        for term in processed_query:
+            docs = index.get(term, dict())
+            for doc, doc_score in docs.items():
+                prev_score = ranked_documents.get(doc, 0)
+                ranked_documents[doc] = prev_score + doc_score
 
-    print('query: {}'.format(query))
-    print('documents: {}'.format(ranked_documents_list))
+        ranked_documents_list = ranked_documents.items()
+        ranked_documents_list = sorted(ranked_documents_list, key=lambda it: it[1], reverse=True)
+        ranked_documents_list = list(map(lambda p: (index_files_map[p[0]], p[1]), ranked_documents_list))
+        ranked_documents_list = ranked_documents_list[:10]
+
+        print('query: {}'.format(query))
+        print('documents: {}'.format(ranked_documents_list))
+        query = input('enter new query:')

@@ -17,11 +17,11 @@ def idf(index, term, N):
 
 def merge_weights(segregated_index):
     label_weights = {
-        'h1': 6,
-        'h2': 5,
-        'h3': 4,
-        'h4': 3,
-        'h5': 2,
+        'h1': 2,
+        'h2': 1,
+        'h3': 1,
+        'h4': 1,
+        'h5': 1,
         'body': 1,
     }
 
@@ -96,7 +96,7 @@ if __name__ == '__main__':
         print('processing index chunk {} / {} ..'.format(ind + 1, len(index_chunks)))
         merged_index_chunk = merge_weights(segregated_index_chunk)
         bm25_index_chunk = calculate_bm_25_for_index(merged_index_chunk, file_len_map, number_of_documents,
-                                                     average_file_len, 1, 1)
+                                                     average_file_len, k1=1.2, b=0.75)
 
         with open(bm25_index_file_template.format(ind), 'w') as fp:
             json.dump(bm25_index_chunk, fp)
