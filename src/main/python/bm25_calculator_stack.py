@@ -17,12 +17,10 @@ def idf(index, term, N):
 
 def merge_weights(segregated_index):
     label_weights = {
-        'h1': 2,
-        'h2': 1,
-        'h3': 1,
-        'h4': 1,
-        'h5': 1,
-        'body': 1,
+        'title': 2,
+        'tags': 1,
+        'query': 1,
+        'answer': 1
     }
 
     merged_index = dict()
@@ -56,7 +54,7 @@ def calculate_bm_25_for_index(index, file_len_map, N, dlavg, k1, b):
 
 def load_chunks():
     index_chunks = []
-    all_chunks = glob.glob(project_dir + "indexChunk*.txt")
+    all_chunks = glob.glob(project_dir + "indexChunkStack*.txt")
     for filepath in all_chunks:
         with open(filepath, 'r') as file:
             index_chunks.append(json.load(file))
@@ -64,11 +62,11 @@ def load_chunks():
 
 
 def get_number_of_elements():
-    return len(os.listdir(project_dir + 'processed/'))
+    return len(os.listdir(project_dir + 'stackoverflow_processed/'))
 
 
 def load_file_len_data(n_documents):
-    file_len_map_path = project_dir + 'fileLenMap.txt'
+    file_len_map_path = project_dir + 'postsLenMap.txt'
     with open(file_len_map_path, 'r') as fp:
         file_len_dict = json.load(fp)
 
@@ -86,7 +84,7 @@ if __name__ == '__main__':
     start_time = datetime.datetime.now()
     print('start time: {}'.format(start_time))
 
-    bm25_index_file_template = project_dir + '/bm25IndexChunk{}.txt'
+    bm25_index_file_template = project_dir + '/bm25IndexStackChunk{}.txt'
 
     index_chunks = load_chunks()
     number_of_documents = get_number_of_elements()

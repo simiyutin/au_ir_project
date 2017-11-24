@@ -39,9 +39,9 @@ if __name__ == '__main__':
     start_time = datetime.datetime.now()
     print('start time: {}'.format(start_time))
 
-    preprocessed_dir = project_dir + 'processed/'
-    index_file_template = project_dir + 'indexChunk{}.txt'
-    file_len_map_path = project_dir + 'fileLenMap.txt'
+    preprocessed_dir = project_dir + 'stackoverflow_processed/'
+    index_file_template = project_dir + 'indexChunkStack{}.txt'
+    file_len_map_path = project_dir + 'postsLenMap.txt'
     chunk_size = 20000
 
     index = dict()
