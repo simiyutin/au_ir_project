@@ -31,10 +31,9 @@ def process_tags(text):
 
 # entry format: (post_id, source tag, text)
 def process(file_index, entry):
-    (score, title, tags, query, answer) = entry
+    (title, tags, query, answer) = entry
 
-    return [(file_index, "score", int(score)),
-            (file_index, "title", process_text(title)),
+    return [(file_index, "title", process_text(title)),
             (file_index, "tags", process_tags(tags)),
             (file_index, "query", process_text(query)),
             (file_index, "answer", process_text(answer))]
@@ -45,7 +44,7 @@ def process_chunk(chunk, file_name_shift, process_id):
     cursor = connection.cursor()
     total = len(chunk)
     processed = 0
-    ids = []
+    results = []
     for (id, accepted_id, score) in chunk:
 
         cursor.execute(f"""
@@ -68,14 +67,14 @@ def process_chunk(chunk, file_name_shift, process_id):
 
         (answer,) = cursor.fetchone()
 
-        entry = (score, title, tags, query, answer)
+        entry = (title, tags, query, answer)
 
         file_index = processed + file_name_shift
         processed_entries = process(file_index, entry)
 
         output_name = processed_dir + '{}.txt'.format(file_index)
 
-        ids.append(id)
+        results.append((id, score))
 
         with open(output_name, 'w') as pr:
             json.dump(processed_entries, pr)
@@ -85,7 +84,7 @@ def process_chunk(chunk, file_name_shift, process_id):
             print("process id={}, processed: {} / {}".format(process_id, processed, total))
 
     connection.close()
-    return ids
+    return results
 
 
 def get_data():
@@ -114,7 +113,6 @@ def get_data():
 
 
 def process_data(data):
-
     if os.path.exists(processed_dir):
         import shutil
         shutil.rmtree(processed_dir)
@@ -125,24 +123,30 @@ def process_data(data):
     chunks = np.array_split(data, ncores)
     shifts = [0]
     for i in range(1, ncores):
-        shifts.append(shifts[i - 1] + chunks[i - 1].size)
+        shifts.append(shifts[i - 1] + len(chunks[i - 1]))
 
     pool = mp.Pool(processes=ncores)
     futures = [pool.apply_async(process_chunk, args=(chunk, shifts[process_id], process_id)) for process_id, chunk in enumerate(chunks)]
-    ids = [p.get() for p in futures]
+    results = [p.get() for p in futures]
 
     ids_map = dict()
-    for process_id, chunk in enumerate(ids):
-        for ind, id in enumerate(chunk):
+    scores_map = dict()
+    for process_id, chunk in enumerate(results):
+        for ind, res in enumerate(chunk):
+            id, score = res
             ids_map[shifts[process_id] + ind] = int(id)
+            scores_map[shifts[process_id] + ind] = int(score)
 
     print('saving ids map..')
     with open(project_dir + "indexPostsMap.txt", 'w+') as of:
         json.dump(ids_map, of)
 
+    print('saving score map..')
+    with open(project_dir + "scorePostsMap.txt", 'w+') as of:
+        json.dump(scores_map, of)
+
 
 if __name__ == '__main__':
-
     server = getenv("MS_SERVER")
     user = getenv("MS_USERNAME")
     password = getenv("MS_PASSWORD")
@@ -156,9 +160,6 @@ if __name__ == '__main__':
 
     intermid_time = datetime.datetime.now()
     print('ids collected in: {}'.format(intermid_time - start_time))
-
-    # with open(project_dir + "postdIds.txt", 'r') as inf:
-    #     data = json.load(inf)
 
     process_data(data)
 

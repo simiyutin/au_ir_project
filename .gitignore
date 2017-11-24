@@ -5,6 +5,7 @@
 /preprocessed
 /crawled
 src/main/python/project_test_dir/stackoverflow_processed
+src/main/python/project_test_dir/crawled
 
 !src/main/python/project_test_dir/stackoverflow_processed/1.txt
 !src/main/python/project_test_dir/stackoverflow_processed/2.txt
