@@ -4,5 +4,9 @@
 **/__pycache__*
 /preprocessed
 /crawled
+src/main/python/project_test_dir/stackoverflow_processed
+
+!src/main/python/project_test_dir/stackoverflow_processed/1.txt
+!src/main/python/project_test_dir/stackoverflow_processed/2.txt
 
 !/preprocessed/processed_http:__diaryofagraphicsprogrammer.blogspot.com_1710552427.txt
