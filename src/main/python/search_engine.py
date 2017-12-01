@@ -14,6 +14,19 @@ def concat_chunks(acceptor, donor):
             acceptor[word][doc] = num
 
 
+def get_snippet(file_path, processed_query, snippet_word_len):
+    return 'dummy snippet'
+
+
+def map_to_result_node(index_files_map, p, query):
+    doc_index, bm25_score = p
+    title, link = index_files_map[doc_index]
+    if title == "":
+        title = link
+    snippet = get_snippet(None, query, 50)
+    return node(title, link, snippet)
+
+
 class SearchEngine:
     def __init__(self):
         all_chunks = glob.glob(project_dir + "bm25IndexChunk*.txt")
@@ -29,12 +42,6 @@ class SearchEngine:
 
         print('ready to take queries')
 
-    def map_to_result_node(self, p):
-        doc_index, bm25_score = p
-        title, link = self.index_files_map[doc_index]
-        snippet = 'dummy snippet'
-        return node(title, link, snippet)
-
     def ask(self, query):
         processed_query = process_text(query)
         ranked_documents = dict()
@@ -46,8 +53,12 @@ class SearchEngine:
 
         ranked_documents_list = ranked_documents.items()
         ranked_documents_list = sorted(ranked_documents_list, key=lambda it: it[1], reverse=True)
-        ranked_documents_list = list(map(self.map_to_result_node, ranked_documents_list))
-        ranked_documents_list = ranked_documents_list[:10]
+
+        def map_to_node_function(p):
+            return map_to_result_node(self.index_files_map, p, processed_query)
+
+        ranked_documents_list = list(map(map_to_node_function, ranked_documents_list))
+        ranked_documents_list = ranked_documents_list[:20]
 
         sovf_best = node('dummy sovf title', 'stackoverflow.com', 'dummy sovf snippet')
 
