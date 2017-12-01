@@ -1,0 +1,17 @@
+{% macro show_node(node) %}
+    <a href="{{ node['link'] }}"> {{ node['title'] }} </a>
+    <span> from {{ node['link'].split("//")[-1].split("/")[0] }} </span>
+    <div> {{ node['snippet'] }} </div>
+{% endmacro %}
+
+{% if 'sovf_best' in results %}
+    <div class="result-row sovf-best">
+        {{ show_node(results['sovf_best']) }}
+    </div>
+{% endif %}
+
+{% for node in results['all_web'] %}
+    <div class="result-row">
+        {{ show_node(node) }}
+    </div>
+{% endfor %}
