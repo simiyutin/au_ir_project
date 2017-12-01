@@ -26,8 +26,8 @@ def merge_weights(segregated_index):
         'h5': 1.,
         'body': 1.,
         'title': 2.,
-        'tags': 2.,
-        'query': 1.,
+        'tags': 3.,
+        'query': 1.2,
         'answer': 0.8
     }
 
