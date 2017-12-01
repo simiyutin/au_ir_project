@@ -1,5 +1,5 @@
-def node(title, link, snippet):
-    return {'title': title, 'link': link, 'snippet': snippet}
+def node(title, link, snippet, type):
+    return {'title': title, 'link': link, 'snippet': snippet, 'type': type}
 
 
 def node_sovf(title, link, question, answer, tags):

@@ -1,5 +1,6 @@
 from flask import Flask, request, render_template, send_from_directory
 from search_engine import SearchEngine
+from os import getenv
 
 app = Flask(__name__, template_folder='server_resources/templates')
 searchEngine = SearchEngine()
@@ -13,7 +14,7 @@ def main():
 @app.route("/ask", methods=['GET'])
 def ask():
     query = request.args.get('query')
-    results = searchEngine.ask(query)
+    results = searchEngine.ask(query, server, user, password)
     return render_template('results.html', results=results)
 
 
@@ -30,4 +31,8 @@ def get_js():
 
 
 if __name__ == '__main__':
+    server = getenv("MS_SERVER")
+    user = getenv("MS_USERNAME")
+    password = getenv("MS_PASSWORD")
+
     app.run()
