@@ -77,17 +77,22 @@ def get_body(parsed_page, file_index):
     else:
         return [(file_index, "body", body.text)]
 
+def get_title(parsed_page):
+    title = parsed_page.find('title')
+    return title.text if title is not None else ""
+
 
 # entry format: (file name, source tag, text)
-def file_to_entries(file_index, text):
+def parse_html(file_index, text):
     parsed_page = BeautifulSoup(text, "lxml")
+    title = get_title(parsed_page)
     headers = get_headers(parsed_page, file_index)
     # кажется, что нахождение заголовков сразу в двух местах ничего не испортит,
     # но тогда тело всегда будет давать ненулевой вклад в ранг документа,
     # даже если оно состоит только из одних заголовков
     delete_headers(parsed_page)
     body = get_body(parsed_page, file_index)
-    return headers + body
+    return title, headers + body
 
 
 def language_process(entry):
@@ -98,17 +103,17 @@ def language_process(entry):
 def process_chunk(chunk, file_name_shift, process_id):
     total = len(chunk)
     processed = 0
-    links = []
+    metadata = []
     for pagefile in chunk:
         with open(crawled_dir + pagefile, 'r') as page:
             file_index = processed + file_name_shift
             lines = page.readlines()
             link = lines[0]
             lines = "\n".join(lines[1:])
-            entries = file_to_entries(file_index, lines)
+            title, entries = parse_html(file_index, lines)
             processed_entries = [language_process(entry) for entry in entries]
             output_name = processed_dir + '{}.txt'.format(file_index)
-            links.append(link)
+            metadata.append((title, link))
             with open(output_name, 'w') as pr:
                 json.dump(processed_entries, pr)
 
@@ -116,7 +121,7 @@ def process_chunk(chunk, file_name_shift, process_id):
         if processed % 100 == 0:
             print("process id={}, processed: {} / {}".format(process_id, processed, total))
 
-    return links
+    return metadata
 
 
 if __name__ == '__main__':
@@ -141,12 +146,12 @@ if __name__ == '__main__':
     
     pool = mp.Pool(processes=ncores)
     futures = [pool.apply_async(process_chunk, args=(chunk, shifts[process_id], process_id)) for process_id, chunk in enumerate(chunks)]
-    links = [p.get() for p in futures]
+    metadata = [p.get() for p in futures]
 
     filesMap = dict()
-    for process_id, chunk in enumerate(links):
-        for ind, link in enumerate(chunk):
-            filesMap[shifts[process_id] + ind] = link
+    for process_id, chunk in enumerate(metadata):
+        for ind, link_title in enumerate(chunk):
+            filesMap[shifts[process_id] + ind] = link_title
 
     print('saving file names map..')
     with open(project_dir + "indexFilesMap.txt", 'w+') as of:

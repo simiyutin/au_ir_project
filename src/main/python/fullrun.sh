@@ -7,4 +7,4 @@ echo "indexing.."
 echo "building bm25.."
 ./bm25_calculator.py
 echo "searching.."
-./searcher.py
+./search_engine.py

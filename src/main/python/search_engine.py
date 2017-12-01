@@ -3,6 +3,7 @@
 from project_dir import project_dir
 import os, glob, json
 from processer import process_text
+from search_results_factory import node, search_results
 
 
 def concat_chunks(acceptor, donor):
@@ -28,6 +29,12 @@ class SearchEngine:
 
         print('ready to take queries')
 
+    def map_to_result_node(self, p):
+        doc_index, bm25_score = p
+        title, link = self.index_files_map[doc_index]
+        snippet = 'dummy snippet'
+        return node(title, link, snippet)
+
     def ask(self, query):
         processed_query = process_text(query)
         ranked_documents = dict()
@@ -39,9 +46,13 @@ class SearchEngine:
 
         ranked_documents_list = ranked_documents.items()
         ranked_documents_list = sorted(ranked_documents_list, key=lambda it: it[1], reverse=True)
-        ranked_documents_list = list(map(lambda p: (self.index_files_map[p[0]], p[1]), ranked_documents_list))
+        ranked_documents_list = list(map(self.map_to_result_node, ranked_documents_list))
         ranked_documents_list = ranked_documents_list[:10]
-        return ranked_documents_list
+
+        sovf_best = node('dummy sovf title', 'stackoverflow.com', 'dummy sovf snippet')
+
+        results = search_results(ranked_documents_list, sovf_best)
+        return results
 
 
 if __name__ == '__main__':

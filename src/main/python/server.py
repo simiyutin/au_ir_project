@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template, send_from_directory
-from search_engine_mock import SearchEngine
+from search_engine import SearchEngine
 
 app = Flask(__name__, template_folder='server_resources/templates')
 searchEngine = SearchEngine()
