@@ -1,5 +1,9 @@
-def node(title, link, preview):
-    return {'title': title, 'link': link, 'snippet': preview}
+def node(title, link, snippet):
+    return {'title': title, 'link': link, 'snippet': snippet}
+
+
+def node_sovf(title, link, question, answer, tags):
+    return {'title': title, 'link': link, 'question': question, 'answer': answer, 'tags': tags}
 
 
 def search_results(all_web_nodes_list, sovf_best=None):
