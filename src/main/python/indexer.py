@@ -3,7 +3,10 @@
 import datetime
 import json
 import os
+import math
+
 from collections import Counter
+from collections import defaultdict
 
 from project_dir import project_dir
 
@@ -35,13 +38,11 @@ def get_file_len(file_entries):
     return file_len
 
 
-if __name__ == '__main__':
-    start_time = datetime.datetime.now()
-    print('start time: {}'.format(start_time))
+def do_index(preprocessed_dir_name, index_file_name_template, file_len_map_path_name):
 
-    preprocessed_dir = project_dir + 'processed/'
-    index_file_template = project_dir + 'indexChunk{}.txt'
-    file_len_map_path = project_dir + 'fileLenMap.txt'
+    preprocessed_dir = project_dir + preprocessed_dir_name
+    index_file_template = project_dir + index_file_name_template
+    file_len_map_path = project_dir + file_len_map_path_name
     chunk_size = 20000
 
     index = dict()
@@ -73,5 +74,16 @@ if __name__ == '__main__':
     with open(file_len_map_path, 'w') as fp:
         json.dump(file_len_map, fp)
 
+
+if __name__ == '__main__':
+    start_time = datetime.datetime.now()
+    print('start time (crawled indexing): {}'.format(start_time))
+    do_index('processed/', 'indexChunk{}.txt', 'fileLenMap.txt')
+    end_time = datetime.datetime.now()
+    print('time elapsed: {}'.format(end_time - start_time))
+
+    start_time = datetime.datetime.now()
+    print('start time (stack indexing): {}'.format(start_time))
+    do_index('stackoverflow_processed/', 'stackIndexChunk{}.txt', 'stackLenMap.txt')
     end_time = datetime.datetime.now()
     print('time elapsed: {}'.format(end_time - start_time))
