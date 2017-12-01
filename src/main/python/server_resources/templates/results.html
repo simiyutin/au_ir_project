@@ -4,9 +4,18 @@
     <div> {{ node['snippet'] | safe }} </div>
 {% endmacro %}
 
+{% macro show_sovf_node(node) %}
+    <div><b>Best answer came from StackOverflow.com:</b></div>
+    <div><a href="{{ node['link'] }}"> {{ node['title'] }} </a></div>
+    <div><b>Full question:</b></div>
+    <div> {{ node['question'] | safe }} </div>
+    <div><b>Full answer:</b></div>
+    <div> {{ node['answer'] | safe }} </div>
+{% endmacro %}
+
 {% if 'sovf_best' in results %}
     <div class="result-row sovf-best">
-        {{ show_node(results['sovf_best']) }}
+        {{ show_sovf_node(results['sovf_best']) }}
     </div>
 {% endif %}
 

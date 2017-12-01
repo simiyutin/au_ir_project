@@ -3,7 +3,7 @@
 from project_dir import project_dir
 import os, glob, json
 from processer import process_text
-from search_results_factory import node, search_results
+from search_results_factory import node, node_sovf, search_results
 from bs4 import BeautifulSoup
 
 
@@ -46,7 +46,7 @@ def get_snippet(file_path, processed_query, snippet_word_len):
     parsed_page = BeautifulSoup(html, "lxml")  # todo перенести эту часть в препроцессер
     body = parsed_page.find('body')
     body_text = body.text if body is not None else ""
-    body_text = body_text.split(' ')
+    body_text = body_text.replace('\n', ' ').split(' ')
     snippet = get_best_snippet(body_text, processed_query, snippet_word_len)
     return snippet
 
@@ -93,7 +93,15 @@ class SearchEngine:
         ranked_documents_list = ranked_documents_list[:20]
         ranked_documents_list = list(map(map_to_node_function, ranked_documents_list))
 
-        sovf_best = node('dummy sovf title', 'stackoverflow.com', 'dummy sovf snippet')
+        # stack overflow result sample
+        sovf_best = node_sovf(
+            title='Does Python have a string \'contains\' substring method?',
+            link='https://stackoverflow.com/questions/3437059/does-python-have-a-string-contains-substring-method',
+            question='I\'m looking for a string.contains or string.indexof method in Python. I want to do: if not '
+                     'somestring.contains("blah"): continue',
+            answer='You can use the in operator: if "blah" not in somestring: continue',
+            tags=['python', 'string', 'substring', 'contains']
+        )
 
         results = search_results(ranked_documents_list, sovf_best)
         return results
