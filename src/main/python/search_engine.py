@@ -46,7 +46,7 @@ def get_snippet(file_path, processed_query, snippet_word_len):
     parsed_page = BeautifulSoup(html, "lxml")  # todo перенести эту часть в препроцессер
     body = parsed_page.find('body')
     body_text = body.text if body is not None else ""
-    body_text = body_text.split(' ')
+    body_text = body_text.replace('\n', ' ').split(' ')
     snippet = get_best_snippet(body_text, processed_query, snippet_word_len)
     return snippet
 
