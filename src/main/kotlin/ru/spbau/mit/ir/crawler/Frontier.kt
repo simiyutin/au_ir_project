@@ -16,41 +16,11 @@ class Frontier {
 
     private val maxTotalProcessed = 50000
 
-    fun nextUrl(): URL = try {
-        URL(queue.poll())
-    }
-    catch (e: MalformedURLException) {
-        throw IllegalStateException("Malformed url in frontier.", e)
-    }
-
-    private fun canHandleUrl(url: URL) = url.host.hashCode() in allowedHashes
-
-    fun addUrlIfCanHandle(url: URL): Boolean {
-        if (queue.size + visited.size > maxTotalProcessed) return false
-        if (url.host.endsWith("stackexchange.com") && alowedStackexchangeSubdomains.none { url.host.startsWith(it) }) {
-            return false
-        }
-        if (url.host.endsWith("wikipedia.org") && allowedWikipediaSubdomains.none { url.host.startsWith(it) }) {
-            return false
-        }
-        if (declinedDomains.any{url.host.contains(it)}) return false
-        if (!canHandleUrl(url)) return false
-        if (visited.add(url.toExternalForm())) {
-            queue.add(url.toExternalForm())
-        }
-        return true
-    }
-
-    fun addUrlWithNewHash(urls: List<URL>) {
-        allowedHashes.addAll(urls.map { it.host.hashCode() })
-        urls.forEach { addUrlIfCanHandle(it) }
-    }
-
+    // region restrictions
     private val alowedStackexchangeSubdomains = listOf(
             "cstheory",
             "cs",
             "ai",
-//            "meta",
             "webapps",
             "webmasters",
             "gamedev",
@@ -61,29 +31,20 @@ class Frontier {
             "security",
             "ux",
             "dba",
-//            "codegolf",
             "reverseengineering",
-//            "tridion",
-//            "magento",
             "expressionengine",
             "robotics",
-//            "salesforce",
-//            "windowsphone",
             "bitcoin",
             "crypto",
             "sharepoint",
             "sqa",
-//            "drupal",
             "raspberrypi",
             "networkengineering",
             "emacs",
-//            "augur",
             "devops",
             "sitecore",
-//            "monero",
             "retrocomputing",
             "craftcms",
-//            "joomla",
             "arduino",
             "softwarerecs",
             "tor",
@@ -92,11 +53,69 @@ class Frontier {
             "vi"
     )
 
+    private val declinedDomains = listOf(
+            "youtube.com"
+    )
+
     private val allowedWikipediaSubdomains = listOf(
             "en"
     )
 
-    private val declinedDomains = listOf(
-            "youtube.com"
+    private val allowedTopLevelDomains = listOf(
+            "com",
+            "org",
+            "edu",
+            "uk",
+            "net"
     )
+    // endregion
+
+    fun nextUrl(): URL = try {
+        URL(queue.poll())
+    }
+    catch (e: MalformedURLException) {
+        throw IllegalStateException("Malformed url in frontier.", e)
+    }
+
+    fun addUrlIfCanHandle(url: URL): Boolean {
+        if (queue.size + visited.size > maxTotalProcessed) return false
+
+        if (!goodSite(url)) return false
+
+        if (!isInScopeOfResponsibility(url)) return false
+
+        if (visited.add(url.toExternalForm())) {
+            queue.add(url.toExternalForm())
+        }
+
+        return true
+    }
+
+    fun addUrlWithNewHash(urls: List<URL>) {
+        allowedHashes.addAll(urls.map { it.host.hashCode() })
+        urls.forEach { addUrlIfCanHandle(it) }
+    }
+
+    private fun goodSite(url: URL): Boolean {
+
+        if (allowedTopLevelDomains.none { url.host.endsWith(it) }) {
+            return false
+        }
+
+        if (declinedDomains.any{ url.host.contains(it) }) {
+            return false
+        }
+
+        if (url.host.endsWith("stackexchange.com") && alowedStackexchangeSubdomains.none { url.host.startsWith(it) }) {
+            return false
+        }
+
+        if (url.host.endsWith("wikipedia.org") && allowedWikipediaSubdomains.none { url.host.startsWith(it) }) {
+            return false
+        }
+
+        return true
+    }
+
+    private fun isInScopeOfResponsibility(url: URL) = url.host.hashCode() in allowedHashes
 }

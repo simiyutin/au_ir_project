@@ -23,6 +23,9 @@ data class CrawlerReportFrontierSize(val size: Int) : CrawlerResponse()
 data class CrawlerReportProcessed(val number: Int) : CrawlerResponse()
 
 class Crawler(pr: Pair<ActorRef, Int>) : AbstractActor() {
+    // а вот и я :)
+    private val project_dir = "/media/boris/Data/shared/au_3/ir/project_recrawl/"
+
     private val manager = pr.first
     val crawlerId = pr.second
     init {
@@ -128,10 +131,12 @@ class Crawler(pr: Pair<ActorRef, Int>) : AbstractActor() {
 
     private fun storeDocument(url: URL, text: String) {
         val doc = Jsoup.parse(text)
-        val body = doc.body()
-        val path = "crawled/"
+        val path = project_dir + "/crawled/"
         try {
-            PrintWriter(path + urlToFileName(url) + ".txt", "UTF-8").use { writer -> writer.print(body) }
+            PrintWriter(path + urlToFileName(url) + ".txt", "UTF-8").use { writer ->
+                writer.print(url.toExternalForm())
+                writer.print(doc)
+            }
         } catch (ex: Exception) {
             ex.printStackTrace()
         }

@@ -8,12 +8,11 @@ import java.net.URL
 
 
 fun main(args: Array<String>) {
-//    val startUrl = URL("https://stackoverflow.com")
-    val startUrl = URL("https://habrahabr.ru/")
-
+    val startUrl = URL("https://en.wikipedia.org/wiki/Python_(programming_language)")
     val system = ActorSystem.create("crawler")
 
     try {
+
         val manager = system.actorOf(Props.create(Manager::class.java), "managerActor")
         (1..10).forEach { system.actorOf(Props.create(Crawler::class.java, Pair(manager, it)), "crawlerActor$it") }
 
@@ -24,7 +23,9 @@ fun main(args: Array<String>) {
             Thread.sleep(10000)
             manager.tell(ManagerPrintTotalCrawled, ActorRef.noSender())
         }
+
     } catch (ioe: IOException) {
+        ioe.printStackTrace()
     } finally {
         system.terminate()
     }
