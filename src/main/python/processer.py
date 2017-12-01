@@ -50,6 +50,7 @@ def only_letters_and_digits(tested_string):
 stop = set(stopwords.words('english'))  # .union(stopwords.words('russian')) # хотим ли иметь дело с русским языком?
 ps = PorterStemmer()
 
+
 def process_text(text):
     translator = str.maketrans('', '', string.punctuation)
     nopunct = text.translate(translator)
@@ -76,6 +77,7 @@ def get_body(parsed_page, file_index):
         return []
     else:
         return [(file_index, "body", body.text)]
+
 
 def get_title(parsed_page):
     title = parsed_page.find('title')
@@ -113,7 +115,7 @@ def process_chunk(chunk, file_name_shift, process_id):
             title, entries = parse_html(file_index, lines)
             processed_entries = [language_process(entry) for entry in entries]
             output_name = processed_dir + '{}.txt'.format(file_index)
-            metadata.append((title, link))
+            metadata.append((title, link, pagefile))
             with open(output_name, 'w') as pr:
                 json.dump(processed_entries, pr)
 

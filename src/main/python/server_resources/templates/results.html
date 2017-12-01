@@ -1,7 +1,7 @@
 {% macro show_node(node) %}
     <a href="{{ node['link'] }}"> {{ node['title'] }} </a>
     <span> from {{ node['link'].split("//")[-1].split("/")[0] }} </span>
-    <div> {{ node['snippet'] }} </div>
+    <div> {{ node['snippet'] | safe }} </div>
 {% endmacro %}
 
 {% if 'sovf_best' in results %}

@@ -24,6 +24,7 @@ div.querybox > button {
     padding: 13px;
     border-style: solid;
     border-color: white;
+    word-wrap: break-word;
 }
 
 .result-row.sovf-best {
