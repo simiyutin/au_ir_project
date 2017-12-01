@@ -50,7 +50,6 @@ def only_letters_and_digits(tested_string):
 stop = set(stopwords.words('english'))  # .union(stopwords.words('russian')) # хотим ли иметь дело с русским языком?
 ps = PorterStemmer()
 
-
 def process_text(text):
     translator = str.maketrans('', '', string.punctuation)
     nopunct = text.translate(translator)
@@ -102,16 +101,16 @@ def process_chunk(chunk, file_name_shift, process_id):
     links = []
     for pagefile in chunk:
         with open(crawled_dir + pagefile, 'r') as page:
+            file_index = processed + file_name_shift
             lines = page.readlines()
-        link = lines[0]
-        lines = "\n".join(lines[1:])
-        file_index = processed + file_name_shift
-        entries = file_to_entries(file_index, lines)
-        processed_entries = [language_process(entry) for entry in entries]
-        output_name = processed_dir + '{}.txt'.format(file_index)
-        links.append(link)
-        with open(output_name, 'w') as pr:
-            json.dump(processed_entries, pr)
+            link = lines[0]
+            lines = "\n".join(lines[1:])
+            entries = file_to_entries(file_index, lines)
+            processed_entries = [language_process(entry) for entry in entries]
+            output_name = processed_dir + '{}.txt'.format(file_index)
+            links.append(link)
+            with open(output_name, 'w') as pr:
+                json.dump(processed_entries, pr)
 
         processed += 1
         if processed % 100 == 0:

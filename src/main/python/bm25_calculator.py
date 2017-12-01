@@ -80,7 +80,7 @@ def load_file_len_data(n_documents):
 
     return file_len_dict, avg_file_len
 
-# todo можно эффективно распараллелить
+
 if __name__ == '__main__':
 
     start_time = datetime.datetime.now()
