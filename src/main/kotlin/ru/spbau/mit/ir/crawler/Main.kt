@@ -8,7 +8,14 @@ import java.net.URL
 
 
 fun main(args: Array<String>) {
-    val startUrl = URL("https://en.wikipedia.org/wiki/Python_(programming_language)")
+//    val startUrl = URL("https://en.wikipedia.org/wiki/Python_(programming_language)")
+//    val startUrl = URL("https://en.wikipedia.org/wiki/Java_(programming_language)")
+//    val startUrl = URL("https://en.wikipedia.org/wiki/C%2B%2B")
+//    val startUrl = URL("https://en.wikipedia.org/wiki/Haskell_(programming_language)")
+//    val startUrl = URL("https://stackoverflow.com/questions/3437059/does-python-have-a-string-contains-substring-method")
+    val startUrl = URL("https://en.wikipedia.org/wiki/Binary_Search")
+
+
     val system = ActorSystem.create("crawler")
 
     try {

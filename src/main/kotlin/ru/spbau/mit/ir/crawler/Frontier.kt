@@ -4,6 +4,10 @@ import java.net.MalformedURLException
 import java.net.URL
 import java.util.*
 
+//todo: очередь с приоритетами сайтов. в каждом сайте храним время поседнего посещения и очередь его ссылок
+//todo: при взятии новой ссылки, берем самый давний сайт, ждем остаток таймаута, если он есть, берем ссылку из него,
+//todo: обновляем время последнего посещения, возвращаем в очередь
+
 class Frontier {
 
     private val allowedHashes = HashSet<Int>()
@@ -14,7 +18,7 @@ class Frontier {
     val done get() = queue.isEmpty()
     val size get() = queue.size
 
-    private val maxTotalProcessed = 50000
+    private val maxTotalProcessed = 5000
 
     // region restrictions
     private val alowedStackexchangeSubdomains = listOf(
@@ -57,7 +61,12 @@ class Frontier {
             "youtube.com"
     )
 
-    private val allowedWikipediaSubdomains = listOf(
+    private val wikiSites = listOf(
+            "wikipedia.org",
+            "wikibooks.org"
+    )
+
+    private val allowedWikiSubdomains = listOf(
             "en"
     )
 
@@ -78,17 +87,23 @@ class Frontier {
     }
 
     fun addUrlIfCanHandle(url: URL): Boolean {
+        //todo отправлять манагеру сообщение удалить себя из списка
         if (queue.size + visited.size > maxTotalProcessed) return false
 
         if (!goodSite(url)) return false
 
         if (!isInScopeOfResponsibility(url)) return false
 
-        if (visited.add(url.toExternalForm())) {
-            queue.add(url.toExternalForm())
+        val processedString = cutOffRequests(url.toExternalForm())
+        if (visited.add(processedString)) {
+            queue.add(processedString)
         }
 
         return true
+    }
+
+    fun alreadyVisited(url: URL): Boolean {
+        return visited.contains(cutOffRequests(url.toExternalForm()))
     }
 
     fun addUrlWithNewHash(urls: List<URL>) {
@@ -96,7 +111,7 @@ class Frontier {
         urls.forEach { addUrlIfCanHandle(it) }
     }
 
-    private fun goodSite(url: URL): Boolean {
+    fun goodSite(url: URL): Boolean {
 
         if (allowedTopLevelDomains.none { url.host.endsWith(it) }) {
             return false
@@ -110,7 +125,7 @@ class Frontier {
             return false
         }
 
-        if (url.host.endsWith("wikipedia.org") && allowedWikipediaSubdomains.none { url.host.startsWith(it) }) {
+        if (wikiSites.any { url.host.endsWith(it) } && allowedWikiSubdomains.none { url.host.startsWith(it) }) {
             return false
         }
 
@@ -118,4 +133,8 @@ class Frontier {
     }
 
     private fun isInScopeOfResponsibility(url: URL) = url.host.hashCode() in allowedHashes
+
+    fun cutOffRequests(url: String) : String {
+        return url.split('#')[0].split('?')[0]
+    }
 }

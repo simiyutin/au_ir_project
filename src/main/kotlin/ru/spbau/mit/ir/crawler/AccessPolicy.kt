@@ -15,7 +15,7 @@ class AccessPolicy(val userAgent: String) {
 
     private val robotsTxtMap: MutableMap<String, RobotsTxt> = HashMap()
     private val lastVisitTimes: MutableMap<String, Long> = HashMap()
-    private val timeoutMillis: Long = 5000
+    private val timeoutMillis: Long = 1000
 
     private val invalidRobots = HashSet<String>()
 

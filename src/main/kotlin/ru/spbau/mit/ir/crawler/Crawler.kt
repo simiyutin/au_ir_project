@@ -49,6 +49,7 @@ class Crawler(pr: Pair<ActorRef, Int>) : AbstractActor() {
     private val accessPolicy = AccessPolicy(userAgent)
 
     private var processed: Int = 0
+    private var prevInfoTime: Long = 0
 
     private fun tryCrawlOnce(): Boolean {
         if (frontier.done) return false
@@ -70,19 +71,24 @@ class Crawler(pr: Pair<ActorRef, Int>) : AbstractActor() {
         val html = retrieveUrl(link) ?: return
 
         processed++
-        if (processed % 100 == 0) {
+        if (System.currentTimeMillis() - prevInfoTime > 1000 * 60) {
             println("crawler: $crawlerId, queue size:${frontier.size}, processed:$processed")
+            prevInfoTime = System.currentTimeMillis()
         }
+
         storeDocument(link, html)
 
         val unhandledUrls = parseUrls(html, link.toExternalForm()).mapNotNull { url ->
             val newLink =
                     try {
-                        URL(url)
+                        URL(frontier.cutOffRequests(url))
                     } catch (e: MalformedURLException) {
                         null
                     }
-            if (newLink == null || frontier.addUrlIfCanHandle(newLink)) null
+            if (newLink == null) null
+            else if (!frontier.goodSite(newLink)) null
+            else if (frontier.alreadyVisited(newLink)) null
+            else if (frontier.addUrlIfCanHandle(newLink)) null
             else newLink
         }
 
@@ -134,8 +140,8 @@ class Crawler(pr: Pair<ActorRef, Int>) : AbstractActor() {
         val path = project_dir + "/crawled/"
         try {
             PrintWriter(path + urlToFileName(url) + ".txt", "UTF-8").use { writer ->
-                writer.print(url.toExternalForm())
-                writer.print(doc)
+                writer.println(url.toExternalForm())
+                writer.println(doc)
             }
         } catch (ex: Exception) {
             ex.printStackTrace()
@@ -143,7 +149,9 @@ class Crawler(pr: Pair<ActorRef, Int>) : AbstractActor() {
     }
 
     // to prevent FileTooLong exception
-    private fun urlToFileName(url: URL) = "${url.toExternalForm().take(80).replace('/', '_')}_${url.toExternalForm().hashCode()}"
+    private fun urlToFileName(url: URL): String {
+        return "${url.toExternalForm().take(80).replace('/', '_')}_${url.toExternalForm().hashCode()}"
+    }
 
     private fun parseUrls(text: String, url: String): List<String> {
         val doc = Jsoup.parse(text, url)
