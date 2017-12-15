@@ -54,11 +54,12 @@ if __name__ == '__main__':
     for ind, filename in enumerate(all_files):
         with open(preprocessed_dir + filename, 'r') as file:
             entries = json.load(file)
-        file_index = int(entries[0][0])
-        file_len_map[file_index] = get_file_len(entries)
-        entries = map(count_words, entries)
-        entries = flatten(entries)
-        add_to_index(index, entries)
+        if len(entries) > 0:
+            file_index = int(entries[0][0])
+            file_len_map[file_index] = get_file_len(entries)
+            entries = map(count_words, entries)
+            entries = flatten(entries)
+            add_to_index(index, entries)
 
         processed += 1
         if processed % 100 == 0:

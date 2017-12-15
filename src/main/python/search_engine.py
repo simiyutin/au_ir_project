@@ -4,7 +4,6 @@ from project_dir import project_dir
 import os, glob, json
 from processer import process_text
 from search_results_factory import node, node_sovf, search_results
-from bs4 import BeautifulSoup
 
 
 def concat_chunks(acceptor, donor):
@@ -40,12 +39,9 @@ def get_best_snippet(words, processed_query, snippet_word_len):
     return ' '.join(best_snippet)
 
 
-def get_snippet(file_path, processed_query, snippet_word_len):
-    with open(file_path, 'r') as original_file:
-        html = ''.join(original_file.readlines()[1:])  # skip link
-    parsed_page = BeautifulSoup(html, "lxml")  # todo перенести эту часть в препроцессер
-    body = parsed_page.find('body')
-    body_text = body.text if body is not None else ""
+def get_snippet(doc_index, processed_query, snippet_word_len):
+    with open(project_dir + 'plain_text_unprocessed/' + '{}.txt'.format(doc_index), 'r') as original_file:
+        body_text = ' '.join(original_file.readlines())
     body_text = body_text.replace('\n', ' ').split(' ')
     snippet = get_best_snippet(body_text, processed_query, snippet_word_len)
     return snippet
@@ -56,7 +52,7 @@ def map_to_result_node(index_files_map, p, query):
     title, link, original_name = index_files_map[doc_index]
     if title == "":
         title = link
-    snippet = get_snippet(project_dir + '/crawled/' + original_name, query, 50)
+    snippet = get_snippet(doc_index, query, 50)
     return node(title, link, snippet)
 
 
@@ -75,6 +71,16 @@ class SearchEngine:
 
         print('ready to take queries')
 
+    def get_unique_documents(self, documents):
+        used_titles = set()
+        result = []
+        for doc_id, score in documents:
+            title = self.index_files_map[doc_id][0]
+            if title not in used_titles:
+                used_titles.add(title)
+                result.append((doc_id, score))
+        return result
+
     def ask(self, query):
         processed_query = process_text(query)
         ranked_documents = dict()
@@ -85,6 +91,7 @@ class SearchEngine:
                 ranked_documents[doc] = prev_score + doc_score
 
         ranked_documents_list = ranked_documents.items()
+        ranked_documents_list = self.get_unique_documents(ranked_documents_list)
         ranked_documents_list = sorted(ranked_documents_list, key=lambda it: it[1], reverse=True)
 
         def map_to_node_function(p):
@@ -94,14 +101,17 @@ class SearchEngine:
         ranked_documents_list = list(map(map_to_node_function, ranked_documents_list))
 
         # stack overflow result sample
-        sovf_best = node_sovf(
-            title='Does Python have a string \'contains\' substring method?',
-            link='https://stackoverflow.com/questions/3437059/does-python-have-a-string-contains-substring-method',
-            question='I\'m looking for a string.contains or string.indexof method in Python. I want to do: if not '
-                     'somestring.contains("blah"): continue',
-            answer='You can use the in operator: if "blah" not in somestring: continue',
-            tags=['python', 'string', 'substring', 'contains']
-        )
+        if query == 'python contains':
+            sovf_best = node_sovf(
+                title='Does Python have a string \'contains\' substring method?',
+                link='https://stackoverflow.com/questions/3437059/does-python-have-a-string-contains-substring-method',
+                question='I\'m looking for a string.contains or string.indexof method in Python. I want to do: if not '
+                         'somestring.contains("blah"): continue',
+                answer='You can use the in operator: if "blah" not in somestring: continue',
+                tags=['python', 'string', 'substring', 'contains']
+            )
+        else:
+            sovf_best = None
 
         results = search_results(ranked_documents_list, sovf_best)
         return results
