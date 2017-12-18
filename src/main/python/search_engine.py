@@ -97,7 +97,7 @@ class SearchEngine:
         def map_to_node_function(p):
             return map_to_result_node(self.index_files_map, p, processed_query)
 
-        ranked_documents_list = ranked_documents_list[:20]
+        ranked_documents_list = ranked_documents_list[:10]
         ranked_documents_list = list(map(map_to_node_function, ranked_documents_list))
 
         # stack overflow result sample
