@@ -1,12 +1,12 @@
 {% macro show_node(node) %}
-    <a href="{{ node['link'] }}"> {{ node['title'] }} </a>
+    <a href="{{ node['link'] }}" target="_blank"> {{ node['title'] }} </a>
     <span> from {{ node['link'].split("//")[-1].split("/")[0] }} </span>
     <div> {{ node['snippet'] | safe }} </div>
 {% endmacro %}
 
 {% macro show_sovf_node(node) %}
     <div><b>Best answer came from StackOverflow.com:</b></div>
-    <div><a href="{{ node['link'] }}"> {{ node['title'] }} </a></div>
+    <div><a href="{{ node['link'] }}" target="_blank"> {{ node['title'] }} </a></div>
     <div><b>Full question:</b></div>
     <div> {{ node['question'] | safe }} </div>
     <div><b>Full answer:</b></div>
