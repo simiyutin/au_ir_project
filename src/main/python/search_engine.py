@@ -40,7 +40,7 @@ def get_best_snippet(words, processed_query, snippet_word_len):
 
 
 def get_snippet(doc_index, processed_query, snippet_word_len):
-    with open(project_dir + 'plain_text_unprocessed/' + '{}.txt'.format(doc_index), 'r') as original_file:
+    with open(project_dir + 'plain_text_unprocessed/' + '{}.txt'.format(doc_index), 'r', encoding='utf-8') as original_file:
         body_text = ' '.join(original_file.readlines())
     body_text = body_text.replace('\n', ' ').split(' ')
     snippet = get_best_snippet(body_text, processed_query, snippet_word_len)
@@ -62,11 +62,11 @@ class SearchEngine:
         self.index = dict()
         for ind, filepath in enumerate(all_chunks):
             print('processing {} / {} chunk..'.format(ind + 1, len(all_chunks)))
-            with open(filepath, 'r') as file:
+            with open(filepath, 'r', encoding='utf-8') as file:
                 chunk = json.load(file)
             concat_chunks(self.index, chunk)
 
-        with open(project_dir + 'indexFilesMap.txt') as fp:
+        with open(project_dir + 'indexFilesMap.txt', encoding='utf-8') as fp:
             self.index_files_map = json.load(fp)
 
         print('ready to take queries')

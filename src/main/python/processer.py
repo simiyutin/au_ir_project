@@ -139,7 +139,7 @@ def process_chunk(chunk, file_name_shift, process_id):
     processed = 0
     metadata = []
     for pagefile in chunk:
-        with open(crawled_dir + pagefile, 'r') as page:
+        with open(crawled_dir + pagefile, 'r', encoding='utf-8') as page:
             file_index = processed + file_name_shift
             lines = page.readlines()
             link = lines[0]
@@ -148,10 +148,10 @@ def process_chunk(chunk, file_name_shift, process_id):
             processed_entries = [language_process(entry) for entry in entries]
             output_name = processed_dir + '{}.txt'.format(file_index)
             metadata.append((title, link, pagefile))
-            with open(output_name, 'w') as pr:
+            with open(output_name, 'w', encoding='utf-8') as pr:
                 json.dump(processed_entries, pr)
             output_plain_text_name = plain_files_dir + '{}.txt'.format(file_index)
-            with open(output_plain_text_name, 'w') as pr:
+            with open(output_plain_text_name, 'w', encoding='utf-8') as pr:
                 pr.write(plain_text_page)
 
         processed += 1
@@ -209,7 +209,7 @@ if __name__ == '__main__':
             filesMap[shifts[process_id] + ind] = link_title
 
     print('saving file names map..')
-    with open(project_dir + "indexFilesMap.txt", 'w+') as of:
+    with open(project_dir + "indexFilesMap.txt", 'w+', encoding='utf-8') as of:
         json.dump(filesMap, of)
 
     end_time = datetime.datetime.now()

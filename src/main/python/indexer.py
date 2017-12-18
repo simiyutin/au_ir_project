@@ -52,7 +52,7 @@ if __name__ == '__main__':
     print('total files: {}'.format(total))
     processed = 0
     for ind, filename in enumerate(all_files):
-        with open(preprocessed_dir + filename, 'r') as file:
+        with open(preprocessed_dir + filename, 'r', encoding='utf-8') as file:
             entries = json.load(file)
         if len(entries) > 0:
             file_index = int(entries[0][0])
@@ -67,11 +67,11 @@ if __name__ == '__main__':
 
         if processed % chunk_size == 0 or ind == total - 1:
             print('saving chunk..')
-            with open(index_file_template.format((processed - 1) // chunk_size), 'w') as fp:
+            with open(index_file_template.format((processed - 1) // chunk_size), 'w', encoding='utf-8') as fp:
                 json.dump(index, fp)
             index = dict()
 
-    with open(file_len_map_path, 'w') as fp:
+    with open(file_len_map_path, 'w', encoding='utf-8') as fp:
         json.dump(file_len_map, fp)
 
     end_time = datetime.datetime.now()

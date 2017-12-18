@@ -58,7 +58,7 @@ def load_chunks():
     index_chunks = []
     all_chunks = glob.glob(project_dir + "indexChunk*.txt")
     for filepath in all_chunks:
-        with open(filepath, 'r') as file:
+        with open(filepath, 'r', encoding='utf-8') as file:
             index_chunks.append(json.load(file))
     return index_chunks
 
@@ -69,7 +69,7 @@ def get_number_of_elements():
 
 def load_file_len_data(n_documents):
     file_len_map_path = project_dir + 'fileLenMap.txt'
-    with open(file_len_map_path, 'r') as fp:
+    with open(file_len_map_path, 'r', encoding='utf-8') as fp:
         file_len_dict = json.load(fp)
 
     avg_file_len = 0
@@ -98,7 +98,7 @@ if __name__ == '__main__':
         bm25_index_chunk = calculate_bm_25_for_index(merged_index_chunk, file_len_map, number_of_documents,
                                                      average_file_len, k1=1.2, b=0.75)
 
-        with open(bm25_index_file_template.format(ind), 'w') as fp:
+        with open(bm25_index_file_template.format(ind), 'w', encoding='utf-8') as fp:
             json.dump(bm25_index_chunk, fp)
 
     end_time = datetime.datetime.now()

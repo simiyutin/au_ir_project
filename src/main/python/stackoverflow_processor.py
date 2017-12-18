@@ -76,7 +76,7 @@ def process_chunk(chunk, file_name_shift, process_id):
 
         results.append((id, score))
 
-        with open(output_name, 'w') as pr:
+        with open(output_name, 'w', encoding='utf-8') as pr:
             json.dump(processed_entries, pr)
 
         processed += 1
@@ -138,11 +138,11 @@ def process_data(data):
             scores_map[shifts[process_id] + ind] = int(score)
 
     print('saving ids map..')
-    with open(project_dir + "indexPostsMap.txt", 'w+') as of:
+    with open(project_dir + "indexPostsMap.txt", 'w+', encoding='utf-8') as of:
         json.dump(ids_map, of)
 
     print('saving score map..')
-    with open(project_dir + "scorePostsMap.txt", 'w+') as of:
+    with open(project_dir + "scorePostsMap.txt", 'w+', encoding='utf-8') as of:
         json.dump(scores_map, of)
 
 
